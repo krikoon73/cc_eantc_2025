@@ -16,9 +16,9 @@ Internal build ID: 6aa1c3ff-36f3-4f04-af26-9fc35d05e1eb
 Image format version: 3.0
 Image optimization: Default
 
-Uptime: 18 minutes
+Uptime: 1 hour and 1 minute
 Total memory: 8099732 kB
-Free memory: 5218248 kB
+Free memory: 5174352 kB
 
 ```
 
@@ -79,7 +79,7 @@ Ma1               connected    routed   a-full a-1G   10/100/1000
 ## show lldp neighbors
 
 ```text
-Last table change time   : 0:02:00 ago
+Last table change time   : 0:09:52 ago
 Number of table inserts  : 6
 Number of table deletes  : 0
 Number of table drops    : 0
