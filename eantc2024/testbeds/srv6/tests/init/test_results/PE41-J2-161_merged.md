@@ -16,9 +16,9 @@ Internal build ID: 6aa1c3ff-36f3-4f04-af26-9fc35d05e1eb
 Image format version: 3.0
 Image optimization: Default
 
-Uptime: 1 hour and 1 minute
+Uptime: 1 hour and 25 minutes
 Total memory: 8099732 kB
-Free memory: 5174352 kB
+Free memory: 5195124 kB
 
 ```
 
@@ -79,9 +79,9 @@ Ma1               connected    routed   a-full a-1G   10/100/1000
 ## show lldp neighbors
 
 ```text
-Last table change time   : 0:09:52 ago
-Number of table inserts  : 6
-Number of table deletes  : 0
+Last table change time   : 0:06:22 ago
+Number of table inserts  : 7
+Number of table deletes  : 1
 Number of table drops    : 0
 Number of table age-outs : 0
 
@@ -89,7 +89,7 @@ Port          Neighbor Device ID               Neighbor Port ID    TTL
 ---------- -------------------------------- ---------------------- ---
 Et5           Harness3-J-175.ns.eantc.de       Ethernet3           120
 Et10          h44-N57B1                        TenGigE0/0/0/0/0    120
-Et20          IXRE2                            1610899777          121
+Et20          Nokia-59-IXRe2                   1610899777          121
 Et39          PE42-J2-162.ns.eantc.de          Ethernet39          120
 Et40          PE42-J2-162.ns.eantc.de          Ethernet40          120
 Ma1           extreme-x460-1                   42                  120
