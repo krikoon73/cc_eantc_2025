@@ -9,16 +9,16 @@ Serial number: JPA2339P1QH
 Hardware MAC address: 606b.5b2e.f3fd
 System MAC address: 606b.5b2e.f3fd
 
-Software image version: 4.31.2F
-Architecture: i686
-Internal build version: 4.31.2F-35442146.4312F
-Internal build ID: 635a071a-386e-447f-942c-bcc34d9ffd3c
+Software image version: 4.31.0F-34472350.binoshmonsrv6ImgCDD43101 (engineering build)
+Architecture: x86_64
+Internal build version: 4.31.0F-34472350.binoshmonsrv6ImgCDD43101
+Internal build ID: 6aa1c3ff-36f3-4f04-af26-9fc35d05e1eb
 Image format version: 3.0
 Image optimization: Default
 
-Uptime: 3 hours and 24 minutes
+Uptime: 6 minutes
 Total memory: 8099732 kB
-Free memory: 5871480 kB
+Free memory: 5205292 kB
 
 ```
 
@@ -30,7 +30,7 @@ Et1               notconnect   1        full   25G    Not Present
 Et2               notconnect   1        full   25G    Not Present                    
 Et3               notconnect   1        full   25G    Not Present                    
 Et4               notconnect   1        full   25G    Not Present                    
-Et5               connected    1        full   10G    10GBASE-SRL                    
+Et5               notconnect   1        full   10G    10GBASE-SRL                    
 Et6               notconnect   1        full   25G    Not Present                    
 Et7               notconnect   1        full   25G    Not Present                    
 Et8               notconnect   1        full   25G    Not Present                    
@@ -79,20 +79,19 @@ Ma1               connected    routed   a-full a-1G   10/100/1000
 ## show lldp neighbors
 
 ```text
-Last table change time   : 0:06:45 ago
-Number of table inserts  : 10
-Number of table deletes  : 4
+Last table change time   : 0:01:59 ago
+Number of table inserts  : 5
+Number of table deletes  : 0
 Number of table drops    : 0
 Number of table age-outs : 0
 
-Port          Neighbor Device ID               Neighbor Port ID    TTL
----------- -------------------------------- ---------------------- ---
-Et5           Harness3-J-175.ns.eantc.de       Ethernet4           120
-Et10          JNPR-302-MX204                   564                 120
-Et20          h42-9902                         TenGigE0/0/0/12     120
-Et39          PE41-J2-161.ns.eantc.de          Ethernet39          120
-Et40          PE41-J2-161.ns.eantc.de          Ethernet40          120
-Ma1           extreme-x460-1                   22                  120
+Port          Neighbor Device ID            Neighbor Port ID    TTL
+---------- ----------------------------- ---------------------- ---
+Et10          JNPR-302-MX204                564                 120
+Et20          h42-9902                      TenGigE0/0/0/12     120
+Et39          PE41-J2-161.ns.eantc.de       Ethernet39          120
+Et40          PE41-J2-161.ns.eantc.de       Ethernet40          120
+Ma1           extreme-x460-1                22                  120
 
 ```
 

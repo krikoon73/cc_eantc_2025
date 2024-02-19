@@ -9,16 +9,16 @@ Serial number: JPA2339P1RL
 Hardware MAC address: 606b.5b2e.fe11
 System MAC address: 606b.5b2e.fe11
 
-Software image version: 4.31.2F
-Architecture: i686
-Internal build version: 4.31.2F-35442146.4312F
-Internal build ID: 635a071a-386e-447f-942c-bcc34d9ffd3c
+Software image version: 4.31.0F-34472350.binoshmonsrv6ImgCDD43101 (engineering build)
+Architecture: x86_64
+Internal build version: 4.31.0F-34472350.binoshmonsrv6ImgCDD43101
+Internal build ID: 6aa1c3ff-36f3-4f04-af26-9fc35d05e1eb
 Image format version: 3.0
 Image optimization: Default
 
-Uptime: 3 hours and 30 minutes
+Uptime: 18 minutes
 Total memory: 8099732 kB
-Free memory: 5872984 kB
+Free memory: 5218248 kB
 
 ```
 
@@ -79,9 +79,9 @@ Ma1               connected    routed   a-full a-1G   10/100/1000
 ## show lldp neighbors
 
 ```text
-Last table change time   : 0:32:38 ago
-Number of table inserts  : 9
-Number of table deletes  : 3
+Last table change time   : 0:02:00 ago
+Number of table inserts  : 6
+Number of table deletes  : 0
 Number of table drops    : 0
 Number of table age-outs : 0
 

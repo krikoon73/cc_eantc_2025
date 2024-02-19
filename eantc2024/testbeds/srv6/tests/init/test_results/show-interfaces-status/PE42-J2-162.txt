@@ -3,7 +3,7 @@ Et1               notconnect   1        full   25G    Not Present
 Et2               notconnect   1        full   25G    Not Present                    
 Et3               notconnect   1        full   25G    Not Present                    
 Et4               notconnect   1        full   25G    Not Present                    
-Et5               connected    1        full   10G    10GBASE-SRL                    
+Et5               notconnect   1        full   10G    10GBASE-SRL                    
 Et6               notconnect   1        full   25G    Not Present                    
 Et7               notconnect   1        full   25G    Not Present                    
 Et8               notconnect   1        full   25G    Not Present                    
