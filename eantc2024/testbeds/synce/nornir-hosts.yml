@@ -1,0 +1,7 @@
+---
+PE51-J2-151:
+  groups: [SNAPSHOT]
+  hostname: 192.168.20.151
+PE52-J2-152:
+  groups: [SNAPSHOT]
+  hostname: 192.168.20.152

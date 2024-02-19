@@ -1,16 +1,19 @@
 ---
-Spine1-J-2:
+Spine1-J-200:
   groups: [SNAPSHOT]
-  hostname: 192.168.0.11
-Leaf11-T3-3:
+  hostname: 192.168.20.200
+PE11-JP-201:
   groups: [SNAPSHOT]
-  hostname: 192.168.0.21
-Leaf12-T3-4:
+  hostname: 192.168.20.201
+PE12-JP-202:
   groups: [SNAPSHOT]
-  hostname: 192.168.0.22
-Leaf21-Jp-5:
+  hostname: 192.168.20.202
+PE13-T3-203:
   groups: [SNAPSHOT]
-  hostname: 192.168.0.23
-Leaf22-Jp-6:
+  hostname: 192.168.20.203
+PE14-T3-204:
   groups: [SNAPSHOT]
-  hostname: 192.168.0.24
+  hostname: 192.168.20.204
+Harness1-J-205:
+  groups: [SNAPSHOT]
+  hostname: 192.168.20.205
