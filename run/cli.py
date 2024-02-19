@@ -89,8 +89,8 @@ def interpreter():
         help='The EANTC year. Optional, default is 2024. This will be used to find tests parent directory.'
     )
     parser.add_argument(
-        '-i', '--inventory', choices=['evpn-vxlan', 'evpn-mpls', 'sr-mpls'], required=True,
-        help='EANTC test inventory: [ evpn-vxlan, evpn-mpls, sr-mpls ]. Required!'
+        '-i', '--inventory', choices=['evpn-vxlan', 'evpn-mpls', 'sr-mpls', 'srv6'], required=True,
+        help='EANTC test inventory: [ evpn-vxlan, evpn-mpls, sr-mpls, srv6 ]. Required!'
     )
     parser.add_argument(
         '-t', '--task', default='',
