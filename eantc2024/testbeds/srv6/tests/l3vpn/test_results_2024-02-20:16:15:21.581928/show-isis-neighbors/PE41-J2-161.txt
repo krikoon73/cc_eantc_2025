@@ -1,0 +1,4 @@
+ 
+Instance  VRF      System Id        Type Interface          SNPA              State Hold time   Circuit Id          
+srv6      default  Cisco342-9902    L2   Ethernet10         P2P               UP    24          00                  
+srv6      default  Nokia-59-IXRe2   L2   Ethernet20         P2P               UP    18          00                  
