@@ -16,9 +16,9 @@ Internal build ID: 6aa1c3ff-36f3-4f04-af26-9fc35d05e1eb
 Image format version: 3.0
 Image optimization: Default
 
-Uptime: 1 hour and 33 minutes
+Uptime: 1 hour and 43 minutes
 Total memory: 8099732 kB
-Free memory: 5005512 kB
+Free memory: 4998160 kB
 
 ```
 
@@ -36,7 +36,7 @@ Et7               notconnect   1        full   25G    Not Present
 Et8               notconnect   1        full   25G    Not Present                    
 Et9               notconnect   1        full   25G    Not Present                    
 Et10              connected    routed   full   10G    10GBASE-SR                     
-Et11              connected    1        full   10G    10GBASE-LR                     
+Et11              connected    trunk    full   10G    10GBASE-LR                     
 Et12              notconnect   1        full   25G    Not Present                    
 Et13              notconnect   1        full   25G    Not Present                    
 Et14              notconnect   1        full   25G    Not Present                    
@@ -79,7 +79,7 @@ Ma1               connected    routed   a-full a-1G   10/100/1000
 ## show lldp neighbors
 
 ```text
-Last table change time   : 0:38:18 ago
+Last table change time   : 0:48:05 ago
 Number of table inserts  : 9
 Number of table deletes  : 2
 Number of table drops    : 0
@@ -102,8 +102,8 @@ Ma1           extreme-x460-1                   42                  120
 ```text
  
 Instance  VRF      System Id        Type Interface          SNPA              State Hold time   Circuit Id          
-srv6      default  Cisco342-9902    L2   Ethernet10         P2P               UP    24          00                  
-srv6      default  Nokia-59-IXRe2   L2   Ethernet20         P2P               UP    23          00                  
+srv6      default  Cisco342-9902    L2   Ethernet10         P2P               UP    29          00                  
+srv6      default  Nokia-59-IXRe2   L2   Ethernet20         P2P               UP    21          00                  
 ```
 
 ## show segment-routing ipv6 locator
@@ -145,10 +145,12 @@ SRv6 SID function allocators for VRF default
 Allocator micro-SID::SRv6-uSID-161
 Function length: 16
 Locator users: uSID-LOC-161
-Start   End  Size Usage     
------ ----- ----- ----------
-    1  1023  1023 static    
- 1024 65535 64512 unassigned
+Start   End  Size Usage        
+----- ----- ----- -------------
+    1  1023  1023 static       
+ 1024  5119  4096 bgp (dynamic)
+ 5120  9215  4096 bgp (dynamic)
+ 9216 65535 56320 unassigned   
 
 ```
 
@@ -165,6 +167,10 @@ Source Codes: B3 - BGP L3 VPN, S - Static
 End Behaviors: End - Endpoint
                End.DT4 (6) - Endpoint with decapsulation and specific IPv4 (6) table lookup
 
+B3  fcbb:0:0:a1:400::/80, End.DT4 with NEXT-CSID, locator uSID-LOC-161
+    via IPv4 lookup, VRF VPNv4-uSID
+B3  fcbb:0:0:a1:401::/80, End.DT6 with NEXT-CSID, locator uSID-LOC-161
+    via IPv6 lookup, VRF VPNv4-uSID
 ```
 
 ## show bgp evpn summary
@@ -174,7 +180,7 @@ BGP summary information for VRF default
 Router identifier 100.0.0.161, local AS number 1
 Neighbor Status Codes: m - Under maintenance
   Neighbor  V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
-  2002::353 4 1                  3         7    0    0 01:25:20 Active
+  2002::353 4 1                  0         0    0    0 00:07:25 Active
 ```
 
 ## show bgp evpn route-type ip-prefix ipv4 detail

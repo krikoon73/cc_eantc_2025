@@ -16,9 +16,9 @@ Internal build ID: 6aa1c3ff-36f3-4f04-af26-9fc35d05e1eb
 Image format version: 3.0
 Image optimization: Default
 
-Uptime: 1 hour and 15 minutes
+Uptime: 1 hour and 24 minutes
 Total memory: 8099732 kB
-Free memory: 5014212 kB
+Free memory: 5028452 kB
 
 ```
 
@@ -79,7 +79,7 @@ Ma1               connected    routed   a-full a-1G   10/100/1000
 ## show lldp neighbors
 
 ```text
-Last table change time   : 0:38:25 ago
+Last table change time   : 0:48:12 ago
 Number of table inserts  : 6
 Number of table deletes  : 0
 Number of table drops    : 0
@@ -101,8 +101,8 @@ Ma1           extreme-x460-1                22                  120
 ```text
  
 Instance  VRF      System Id        Type Interface          SNPA              State Hold time   Circuit Id          
-srv6      default  JNPR-302-MX204   L1   Ethernet10         P2P               UP    23          01                  
-srv6      default  Cisco344-N57B1   L1   Ethernet20         P2P               UP    25          00                  
+srv6      default  JNPR-302-MX204   L1   Ethernet10         P2P               UP    20          01                  
+srv6      default  Cisco344-N57B1   L1   Ethernet20         P2P               UP    29          00                  
 ```
 
 ## show segment-routing ipv6 locator
@@ -179,7 +179,7 @@ BGP summary information for VRF default
 Router identifier 100.0.0.162, local AS number 1
 Neighbor Status Codes: m - Under maintenance
   Neighbor  V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
-  2002::353 4 1                 41         8    0    0 00:02:22 Estab   0      0
+  2002::353 4 1                 94        21    0    0 00:12:09 Estab   0      0
 ```
 
 ## show bgp evpn route-type ip-prefix ipv4 detail
@@ -193,19 +193,19 @@ Router identifier 100.0.0.162, local AS number 1
 
 ```text
 
-Type 'SRv6 Transport', index 1, endpoint fcbb:0:1338::/48, forwarding None
-   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
-
-Type 'SRv6 Transport', index 2, endpoint fcbb:0:28::/48, forwarding None
-   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
-
-Type 'SRv6 Transport', index 3, endpoint fcbb:0:1029::/48, forwarding None
-   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
-
 Type 'SRv6 Transport', index 5, endpoint fcbb:0:1353::/48, forwarding None
    via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
 
 Type 'SRv6 Transport', index 6, endpoint fcbb:0:336::/48, forwarding None
+   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 9, endpoint fcbb:0:28::/48, forwarding None
+   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 11, endpoint fcbb:0:1029::/48, forwarding None
+   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 13, endpoint fcbb:0:1338::/48, forwarding None
    via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
 ```
 

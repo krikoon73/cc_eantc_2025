@@ -3,3 +3,7 @@ Source Codes: B3 - BGP L3 VPN, S - Static
 End Behaviors: End - Endpoint
                End.DT4 (6) - Endpoint with decapsulation and specific IPv4 (6) table lookup
 
+B3  fcbb:0:0:a1:400::/80, End.DT4 with NEXT-CSID, locator uSID-LOC-161
+    via IPv4 lookup, VRF VPNv4-uSID
+B3  fcbb:0:0:a1:401::/80, End.DT6 with NEXT-CSID, locator uSID-LOC-161
+    via IPv6 lookup, VRF VPNv4-uSID

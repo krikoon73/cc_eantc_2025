@@ -10,3 +10,4 @@ show segment-routing ipv6 route
 show bgp evpn summary
 show bgp evpn route-type ip-prefix ipv4 detail
 show tunnel fib
+show isis database detail
