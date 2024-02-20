@@ -1,0 +1,5 @@
+VRF default
+Source Codes: B3 - BGP L3 VPN, S - Static
+End Behaviors: End - Endpoint
+               End.DT4 (6) - Endpoint with decapsulation and specific IPv4 (6) table lookup
+

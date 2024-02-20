@@ -16,9 +16,9 @@ Internal build ID: 6aa1c3ff-36f3-4f04-af26-9fc35d05e1eb
 Image format version: 3.0
 Image optimization: Default
 
-Uptime: 16 hours and 59 minutes
+Uptime: 17 hours and 55 minutes
 Total memory: 8099732 kB
-Free memory: 5177820 kB
+Free memory: 5163904 kB
 
 ```
 
@@ -45,7 +45,7 @@ Et16              notconnect   1        full   25G    Not Present
 Et17              notconnect   1        full   25G    Not Present                    
 Et18              notconnect   1        full   25G    Not Present                    
 Et19              notconnect   1        full   25G    Not Present                    
-Et20              notconnect   routed   full   10G    10GBASE-SRL                    
+Et20              connected    routed   full   10G    10GBASE-SRL                    
 Et21              notconnect   1        full   25G    Not Present                    
 Et22              notconnect   1        full   25G    Not Present                    
 Et23              notconnect   1        full   25G    Not Present                    
@@ -79,9 +79,9 @@ Ma1               connected    routed   a-full a-1G   10/100/1000
 ## show lldp neighbors
 
 ```text
-Last table change time   : 0:16:18 ago
-Number of table inserts  : 10
-Number of table deletes  : 4
+Last table change time   : 0:28:21 ago
+Number of table inserts  : 12
+Number of table deletes  : 5
 Number of table drops    : 0
 Number of table age-outs : 0
 
@@ -90,6 +90,7 @@ Port          Neighbor Device ID               Neighbor Port ID    TTL
 Et5           Harness3-J-175.ns.eantc.de       Ethernet3           120
 Et10          h342-9902                        TenGigE0/0/0/12     120
 Et11          JNPR-398-QFX5120                 546                 120
+Et20          Nokia-59-IXRe2                   1610899777          121
 Et39          PE42-J2-162.ns.eantc.de          Ethernet39          120
 Et40          PE42-J2-162.ns.eantc.de          Ethernet40          120
 Ma1           extreme-x460-1                   42                  120
@@ -101,6 +102,90 @@ Ma1           extreme-x460-1                   42                  120
 ```text
  
 Instance  VRF      System Id        Type Interface          SNPA              State Hold time   Circuit Id          
-srv6      default  h342-9902        L2   Ethernet10         P2P               UP    27          00                  
+srv6      default  h342-9902        L2   Ethernet10         P2P               UP    24          00                  
+srv6      default  Nokia-59-IXRe2   L2   Ethernet20         P2P               UP    26          00                  
+```
+
+## show segment-routing ipv6 locator
+
+```text
+SRv6 configuration for VRF default
+Administrative status: enabled
+Operational status: enabled
+Encapsulation source address: 2002::161
+Number of configured locators: 1
+
+Locator node161
+State: active
+Type: classic
+Prefix: fcbb:0:161::/48
+IGP algorithm: SPF
+Block length: 32
+Function length: 16
+Function allocator: classic::node161
+SID function value pools: default
+```
+
+## show segment-routing ipv6 locator std
+
+```text
+SRv6 configuration for VRF default
+Administrative status: enabled
+Operational status: enabled
+Encapsulation source address: 2002::161
+Number of configured locators: 1
+```
+
+## show segment-routing ipv6 sid function allocators
+
+```text
+SRv6 SID function allocators for VRF default
+
+Allocator classic::node161
+Function length: 16
+Locator users: node161
+Start   End  Size Usage        
+----- ----- ----- -------------
+    1  1023  1023 static       
+ 1024  5119  4096 bgp (dynamic)
+ 5120 65535 60416 unassigned   
+
+```
+
+## show segment-routing ipv6 capabilities
+
+```text
+```
+
+## show segment-routing ipv6 route
+
+```text
+VRF default
+Source Codes: B3 - BGP L3 VPN, S - Static
+End Behaviors: End - Endpoint
+               End.DT4 (6) - Endpoint with decapsulation and specific IPv4 (6) table lookup
+
+```
+
+## show bgp evpn summary
+
+```text
+BGP summary information for VRF default
+Router identifier 100.0.0.161, local AS number 1
+Neighbor Status Codes: m - Under maintenance
+  Neighbor  V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
+  2002::353 4 1                 31        36    0    0 00:28:14 Estab   0      0
+```
+
+## show bgp evpn route-type ip-prefix ipv4 detail
+
+```text
+BGP routing table information for VRF default
+Router identifier 100.0.0.161, local AS number 1
+```
+
+## show tunnel fib
+
+```text
 ```
 

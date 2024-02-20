@@ -1,0 +1,10 @@
+SRv6 SID function allocators for VRF default
+
+Allocator classic::node162
+Function length: 16
+Locator users: node162
+Start   End  Size Usage     
+----- ----- ----- ----------
+    1  1023  1023 static    
+ 1024 65535 64512 unassigned
+

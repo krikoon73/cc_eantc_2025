@@ -16,9 +16,9 @@ Internal build ID: 6aa1c3ff-36f3-4f04-af26-9fc35d05e1eb
 Image format version: 3.0
 Image optimization: Default
 
-Uptime: 16 hours and 48 minutes
+Uptime: 17 hours and 43 minutes
 Total memory: 8099732 kB
-Free memory: 5180960 kB
+Free memory: 5169396 kB
 
 ```
 
@@ -79,7 +79,7 @@ Ma1               connected    routed   a-full a-1G   10/100/1000
 ## show lldp neighbors
 
 ```text
-Last table change time   : 0:19:09 ago
+Last table change time   : 1:14:29 ago
 Number of table inserts  : 7
 Number of table deletes  : 1
 Number of table drops    : 0
@@ -102,6 +102,88 @@ Ma1           extreme-x460-1                22                  120
  
 Instance  VRF      System Id        Type Interface          SNPA              State Hold time   Circuit Id          
 srv6      default  JNPR-302-MX204   L1   Ethernet10         P2P               UP    23          01                  
-srv6      default  h344-N57B1       L1   Ethernet20         P2P               UP    24          00                  
+srv6      default  h344-N57B1       L1   Ethernet20         P2P               UP    26          00                  
+```
+
+## show segment-routing ipv6 locator
+
+```text
+SRv6 configuration for VRF default
+Administrative status: enabled
+Operational status: enabled
+Encapsulation source address: 2002::162
+Number of configured locators: 1
+
+Locator node162
+State: active
+Type: classic
+Prefix: fcbb:0:162::/48
+IGP algorithm: SPF
+Block length: 32
+Function length: 16
+Function allocator: classic::node162
+SID function value pools: default
+```
+
+## show segment-routing ipv6 locator std
+
+```text
+SRv6 configuration for VRF default
+Administrative status: enabled
+Operational status: enabled
+Encapsulation source address: 2002::162
+Number of configured locators: 1
+```
+
+## show segment-routing ipv6 sid function allocators
+
+```text
+SRv6 SID function allocators for VRF default
+
+Allocator classic::node162
+Function length: 16
+Locator users: node162
+Start   End  Size Usage     
+----- ----- ----- ----------
+    1  1023  1023 static    
+ 1024 65535 64512 unassigned
+
+```
+
+## show segment-routing ipv6 capabilities
+
+```text
+```
+
+## show segment-routing ipv6 route
+
+```text
+VRF default
+Source Codes: B3 - BGP L3 VPN, S - Static
+End Behaviors: End - Endpoint
+               End.DT4 (6) - Endpoint with decapsulation and specific IPv4 (6) table lookup
+
+```
+
+## show bgp evpn summary
+
+```text
+BGP summary information for VRF default
+Router identifier 100.0.0.162, local AS number 1
+Neighbor Status Codes: m - Under maintenance
+  Neighbor  V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
+  2002::353 4 1                 39        45    0    0 00:36:57 Estab   0      0
+```
+
+## show bgp evpn route-type ip-prefix ipv4 detail
+
+```text
+BGP routing table information for VRF default
+Router identifier 100.0.0.162, local AS number 1
+```
+
+## show tunnel fib
+
+```text
 ```
 

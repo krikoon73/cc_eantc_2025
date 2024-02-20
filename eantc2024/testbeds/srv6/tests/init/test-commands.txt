@@ -2,3 +2,11 @@ show version
 show interfaces status
 show lldp neighbors
 show isis neighbors
+show segment-routing ipv6 locator
+show segment-routing ipv6 locator std
+show segment-routing ipv6 sid function allocators
+show segment-routing ipv6 capabilities
+show segment-routing ipv6 route
+show bgp evpn summary
+show bgp evpn route-type ip-prefix ipv4 detail
+show tunnel fib

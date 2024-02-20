@@ -1,0 +1,15 @@
+SRv6 configuration for VRF default
+Administrative status: enabled
+Operational status: enabled
+Encapsulation source address: 2002::161
+Number of configured locators: 1
+
+Locator node161
+State: active
+Type: classic
+Prefix: fcbb:0:161::/48
+IGP algorithm: SPF
+Block length: 32
+Function length: 16
+Function allocator: classic::node161
+SID function value pools: default
