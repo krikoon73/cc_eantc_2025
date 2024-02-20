@@ -8,9 +8,9 @@ Locator uSID-LOC-161
 State: active
 Type: micro-SID
 Micro-SID domain: SRv6-uSID-161
-Prefix: fcbb:0:0:a1::/64
+Prefix: fcbb:0:161::/48
 IGP algorithm: SPF
-Block length: 48
+Block length: 32
 Function length: 16
 Function allocator: micro-SID::SRv6-uSID-161
 SID function value pools: default

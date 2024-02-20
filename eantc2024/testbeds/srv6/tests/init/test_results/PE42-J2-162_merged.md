@@ -16,9 +16,9 @@ Internal build ID: 6aa1c3ff-36f3-4f04-af26-9fc35d05e1eb
 Image format version: 3.0
 Image optimization: Default
 
-Uptime: 1 hour and 26 minutes
+Uptime: 1 hour and 52 minutes
 Total memory: 8099732 kB
-Free memory: 5026348 kB
+Free memory: 5024824 kB
 
 ```
 
@@ -79,7 +79,7 @@ Ma1               connected    routed   a-full a-1G   10/100/1000
 ## show lldp neighbors
 
 ```text
-Last table change time   : 0:49:39 ago
+Last table change time   : 1:15:23 ago
 Number of table inserts  : 6
 Number of table deletes  : 0
 Number of table drops    : 0
@@ -101,8 +101,8 @@ Ma1           extreme-x460-1                22                  120
 ```text
  
 Instance  VRF      System Id        Type Interface          SNPA              State Hold time   Circuit Id          
-srv6      default  JNPR-302-MX204   L1   Ethernet10         P2P               UP    20          01                  
-srv6      default  Cisco344-N57B1   L1   Ethernet20         P2P               UP    29          00                  
+srv6      default  JNPR-302-MX204   L1   Ethernet10         P2P               UP    19          01                  
+srv6      default  Cisco344-N57B1   L1   Ethernet20         P2P               UP    25          00                  
 ```
 
 ## show segment-routing ipv6 locator
@@ -118,9 +118,9 @@ Locator uSID-LOC-162
 State: active
 Type: micro-SID
 Micro-SID domain: SRv6-uSID-162
-Prefix: fcbb:0:0:48a::/64
+Prefix: fcbb:0:1162::/48
 IGP algorithm: SPF
-Block length: 48
+Block length: 32
 Function length: 16
 Function allocator: micro-SID::SRv6-uSID-162
 SID function value pools: default
@@ -166,9 +166,9 @@ Source Codes: B3 - BGP L3 VPN, S - Static
 End Behaviors: End - Endpoint
                End.DT4 (6) - Endpoint with decapsulation and specific IPv4 (6) table lookup
 
-B3  fcbb:0:0:48a:400::/80, End.DT4 with NEXT-CSID, locator uSID-LOC-162
+B3  fcbb:0:1162:400::/64, End.DT4 with NEXT-CSID, locator uSID-LOC-162
     via IPv4 lookup, VRF VPNv4-uSID
-B3  fcbb:0:0:48a:401::/80, End.DT6 with NEXT-CSID, locator uSID-LOC-162
+B3  fcbb:0:1162:401::/64, End.DT6 with NEXT-CSID, locator uSID-LOC-162
     via IPv6 lookup, VRF VPNv4-uSID
 ```
 
@@ -179,7 +179,7 @@ BGP summary information for VRF default
 Router identifier 100.0.0.162, local AS number 1
 Neighbor Status Codes: m - Under maintenance
   Neighbor  V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
-  2002::353 4 1                108        23    0    0 00:13:36 Estab   0      0
+  2002::353 4 1                171        57    0    0 00:39:19 Estab   0      0
 ```
 
 ## show bgp evpn route-type ip-prefix ipv4 detail
@@ -197,16 +197,13 @@ Type 'SRv6 Transport', index 5, endpoint fcbb:0:1353::/48, forwarding None
    via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
 
 Type 'SRv6 Transport', index 6, endpoint fcbb:0:336::/48, forwarding None
-   via fe80::eaf:31ff:feca:1104, 'Ethernet20' SRv6, source 2002::162
+   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
 
 Type 'SRv6 Transport', index 9, endpoint fcbb:0:28::/48, forwarding None
    via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
 
 Type 'SRv6 Transport', index 11, endpoint fcbb:0:1029::/48, forwarding None
    via fe80::eaf:31ff:feca:1104, 'Ethernet20' SRv6, source 2002::162
-
-Type 'SRv6 Transport', index 14, endpoint fcbb:0:0:a1::/64, forwarding None
-   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
 
 Type 'SRv6 Transport', index 15, endpoint fcbb:0:1344::/48, forwarding None
    via fe80::eaf:31ff:feca:1104, 'Ethernet20' SRv6, source 2002::162
@@ -216,5 +213,42 @@ Type 'SRv6 Transport', index 17, endpoint fcbb:0:342::/48, forwarding None
 
 Type 'SRv6 Transport', index 18, endpoint fcbb:0:352::/48, forwarding None
    via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 23, endpoint fcbb:0:1199::/48, forwarding None
+   via fe80::eaf:31ff:feca:1104, 'Ethernet20' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 29, endpoint fcbb:0:161::/48, forwarding None
+   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 30, endpoint fcbb:0:338::/48, forwarding None
+   via fe80::eaf:31ff:feca:1104, 'Ethernet20' SRv6, source 2002::162
+```
+
+## sh bgp neighbors 2002::353 vpn-ipv4 advertised-routes detail
+
+```text
+BGP routing table information for VRF default
+Router identifier 100.0.0.162, local AS number 1
+BGP routing table entry for IPv4 prefix 20.162.225.0/24, Route Distinguisher: 1:1162
+ Paths: 1 available
+  Local
+    2002::162 from - (0.0.0.0)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, local, best, redistributed (Connected)
+      Extended Community: Route-Target-AS:1:20
+      Local SRv6 SID (VRF SID): fcbb:0:1162:400::/64, End.DT4 with NEXT-CSID
+```
+
+## sh bgp neighbors 2002::353 vpn-ipv6 advertised-routes detail
+
+```text
+BGP routing table information for VRF default
+Router identifier 100.0.0.162, local AS number 1
+BGP routing table entry for IPv6 prefix 2001:20:162:225::/64, Route Distinguisher: 1:1162
+ Paths: 1 available
+  Local
+    2002::162 from - (0.0.0.0)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, local, best, redistributed (Connected)
+      Extended Community: Route-Target-AS:1:20
+      Local SRv6 SID (VRF SID): fcbb:0:1162:401::/64, End.DT6 with NEXT-CSID
 ```
 
