@@ -187,10 +187,10 @@ Source Codes:
        CL - CBF Leaked Route
 
  B I      2001:20:28:225::/64 [200/0]
-           via fcbb:0:28::/48, SRv6 Transport tunnel index 22, SRv6 SID fcbb:0:28:e103::
+           via fcbb:0:28::/48, SRv6 Transport tunnel index 34, SRv6 SID fcbb:0:28:e103::
               via fe80::fa7a:41ff:fe18:8910, Ethernet10
  B I      2001:20:29:225::/64 [200/0]
-           via fcbb:0:1029::/48, SRv6 Transport tunnel index 21, SRv6 SID fcbb:0:1029:e103::
+           via fcbb:0:1029::/48, SRv6 Transport tunnel index 31, SRv6 SID fcbb:0:1029:e103::
               via fe80::8e7a:ff:fee7:f53d, Ethernet20
               via fe80::fa7a:41ff:fe18:8910, Ethernet10
  C        2001:20:161:225::/64 [0/0]
@@ -199,13 +199,13 @@ Source Codes:
            via fcbb:0:1162::/48, SRv6 Transport tunnel index 25, SRv6 SID fcbb:0:1162:401::
               via fe80::8e7a:ff:fee7:f53d, Ethernet20
  B I      2001:20:199:225::/64 [200/0]
-           via fcbb:0:1199::/48, SRv6 Transport tunnel index 24, SRv6 SID fcbb:0:1199:e000:0:1:0:22
+           via fcbb:0:1199::/48, SRv6 Transport tunnel index 36, SRv6 SID fcbb:0:1199:e000:0:1:0:22
               via fe80::8e7a:ff:fee7:f53d, Ethernet20
  B I      2001:20:336:225::/64 [200/0]
-           via fcbb:0:336::/48, SRv6 Transport tunnel index 26, SRv6 SID fcbb:0:336:b000::
+           via fcbb:0:336::/48, SRv6 Transport tunnel index 37, SRv6 SID fcbb:0:336:e665::
               via fe80::fa7a:41ff:fe18:8910, Ethernet10
  B I      2001:20:338:225::/64 [200/0]
-           via fcbb:0:1338::/48, SRv6 Transport tunnel index 23, SRv6 SID fcbb:0:1338:b333::
+           via fcbb:0:1338::/48, SRv6 Transport tunnel index 35, SRv6 SID fcbb:0:1338:e667::
               via fe80::8e7a:ff:fee7:f53d, Ethernet20
               via fe80::fa7a:41ff:fe18:8910, Ethernet10
 

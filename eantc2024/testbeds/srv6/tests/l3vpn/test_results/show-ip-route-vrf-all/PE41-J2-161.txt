@@ -57,17 +57,17 @@ Source Codes:
 Gateway of last resort is not set
 
  B I      20.28.225.0/24 [200/0]
-           via fcbb:0:28::/48, SRv6 Transport tunnel index 22, SRv6 SID fcbb:0:28:e102::
+           via fcbb:0:28::/48, SRv6 Transport tunnel index 34, SRv6 SID fcbb:0:28:e102::
               via fe80::fa7a:41ff:fe18:8910, Ethernet10
  B I      20.29.225.0/24 [200/0]
-           via fcbb:0:1029::/48, SRv6 Transport tunnel index 21, SRv6 SID fcbb:0:1029:e102::
+           via fcbb:0:1029::/48, SRv6 Transport tunnel index 31, SRv6 SID fcbb:0:1029:e102::
               via fe80::8e7a:ff:fee7:f53d, Ethernet20
               via fe80::fa7a:41ff:fe18:8910, Ethernet10
  B I      20.136.225.0/24 [200/0]
-           via fcbb:0:336::/48, SRv6 Transport tunnel index 26, SRv6 SID fcbb:0:336:afff::
+           via fcbb:0:336::/48, SRv6 Transport tunnel index 37, SRv6 SID fcbb:0:336:e664::
               via fe80::fa7a:41ff:fe18:8910, Ethernet10
  B I      20.138.225.0/24 [200/0]
-           via fcbb:0:1338::/48, SRv6 Transport tunnel index 23, SRv6 SID fcbb:0:1338:b332::
+           via fcbb:0:1338::/48, SRv6 Transport tunnel index 35, SRv6 SID fcbb:0:1338:e666::
               via fe80::8e7a:ff:fee7:f53d, Ethernet20
               via fe80::fa7a:41ff:fe18:8910, Ethernet10
  B I      20.142.225.0/24 [200/0]
