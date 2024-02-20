@@ -10,4 +10,10 @@ show segment-routing ipv6 route
 show bgp evpn summary
 show bgp evpn route-type ip-prefix ipv4 detail
 show tunnel fib
-show isis database detail
+show bgp neighbors 2002::353 vpn-ipv4 advertised-routes detail
+show bgp neighbors 2002::353 vpn-ipv6 advertised-routes detail
+show bgp vpn-ipv4
+show bgp vpn-ipv6
+show ipv6 route
+show ip route vrf all
+show ipv6 route vrf all
