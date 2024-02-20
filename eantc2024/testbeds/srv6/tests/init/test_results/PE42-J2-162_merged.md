@@ -16,9 +16,9 @@ Internal build ID: 6aa1c3ff-36f3-4f04-af26-9fc35d05e1eb
 Image format version: 3.0
 Image optimization: Default
 
-Uptime: 17 hours and 43 minutes
+Uptime: 1 hour and 15 minutes
 Total memory: 8099732 kB
-Free memory: 5169396 kB
+Free memory: 5014212 kB
 
 ```
 
@@ -37,7 +37,7 @@ Et8               notconnect   1        full   25G    Not Present
 Et9               notconnect   1        full   25G    Not Present                    
 Et10              connected    routed   full   10G    10GBASE-SRL                    
 Et11              notconnect   1        full   25G    Not Present                    
-Et12              connected    1        full   10G    10GBASE-LR                     
+Et12              connected    trunk    full   10G    10GBASE-LR                     
 Et13              notconnect   1        full   25G    Not Present                    
 Et14              notconnect   1        full   25G    Not Present                    
 Et15              notconnect   1        full   25G    Not Present                    
@@ -79,9 +79,9 @@ Ma1               connected    routed   a-full a-1G   10/100/1000
 ## show lldp neighbors
 
 ```text
-Last table change time   : 1:14:29 ago
-Number of table inserts  : 7
-Number of table deletes  : 1
+Last table change time   : 0:38:25 ago
+Number of table inserts  : 6
+Number of table deletes  : 0
 Number of table drops    : 0
 Number of table age-outs : 0
 
@@ -89,7 +89,7 @@ Port          Neighbor Device ID            Neighbor Port ID    TTL
 ---------- ----------------------------- ---------------------- ---
 Et10          JNPR-302-MX204                564                 120
 Et12          JNPR-398-QFX5120              548                 120
-Et20          h344-N57B1                    TenGigE0/0/0/0/0    120
+Et20          Cisco344-N57B1                TenGigE0/0/0/0/0    120
 Et39          PE41-J2-161.ns.eantc.de       Ethernet39          120
 Et40          PE41-J2-161.ns.eantc.de       Ethernet40          120
 Ma1           extreme-x460-1                22                  120
@@ -102,7 +102,7 @@ Ma1           extreme-x460-1                22                  120
  
 Instance  VRF      System Id        Type Interface          SNPA              State Hold time   Circuit Id          
 srv6      default  JNPR-302-MX204   L1   Ethernet10         P2P               UP    23          01                  
-srv6      default  h344-N57B1       L1   Ethernet20         P2P               UP    26          00                  
+srv6      default  Cisco344-N57B1   L1   Ethernet20         P2P               UP    25          00                  
 ```
 
 ## show segment-routing ipv6 locator
@@ -114,14 +114,15 @@ Operational status: enabled
 Encapsulation source address: 2002::162
 Number of configured locators: 1
 
-Locator node162
+Locator uSID-LOC-162
 State: active
-Type: classic
-Prefix: fcbb:0:162::/48
+Type: micro-SID
+Micro-SID domain: SRv6-uSID-162
+Prefix: fcbb:0:0:48a::/64
 IGP algorithm: SPF
-Block length: 32
+Block length: 48
 Function length: 16
-Function allocator: classic::node162
+Function allocator: micro-SID::SRv6-uSID-162
 SID function value pools: default
 ```
 
@@ -140,13 +141,15 @@ Number of configured locators: 1
 ```text
 SRv6 SID function allocators for VRF default
 
-Allocator classic::node162
+Allocator micro-SID::SRv6-uSID-162
 Function length: 16
-Locator users: node162
-Start   End  Size Usage     
------ ----- ----- ----------
-    1  1023  1023 static    
- 1024 65535 64512 unassigned
+Locator users: uSID-LOC-162
+Start   End  Size Usage        
+----- ----- ----- -------------
+    1  1023  1023 static       
+ 1024  5119  4096 bgp (dynamic)
+ 5120  9215  4096 bgp (dynamic)
+ 9216 65535 56320 unassigned   
 
 ```
 
@@ -163,6 +166,10 @@ Source Codes: B3 - BGP L3 VPN, S - Static
 End Behaviors: End - Endpoint
                End.DT4 (6) - Endpoint with decapsulation and specific IPv4 (6) table lookup
 
+B3  fcbb:0:0:48a:400::/80, End.DT4 with NEXT-CSID, locator uSID-LOC-162
+    via IPv4 lookup, VRF VPNv4-uSID
+B3  fcbb:0:0:48a:401::/80, End.DT6 with NEXT-CSID, locator uSID-LOC-162
+    via IPv6 lookup, VRF VPNv4-uSID
 ```
 
 ## show bgp evpn summary
@@ -172,7 +179,7 @@ BGP summary information for VRF default
 Router identifier 100.0.0.162, local AS number 1
 Neighbor Status Codes: m - Under maintenance
   Neighbor  V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
-  2002::353 4 1                 39        45    0    0 00:36:57 Estab   0      0
+  2002::353 4 1                 41         8    0    0 00:02:22 Estab   0      0
 ```
 
 ## show bgp evpn route-type ip-prefix ipv4 detail
@@ -185,5 +192,20 @@ Router identifier 100.0.0.162, local AS number 1
 ## show tunnel fib
 
 ```text
+
+Type 'SRv6 Transport', index 1, endpoint fcbb:0:1338::/48, forwarding None
+   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 2, endpoint fcbb:0:28::/48, forwarding None
+   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 3, endpoint fcbb:0:1029::/48, forwarding None
+   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 5, endpoint fcbb:0:1353::/48, forwarding None
+   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 6, endpoint fcbb:0:336::/48, forwarding None
+   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
 ```
 

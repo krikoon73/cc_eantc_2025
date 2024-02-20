@@ -10,7 +10,7 @@ Et8               notconnect   1        full   25G    Not Present
 Et9               notconnect   1        full   25G    Not Present                    
 Et10              connected    routed   full   10G    10GBASE-SRL                    
 Et11              notconnect   1        full   25G    Not Present                    
-Et12              connected    1        full   10G    10GBASE-LR                     
+Et12              connected    trunk    full   10G    10GBASE-LR                     
 Et13              notconnect   1        full   25G    Not Present                    
 Et14              notconnect   1        full   25G    Not Present                    
 Et15              notconnect   1        full   25G    Not Present                    

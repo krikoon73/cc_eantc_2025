@@ -4,12 +4,13 @@ Operational status: enabled
 Encapsulation source address: 2002::161
 Number of configured locators: 1
 
-Locator node161
+Locator uSID-LOC-161
 State: active
-Type: classic
-Prefix: fcbb:0:161::/48
+Type: micro-SID
+Micro-SID domain: SRv6-uSID-161
+Prefix: fcbb:0:0:a1::/64
 IGP algorithm: SPF
-Block length: 32
+Block length: 48
 Function length: 16
-Function allocator: classic::node161
+Function allocator: micro-SID::SRv6-uSID-161
 SID function value pools: default
