@@ -1,0 +1,42 @@
+
+Type 'SRv6 Transport', index 5, endpoint fcbb:0:1353::/48, forwarding None
+   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 15, endpoint fcbb:0:1344::/48, forwarding None
+   via fe80::eaf:31ff:feca:1104, 'Ethernet20' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 17, endpoint fcbb:0:342::/48, forwarding None
+   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 41, endpoint fcbb:0:161::/48, forwarding None
+   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 43, endpoint fcbb:0:1029::/48, forwarding None
+   via fe80::eaf:31ff:feca:1104, 'Ethernet20' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 47, endpoint fcbb:0:28::/48, forwarding None
+   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 48, endpoint fcbb:0:1338::/48, forwarding None
+   via fe80::eaf:31ff:feca:1104, 'Ethernet20' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 51, endpoint fcbb:0:336::/48, forwarding None
+   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 52, endpoint fcbb:0:20::/48, forwarding None
+   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 55, endpoint fcbb:0:1199::/48, forwarding None
+   via fe80::eaf:31ff:feca:1104, 'Ethernet20' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 57, endpoint fcbb:0:59::/48, forwarding None
+   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 60, endpoint fcbb:0:1058::/48, forwarding None
+   via fe80::eaf:31ff:feca:1104, 'Ethernet20' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 66, endpoint fcbb:0:352::/48, forwarding None
+   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
+
+Type 'SRv6 Transport', index 72, endpoint fcbb:0:1011::/48, forwarding None
+   via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162

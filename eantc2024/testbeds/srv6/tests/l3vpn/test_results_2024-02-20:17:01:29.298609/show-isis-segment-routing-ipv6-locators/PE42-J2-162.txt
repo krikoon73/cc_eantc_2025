@@ -1,0 +1,246 @@
+Locator: fcbb:0:307::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:307::/48
+System ID: JNPR-310-ACX7100-48L
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:307::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:352::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:352::/48
+System ID: JNPR-310-ACX7100-48L
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:352::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:419::/48
+System ID: Keys-Ixia-419
+Flags: Down: unset
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:28::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:28::/48
+System ID: JNPR-310-ACX7100-48L
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:28::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:1199::/48
+System ID: huawei_199
+Flags: Down: unset
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:1058::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: unset
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:1049::/48
+System ID: Ericsson_6676_49
+Flags: Down: unset
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:1029::/48
+System ID: h3c_29_S12500R-2L
+Flags: Down: unset
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:1310::/48
+System ID: JNPR-310-ACX7100-48L
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:20::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:20::/48
+System ID: JNPR-310-ACX7100-48L
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:20::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:1011::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:1011::/48
+System ID: JNPR-310-ACX7100-48L
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:1011::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:342::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:342::/48
+System ID: JNPR-310-ACX7100-48L
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:342::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:1162::/48
+System ID: PE42-J2-162
+Flags: Down: unset
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:161::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:161::/48
+System ID: JNPR-310-ACX7100-48L
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:161::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:1344::/48
+System ID: Cisco344-N57B1
+Flags: Down: unset
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:1353::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: unset
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:316::/48
+System ID: JNPR-302-MX204
+Flags: Down: unset
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:336::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:336::/48
+System ID: JNPR-310-ACX7100-48L
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:336::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:1338::/48
+System ID: ZTE_338_ZXR10_M6000-4SE
+Flags: Down: unset
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:59::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:59::/48
+System ID: JNPR-310-ACX7100-48L
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:59::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:1302::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:1302::/48
+System ID: JNPR-310-ACX7100-48L
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:1302::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: set
+Level: 1
+Algorithm: SPF (0), Topology: 0
+
