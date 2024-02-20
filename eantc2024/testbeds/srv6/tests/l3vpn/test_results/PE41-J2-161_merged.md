@@ -16,9 +16,9 @@ Internal build ID: 93cbcec4-274c-4247-b5c2-478b9fcaa07c
 Image format version: 3.0
 Image optimization: Default
 
-Uptime: 47 minutes
+Uptime: 49 minutes
 Total memory: 8099732 kB
-Free memory: 5221132 kB
+Free memory: 5218600 kB
 
 ```
 
@@ -79,7 +79,7 @@ Ma1               connected    routed   a-full a-1G   10/100/1000
 ## show lldp neighbors
 
 ```text
-Last table change time   : 0:42:56 ago
+Last table change time   : 0:44:52 ago
 Number of table inserts  : 7
 Number of table deletes  : 0
 Number of table drops    : 0
@@ -102,8 +102,8 @@ Ma1           extreme-x460-1                   42                  120
 ```text
  
 Instance  VRF      System Id        Type Interface          SNPA              State Hold time   Circuit Id          
-srv6      default  Cisco342-9902    L2   Ethernet10         P2P               UP    27          00                  
-srv6      default  Nokia-59-IXRe2   L2   Ethernet20         P2P               UP    21          00                  
+srv6      default  Cisco342-9902    L2   Ethernet10         P2P               UP    29          00                  
+srv6      default  Nokia-59-IXRe2   L2   Ethernet20         P2P               UP    22          00                  
 ```
 
 ## show segment-routing ipv6 locator
@@ -180,7 +180,7 @@ BGP summary information for VRF default
 Router identifier 100.0.0.161, local AS number 1
 Neighbor Status Codes: m - Under maintenance
   Neighbor  V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
-  2002::353 4 1                153        63    0    0 00:37:04 Estab   0      0
+  2002::353 4 1                158        65    0    0 00:39:01 Estab   0      0
 ```
 
 ## show bgp evpn route-type ip-prefix ipv4 detail
@@ -873,7 +873,7 @@ U - node unreachable
 IS-IS Instance: srv6 VRF: default
   IS-IS Level 2 Link State Database
     LSPID                   Seq Num  Cksum  Life Length IS  Received LSPID        Flags
-    CIEN-11-5169.00-00          224   5380   382   1077 L2  0000.0000.0011.00-00  <>
+    CIEN-11-5169.00-00          225   4869  1166   1077 L2  0000.0000.0011.00-00  <>
       NLPID: 0x8E(IPv6)
       Hostname: CIEN-11-5169
       Area addresses: 49.0001
@@ -936,7 +936,7 @@ IS-IS Instance: srv6 VRF: default
         SR Capability: Flags: [V]
           SRGB Base: 16000 Range: 8000
         Algorithms:  0
-    h3c_20_CR16010E-F.00-00       455  15099   926    863 L2  0000.0000.0020.00-00  <>
+    h3c_20_CR16010E-F.00-00       455  15099   810    863 L2  0000.0000.0020.00-00  <>
       NLPID: 0xCC(IPv4) 0x8E(IPv6)
       Hostname: h3c_20_CR16010E-F
       Area addresses: 49.0000
@@ -985,7 +985,7 @@ IS-IS Instance: srv6 VRF: default
                          Function length: 16 Argument length: 0
       Router Capabilities: Router Id: 0.0.0.0 Flags: []
         SRv6 Capability: Flags: []
-    h3c_28_S12500R-2L.00-00       136  18723   974    428 L2  0000.0000.0028.00-00  <>
+    h3c_28_S12500R-2L.00-00       136  18723   858    428 L2  0000.0000.0028.00-00  <>
       NLPID: 0xCC(IPv4) 0x8E(IPv6)
       Hostname: h3c_28_S12500R-2L
       Area addresses: 49
@@ -1010,7 +1010,7 @@ IS-IS Instance: srv6 VRF: default
                          Function length: 0 Argument length: 0
       Router Capabilities: Router Id: 0.0.0.0 Flags: []
         SRv6 Capability: Flags: []
-    huawei_36.00-00             302  47600   872    781 L2  0000.0000.0036.00-00  <>
+    huawei_36.00-00             302  47600   756    781 L2  0000.0000.0036.00-00  <>
       NLPID: 0x8E(IPv6)
       Hostname: huawei_36
       Area addresses: 49.0000
@@ -1052,9 +1052,9 @@ IS-IS Instance: srv6 VRF: default
                          Function length: 16 Argument length: 0
       Router Capabilities: Router Id: 0.0.0.0 Flags: []
         SRv6 Capability: Flags: []
-    anet-161-R3.00-00           326  33648   727    250 L2  0000.0000.0161.00-00  <>
+    anet-161-R3.00-00           326  33648   611    250 L2  0000.0000.0161.00-00  <>
       LSP generation remaining wait time: 0 ms
-      Time remaining until refresh: 427 s
+      Time remaining until refresh: 311 s
       NLPID: 0x8E(IPv6)
       Hostname: anet-161-R3
       Area addresses: 49.0000
@@ -1076,7 +1076,7 @@ IS-IS Instance: srv6 VRF: default
       Router Capabilities: Router Id: 100.0.0.161 Flags: []
         Area leader priority: 250 algorithm: 0
         SRv6 Capability: Flags: []
-    JNPR-307-ACX7024.00-00        46  57609   509    343 L2  0000.0000.0307.00-00  <>
+    JNPR-307-ACX7024.00-00        46  57609   392    343 L2  0000.0000.0307.00-00  <>
       NLPID: 0x8E(IPv6)
       Hostname: JNPR-307-ACX7024
       Area addresses: 49.0000
@@ -1099,7 +1099,7 @@ IS-IS Instance: srv6 VRF: default
         SRv6 Capability: Flags: []
         Algorithms:  0, 1
       Unsupported TLV: Type: 14 Length: 2
-    JNPR-310-ACX7100-48L.00-00       436  28842  1183   1283 L2  0000.0000.0310.00-00  <>
+    JNPR-310-ACX7100-48L.00-00       436  28842  1067   1283 L2  0000.0000.0310.00-00  <>
       NLPID: 0x8E(IPv6)
       Hostname: JNPR-310-ACX7100-48L
       Area addresses: 49.0001
@@ -1191,7 +1191,7 @@ IS-IS Instance: srv6 VRF: default
         SRv6 Capability: Flags: []
         Algorithms:  0, 1
       Unsupported TLV: Type: 14 Length: 2
-    JNPR-310-ACX7100-48L.00-01       129  57274  1183    263 L2  0000.0000.0310.00-01  <>
+    JNPR-310-ACX7100-48L.00-01       129  57274  1067    263 L2  0000.0000.0310.00-01  <>
       IS Neighbor          : CIEN-11-5169.00     Metric: 10
         IPv6 Neighbor Address: 2001:0:11:310::11
         Global IPv6 Interface Address: 2001:0:11:310::310
@@ -1207,7 +1207,7 @@ IS-IS Instance: srv6 VRF: default
         Metric: 30 Algorithm: 0 Flags: []
         SRv6 SID End with NEXT-CSID PSP
           SID : fcbb:0:1338::
-    JNPR-316-MX304.00-00        122    588   550    369 L2  0000.0000.0316.00-00  <>
+    JNPR-316-MX304.00-00        123  65357  1132    369 L2  0000.0000.0316.00-00  <>
       NLPID: 0x8E(IPv6)
       Hostname: JNPR-316-MX304
       Area addresses: 49.0000
@@ -1234,7 +1234,7 @@ IS-IS Instance: srv6 VRF: default
         SRv6 Capability: Flags: []
         Algorithms:  0, 1
       Unsupported TLV: Type: 14 Length: 2
-    ZTE_336_ZXR10_M6000-8SE.00-00       355  56422   815    474 L2  0000.0000.0336.00-00  <>
+    ZTE_336_ZXR10_M6000-8SE.00-00       355  56422   699    474 L2  0000.0000.0336.00-00  <>
       NLPID: 0xCC(IPv4) 0x8E(IPv6)
       Hostname: ZTE_336_ZXR10_M6000-8SE
       Area addresses: 49.0000
@@ -1266,7 +1266,7 @@ IS-IS Instance: srv6 VRF: default
         SR Capability: Flags: [I]
           SRGB Base: 900000 Range: 65536
         Algorithms:  0, 1
-    Cisco342-9902.00-00         129  29349   536    417 L2  0000.0000.0342.00-00  <>
+    Cisco342-9902.00-00         130  28838  1135    417 L2  0000.0000.0342.00-00  <>
       NLPID: 0x8E(IPv6)
       Hostname: Cisco342-9902
       Area addresses: 49.0001
@@ -1290,7 +1290,7 @@ IS-IS Instance: srv6 VRF: default
         SRv6 Capability: Flags: []
         Algorithms:  0, 1
       Unsupported TLV: Type: 14 Length: 2
-    Cisco352-N540.00-00         296  19517   384    435 L2  0000.0000.0352.00-00  <>
+    Cisco352-N540.00-00         297  19006  1145    435 L2  0000.0000.0352.00-00  <>
       NLPID: 0x8E(IPv6)
       Hostname: Cisco352-N540
       Area addresses: 49.0001
@@ -1315,7 +1315,7 @@ IS-IS Instance: srv6 VRF: default
         SRv6 Capability: Flags: []
         Algorithms:  0, 1
       Unsupported TLV: Type: 14 Length: 2
-    Cisco353-8201-24H8FH.00-00       425   3729   381   1323 L2  0000.0000.0353.00-00  <>
+    Cisco353-8201-24H8FH.00-00       426   3218  1088   1323 L2  0000.0000.0353.00-00  <>
       NLPID: 0x8E(IPv6)
       Hostname: Cisco353-8201-24H8FH
       Area addresses:
@@ -1397,7 +1397,7 @@ IS-IS Instance: srv6 VRF: default
         SRv6 Capability: Flags: []
         Algorithms:  0, 1
       Unsupported TLV: Type: 14 Length: 2
-    Nokia_58-SR1-3-SRv6.00-00       408  22551 64343    180 L2  0100.0000.0058.00-00  <>
+    Nokia_58-SR1-3-SRv6.00-00       408  22551 64227    180 L2  0100.0000.0058.00-00  <>
       NLPID: 0xCC(IPv4) 0x8E(IPv6)
       Hostname: Nokia_58-SR1-3-SRv6
       Area addresses:
@@ -1415,7 +1415,7 @@ IS-IS Instance: srv6 VRF: default
           Base MPLS imposition (MSD type 1):  0
         SRv6 Capability: Flags: []
         Algorithms:  0
-    Nokia_58-SR1-3-SRv6.00-01       177  51049 64714   1387 L2  0100.0000.0058.00-01  <>
+    Nokia_58-SR1-3-SRv6.00-01       177  51049 64597   1387 L2  0100.0000.0058.00-01  <>
       Interface address: 10.0.0.58
       Interface address: 2001:0:36:58::58
       Interface address: 2001:0:58:310::58
@@ -1542,7 +1542,7 @@ IS-IS Instance: srv6 VRF: default
           SID : fcbb:0:1353::
           SID structure: Block length: 32 Node length: 16
                          Function length: 0 Argument length: 80
-    Nokia-59-IXRe2.00-00         70  54906   745    310 L2  0100.0000.0059.00-00  <>
+    Nokia-59-IXRe2.00-00         71  54395  1177    310 L2  0100.0000.0059.00-00  <>
       NLPID: 0xCC(IPv4) 0x8E(IPv6)
       Hostname: Nokia-59-IXRe2
       Area addresses: 49.0000.0000.0059.00
@@ -1564,7 +1564,7 @@ IS-IS Instance: srv6 VRF: default
           Base MPLS imposition (MSD type 1):  0
         SRv6 Capability: Flags: []
         Algorithms:  0
-    Keys-Ixia-419.00-00          24  49255   746    351 L2  3800.0000.0419.00-00  <DefaultAtt>
+    Keys-Ixia-419.00-00          24  49255   630    351 L2  3800.0000.0419.00-00  <DefaultAtt>
       NLPID: 0xCC(IPv4) 0x8E(IPv6) 0x81(CLNP)
       Hostname: Keys-Ixia-419
       Area addresses: 49.0001
@@ -1856,10 +1856,10 @@ Ethernet1 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe12 (bia 606b.5b2e.fe12)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -1876,10 +1876,10 @@ Ethernet2 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe13 (bia 606b.5b2e.fe13)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -1896,10 +1896,10 @@ Ethernet3 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe14 (bia 606b.5b2e.fe14)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -1916,10 +1916,10 @@ Ethernet4 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe15 (bia 606b.5b2e.fe15)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -1936,19 +1936,19 @@ Ethernet5 is up, line protocol is up (connected)
   Hardware is Ethernet, address is 606b.5b2e.fe16 (bia 606b.5b2e.fe16)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 10000000 kbit
   Full-duplex, 10Gb/s, auto negotiation: off, uni-link: disabled
-  Up 43 minutes
+  Up 44 minutes, 56 seconds
   Loopback Mode : None
   2 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
-  5 seconds input rate 1 bps (0.0% with framing overhead), 0 packets/sec
-  5 seconds output rate 495 bps (0.0% with framing overhead), 1 packets/sec
-     86 packets input, 17458 bytes
-     Received 0 broadcasts, 86 multicast
+  Last clearing of "show interface" counters 0:49:07 ago
+  5 seconds input rate 3 bps (0.0% with framing overhead), 0 packets/sec
+  5 seconds output rate 498 bps (0.0% with framing overhead), 1 packets/sec
+     90 packets input, 18270 bytes
+     Received 0 broadcasts, 90 multicast
      0 runts, 0 giants
      0 input errors, 0 CRC, 0 alignment, 0 symbol, 0 input discards
      0 PAUSE input
-     1352 packets output, 177867 bytes
-     Sent 0 broadcasts, 1352 multicast
+     1413 packets output, 185902 bytes
+     Sent 0 broadcasts, 1413 multicast
      0 output errors, 0 collisions
      0 late collision, 0 deferred, 0 output discards
      0 PAUSE output
@@ -1956,10 +1956,10 @@ Ethernet6 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe17 (bia 606b.5b2e.fe17)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -1976,10 +1976,10 @@ Ethernet7 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe18 (bia 606b.5b2e.fe18)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -1996,10 +1996,10 @@ Ethernet8 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe19 (bia 606b.5b2e.fe19)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2016,10 +2016,10 @@ Ethernet9 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe1a (bia 606b.5b2e.fe1a)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2039,19 +2039,19 @@ Ethernet10 is up, line protocol is up (connected)
     2001:0:161:342::161, subnet is 2001:0:161:342::/64
   IP MTU 9214 bytes, Ethernet MRU 10240 bytes, BW 10000000 kbit
   Full-duplex, 10Gb/s, auto negotiation: off, uni-link: disabled
-  Up 43 minutes, 2 seconds
+  Up 44 minutes, 58 seconds
   Loopback Mode : None
   2 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
-  5 seconds input rate 296 bps (0.0% with framing overhead), 0 packets/sec
-  5 seconds output rate 869 bps (0.0% with framing overhead), 1 packets/sec
-     510691 packets input, 521795678 bytes
-     Received 0 broadcasts, 544 multicast
+  Last clearing of "show interface" counters 0:49:07 ago
+  5 seconds input rate 243 bps (0.0% with framing overhead), 0 packets/sec
+  5 seconds output rate 502 bps (0.0% with framing overhead), 0 packets/sec
+     510740 packets input, 521800896 bytes
+     Received 0 broadcasts, 568 multicast
      0 runts, 0 giants
      0 input errors, 0 CRC, 0 alignment, 0 symbol, 0 input discards
      0 PAUSE input
-     257494 packets output, 264790007 bytes
-     Sent 0 broadcasts, 765 multicast
+     257555 packets output, 264803071 bytes
+     Sent 0 broadcasts, 801 multicast
      0 output errors, 0 collisions
      0 late collision, 0 deferred, 0 output discards
      0 PAUSE output
@@ -2059,19 +2059,19 @@ Ethernet11 is up, line protocol is up (connected)
   Hardware is Ethernet, address is 606b.5b2e.fe1c (bia 606b.5b2e.fe1c)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 10000000 kbit
   Full-duplex, 10Gb/s, auto negotiation: off, uni-link: disabled
-  Up 43 minutes, 2 seconds
+  Up 44 minutes, 58 seconds
   Loopback Mode : None
   2 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
-  5 seconds input rate 2 bps (0.0% with framing overhead), 0 packets/sec
-  5 seconds output rate 493 bps (0.0% with framing overhead), 1 packets/sec
-     551477 packets input, 436048668 bytes
-     Received 1 broadcasts, 111 multicast
+  Last clearing of "show interface" counters 0:49:07 ago
+  5 seconds input rate 192 bps (0.0% with framing overhead), 0 packets/sec
+  5 seconds output rate 495 bps (0.0% with framing overhead), 1 packets/sec
+     551482 packets input, 436050278 bytes
+     Received 1 broadcasts, 116 multicast
      0 runts, 0 giants
      0 input errors, 0 CRC, 0 alignment, 0 symbol, 0 input discards
      0 PAUSE input
-     445964 packets output, 438490861 bytes
-     Sent 0 broadcasts, 1368 multicast
+     446026 packets output, 438499062 bytes
+     Sent 0 broadcasts, 1430 multicast
      0 output errors, 0 collisions
      0 late collision, 0 deferred, 0 output discards
      0 PAUSE output
@@ -2079,10 +2079,10 @@ Ethernet12 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe1d (bia 606b.5b2e.fe1d)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2099,10 +2099,10 @@ Ethernet13 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe1e (bia 606b.5b2e.fe1e)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2119,10 +2119,10 @@ Ethernet14 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe1f (bia 606b.5b2e.fe1f)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2139,10 +2139,10 @@ Ethernet15 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe20 (bia 606b.5b2e.fe20)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2159,10 +2159,10 @@ Ethernet16 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe21 (bia 606b.5b2e.fe21)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2179,10 +2179,10 @@ Ethernet17 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe22 (bia 606b.5b2e.fe22)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2199,10 +2199,10 @@ Ethernet18 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe23 (bia 606b.5b2e.fe23)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2219,10 +2219,10 @@ Ethernet19 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe24 (bia 606b.5b2e.fe24)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2242,19 +2242,19 @@ Ethernet20 is up, line protocol is up (connected)
     2001:0:59:161::161, subnet is 2001:0:59:161::/64
   IP MTU 9214 bytes, Ethernet MRU 10240 bytes, BW 10000000 kbit
   Full-duplex, 10Gb/s, auto negotiation: off, uni-link: disabled
-  Up 43 minutes, 2 seconds
+  Up 44 minutes, 58 seconds
   Loopback Mode : None
   2 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
-  5 seconds input rate 1.12 kbps (0.0% with framing overhead), 1 packets/sec
-  5 seconds output rate 826 bps (0.0% with framing overhead), 1 packets/sec
-     308305 packets input, 317086246 bytes
-     Received 0 broadcasts, 795 multicast
+  Last clearing of "show interface" counters 0:49:07 ago
+  5 seconds input rate 321 bps (0.0% with framing overhead), 0 packets/sec
+  5 seconds output rate 668 bps (0.0% with framing overhead), 1 packets/sec
+     308375 packets input, 317100954 bytes
+     Received 0 broadcasts, 830 multicast
      0 runts, 0 giants
      0 input errors, 0 CRC, 0 alignment, 0 symbol, 0 input discards
      0 PAUSE input
-     310162 packets output, 318882276 bytes
-     Sent 0 broadcasts, 764 multicast
+     310234 packets output, 318892876 bytes
+     Sent 0 broadcasts, 801 multicast
      0 output errors, 0 collisions
      0 late collision, 0 deferred, 0 output discards
      0 PAUSE output
@@ -2262,10 +2262,10 @@ Ethernet21 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe26 (bia 606b.5b2e.fe26)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2282,10 +2282,10 @@ Ethernet22 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe27 (bia 606b.5b2e.fe27)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2302,10 +2302,10 @@ Ethernet23 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe28 (bia 606b.5b2e.fe28)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2322,10 +2322,10 @@ Ethernet24 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe29 (bia 606b.5b2e.fe29)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2342,10 +2342,10 @@ Ethernet25 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe2a (bia 606b.5b2e.fe2a)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2362,10 +2362,10 @@ Ethernet26 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe2b (bia 606b.5b2e.fe2b)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2382,10 +2382,10 @@ Ethernet27 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe2c (bia 606b.5b2e.fe2c)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2402,10 +2402,10 @@ Ethernet28 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe2d (bia 606b.5b2e.fe2d)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2422,10 +2422,10 @@ Ethernet29 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe2e (bia 606b.5b2e.fe2e)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2442,10 +2442,10 @@ Ethernet30 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe2f (bia 606b.5b2e.fe2f)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2462,10 +2462,10 @@ Ethernet31 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe30 (bia 606b.5b2e.fe30)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2482,10 +2482,10 @@ Ethernet32 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe31 (bia 606b.5b2e.fe31)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2502,10 +2502,10 @@ Ethernet33 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe32 (bia 606b.5b2e.fe32)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2522,10 +2522,10 @@ Ethernet34 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe33 (bia 606b.5b2e.fe33)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2542,10 +2542,10 @@ Ethernet35 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe34 (bia 606b.5b2e.fe34)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2562,10 +2562,10 @@ Ethernet36 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe35 (bia 606b.5b2e.fe35)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2582,10 +2582,10 @@ Ethernet37 is down, line protocol is notpresent (errdisabled)
   Hardware is Ethernet, address is 0000.0000.0000 (bia 606b.5b2e.fe36)
   Ethernet MTU 0 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: n/a
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2602,10 +2602,10 @@ Ethernet38 is down, line protocol is notpresent (errdisabled)
   Hardware is Ethernet, address is 0000.0000.0000 (bia 606b.5b2e.fe37)
   Ethernet MTU 0 bytes, BW 25000000 kbit
   Full-duplex, 25Gb/s, auto negotiation: off, uni-link: n/a
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2622,19 +2622,19 @@ Ethernet39 is up, line protocol is up (connected)
   Hardware is Ethernet, address is 606b.5b2e.fe38 (bia 606b.5b2e.fe38)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 10000000 kbit
   Full-duplex, 10Gb/s, auto negotiation: off, uni-link: disabled
-  Up 43 minutes
+  Up 44 minutes, 56 seconds
   Loopback Mode : None
   2 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
-  5 seconds input rate 494 bps (0.0% with framing overhead), 1 packets/sec
-  5 seconds output rate 3 bps (0.0% with framing overhead), 0 packets/sec
-     1376 packets input, 180772 bytes
-     Received 0 broadcasts, 1376 multicast
+  Last clearing of "show interface" counters 0:49:07 ago
+  5 seconds input rate 496 bps (0.0% with framing overhead), 1 packets/sec
+  5 seconds output rate 6 bps (0.0% with framing overhead), 0 packets/sec
+     1438 packets input, 188934 bytes
+     Received 0 broadcasts, 1438 multicast
      0 runts, 0 giants
      0 input errors, 0 CRC, 0 alignment, 0 symbol, 0 input discards
      0 PAUSE input
-     94 packets output, 23220 bytes
-     Sent 0 broadcasts, 94 multicast
+     98 packets output, 24248 bytes
+     Sent 0 broadcasts, 98 multicast
      0 output errors, 0 collisions
      0 late collision, 0 deferred, 0 output discards
      0 PAUSE output
@@ -2642,19 +2642,19 @@ Ethernet40 is up, line protocol is up (connected)
   Hardware is Ethernet, address is 606b.5b2e.fe39 (bia 606b.5b2e.fe39)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 10000000 kbit
   Full-duplex, 10Gb/s, auto negotiation: off, uni-link: disabled
-  Up 43 minutes
+  Up 44 minutes, 56 seconds
   Loopback Mode : None
   2 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
-  5 seconds input rate 494 bps (0.0% with framing overhead), 1 packets/sec
-  5 seconds output rate 3 bps (0.0% with framing overhead), 0 packets/sec
-     1377 packets input, 180895 bytes
-     Received 0 broadcasts, 1377 multicast
+  Last clearing of "show interface" counters 0:49:07 ago
+  5 seconds input rate 496 bps (0.0% with framing overhead), 1 packets/sec
+  5 seconds output rate 6 bps (0.0% with framing overhead), 0 packets/sec
+     1439 packets input, 189057 bytes
+     Received 0 broadcasts, 1439 multicast
      0 runts, 0 giants
      0 input errors, 0 CRC, 0 alignment, 0 symbol, 0 input discards
      0 PAUSE input
-     89 packets output, 22605 bytes
-     Sent 0 broadcasts, 89 multicast
+     93 packets output, 23633 bytes
+     Sent 0 broadcasts, 93 multicast
      0 output errors, 0 collisions
      0 late collision, 0 deferred, 0 output discards
      0 PAUSE output
@@ -2662,10 +2662,10 @@ Ethernet41/1 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe3a (bia 606b.5b2e.fe3a)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 100000000 kbit
   Full-duplex, 100Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2682,10 +2682,10 @@ Ethernet42/1 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe3e (bia 606b.5b2e.fe3e)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 100000000 kbit
   Full-duplex, 100Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2702,10 +2702,10 @@ Ethernet43/1 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe40 (bia 606b.5b2e.fe40)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 100000000 kbit
   Full-duplex, 100Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2722,10 +2722,10 @@ Ethernet44/1 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe44 (bia 606b.5b2e.fe44)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 100000000 kbit
   Full-duplex, 100Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2742,10 +2742,10 @@ Ethernet45/1 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe46 (bia 606b.5b2e.fe46)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 100000000 kbit
   Full-duplex, 100Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2762,10 +2762,10 @@ Ethernet46/1 is down, line protocol is notpresent (notconnect)
   Hardware is Ethernet, address is 606b.5b2e.fe4a (bia 606b.5b2e.fe4a)
   Ethernet MTU 10218 bytes, Ethernet MRU 10240 bytes, BW 100000000 kbit
   Full-duplex, 100Gb/s, auto negotiation: off, uni-link: disabled
-  Down 43 minutes, 22 seconds
+  Down 45 minutes, 18 seconds
   Loopback Mode : None
   1 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
+  Last clearing of "show interface" counters 0:49:07 ago
   5 seconds input rate 0 bps (0.0% with framing overhead), 0 packets/sec
   5 seconds output rate 0 bps (0.0% with framing overhead), 0 packets/sec
      0 packets input, 0 bytes
@@ -2787,26 +2787,26 @@ Loopback0 is up, line protocol is up (connected)
   IPv6 global unicast address(es):
     2002::161, subnet is 2002::161/128
   IP MTU 65535 bytes (default)
-  Up 44 minutes, 24 seconds
+  Up 46 minutes, 20 seconds
 Management1 is up, line protocol is up (connected)
   Hardware is Ethernet, address is 606b.5b2e.fe10 (bia 606b.5b2e.fe10)
   Internet address is 192.168.20.161/23
   Broadcast address is 255.255.255.255
   IP MTU 1500 bytes (default), BW 1000000 kbit
   Full-duplex, 1Gb/s, auto negotiation: on, uni-link: n/a
-  Up 44 minutes, 17 seconds
+  Up 46 minutes, 13 seconds
   Loopback Mode : None
   4 link status changes since last clear
-  Last clearing of "show interface" counters 0:47:11 ago
-  5 seconds input rate 40.1 kbps (0.0% with framing overhead), 35 packets/sec
-  5 seconds output rate 131 kbps (0.0% with framing overhead), 27 packets/sec
-     12549 packets input, 1705068 bytes
-     Received 6526 broadcasts, 2391 multicast
+  Last clearing of "show interface" counters 0:49:07 ago
+  5 seconds input rate 43.6 kbps (0.0% with framing overhead), 39 packets/sec
+  5 seconds output rate 113 kbps (0.0% with framing overhead), 27 packets/sec
+     13382 packets input, 1818330 bytes
+     Received 6837 broadcasts, 2483 multicast
      0 runts, 0 giants
      0 input errors, 0 CRC, 0 alignment, 0 symbol, 0 input discards
      0 PAUSE input
-     3253 packets output, 1287692 bytes
-     Sent 7 broadcasts, 91 multicast
+     3640 packets output, 1540347 bytes
+     Sent 7 broadcasts, 95 multicast
      0 output errors, 0 collisions
      0 late collision, 0 deferred, 0 output discards
      0 PAUSE output
@@ -2818,7 +2818,7 @@ Vlan20 is up, line protocol is up (connected)
   IPv6 global unicast address(es):
     2001:20:161:225::161, subnet is 2001:20:161:225::/64
   IP MTU 1500 bytes (default)
-  Up 43 minutes, 2 seconds
+  Up 44 minutes, 58 seconds
 ```
 
 ## show interfaces counters rates
