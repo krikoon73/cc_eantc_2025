@@ -1,0 +1,15 @@
+Last table change time   : 0:06:33 ago
+Number of table inserts  : 8
+Number of table deletes  : 2
+Number of table drops    : 0
+Number of table age-outs : 0
+
+Port          Neighbor Device ID            Neighbor Port ID    TTL
+---------- ----------------------------- ---------------------- ---
+Et10          JNPR-302-MX204                564                 120
+Et12          JNPR-398-QFX5120              548                 120
+Et20          Cisco344-N57B1                TenGigE0/0/0/0/0    120
+Et39          PE41-J2-161.ns.eantc.de       Ethernet39          120
+Et40          PE41-J2-161.ns.eantc.de       Ethernet40          120
+Ma1           extreme-x460-1                22                  120
+
