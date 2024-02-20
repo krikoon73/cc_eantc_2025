@@ -1,6 +1,6 @@
 BGP routing table information for VRF default
 Router identifier 100.0.0.161, local AS number 1
-BGP routing table entry for IPv4 prefix 20.162.225.0/24, Route Distinguisher: 1:161
+BGP routing table entry for IPv4 prefix 20.161.225.0/24, Route Distinguisher: 1:161
  Paths: 1 available
   Local
     2002::161 from - (0.0.0.0)

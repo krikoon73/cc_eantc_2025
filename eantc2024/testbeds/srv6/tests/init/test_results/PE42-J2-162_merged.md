@@ -16,9 +16,9 @@ Internal build ID: 6aa1c3ff-36f3-4f04-af26-9fc35d05e1eb
 Image format version: 3.0
 Image optimization: Default
 
-Uptime: 1 hour and 52 minutes
+Uptime: 1 hour and 55 minutes
 Total memory: 8099732 kB
-Free memory: 5024824 kB
+Free memory: 5023684 kB
 
 ```
 
@@ -79,7 +79,7 @@ Ma1               connected    routed   a-full a-1G   10/100/1000
 ## show lldp neighbors
 
 ```text
-Last table change time   : 1:15:23 ago
+Last table change time   : 1:19:19 ago
 Number of table inserts  : 6
 Number of table deletes  : 0
 Number of table drops    : 0
@@ -101,7 +101,7 @@ Ma1           extreme-x460-1                22                  120
 ```text
  
 Instance  VRF      System Id        Type Interface          SNPA              State Hold time   Circuit Id          
-srv6      default  JNPR-302-MX204   L1   Ethernet10         P2P               UP    19          01                  
+srv6      default  JNPR-302-MX204   L1   Ethernet10         P2P               UP    23          01                  
 srv6      default  Cisco344-N57B1   L1   Ethernet20         P2P               UP    25          00                  
 ```
 
@@ -179,7 +179,7 @@ BGP summary information for VRF default
 Router identifier 100.0.0.162, local AS number 1
 Neighbor Status Codes: m - Under maintenance
   Neighbor  V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
-  2002::353 4 1                171        57    0    0 00:39:19 Estab   0      0
+  2002::353 4 1                192        62    0    0 00:43:16 Estab   0      0
 ```
 
 ## show bgp evpn route-type ip-prefix ipv4 detail
@@ -220,7 +220,7 @@ Type 'SRv6 Transport', index 23, endpoint fcbb:0:1199::/48, forwarding None
 Type 'SRv6 Transport', index 29, endpoint fcbb:0:161::/48, forwarding None
    via fe80::f24b:3aff:fe21:9e0f, 'Ethernet10' SRv6, source 2002::162
 
-Type 'SRv6 Transport', index 30, endpoint fcbb:0:338::/48, forwarding None
+Type 'SRv6 Transport', index 32, endpoint fcbb:0:1338::/48, forwarding None
    via fe80::eaf:31ff:feca:1104, 'Ethernet20' SRv6, source 2002::162
 ```
 

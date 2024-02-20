@@ -27,6 +27,6 @@ Type 'SRv6 Transport', index 15, endpoint fcbb:0:1199::/48, forwarding None
 Type 'SRv6 Transport', index 16, endpoint fcbb:0:1162::/48, forwarding None
    via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
 
-Type 'SRv6 Transport', index 17, endpoint fcbb:0:338::/48, forwarding None
+Type 'SRv6 Transport', index 19, endpoint fcbb:0:1338::/48, forwarding None
    via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
    via fe80::fa7a:41ff:fe18:8910, 'Ethernet10' SRv6, source 2002::161

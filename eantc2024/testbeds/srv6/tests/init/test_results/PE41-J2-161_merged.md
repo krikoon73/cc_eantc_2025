@@ -16,9 +16,9 @@ Internal build ID: 6aa1c3ff-36f3-4f04-af26-9fc35d05e1eb
 Image format version: 3.0
 Image optimization: Default
 
-Uptime: 2 hours and 10 minutes
+Uptime: 2 hours and 14 minutes
 Total memory: 8099732 kB
-Free memory: 4988560 kB
+Free memory: 4989748 kB
 
 ```
 
@@ -79,7 +79,7 @@ Ma1               connected    routed   a-full a-1G   10/100/1000
 ## show lldp neighbors
 
 ```text
-Last table change time   : 1:15:16 ago
+Last table change time   : 1:19:12 ago
 Number of table inserts  : 9
 Number of table deletes  : 2
 Number of table drops    : 0
@@ -102,8 +102,8 @@ Ma1           extreme-x460-1                   42                  120
 ```text
  
 Instance  VRF      System Id        Type Interface          SNPA              State Hold time   Circuit Id          
-srv6      default  Cisco342-9902    L2   Ethernet10         P2P               UP    25          00                  
-srv6      default  Nokia-59-IXRe2   L2   Ethernet20         P2P               UP    20          00                  
+srv6      default  Cisco342-9902    L2   Ethernet10         P2P               UP    28          00                  
+srv6      default  Nokia-59-IXRe2   L2   Ethernet20         P2P               UP    26          00                  
 ```
 
 ## show segment-routing ipv6 locator
@@ -180,7 +180,7 @@ BGP summary information for VRF default
 Router identifier 100.0.0.161, local AS number 1
 Neighbor Status Codes: m - Under maintenance
   Neighbor  V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
-  2002::353 4 1                101        43    0    0 00:26:15 Estab   0      0
+  2002::353 4 1                122        48    0    0 00:30:11 Estab   0      0
 ```
 
 ## show bgp evpn route-type ip-prefix ipv4 detail
@@ -222,7 +222,7 @@ Type 'SRv6 Transport', index 15, endpoint fcbb:0:1199::/48, forwarding None
 Type 'SRv6 Transport', index 16, endpoint fcbb:0:1162::/48, forwarding None
    via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
 
-Type 'SRv6 Transport', index 17, endpoint fcbb:0:338::/48, forwarding None
+Type 'SRv6 Transport', index 19, endpoint fcbb:0:1338::/48, forwarding None
    via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
    via fe80::fa7a:41ff:fe18:8910, 'Ethernet10' SRv6, source 2002::161
 ```
@@ -232,7 +232,7 @@ Type 'SRv6 Transport', index 17, endpoint fcbb:0:338::/48, forwarding None
 ```text
 BGP routing table information for VRF default
 Router identifier 100.0.0.161, local AS number 1
-BGP routing table entry for IPv4 prefix 20.162.225.0/24, Route Distinguisher: 1:161
+BGP routing table entry for IPv4 prefix 20.161.225.0/24, Route Distinguisher: 1:161
  Paths: 1 available
   Local
     2002::161 from - (0.0.0.0)
