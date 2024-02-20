@@ -1,4 +1,4 @@
  
 Instance  VRF      System Id        Type Interface          SNPA              State Hold time   Circuit Id          
-srv6      default  JNPR-302-MX204   L1   Ethernet10         P2P               UP    26          01                  
-srv6      default  0000.0000.0344   L1   Ethernet20         P2P               INIT  26          00                  
+srv6      default  JNPR-302-MX204   L1   Ethernet10         P2P               UP    23          01                  
+srv6      default  h344-N57B1       L1   Ethernet20         P2P               UP    24          00                  

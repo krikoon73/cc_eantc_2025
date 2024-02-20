@@ -16,9 +16,9 @@ Internal build ID: 6aa1c3ff-36f3-4f04-af26-9fc35d05e1eb
 Image format version: 3.0
 Image optimization: Default
 
-Uptime: 15 hours and 57 minutes
+Uptime: 16 hours and 59 minutes
 Total memory: 8099732 kB
-Free memory: 5187620 kB
+Free memory: 5177820 kB
 
 ```
 
@@ -36,7 +36,7 @@ Et7               notconnect   1        full   25G    Not Present
 Et8               notconnect   1        full   25G    Not Present                    
 Et9               notconnect   1        full   25G    Not Present                    
 Et10              connected    routed   full   10G    10GBASE-SR                     
-Et11              notconnect   1        full   25G    Not Present                    
+Et11              connected    1        full   10G    10GBASE-LR                     
 Et12              notconnect   1        full   25G    Not Present                    
 Et13              notconnect   1        full   25G    Not Present                    
 Et14              notconnect   1        full   25G    Not Present                    
@@ -45,7 +45,7 @@ Et16              notconnect   1        full   25G    Not Present
 Et17              notconnect   1        full   25G    Not Present                    
 Et18              notconnect   1        full   25G    Not Present                    
 Et19              notconnect   1        full   25G    Not Present                    
-Et20              connected    routed   full   10G    10GBASE-SRL                    
+Et20              notconnect   routed   full   10G    10GBASE-SRL                    
 Et21              notconnect   1        full   25G    Not Present                    
 Et22              notconnect   1        full   25G    Not Present                    
 Et23              notconnect   1        full   25G    Not Present                    
@@ -79,9 +79,9 @@ Ma1               connected    routed   a-full a-1G   10/100/1000
 ## show lldp neighbors
 
 ```text
-Last table change time   : 0:22:04 ago
-Number of table inserts  : 8
-Number of table deletes  : 2
+Last table change time   : 0:16:18 ago
+Number of table inserts  : 10
+Number of table deletes  : 4
 Number of table drops    : 0
 Number of table age-outs : 0
 
@@ -89,7 +89,7 @@ Port          Neighbor Device ID               Neighbor Port ID    TTL
 ---------- -------------------------------- ---------------------- ---
 Et5           Harness3-J-175.ns.eantc.de       Ethernet3           120
 Et10          h342-9902                        TenGigE0/0/0/12     120
-Et20          Nokia-59-IXRe2                   1610899777          121
+Et11          JNPR-398-QFX5120                 546                 120
 Et39          PE42-J2-162.ns.eantc.de          Ethernet39          120
 Et40          PE42-J2-162.ns.eantc.de          Ethernet40          120
 Ma1           extreme-x460-1                   42                  120
@@ -101,7 +101,6 @@ Ma1           extreme-x460-1                   42                  120
 ```text
  
 Instance  VRF      System Id        Type Interface          SNPA              State Hold time   Circuit Id          
-srv6      default  h342-9902        L2   Ethernet10         P2P               INIT  23          00                  
-srv6      default  Nokia-59-IXRe2   L2   Ethernet20         P2P               UP    20          00                  
+srv6      default  h342-9902        L2   Ethernet10         P2P               UP    27          00                  
 ```
 

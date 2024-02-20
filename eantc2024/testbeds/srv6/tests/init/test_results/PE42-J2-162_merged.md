@@ -16,9 +16,9 @@ Internal build ID: 6aa1c3ff-36f3-4f04-af26-9fc35d05e1eb
 Image format version: 3.0
 Image optimization: Default
 
-Uptime: 15 hours and 45 minutes
+Uptime: 16 hours and 48 minutes
 Total memory: 8099732 kB
-Free memory: 5192556 kB
+Free memory: 5180960 kB
 
 ```
 
@@ -37,7 +37,7 @@ Et8               notconnect   1        full   25G    Not Present
 Et9               notconnect   1        full   25G    Not Present                    
 Et10              connected    routed   full   10G    10GBASE-SRL                    
 Et11              notconnect   1        full   25G    Not Present                    
-Et12              notconnect   1        full   25G    Not Present                    
+Et12              connected    1        full   10G    10GBASE-LR                     
 Et13              notconnect   1        full   25G    Not Present                    
 Et14              notconnect   1        full   25G    Not Present                    
 Et15              notconnect   1        full   25G    Not Present                    
@@ -79,8 +79,8 @@ Ma1               connected    routed   a-full a-1G   10/100/1000
 ## show lldp neighbors
 
 ```text
-Last table change time   : 0:22:01 ago
-Number of table inserts  : 6
+Last table change time   : 0:19:09 ago
+Number of table inserts  : 7
 Number of table deletes  : 1
 Number of table drops    : 0
 Number of table age-outs : 0
@@ -88,6 +88,7 @@ Number of table age-outs : 0
 Port          Neighbor Device ID            Neighbor Port ID    TTL
 ---------- ----------------------------- ---------------------- ---
 Et10          JNPR-302-MX204                564                 120
+Et12          JNPR-398-QFX5120              548                 120
 Et20          h344-N57B1                    TenGigE0/0/0/0/0    120
 Et39          PE41-J2-161.ns.eantc.de       Ethernet39          120
 Et40          PE41-J2-161.ns.eantc.de       Ethernet40          120
@@ -100,7 +101,7 @@ Ma1           extreme-x460-1                22                  120
 ```text
  
 Instance  VRF      System Id        Type Interface          SNPA              State Hold time   Circuit Id          
-srv6      default  JNPR-302-MX204   L1   Ethernet10         P2P               UP    26          01                  
-srv6      default  0000.0000.0344   L1   Ethernet20         P2P               INIT  26          00                  
+srv6      default  JNPR-302-MX204   L1   Ethernet10         P2P               UP    23          01                  
+srv6      default  h344-N57B1       L1   Ethernet20         P2P               UP    24          00                  
 ```
 
