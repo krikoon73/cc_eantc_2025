@@ -1,3 +1,4 @@
 show version
 show interfaces status
 show lldp neighbors
+show isis neighbors
