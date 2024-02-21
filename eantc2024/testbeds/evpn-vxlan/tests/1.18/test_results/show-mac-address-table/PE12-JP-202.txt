@@ -1,0 +1,55 @@
+          Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports      Moves   Last Move
+----    -----------       ----        -----      -----   ---------
+1201    0013.0100.0001    DYNAMIC     Po100      1       0:00:31 ago
+1201    00aa.aaaa.aaaa    STATIC      Router
+1201    444c.a873.5c75    DYNAMIC     Po100      1       0:01:57 ago
+1201    7483.ef0b.a4fb    STATIC      Router
+1301    0013.0100.0002    DYNAMIC     Po100      2       0:04:46 ago
+1301    0014.0100.0002    DYNAMIC     Vx1        1       0:26:56 ago
+1301    0015.0100.0002    DYNAMIC     Vx1        1       0:35:00 ago
+1301    0016.0100.0002    DYNAMIC     Vx1        1       23:09:58 ago
+1301    0017.0100.0002    DYNAMIC     Vx1        1       23:09:58 ago
+1301    0018.0100.0002    DYNAMIC     Vx1        1       23:09:58 ago
+1301    0019.0100.0002    DYNAMIC     Vx1        2       0:30:30 ago
+1301    0056.5656.5656    STATIC      Vx1
+1301    00aa.aaaa.aaaa    STATIC      Router
+1301    444c.a873.5c75    DYNAMIC     Po100      1       0:01:57 ago
+1301    7483.ef0b.a4fb    STATIC      Router
+1302    0013.0100.0003    DYNAMIC     Po100      2       0:04:46 ago
+1302    0014.0100.0003    DYNAMIC     Vx1        1       0:26:56 ago
+1302    0015.0100.0003    DYNAMIC     Vx1        1       0:35:00 ago
+1302    0016.0100.0003    DYNAMIC     Vx1        1       23:09:58 ago
+1302    0017.0100.0003    DYNAMIC     Vx1        1       23:09:58 ago
+1302    0018.0100.0003    DYNAMIC     Vx1        1       23:09:58 ago
+1302    0019.0100.0003    DYNAMIC     Vx1        1       0:26:56 ago
+1302    0056.5656.5656    STATIC      Vx1
+1302    00aa.aaaa.aaaa    STATIC      Router
+1302    444c.a873.5c75    DYNAMIC     Po100      1       0:00:31 ago
+1302    7483.ef0b.a4fb    STATIC      Router
+1303    0013.0100.0004    DYNAMIC     Po100      2       0:04:46 ago
+1303    0015.0100.0004    DYNAMIC     Vx1        1       0:10:00 ago
+1303    0019.0100.0004    DYNAMIC     Vx1        2       0:30:30 ago
+1303    0056.5656.5656    STATIC      Vx1
+1303    00aa.aaaa.aaaa    STATIC      Router
+1303    444c.a873.5c75    DYNAMIC     Po100      1       0:01:14 ago
+1303    7483.ef0b.a4fb    STATIC      Router
+1304    0013.0100.0005    DYNAMIC     Po100      2       0:04:46 ago
+1304    0015.0100.0005    DYNAMIC     Vx1        1       0:09:29 ago
+1304    0019.0100.0005    DYNAMIC     Vx1        1       0:26:56 ago
+1304    0056.5656.5656    STATIC      Vx1
+1304    00aa.aaaa.aaaa    STATIC      Router
+1304    444c.a873.5c75    DYNAMIC     Po100      1       0:00:31 ago
+1304    7483.ef0b.a4fb    STATIC      Router
+4094    00aa.aaaa.aaaa    STATIC      Router
+4094    7483.ef0b.a4fb    STATIC      Router
+Total Mac Addresses for this criterion: 42
+
+          Multicast Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       ----        -----
+Total Mac Addresses for this criterion: 0
