@@ -1,0 +1,2 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.161, local AS number 1
