@@ -111,8 +111,8 @@ def interpreter():
         help='Do not recover configs, use Nornir dry run to check the diff.'
     )
     parser.add_argument(
-        '-tar', '--tar', default='',
-        help='Create tar archive of a directory.'
+        '-tar', '--tar', action='store_true', default=False,
+        help='Create tar archive.'
     )
     argcomplete.autocomplete(parser)
     args = parser.parse_args()
@@ -143,11 +143,6 @@ def interpreter():
         result = nr.run(task=recover_config, cfg_dir=args.recover, dry_run=args.no_dry_run)
         if result.failed:
             print(f'ERROR: Failed to recover config on: {[k for k in result.failed_hosts.keys()]}')
-    if args.tar:
-        if not os.path.isdir(args.tar):
-            sys.exit(f'ERROR: {args.tar} directory does not exist! Must be a full path!')
-        with tarfile.open(f'.gitignored/{os.path.basename(args.tar)}.tar.gz', "w:gz") as tar:
-            tar.add(args.tar, arcname=os.path.basename(args.tar))
     else:
 
         # build time stamp if required
@@ -209,3 +204,8 @@ def interpreter():
             result = nr.run(task=run_a_command_list, cmds_and_dirnames=cmd_list_with_dirnames)
             if result.failed:
                 print(f'ERROR: Failed to collect show commands from the following hosts: {[k for k in result.failed_hosts.keys()]}')
+
+            # create tar.gz if required
+            if args.tar:
+                with tarfile.open(f'{sub_dir}.tar.gz', "w:gz") as tar:
+                    tar.add(sub_dir, arcname=os.path.basename(sub_dir))
