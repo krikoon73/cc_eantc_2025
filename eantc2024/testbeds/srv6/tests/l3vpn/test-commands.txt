@@ -23,3 +23,5 @@ show interfaces
 show interfaces counters rates
 show bgp neighbors 2002::353 vpn-ipv4 received-routes
 show bgp neighbors 2002::353 vpn-ipv4 received-routes detail
+show bgp neighbors 2002::353 vpn-ipv6 received-routes
+show bgp neighbors 2002::353 vpn-ipv6 received-routes detail

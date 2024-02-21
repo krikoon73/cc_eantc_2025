@@ -1,0 +1,9 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.162, local AS number 1
+BGP routing table entry for IPv6 prefix 2001:20:162:225::/64, Route Distinguisher: 1:1162
+ Paths: 1 available
+  Local
+    2002::162 from - (0.0.0.0)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, local, best, redistributed (Connected)
+      Extended Community: Route-Target-AS:1:20
+      Local SRv6 SID (VRF SID): fcbb:0:1162:401::/64, End.DT6 with NEXT-CSID

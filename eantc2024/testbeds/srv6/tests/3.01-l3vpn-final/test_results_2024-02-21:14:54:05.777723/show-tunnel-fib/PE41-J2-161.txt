@@ -1,0 +1,60 @@
+
+Type 'SRv6 Transport', index 102, endpoint fcbb:0:1344::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 105, endpoint fcbb:0:336::/48, forwarding None
+   via fe80::fa7a:41ff:fe18:8910, 'Ethernet10' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 106, endpoint fcbb:0:59::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 108, endpoint fcbb:0:352::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 112, endpoint fcbb:0:342::/48, forwarding None
+   via fe80::fa7a:41ff:fe18:8910, 'Ethernet10' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 116, endpoint fcbb:0:1353::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 117, endpoint fcbb:0:36::/48, forwarding None
+   via fe80::fa7a:41ff:fe18:8910, 'Ethernet10' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 118, endpoint fcbb:0:20::/48, forwarding None
+   via fe80::fa7a:41ff:fe18:8910, 'Ethernet10' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 129, endpoint fcbb:0:28::/48, forwarding None
+   via fe80::fa7a:41ff:fe18:8910, 'Ethernet10' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 137, endpoint fcbb:0:1338::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 138, endpoint fcbb:0:1029::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 139, endpoint fcbb:0:1199::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 143, endpoint fcbb:0:1058::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 144, endpoint fcbb:0:1310::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 145, endpoint fcbb:0:307::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 147, endpoint fcbb:0:419::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 148, endpoint fcbb:0:1011::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 152, endpoint fcbb:0:316::/48, forwarding None
+   via fe80::fa7a:41ff:fe18:8910, 'Ethernet10' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 162, endpoint fcbb:0:1302::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 163, endpoint fcbb:0:1162::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
