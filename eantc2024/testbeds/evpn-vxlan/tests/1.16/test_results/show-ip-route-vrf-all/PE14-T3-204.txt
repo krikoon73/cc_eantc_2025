@@ -1,0 +1,155 @@
+
+VRF: default
+Codes: C - connected, S - static, K - kernel, 
+       O - OSPF, IA - OSPF inter area, E1 - OSPF external type 1,
+       E2 - OSPF external type 2, N1 - OSPF NSSA external type 1,
+       N2 - OSPF NSSA external type2, B - Other BGP Routes,
+       B I - iBGP, B E - eBGP, R - RIP, I L1 - IS-IS level 1,
+       I L2 - IS-IS level 2, O3 - OSPFv3, A B - BGP Aggregate,
+       A O - OSPF Summary, NG - Nexthop Group Static Route,
+       V - VXLAN Control Service, M - Martian,
+       DH - DHCP client installed default route,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+Gateway of last resort is not set
+
+ B E      20.22.200.0/24 [20/0] via 20.200.204.200, Ethernet1
+ B E      20.23.200.0/24 [20/0] via 20.200.204.200, Ethernet1
+ B E      20.40.200.0/24 [20/0] via 20.200.204.200, Ethernet1
+ B E      20.42.200.0/24 [20/0] via 20.200.204.200, Ethernet1
+ B E      20.44.200.0/24 [20/0] via 20.200.204.200, Ethernet1
+ B E      20.45.200.0/24 [20/0] via 20.200.204.200, Ethernet1
+ B E      20.46.200.0/24 [20/0] via 20.200.204.200, Ethernet1
+ B E      20.56.200.0/24 [20/0] via 20.200.204.200, Ethernet1
+ B E      20.103.200.0/24 [20/0] via 20.200.204.200, Ethernet1
+ B E      20.200.201.0/24 [20/0] via 20.200.204.200, Ethernet1
+ B E      20.200.202.0/24 [20/0] via 20.200.204.200, Ethernet1
+ B E      20.200.203.0/24 [20/0] via 20.200.204.200, Ethernet1
+ C        20.200.204.0/24 is directly connected, Ethernet1
+ B E      100.0.0.22/32 [20/0] via 20.200.204.200, Ethernet1
+ B E      100.0.0.23/32 [20/0] via 20.200.204.200, Ethernet1
+ B E      100.0.0.40/32 [20/0] via 20.200.204.200, Ethernet1
+ B E      100.0.0.41/32 [20/0] via 20.200.204.200, Ethernet1
+ B E      100.0.0.42/32 [20/0] via 20.200.204.200, Ethernet1
+ B E      100.0.0.44/32 [20/0] via 20.200.204.200, Ethernet1
+ B E      100.0.0.45/32 [20/0] via 20.200.204.200, Ethernet1
+ B E      100.0.0.46/32 [20/0] via 20.200.204.200, Ethernet1
+ B E      100.0.0.56/32 [20/0] via 20.200.204.200, Ethernet1
+ B E      100.0.0.103/32 [20/0] via 20.200.204.200, Ethernet1
+ B E      100.0.0.200/32 [20/0] via 20.200.204.200, Ethernet1
+ B E      100.0.0.201/32 [20/0] via 20.200.204.200, Ethernet1
+ B E      100.0.0.202/32 [20/0] via 20.200.204.200, Ethernet1
+ B E      100.0.0.203/32 [20/0] via 20.200.204.200, Ethernet1
+ C        100.0.0.204/32 is directly connected, Loopback0
+
+
+VRF: mgmt
+Codes: C - connected, S - static, K - kernel, 
+       O - OSPF, IA - OSPF inter area, E1 - OSPF external type 1,
+       E2 - OSPF external type 2, N1 - OSPF NSSA external type 1,
+       N2 - OSPF NSSA external type2, B - Other BGP Routes,
+       B I - iBGP, B E - eBGP, R - RIP, I L1 - IS-IS level 1,
+       I L2 - IS-IS level 2, O3 - OSPFv3, A B - BGP Aggregate,
+       A O - OSPF Summary, NG - Nexthop Group Static Route,
+       V - VXLAN Control Service, M - Martian,
+       DH - DHCP client installed default route,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+Gateway of last resort:
+ S        0.0.0.0/0 [1/0] via 192.168.20.1, Management1
+
+ C        192.168.20.0/23 is directly connected, Management1
+
+
+VRF: tenant-a
+Codes: C - connected, S - static, K - kernel, 
+       O - OSPF, IA - OSPF inter area, E1 - OSPF external type 1,
+       E2 - OSPF external type 2, N1 - OSPF NSSA external type 1,
+       N2 - OSPF NSSA external type2, B - Other BGP Routes,
+       B I - iBGP, B E - eBGP, R - RIP, I L1 - IS-IS level 1,
+       I L2 - IS-IS level 2, O3 - OSPFv3, A B - BGP Aggregate,
+       A O - OSPF Summary, NG - Nexthop Group Static Route,
+       V - VXLAN Control Service, M - Martian,
+       DH - DHCP client installed default route,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+Gateway of last resort is not set
+
+ B E      10.10.10.103/32 [20/0] via VTEP 100.0.0.103 VNI 1000 router-mac 00:01:02:00:00:01
+ B E      10.10.22.22/32 [20/0] via VTEP 100.0.0.23 VNI 1000 router-mac c4:07:78:0a:77:7d
+ B E      10.10.22.254/32 [20/0] via VTEP 100.0.0.23 VNI 1000 router-mac c4:07:78:0a:77:7d
+                                 via VTEP 100.0.0.22 VNI 1000 router-mac c4:07:78:0a:9f:31
+ B E      10.10.22.0/24 [20/0] via VTEP 100.0.0.23 VNI 1000 router-mac c4:07:78:0a:77:7d
+                               via VTEP 100.0.0.22 VNI 1000 router-mac c4:07:78:0a:9f:31
+ B E      10.10.40.25/32 [20/0] via VTEP 100.0.0.40 VNI 1000 router-mac 24:6c:84:74:8d:db
+ B E      10.10.40.40/32 [20/0] via VTEP 100.0.0.40 VNI 1000 router-mac 24:6c:84:74:8d:db
+ B E      10.10.40.0/24 [20/0] via VTEP 100.0.0.40 VNI 1000 router-mac 24:6c:84:74:8d:db
+ B E      10.10.42.25/32 [20/0] via VTEP 100.0.0.42 VNI 1000 router-mac 40:14:82:7b:84:ab
+ B E      10.10.42.42/32 [20/0] via VTEP 100.0.0.42 VNI 1000 router-mac 40:14:82:7b:84:ab
+ B E      10.10.42.0/24 [20/0] via VTEP 100.0.0.42 VNI 1000 router-mac 40:14:82:7b:84:ab
+ B E      10.10.45.25/32 [20/0] via VTEP 100.0.0.41 VNI 1000 router-mac 6c:31:0e:7b:8b:87
+                                via VTEP 100.0.0.41 VNI 1000 router-mac 6c:31:0e:b7:50:5f
+ B E      10.10.45.45/32 [20/0] via VTEP 100.0.0.41 VNI 1000 router-mac 6c:31:0e:7b:8b:87
+                                via VTEP 100.0.0.41 VNI 1000 router-mac 6c:31:0e:b7:50:5f
+ B E      10.10.45.0/24 [20/0] via VTEP 100.0.0.41 VNI 1000 router-mac 6c:31:0e:7b:8b:87
+                               via VTEP 100.0.0.41 VNI 1000 router-mac 6c:31:0e:b7:50:5f
+ B E      10.10.56.56/32 [20/0] via VTEP 100.0.0.56 VNI 1000 router-mac 00:01:00:00:00:56
+ B E      10.10.56.0/24 [20/0] via VTEP 100.0.0.56 VNI 1000 router-mac 00:01:00:00:00:56
+ B E      10.10.201.201/32 [20/0] via VTEP 100.0.0.201 VNI 1000 router-mac 28:99:3a:8f:8f:6f
+                                  via VTEP 100.0.0.202 VNI 1000 router-mac 74:83:ef:0b:a4:fb
+ B E      10.10.201.202/32 [20/0] via VTEP 100.0.0.201 VNI 1000 router-mac 28:99:3a:8f:8f:6f
+                                  via VTEP 100.0.0.202 VNI 1000 router-mac 74:83:ef:0b:a4:fb
+ B E      10.10.201.0/24 [20/0] via VTEP 100.0.0.201 VNI 1000 router-mac 28:99:3a:8f:8f:6f
+                                via VTEP 100.0.0.202 VNI 1000 router-mac 74:83:ef:0b:a4:fb
+ B E      10.10.203.0/24 [20/0] via VTEP 100.0.0.203 VNI 1000 router-mac 38:38:a6:21:e8:2f
+ B E      10.30.1.22/32 [20/0] via VTEP 100.0.0.22 VNI 1000 router-mac c4:07:78:0a:9f:31
+ B E      10.30.1.40/32 [20/0] via VTEP 100.0.0.40 VNI 1000 router-mac 24:6c:84:74:8d:db
+ B E      10.30.1.42/32 [20/0] via VTEP 100.0.0.42 VNI 1000 router-mac 40:14:82:7b:84:ab
+ B E      10.30.1.45/32 [20/0] via VTEP 100.0.0.41 VNI 1000 router-mac 6c:31:0e:7b:8b:87
+                               via VTEP 100.0.0.41 VNI 1000 router-mac 6c:31:0e:b7:50:5f
+ B E      10.30.1.56/32 [20/0] via VTEP 100.0.0.56 VNI 1000 router-mac 00:01:00:00:00:56
+ B E      10.30.1.103/32 [20/0] via VTEP 100.0.0.103 VNI 1000 router-mac 00:01:02:00:00:01
+ B E      10.30.1.201/32 [20/0] via VTEP 100.0.0.201 VNI 1000 router-mac 28:99:3a:8f:8f:6f
+                                via VTEP 100.0.0.202 VNI 1000 router-mac 74:83:ef:0b:a4:fb
+ B E      10.30.1.202/32 [20/0] via VTEP 100.0.0.201 VNI 1000 router-mac 28:99:3a:8f:8f:6f
+                                via VTEP 100.0.0.202 VNI 1000 router-mac 74:83:ef:0b:a4:fb
+ C        10.30.1.0/24 is directly connected, Vlan1301
+ B E      10.30.2.22/32 [20/0] via VTEP 100.0.0.23 VNI 1000 router-mac c4:07:78:0a:77:7d
+ B E      10.30.2.40/32 [20/0] via VTEP 100.0.0.40 VNI 1000 router-mac 24:6c:84:74:8d:db
+ B E      10.30.2.42/32 [20/0] via VTEP 100.0.0.42 VNI 1000 router-mac 40:14:82:7b:84:ab
+ B E      10.30.2.45/32 [20/0] via VTEP 100.0.0.41 VNI 1000 router-mac 6c:31:0e:7b:8b:87
+                               via VTEP 100.0.0.41 VNI 1000 router-mac 6c:31:0e:b7:50:5f
+ B E      10.30.2.56/32 [20/0] via VTEP 100.0.0.56 VNI 1000 router-mac 00:01:00:00:00:56
+ B E      10.30.2.103/32 [20/0] via VTEP 100.0.0.103 VNI 1000 router-mac 00:01:02:00:00:01
+ B E      10.30.2.201/32 [20/0] via VTEP 100.0.0.201 VNI 1000 router-mac 28:99:3a:8f:8f:6f
+                                via VTEP 100.0.0.202 VNI 1000 router-mac 74:83:ef:0b:a4:fb
+ B E      10.30.2.202/32 [20/0] via VTEP 100.0.0.201 VNI 1000 router-mac 28:99:3a:8f:8f:6f
+                                via VTEP 100.0.0.202 VNI 1000 router-mac 74:83:ef:0b:a4:fb
+ C        10.30.2.0/24 is directly connected, Vlan1302
+ B E      10.30.3.22/32 [20/0] via VTEP 100.0.0.22 VNI 1000 router-mac c4:07:78:0a:9f:31
+ B E      10.30.3.56/32 [20/0] via VTEP 100.0.0.56 VNI 1000 router-mac 00:01:00:00:00:56
+ B E      10.30.3.103/32 [20/0] via VTEP 100.0.0.103 VNI 1000 router-mac 00:01:02:00:00:01
+ B E      10.30.3.201/32 [20/0] via VTEP 100.0.0.201 VNI 1000 router-mac 28:99:3a:8f:8f:6f
+                                via VTEP 100.0.0.202 VNI 1000 router-mac 74:83:ef:0b:a4:fb
+ B E      10.30.3.202/32 [20/0] via VTEP 100.0.0.201 VNI 1000 router-mac 28:99:3a:8f:8f:6f
+                                via VTEP 100.0.0.202 VNI 1000 router-mac 74:83:ef:0b:a4:fb
+ C        10.30.3.0/24 is directly connected, Vlan1303
+ B E      10.30.4.22/32 [20/0] via VTEP 100.0.0.23 VNI 1000 router-mac c4:07:78:0a:77:7d
+ B E      10.30.4.56/32 [20/0] via VTEP 100.0.0.56 VNI 1000 router-mac 00:01:00:00:00:56
+ B E      10.30.4.103/32 [20/0] via VTEP 100.0.0.103 VNI 1000 router-mac 00:01:02:00:00:01
+ B E      10.30.4.201/32 [20/0] via VTEP 100.0.0.201 VNI 1000 router-mac 28:99:3a:8f:8f:6f
+                                via VTEP 100.0.0.202 VNI 1000 router-mac 74:83:ef:0b:a4:fb
+ B E      10.30.4.202/32 [20/0] via VTEP 100.0.0.201 VNI 1000 router-mac 28:99:3a:8f:8f:6f
+                                via VTEP 100.0.0.202 VNI 1000 router-mac 74:83:ef:0b:a4:fb
+ C        10.30.4.0/24 is directly connected, Vlan1304
+ B E      100.0.1.201/32 [20/0] via VTEP 100.0.0.201 VNI 1000 router-mac 28:99:3a:8f:8f:6f
+ B E      100.0.1.202/32 [20/0] via VTEP 100.0.0.202 VNI 1000 router-mac 74:83:ef:0b:a4:fb
+ B E      100.0.1.203/32 [20/0] via VTEP 100.0.0.203 VNI 1000 router-mac 38:38:a6:21:e8:2f
+ C        100.0.1.204/32 is directly connected, Loopback100
+

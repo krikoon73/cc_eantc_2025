@@ -1,0 +1,90 @@
+
+VRF: 1201
+Address         Age (sec)  Hardware Addr   Interface
+10.10.201.254     1:02:44  00aa.aaaa.aaaa  Vlan1201, Ethernet48
+
+VRF: 1203
+Address         Age (sec)  Hardware Addr   Interface
+10.10.203.254     0:53:48  00aa.aaaa.aaaa  Vlan1203, not learned
+
+VRF: 1301
+Address         Age (sec)  Hardware Addr   Interface
+10.30.1.254       0:37:02  00aa.aaaa.aaaa  Vlan1301, Ethernet48
+
+VRF: 1301-201
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1301-203
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1302
+Address         Age (sec)  Hardware Addr   Interface
+10.30.2.254       0:37:02  00aa.aaaa.aaaa  Vlan1302, Ethernet48
+
+VRF: 1302-201
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1302-203
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1303
+Address         Age (sec)  Hardware Addr   Interface
+10.30.3.254       0:37:02  00aa.aaaa.aaaa  Vlan1303, Ethernet48
+
+VRF: 1303-201
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1303-203
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1304
+Address         Age (sec)  Hardware Addr   Interface
+10.30.4.254       0:37:02  00aa.aaaa.aaaa  Vlan1304, Ethernet48
+
+VRF: 1304-201
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1304-203
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 201
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 203
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: default
+Address         Age (sec)  Hardware Addr   Interface
+20.200.201.201    0:00:19  2899.3a8f.8f6f  Ethernet1
+20.200.202.202    0:00:04  7483.ef0b.a4fb  Ethernet2
+20.200.203.203    0:00:04  3838.a621.e82f  Ethernet3
+20.200.204.204    0:00:25  985d.82a2.04f9  Ethernet4
+20.56.200.56      0:00:11  407c.7dc4.ab9d  Ethernet11
+20.103.200.103    0:00:18  001a.0100.0001  Ethernet12
+20.45.200.45      0:00:46  6c31.0e7b.8b87  Ethernet13
+20.46.200.46      0:00:27  6c31.0eb7.505f  Ethernet14
+20.40.200.40      0:00:02  246c.8474.8ddb  Ethernet15
+20.42.200.42      0:00:27  4014.827b.84ab  Ethernet16
+20.44.200.40      0:00:05  5c5a.c773.4abb  Ethernet17
+20.23.200.23      0:00:27  c407.780a.777d  Ethernet25
+20.22.200.22      0:00:15  c407.780a.9f31  Ethernet26
+
+VRF: mgmt
+Address         Age (sec)  Hardware Addr   Interface
+192.168.20.1      0:00:00  90e2.bac7.8074  Management1
+192.168.20.2      0:00:16  bcea.fa02.6ce2  Management1
+192.168.20.18     0:01:41  e484.29cd.e801  Management1
+192.168.20.19     0:03:06  c407.7858.8001  Management1
+192.168.20.20     0:04:44  e484.29d0.4001  Management1
+192.168.20.21     0:01:53  7081.85c1.b801  Management1
+192.168.20.22     0:00:16  c407.780a.9f04  Management1
+192.168.20.23     0:04:13  c407.780a.7750  Management1
+192.168.20.24     0:01:41  6c87.2089.ede5  Management1
+192.168.20.25     0:01:35  6c87.2089.ece5  Management1
+192.168.20.28     0:02:48  98a9.2d59.bae6  Management1
+192.168.20.52     0:01:17  f83e.95dc.1289  Management1
+192.168.21.50     0:03:37  a84f.b1a5.5221  Management1
+192.168.21.59     0:03:00  6607.f5d1.ae16  Management1
+
+VRF: red
+Address         Age (sec)  Hardware Addr   Interface
