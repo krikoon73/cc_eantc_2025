@@ -1,0 +1,5 @@
+SRv6 configuration for VRF default
+Administrative status: enabled
+Operational status: enabled
+Encapsulation source address: 2002::162
+Number of configured locators: 1
