@@ -1,0 +1,37 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.162, local AS number 1
+Route status codes: s - suppressed contributor, * - valid, > - active, E - ECMP head, e - ECMP
+                    S - Stale, c - Contributing to ECMP, b - backup, L - labeled-unicast
+                    % - Pending best path selection
+Origin codes: i - IGP, e - EGP, ? - incomplete
+AS Path Attributes: Or-ID - Originator ID, C-LST - Cluster List, LL Nexthop - Link Local Nexthop
+
+          Network                Next Hop              Metric  LocPref Weight  Path
+   %      RD: 1:419 IPv6 prefix 2001:0:419:419::/64
+                                 2002::419             -       0       0       i Or-ID: 192.0.0.1 C-LST: 100.0.0.53 
+   %      RD: 1:20 IPv6 prefix 2001:20:20:225::/64
+                                 2002::20              0       100     0       ? Or-ID: 10.0.0.20 C-LST: 100.0.0.53 
+ * >      RD: 1:28 IPv6 prefix 2001:20:28:225::/64
+                                 2002::28              0       100     0       ? Or-ID: 192.168.20.28 C-LST: 100.0.0.53 
+ * >      RD: 1:29 IPv6 prefix 2001:20:29:225::/64
+                                 2002::29              0       100     0       ? Or-ID: 192.168.20.29 C-LST: 100.0.0.53 
+   %      RD: 1:36 IPv6 prefix 2001:20:36:225::/64
+                                 2002::36              0       100     0       ? Or-ID: 192.168.20.36 C-LST: 100.0.0.53 
+   %      RD: 1:49 IPv6 prefix 2001:20:49:225::/64
+                                 2002::49              0       100     0       ? Or-ID: 10.0.0.49 C-LST: 100.0.0.53 
+   %      RD: 1:302 IPv6 prefix 2001:20:102:225::/64
+                                 2002::302             -       100     0       i Or-ID: 10.0.1.2 C-LST: 100.0.0.53 
+   %      RD: 1:307 IPv6 prefix 2001:20:107:225::/64
+                                 2002::307             -       100     0       i Or-ID: 10.0.1.7 C-LST: 100.0.0.53 
+   %      RD: 1:310 IPv6 prefix 2001:20:110:225::/64
+                                 2002::310             -       100     0       i Or-ID: 10.0.1.10 C-LST: 100.0.0.53 
+ * >      RD: 1:161 IPv6 prefix 2001:20:161:225::/64
+                                 2002::161             -       100     0       i Or-ID: 100.0.0.161 C-LST: 100.0.0.53 
+ * >      RD: 1:1162 IPv6 prefix 2001:20:162:225::/64
+                                 -                     -       -       0       i
+ * >      RD: 1:199 IPv6 prefix 2001:20:199:225::/64
+                                 2002::199             0       100     0       ? Or-ID: 20.49.199.199 C-LST: 100.0.0.53 
+ * >      RD: 1:336 IPv6 prefix 2001:20:336:225::/64
+                                 2002::336             -       100     0       ? Or-ID: 10.0.1.36 C-LST: 100.0.0.53 
+ * >      RD: 1:338 IPv6 prefix 2001:20:338:225::/64
+                                 2002::338             -       100     0       ? Or-ID: 10.0.1.38 C-LST: 100.0.0.53 

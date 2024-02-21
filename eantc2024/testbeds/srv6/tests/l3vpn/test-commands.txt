@@ -17,3 +17,9 @@ show bgp vpn-ipv6
 show ipv6 route
 show ip route vrf all
 show ipv6 route vrf all
+show isis database detail
+show isis segment-routing ipv6 locators
+show interfaces
+show interfaces counters rates
+show bgp neighbors 2002::353 vpn-ipv4 received-routes
+show bgp neighbors 2002::353 vpn-ipv4 received-routes detail
