@@ -1,0 +1,11 @@
+show interfaces status
+show lldp neighbors
+show isis neighbors
+show tunnel fib
+show bgp vpn-ipv4
+show bgp vpn-ipv4 detail
+show bgp vpn-ipv6
+show bgp vpn-ipv6 detail
+show ipv6 route vrf VPNv4-uSID
+show ip route vrf VPNv4-uSID
+show isis database detail

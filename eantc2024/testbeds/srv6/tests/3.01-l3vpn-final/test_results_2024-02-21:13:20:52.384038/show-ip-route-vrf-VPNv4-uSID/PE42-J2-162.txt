@@ -1,0 +1,80 @@
+
+VRF: VPNv4-uSID
+Codes: C - connected, S - static, K - kernel, 
+       O - OSPF, IA - OSPF inter area, E1 - OSPF external type 1,
+       E2 - OSPF external type 2, N1 - OSPF NSSA external type 1,
+       N2 - OSPF NSSA external type2, B - Other BGP Routes,
+       B I - iBGP, B E - eBGP, R - RIP, I L1 - IS-IS level 1,
+       I L2 - IS-IS level 2, O3 - OSPFv3, A B - BGP Aggregate,
+       A O - OSPF Summary, NG - Nexthop Group Static Route,
+       V - VXLAN Control Service, M - Martian,
+       DH - DHCP client installed default route,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+Gateway of last resort is not set
+
+ B I      20.11.225.0/24 [200/0]
+           via fcbb:0:1011::/48, SRv6 Transport tunnel index 198, SRv6 SID fcbb:0:1011:e001::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      20.20.225.0/24 [200/0]
+           via fcbb:0:20::/48, SRv6 Transport tunnel index 176, SRv6 SID fcbb:0:20:e100::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      20.28.225.0/24 [200/0]
+           via fcbb:0:28::/48, SRv6 Transport tunnel index 190, SRv6 SID fcbb:0:28:e100::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      20.29.225.0/24 [200/0]
+           via fcbb:0:1029::/48, SRv6 Transport tunnel index 189, SRv6 SID fcbb:0:1029:e100::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      20.36.225.0/24 [200/0]
+           via fcbb:0:36::/48, SRv6 Transport tunnel index 175, SRv6 SID fcbb:0:36:e13f::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      20.58.225.0/24 [200/0]
+           via fcbb:0:1058::/48, SRv6 Transport tunnel index 199, SRv6 SID fcbb:0:1058:e017::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      20.59.225.0/24 [200/0]
+           via fcbb:0:59::/48, SRv6 Transport tunnel index 170, SRv6 SID fcbb:0:59:e017::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      20.102.225.0/24 [200/0]
+           via fcbb:0:1302::/48, SRv6 Transport tunnel index 132, SRv6 SID fcbb:0:1302:e000::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      20.107.225.0/24 [200/0]
+           via fcbb:0:307::/48, SRv6 Transport tunnel index 201, SRv6 SID fcbb:0:307:e000::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      20.110.225.0/24 [200/0]
+           via fcbb:0:1310::/48, SRv6 Transport tunnel index 200, SRv6 SID fcbb:0:1310:e000::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      20.116.225.0/24 [200/0]
+           via fcbb:0:316::/48, SRv6 Transport tunnel index 202, SRv6 SID fcbb:0:316:e002::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      20.136.225.0/24 [200/0]
+           via fcbb:0:336::/48, SRv6 Transport tunnel index 169, SRv6 SID fcbb:0:336:e664::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      20.138.225.0/24 [200/0]
+           via fcbb:0:1338::/48, SRv6 Transport tunnel index 48, SRv6 SID fcbb:0:1338:e666::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      20.142.225.0/24 [200/0]
+           via fcbb:0:342::/48, SRv6 Transport tunnel index 171, SRv6 SID fcbb:0:342:e002::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      20.144.225.0/24 [200/0]
+           via fcbb:0:1344::/48, SRv6 Transport tunnel index 15, SRv6 SID fcbb:0:1344:e001::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      20.152.225.0/24 [200/0]
+           via fcbb:0:352::/48, SRv6 Transport tunnel index 165, SRv6 SID fcbb:0:352:e002::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      20.153.225.0/24 [200/0]
+           via fcbb:0:1353::/48, SRv6 Transport tunnel index 131, SRv6 SID fcbb:0:1353:e003::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      20.161.225.0/24 [200/0]
+           via fcbb:0:161::/48, SRv6 Transport tunnel index 172, SRv6 SID fcbb:0:161:400::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ C        20.162.225.0/24 [0/0]
+           via Vlan20, directly connected
+ B I      20.199.225.0/24 [200/0]
+           via fcbb:0:1199::/48, SRv6 Transport tunnel index 55, SRv6 SID fcbb:0:1199:e1b7::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      20.219.225.0/24 [200/0]
+           via fcbb:0:419::/48, SRv6 Transport tunnel index 194, SRv6 SID fcbb:0:419:e0b1::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+
