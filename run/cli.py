@@ -10,6 +10,7 @@ import os
 import sys
 import re
 from run.tools import time_stamp
+import tarfile
 
 
 def get_config(task: Task, cfg_dir: str) -> Result:
@@ -109,6 +110,10 @@ def interpreter():
         '-ndr', '--no_dry_run', action='store_false', default=True,
         help='Do not recover configs, use Nornir dry run to check the diff.'
     )
+    parser.add_argument(
+        '-tar', '--tar', default='',
+        help='Create tar archive of a directory.'
+    )
     argcomplete.autocomplete(parser)
     args = parser.parse_args()
 
@@ -138,6 +143,11 @@ def interpreter():
         result = nr.run(task=recover_config, cfg_dir=args.recover, dry_run=args.no_dry_run)
         if result.failed:
             print(f'ERROR: Failed to recover config on: {[k for k in result.failed_hosts.keys()]}')
+    if args.tar:
+        if not os.path.isdir(args.tar):
+            sys.exit(f'ERROR: {args.tar} directory does not exist! Must be a full path!')
+        with tarfile.open(f'.gitignored/{os.path.basename(args.tar)}.tar.gz', "w:gz") as tar:
+            tar.add(args.tar, arcname=os.path.basename(args.tar))
     else:
 
         # build time stamp if required
