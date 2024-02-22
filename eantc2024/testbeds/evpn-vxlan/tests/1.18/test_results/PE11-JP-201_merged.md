@@ -14,7 +14,7 @@ BGP summary information for VRF default
 Router identifier 100.0.0.201, local AS number 65201
 Neighbor Status Codes: m - Under maintenance
   Description              Neighbor       V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
-  ANET.IPV4                20.200.201.200 4 65000           1700      1632    0    0 23:11:56 Estab   27     27
+  ANET.IPV4                20.200.201.200 4 65000           2938      2850    0    0    1d16h Estab   27     27
 ```
 
 ## show bgp evpn summary
@@ -24,7 +24,7 @@ BGP summary information for VRF default
 Router identifier 100.0.0.201, local AS number 65201
 Neighbor Status Codes: m - Under maintenance
   Description              Neighbor    V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
-  ANET.EVPN                100.0.0.200 4 65000           3995      2645    0    0 23:11:52 Estab   197    197
+  ANET.EVPN                100.0.0.200 4 65000           9240      5657    0    0    1d16h Estab   193    193
 ```
 
 ## show bgp evpn route-type auto-discovery detail
@@ -32,7 +32,7 @@ Neighbor Status Codes: m - Under maintenance
 ```text
 BGP routing table information for VRF default
 Router identifier 100.0.0.201, local AS number 65201
-BGP routing table entry for auto-discovery 0000:0000:0000:0000:0000, Route Distinguisher: 100.0.0.103:60
+BGP routing table entry for auto-discovery 0000:0000:0000:0000:0000, Route Distinguisher: 100.0.0.103:20
  Paths: 1 available
   65000 65103
     100.0.0.103 from 100.0.0.200 (100.0.0.200)
@@ -815,6 +815,13 @@ BGP routing table entry for mac-ip 5c5a.c773.4abb 10.10.45.25, Route Distinguish
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1045:1045 Route-Origin-IP:100.0.0.41:0 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:6c:31:0e:b7:50:5f
       VNI: 1045 L3 VNI: 1000 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 1303 0013.0100.0004, Route Distinguisher: 100.0.0.201:1303
+ Paths: 1 available
+  Local
+    - from - (0.0.0.0)
+      Origin IGP, metric -, localpref -, weight 0, tag 0, valid, local, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1303 ESI: 0000:0000:0000:0201:0202
 BGP routing table entry for mac-ip 1303 0013.0100.0004, Route Distinguisher: 100.0.0.202:1303
  Paths: 1 available
   65000 65202
@@ -899,6 +906,13 @@ BGP routing table entry for mac-ip 1303 444c.a873.5c75 10.30.3.202, Route Distin
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnNdFlags:pflag
       VNI: 1303 ESI: 0000:0000:0000:0201:0202
+BGP routing table entry for mac-ip 1304 0013.0100.0005, Route Distinguisher: 100.0.0.201:1303
+ Paths: 1 available
+  Local
+    - from - (0.0.0.0)
+      Origin IGP, metric -, localpref -, weight 0, tag 0, valid, local, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1304 ESI: 0000:0000:0000:0201:0202
 BGP routing table entry for mac-ip 1304 0013.0100.0005, Route Distinguisher: 100.0.0.202:1303
  Paths: 1 available
   65000 65202
@@ -920,10 +934,10 @@ BGP routing table entry for mac-ip 1304 0013.0100.0005 10.30.4.201, Route Distin
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnNdFlags:pflag
       VNI: 1304 ESI: 0000:0000:0000:0201:0202
-BGP routing table entry for mac-ip 1304 0015.0100.0005, Route Distinguisher: 100.0.0.203:1303
+BGP routing table entry for mac-ip 1304 0015.0100.0005, Route Distinguisher: 100.0.0.204:1303
  Paths: 1 available
-  65000 65203
-    100.0.0.203 from 100.0.0.200 (100.0.0.200)
+  65000 65204
+    100.0.0.204 from 100.0.0.200 (100.0.0.200)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
       VNI: 1304 ESI: 0000:0000:0000:0203:0204
@@ -1126,12 +1140,20 @@ BGP routing table entry for imet 100.0.0.42, Route Distinguisher: 100.0.0.42:340
       Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan
       VNI: 1302
       PMSI Tunnel: Ingress Replication, MPLS Label: 1302, Leaf Information Required: false, Tunnel ID: 100.0.0.42
+BGP routing table entry for imet 100.0.0.56, Route Distinguisher: 100.0.0.56:1000
+ Paths: 1 available
+  65000 65056
+    100.0.0.56 from 100.0.0.200 (100.0.0.200)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan DF Election: Modulus-based Multicast Flags: OISM-supported, PEG, SBD
+      VNI: 1000
+      PMSI Tunnel: Ingress Replication, MPLS Label: 1000, Leaf Information Required: false, Tunnel ID: 100.0.0.56
 BGP routing table entry for imet 100.0.0.56, Route Distinguisher: 100.0.0.56:1056
  Paths: 1 available
   65000 65056
     100.0.0.56 from 100.0.0.200 (100.0.0.200)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1056:1056 TunnelEncap:tunnelTypeVxlan
+      Extended Community: Route-Target-AS:1056:1056 TunnelEncap:tunnelTypeVxlan Multicast Flags: OISM-supported
       VNI: 1056
       PMSI Tunnel: Ingress Replication, MPLS Label: 1056, Leaf Information Required: false, Tunnel ID: 100.0.0.56
 BGP routing table entry for imet 100.0.0.56, Route Distinguisher: 100.0.0.56:1301
@@ -1139,7 +1161,7 @@ BGP routing table entry for imet 100.0.0.56, Route Distinguisher: 100.0.0.56:130
   65000 65056
     100.0.0.56 from 100.0.0.200 (100.0.0.200)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan
+      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan Multicast Flags: OISM-supported
       VNI: 1301
       PMSI Tunnel: Ingress Replication, MPLS Label: 1301, Leaf Information Required: false, Tunnel ID: 100.0.0.56
 BGP routing table entry for imet 100.0.0.56, Route Distinguisher: 100.0.0.56:1302
@@ -1147,7 +1169,7 @@ BGP routing table entry for imet 100.0.0.56, Route Distinguisher: 100.0.0.56:130
   65000 65056
     100.0.0.56 from 100.0.0.200 (100.0.0.200)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan
+      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan Multicast Flags: OISM-supported
       VNI: 1302
       PMSI Tunnel: Ingress Replication, MPLS Label: 1302, Leaf Information Required: false, Tunnel ID: 100.0.0.56
 BGP routing table entry for imet 100.0.0.103, Route Distinguisher: 100.0.0.103:2
@@ -1267,7 +1289,7 @@ BGP routing table entry for imet 100.0.0.206, Route Distinguisher: 100.0.0.206:1
   65000 65206
     100.0.0.206 from 100.0.0.200 (100.0.0.200)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan DF Election: HRW Multicast Flags: IGMP proxy, OISM-supported, PEG, SBD
+      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan DF Election: Modulus-based Multicast Flags: IGMP proxy, OISM-supported, PEG, SBD
       VNI: 1000
       PMSI Tunnel: Ingress Replication, MPLS Label: 1000, Leaf Information Required: false, Tunnel ID: 100.0.0.206
 BGP routing table entry for imet 100.0.0.206, Route Distinguisher: 100.0.0.206:1301
@@ -1299,7 +1321,7 @@ BGP routing table entry for imet 1303 100.0.0.56, Route Distinguisher: 100.0.0.5
   65000 65056
     100.0.0.56 from 100.0.0.200 (100.0.0.200)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan Multicast Flags: OISM-supported
       VNI: 1303
       PMSI Tunnel: Ingress Replication, MPLS Label: 1303, Leaf Information Required: false, Tunnel ID: 100.0.0.56
 BGP routing table entry for imet 1303 100.0.0.103, Route Distinguisher: 100.0.0.103:4
@@ -1363,7 +1385,7 @@ BGP routing table entry for imet 1304 100.0.0.56, Route Distinguisher: 100.0.0.5
   65000 65056
     100.0.0.56 from 100.0.0.200 (100.0.0.200)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan Multicast Flags: OISM-supported
       VNI: 1304
       PMSI Tunnel: Ingress Replication, MPLS Label: 1304, Leaf Information Required: false, Tunnel ID: 100.0.0.56
 BGP routing table entry for imet 1304 100.0.0.103, Route Distinguisher: 100.0.0.103:5
@@ -1421,7 +1443,7 @@ BGP routing table entry for imet 1304 100.0.0.206, Route Distinguisher: 100.0.0.
 ```text
 BGP routing table information for VRF default
 Router identifier 100.0.0.201, local AS number 65201
-BGP routing table entry for ethernet-segment 0000:0000:0000:0000:0000 100.0.0.103, Route Distinguisher: 100.0.0.103:3
+BGP routing table entry for ethernet-segment 0000:0000:0000:0000:0000 100.0.0.103, Route Distinguisher: 100.0.0.103:1
  Paths: 1 available
   65000 65103
     100.0.0.103 from 100.0.0.200 (100.0.0.200)
@@ -1493,26 +1515,12 @@ BGP routing table entry for ip-prefix 10.10.56.0/24, Route Distinguisher: 100.0.
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:00:00:00:56
       VNI: 1000
-BGP routing table entry for ip-prefix 10.10.56.56/32, Route Distinguisher: 100.0.0.56:1000
+BGP routing table entry for ip-prefix 10.20.56.0/24, Route Distinguisher: 100.0.0.56:1000
  Paths: 1 available
   65000 65056
     100.0.0.56 from 100.0.0.200 (100.0.0.200)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:00:00:00:56
-      VNI: 1000
-BGP routing table entry for ip-prefix 10.10.56.202/32, Route Distinguisher: 100.0.0.56:1000
- Paths: 1 available
-  65000 65056
-    100.0.0.56 from 100.0.0.200 (100.0.0.200)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:00:00:00:56
-      VNI: 1000
-BGP routing table entry for ip-prefix 10.20.56.0/24, Route Distinguisher: 100.0.0.206:1000
- Paths: 1 available
-  65000 65206 65202
-    100.0.0.206 from 100.0.0.200 (100.0.0.200)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:98:5d:82:c4:02:71
       VNI: 1000
 BGP routing table entry for ip-prefix 10.20.206.0/24, Route Distinguisher: 100.0.0.206:1000
  Paths: 1 available
@@ -1556,6 +1564,13 @@ BGP routing table entry for ip-prefix 10.30.1.0/24, Route Distinguisher: 100.0.0
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:00:00:00:56
       VNI: 1000
+BGP routing table entry for ip-prefix 10.30.1.0/24, Route Distinguisher: 100.0.0.103:2
+ Paths: 1 available
+  65000 65103
+    100.0.0.103 from 100.0.0.200 (100.0.0.200)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:05:00:00:01
+      VNI: 1000
 BGP routing table entry for ip-prefix 10.30.1.56/32, Route Distinguisher: 100.0.0.56:1000
  Paths: 1 available
   65000 65056
@@ -1598,6 +1613,13 @@ BGP routing table entry for ip-prefix 10.30.2.0/24, Route Distinguisher: 100.0.0
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:00:00:00:56
       VNI: 1000
+BGP routing table entry for ip-prefix 10.30.2.0/24, Route Distinguisher: 100.0.0.103:3
+ Paths: 1 available
+  65000 65103
+    100.0.0.103 from 100.0.0.200 (100.0.0.200)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:05:00:00:01
+      VNI: 1000
 BGP routing table entry for ip-prefix 10.30.2.56/32, Route Distinguisher: 100.0.0.56:1000
  Paths: 1 available
   65000 65056
@@ -1619,13 +1641,6 @@ BGP routing table entry for ip-prefix 10.30.3.0/24, Route Distinguisher: 100.0.0
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:00:00:00:56
       VNI: 1000
-BGP routing table entry for ip-prefix 10.30.3.56/32, Route Distinguisher: 100.0.0.56:1000
- Paths: 1 available
-  65000 65056
-    100.0.0.56 from 100.0.0.200 (100.0.0.200)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:00:00:00:56
-      VNI: 1000
 BGP routing table entry for ip-prefix 10.30.4.0/24, Route Distinguisher: 100.0.0.40:1000
  Paths: 1 available
   65000 65040
@@ -1640,19 +1655,26 @@ BGP routing table entry for ip-prefix 10.30.4.0/24, Route Distinguisher: 100.0.0
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:00:00:00:56
       VNI: 1000
-BGP routing table entry for ip-prefix 10.30.4.56/32, Route Distinguisher: 100.0.0.56:1000
+BGP routing table entry for ip-prefix 100.0.1.202/32, Route Distinguisher: 100.0.0.56:1000
  Paths: 1 available
-  65000 65056
+  65000 65056 65202
     100.0.0.56 from 100.0.0.200 (100.0.0.200)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:00:00:00:56
       VNI: 1000
-BGP routing table entry for ip-prefix 100.0.1.202/32, Route Distinguisher: 100.0.0.206:1000
+BGP routing table entry for ip-prefix 1303 10.30.3.0/24, Route Distinguisher: 100.0.0.103:4
  Paths: 1 available
-  65000 65206 65202
-    100.0.0.206 from 100.0.0.200 (100.0.0.200)
+  65000 65103
+    100.0.0.103 from 100.0.0.200 (100.0.0.200)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:98:5d:82:c4:02:71
+      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:05:00:00:01
+      VNI: 1000
+BGP routing table entry for ip-prefix 1304 10.30.4.0/24, Route Distinguisher: 100.0.0.103:5
+ Paths: 1 available
+  65000 65103
+    100.0.0.103 from 100.0.0.200 (100.0.0.200)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:05:00:00:01
       VNI: 1000
 ```
 
@@ -1675,76 +1697,6 @@ BGP routing table entry for smet (S, G): (*, *) originating IP: 100.0.0.206, Rou
 ```text
 BGP routing table information for VRF default
 Router identifier 100.0.0.201, local AS number 65201
-BGP routing table entry for spmsi (S, G): (*, *) originating IP: 100.0.0.201, Route Distinguisher: 100.0.0.201:1201
- Paths: 1 available
-  Local
-    - from - (0.0.0.0)
-      Origin IGP, metric -, localpref -, weight 0, tag 0, valid, local, best
-      Extended Community: Route-Target-AS:1201:1201 TunnelEncap:tunnelTypeVxlan
-      PMSI Tunnel: PIM-SSM Tree, MPLS Label: 1201, Leaf Information Required: false, Tunnel ID: 100.0.0.201, 225.0.0.100
-BGP routing table entry for spmsi (S, G): (*, *) originating IP: 100.0.0.201, Route Distinguisher: 100.0.0.201:1301
- Paths: 1 available
-  Local
-    - from - (0.0.0.0)
-      Origin IGP, metric -, localpref -, weight 0, tag 0, valid, local, best
-      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan
-      PMSI Tunnel: PIM-SSM Tree, MPLS Label: 1301, Leaf Information Required: false, Tunnel ID: 100.0.0.201, 225.0.0.100
-BGP routing table entry for spmsi (S, G): (*, *) originating IP: 100.0.0.201, Route Distinguisher: 100.0.0.201:1302
- Paths: 1 available
-  Local
-    - from - (0.0.0.0)
-      Origin IGP, metric -, localpref -, weight 0, tag 0, valid, local, best
-      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan
-      PMSI Tunnel: PIM-SSM Tree, MPLS Label: 1302, Leaf Information Required: false, Tunnel ID: 100.0.0.201, 225.0.0.100
-BGP routing table entry for spmsi (S, G): (*, *) originating IP: 100.0.0.202, Route Distinguisher: 100.0.0.202:1201
- Paths: 1 available
-  65000 65202
-    100.0.0.202 from 100.0.0.200 (100.0.0.200)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1201:1201 TunnelEncap:tunnelTypeVxlan
-      PMSI Tunnel: PIM-SSM Tree, MPLS Label: 1201, Leaf Information Required: false, Tunnel ID: 100.0.0.202, 225.0.0.100
-BGP routing table entry for spmsi (S, G): (*, *) originating IP: 100.0.0.202, Route Distinguisher: 100.0.0.202:1301
- Paths: 1 available
-  65000 65202
-    100.0.0.202 from 100.0.0.200 (100.0.0.200)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan
-      PMSI Tunnel: PIM-SSM Tree, MPLS Label: 1301, Leaf Information Required: false, Tunnel ID: 100.0.0.202, 225.0.0.100
-BGP routing table entry for spmsi (S, G): (*, *) originating IP: 100.0.0.202, Route Distinguisher: 100.0.0.202:1302
- Paths: 1 available
-  65000 65202
-    100.0.0.202 from 100.0.0.200 (100.0.0.200)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan
-      PMSI Tunnel: PIM-SSM Tree, MPLS Label: 1302, Leaf Information Required: false, Tunnel ID: 100.0.0.202, 225.0.0.100
-BGP routing table entry for spmsi ETID: 1303 (S, G): (*, *) originating IP: 100.0.0.201, Route Distinguisher: 100.0.0.201:1303
- Paths: 1 available
-  Local
-    - from - (0.0.0.0)
-      Origin IGP, metric -, localpref -, weight 0, tag 0, valid, local, best
-      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
-      PMSI Tunnel: PIM-SSM Tree, MPLS Label: 1303, Leaf Information Required: false, Tunnel ID: 100.0.0.201, 225.0.0.100
-BGP routing table entry for spmsi ETID: 1303 (S, G): (*, *) originating IP: 100.0.0.202, Route Distinguisher: 100.0.0.202:1303
- Paths: 1 available
-  65000 65202
-    100.0.0.202 from 100.0.0.200 (100.0.0.200)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
-      PMSI Tunnel: PIM-SSM Tree, MPLS Label: 1303, Leaf Information Required: false, Tunnel ID: 100.0.0.202, 225.0.0.100
-BGP routing table entry for spmsi ETID: 1304 (S, G): (*, *) originating IP: 100.0.0.201, Route Distinguisher: 100.0.0.201:1303
- Paths: 1 available
-  Local
-    - from - (0.0.0.0)
-      Origin IGP, metric -, localpref -, weight 0, tag 0, valid, local, best
-      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
-      PMSI Tunnel: PIM-SSM Tree, MPLS Label: 1304, Leaf Information Required: false, Tunnel ID: 100.0.0.201, 225.0.0.100
-BGP routing table entry for spmsi ETID: 1304 (S, G): (*, *) originating IP: 100.0.0.202, Route Distinguisher: 100.0.0.202:1303
- Paths: 1 available
-  65000 65202
-    100.0.0.202 from 100.0.0.200 (100.0.0.200)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
-      PMSI Tunnel: PIM-SSM Tree, MPLS Label: 1304, Leaf Information Required: false, Tunnel ID: 100.0.0.202, 225.0.0.100
 ```
 
 ## show bgp evpn arp
@@ -1755,10 +1707,10 @@ VLAN  Label  Encap IP                 MAC             Tunnel Endpoint    Seq#
 0     10     VXLAN 10.10.22.22        0019.0100.0001  100.0.0.23         -   
 0     10     VXLAN 10.10.22.22        0019.0100.0001  100.0.0.23         -   
 0     1022   VXLAN 10.10.22.22        0019.0100.0001  100.0.0.23         -   
-1201  1201   VXLAN 10.10.201.202      444c.a873.5c75  Local              -   
-1201  1201   VXLAN 10.10.201.202      444c.a873.5c75  100.0.0.202        -   
 1201  1201   VXLAN 10.10.201.201      0013.0100.0001  Local              -   
 1201  1201   VXLAN 10.10.201.201      0013.0100.0001  100.0.0.202        -   
+1201  1201   VXLAN 10.10.201.202      444c.a873.5c75  Local              -   
+1201  1201   VXLAN 10.10.201.202      444c.a873.5c75  100.0.0.202        -   
 1301  1301   VXLAN 10.30.1.45         0018.0100.0002  100.0.0.41         -   
 1301  1301   VXLAN 10.30.1.45         0018.0100.0002  100.0.0.41         -   
 1301  1301   VXLAN 10.30.1.254        0056.5656.5656  100.0.0.56         Stic
@@ -1796,23 +1748,23 @@ VLAN  Label  Encap IP                 MAC             Tunnel Endpoint    Seq#
 1302  1302   VXLAN 10.30.2.40         0016.0100.0003  100.0.0.40         -   
 1303  1303   VXLAN 10.30.3.254        0056.5656.5656  100.0.0.56         Stic
                                                                          ky  
-1303  1303   VXLAN 10.30.3.254        00aa.aaaa.aaaa  100.0.0.56         Stic
-                                                                         ky  
 1303  1303   VXLAN 10.30.3.201        0013.0100.0004  Local              -   
 1303  1303   VXLAN 10.30.3.201        0013.0100.0004  100.0.0.202        -   
-1303  1303   VXLAN 10.30.3.202        444c.a873.5c75  Local              -   
-1303  1303   VXLAN 10.30.3.202        444c.a873.5c75  100.0.0.202        -   
-1303  1303   VXLAN 10.30.3.103        0022.2200.0004  100.0.0.103        -   
+1303  1303   VXLAN 10.30.3.254        00aa.aaaa.aaaa  100.0.0.56         Stic
+                                                                         ky  
 1303  1303   VXLAN 10.30.3.203        0015.0100.0004  100.0.0.204        -   
 1303  1303   VXLAN 10.30.3.203        0015.0100.0004  100.0.0.203        -   
 1303  1303   VXLAN 10.30.3.22         0019.0100.0004  100.0.0.22         -   
+1303  1303   VXLAN 10.30.3.103        0022.2200.0004  100.0.0.103        -   
+1303  1303   VXLAN 10.30.3.202        444c.a873.5c75  Local              -   
+1303  1303   VXLAN 10.30.3.202        444c.a873.5c75  100.0.0.202        -   
 1303  1303   VXLAN 10.30.3.40         0016.0100.0004  100.0.0.40         -   
+1304  1304   VXLAN 10.30.4.201        0013.0100.0005  Local              -   
+1304  1304   VXLAN 10.30.4.201        0013.0100.0005  100.0.0.202        -   
 1304  1304   VXLAN 10.30.4.203        0015.0100.0005  100.0.0.203        -   
 1304  1304   VXLAN 10.30.4.203        0015.0100.0005  100.0.0.204        -   
 1304  1304   VXLAN 10.30.4.254        0056.5656.5656  100.0.0.56         Stic
                                                                          ky  
-1304  1304   VXLAN 10.30.4.201        0013.0100.0005  Local              -   
-1304  1304   VXLAN 10.30.4.201        0013.0100.0005  100.0.0.202        -   
 1304  1304   VXLAN 10.30.4.202        444c.a873.5c75  Local              -   
 1304  1304   VXLAN 10.30.4.202        444c.a873.5c75  100.0.0.202        -   
 1304  1304   VXLAN 10.30.4.254        00aa.aaaa.aaaa  100.0.0.56         Stic
@@ -1904,7 +1856,7 @@ Gateway of last resort is not set
 
 ```text
 Address         Age (sec)  Hardware Addr   Interface
-20.200.201.200    0:00:31  444c.a873.5c75  Ethernet1
+20.200.201.200    0:00:15  444c.a873.5c75  Ethernet1
 ```
 
 ## show ip route vrf all
@@ -2054,10 +2006,6 @@ Gateway of last resort is not set
  B E      10.10.45.0/24 [20/0]
            via VTEP 100.0.0.41 VNI 1000 router-mac 6c:31:0e:7b:8b:87
            via VTEP 100.0.0.41 VNI 1000 router-mac 6c:31:0e:b7:50:5f
- B E      10.10.56.56/32 [20/0]
-           via VTEP 100.0.0.56 VNI 1000 router-mac 00:01:00:00:00:56
- B E      10.10.56.202/32 [20/0]
-           via VTEP 100.0.0.56 VNI 1000 router-mac 00:01:00:00:00:56
  B E      10.10.56.0/24 [20/0]
            via VTEP 100.0.0.56 VNI 1000 router-mac 00:01:00:00:00:56
  B E      10.10.103.103/32 [20/0]
@@ -2065,7 +2013,7 @@ Gateway of last resort is not set
  C        10.10.201.0/24
            directly connected, Vlan1201
  B E      10.20.56.0/24 [20/0]
-           via VTEP 100.0.0.206 VNI 1000 router-mac 98:5d:82:c4:02:71
+           via VTEP 100.0.0.56 VNI 1000 router-mac 00:01:00:00:00:56
  B E      10.20.206.0/24 [20/0]
            via VTEP 100.0.0.206 VNI 1000 router-mac 98:5d:82:c4:02:71
  B E      10.30.1.40/32 [20/0]
@@ -2092,20 +2040,16 @@ Gateway of last resort is not set
            directly connected, Vlan1302
  B E      10.30.3.40/32 [20/0]
            via VTEP 100.0.0.40 VNI 1000 router-mac 24:6c:84:74:8d:db
- B E      10.30.3.56/32 [20/0]
-           via VTEP 100.0.0.56 VNI 1000 router-mac 00:01:00:00:00:56
  C        10.30.3.0/24
            directly connected, Vlan1303
  B E      10.30.4.40/32 [20/0]
            via VTEP 100.0.0.40 VNI 1000 router-mac 24:6c:84:74:8d:db
- B E      10.30.4.56/32 [20/0]
-           via VTEP 100.0.0.56 VNI 1000 router-mac 00:01:00:00:00:56
  C        10.30.4.0/24
            directly connected, Vlan1304
  C        100.0.1.201/32
            directly connected, Loopback100
  B E      100.0.1.202/32 [20/0]
-           via VTEP 100.0.0.206 VNI 1000 router-mac 98:5d:82:c4:02:71
+           via VTEP 100.0.0.56 VNI 1000 router-mac 00:01:00:00:00:56
 
 ```
 
@@ -2115,54 +2059,54 @@ Gateway of last resort is not set
 
 VRF: default
 Address         Age (sec)  Hardware Addr   Interface
-20.200.201.200    0:00:31  444c.a873.5c75  Ethernet1
+20.200.201.200    0:00:15  444c.a873.5c75  Ethernet1
 
 VRF: mgmt
 Address         Age (sec)  Hardware Addr   Interface
 192.168.20.1      0:00:00  90e2.bac7.8074  Management1
-192.168.20.2      0:02:48  bcea.fa02.6ce2  Management1
-192.168.20.18     0:04:01  e484.29cd.e801  Management1
-192.168.20.19     0:01:35  c407.7858.8001  Management1
-192.168.20.20     0:01:35  e484.29d0.4001  Management1
-192.168.20.21     0:04:32  7081.85c1.b801  Management1
-192.168.20.22     0:01:35  c407.780a.9f04  Management1
-192.168.20.23     0:02:42  c407.780a.7750  Management1
-192.168.20.24     0:00:16  6c87.2089.ede5  Management1
-192.168.20.25     0:03:55  6c87.2089.ece5  Management1
-192.168.20.26     0:03:00  04a9.59d5.df66  Management1
-192.168.20.29     0:03:06  90f7.b223.d466  Management1
-192.168.20.52     0:01:35  f83e.95dc.1289  Management1
-192.168.21.50     0:01:23  a84f.b1a5.5221  Management1
-192.168.21.59     0:00:22  6607.f5d1.ae16  Management1
+192.168.20.2      0:01:08  bcea.fa02.6ce2  Management1
+192.168.20.18     0:01:38  e484.29cd.e801  Management1
+192.168.20.19     0:02:51  c407.7858.8001  Management1
+192.168.20.20     0:04:53  e484.29d0.4001  Management1
+192.168.20.21     0:02:39  7081.85c1.b801  Management1
+192.168.20.22     0:04:23  c407.780a.9f04  Management1
+192.168.20.23     0:03:04  c407.780a.7750  Management1
+192.168.20.24     0:04:53  6c87.2089.ede5  Management1
+192.168.20.25     0:01:14  6c87.2089.ece5  Management1
+192.168.20.26     0:04:53  04a9.59d5.df66  Management1
+192.168.20.29     0:01:26  90f7.b223.d466  Management1
+192.168.20.52     0:02:33  f83e.95dc.1289  Management1
+192.168.21.50     0:02:57  a84f.b1a5.5221  Management1
+192.168.21.59     0:02:39  6607.f5d1.ae16  Management1
 
 VRF: tenant-a
 Address         Age (sec)  Hardware Addr   Interface
-10.10.201.201     0:00:32  0013.0100.0001  Vlan1201, Port-Channel100
-10.10.201.202     0:01:58  444c.a873.5c75  Vlan1201, Port-Channel100
+10.10.201.201     0:01:39  0013.0100.0001  Vlan1201, Port-Channel100
+10.10.201.202     0:00:16  444c.a873.5c75  Vlan1201, Port-Channel100
 10.30.1.22              -  0019.0100.0002  Vlan1301, Vxlan1
 10.30.1.40              -  0016.0100.0002  Vlan1301, Vxlan1
 10.30.1.42              -  0017.0100.0002  Vlan1301, Vxlan1
 10.30.1.45              -  0018.0100.0002  Vlan1301, Vxlan1
 10.30.1.56              -  0014.0100.0002  Vlan1301, Vxlan1
-10.30.1.201       0:00:02  0013.0100.0002  Vlan1301, Port-Channel100
-10.30.1.202       0:01:58  444c.a873.5c75  Vlan1301, Port-Channel100
+10.30.1.201       0:07:19  0013.0100.0002  Vlan1301, Port-Channel100
+10.30.1.202       0:03:51  444c.a873.5c75  Vlan1301, Port-Channel100
 10.30.1.203             -  0015.0100.0002  Vlan1301, Vxlan1
 10.30.2.22              -  0019.0100.0003  Vlan1302, Vxlan1
 10.30.2.40              -  0016.0100.0003  Vlan1302, Vxlan1
 10.30.2.42              -  0017.0100.0003  Vlan1302, Vxlan1
 10.30.2.45              -  0018.0100.0003  Vlan1302, Vxlan1
 10.30.2.56              -  0014.0100.0003  Vlan1302, Vxlan1
-10.30.2.201       0:00:02  0013.0100.0003  Vlan1302, Port-Channel100
-10.30.2.202       0:00:32  444c.a873.5c75  Vlan1302, Port-Channel100
+10.30.2.201       0:10:07  0013.0100.0003  Vlan1302, Port-Channel100
+10.30.2.202       0:02:25  444c.a873.5c75  Vlan1302, Port-Channel100
 10.30.2.203             -  0015.0100.0003  Vlan1302, Vxlan1
 10.30.3.22              -  0019.0100.0004  Vlan1303, Vxlan1
-10.30.3.40        0:16:04  0016.0100.0004  Vlan1303, not learned
-10.30.3.201       0:05:33  0013.0100.0004  Vlan1303, Port-Channel100
-10.30.3.202       0:01:15  444c.a873.5c75  Vlan1303, Port-Channel100
+10.30.3.40        0:16:08  0016.0100.0004  Vlan1303, not learned
+10.30.3.201       0:11:43  0013.0100.0004  Vlan1303, Port-Channel100
+10.30.3.202       0:02:25  444c.a873.5c75  Vlan1303, Port-Channel100
 10.30.3.203             -  0015.0100.0004  Vlan1303, Vxlan1
 10.30.4.22              -  0019.0100.0005  Vlan1304, Vxlan1
-10.30.4.201       0:05:33  0013.0100.0005  Vlan1304, Port-Channel100
-10.30.4.202       0:00:32  444c.a873.5c75  Vlan1304, Port-Channel100
+10.30.4.201       0:11:43  0013.0100.0005  Vlan1304, Port-Channel100
+10.30.4.202       0:01:39  444c.a873.5c75  Vlan1304, Port-Channel100
 10.30.4.203             -  0015.0100.0005  Vlan1304, Vxlan1
 ```
 
@@ -2174,30 +2118,30 @@ Address         Age (sec)  Hardware Addr   Interface
 
 VLAN  Mac Address     Type      Prt  VTEP             Moves   Last Move
 ----  -----------     ----      ---  ----             -----   ---------
-1301  0014.0100.0002  EVPN      Vx1  100.0.0.56       1       0:26:56 ago
-1301  0015.0100.0002  EVPN      Vx1  100.0.0.203      1       0:35:00 ago
+1301  0014.0100.0002  EVPN      Vx1  100.0.0.56       1       0:26:47 ago
+1301  0015.0100.0002  EVPN      Vx1  100.0.0.203      1       0:49:51 ago
                                      100.0.0.204    
-1301  0016.0100.0002  EVPN      Vx1  100.0.0.40       1       23:11:09 ago
-1301  0017.0100.0002  EVPN      Vx1  100.0.0.42       1       23:10:50 ago
-1301  0018.0100.0002  EVPN      Vx1  100.0.0.41       1       23:11:23 ago
-1301  0019.0100.0002  EVPN      Vx1  100.0.0.22       2       0:30:30 ago
-1301  0056.5656.5656  EVPN      Vx1  100.0.0.56       1       23:10:15 ago
-1302  0014.0100.0003  EVPN      Vx1  100.0.0.56       1       0:26:56 ago
-1302  0015.0100.0003  EVPN      Vx1  100.0.0.203      1       0:35:00 ago
+1301  0016.0100.0002  EVPN      Vx1  100.0.0.40       1       2:37:55 ago
+1301  0017.0100.0002  EVPN      Vx1  100.0.0.42       1       2:37:54 ago
+1301  0018.0100.0002  EVPN      Vx1  100.0.0.41       1       2:37:55 ago
+1301  0019.0100.0002  EVPN      Vx1  100.0.0.22       1       1:41:06 ago
+1301  0056.5656.5656  EVPN      Vx1  100.0.0.56       1       1 day, 16:33:37 ago
+1302  0014.0100.0003  EVPN      Vx1  100.0.0.56       1       0:26:47 ago
+1302  0015.0100.0003  EVPN      Vx1  100.0.0.203      1       0:49:51 ago
                                      100.0.0.204    
-1302  0016.0100.0003  EVPN      Vx1  100.0.0.40       1       23:11:09 ago
-1302  0017.0100.0003  EVPN      Vx1  100.0.0.42       1       23:10:50 ago
-1302  0018.0100.0003  EVPN      Vx1  100.0.0.41       1       23:11:23 ago
-1302  0019.0100.0003  EVPN      Vx1  100.0.0.22       1       0:26:56 ago
-1302  0056.5656.5656  EVPN      Vx1  100.0.0.56       1       23:10:15 ago
-1303  0015.0100.0004  EVPN      Vx1  100.0.0.203      1       0:10:00 ago
+1302  0016.0100.0003  EVPN      Vx1  100.0.0.40       1       2:37:55 ago
+1302  0017.0100.0003  EVPN      Vx1  100.0.0.42       1       2:37:54 ago
+1302  0018.0100.0003  EVPN      Vx1  100.0.0.41       1       2:37:55 ago
+1302  0019.0100.0003  EVPN      Vx1  100.0.0.22       1       1:41:06 ago
+1302  0056.5656.5656  EVPN      Vx1  100.0.0.56       1       1 day, 16:33:37 ago
+1303  0015.0100.0004  EVPN      Vx1  100.0.0.203      1       0:49:51 ago
                                      100.0.0.204    
-1303  0019.0100.0004  EVPN      Vx1  100.0.0.22       2       0:30:30 ago
-1303  0056.5656.5656  EVPN      Vx1  100.0.0.56       1       23:10:15 ago
-1304  0015.0100.0005  EVPN      Vx1  100.0.0.203      1       0:09:29 ago
+1303  0019.0100.0004  EVPN      Vx1  100.0.0.22       1       1:41:06 ago
+1303  0056.5656.5656  EVPN      Vx1  100.0.0.56       1       1 day, 16:33:37 ago
+1304  0015.0100.0005  EVPN      Vx1  100.0.0.203      1       0:22:50 ago
                                      100.0.0.204    
-1304  0019.0100.0005  EVPN      Vx1  100.0.0.22       1       0:26:56 ago
-1304  0056.5656.5656  EVPN      Vx1  100.0.0.56       1       23:10:15 ago
+1304  0019.0100.0005  EVPN      Vx1  100.0.0.22       1       1:41:06 ago
+1304  0056.5656.5656  EVPN      Vx1  100.0.0.56       1       1 day, 16:33:37 ago
 Total Remote Mac Addresses for this criterion: 20
 ```
 
@@ -2233,46 +2177,46 @@ VNI        VLAN       VRF       Source
 
 Vlan    Mac Address       Type        Ports      Moves   Last Move
 ----    -----------       ----        -----      -----   ---------
-1201    0013.0100.0001    DYNAMIC     Po100      1       0:00:32 ago
+1201    0013.0100.0001    DYNAMIC     Po100      1       0:01:42 ago
 1201    00aa.aaaa.aaaa    STATIC      Router
 1201    2899.3a8f.8f6f    STATIC      Router
-1201    444c.a873.5c75    DYNAMIC     Po100      1       0:01:57 ago
-1301    0013.0100.0002    DYNAMIC     Po100      1       0:09:05 ago
-1301    0014.0100.0002    DYNAMIC     Vx1        1       0:26:57 ago
-1301    0015.0100.0002    DYNAMIC     Vx1        1       0:35:00 ago
-1301    0016.0100.0002    DYNAMIC     Vx1        1       23:11:09 ago
-1301    0017.0100.0002    DYNAMIC     Vx1        1       23:10:50 ago
-1301    0018.0100.0002    DYNAMIC     Vx1        1       23:11:24 ago
-1301    0019.0100.0002    DYNAMIC     Vx1        2       0:30:30 ago
+1201    444c.a873.5c75    DYNAMIC     Po100      1       0:00:16 ago
+1301    0013.0100.0002    DYNAMIC     Po100      1       0:28:08 ago
+1301    0014.0100.0002    DYNAMIC     Vx1        1       0:26:47 ago
+1301    0015.0100.0002    DYNAMIC     Vx1        1       0:49:51 ago
+1301    0016.0100.0002    DYNAMIC     Vx1        1       2:37:55 ago
+1301    0017.0100.0002    DYNAMIC     Vx1        1       2:37:55 ago
+1301    0018.0100.0002    DYNAMIC     Vx1        1       2:37:55 ago
+1301    0019.0100.0002    DYNAMIC     Vx1        1       1:41:07 ago
 1301    0056.5656.5656    STATIC      Vx1
 1301    00aa.aaaa.aaaa    STATIC      Router
 1301    2899.3a8f.8f6f    STATIC      Router
-1301    444c.a873.5c75    DYNAMIC     Po100      1       0:01:57 ago
-1302    0013.0100.0003    DYNAMIC     Po100      1       0:09:05 ago
-1302    0014.0100.0003    DYNAMIC     Vx1        1       0:26:57 ago
-1302    0015.0100.0003    DYNAMIC     Vx1        1       0:35:00 ago
-1302    0016.0100.0003    DYNAMIC     Vx1        1       23:11:09 ago
-1302    0017.0100.0003    DYNAMIC     Vx1        1       23:10:50 ago
-1302    0018.0100.0003    DYNAMIC     Vx1        1       23:11:24 ago
-1302    0019.0100.0003    DYNAMIC     Vx1        1       0:26:56 ago
+1301    444c.a873.5c75    DYNAMIC     Po100      1       0:03:50 ago
+1302    0013.0100.0003    DYNAMIC     Po100      1       0:27:25 ago
+1302    0014.0100.0003    DYNAMIC     Vx1        1       0:26:47 ago
+1302    0015.0100.0003    DYNAMIC     Vx1        1       0:49:51 ago
+1302    0016.0100.0003    DYNAMIC     Vx1        1       2:37:55 ago
+1302    0017.0100.0003    DYNAMIC     Vx1        1       2:37:55 ago
+1302    0018.0100.0003    DYNAMIC     Vx1        1       2:37:55 ago
+1302    0019.0100.0003    DYNAMIC     Vx1        1       1:41:07 ago
 1302    0056.5656.5656    STATIC      Vx1
 1302    00aa.aaaa.aaaa    STATIC      Router
 1302    2899.3a8f.8f6f    STATIC      Router
-1302    444c.a873.5c75    DYNAMIC     Po100      1       0:00:32 ago
-1303    0013.0100.0004    DYNAMIC     Po100      1       0:00:34 ago
-1303    0015.0100.0004    DYNAMIC     Vx1        1       0:10:00 ago
-1303    0019.0100.0004    DYNAMIC     Vx1        2       0:30:30 ago
+1302    444c.a873.5c75    DYNAMIC     Po100      1       0:02:24 ago
+1303    0013.0100.0004    DYNAMIC     Po100      1       0:11:43 ago
+1303    0015.0100.0004    DYNAMIC     Vx1        1       0:49:51 ago
+1303    0019.0100.0004    DYNAMIC     Vx1        1       1:41:07 ago
 1303    0056.5656.5656    STATIC      Vx1
 1303    00aa.aaaa.aaaa    STATIC      Router
 1303    2899.3a8f.8f6f    STATIC      Router
-1303    444c.a873.5c75    DYNAMIC     Po100      1       0:01:14 ago
-1304    0013.0100.0005    DYNAMIC     Po100      1       0:00:34 ago
-1304    0015.0100.0005    DYNAMIC     Vx1        1       0:09:29 ago
-1304    0019.0100.0005    DYNAMIC     Vx1        1       0:26:56 ago
+1303    444c.a873.5c75    DYNAMIC     Po100      1       0:02:24 ago
+1304    0013.0100.0005    DYNAMIC     Po100      1       0:11:43 ago
+1304    0015.0100.0005    DYNAMIC     Vx1        1       0:22:50 ago
+1304    0019.0100.0005    DYNAMIC     Vx1        1       1:41:07 ago
 1304    0056.5656.5656    STATIC      Vx1
 1304    00aa.aaaa.aaaa    STATIC      Router
 1304    2899.3a8f.8f6f    STATIC      Router
-1304    444c.a873.5c75    DYNAMIC     Po100      1       0:00:32 ago
+1304    444c.a873.5c75    DYNAMIC     Po100      1       0:01:42 ago
 4094    00aa.aaaa.aaaa    STATIC      Router
 4094    2899.3a8f.8f6f    STATIC      Router
 Total Mac Addresses for this criterion: 42
@@ -2293,7 +2237,7 @@ Total Mac Addresses for this criterion: 0
 00aa.aaaa.aaaa, VLAN 1301, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
    VTEP 100.0.0.56
 0015.0100.0002, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
-   Load Balance entry 10: 2-way
+   Load Balance entry 17: 2-way
       VTEP 100.0.0.203
       VTEP 100.0.0.204
 0017.0100.0002, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
@@ -2314,7 +2258,7 @@ Total Mac Addresses for this criterion: 0
    VTEP 100.0.0.40
 444c.a873.5c75, VLAN 1304, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel100
-0013.0100.0004, VLAN 1303, seq 1, pref 16, evpnIntfDynamicMac, source: BGP
+0013.0100.0004, VLAN 1303, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel100
 0013.0100.0001, VLAN 1201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel100
@@ -2325,10 +2269,10 @@ Total Mac Addresses for this criterion: 0
 0016.0100.0003, VLAN 1302, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
    VTEP 100.0.0.40
 0015.0100.0004, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
-   Load Balance entry 10: 2-way
+   Load Balance entry 17: 2-way
       VTEP 100.0.0.203
       VTEP 100.0.0.204
-0019.0100.0004, VLAN 1303, seq 2, pref 16, evpnDynamicRemoteMac, source: BGP
+0019.0100.0004, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
    VTEP 100.0.0.22
 0056.5656.5656, VLAN 1302, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
    VTEP 100.0.0.56
@@ -2344,7 +2288,7 @@ Total Mac Addresses for this criterion: 0
    VTEP 100.0.0.56
 0014.0100.0003, VLAN 1302, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
    VTEP 100.0.0.56
-0013.0100.0005, VLAN 1304, seq 1, pref 16, evpnIntfDynamicMac, source: BGP
+0013.0100.0005, VLAN 1304, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel100
 444c.a873.5c75, VLAN 1201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel100
@@ -2352,16 +2296,16 @@ Total Mac Addresses for this criterion: 0
    VTEP 100.0.0.56
 0013.0100.0002, VLAN 1301, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel100
-0019.0100.0002, VLAN 1301, seq 2, pref 16, evpnDynamicRemoteMac, source: BGP
+0019.0100.0002, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
    VTEP 100.0.0.22
 444c.a873.5c75, VLAN 1301, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel100
 0015.0100.0003, VLAN 1302, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
-   Load Balance entry 10: 2-way
+   Load Balance entry 17: 2-way
       VTEP 100.0.0.203
       VTEP 100.0.0.204
 0015.0100.0005, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
-   Load Balance entry 10: 2-way
+   Load Balance entry 17: 2-way
       VTEP 100.0.0.203
       VTEP 100.0.0.204
 ```
@@ -2489,9 +2433,9 @@ EVPN instance: VLAN-aware bundle 1303-1304
 
 ```text
 Port      Name        Intvl  In Mbps      %  In Kpps Out Mbps      % Out Kpps
-Et1       A-Spine-200  0:01     78.8   0.9%       84      0.5   0.0%        0
-Et5       A-Harn-205   0:01      0.3   0.0%        0     47.6   0.6%       84
+Et1       A-Spine-200  0:01     79.1   0.9%       85      0.5   0.0%        0
+Et5       A-Harn-205   0:01      0.3   0.0%        0     47.7   0.6%       85
 Ma1                    0:05      0.0   0.0%        0      0.2   0.0%        0
-Po100                  0:01      0.3   0.0%        0     47.6   0.6%       84
+Po100                  0:01      0.3   0.0%        0     47.7   0.6%       85
 ```
 

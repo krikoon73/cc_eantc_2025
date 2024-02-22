@@ -142,10 +142,6 @@ Gateway of last resort is not set
  B E      10.10.45.0/24 [20/0]
            via VTEP 100.0.0.41 VNI 1000 router-mac 6c:31:0e:b7:50:5f
            via VTEP 100.0.0.41 VNI 1000 router-mac 6c:31:0e:7b:8b:87
- B E      10.10.56.56/32 [20/0]
-           via VTEP 100.0.0.56 VNI 1000 router-mac 00:01:00:00:00:56
- B E      10.10.56.202/32 [20/0]
-           via VTEP 100.0.0.56 VNI 1000 router-mac 00:01:00:00:00:56
  B E      10.10.56.0/24 [20/0]
            via VTEP 100.0.0.56 VNI 1000 router-mac 00:01:00:00:00:56
  B E      10.10.103.103/32 [20/0]
@@ -153,7 +149,7 @@ Gateway of last resort is not set
  C        10.10.203.0/24
            directly connected, Vlan1203
  B E      10.20.56.0/24 [20/0]
-           via VTEP 100.0.0.206 VNI 1000 router-mac 98:5d:82:c4:02:71
+           via VTEP 100.0.0.56 VNI 1000 router-mac 00:01:00:00:00:56
  B E      10.20.206.0/24 [20/0]
            via VTEP 100.0.0.206 VNI 1000 router-mac 98:5d:82:c4:02:71
  B E      10.30.1.40/32 [20/0]
@@ -180,18 +176,14 @@ Gateway of last resort is not set
            directly connected, Vlan1302
  B E      10.30.3.40/32 [20/0]
            via VTEP 100.0.0.40 VNI 1000 router-mac 24:6c:84:74:8d:db
- B E      10.30.3.56/32 [20/0]
-           via VTEP 100.0.0.56 VNI 1000 router-mac 00:01:00:00:00:56
  C        10.30.3.0/24
            directly connected, Vlan1303
  B E      10.30.4.40/32 [20/0]
            via VTEP 100.0.0.40 VNI 1000 router-mac 24:6c:84:74:8d:db
- B E      10.30.4.56/32 [20/0]
-           via VTEP 100.0.0.56 VNI 1000 router-mac 00:01:00:00:00:56
  C        10.30.4.0/24
            directly connected, Vlan1304
  B E      100.0.1.202/32 [20/0]
-           via VTEP 100.0.0.206 VNI 1000 router-mac 98:5d:82:c4:02:71
+           via VTEP 100.0.0.56 VNI 1000 router-mac 00:01:00:00:00:56
  C        100.0.1.204/32
            directly connected, Loopback100
 

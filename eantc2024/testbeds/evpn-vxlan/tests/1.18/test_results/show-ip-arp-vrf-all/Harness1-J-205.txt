@@ -5,12 +5,13 @@ Address         Age (sec)  Hardware Addr   Interface
 VRF: mgmt
 Address         Age (sec)  Hardware Addr   Interface
 192.168.20.1      0:00:00  90e2.bac7.8074  Management1
-192.168.20.19     0:02:04  c407.7858.8001  Management1
-192.168.20.20     0:01:46  e484.29d0.4001  Management1
-192.168.20.22     0:03:28  c407.780a.9f04  Management1
-192.168.20.23     0:00:28  c407.780a.7750  Management1
-192.168.20.24     0:03:16  6c87.2089.ede5  Management1
-192.168.20.25     0:01:46  6c87.2089.ece5  Management1
-192.168.20.26     0:00:16  04a9.59d5.df66  Management1
-192.168.21.50     0:01:52  a84f.b1a5.5221  Management1
-192.168.21.59     0:01:52  6607.f5d1.ae16  Management1
+192.168.20.19     0:02:22  c407.7858.8001  Management1
+192.168.20.20     0:00:46  e484.29d0.4001  Management1
+192.168.20.22     0:04:10  c407.780a.9f04  Management1
+192.168.20.23     0:02:46  c407.780a.7750  Management1
+192.168.20.24     0:03:58  6c87.2089.ede5  Management1
+192.168.20.25     0:02:28  6c87.2089.ece5  Management1
+192.168.20.26     0:01:04  04a9.59d5.df66  Management1
+192.168.21.47     0:00:46  5c5a.c7ff.8a0a  Management1
+192.168.21.50     0:04:04  a84f.b1a5.5221  Management1
+192.168.21.59     0:03:52  6607.f5d1.ae16  Management1

@@ -1,29 +1,32 @@
 
 VRF: default
 Address         Age (sec)  Hardware Addr   Interface
-20.200.204.200    0:00:18  444c.a873.5c75  Ethernet1
+20.200.204.200    0:00:27  444c.a873.5c75  Ethernet1
 
 VRF: mgmt
 Address         Age (sec)  Hardware Addr   Interface
 192.168.20.1      0:00:00  90e2.bac7.8074  Management1
-192.168.20.2      0:04:37  bcea.fa02.6ce2  Management1
-192.168.20.18     0:04:37  e484.29cd.e801  Management1
-192.168.20.19     0:02:10  c407.7858.8001  Management1
-192.168.20.20     0:02:16  e484.29d0.4001  Management1
-192.168.20.21     0:03:54  7081.85c1.b801  Management1
-192.168.20.22     0:02:28  c407.780a.9f04  Management1
-192.168.20.23     0:04:18  c407.780a.7750  Management1
-192.168.20.24     0:04:00  6c87.2089.ede5  Management1
-192.168.20.25     0:04:24  6c87.2089.ece5  Management1
-192.168.20.26     0:04:24  04a9.59d5.df66  Management1
-192.168.20.27     0:04:18  04a9.59d5.dfe6  Management1
-192.168.20.28     0:04:37  98a9.2d59.bae6  Management1
-192.168.20.29     0:04:30  90f7.b223.d466  Management1
-192.168.20.52     0:00:39  f83e.95dc.1289  Management1
+192.168.20.2      0:00:36  bcea.fa02.6ce2  Management1
+192.168.20.18     0:04:21  e484.29cd.e801  Management1
+192.168.20.19     0:02:32  c407.7858.8001  Management1
+192.168.20.20     0:02:44  e484.29d0.4001  Management1
+192.168.20.21     0:03:08  7081.85c1.b801  Management1
+192.168.20.22     0:02:50  c407.780a.9f04  Management1
+192.168.20.23     0:04:03  c407.780a.7750  Management1
+192.168.20.24     0:04:03  6c87.2089.ede5  Management1
+192.168.20.25     0:00:42  6c87.2089.ece5  Management1
+192.168.20.26     0:01:13  04a9.59d5.df66  Management1
+192.168.20.27     0:01:13  04a9.59d5.dfe6  Management1
+192.168.20.28     0:04:09  98a9.2d59.bae6  Management1
+192.168.20.29     0:01:00  90f7.b223.d466  Management1
+192.168.20.52     0:01:13  f83e.95dc.1289  Management1
+192.168.21.47     0:02:07  5c5a.c7ff.8a0a  Management1
+192.168.21.50     0:02:32  a84f.b1a5.5221  Management1
+192.168.21.59     0:02:56  6607.f5d1.ae16  Management1
 
 VRF: tenant-a
 Address         Age (sec)  Hardware Addr   Interface
-10.10.203.203     1:47:16  0015.0100.0001  Vlan1203, not learned
+10.10.203.203     3:43:55  0015.0100.0001  Vlan1203, not learned
 10.30.1.22              -  0019.0100.0002  Vlan1301, Vxlan1
 10.30.1.40              -  0016.0100.0002  Vlan1301, Vxlan1
 10.30.1.42              -  0017.0100.0002  Vlan1301, Vxlan1
@@ -31,7 +34,7 @@ Address         Age (sec)  Hardware Addr   Interface
 10.30.1.56              -  0014.0100.0002  Vlan1301, Vxlan1
 10.30.1.201             -  0013.0100.0002  Vlan1301, Vxlan1
 10.30.1.202             -  444c.a873.5c75  Vlan1301, Vxlan1
-10.30.1.203       0:00:01  0015.0100.0002  Vlan1301, Port-Channel200
+10.30.1.203       0:07:18  0015.0100.0002  Vlan1301, Port-Channel200
 10.30.2.22              -  0019.0100.0003  Vlan1302, Vxlan1
 10.30.2.40              -  0016.0100.0003  Vlan1302, Vxlan1
 10.30.2.42              -  0017.0100.0003  Vlan1302, Vxlan1
@@ -39,12 +42,12 @@ Address         Age (sec)  Hardware Addr   Interface
 10.30.2.56              -  0014.0100.0003  Vlan1302, Vxlan1
 10.30.2.201             -  0013.0100.0003  Vlan1302, Vxlan1
 10.30.2.202             -  444c.a873.5c75  Vlan1302, Vxlan1
-10.30.2.203       0:00:01  0015.0100.0003  Vlan1302, Port-Channel200
+10.30.2.203       0:07:18  0015.0100.0003  Vlan1302, Port-Channel200
 10.30.3.22              -  0019.0100.0004  Vlan1303, Vxlan1
-10.30.3.40        0:16:02  0016.0100.0004  Vlan1303, not learned
+10.30.3.40        0:16:07  0016.0100.0004  Vlan1303, not learned
 10.30.3.201             -  0013.0100.0004  Vlan1303, Vxlan1
 10.30.3.202             -  444c.a873.5c75  Vlan1303, Vxlan1
-10.30.3.203       0:09:58  0015.0100.0004  Vlan1303, Port-Channel200
+10.30.3.203       0:16:07  0015.0100.0004  Vlan1303, Port-Channel200
 10.30.4.22              -  0019.0100.0005  Vlan1304, Vxlan1
 10.30.4.201             -  0013.0100.0005  Vlan1304, Vxlan1
 10.30.4.202             -  444c.a873.5c75  Vlan1304, Vxlan1

@@ -1,29 +1,30 @@
 
 VRF: PIM
 Address         Age (sec)  Hardware Addr   Interface
-10.20.206.206     0:00:25  985d.82c4.0271  Ethernet6
+10.20.206.206     0:00:22  985d.82c4.0271  Ethernet6
+10.20.56.56       0:00:01  407c.7dc4.ab93  Ethernet49/1
 
 VRF: default
 Address         Age (sec)  Hardware Addr   Interface
-20.200.202.200    0:00:23  444c.a873.5c75  Ethernet1
+20.200.202.200    0:00:15  444c.a873.5c75  Ethernet1
 
 VRF: mgmt
 Address         Age (sec)  Hardware Addr   Interface
 192.168.20.1      0:00:00  90e2.bac7.8074  Management1
-192.168.20.2      0:01:46  bcea.fa02.6ce2  Management1
-192.168.20.18     0:01:15  e484.29cd.e801  Management1
-192.168.20.19     0:00:21  c407.7858.8001  Management1
-192.168.20.20     0:01:52  e484.29d0.4001  Management1
-192.168.20.21     0:03:11  7081.85c1.b801  Management1
-192.168.20.22     0:04:55  c407.780a.9f04  Management1
-192.168.20.23     0:04:37  c407.780a.7750  Management1
-192.168.20.24     0:01:46  6c87.2089.ede5  Management1
-192.168.20.25     0:03:05  6c87.2089.ece5  Management1
-192.168.20.26     0:03:05  04a9.59d5.df66  Management1
-192.168.20.29     0:04:18  90f7.b223.d466  Management1
-192.168.20.52     0:04:12  f83e.95dc.1289  Management1
-192.168.21.50     0:03:05  a84f.b1a5.5221  Management1
-192.168.21.59     0:04:12  6607.f5d1.ae16  Management1
+192.168.20.2      0:01:11  bcea.fa02.6ce2  Management1
+192.168.20.18     0:04:20  e484.29cd.e801  Management1
+192.168.20.19     0:00:46  c407.7858.8001  Management1
+192.168.20.20     0:04:14  e484.29d0.4001  Management1
+192.168.20.21     0:02:48  7081.85c1.b801  Management1
+192.168.20.22     0:00:58  c407.780a.9f04  Management1
+192.168.20.23     0:02:42  c407.780a.7750  Management1
+192.168.20.24     0:02:12  6c87.2089.ede5  Management1
+192.168.20.25     0:01:17  6c87.2089.ece5  Management1
+192.168.20.26     0:04:38  04a9.59d5.df66  Management1
+192.168.20.29     0:02:54  90f7.b223.d466  Management1
+192.168.20.52     0:01:35  f83e.95dc.1289  Management1
+192.168.21.50     0:04:38  a84f.b1a5.5221  Management1
+192.168.21.59     0:04:26  6607.f5d1.ae16  Management1
 
 VRF: tenant-a
 Address         Age (sec)  Hardware Addr   Interface
@@ -46,7 +47,7 @@ Address         Age (sec)  Hardware Addr   Interface
 10.30.2.202             -  444c.a873.5c75  Vlan1302, Port-Channel100
 10.30.2.203             -  0015.0100.0003  Vlan1302, Vxlan1
 10.30.3.22              -  0019.0100.0004  Vlan1303, Vxlan1
-10.30.3.40        0:16:03  0016.0100.0004  Vlan1303, not learned
+10.30.3.40        0:16:08  0016.0100.0004  Vlan1303, not learned
 10.30.3.201             -  0013.0100.0004  Vlan1303, Port-Channel100
 10.30.3.202             -  444c.a873.5c75  Vlan1303, Port-Channel100
 10.30.3.203             -  0015.0100.0004  Vlan1303, Vxlan1

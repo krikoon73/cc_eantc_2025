@@ -14,19 +14,19 @@ BGP summary information for VRF default
 Router identifier 100.0.0.200, local AS number 65000
 Neighbor Status Codes: m - Under maintenance
   Neighbor       V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
-  20.22.200.22   4 65022           1701      1696    0    0 23:11:36 Estab   1      1
-  20.40.200.40   4 65040           1396      1698    0    0 23:11:53 Estab   1      1
-  20.42.200.42   4 65042           1396      1694    0    0 23:11:54 Estab   1      1
-  20.44.200.40   4 65044           1396      1702    0    0 23:11:50 Estab   1      1
-  20.45.200.45   4 65045           1397      1705    0    0 23:11:53 Estab   3      3
-  20.46.200.46   4 65045           1397      1706    0    0 23:11:55 Estab   3      3
-  20.56.200.56   4 65056           2786      3337    0    0 23:10:47 Estab   1      1
-  20.103.200.103 4 65103             35        52    0    0 00:15:56 Estab   1      1
-  20.200.201.201 4 65201           1632      1700    0    0 23:11:56 Estab   2      2
-  20.200.202.202 4 65202           1635      1695    0    0 23:10:00 Estab   2      2
-  20.200.203.203 4 65203            145       169    0    0 01:59:10 Estab   2      2
-  20.200.204.204 4 65204            146       174    0    0 01:59:41 Estab   2      2
-  20.200.206.206 4 65206             78        98    0    0 01:02:47 Estab   2      2
+  20.22.200.22   4 65022           2973      2938    0    0    1d16h Estab   1      1
+  20.40.200.40   4 65040           2440      2938    0    0    1d16h Estab   1      1
+  20.42.200.42   4 65042           2440      2938    0    0    1d16h Estab   1      1
+  20.44.200.40   4 65044           2440      2943    0    0    1d16h Estab   1      1
+  20.45.200.45   4 65045           2441      2943    0    0    1d16h Estab   3      3
+  20.46.200.46   4 65045           2441      2946    0    0    1d16h Estab   3      3
+  20.56.200.56   4 65056           4873      5802    0    0    1d16h Estab   1      1
+  20.103.200.103 4 65103             35        51    0    0 00:16:00 Estab   1      1
+  20.200.201.201 4 65201           2850      2938    0    0    1d16h Estab   2      2
+  20.200.202.202 4 65202           2857      2939    0    0    1d16h Estab   2      2
+  20.200.203.203 4 65203           1373      1415    0    0 19:22:30 Estab   2      2
+  20.200.204.204 4 65204           1364      1418    0    0 19:23:01 Estab   2      2
+  20.200.206.206 4 65206           1300      1336    0    0 18:26:07 Estab   2      2
 ```
 
 ## show bgp evpn summary
@@ -36,19 +36,19 @@ BGP summary information for VRF default
 Router identifier 100.0.0.200, local AS number 65000
 Neighbor Status Codes: m - Under maintenance
   Neighbor    V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
-  100.0.0.22  4 65022           2013      5043    0    0 23:11:33 Estab   13     13
-  100.0.0.40  4 65040           1423      5078    0    0 23:11:11 Estab   24     24
-  100.0.0.42  4 65042           1414      5088    0    0 23:10:53 Estab   16     16
-  100.0.0.44  4 65044           1395      5123    0    0 23:11:12 Estab   0      0
-  100.0.0.45  4 65045           1415      5097    0    0 23:11:26 Estab   16     16
-  100.0.0.46  4 65045           1414      5095    0    0 23:10:47 Estab   16     16
-  100.0.0.56  4 65056           3340      8133    0    0 23:10:13 Estab   33     33
-  100.0.0.103 4 65103             42       282    0    0 00:15:55 Estab   8      8
-  100.0.0.201 4 65201           2645      3995    0    0 23:11:52 Estab   35     35
-  100.0.0.202 4 65202           2905      3982    0    0 23:09:59 Estab   31     31
-  100.0.0.203 4 65203            201      1210    0    0 01:59:05 Estab   17     17
-  100.0.0.204 4 65204            193      1213    0    0 01:59:40 Estab   17     17
-  100.0.0.206 4 65206             86       819    0    0 01:02:46 Estab   9      9
+  100.0.0.22  4 65022           3617     12419    0    0    1d16h Estab   13     13
+  100.0.0.40  4 65040           2488     12676    0    0    1d16h Estab   24     24
+  100.0.0.42  4 65042           2470     12694    0    0    1d16h Estab   16     16
+  100.0.0.44  4 65044           2438     12746    0    0    1d16h Estab   0      0
+  100.0.0.45  4 65045           2470     12707    0    0    1d16h Estab   16     16
+  100.0.0.46  4 65045           2469     12694    0    0    1d16h Estab   16     16
+  100.0.0.56  4 65056           5776     17016    0    0    1d16h Estab   32     32
+  100.0.0.103 4 65103             46       257    0    0 00:16:00 Estab   12     12
+  100.0.0.201 4 65201           5657      9240    0    0    1d16h Estab   32     32
+  100.0.0.202 4 65202           7480      7941    0    0    1d16h Estab   26     26
+  100.0.0.203 4 65203           1523      8711    0    0 19:22:26 Estab   16     16
+  100.0.0.204 4 65204           1492      8744    0    0 19:23:00 Estab   18     18
+  100.0.0.206 4 65206           1319      8437    0    0 18:26:06 Estab   7      7
 ```
 
 ## show bgp evpn route-type auto-discovery detail
@@ -56,7 +56,7 @@ Neighbor Status Codes: m - Under maintenance
 ```text
 BGP routing table information for VRF default
 Router identifier 100.0.0.200, local AS number 65000
-BGP routing table entry for auto-discovery 0000:0000:0000:0000:0000, Route Distinguisher: 100.0.0.103:60
+BGP routing table entry for auto-discovery 0000:0000:0000:0000:0000, Route Distinguisher: 100.0.0.103:20
  Paths: 1 available
   65103
     100.0.0.103 from 100.0.0.103 (196.0.0.1)
@@ -847,6 +847,13 @@ BGP routing table entry for mac-ip 5c5a.c773.4abb 10.10.45.25, Route Distinguish
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1045:1045 Route-Origin-IP:100.0.0.41:0 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:6c:31:0e:b7:50:5f
       VNI: 1045 L3 VNI: 1000 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 1303 0013.0100.0004, Route Distinguisher: 100.0.0.201:1303
+ Paths: 1 available
+  65201
+    100.0.0.201 from 100.0.0.201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1303 ESI: 0000:0000:0000:0201:0202
 BGP routing table entry for mac-ip 1303 0013.0100.0004, Route Distinguisher: 100.0.0.202:1303
  Paths: 1 available
   65202
@@ -931,6 +938,13 @@ BGP routing table entry for mac-ip 1303 444c.a873.5c75 10.30.3.202, Route Distin
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnNdFlags:pflag
       VNI: 1303 ESI: 0000:0000:0000:0201:0202
+BGP routing table entry for mac-ip 1304 0013.0100.0005, Route Distinguisher: 100.0.0.201:1303
+ Paths: 1 available
+  65201
+    100.0.0.201 from 100.0.0.201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1304 ESI: 0000:0000:0000:0201:0202
 BGP routing table entry for mac-ip 1304 0013.0100.0005, Route Distinguisher: 100.0.0.202:1303
  Paths: 1 available
   65202
@@ -952,10 +966,10 @@ BGP routing table entry for mac-ip 1304 0013.0100.0005 10.30.4.201, Route Distin
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnNdFlags:pflag
       VNI: 1304 ESI: 0000:0000:0000:0201:0202
-BGP routing table entry for mac-ip 1304 0015.0100.0005, Route Distinguisher: 100.0.0.203:1303
+BGP routing table entry for mac-ip 1304 0015.0100.0005, Route Distinguisher: 100.0.0.204:1303
  Paths: 1 available
-  65203
-    100.0.0.203 from 100.0.0.203 (100.0.0.203)
+  65204
+    100.0.0.204 from 100.0.0.204 (100.0.0.204)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
       VNI: 1304 ESI: 0000:0000:0000:0203:0204
@@ -1158,12 +1172,20 @@ BGP routing table entry for imet 100.0.0.42, Route Distinguisher: 100.0.0.42:340
       Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan
       VNI: 1302
       PMSI Tunnel: Ingress Replication, MPLS Label: 1302, Leaf Information Required: false, Tunnel ID: 100.0.0.42
+BGP routing table entry for imet 100.0.0.56, Route Distinguisher: 100.0.0.56:1000
+ Paths: 1 available
+  65056
+    100.0.0.56 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan DF Election: Modulus-based Multicast Flags: OISM-supported, PEG, SBD
+      VNI: 1000
+      PMSI Tunnel: Ingress Replication, MPLS Label: 1000, Leaf Information Required: false, Tunnel ID: 100.0.0.56
 BGP routing table entry for imet 100.0.0.56, Route Distinguisher: 100.0.0.56:1056
  Paths: 1 available
   65056
     100.0.0.56 from 100.0.0.56 (100.0.0.56)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1056:1056 TunnelEncap:tunnelTypeVxlan
+      Extended Community: Route-Target-AS:1056:1056 TunnelEncap:tunnelTypeVxlan Multicast Flags: OISM-supported
       VNI: 1056
       PMSI Tunnel: Ingress Replication, MPLS Label: 1056, Leaf Information Required: false, Tunnel ID: 100.0.0.56
 BGP routing table entry for imet 100.0.0.56, Route Distinguisher: 100.0.0.56:1301
@@ -1171,7 +1193,7 @@ BGP routing table entry for imet 100.0.0.56, Route Distinguisher: 100.0.0.56:130
   65056
     100.0.0.56 from 100.0.0.56 (100.0.0.56)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan
+      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan Multicast Flags: OISM-supported
       VNI: 1301
       PMSI Tunnel: Ingress Replication, MPLS Label: 1301, Leaf Information Required: false, Tunnel ID: 100.0.0.56
 BGP routing table entry for imet 100.0.0.56, Route Distinguisher: 100.0.0.56:1302
@@ -1179,7 +1201,7 @@ BGP routing table entry for imet 100.0.0.56, Route Distinguisher: 100.0.0.56:130
   65056
     100.0.0.56 from 100.0.0.56 (100.0.0.56)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan
+      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan Multicast Flags: OISM-supported
       VNI: 1302
       PMSI Tunnel: Ingress Replication, MPLS Label: 1302, Leaf Information Required: false, Tunnel ID: 100.0.0.56
 BGP routing table entry for imet 100.0.0.103, Route Distinguisher: 100.0.0.103:2
@@ -1299,7 +1321,7 @@ BGP routing table entry for imet 100.0.0.206, Route Distinguisher: 100.0.0.206:1
   65206
     100.0.0.206 from 100.0.0.206 (100.0.0.206)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan DF Election: HRW Multicast Flags: IGMP proxy, OISM-supported, PEG, SBD
+      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan DF Election: Modulus-based Multicast Flags: IGMP proxy, OISM-supported, PEG, SBD
       VNI: 1000
       PMSI Tunnel: Ingress Replication, MPLS Label: 1000, Leaf Information Required: false, Tunnel ID: 100.0.0.206
 BGP routing table entry for imet 100.0.0.206, Route Distinguisher: 100.0.0.206:1301
@@ -1331,7 +1353,7 @@ BGP routing table entry for imet 1303 100.0.0.56, Route Distinguisher: 100.0.0.5
   65056
     100.0.0.56 from 100.0.0.56 (100.0.0.56)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan Multicast Flags: OISM-supported
       VNI: 1303
       PMSI Tunnel: Ingress Replication, MPLS Label: 1303, Leaf Information Required: false, Tunnel ID: 100.0.0.56
 BGP routing table entry for imet 1303 100.0.0.103, Route Distinguisher: 100.0.0.103:4
@@ -1395,7 +1417,7 @@ BGP routing table entry for imet 1304 100.0.0.56, Route Distinguisher: 100.0.0.5
   65056
     100.0.0.56 from 100.0.0.56 (100.0.0.56)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan Multicast Flags: OISM-supported
       VNI: 1304
       PMSI Tunnel: Ingress Replication, MPLS Label: 1304, Leaf Information Required: false, Tunnel ID: 100.0.0.56
 BGP routing table entry for imet 1304 100.0.0.103, Route Distinguisher: 100.0.0.103:5
@@ -1453,7 +1475,7 @@ BGP routing table entry for imet 1304 100.0.0.206, Route Distinguisher: 100.0.0.
 ```text
 BGP routing table information for VRF default
 Router identifier 100.0.0.200, local AS number 65000
-BGP routing table entry for ethernet-segment 0000:0000:0000:0000:0000 100.0.0.103, Route Distinguisher: 100.0.0.103:3
+BGP routing table entry for ethernet-segment 0000:0000:0000:0000:0000 100.0.0.103, Route Distinguisher: 100.0.0.103:1
  Paths: 1 available
   65103
     100.0.0.103 from 100.0.0.103 (196.0.0.1)
@@ -1532,26 +1554,12 @@ BGP routing table entry for ip-prefix 10.10.56.0/24, Route Distinguisher: 100.0.
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:00:00:00:56
       VNI: 1000
-BGP routing table entry for ip-prefix 10.10.56.56/32, Route Distinguisher: 100.0.0.56:1000
+BGP routing table entry for ip-prefix 10.20.56.0/24, Route Distinguisher: 100.0.0.56:1000
  Paths: 1 available
   65056
     100.0.0.56 from 100.0.0.56 (100.0.0.56)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:00:00:00:56
-      VNI: 1000
-BGP routing table entry for ip-prefix 10.10.56.202/32, Route Distinguisher: 100.0.0.56:1000
- Paths: 1 available
-  65056
-    100.0.0.56 from 100.0.0.56 (100.0.0.56)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:00:00:00:56
-      VNI: 1000
-BGP routing table entry for ip-prefix 10.20.56.0/24, Route Distinguisher: 100.0.0.206:1000
- Paths: 1 available
-  65206 65202
-    100.0.0.206 from 100.0.0.206 (100.0.0.206)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:98:5d:82:c4:02:71
       VNI: 1000
 BGP routing table entry for ip-prefix 10.20.206.0/24, Route Distinguisher: 100.0.0.206:1000
  Paths: 1 available
@@ -1595,6 +1603,13 @@ BGP routing table entry for ip-prefix 10.30.1.0/24, Route Distinguisher: 100.0.0
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:00:00:00:56
       VNI: 1000
+BGP routing table entry for ip-prefix 10.30.1.0/24, Route Distinguisher: 100.0.0.103:2
+ Paths: 1 available
+  65103
+    100.0.0.103 from 100.0.0.103 (196.0.0.1)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:05:00:00:01
+      VNI: 1000
 BGP routing table entry for ip-prefix 10.30.1.56/32, Route Distinguisher: 100.0.0.56:1000
  Paths: 1 available
   65056
@@ -1637,6 +1652,13 @@ BGP routing table entry for ip-prefix 10.30.2.0/24, Route Distinguisher: 100.0.0
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:00:00:00:56
       VNI: 1000
+BGP routing table entry for ip-prefix 10.30.2.0/24, Route Distinguisher: 100.0.0.103:3
+ Paths: 1 available
+  65103
+    100.0.0.103 from 100.0.0.103 (196.0.0.1)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:05:00:00:01
+      VNI: 1000
 BGP routing table entry for ip-prefix 10.30.2.56/32, Route Distinguisher: 100.0.0.56:1000
  Paths: 1 available
   65056
@@ -1658,13 +1680,6 @@ BGP routing table entry for ip-prefix 10.30.3.0/24, Route Distinguisher: 100.0.0
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:00:00:00:56
       VNI: 1000
-BGP routing table entry for ip-prefix 10.30.3.56/32, Route Distinguisher: 100.0.0.56:1000
- Paths: 1 available
-  65056
-    100.0.0.56 from 100.0.0.56 (100.0.0.56)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:00:00:00:56
-      VNI: 1000
 BGP routing table entry for ip-prefix 10.30.4.0/24, Route Distinguisher: 100.0.0.40:1000
  Paths: 1 available
   65040
@@ -1679,19 +1694,12 @@ BGP routing table entry for ip-prefix 10.30.4.0/24, Route Distinguisher: 100.0.0
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:00:00:00:56
       VNI: 1000
-BGP routing table entry for ip-prefix 10.30.4.56/32, Route Distinguisher: 100.0.0.56:1000
+BGP routing table entry for ip-prefix 100.0.1.202/32, Route Distinguisher: 100.0.0.56:1000
  Paths: 1 available
-  65056
+  65056 65202
     100.0.0.56 from 100.0.0.56 (100.0.0.56)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:00:00:00:56
-      VNI: 1000
-BGP routing table entry for ip-prefix 100.0.1.202/32, Route Distinguisher: 100.0.0.206:1000
- Paths: 1 available
-  65206 65202
-    100.0.0.206 from 100.0.0.206 (100.0.0.206)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:98:5d:82:c4:02:71
       VNI: 1000
 BGP routing table entry for ip-prefix 100.9.9.0/24, Route Distinguisher: 100.0.3.60:0
  Paths: 1 available
@@ -1700,6 +1708,20 @@ BGP routing table entry for ip-prefix 100.9.9.0/24, Route Distinguisher: 100.0.3
       Origin INCOMPLETE, metric -, localpref 100, weight 0, tag 0, invalid, external
       Extended Community: Route-Target-AS:100:100
       VNI: 384032
+BGP routing table entry for ip-prefix 1303 10.30.3.0/24, Route Distinguisher: 100.0.0.103:4
+ Paths: 1 available
+  65103
+    100.0.0.103 from 100.0.0.103 (196.0.0.1)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:05:00:00:01
+      VNI: 1000
+BGP routing table entry for ip-prefix 1304 10.30.4.0/24, Route Distinguisher: 100.0.0.103:5
+ Paths: 1 available
+  65103
+    100.0.0.103 from 100.0.0.103 (196.0.0.1)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:01:05:00:00:01
+      VNI: 1000
 ```
 
 ## show bgp evpn route-type smet detail
@@ -1721,76 +1743,6 @@ BGP routing table entry for smet (S, G): (*, *) originating IP: 100.0.0.206, Rou
 ```text
 BGP routing table information for VRF default
 Router identifier 100.0.0.200, local AS number 65000
-BGP routing table entry for spmsi (S, G): (*, *) originating IP: 100.0.0.201, Route Distinguisher: 100.0.0.201:1201
- Paths: 1 available
-  65201
-    100.0.0.201 from 100.0.0.201 (100.0.0.201)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1201:1201 TunnelEncap:tunnelTypeVxlan
-      PMSI Tunnel: PIM-SSM Tree, MPLS Label: 1201, Leaf Information Required: false, Tunnel ID: 100.0.0.201, 225.0.0.100
-BGP routing table entry for spmsi (S, G): (*, *) originating IP: 100.0.0.201, Route Distinguisher: 100.0.0.201:1301
- Paths: 1 available
-  65201
-    100.0.0.201 from 100.0.0.201 (100.0.0.201)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan
-      PMSI Tunnel: PIM-SSM Tree, MPLS Label: 1301, Leaf Information Required: false, Tunnel ID: 100.0.0.201, 225.0.0.100
-BGP routing table entry for spmsi (S, G): (*, *) originating IP: 100.0.0.201, Route Distinguisher: 100.0.0.201:1302
- Paths: 1 available
-  65201
-    100.0.0.201 from 100.0.0.201 (100.0.0.201)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan
-      PMSI Tunnel: PIM-SSM Tree, MPLS Label: 1302, Leaf Information Required: false, Tunnel ID: 100.0.0.201, 225.0.0.100
-BGP routing table entry for spmsi (S, G): (*, *) originating IP: 100.0.0.202, Route Distinguisher: 100.0.0.202:1201
- Paths: 1 available
-  65202
-    100.0.0.202 from 100.0.0.202 (100.0.0.202)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1201:1201 TunnelEncap:tunnelTypeVxlan
-      PMSI Tunnel: PIM-SSM Tree, MPLS Label: 1201, Leaf Information Required: false, Tunnel ID: 100.0.0.202, 225.0.0.100
-BGP routing table entry for spmsi (S, G): (*, *) originating IP: 100.0.0.202, Route Distinguisher: 100.0.0.202:1301
- Paths: 1 available
-  65202
-    100.0.0.202 from 100.0.0.202 (100.0.0.202)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan
-      PMSI Tunnel: PIM-SSM Tree, MPLS Label: 1301, Leaf Information Required: false, Tunnel ID: 100.0.0.202, 225.0.0.100
-BGP routing table entry for spmsi (S, G): (*, *) originating IP: 100.0.0.202, Route Distinguisher: 100.0.0.202:1302
- Paths: 1 available
-  65202
-    100.0.0.202 from 100.0.0.202 (100.0.0.202)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan
-      PMSI Tunnel: PIM-SSM Tree, MPLS Label: 1302, Leaf Information Required: false, Tunnel ID: 100.0.0.202, 225.0.0.100
-BGP routing table entry for spmsi ETID: 1303 (S, G): (*, *) originating IP: 100.0.0.201, Route Distinguisher: 100.0.0.201:1303
- Paths: 1 available
-  65201
-    100.0.0.201 from 100.0.0.201 (100.0.0.201)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
-      PMSI Tunnel: PIM-SSM Tree, MPLS Label: 1303, Leaf Information Required: false, Tunnel ID: 100.0.0.201, 225.0.0.100
-BGP routing table entry for spmsi ETID: 1303 (S, G): (*, *) originating IP: 100.0.0.202, Route Distinguisher: 100.0.0.202:1303
- Paths: 1 available
-  65202
-    100.0.0.202 from 100.0.0.202 (100.0.0.202)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
-      PMSI Tunnel: PIM-SSM Tree, MPLS Label: 1303, Leaf Information Required: false, Tunnel ID: 100.0.0.202, 225.0.0.100
-BGP routing table entry for spmsi ETID: 1304 (S, G): (*, *) originating IP: 100.0.0.201, Route Distinguisher: 100.0.0.201:1303
- Paths: 1 available
-  65201
-    100.0.0.201 from 100.0.0.201 (100.0.0.201)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
-      PMSI Tunnel: PIM-SSM Tree, MPLS Label: 1304, Leaf Information Required: false, Tunnel ID: 100.0.0.201, 225.0.0.100
-BGP routing table entry for spmsi ETID: 1304 (S, G): (*, *) originating IP: 100.0.0.202, Route Distinguisher: 100.0.0.202:1303
- Paths: 1 available
-  65202
-    100.0.0.202 from 100.0.0.202 (100.0.0.202)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
-      PMSI Tunnel: PIM-SSM Tree, MPLS Label: 1304, Leaf Information Required: false, Tunnel ID: 100.0.0.202, 225.0.0.100
 ```
 
 ## show bgp evpn arp
@@ -1885,19 +1837,19 @@ Gateway of last resort is not set
 
 ```text
 Address         Age (sec)  Hardware Addr   Interface
-20.200.201.201    0:00:31  2899.3a8f.8f6f  Ethernet1
-20.200.202.202    0:00:05  7483.ef0b.a4fb  Ethernet2
-20.200.203.203    0:00:25  3838.a621.e82f  Ethernet3
-20.200.204.204    0:00:03  985d.82a2.04f9  Ethernet4
-20.200.206.206    0:00:20  985d.82c4.0271  Ethernet5
-20.56.200.56      0:00:15  407c.7dc4.ab9d  Ethernet11
-20.103.200.103    0:00:27  0011.0100.0001  Ethernet12
-20.45.200.45      0:00:50  6c31.0e7b.8b87  Ethernet13
-20.46.200.46      0:00:24  6c31.0eb7.505f  Ethernet14
-20.40.200.40      0:00:00  246c.8474.8ddb  Ethernet15
-20.42.200.42      0:00:24  4014.827b.84ab  Ethernet16
-20.44.200.40      0:00:09  5c5a.c773.4abb  Ethernet17
-20.22.200.22      0:00:06  c407.780a.9f31  Ethernet26
+20.200.201.201    0:00:15  2899.3a8f.8f6f  Ethernet1
+20.200.202.202    0:00:15  7483.ef0b.a4fb  Ethernet2
+20.200.203.203    0:00:12  3838.a621.e82f  Ethernet3
+20.200.204.204    0:00:15  985d.82a2.04f9  Ethernet4
+20.200.206.206    0:00:15  985d.82c4.0271  Ethernet5
+20.56.200.56      0:00:06  407c.7dc4.ab9d  Ethernet11
+20.103.200.103    0:00:03  0011.0100.0001  Ethernet12
+20.45.200.45      0:00:10  6c31.0e7b.8b87  Ethernet13
+20.46.200.46      0:00:09  6c31.0eb7.505f  Ethernet14
+20.40.200.40      0:00:06  246c.8474.8ddb  Ethernet15
+20.42.200.42      0:00:09  4014.827b.84ab  Ethernet16
+20.44.200.40      0:00:08  5c5a.c773.4abb  Ethernet17
+20.22.200.22      0:00:10  c407.780a.9f31  Ethernet26
 ```
 
 ## show ip route vrf all
@@ -2515,38 +2467,38 @@ Gateway of last resort is not set
 
 VRF: 1022
 Address         Age (sec)  Hardware Addr   Interface
-10.10.22.254      0:10:37  00aa.aaaa.aaaa  Vlan1022, not learned
+10.10.22.254      0:12:02  00aa.aaaa.aaaa  Vlan1022, not learned
 
 VRF: 1040
 Address         Age (sec)  Hardware Addr   Interface
-10.10.40.254      0:01:00  00aa.aaaa.aaaa  Vlan1040, Ethernet48
+10.10.40.254      2:12:04  00aa.aaaa.aaaa  Vlan1040, Ethernet48
 
 VRF: 1042
 Address         Age (sec)  Hardware Addr   Interface
-10.10.42.254      3:44:03  00aa.aaaa.aaaa  Vlan1042, not learned
+10.10.42.254      2:47:51  00aa.aaaa.aaaa  Vlan1042, not learned
 
 VRF: 1044
 Address         Age (sec)  Hardware Addr   Interface
 
 VRF: 1045
 Address         Age (sec)  Hardware Addr   Interface
-10.10.45.254      0:27:49  00aa.aaaa.aaaa  Vlan1045, not learned
+10.10.45.254      2:34:05  00aa.aaaa.aaaa  Vlan1045, Ethernet48
 
 VRF: 1056
 Address         Age (sec)  Hardware Addr   Interface
-10.10.56.254      0:27:17  00aa.aaaa.aaaa  Vlan1056, not learned
+10.10.56.254      3:31:10  00aa.aaaa.aaaa  Vlan1056, not learned
 
 VRF: 1201
 Address         Age (sec)  Hardware Addr   Interface
-10.10.201.254     1:42:32  00aa.aaaa.aaaa  Vlan1201, Ethernet48
+10.10.201.254     1:05:32  00aa.aaaa.aaaa  Vlan1201, Ethernet48
 
 VRF: 1203
 Address         Age (sec)  Hardware Addr   Interface
-10.10.203.254     1:43:12  00aa.aaaa.aaaa  Vlan1203, not learned
+10.10.203.254     0:22:59  00aa.aaaa.aaaa  Vlan1203, not learned
 
 VRF: 1301
 Address         Age (sec)  Hardware Addr   Interface
-10.30.1.254       1:12:02  00aa.aaaa.aaaa  Vlan1301, Ethernet48
+10.30.1.254       3:13:29  00aa.aaaa.aaaa  Vlan1301, Ethernet48
 
 VRF: 1301-201
 Address         Age (sec)  Hardware Addr   Interface
@@ -2556,7 +2508,7 @@ Address         Age (sec)  Hardware Addr   Interface
 
 VRF: 1302
 Address         Age (sec)  Hardware Addr   Interface
-10.30.2.254       1:50:27  00aa.aaaa.aaaa  Vlan1302, Ethernet48
+10.30.2.254       3:51:53  00aa.aaaa.aaaa  Vlan1302, Ethernet48
 
 VRF: 1302-201
 Address         Age (sec)  Hardware Addr   Interface
@@ -2566,7 +2518,7 @@ Address         Age (sec)  Hardware Addr   Interface
 
 VRF: 1303
 Address         Age (sec)  Hardware Addr   Interface
-10.30.3.254       1:21:38  00aa.aaaa.aaaa  Vlan1303, Ethernet48
+10.30.3.254       3:23:05  00aa.aaaa.aaaa  Vlan1303, Ethernet48
 
 VRF: 1303-201
 Address         Age (sec)  Hardware Addr   Interface
@@ -2576,7 +2528,7 @@ Address         Age (sec)  Hardware Addr   Interface
 
 VRF: 1304
 Address         Age (sec)  Hardware Addr   Interface
-10.30.4.254       1:36:02  00aa.aaaa.aaaa  Vlan1304, Ethernet48
+10.30.4.254       1:42:15  00aa.aaaa.aaaa  Vlan1304, Ethernet48
 
 VRF: 1304-201
 Address         Age (sec)  Hardware Addr   Interface
@@ -2592,36 +2544,36 @@ Address         Age (sec)  Hardware Addr   Interface
 
 VRF: default
 Address         Age (sec)  Hardware Addr   Interface
-20.200.201.201    0:00:31  2899.3a8f.8f6f  Ethernet1
-20.200.202.202    0:00:05  7483.ef0b.a4fb  Ethernet2
-20.200.203.203    0:00:25  3838.a621.e82f  Ethernet3
-20.200.204.204    0:00:04  985d.82a2.04f9  Ethernet4
-20.200.206.206    0:00:20  985d.82c4.0271  Ethernet5
-20.56.200.56      0:00:15  407c.7dc4.ab9d  Ethernet11
-20.103.200.103    0:00:27  0011.0100.0001  Ethernet12
-20.45.200.45      0:00:50  6c31.0e7b.8b87  Ethernet13
-20.46.200.46      0:00:25  6c31.0eb7.505f  Ethernet14
-20.40.200.40      0:00:00  246c.8474.8ddb  Ethernet15
-20.42.200.42      0:00:25  4014.827b.84ab  Ethernet16
+20.200.201.201    0:00:15  2899.3a8f.8f6f  Ethernet1
+20.200.202.202    0:00:15  7483.ef0b.a4fb  Ethernet2
+20.200.203.203    0:00:13  3838.a621.e82f  Ethernet3
+20.200.204.204    0:00:15  985d.82a2.04f9  Ethernet4
+20.200.206.206    0:00:15  985d.82c4.0271  Ethernet5
+20.56.200.56      0:00:06  407c.7dc4.ab9d  Ethernet11
+20.103.200.103    0:00:03  0011.0100.0001  Ethernet12
+20.45.200.45      0:00:11  6c31.0e7b.8b87  Ethernet13
+20.46.200.46      0:00:09  6c31.0eb7.505f  Ethernet14
+20.40.200.40      0:00:06  246c.8474.8ddb  Ethernet15
+20.42.200.42      0:00:09  4014.827b.84ab  Ethernet16
 20.44.200.40      0:00:09  5c5a.c773.4abb  Ethernet17
-20.22.200.22      0:00:06  c407.780a.9f31  Ethernet26
+20.22.200.22      0:00:10  c407.780a.9f31  Ethernet26
 
 VRF: mgmt
 Address         Age (sec)  Hardware Addr   Interface
 192.168.20.1      0:00:00  90e2.bac7.8074  Management1
-192.168.20.2      0:00:09  bcea.fa02.6ce2  Management1
-192.168.20.18     0:00:39  e484.29cd.e801  Management1
-192.168.20.19     0:03:00  c407.7858.8001  Management1
-192.168.20.20     0:03:36  e484.29d0.4001  Management1
-192.168.20.21     0:00:45  7081.85c1.b801  Management1
-192.168.20.22     0:04:31  c407.780a.9f04  Management1
-192.168.20.23     0:02:53  c407.780a.7750  Management1
-192.168.20.24     0:01:22  6c87.2089.ede5  Management1
-192.168.20.25     0:00:39  6c87.2089.ece5  Management1
-192.168.20.28     0:00:52  98a9.2d59.bae6  Management1
-192.168.20.52     0:04:13  f83e.95dc.1289  Management1
-192.168.21.50     0:01:53  a84f.b1a5.5221  Management1
-192.168.21.59     0:01:40  6607.f5d1.ae16  Management1
+192.168.20.2      0:02:43  bcea.fa02.6ce2  Management1
+192.168.20.18     0:02:55  e484.29cd.e801  Management1
+192.168.20.19     0:01:30  c407.7858.8001  Management1
+192.168.20.20     0:00:10  e484.29d0.4001  Management1
+192.168.20.21     0:04:57  7081.85c1.b801  Management1
+192.168.20.22     0:00:29  c407.780a.9f04  Management1
+192.168.20.23     0:01:11  c407.780a.7750  Management1
+192.168.20.24     0:00:04  6c87.2089.ede5  Management1
+192.168.20.25     0:03:50  6c87.2089.ece5  Management1
+192.168.20.28     0:02:37  98a9.2d59.bae6  Management1
+192.168.20.52     0:01:42  f83e.95dc.1289  Management1
+192.168.21.50     0:04:08  a84f.b1a5.5221  Management1
+192.168.21.59     0:04:45  6607.f5d1.ae16  Management1
 
 VRF: red
 Address         Age (sec)  Hardware Addr   Interface
@@ -2652,34 +2604,40 @@ Total Remote Mac Addresses for this criterion: 0
 Vlan    Mac Address       Type        Ports      Moves   Last Move
 ----    -----------       ----        -----      -----   ---------
 1022    444c.a873.5c75    STATIC      Router
-1040    00aa.aaaa.aaaa    DYNAMIC     Et48       1       0:00:59 ago
-1040    246c.8474.8de0    DYNAMIC     Et48       1       3:51:26 ago
+1040    00aa.aaaa.aaaa    DYNAMIC     Et48       1       0:00:49 ago
+1040    246c.8474.8de0    DYNAMIC     Et48       1       21:14:47 ago
 1040    444c.a873.5c75    STATIC      Router
-1042    4014.827b.84b0    DYNAMIC     Et48       1       3:44:02 ago
+1042    4014.827b.84b0    DYNAMIC     Et48       1       21:07:23 ago
 1042    444c.a873.5c75    STATIC      Router
-1045    0026.f002.0000    DYNAMIC     Et48       1       4:03:54 ago
+1045    0026.f002.0000    DYNAMIC     Et48       1       21:27:15 ago
+1045    00aa.aaaa.aaaa    DYNAMIC     Et48       1       0:04:04 ago
 1045    444c.a873.5c75    STATIC      Router
+1056    0056.5656.5656    DYNAMIC     Et48       1       16:14:39 ago
 1056    444c.a873.5c75    STATIC      Router
-1201    00aa.aaaa.aaaa    DYNAMIC     Et48       1       0:36:58 ago
+1201    00aa.aaaa.aaaa    DYNAMIC     Et48       1       1:17:27 ago
 1201    444c.a873.5c75    STATIC      Router
 1203    444c.a873.5c75    STATIC      Router
-1301    0013.0100.0002    DYNAMIC     Et48       1       0:05:07 ago
-1301    0016.0100.0002    DYNAMIC     Et48       1       0:14:16 ago
-1301    0017.0100.0002    DYNAMIC     Et48       1       0:01:16 ago
-1301    00aa.aaaa.aaaa    DYNAMIC     Et48       1       1:30:33 ago
+1301    0013.0100.0002    DYNAMIC     Et48       1       0:26:47 ago
+1301    0014.0100.0002    DYNAMIC     Et48       1       0:11:28 ago
+1301    0016.0100.0002    DYNAMIC     Et48       1       0:15:44 ago
+1301    0017.0100.0002    DYNAMIC     Et48       1       0:11:28 ago
+1301    0018.0100.0002    DYNAMIC     Et48       1       0:11:28 ago
+1301    00aa.aaaa.aaaa    DYNAMIC     Et48       1       18:53:54 ago
 1301    444c.a873.5c75    STATIC      Router
-1302    0013.0100.0003    DYNAMIC     Et48       1       0:05:07 ago
-1302    0016.0100.0003    DYNAMIC     Et48       1       0:14:16 ago
-1302    0017.0100.0003    DYNAMIC     Et48       1       0:01:16 ago
-1302    00aa.aaaa.aaaa    DYNAMIC     Et48       1       1:30:33 ago
+1302    0013.0100.0003    DYNAMIC     Et48       1       0:26:47 ago
+1302    0014.0100.0003    DYNAMIC     Et48       1       0:11:28 ago
+1302    0016.0100.0003    DYNAMIC     Et48       1       0:15:44 ago
+1302    0017.0100.0003    DYNAMIC     Et48       1       0:11:28 ago
+1302    0018.0100.0003    DYNAMIC     Et48       1       0:11:28 ago
+1302    00aa.aaaa.aaaa    DYNAMIC     Et48       1       0:02:25 ago
 1302    444c.a873.5c75    STATIC      Router
-1303    0013.0100.0004    DYNAMIC     Et48       1       0:04:47 ago
-1303    00aa.aaaa.aaaa    DYNAMIC     Et48       1       0:51:14 ago
+1303    0013.0100.0004    DYNAMIC     Et48       1       0:11:28 ago
+1303    00aa.aaaa.aaaa    DYNAMIC     Et48       1       0:32:27 ago
 1303    444c.a873.5c75    STATIC      Router
-1304    0013.0100.0005    DYNAMIC     Et48       1       0:04:47 ago
-1304    00aa.aaaa.aaaa    DYNAMIC     Et48       1       1:30:33 ago
+1304    0013.0100.0005    DYNAMIC     Et48       1       0:11:28 ago
+1304    00aa.aaaa.aaaa    DYNAMIC     Et48       1       1:31:43 ago
 1304    444c.a873.5c75    STATIC      Router
-Total Mac Addresses for this criterion: 28
+Total Mac Addresses for this criterion: 34
 
           Multicast Mac Address Table
 ------------------------------------------------------------------
@@ -2692,11 +2650,17 @@ Total Mac Addresses for this criterion: 0
 ## show l2rib output detail
 
 ```text
+00aa.aaaa.aaaa, VLAN 1045, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
 00aa.aaaa.aaaa, VLAN 1301, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet48
 0017.0100.0002, VLAN 1301, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet48
 00aa.aaaa.aaaa, VLAN 1201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+0018.0100.0002, VLAN 1301, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+0018.0100.0003, VLAN 1302, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet48
 00aa.aaaa.aaaa, VLAN 1303, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet48
@@ -2714,11 +2678,17 @@ Total Mac Addresses for this criterion: 0
    Ethernet48
 00aa.aaaa.aaaa, VLAN 1304, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet48
+0014.0100.0002, VLAN 1301, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
 0017.0100.0003, VLAN 1302, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet48
 00aa.aaaa.aaaa, VLAN 1302, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet48
+0014.0100.0003, VLAN 1302, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
 0013.0100.0005, VLAN 1304, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+0056.5656.5656, VLAN 1056, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet48
 0013.0100.0002, VLAN 1301, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet48
@@ -2764,17 +2734,18 @@ Router identifier 100.0.0.200, local AS number 65000
 
 ```text
 Port      Name         Intvl  In Mbps      %  In Kpps Out Mbps      % Out Kpps
-Et1       A-PE11-201    0:01      0.5   0.0%        0     78.8   0.9%       84
-Et2       A-PE12-202    0:01     79.3   0.9%       85      0.5   0.0%        0
+Et1       A-PE11-201    0:01      0.5   0.0%        0     79.1   0.9%       85
+Et2       A-PE12-202    0:01     79.3   0.9%       85      0.7   0.0%        0
 Et3       A-PE13-203    0:01     79.1   0.9%       85     78.6   0.9%       84
-Et4       A-PE14-204    0:01      1.2   0.0%        1      0.2   0.0%        0
-Et11      Nokia-56      0:05      1.2   0.0%        1      1.2   0.0%        1
-Et13      Cisco-45-N9K  0:05      0.2   0.0%        0      0.4   0.0%        0
-Et14      Cisco-46-N9K  0:05      0.2   0.0%        0      0.4   0.0%        0
-Et15      Cisco-40-N9K  0:05      0.4   0.0%        0      9.5   0.1%       10
-Et16      Cisco-42-N9K  0:05      0.4   0.0%        0      0.8   0.0%        0
-Et26      H3C-22        0:05    148.5   1.7%      159    140.2   1.6%      151
-Et48      Spine-host    0:05     87.3   1.1%      151      0.0   0.0%        0
-Ma1                     0:05      0.0   0.0%        0      0.2   0.0%        0
+Et4       A-PE14-204    0:01      1.2   0.0%        1      1.6   0.0%        1
+Et11      Nokia-56      0:05      1.4   0.0%        1      3.3   0.0%        3
+Et12      Keysight-103  0:05      2.9   0.0%        2      0.0   0.0%        0
+Et13      Cisco-45-N9K  0:05      0.5   0.0%        0      0.5   0.0%        0
+Et14      Cisco-46-N9K  0:05      0.9   0.0%        1      0.9   0.0%        1
+Et15      Cisco-40-N9K  0:05      1.9   0.0%        2     12.1   0.1%       13
+Et16      Cisco-42-N9K  0:05      0.9   0.0%        1      0.9   0.0%        1
+Et26      H3C-22        0:05    166.9   2.0%      179    157.7   1.8%      169
+Et48      Spine-host    0:05     82.4   1.1%      143      0.0   0.0%        0
+Ma1                     0:05      0.0   0.0%        0      0.1   0.0%        0
 ```
 

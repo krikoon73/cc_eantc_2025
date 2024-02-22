@@ -1,6 +1,6 @@
 BGP routing table information for VRF default
 Router identifier 100.0.0.201, local AS number 65201
-BGP routing table entry for auto-discovery 0000:0000:0000:0000:0000, Route Distinguisher: 100.0.0.103:60
+BGP routing table entry for auto-discovery 0000:0000:0000:0000:0000, Route Distinguisher: 100.0.0.103:20
  Paths: 1 available
   65000 65103
     100.0.0.103 from 100.0.0.200 (100.0.0.200)
