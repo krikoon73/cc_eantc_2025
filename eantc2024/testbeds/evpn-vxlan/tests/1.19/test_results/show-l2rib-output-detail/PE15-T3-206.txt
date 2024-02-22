@@ -1,0 +1,92 @@
+0019.0100.0003, VLAN 1302, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 100.0.0.22
+00aa.aaaa.aaaa, VLAN 1301, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+0015.0100.0002, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+0017.0100.0002, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 100.0.0.42
+0056.5656.5656, VLAN 1303, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+444c.a873.5c75, VLAN 1302, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 3: 2-way
+      VTEP 100.0.0.201
+      VTEP 100.0.0.202
+0019.0100.0005, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 100.0.0.22
+0018.0100.0002, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 100.0.0.41
+0018.0100.0003, VLAN 1302, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 100.0.0.41
+00aa.aaaa.aaaa, VLAN 1303, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+0022.2200.0004, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 100.0.0.103
+0016.0100.0002, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 100.0.0.40
+444c.a873.5c75, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 3: 2-way
+      VTEP 100.0.0.201
+      VTEP 100.0.0.202
+0013.0100.0004, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 3: 2-way
+      VTEP 100.0.0.201
+      VTEP 100.0.0.202
+0013.0100.0003, VLAN 1302, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 3: 2-way
+      VTEP 100.0.0.201
+      VTEP 100.0.0.202
+0056.5656.5656, VLAN 1301, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+0016.0100.0003, VLAN 1302, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 100.0.0.40
+0015.0100.0004, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+0014.0100.0005, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 100.0.0.56
+0019.0100.0004, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 100.0.0.22
+0056.5656.5656, VLAN 1302, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+444c.a873.5c75, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 3: 2-way
+      VTEP 100.0.0.201
+      VTEP 100.0.0.202
+00aa.aaaa.aaaa, VLAN 1304, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+0017.0100.0003, VLAN 1302, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 100.0.0.42
+00aa.aaaa.aaaa, VLAN 1302, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+0013.0100.0005, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 3: 2-way
+      VTEP 100.0.0.201
+      VTEP 100.0.0.202
+0022.2200.0005, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 100.0.0.103
+0014.0100.0004, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 100.0.0.56
+0056.5656.5656, VLAN 1304, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+0013.0100.0002, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 3: 2-way
+      VTEP 100.0.0.201
+      VTEP 100.0.0.202
+0019.0100.0002, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 100.0.0.22
+444c.a873.5c75, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 3: 2-way
+      VTEP 100.0.0.201
+      VTEP 100.0.0.202
+0015.0100.0003, VLAN 1302, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+0015.0100.0005, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204

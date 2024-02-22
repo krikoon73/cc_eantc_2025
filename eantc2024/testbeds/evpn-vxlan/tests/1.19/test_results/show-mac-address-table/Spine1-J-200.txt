@@ -1,0 +1,35 @@
+          Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports      Moves   Last Move
+----    -----------       ----        -----      -----   ---------
+1022    444c.a873.5c75    STATIC      Router
+1040    246c.8474.8de0    DYNAMIC     Et48       1       1 day, 0:51:20 ago
+1040    444c.a873.5c75    STATIC      Router
+1042    4014.827b.84b0    DYNAMIC     Et48       1       1 day, 0:43:55 ago
+1042    444c.a873.5c75    STATIC      Router
+1045    0026.f002.0000    DYNAMIC     Et48       1       1 day, 1:03:47 ago
+1045    00aa.aaaa.aaaa    DYNAMIC     Et48       1       0:04:04 ago
+1045    444c.a873.5c75    STATIC      Router
+1056    0056.5656.5656    DYNAMIC     Et48       1       19:51:11 ago
+1056    444c.a873.5c75    STATIC      Router
+1201    00aa.aaaa.aaaa    DYNAMIC     Et48       1       4:53:59 ago
+1201    444c.a873.5c75    STATIC      Router
+1203    00aa.aaaa.aaaa    DYNAMIC     Et48       1       0:04:15 ago
+1203    444c.a873.5c75    STATIC      Router
+1301    00aa.aaaa.aaaa    DYNAMIC     Et48       1       2:48:14 ago
+1301    444c.a873.5c75    STATIC      Router
+1302    00aa.aaaa.aaaa    DYNAMIC     Et48       1       3:22:33 ago
+1302    444c.a873.5c75    STATIC      Router
+1303    00aa.aaaa.aaaa    DYNAMIC     Et48       1       4:09:00 ago
+1303    444c.a873.5c75    STATIC      Router
+1304    00aa.aaaa.aaaa    DYNAMIC     Et48       1       2:48:14 ago
+1304    444c.a873.5c75    STATIC      Router
+Total Mac Addresses for this criterion: 22
+
+          Multicast Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       ----        -----
+Total Mac Addresses for this criterion: 0
