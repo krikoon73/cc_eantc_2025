@@ -1,0 +1,10 @@
+Last table change time   : 1 day, 17:03:55 ago
+Number of table inserts  : 1
+Number of table deletes  : 0
+Number of table drops    : 0
+Number of table age-outs : 0
+
+Port          Neighbor Device ID       Neighbor Port ID    TTL
+---------- ------------------------ ---------------------- ---
+Ma1           extreme-x460-1           33                  120
+
