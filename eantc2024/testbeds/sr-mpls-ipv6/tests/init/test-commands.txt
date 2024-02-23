@@ -5,3 +5,5 @@ show isis segment-routing prefix-segments
 show isis neighbors
 show ipv6 bgp summary
 show bgp evpn summary
+show bgp vpn-ipv4 summary
+show bgp vpn-ipv6 summary

@@ -16,9 +16,9 @@ Internal build ID: 635a071a-386e-447f-942c-bcc34d9ffd3c
 Image format version: 3.0
 Image optimization: Default
 
-Uptime: 57 minutes
+Uptime: 2 hours and 47 minutes
 Total memory: 8099732 kB
-Free memory: 5718392 kB
+Free memory: 5648784 kB
 
 ```
 
@@ -81,7 +81,7 @@ Ma1                 connected    routed   a-full a-1G   10/100/1000
 ## show lldp neighbors
 
 ```text
-Last table change time   : 0:53:11 ago
+Last table change time   : 2:42:57 ago
 Number of table inserts  : 2
 Number of table deletes  : 0
 Number of table drops    : 0
@@ -101,7 +101,7 @@ Ma1             extreme-x460-1           22                  120
 System ID: anet-PE42-J2-162			Instance: 'IPV6'
 SR supported Data-plane: MPLS			SR Router ID: 100.0.0.162
 
-Node: 9      Proxy-Node: 0      Prefix: 0       Total Segments: 9
+Node: 11     Proxy-Node: 0      Prefix: 0       Total Segments: 11
 
 Flag Descriptions: R: Re-advertised, N: Node Segment, P: no-PHP
                    E: Explicit-NULL, V: Value, L: Local
@@ -109,6 +109,8 @@ Segment status codes: * - Self originated Prefix, L1 - level 1, L2 - level 2, ! 
                       # - Some IS-IS next-hops are SR-unreachable
    Prefix                      SID Type       Flags                        System ID       Level Protection  Algorithm   
    ------------------------- ----- ---------- ---------------------------- --------------- ----- ----------- -------------
+   10.0.0.57/32                 57 Node       R:0 N:1 P:1 E:0 V:0 L:0      NOKIA-SR2-57    L2    unprotected SPF         
+   10.0.0.59/32                 59 Node       R:0 N:1 P:1 E:0 V:0 L:0      Nokia-59-IXRe2  L2    unprotected SPF         
    2002::57/128                157 Node       R:0 N:1 P:1 E:0 V:0 L:0      NOKIA-SR2-57    L2    node        SPF         
    2002::57/128                728 Node       R:0 N:1 P:1 E:0 V:0 L:0      NOKIA-SR2-57    L2    unprotected 128         
    2002::59/128                159 Node       R:0 N:1 P:1 E:0 V:0 L:0      Nokia-59-IXRe2  L2    node        SPF         
@@ -125,7 +127,7 @@ Segment status codes: * - Self originated Prefix, L1 - level 1, L2 - level 2, ! 
 ```text
  
 Instance  VRF      System Id        Type Interface          SNPA              State Hold time   Circuit Id          
-IPV6      default  NOKIA-SR2-57     L2   Ethernet41/1       P2P               UP    21          00                  
+IPV6      default  NOKIA-SR2-57     L2   Ethernet41/1       P2P               UP    23          00                  
 ```
 
 ## show ipv6 bgp summary
@@ -134,9 +136,7 @@ IPV6      default  NOKIA-SR2-57     L2   Ethernet41/1       P2P               UP
 BGP summary information for VRF default
 Router identifier 100.0.0.162, local AS number 65000
 Neighbor Status Codes: m - Under maintenance
-  Neighbor  V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
-  2002::59  4 65000             96       201    0    0 00:54:35 Active
-  2002::304 4 65000             25        50    0    0 00:54:35 Active
+  Neighbor V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
 ```
 
 ## show bgp evpn summary
@@ -146,7 +146,29 @@ BGP summary information for VRF default
 Router identifier 100.0.0.162, local AS number 65000
 Neighbor Status Codes: m - Under maintenance
   Neighbor  V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
-  2002::59  4 65000             96       201    0    0 00:54:35 Active
-  2002::304 4 65000             25        50    0    0 00:54:35 Active
+  2002::59  4 65000            363       522    0    0 00:02:39 Estab(NotNegotiated)
+  2002::304 4 65000          18079     16391    0    0 00:00:00 Estab(NotNegotiated)
+```
+
+## show bgp vpn-ipv4 summary
+
+```text
+BGP summary information for VRF default
+Router identifier 100.0.0.162, local AS number 65000
+Neighbor Status Codes: m - Under maintenance
+  Neighbor  V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
+  2002::59  4 65000            363       522    0    0 00:02:39 Estab   3      3
+  2002::304 4 65000          18079     16391    0    0 00:00:00 Estab   0      0
+```
+
+## show bgp vpn-ipv6 summary
+
+```text
+BGP summary information for VRF default
+Router identifier 100.0.0.162, local AS number 65000
+Neighbor Status Codes: m - Under maintenance
+  Neighbor  V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
+  2002::59  4 65000            363       522    0    0 00:02:39 Estab   6      6
+  2002::304 4 65000          18079     16391    0    0 00:00:00 Estab   0      0
 ```
 

@@ -2,7 +2,7 @@
 System ID: anet-PE42-J2-162			Instance: 'IPV6'
 SR supported Data-plane: MPLS			SR Router ID: 100.0.0.162
 
-Node: 9      Proxy-Node: 0      Prefix: 0       Total Segments: 9
+Node: 11     Proxy-Node: 0      Prefix: 0       Total Segments: 11
 
 Flag Descriptions: R: Re-advertised, N: Node Segment, P: no-PHP
                    E: Explicit-NULL, V: Value, L: Local
@@ -10,6 +10,8 @@ Segment status codes: * - Self originated Prefix, L1 - level 1, L2 - level 2, ! 
                       # - Some IS-IS next-hops are SR-unreachable
    Prefix                      SID Type       Flags                        System ID       Level Protection  Algorithm   
    ------------------------- ----- ---------- ---------------------------- --------------- ----- ----------- -------------
+   10.0.0.57/32                 57 Node       R:0 N:1 P:1 E:0 V:0 L:0      NOKIA-SR2-57    L2    unprotected SPF         
+   10.0.0.59/32                 59 Node       R:0 N:1 P:1 E:0 V:0 L:0      Nokia-59-IXRe2  L2    unprotected SPF         
    2002::57/128                157 Node       R:0 N:1 P:1 E:0 V:0 L:0      NOKIA-SR2-57    L2    node        SPF         
    2002::57/128                728 Node       R:0 N:1 P:1 E:0 V:0 L:0      NOKIA-SR2-57    L2    unprotected 128         
    2002::59/128                159 Node       R:0 N:1 P:1 E:0 V:0 L:0      Nokia-59-IXRe2  L2    node        SPF         
