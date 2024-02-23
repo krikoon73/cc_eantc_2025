@@ -1,0 +1,7 @@
+show version
+show interfaces status
+show lldp neighbors
+show isis segment-routing prefix-segments
+show isis neighbors
+show ipv6 bgp summary
+show bgp evpn summary
