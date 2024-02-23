@@ -1,0 +1,6 @@
+Interface: Vlan1203 (10.10.203.254)
+  Group: 225.10.202.202
+  Uptime: 0:17:16
+  Expires: 0:00:26
+  Group mode: exclude
+  Last reporter: 10.10.203.203

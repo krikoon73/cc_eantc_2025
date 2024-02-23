@@ -1,0 +1,55 @@
+PIM Bidirectional Mode Multicast Routing Table
+RPF route: U - From unicast routing table
+           M - From multicast routing table
+PIM Sparse Mode Multicast Routing Table
+Flags: E - Entry forwarding on the RPT, J - Joining to the SPT
+    R - RPT bit is set, S - SPT bit is set, L - Source is attached
+    W - Wildcard entry, X - External component interest
+    I - SG Include Join alert rcvd, P - Programmed in hardware
+    H - Joining SPT due to policy, D - Joining SPT due to protocol
+    Z - Entry marked for deletion, C - Learned from a DR via a register
+    A - Learned via Anycast RP Router, M - Learned via MSDP
+    N - May notify MSDP, K - Keepalive timer not running
+    T - Switching Incoming Interface, B - Learned via Border Router
+    V - Source is reachable via Evpn Tenant Domain
+    F - Learned via MVPN
+RPF route: U - From unicast routing table
+           M - From multicast routing table
+* - Interface has EVPN information available in the 'detail' command output
+225.10.203.203
+  10.10.103.103, 0:09:00, flags: SLVP
+    Incoming interface: Vlan4094*
+    RPF route: [U] 10.10.103.103/32 [20/0]
+    Outgoing interface list:
+      Ethernet6
+    Upstream joined state: upJoined
+    Upstream RPT joined state: upRptNotJoined
+    State summarization macros:
+      Could register (S,G): False
+      Register stop (S,G): True
+      Join desired (S,G): True
+      Prune desired (S,G,Rpt): False
+      No interfaces in immediate olist (S,G): False
+      No interfaces in inherited olist (S,G): False
+    EVPN information for Vlan4094:
+        VNI: 1000
+        SBD VLAN for VRF tenant-a: True
+        PEG DR: False
+  10.10.203.203, 0:05:19, flags: SLVP
+    Incoming interface: Vlan4094*
+    RPF route: [U] 10.10.203.203/32 [20/0]
+    Outgoing interface list:
+      Ethernet6
+    Upstream joined state: upJoined
+    Upstream RPT joined state: upRptNotJoined
+    State summarization macros:
+      Could register (S,G): False
+      Register stop (S,G): True
+      Join desired (S,G): True
+      Prune desired (S,G,Rpt): False
+      No interfaces in immediate olist (S,G): False
+      No interfaces in inherited olist (S,G): False
+    EVPN information for Vlan4094:
+        VNI: 1000
+        SBD VLAN for VRF tenant-a: True
+        PEG DR: False
