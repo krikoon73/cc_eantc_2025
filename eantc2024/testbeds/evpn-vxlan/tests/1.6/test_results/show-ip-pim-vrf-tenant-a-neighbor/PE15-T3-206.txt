@@ -1,0 +1,3 @@
+PIM Neighbor Table for tenant-a VRF
+Neighbor Address  Interface  Uptime  Expires   Mode    Transport  
+10.20.206.202     Ethernet6  1d19h   00:01:21  sparse  datagram

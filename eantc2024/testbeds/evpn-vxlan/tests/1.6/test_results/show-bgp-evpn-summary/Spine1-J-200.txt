@@ -1,0 +1,15 @@
+BGP summary information for VRF default
+Router identifier 100.0.0.200, local AS number 65000
+Neighbor Status Codes: m - Under maintenance
+  Neighbor    V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
+  100.0.0.40  4 65040           3992     19101    0    0    2d17h Estab   16     16
+  100.0.0.42  4 65042           3975     19101    0    0    2d17h Estab   12     12
+  100.0.0.44  4 65044           3940     19174    0    0    2d17h Estab   0      0
+  100.0.0.45  4 65045           3975     19119    0    0    2d17h Estab   12     12
+  100.0.0.46  4 65045           3974     19108    0    0    2d17h Estab   12     12
+  100.0.0.56  4 65056            386       413    0    0 00:19:43 Estab   123    123
+  100.0.0.103 4 65103             43       141    0    0 00:17:34 Estab   5      5
+  100.0.0.201 4 65201           7984     14939    0    0    2d17h Estab   11     11
+  100.0.0.203 4 65203           1520      2281    0    0 17:36:17 Estab   25     25
+  100.0.0.204 4 65204           1517      2309    0    0 17:36:13 Estab   21     21
+  100.0.0.206 4 65206           1515      2835    0    0 20:25:38 Estab   8      8
