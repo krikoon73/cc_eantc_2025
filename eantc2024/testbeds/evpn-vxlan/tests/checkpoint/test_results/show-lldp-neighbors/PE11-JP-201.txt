@@ -1,0 +1,12 @@
+Last table change time   : 0:46:47 ago
+Number of table inserts  : 5
+Number of table deletes  : 2
+Number of table drops    : 0
+Number of table age-outs : 0
+
+Port          Neighbor Device ID             Neighbor Port ID    TTL
+---------- ------------------------------ ---------------------- ---
+Et1           Spine2-J-180.ns.eantc.de       Ethernet1           120
+Et47          PE22-J2-182.ns.eantc.de        Ethernet47          120
+Ma1           extreme-x460-1                 25                  120
+
