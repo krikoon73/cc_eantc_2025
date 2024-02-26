@@ -1,0 +1,12 @@
+
+Type 'IS-IS SR', index 1, endpoint 2002::59/128, forwarding None
+   via fe80::1a5b:ff:fe89:bfcc, 'Ethernet41/1' label 20159
+
+Type 'IS-IS SR', index 2, endpoint 2002::57/128, forwarding None
+   via fe80::1a5b:ff:fe89:bfcc, 'Ethernet41/1' label 20157
+
+Type 'IS-IS SR', index 3, endpoint 2002::303/128, forwarding None
+   via fe80::1a5b:ff:fe89:bfcc, 'Ethernet41/1' label 20303
+
+Type 'IS-IS SR', index 4, endpoint 2002::304/128, forwarding None
+   via fe80::1a5b:ff:fe89:bfcc, 'Ethernet41/1' label 20304

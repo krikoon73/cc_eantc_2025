@@ -1,0 +1,12 @@
+SRv6 SID function allocators for VRF default
+
+Allocator micro-SID::SRv6-uSID-161
+Function length: 16
+Locator users: uSID-LOC-161
+Start   End  Size Usage        
+----- ----- ----- -------------
+    1  1023  1023 static       
+ 1024  5119  4096 bgp (dynamic)
+ 5120  9215  4096 bgp (dynamic)
+ 9216 65535 56320 unassigned   
+

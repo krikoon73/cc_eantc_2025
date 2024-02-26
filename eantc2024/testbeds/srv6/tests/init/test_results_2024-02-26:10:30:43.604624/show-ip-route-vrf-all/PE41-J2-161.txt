@@ -1,0 +1,130 @@
+
+VRF: default
+Source Codes:
+       C - connected, S - static, K - kernel,
+       O - OSPF, IA - OSPF inter area, E1 - OSPF external type 1,
+       E2 - OSPF external type 2, N1 - OSPF NSSA external type 1,
+       N2 - OSPF NSSA external type2, B - Other BGP Routes,
+       B I - iBGP, B E - eBGP, R - RIP, I L1 - IS-IS level 1,
+       I L2 - IS-IS level 2, O3 - OSPFv3, A B - BGP Aggregate,
+       A O - OSPF Summary, NG - Nexthop Group Static Route,
+       V - VXLAN Control Service, M - Martian,
+       DH - DHCP client installed default route,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+Gateway of last resort is not set
+
+ C        100.0.0.161/32
+           directly connected, Loopback0
+
+
+VRF: EVPNv4-T5-uSID
+Source Codes:
+       C - connected, S - static, K - kernel,
+       O - OSPF, IA - OSPF inter area, E1 - OSPF external type 1,
+       E2 - OSPF external type 2, N1 - OSPF NSSA external type 1,
+       N2 - OSPF NSSA external type2, B - Other BGP Routes,
+       B I - iBGP, B E - eBGP, R - RIP, I L1 - IS-IS level 1,
+       I L2 - IS-IS level 2, O3 - OSPFv3, A B - BGP Aggregate,
+       A O - OSPF Summary, NG - Nexthop Group Static Route,
+       V - VXLAN Control Service, M - Martian,
+       DH - DHCP client installed default route,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+Gateway of last resort is not set
+
+
+
+VRF: VPNv4-uSID
+Source Codes:
+       C - connected, S - static, K - kernel,
+       O - OSPF, IA - OSPF inter area, E1 - OSPF external type 1,
+       E2 - OSPF external type 2, N1 - OSPF NSSA external type 1,
+       N2 - OSPF NSSA external type2, B - Other BGP Routes,
+       B I - iBGP, B E - eBGP, R - RIP, I L1 - IS-IS level 1,
+       I L2 - IS-IS level 2, O3 - OSPFv3, A B - BGP Aggregate,
+       A O - OSPF Summary, NG - Nexthop Group Static Route,
+       V - VXLAN Control Service, M - Martian,
+       DH - DHCP client installed default route,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+Gateway of last resort is not set
+
+ B I      20.11.225.0/24 [200/0]
+           via fcbb:0:1000::/36, SRv6 Transport tunnel index 3, SRv6 SID fcbb:0:1011:e000::
+              via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ B I      20.28.225.0/24 [200/0]
+           via fcbb:0:28::/48, SRv6 Transport tunnel index 9, SRv6 SID fcbb:0:28:e100::
+              via fe80::8e7a:ff:fee7:f53d, Ethernet20
+              via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ B I      20.29.225.0/24 [200/0]
+           via fcbb:0:1000::/36, SRv6 Transport tunnel index 3, SRv6 SID fcbb:0:1029:e100::
+              via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ B I      20.36.225.0/24 [200/0]
+           via fcbb:0:36::/48, SRv6 Transport tunnel index 11, SRv6 SID fcbb:0:36:e026::
+              via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ B I      20.58.225.0/24 [200/0]
+           via fcbb:0:1000::/36, SRv6 Transport tunnel index 3, SRv6 SID fcbb:0:1058:e028::
+              via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ B I      20.59.225.0/24 [200/0]
+           via fcbb:0:59::/48, SRv6 Transport tunnel index 7, SRv6 SID fcbb:0:59:e017::
+              via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ B I      20.102.225.0/24 [200/0]
+           via fcbb:0:1000::/36, SRv6 Transport tunnel index 3, SRv6 SID fcbb:0:1302:e002::
+              via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ B I      20.107.225.0/24 [200/0]
+           via fcbb:0:307::/48, SRv6 Transport tunnel index 8, SRv6 SID fcbb:0:307:e002::
+              via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ B I      20.110.225.0/24 [200/0]
+           via fcbb:0:1310::/48, SRv6 Transport tunnel index 4, SRv6 SID fcbb:0:1310:e000::
+              via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ B I      20.116.225.0/24 [200/0]
+           via fcbb:0:316::/48, SRv6 Transport tunnel index 13, SRv6 SID fcbb:0:316:e000::
+              via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ B I      20.142.225.0/24 [200/0]
+           via fcbb:0:342::/48, SRv6 Transport tunnel index 22, SRv6 SID fcbb:0:342:e010::
+              via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ B I      20.144.225.0/24 [200/0]
+           via fcbb:0:1000::/36, SRv6 Transport tunnel index 3, SRv6 SID fcbb:0:1344:e00e::
+              via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ B I      20.152.225.0/24 [200/0]
+           via fcbb:0:352::/48, SRv6 Transport tunnel index 21, SRv6 SID fcbb:0:352:e010::
+              via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ B I      20.153.225.0/24 [200/0]
+           via fcbb:0:1353::/48, SRv6 Transport tunnel index 10, SRv6 SID fcbb:0:1353:e003::
+              via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ C        20.161.225.0/24 [0/0]
+           via Vlan20, directly connected
+ B I      20.199.225.0/24 [200/0]
+           via fcbb:0:1000::/36, SRv6 Transport tunnel index 3, SRv6 SID fcbb:0:1199:e027::
+              via fe80::8e7a:ff:fee7:f53d, Ethernet20
+
+
+VRF: mgmt
+Source Codes:
+       C - connected, S - static, K - kernel,
+       O - OSPF, IA - OSPF inter area, E1 - OSPF external type 1,
+       E2 - OSPF external type 2, N1 - OSPF NSSA external type 1,
+       N2 - OSPF NSSA external type2, B - Other BGP Routes,
+       B I - iBGP, B E - eBGP, R - RIP, I L1 - IS-IS level 1,
+       I L2 - IS-IS level 2, O3 - OSPFv3, A B - BGP Aggregate,
+       A O - OSPF Summary, NG - Nexthop Group Static Route,
+       V - VXLAN Control Service, M - Martian,
+       DH - DHCP client installed default route,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+Gateway of last resort:
+ S        0.0.0.0/0 [1/0]
+           via 192.168.20.1, Management1
+
+ C        192.168.20.0/23
+           directly connected, Management1
+
