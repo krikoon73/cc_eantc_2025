@@ -1,0 +1,219 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.200, local AS number 65000
+BGP routing table entry for auto-discovery 0 0000:0000:0000:0203:0204, Route Distinguisher: 100.0.0.56:1203
+ Paths: 1 available
+  65056
+    100.0.0.56 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1203:1203 TunnelEncap:tunnelTypeVxlan
+      VNI: 1203
+BGP routing table entry for auto-discovery 0 0000:0000:0000:0203:0204, Route Distinguisher: 100.0.0.203:1203
+ Paths: 1 available
+  65203
+    100.0.0.203 from 100.0.0.203 (100.0.0.203)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1203:1203 TunnelEncap:tunnelTypeVxlan
+      VNI: 1203
+BGP routing table entry for auto-discovery 0 0000:0000:0000:0203:0204, Route Distinguisher: 100.0.0.203:1301
+ Paths: 1 available
+  65203
+    100.0.0.203 from 100.0.0.203 (100.0.0.203)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan
+      VNI: 1301
+BGP routing table entry for auto-discovery 0 0000:0000:0000:0203:0204, Route Distinguisher: 100.0.0.203:1302
+ Paths: 1 available
+  65203
+    100.0.0.203 from 100.0.0.203 (100.0.0.203)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan
+      VNI: 1302
+BGP routing table entry for auto-discovery 1303 0000:0000:0000:0203:0204, Route Distinguisher: 100.0.0.203:1303
+ Paths: 1 available
+  65203
+    100.0.0.203 from 100.0.0.203 (100.0.0.203)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1303
+BGP routing table entry for auto-discovery 1304 0000:0000:0000:0203:0204, Route Distinguisher: 100.0.0.203:1303
+ Paths: 1 available
+  65203
+    100.0.0.203 from 100.0.0.203 (100.0.0.203)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1304
+BGP routing table entry for auto-discovery 0000:0000:0000:0203:0204, Route Distinguisher: 100.0.0.56:1203
+ Paths: 1 available
+  65056
+    100.0.0.56 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1203:1203 TunnelEncap:tunnelTypeVxlan EvpnEsiLabel:524286
+      VNI: 0
+BGP routing table entry for auto-discovery 0000:0000:0000:0203:0204, Route Distinguisher: 100.0.0.203:1
+ Paths: 1 available
+  65203
+    100.0.0.203 from 100.0.0.203 (100.0.0.203)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1203:1203 Route-Target-AS:1301:1301 Route-Target-AS:1302:1302 Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnEsiLabel:0
+      VNI: 0
+BGP routing table entry for auto-discovery 0 0030:0903:0405:0607:08cc, Route Distinguisher: 100.0.30.9:2301
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301
+      VNI: 272
+BGP routing table entry for auto-discovery 0 0030:0903:0405:0607:08cc, Route Distinguisher: 100.0.30.9:2302
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2302:2302
+      VNI: 320
+BGP routing table entry for auto-discovery 2303 0030:0903:0405:0607:08cc, Route Distinguisher: 100.0.30.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303
+      VNI: 368
+BGP routing table entry for auto-discovery 2304 0030:0903:0405:0607:08cc, Route Distinguisher: 100.0.30.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303
+      VNI: 384
+BGP routing table entry for auto-discovery 0030:0903:0405:0607:08cc, Route Distinguisher: 100.0.30.9:0
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2033:2033 Route-Target-AS:2301:2301 Route-Target-AS:2302:2302 Route-Target-AS:2303:2303 EvpnEsiLabel:31
+      VNI: 0
+BGP routing table entry for auto-discovery 0 0037:0903:0405:0608:09aa, Route Distinguisher: 100.0.37.9:2301
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301
+      VNI: 256
+BGP routing table entry for auto-discovery 0 0037:0903:0405:0608:09aa, Route Distinguisher: 100.0.37.9:2302
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2302:2302
+      VNI: 288
+BGP routing table entry for auto-discovery 0 0037:0903:0405:0608:09aa, Route Distinguisher: 100.0.37.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303
+      VNI: 624
+BGP routing table entry for auto-discovery 0037:0903:0405:0608:09aa, Route Distinguisher: 100.0.37.9:0
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2032:2032 Route-Target-AS:2301:2301 Route-Target-AS:2302:2302 Route-Target-AS:2303:2303 EvpnEsiLabel:33
+      VNI: 0
+BGP routing table entry for auto-discovery 0 0045:4845:4845:4845:4845, Route Distinguisher: 100.0.3.45:2301
+ Paths: 1 available
+  65056 64512
+    100.0.3.45 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301
+      VNI: 449536
+BGP routing table entry for auto-discovery 0 0045:4845:4845:4845:4845, Route Distinguisher: 100.0.3.45:2302
+ Paths: 1 available
+  65056 64512
+    100.0.3.45 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2302:2302
+      VNI: 449552
+BGP routing table entry for auto-discovery 0 0045:4845:4845:4845:4845, Route Distinguisher: 100.0.3.45:4557
+ Paths: 1 available
+  65056 64512
+    100.0.3.45 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4557:4557
+      VNI: 449584
+BGP routing table entry for auto-discovery 0 0045:4845:4845:4845:4845, Route Distinguisher: 100.0.3.48:2301
+ Paths: 1 available
+  65056 64512
+    100.0.3.48 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301
+      VNI: 408000
+BGP routing table entry for auto-discovery 0 0045:4845:4845:4845:4845, Route Distinguisher: 100.0.3.48:2302
+ Paths: 1 available
+  65056 64512
+    100.0.3.48 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2302:2302
+      VNI: 408016
+BGP routing table entry for auto-discovery 45 0045:4845:4845:4845:4845, Route Distinguisher: 100.0.3.45:4556
+ Paths: 1 available
+  65056 64512
+    100.0.3.45 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4556:4556 L2 Attributes: primary, control word, MTU 1514
+      VNI: 449616
+BGP routing table entry for auto-discovery 0045:4845:4845:4845:4845, Route Distinguisher: 100.0.3.45:1
+ Paths: 1 available
+  65056 64512
+    100.0.3.45 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2151:2151 Route-Target-AS:2301:2301 Route-Target-AS:2302:2302 Route-Target-AS:4556:4556 Route-Target-AS:4557:4557 EvpnEsiLabel:28100
+      VNI: 0
+BGP routing table entry for auto-discovery 0045:4845:4845:4845:4845, Route Distinguisher: 100.0.3.48:1
+ Paths: 1 available
+  65056 64512
+    100.0.3.48 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2151:2151 Route-Target-AS:2301:2301 Route-Target-AS:2302:2302 Route-Target-AS:2320:2320 EvpnEsiLabel:25503
+      VNI: 0
+BGP routing table entry for auto-discovery 0500:00fc:0000:0000:0000, Route Distinguisher: 100.0.30.9:0
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301 Route-Target-AS:2302:2302 EvpnEsiLabel:91
+      VNI: 0
+BGP routing table entry for auto-discovery 0500:00fc:0000:0000:0000, Route Distinguisher: 100.0.37.9:0
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301 Route-Target-AS:2302:2302 EvpnEsiLabel:73
+      VNI: 0
+BGP routing table entry for auto-discovery 0500:00fc:0000:0008:ff00, Route Distinguisher: 100.0.30.9:0
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303 EvpnEsiLabel:89
+      VNI: 0
+BGP routing table entry for auto-discovery 0500:00fc:0000:0008:ff00, Route Distinguisher: 100.0.37.9:0
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303 EvpnEsiLabel:76
+      VNI: 0
+BGP routing table entry for auto-discovery 0500:00fc:0000:0009:0000, Route Distinguisher: 100.0.30.9:0
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303 EvpnEsiLabel:90
+      VNI: 0
+BGP routing table entry for auto-discovery 0500:00fc:0000:0009:0000, Route Distinguisher: 100.0.37.9:0
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303 EvpnEsiLabel:78
+      VNI: 0

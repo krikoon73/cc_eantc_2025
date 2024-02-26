@@ -1,0 +1,4 @@
+VRF Name       VLAN
+-------------- ----
+tenant-a       4094
+
