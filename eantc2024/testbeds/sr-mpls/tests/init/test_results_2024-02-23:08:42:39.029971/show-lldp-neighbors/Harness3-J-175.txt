@@ -1,0 +1,24 @@
+Last table change time   : 3:52:11 ago
+Number of table inserts  : 34
+Number of table deletes  : 19
+Number of table drops    : 0
+Number of table age-outs : 2
+
+Port          Neighbor Device ID                Neighbor Port ID            TTL
+----------- --------------------------------- ----------------------------- ---
+Et1           PE31-J2-171.ns.eantc.de           Ethernet5                   120
+Et2           PE32-J2-172.ns.eantc.de           Ethernet5                   120
+Et3           PE41-J2-161.ns.eantc.de           Ethernet5                   120
+Et21          CIEN-5169-5                       3                           120
+Et25          juniper_379_MX304                 605                         120
+Et31          JNPR-333-PTX10002-36QDD           625                         120
+Et40          juniper_303_mx204                 563                         120
+Et43          h43-9901                          TenGigE0/0/0/12             120
+Et44          NOKIA-SR2-57                      1610899587                  121
+Et45          h49-N540-24Q8L2DD                 TenGigE0/0/0/22             120
+Et46          h3c_19_CR16010E-F                 Ten-GigabitEthernet2/1/4    121
+Et48          huawei_254_NetEngine_8000_F8      GigabitEthernet6/0/9        120
+Et49/1        h55-8201-24H8FH                   HundredGigE0/0/0/4          120
+Et54/1        h3c_24_S12500R-48C6D              HundredGigE1/0/1            121
+Ma1           extreme-x460-1                    40                          120
+
