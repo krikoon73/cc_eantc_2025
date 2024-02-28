@@ -1,0 +1,157 @@
+
+VRF: default
+Displaying 14 of 17 IPv6 routing table entries
+Source Codes:
+       C - connected, S - static, K - kernel, O3 - OSPFv3,
+       B - Other BGP Routes, A B - BGP Aggregate, R - RIP,
+       I L1 - IS-IS level 1, I L2 - IS-IS level 2, DH - DHCP,
+       NG - Nexthop Group Static Route, M - Martian,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+ B E      2000::22/128 [20/0]
+           via fe80::464c:a8ff:fe73:5c75, Ethernet1
+ B E      2000::23/128 [20/0]
+           via fe80::464c:a8ff:fe73:5c75, Ethernet1
+ B E      2000::40/128 [20/0]
+           via fe80::464c:a8ff:fe73:5c75, Ethernet1
+ B E      2000::42/128 [20/0]
+           via fe80::464c:a8ff:fe73:5c75, Ethernet1
+ B E      2000::45/128 [20/0]
+           via fe80::464c:a8ff:fe73:5c75, Ethernet1
+ B E      2000::46/128 [20/0]
+           via fe80::464c:a8ff:fe73:5c75, Ethernet1
+ B E      2000::56/128 [20/0]
+           via fe80::464c:a8ff:fe73:5c75, Ethernet1
+ B E      2000::100/128 [20/0]
+           via fe80::464c:a8ff:fe73:5c75, Ethernet1
+ B E      2000::200/128 [20/0]
+           via fe80::464c:a8ff:fe73:5c75, Ethernet1
+ B E      2000::201/128 [20/0]
+           via fe80::464c:a8ff:fe73:5c75, Ethernet1
+ B E      2000::202/128 [20/0]
+           via fe80::464c:a8ff:fe73:5c75, Ethernet1
+ B E      2000::203/128 [20/0]
+           via fe80::464c:a8ff:fe73:5c75, Ethernet1
+ C        2000::204/128 [0/0]
+           via Loopback0, directly connected
+ B E      2001::56/128 [20/0]
+           via fe80::464c:a8ff:fe73:5c75, Ethernet1
+
+
+VRF: mgmt
+Displaying 0 of 3 IPv6 routing table entries
+Source Codes:
+       C - connected, S - static, K - kernel, O3 - OSPFv3,
+       B - Other BGP Routes, A B - BGP Aggregate, R - RIP,
+       I L1 - IS-IS level 1, I L2 - IS-IS level 2, DH - DHCP,
+       NG - Nexthop Group Static Route, M - Martian,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+
+! IPv6 routing not enabled
+
+VRF: tenant-a
+Displaying 41 of 49 IPv6 routing table entries
+Source Codes:
+       C - connected, S - static, K - kernel, O3 - OSPFv3,
+       B - Other BGP Routes, A B - BGP Aggregate, R - RIP,
+       I L1 - IS-IS level 1, I L2 - IS-IS level 2, DH - DHCP,
+       NG - Nexthop Group Static Route, M - Martian,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+ B E      1000:1000:22::22/128 [20/0]
+           via VTEP 2000::22 VNI 1000 router-mac c4:07:78:0a:9f:31
+ B E      1000:1000:22::254/128 [20/0]
+           via VTEP 2000::23 VNI 1000 router-mac c4:07:78:0a:77:7d
+           via VTEP 2000::22 VNI 1000 router-mac c4:07:78:0a:9f:31
+ B E      1000:1000:22::/64 [20/0]
+           via VTEP 2000::22 VNI 1000 router-mac c4:07:78:0a:9f:31
+ B E      1000:1000:40::40/128 [20/0]
+           via VTEP 2000::40 VNI 1000 router-mac 24:6c:84:74:8d:db
+ B E      1000:1000:40:0:240:1ff:fe00:3/128 [20/0]
+           via VTEP 2000::40 VNI 1000 router-mac 24:6c:84:74:8d:db
+ B E      1000:1000:42::42/128 [20/0]
+           via VTEP 2000::42 VNI 1000 router-mac 40:14:82:7b:84:ab
+ B E      1000:1000:42:0:242:1ff:fe00:3/128 [20/0]
+           via VTEP 2000::42 VNI 1000 router-mac 40:14:82:7b:84:ab
+ B E      1000:1000:45::45/128 [20/0]
+           via VTEP 2000::100 VNI 1000 router-mac 06:00:00:00:01:00
+ B E      1000:1000:45:0:245:1ff:fe00:3/128 [20/0]
+           via VTEP 2000::100 VNI 1000 router-mac 06:00:00:00:01:00
+ B E      1000:1000:56::56/128 [20/0]
+           via VTEP 2000::56 VNI 1000 router-mac 00:01:00:00:00:56
+ B E      1000:1000:56::/64 [20/0]
+           via VTEP 2000::56 VNI 1000 router-mac 00:01:00:00:00:56
+ B E      1000:1000:201::201/128 [20/0]
+           via VTEP 2000::202 VNI 1000 router-mac 2c:dd:e9:0b:25:b7
+           via VTEP 2000::201 VNI 1000 router-mac 2c:dd:e9:0b:22:83
+ B E      1000:1000:201::/64 [20/0]
+           via VTEP 2000::202 VNI 1000 router-mac 2c:dd:e9:0b:25:b7
+           via VTEP 2000::201 VNI 1000 router-mac 2c:dd:e9:0b:22:83
+ C        1000:1000:203::/64 [0/0]
+           via Vlan1203, directly connected
+ B E      1000:3000:1::22/128 [20/0]
+           via VTEP 2000::22 VNI 1000 router-mac c4:07:78:0a:9f:31
+ B E      1000:3000:1::40/128 [20/0]
+           via VTEP 2000::40 VNI 1000 router-mac 24:6c:84:74:8d:db
+ B E      1000:3000:1::42/128 [20/0]
+           via VTEP 2000::42 VNI 1000 router-mac 40:14:82:7b:84:ab
+ B E      1000:3000:1::45/128 [20/0]
+           via VTEP 2000::100 VNI 1000 router-mac 06:00:00:00:01:00
+ B E      1000:3000:1::56/128 [20/0]
+           via VTEP 2000::56 VNI 1000 router-mac 00:01:00:00:00:56
+ B E      1000:3000:1::201/128 [20/0]
+           via VTEP 2000::202 VNI 1000 router-mac 2c:dd:e9:0b:25:b7
+           via VTEP 2000::201 VNI 1000 router-mac 2c:dd:e9:0b:22:83
+ B E      1000:3000:1:0:240:1ff:fe00:1/128 [20/0]
+           via VTEP 2000::40 VNI 1000 router-mac 24:6c:84:74:8d:db
+ B E      1000:3000:1:0:242:1ff:fe00:1/128 [20/0]
+           via VTEP 2000::42 VNI 1000 router-mac 40:14:82:7b:84:ab
+ B E      1000:3000:1:0:245:1ff:fe00:1/128 [20/0]
+           via VTEP 2000::100 VNI 1000 router-mac 06:00:00:00:01:00
+ C        1000:3000:1::/64 [0/0]
+           via Vlan1301, directly connected
+ B E      1000:3000:2::22/128 [20/0]
+           via VTEP 2000::23 VNI 1000 router-mac c4:07:78:0a:77:7d
+ B E      1000:3000:2::40/128 [20/0]
+           via VTEP 2000::40 VNI 1000 router-mac 24:6c:84:74:8d:db
+ B E      1000:3000:2::42/128 [20/0]
+           via VTEP 2000::42 VNI 1000 router-mac 40:14:82:7b:84:ab
+ B E      1000:3000:2::45/128 [20/0]
+           via VTEP 2000::100 VNI 1000 router-mac 06:00:00:00:01:00
+ B E      1000:3000:2::56/128 [20/0]
+           via VTEP 2000::56 VNI 1000 router-mac 00:01:00:00:00:56
+ B E      1000:3000:2::201/128 [20/0]
+           via VTEP 2000::202 VNI 1000 router-mac 2c:dd:e9:0b:25:b7
+           via VTEP 2000::201 VNI 1000 router-mac 2c:dd:e9:0b:22:83
+ B E      1000:3000:2:0:240:1ff:fe00:2/128 [20/0]
+           via VTEP 2000::40 VNI 1000 router-mac 24:6c:84:74:8d:db
+ B E      1000:3000:2:0:242:1ff:fe00:2/128 [20/0]
+           via VTEP 2000::42 VNI 1000 router-mac 40:14:82:7b:84:ab
+ B E      1000:3000:2:0:245:1ff:fe00:2/128 [20/0]
+           via VTEP 2000::100 VNI 1000 router-mac 06:00:00:00:01:00
+ C        1000:3000:2::/64 [0/0]
+           via Vlan1302, directly connected
+ B E      1000:3000:3::56/128 [20/0]
+           via VTEP 2000::56 VNI 1000 router-mac 00:01:00:00:00:56
+ B E      1000:3000:3::201/128 [20/0]
+           via VTEP 2000::202 VNI 1000 router-mac 2c:dd:e9:0b:25:b7
+           via VTEP 2000::201 VNI 1000 router-mac 2c:dd:e9:0b:22:83
+ C        1000:3000:3::/64 [0/0]
+           via Vlan1303, directly connected
+ B E      1000:3000:4::22/128 [20/0]
+           via VTEP 2000::23 VNI 1000 router-mac c4:07:78:0a:77:7d
+ B E      1000:3000:4::56/128 [20/0]
+           via VTEP 2000::56 VNI 1000 router-mac 00:01:00:00:00:56
+ B E      1000:3000:4::201/128 [20/0]
+           via VTEP 2000::202 VNI 1000 router-mac 2c:dd:e9:0b:25:b7
+           via VTEP 2000::201 VNI 1000 router-mac 2c:dd:e9:0b:22:83
+ C        1000:3000:4::/64 [0/0]
+           via Vlan1304, directly connected
+

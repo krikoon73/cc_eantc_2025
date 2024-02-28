@@ -23,7 +23,7 @@ BGP summary information for VRF default
 Router identifier 100.0.0.205, local AS number 65205
 Neighbor Status Codes: m - Under maintenance
   Neighbor   V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
-  100.0.0.22 4 65205           7851     35031    0    0 04:09:01 Active
+  100.0.0.22 4 65205           7851     35031    0    0 04:19:34 Active
 ```
 
 ## show bgp evpn route-type auto-discovery detail
@@ -171,8 +171,8 @@ Address         Age (sec)  Hardware Addr   Interface
 VRF: mgmt
 Address         Age (sec)  Hardware Addr   Interface
 192.168.20.1      0:00:00  90e2.bac7.8074  Management1
-192.168.21.50     0:00:48  a84f.b1a5.5221  Management1
-192.168.21.59     0:03:14  6607.f5d1.ae16  Management1
+192.168.21.50     0:01:49  a84f.b1a5.5221  Management1
+192.168.21.59     0:04:15  6607.f5d1.ae16  Management1
 ```
 
 ## show vxlan address-table
@@ -199,103 +199,120 @@ Total Remote Mac Addresses for this criterion: 0
 
 Vlan    Mac Address       Type        Ports      Moves   Last Move
 ----    -----------       ----        -----      -----   ---------
-  22    0020.3000.0001    DYNAMIC     Po300      1       0:02:21 ago
-  22    0020.3000.0002    DYNAMIC     Po300      1       0:02:19 ago
-  22    0020.3000.0003    DYNAMIC     Po300      1       0:02:21 ago
-  22    0020.3000.0004    DYNAMIC     Po300      1       0:02:21 ago
-  22    0022.0000.0001    DYNAMIC     Et25       1       0:02:25 ago
-  22    0022.0000.0002    DYNAMIC     Et25       1       0:02:25 ago
-  22    0022.0000.0003    DYNAMIC     Et25       1       0:02:25 ago
-  22    0022.0000.0004    DYNAMIC     Et25       1       0:02:25 ago
-  22    0022.0000.0005    DYNAMIC     Et25       1       0:02:25 ago
-  22    0040.0100.0001    DYNAMIC     Po300      1       0:02:25 ago
-  22    0040.0100.0002    DYNAMIC     Po300      1       0:02:25 ago
-  22    0042.0100.0001    DYNAMIC     Po300      1       0:02:25 ago
-  22    0042.0100.0002    DYNAMIC     Po300      1       0:02:25 ago
-  22    0045.0100.0001    DYNAMIC     Po300      1       0:02:25 ago
-  22    0045.0100.0002    DYNAMIC     Po300      1       0:03:40 ago
-  22    0056.0000.0002    DYNAMIC     Po300      1       0:02:25 ago
-  22    0056.0000.0004    DYNAMIC     Po300      1       0:02:25 ago
-  22    00aa.aaaa.aaaa    DYNAMIC     Po300      1       0:53:13 ago
-  40    0020.3000.0001    DYNAMIC     Et15       1       0:02:21 ago
-  40    0020.3000.0002    DYNAMIC     Et15       1       0:02:19 ago
-  40    0022.0000.0001    DYNAMIC     Et15       1       0:02:25 ago
-  40    0022.0000.0002    DYNAMIC     Et15       1       0:02:25 ago
-  40    0040.0100.0001    DYNAMIC     Et25       1       0:02:25 ago
-  40    0040.0100.0002    DYNAMIC     Et25       1       0:02:25 ago
-  40    0040.0100.0003    DYNAMIC     Et25       1       0:02:25 ago
-  40    0042.0100.0001    DYNAMIC     Et15       1       0:02:25 ago
-  40    0042.0100.0002    DYNAMIC     Et15       1       0:02:25 ago
-  40    0045.0100.0001    DYNAMIC     Et15       1       0:02:25 ago
-  40    0045.0100.0002    DYNAMIC     Et15       1       0:03:40 ago
-  40    0056.0000.0002    DYNAMIC     Et15       1       0:02:25 ago
-  40    00aa.aaaa.aaaa    DYNAMIC     Et15       1       0:18:16 ago
-  40    246c.8474.8de0    DYNAMIC     Et15       1       2:42:26 ago
-  42    0020.3000.0001    DYNAMIC     Et16       1       0:02:21 ago
-  42    0020.3000.0002    DYNAMIC     Et16       1       0:02:19 ago
-  42    0022.0000.0001    DYNAMIC     Et16       1       0:02:25 ago
-  42    0022.0000.0002    DYNAMIC     Et16       1       0:02:25 ago
-  42    0040.0100.0001    DYNAMIC     Et16       1       0:02:25 ago
-  42    0040.0100.0002    DYNAMIC     Et16       1       0:02:25 ago
-  42    0042.0100.0001    DYNAMIC     Et25       1       0:02:25 ago
-  42    0042.0100.0002    DYNAMIC     Et25       1       0:02:25 ago
-  42    0042.0100.0003    DYNAMIC     Et25       1       0:02:25 ago
-  42    0045.0100.0001    DYNAMIC     Et16       1       0:02:25 ago
-  42    0045.0100.0002    DYNAMIC     Et16       1       0:03:40 ago
-  42    0056.0000.0002    DYNAMIC     Et16       1       0:02:25 ago
-  42    00aa.aaaa.aaaa    DYNAMIC     Et16       1       0:18:08 ago
-  42    4014.827b.84b0    DYNAMIC     Et16       1       0:35:29 ago
-  44    5c5a.c773.4ac0    DYNAMIC     Et17       1       5:40:20 ago
-  45    0020.3000.0001    DYNAMIC     Po301      1       0:02:21 ago
-  45    0020.3000.0002    DYNAMIC     Po301      1       0:02:19 ago
-  45    0022.0000.0001    DYNAMIC     Po301      1       0:02:25 ago
-  45    0022.0000.0002    DYNAMIC     Po301      1       0:02:25 ago
-  45    0026.f002.0000    DYNAMIC     Po301      1       0:06:12 ago
-  45    0040.0100.0001    DYNAMIC     Po301      1       0:02:25 ago
-  45    0040.0100.0002    DYNAMIC     Po301      1       0:02:25 ago
-  45    0042.0100.0001    DYNAMIC     Po301      1       0:02:25 ago
-  45    0042.0100.0002    DYNAMIC     Po301      1       0:02:25 ago
-  45    0045.0100.0001    DYNAMIC     Et25       1       0:05:08 ago
-  45    0045.0100.0002    DYNAMIC     Et25       1       0:03:40 ago
-  45    0045.0100.0003    DYNAMIC     Et25       1       0:05:39 ago
-  45    0056.0000.0002    DYNAMIC     Po301      1       0:02:25 ago
-  45    00aa.aaaa.aaaa    DYNAMIC     Po301      1       0:05:39 ago
-  56    0020.3000.0002    DYNAMIC     Et21       1       0:02:19 ago
-  56    0020.3000.0004    DYNAMIC     Et21       1       0:02:21 ago
-  56    0022.0000.0002    DYNAMIC     Et21       1       0:02:25 ago
-  56    0022.0000.0004    DYNAMIC     Et21       1       0:02:25 ago
-  56    0040.0100.0002    DYNAMIC     Et21       1       0:02:25 ago
-  56    0042.0100.0002    DYNAMIC     Et21       1       0:02:25 ago
-  56    0045.0100.0002    DYNAMIC     Et21       1       0:02:25 ago
-  56    0056.0000.0001    DYNAMIC     Et25       1       0:02:25 ago
-  56    0056.0000.0002    DYNAMIC     Et25       1       0:02:25 ago
-  56    0056.0000.0003    DYNAMIC     Et25       1       0:02:25 ago
-  56    0056.0000.0004    DYNAMIC     Et25       1       0:02:25 ago
-  56    0056.0000.0005    DYNAMIC     Et25       1       0:02:25 ago
-  56    00aa.aaaa.aaaa    DYNAMIC     Et21       1       0:02:35 ago
- 201    0020.1000.0001    DYNAMIC     Et25       1       0:02:25 ago
- 201    0020.1000.0002    DYNAMIC     Et25       1       0:02:25 ago
- 201    0020.1000.0003    DYNAMIC     Et25       1       0:02:25 ago
- 201    0020.1000.0004    DYNAMIC     Et25       1       0:02:25 ago
- 201    0020.1000.0005    DYNAMIC     Et25       1       0:13:23 ago
- 201    00aa.aaaa.aaaa    DYNAMIC     Po100      1       0:02:19 ago
- 203    0020.3000.0001    DYNAMIC     Et25       1       0:16:21 ago
- 203    0020.3000.0002    DYNAMIC     Et25       1       0:02:25 ago
- 203    0020.3000.0003    DYNAMIC     Et25       1       0:02:25 ago
- 203    0020.3000.0004    DYNAMIC     Et25       1       0:02:25 ago
- 203    0020.3000.0005    DYNAMIC     Et25       1       0:02:25 ago
- 203    0022.0000.0001    DYNAMIC     Po200      1       0:02:17 ago
- 203    0022.0000.0002    DYNAMIC     Po200      1       0:02:14 ago
- 203    0022.0000.0003    DYNAMIC     Po200      1       0:02:17 ago
- 203    0022.0000.0004    DYNAMIC     Po200      1       0:02:17 ago
- 203    0040.0100.0001    DYNAMIC     Po200      1       0:02:14 ago
- 203    0040.0100.0002    DYNAMIC     Po200      1       0:02:14 ago
- 203    0042.0100.0001    DYNAMIC     Po200      1       0:02:10 ago
- 203    0042.0100.0002    DYNAMIC     Po200      1       0:02:14 ago
- 203    0056.0000.0002    DYNAMIC     Po200      1       0:02:14 ago
- 203    0056.0000.0004    DYNAMIC     Po200      1       0:02:14 ago
- 203    00aa.aaaa.aaaa    DYNAMIC     Po200      1       0:02:19 ago
-Total Mac Addresses for this criterion: 96
+  22    0020.1000.0002    DYNAMIC     Po300      1       0:06:29 ago
+  22    0020.3000.0001    DYNAMIC     Po300      1       0:12:54 ago
+  22    0020.3000.0002    DYNAMIC     Po300      1       0:12:52 ago
+  22    0020.3000.0003    DYNAMIC     Po300      1       0:12:54 ago
+  22    0020.3000.0004    DYNAMIC     Po300      1       0:12:54 ago
+  22    0022.0000.0001    DYNAMIC     Et25       1       0:12:58 ago
+  22    0022.0000.0002    DYNAMIC     Et25       1       0:12:58 ago
+  22    0022.0000.0003    DYNAMIC     Et25       1       0:12:58 ago
+  22    0022.0000.0004    DYNAMIC     Et25       1       0:12:58 ago
+  22    0022.0000.0005    DYNAMIC     Et25       1       0:06:29 ago
+  22    0040.0100.0001    DYNAMIC     Po300      1       0:12:58 ago
+  22    0040.0100.0002    DYNAMIC     Po300      1       0:12:58 ago
+  22    0042.0100.0001    DYNAMIC     Po300      1       0:12:58 ago
+  22    0042.0100.0002    DYNAMIC     Po300      1       0:12:58 ago
+  22    0045.0100.0001    DYNAMIC     Po300      1       0:12:58 ago
+  22    0045.0100.0002    DYNAMIC     Po300      1       0:14:14 ago
+  22    0056.0000.0002    DYNAMIC     Po300      1       0:12:58 ago
+  22    0056.0000.0004    DYNAMIC     Po300      1       0:12:58 ago
+  22    00aa.aaaa.aaaa    DYNAMIC     Po300      1       1:03:46 ago
+  40    0020.1000.0001    DYNAMIC     Et15       1       0:06:29 ago
+  40    0020.1000.0002    DYNAMIC     Et15       1       0:06:29 ago
+  40    0020.3000.0001    DYNAMIC     Et15       1       0:12:54 ago
+  40    0020.3000.0002    DYNAMIC     Et15       1       0:12:52 ago
+  40    0022.0000.0001    DYNAMIC     Et15       1       0:12:58 ago
+  40    0022.0000.0002    DYNAMIC     Et15       1       0:12:58 ago
+  40    0040.0100.0001    DYNAMIC     Et25       1       0:12:58 ago
+  40    0040.0100.0002    DYNAMIC     Et25       1       0:12:58 ago
+  40    0040.0100.0003    DYNAMIC     Et25       1       0:06:29 ago
+  40    0042.0100.0001    DYNAMIC     Et15       1       0:12:58 ago
+  40    0042.0100.0002    DYNAMIC     Et15       1       0:12:58 ago
+  40    0045.0100.0001    DYNAMIC     Et15       1       0:12:58 ago
+  40    0045.0100.0002    DYNAMIC     Et15       1       0:14:14 ago
+  40    0056.0000.0002    DYNAMIC     Et15       1       0:12:58 ago
+  40    00aa.aaaa.aaaa    DYNAMIC     Et15       1       0:28:50 ago
+  40    246c.8474.8ddb    DYNAMIC     Et15       1       0:08:36 ago
+  40    246c.8474.8de0    DYNAMIC     Et15       1       2:53:00 ago
+  42    0020.1000.0001    DYNAMIC     Et16       1       0:06:29 ago
+  42    0020.1000.0002    DYNAMIC     Et16       1       0:06:29 ago
+  42    0020.3000.0001    DYNAMIC     Et16       1       0:12:54 ago
+  42    0020.3000.0002    DYNAMIC     Et16       1       0:12:52 ago
+  42    0022.0000.0001    DYNAMIC     Et16       1       0:12:58 ago
+  42    0022.0000.0002    DYNAMIC     Et16       1       0:12:58 ago
+  42    0040.0100.0001    DYNAMIC     Et16       1       0:12:58 ago
+  42    0040.0100.0002    DYNAMIC     Et16       1       0:12:58 ago
+  42    0042.0100.0001    DYNAMIC     Et25       1       0:12:58 ago
+  42    0042.0100.0002    DYNAMIC     Et25       1       0:12:58 ago
+  42    0042.0100.0003    DYNAMIC     Et25       1       0:06:29 ago
+  42    0045.0100.0001    DYNAMIC     Et16       1       0:12:58 ago
+  42    0045.0100.0002    DYNAMIC     Et16       1       0:14:14 ago
+  42    0056.0000.0002    DYNAMIC     Et16       1       0:12:58 ago
+  42    00aa.aaaa.aaaa    DYNAMIC     Et16       1       0:28:41 ago
+  42    4014.827b.84ab    DYNAMIC     Et16       1       0:08:36 ago
+  42    4014.827b.84b0    DYNAMIC     Et16       1       0:46:03 ago
+  44    5c5a.c773.4ac0    DYNAMIC     Et17       1       5:50:54 ago
+  45    0020.1000.0001    DYNAMIC     Po301      1       0:06:29 ago
+  45    0020.1000.0002    DYNAMIC     Po301      1       0:06:29 ago
+  45    0020.3000.0001    DYNAMIC     Po301      1       0:12:54 ago
+  45    0020.3000.0002    DYNAMIC     Po301      1       0:12:52 ago
+  45    0022.0000.0001    DYNAMIC     Po301      1       0:12:58 ago
+  45    0022.0000.0002    DYNAMIC     Po301      1       0:12:58 ago
+  45    0026.f002.0000    DYNAMIC     Po301      1       0:16:45 ago
+  45    0040.0100.0001    DYNAMIC     Po301      1       0:12:58 ago
+  45    0040.0100.0002    DYNAMIC     Po301      1       0:12:58 ago
+  45    0042.0100.0001    DYNAMIC     Po301      1       0:12:58 ago
+  45    0042.0100.0002    DYNAMIC     Po301      1       0:12:58 ago
+  45    0045.0100.0001    DYNAMIC     Et25       1       0:15:42 ago
+  45    0045.0100.0002    DYNAMIC     Et25       1       0:14:14 ago
+  45    0045.0100.0003    DYNAMIC     Et25       1       0:06:29 ago
+  45    0056.0000.0002    DYNAMIC     Po301      1       0:12:58 ago
+  45    00aa.aaaa.aaaa    DYNAMIC     Po301      1       0:16:13 ago
+  45    6c31.0e7b.8b87    DYNAMIC     Po301      1       0:08:36 ago
+  45    6c31.0eb7.505f    DYNAMIC     Po301      1       0:08:36 ago
+  56    0020.3000.0002    DYNAMIC     Et21       1       0:04:23 ago
+  56    0020.3000.0004    DYNAMIC     Et21       1       0:04:23 ago
+  56    0022.0000.0002    DYNAMIC     Et21       1       0:12:58 ago
+  56    0022.0000.0004    DYNAMIC     Et21       1       0:12:58 ago
+  56    0040.0100.0002    DYNAMIC     Et21       1       0:12:58 ago
+  56    0042.0100.0002    DYNAMIC     Et21       1       0:12:58 ago
+  56    0045.0100.0002    DYNAMIC     Et21       1       0:12:58 ago
+  56    0056.0000.0001    DYNAMIC     Et25       1       0:12:58 ago
+  56    0056.0000.0002    DYNAMIC     Et25       1       0:12:58 ago
+  56    0056.0000.0003    DYNAMIC     Et25       1       0:12:58 ago
+  56    0056.0000.0004    DYNAMIC     Et25       1       0:12:58 ago
+  56    0056.0000.0005    DYNAMIC     Et25       1       0:07:23 ago
+  56    00aa.aaaa.aaaa    DYNAMIC     Et21       1       0:13:08 ago
+ 201    0020.1000.0001    DYNAMIC     Et25       1       0:12:58 ago
+ 201    0020.1000.0002    DYNAMIC     Et25       1       0:12:58 ago
+ 201    0020.1000.0003    DYNAMIC     Et25       1       0:12:58 ago
+ 201    0020.1000.0004    DYNAMIC     Et25       1       0:12:58 ago
+ 201    0020.1000.0005    DYNAMIC     Et25       1       0:06:29 ago
+ 201    00aa.aaaa.aaaa    DYNAMIC     Po100      1       0:02:40 ago
+ 201    2cdd.e90b.2283    DYNAMIC     Po100      1       0:06:29 ago
+ 201    2cdd.e90b.25b7    DYNAMIC     Po100      1       0:06:29 ago
+ 203    0020.3000.0001    DYNAMIC     Et25       1       0:26:55 ago
+ 203    0020.3000.0002    DYNAMIC     Et25       1       0:12:58 ago
+ 203    0020.3000.0003    DYNAMIC     Et25       1       0:12:58 ago
+ 203    0020.3000.0004    DYNAMIC     Et25       1       0:12:58 ago
+ 203    0020.3000.0005    DYNAMIC     Et25       1       0:06:31 ago
+ 203    0022.0000.0001    DYNAMIC     Po200      1       0:12:50 ago
+ 203    0022.0000.0002    DYNAMIC     Po200      1       0:12:48 ago
+ 203    0022.0000.0003    DYNAMIC     Po200      1       0:12:50 ago
+ 203    0022.0000.0004    DYNAMIC     Po200      1       0:12:50 ago
+ 203    0040.0100.0001    DYNAMIC     Po200      1       0:12:48 ago
+ 203    0040.0100.0002    DYNAMIC     Po200      1       0:12:48 ago
+ 203    0042.0100.0001    DYNAMIC     Po200      1       0:12:44 ago
+ 203    0042.0100.0002    DYNAMIC     Po200      1       0:12:48 ago
+ 203    0045.0100.0001    DYNAMIC     Po200      1       0:08:36 ago
+ 203    0045.0100.0002    DYNAMIC     Po200      1       0:08:36 ago
+ 203    0056.0000.0002    DYNAMIC     Po200      1       0:12:48 ago
+ 203    0056.0000.0004    DYNAMIC     Po200      1       0:12:48 ago
+ 203    00aa.aaaa.aaaa    DYNAMIC     Po200      1       0:12:52 ago
+ 203    3838.a621.e82f    DYNAMIC     Po200      1       0:06:29 ago
+ 203    985d.82a2.04f9    DYNAMIC     Po200      1       0:06:29 ago
+Total Mac Addresses for this criterion: 113
 
           Multicast Mac Address Table
 ------------------------------------------------------------------
@@ -320,6 +337,8 @@ Total Mac Addresses for this criterion: 0
    Ethernet25
 0042.0100.0001, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel301
+2cdd.e90b.2283, VLAN 201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel100
 0056.0000.0004, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet25
 0040.0100.0001, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
@@ -332,14 +351,24 @@ Total Mac Addresses for this criterion: 0
    Port-Channel301
 0042.0100.0002, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel200
+0020.1000.0001, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet15
 0020.3000.0001, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet15
+985d.82a2.04f9, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+4014.827b.84ab, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet16
 0022.0000.0001, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel200
 0022.0000.0004, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet25
 0040.0100.0002, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel200
+6c31.0eb7.505f, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel301
+0020.1000.0002, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel301
 0056.0000.0003, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet25
 0020.3000.0002, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
@@ -356,12 +385,16 @@ Total Mac Addresses for this criterion: 0
    Port-Channel100
 0022.0000.0002, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet16
+3838.a621.e82f, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
 0045.0100.0002, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet15
 0020.3000.0002, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel300
 0040.0100.0002, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel301
+2cdd.e90b.25b7, VLAN 201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel100
 0022.0000.0001, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel301
 0045.0100.0002, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
@@ -376,9 +409,13 @@ Total Mac Addresses for this criterion: 0
    Ethernet21
 0020.3000.0001, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel300
+0020.1000.0001, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet16
 0020.3000.0001, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet16
 0042.0100.0001, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+0045.0100.0001, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel200
 0040.0100.0001, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet25
@@ -396,10 +433,18 @@ Total Mac Addresses for this criterion: 0
    Port-Channel301
 00aa.aaaa.aaaa, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel200
+0020.1000.0001, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel301
 0020.3000.0001, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel301
+0045.0100.0002, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+6c31.0e7b.8b87, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel301
 0022.0000.0001, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet25
+0020.1000.0002, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet15
 0040.0100.0002, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel300
 0022.0000.0004, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
@@ -408,6 +453,8 @@ Total Mac Addresses for this criterion: 0
    Ethernet16
 0056.0000.0002, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet16
+246c.8474.8ddb, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet15
 0056.0000.0005, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet25
 0042.0100.0003, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
@@ -452,6 +499,8 @@ Total Mac Addresses for this criterion: 0
    Port-Channel200
 0020.3000.0004, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet25
+0020.1000.0002, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet16
 0040.0100.0001, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel301
 0045.0100.0001, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
@@ -486,6 +535,8 @@ Total Mac Addresses for this criterion: 0
    Ethernet25
 0022.0000.0001, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet15
+0020.1000.0002, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel300
 246c.8474.8de0, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet15
 0056.0000.0001, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
@@ -661,6 +712,20 @@ IPv6 Address                                  Age Hardware Addr   Interface
 
 ```text
 Port      Name           Intvl  In Mbps      %  In Kpps Out Mbps      % Out Kpps
+Et1       ANET-201        0:01      0.1   0.0%        0      0.1   0.0%        0
+Et2       ANET-202        0:01      0.1   0.0%        0      0.0   0.0%        0
+Et3       ANET-203        0:01      0.1   0.0%        0      0.1   0.0%        0
+Et4       ANET-204        0:01      0.1   0.0%        0      0.0   0.0%        0
+Et13      Cisco-45-46     0:05      0.1   0.0%        0      0.0   0.0%        0
+Et15                      0:05      0.1   0.0%        0      0.1   0.0%        0
+Et16      Cisco-42        0:05      0.1   0.0%        0      0.1   0.0%        0
+Et21      Nokia-56        0:05      0.1   0.0%        0      0.1   0.0%        0
+Et25      Keysight-Gen    0:05      0.8   0.0%        0      0.8   0.0%        1
+Et28                      0:05      0.0   0.0%        0      0.1   0.0%        0
 Ma1                       0:05      0.0   0.0%        0      0.1   0.0%        0
+Po100                     0:05      0.1   0.0%        0      0.1   0.0%        0
+Po200                     0:05      0.2   0.0%        0      0.1   0.0%        0
+Po300                     0:05      0.1   0.0%        0      0.1   0.0%        0
+Po301                     0:05      0.1   0.0%        0      0.1   0.0%        0
 ```
 

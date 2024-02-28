@@ -23,18 +23,18 @@ BGP summary information for VRF default
 Router identifier 100.0.0.200, local AS number 65000
 Neighbor Status Codes: m - Under maintenance
   Description              Neighbor    V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
-  ANET-PE15                100.0.0.206 4 65206              0         0    0    0 00:27:29 Active
-  H3C-22.EVPN              2000::22    4 65022            134       485    0    0 00:02:33 Estab   28     28
-  H3C-23.EVPN              2000::23    4 65023            185       556    0    0 01:08:16 Estab   29     29
-  CSCO-40.EVPN             2000::40    4 65040             74       826    0    0 00:46:27 Estab   12     12
-  CSCO-42.EVPN             2000::42    4 65042             70       918    0    0 00:46:06 Estab   12     12
-  CSCO-45.EVPN             2000::45    4 65045             89       702    0    0 01:43:14 Estab   12     12
-  CSCO-46.EVPN             2000::46    4 65045             89       735    0    0 01:18:24 Estab   12     12
-  ANET-201.EVPN            2000::201   4 65201            192       511    0    0 01:36:55 Estab   32     32
-  ANET-202.EVPN            2000::202   4 65202            189       509    0    0 01:30:36 Estab   32     32
-  ANET-203.EVPN            2000::203   4 65203            113       576    0    0 01:25:23 Estab   29     29
-  ANET-204.EVPN            2000::204   4 65204            114       573    0    0 01:24:23 Estab   31     31
-  NOK-56.EVPN              2001::56    4 65056            220       685    0    0 01:23:18 Estab   53     53
+  ANET-PE15                100.0.0.206 4 65206              0         0    0    0 00:38:03 Active
+  H3C-22.EVPN              2000::22    4 65022            228       600    0    0 00:13:06 Estab   28     28
+  H3C-23.EVPN              2000::23    4 65023            285       668    0    0 01:18:50 Estab   29     29
+  CSCO-40.EVPN             2000::40    4 65040             84      1024    0    0 00:57:01 Estab   12     12
+  CSCO-42.EVPN             2000::42    4 65042             81      1116    0    0 00:56:40 Estab   12     12
+  CSCO-45.EVPN             2000::45    4 65045            100       900    0    0 01:53:48 Estab   12     12
+  CSCO-46.EVPN             2000::46    4 65045            100       932    0    0 01:28:58 Estab   12     12
+  ANET-201.EVPN            2000::201   4 65201            212       700    0    0 01:47:29 Estab   32     32
+  ANET-202.EVPN            2000::202   4 65202            210       698    0    0 01:41:09 Estab   32     32
+  ANET-203.EVPN            2000::203   4 65203            130       769    0    0 01:35:57 Estab   27     27
+  ANET-204.EVPN            2000::204   4 65204            128       768    0    0 01:34:57 Estab   32     32
+  NOK-56.EVPN              2001::56    4 65056            244       891    0    0 01:33:52 Estab   52     52
 ```
 
 ## show bgp evpn route-type auto-discovery detail
@@ -392,13 +392,6 @@ BGP routing table entry for mac-ip 0012.0100.0002, Route Distinguisher: 100.0.0.
       Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
       Extended Community: Route-Target-AS:2301:2301 Route-Origin-IP:100.0.0.34:0
       VNI: 769952 ESI: 0000:0000:0000:0123:0123
-BGP routing table entry for mac-ip 0012.0100.0002, Route Distinguisher: 100.0.30.9:2301
- Paths: 1 available
-  65056 64512
-    100.0.30.9 from 2001::56 (100.0.0.56)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
-      Extended Community: Route-Target-AS:2301:2301
-      VNI: 61072 ESI: 0000:0000:0000:0123:0123
 BGP routing table entry for mac-ip 0020.1000.0001, Route Distinguisher: 100.0.0.201:1301
  Paths: 1 available
   65201
@@ -525,10 +518,10 @@ BGP routing table entry for mac-ip 0020.3000.0002 1000:3000:2::203, Route Distin
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:98:5d:82:a2:04:f9
       VNI: 1302 L3 VNI: 1000 ESI: 0000:0000:0000:0203:0204
-BGP routing table entry for mac-ip 0020.3000.0005, Route Distinguisher: 100.0.0.203:1203
+BGP routing table entry for mac-ip 0020.3000.0005, Route Distinguisher: 100.0.0.204:1203
  Paths: 1 available
-  65203
-    2000::203 from 2000::203 (100.0.0.203)
+  65204
+    2000::204 from 2000::204 (100.0.0.204)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1203:1203 TunnelEncap:tunnelTypeVxlan
       VNI: 1203 ESI: 0000:0000:0000:0203:0204
@@ -551,28 +544,28 @@ BGP routing table entry for mac-ip 0022.0000.0001, Route Distinguisher: 100.0.0.
   65023
     2000::23 from 2000::23 (100.0.0.23)
       Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:5
+      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:11
       VNI: 1301 ESI: 0000:0000:0000:0022:0023
-BGP routing table entry for mac-ip 0022.0000.0002, Route Distinguisher: 100.0.0.23:1302
+BGP routing table entry for mac-ip 0022.0000.0001 fe80::222:ff:fe00:1, Route Distinguisher: 100.0.0.23:1301
  Paths: 1 available
   65023
     2000::23 from 2000::23 (100.0.0.23)
       Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:9
-      VNI: 1302 ESI: 0000:0000:0000:0022:0023
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:7 EvpnRouterMac:c4:07:78:0a:77:7d
+      VNI: 1301 L3 VNI: 1000 ESI: 0000:0000:0000:0022:0023
 BGP routing table entry for mac-ip 0022.0000.0002 1000:3000:2::22, Route Distinguisher: 100.0.0.23:1302
  Paths: 1 available
   65023
     2000::23 from 2000::23 (100.0.0.23)
       Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:7 EvpnRouterMac:c4:07:78:0a:77:7d
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:9 EvpnRouterMac:c4:07:78:0a:77:7d
       VNI: 1302 L3 VNI: 1000 ESI: 0000:0000:0000:0022:0023
 BGP routing table entry for mac-ip 0022.0000.0002 fe80::222:ff:fe00:2, Route Distinguisher: 100.0.0.23:1302
  Paths: 1 available
   65023
     2000::23 from 2000::23 (100.0.0.23)
       Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:c4:07:78:0a:77:7d
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:2 EvpnRouterMac:c4:07:78:0a:77:7d
       VNI: 1302 L3 VNI: 1000 ESI: 0000:0000:0000:0022:0023
 BGP routing table entry for mac-ip 0040.0100.0001, Route Distinguisher: 100.0.0.40:34068
  Paths: 1 available
@@ -922,36 +915,36 @@ BGP routing table entry for mac-ip 1022 0022.0000.0005, Route Distinguisher: 100
   65022
     2000::22 from 2000::22 (100.0.0.22)
       Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1022:1022 TunnelEncap:tunnelTypeVxlan
+      Extended Community: Route-Target-AS:1022:1022 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:23
       VNI: 1022 ESI: 0000:0000:0000:0022:0023
 BGP routing table entry for mac-ip 1022 0022.0000.0005 1000:1000:22::22, Route Distinguisher: 100.0.0.22:1022
  Paths: 1 available
   65022
     2000::22 from 2000::22 (100.0.0.22)
       Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1022:1022 Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:1 EvpnRouterMac:c4:07:78:0a:9f:31
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1022:1022 Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:23 EvpnRouterMac:c4:07:78:0a:9f:31
       VNI: 1022 L3 VNI: 1000 ESI: 0000:0000:0000:0022:0023
 BGP routing table entry for mac-ip 1022 0022.0000.0005 fe80::222:ff:fe00:5, Route Distinguisher: 100.0.0.22:1022
  Paths: 1 available
   65022
     2000::22 from 2000::22 (100.0.0.22)
       Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1022:1022 Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:c4:07:78:0a:9f:31
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1022:1022 Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:22 EvpnRouterMac:c4:07:78:0a:9f:31
       VNI: 1022 L3 VNI: 1000 ESI: 0000:0000:0000:0022:0023
 BGP routing table entry for mac-ip 1301 0022.0000.0001 1000:3000:1::22, Route Distinguisher: 100.0.0.22:1301
  Paths: 1 available
   65022
     2000::22 from 2000::22 (100.0.0.22)
       Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1301:1301 Route-Target-AS:65205:1000 Route-Target-AS:65205:1301 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:1 EvpnRouterMac:c4:07:78:0a:9f:31
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1301:1301 Route-Target-AS:65205:1000 Route-Target-AS:65205:1301 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:3 EvpnRouterMac:c4:07:78:0a:9f:31
       VNI: 1301 L3 VNI: 1000 ESI: 0000:0000:0000:0022:0023
-BGP routing table entry for mac-ip 1301 0022.0000.0001 fe80::222:ff:fe00:1, Route Distinguisher: 100.0.0.22:1301
+BGP routing table entry for mac-ip 1302 0022.0000.0002, Route Distinguisher: 100.0.0.22:1302
  Paths: 1 available
   65022
     2000::22 from 2000::22 (100.0.0.22)
       Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1301:1301 Route-Target-AS:65205:1000 Route-Target-AS:65205:1301 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:4 EvpnRouterMac:c4:07:78:0a:9f:31
-      VNI: 1301 L3 VNI: 1000 ESI: 0000:0000:0000:0022:0023
+      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:32
+      VNI: 1302 ESI: 0000:0000:0000:0022:0023
 BGP routing table entry for mac-ip 1303 0020.1000.0003, Route Distinguisher: 100.0.0.201:1303
  Paths: 1 available
   65201
@@ -1043,13 +1036,6 @@ BGP routing table entry for mac-ip 1304 0020.1000.0004 1000:3000:4::201, Route D
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:25:b7 EvpnNdFlags:pflag
       VNI: 1304 L3 VNI: 1000 ESI: 0000:0000:0000:0201:0202
-BGP routing table entry for mac-ip 1304 0020.3000.0004, Route Distinguisher: 100.0.0.203:1303
- Paths: 1 available
-  65203
-    2000::203 from 2000::203 (100.0.0.203)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
-      VNI: 1304 ESI: 0000:0000:0000:0203:0204
 BGP routing table entry for mac-ip 1304 0020.3000.0004, Route Distinguisher: 100.0.0.204:1303
  Paths: 1 available
   65204
@@ -1865,7 +1851,7 @@ Gateway of last resort is not set
 
 ```text
 Address         Age (sec)  Hardware Addr   Interface
-20.200.206.206    0:34:25  985d.82c4.0271  Ethernet6
+20.200.206.206    0:44:58  985d.82c4.0271  Ethernet6
 ```
 
 ## show ip route vrf all
@@ -1927,14 +1913,14 @@ Gateway of last resort:
 
 VRF: default
 Address         Age (sec)  Hardware Addr   Interface
-20.200.206.206    0:34:25  985d.82c4.0271  Ethernet6
+20.200.206.206    0:44:58  985d.82c4.0271  Ethernet6
 
 VRF: mgmt
 Address         Age (sec)  Hardware Addr   Interface
 192.168.20.1      0:00:00  90e2.bac7.8074  Management1
-192.168.20.201    0:01:14  2cdd.e90b.2282  Management1
-192.168.21.50     0:01:01  a84f.b1a5.5221  Management1
-192.168.21.59     0:04:04  6607.f5d1.ae16  Management1
+192.168.20.201    0:02:08  2cdd.e90b.2282  Management1
+192.168.21.50     0:02:02  a84f.b1a5.5221  Management1
+192.168.21.59     0:00:13  6607.f5d1.ae16  Management1
 ```
 
 ## show vxlan address-table
@@ -2038,17 +2024,17 @@ BGP summary information for VRF default
 Router identifier 100.0.0.200, local AS number 65000
 Neighbor Status Codes: m - Under maintenance
   Description              Neighbor                       V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
-                           fe80::266c:84ff:fe74:8ddc%Et15 4 65040             51        72    0    0 00:46:39 Estab   1      1
-                           fe80::2edd:e9ff:fe0b:2283%Et1  4 65201             84        87    0    0 01:37:02 Estab   1      1
-                           fe80::2edd:e9ff:fe0b:25b7%Et2  4 65202             80        86    0    0 01:30:43 Estab   1      1
-                           fe80::3a38:a6ff:fe21:e82f%Et3  4 65203             83        87    0    0 01:25:31 Estab   1      1
-                           fe80::4214:82ff:fe7b:84ac%Et16 4 65042             51        69    0    0 00:46:18 Estab   1      1
-                           fe80::427c:7dff:fec4:ab9d%Et11 4 65056            141       170    0    0 02:11:36 Estab   2      2
-                           fe80::6e31:eff:fe7b:8b88%Et13  4 65045             72        86    0    0 02:08:56 Estab   3      3
-                           fe80::6e31:eff:feb7:5060%Et14  4 65045             74        86    0    0 02:05:35 Estab   3      3
-                           fe80::9a5d:82ff:fea2:4f9%Et4   4 65204             83        86    0    0 01:24:31 Estab   1      1
-                           fe80::c607:78ff:fe0a:777d%Et25 4 65023             74        85    0    0 02:11:35 Estab   1      1
-                           fe80::c607:78ff:fe0a:9f31%Et26 4 65022              7        17    0    0 00:02:40 Estab   1      1
+                           fe80::266c:84ff:fe74:8ddc%Et15 4 65040             62        84    0    0 00:57:12 Estab   1      1
+                           fe80::2edd:e9ff:fe0b:2283%Et1  4 65201             96        99    0    0 01:47:36 Estab   1      1
+                           fe80::2edd:e9ff:fe0b:25b7%Et2  4 65202             92        98    0    0 01:41:17 Estab   1      1
+                           fe80::3a38:a6ff:fe21:e82f%Et3  4 65203             95       100    0    0 01:36:04 Estab   1      1
+                           fe80::4214:82ff:fe7b:84ac%Et16 4 65042             61        82    0    0 00:56:51 Estab   1      1
+                           fe80::427c:7dff:fec4:ab9d%Et11 4 65056            162       195    0    0 02:22:09 Estab   2      2
+                           fe80::6e31:eff:fe7b:8b88%Et13  4 65045             82        99    0    0 02:19:29 Estab   3      3
+                           fe80::6e31:eff:feb7:5060%Et14  4 65045             84        98    0    0 02:16:09 Estab   3      3
+                           fe80::9a5d:82ff:fea2:4f9%Et4   4 65204             95        99    0    0 01:35:04 Estab   1      1
+                           fe80::c607:78ff:fe0a:777d%Et25 4 65023             85        98    0    0 02:22:09 Estab   1      1
+                           fe80::c607:78ff:fe0a:9f31%Et26 4 65022             19        29    0    0 00:13:14 Estab   1      1
 ```
 
 ## show ipv6 bgp
@@ -2234,36 +2220,36 @@ BGP summary information for VRF default
 Router identifier 100.0.0.200, local AS number 65000
 Neighbor Status Codes: m - Under maintenance
   Description              Neighbor                       LLDP Neighbor                  V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
-                           fe80::266c:84ff:fe74:8ddc%Et15 Cisco_40_N9K-C93180YC-FX3      4 65040             51        72    0    0 00:46:39 Estab   1      1
-                           fe80::2edd:e9ff:fe0b:2283%Et1  PE11-JP-201.ns.eantc.de        4 65201             84        87    0    0 01:37:03 Estab   1      1
-                           fe80::2edd:e9ff:fe0b:25b7%Et2  PE12-JP-202.ns.eantc.de        4 65202             80        86    0    0 01:30:44 Estab   1      1
-                           fe80::3a38:a6ff:fe21:e82f%Et3  PE13-T3-203.ns.eantc.de        4 65203             83        87    0    0 01:25:31 Estab   1      1
-                           fe80::4214:82ff:fe7b:84ac%Et16 Cisco_42_N9K-C93400LD-H1       4 65042             51        69    0    0 00:46:18 Estab   1      1
-                           fe80::427c:7dff:fec4:ab9d%Et11 185b.0089.c3cc                 4 65056            141       170    0    0 02:11:36 Estab   2      2
-                           fe80::6e31:eff:fe7b:8b88%Et13  Cisco_45_N9K-C93240YC-FX2      4 65045             72        86    0    0 02:08:56 Estab   3      3
-                           fe80::6e31:eff:feb7:5060%Et14  Cisco_46_N9K-C93240YC-FX2      4 65045             74        86    0    0 02:05:36 Estab   3      3
-                           fe80::9a5d:82ff:fea2:4f9%Et4   PE14-T3-204.ns.eantc.de        4 65204             83        86    0    0 01:24:31 Estab   1      1
-                           fe80::c607:78ff:fe0a:777d%Et25 h3c_23_S6850-56HF              4 65023             74        85    0    0 02:11:36 Estab   1      1
-                           fe80::c607:78ff:fe0a:9f31%Et26 h3c_22_S6850-56HF              4 65022              7        17    0    0 00:02:41 Estab   1      1
+                           fe80::266c:84ff:fe74:8ddc%Et15 Cisco_40_N9K-C93180YC-FX3      4 65040             62        84    0    0 00:57:13 Estab   1      1
+                           fe80::2edd:e9ff:fe0b:2283%Et1  PE11-JP-201.ns.eantc.de        4 65201             96        99    0    0 01:47:37 Estab   1      1
+                           fe80::2edd:e9ff:fe0b:25b7%Et2  PE12-JP-202.ns.eantc.de        4 65202             92        98    0    0 01:41:18 Estab   1      1
+                           fe80::3a38:a6ff:fe21:e82f%Et3  PE13-T3-203.ns.eantc.de        4 65203             95       100    0    0 01:36:05 Estab   1      1
+                           fe80::4214:82ff:fe7b:84ac%Et16 Cisco_42_N9K-C93400LD-H1       4 65042             61        82    0    0 00:56:52 Estab   1      1
+                           fe80::427c:7dff:fec4:ab9d%Et11 185b.0089.c3cc                 4 65056            162       195    0    0 02:22:10 Estab   2      2
+                           fe80::6e31:eff:fe7b:8b88%Et13  Cisco_45_N9K-C93240YC-FX2      4 65045             82        99    0    0 02:19:30 Estab   3      3
+                           fe80::6e31:eff:feb7:5060%Et14  Cisco_46_N9K-C93240YC-FX2      4 65045             84        98    0    0 02:16:10 Estab   3      3
+                           fe80::9a5d:82ff:fea2:4f9%Et4   PE14-T3-204.ns.eantc.de        4 65204             96        99    0    0 01:35:05 Estab   1      1
+                           fe80::c607:78ff:fe0a:777d%Et25 h3c_23_S6850-56HF              4 65023             85        98    0    0 02:22:09 Estab   1      1
+                           fe80::c607:78ff:fe0a:9f31%Et26 h3c_22_S6850-56HF              4 65022             19        29    0    0 00:13:15 Estab   1      1
 ```
 
 ## show ipv6 neighbors
 
 ```text
 IPv6 Address                                  Age Hardware Addr   Interface
-fe80::2edd:e9ff:fe0b:2283                 0:00:00 2cdd.e90b.2283  Et1
-fe80::2edd:e9ff:fe0b:25b7                 0:00:13 2cdd.e90b.25b7  Et2
-fe80::3a38:a6ff:fe21:e82f                 0:00:22 3838.a621.e82f  Et3
-fe80::9a5d:82ff:fea2:4f9                  0:00:19 985d.82a2.04f9  Et4
-fe80::427c:7dff:fec4:ab9d                 0:00:06 407c.7dc4.ab9d  Et11
-fe80::6e31:eff:fe7b:8b88                  0:00:18 6c31.0e7b.8b87  Et13
-fe80::6e31:eff:feb7:5060                  0:00:11 6c31.0eb7.505f  Et14
-fe80::266c:84ff:fe74:8ddb                 0:49:46 246c.8474.8ddb  Et15
-fe80::266c:84ff:fe74:8ddc                 0:00:18 246c.8474.8ddb  Et15
-fe80::4214:82ff:fe7b:84ab                 0:49:14 4014.827b.84ab  Et16
-fe80::4214:82ff:fe7b:84ac                 0:00:07 4014.827b.84ab  Et16
-fe80::c607:78ff:fe0a:777d                 0:00:08 c407.780a.777d  Et25
-fe80::c607:78ff:fe0a:9f31                 0:00:06 c407.780a.9f31  Et26
+fe80::2edd:e9ff:fe0b:2283                 0:00:10 2cdd.e90b.2283  Et1
+fe80::2edd:e9ff:fe0b:25b7                 0:00:10 2cdd.e90b.25b7  Et2
+fe80::3a38:a6ff:fe21:e82f                 0:00:04 3838.a621.e82f  Et3
+fe80::9a5d:82ff:fea2:4f9                  0:00:01 985d.82a2.04f9  Et4
+fe80::427c:7dff:fec4:ab9d                 0:00:10 407c.7dc4.ab9d  Et11
+fe80::6e31:eff:fe7b:8b88                  0:00:52 6c31.0e7b.8b87  Et13
+fe80::6e31:eff:feb7:5060                  0:00:10 6c31.0eb7.505f  Et14
+fe80::266c:84ff:fe74:8ddb                 1:00:19 246c.8474.8ddb  Et15
+fe80::266c:84ff:fe74:8ddc                 0:00:08 246c.8474.8ddb  Et15
+fe80::4214:82ff:fe7b:84ab                 0:59:47 4014.827b.84ab  Et16
+fe80::4214:82ff:fe7b:84ac                 0:00:10 4014.827b.84ab  Et16
+fe80::c607:78ff:fe0a:777d                 0:00:11 c407.780a.777d  Et25
+fe80::c607:78ff:fe0a:9f31                 0:00:10 c407.780a.9f31  Et26
 ```
 
 ## show ipv6 nd ra neighbors
@@ -2272,17 +2258,17 @@ fe80::c607:78ff:fe0a:9f31                 0:00:06 c407.780a.9f31  Et26
 VRF: default
    Interface              IPv6 Address           Last RA Received
 ---------------- ------------------------------- ----------------
-   Ethernet1        fe80::2edd:e9ff:fe0b:2283      0:02:14 ago   
-   Ethernet2        fe80::2edd:e9ff:fe0b:25b7      0:01:30 ago   
-   Ethernet3        fe80::3a38:a6ff:fe21:e82f      0:00:43 ago   
-   Ethernet4        fe80::9a5d:82ff:fea2:4f9       0:02:11 ago   
+   Ethernet1        fe80::2edd:e9ff:fe0b:2283      0:01:10 ago   
+   Ethernet2        fe80::2edd:e9ff:fe0b:25b7      0:01:00 ago   
+   Ethernet3        fe80::3a38:a6ff:fe21:e82f      0:02:41 ago   
+   Ethernet4        fe80::9a5d:82ff:fea2:4f9       0:01:35 ago   
    Ethernet11       fe80::427c:7dff:fec4:ab9d      0:00:02 ago   
-   Ethernet13       fe80::6e31:eff:fe7b:8b88       0:00:02 ago   
-   Ethernet14       fe80::6e31:eff:feb7:5060       0:00:02 ago   
-   Ethernet15       fe80::266c:84ff:fe74:8ddc      0:00:03 ago   
-   Ethernet16       fe80::4214:82ff:fe7b:84ac      0:00:00 ago   
-   Ethernet25       fe80::c607:78ff:fe0a:777d      0:02:54 ago   
-   Ethernet26       fe80::c607:78ff:fe0a:9f31      0:02:12 ago   
+   Ethernet13       fe80::6e31:eff:fe7b:8b88       0:00:00 ago   
+   Ethernet14       fe80::6e31:eff:feb7:5060       0:00:03 ago   
+   Ethernet15       fe80::266c:84ff:fe74:8ddc      0:00:01 ago   
+   Ethernet16       fe80::4214:82ff:fe7b:84ac      0:00:02 ago   
+   Ethernet25       fe80::c607:78ff:fe0a:777d      0:00:04 ago   
+   Ethernet26       fe80::c607:78ff:fe0a:9f31      0:07:05 ago   
 
 ```
 
@@ -2295,7 +2281,18 @@ VRF: default
 
 ```text
 Port      Name         Intvl  In Mbps      %  In Kpps Out Mbps      % Out Kpps
+Et1       A-PE11-201    0:01      0.1   0.0%        0      0.2   0.0%        0
+Et2       A-PE12-202    0:01      0.1   0.0%        0      0.2   0.0%        0
+Et3       A-PE13-203    0:01      0.1   0.0%        0      0.1   0.0%        0
+Et4       A-PE14-204    0:01      0.1   0.0%        0      0.2   0.0%        0
+Et11      Nokia-56      0:01      0.1   0.0%        0      0.3   0.0%        0
+Et13      Cisco-45-N9K  0:01      0.2   0.0%        0      0.1   0.0%        0
+Et14      Cisco-46-N9K  0:01      0.2   0.0%        0      0.1   0.0%        0
+Et15      Cisco-40-N9K  0:01      0.3   0.0%        0      0.2   0.0%        0
+Et16      Cisco-42-N9K  0:01      0.3   0.0%        0      0.2   0.0%        0
 Et24      JNPR 314      0:01      0.0   0.0%        0      0.0   0.0%        0
+Et25      H3C-23        0:01      0.1   0.0%        0      0.1   0.0%        0
+Et26      H3C-22        0:01      0.1   0.0%        0      0.1   0.0%        0
 Ma1                     0:05      0.0   0.0%        0      0.1   0.0%        0
 ```
 

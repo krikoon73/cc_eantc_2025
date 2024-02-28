@@ -40,11 +40,11 @@
       VTEP 2000::204
 0042.0100.0002, VLAN 1302, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
    VTEP 2000::42
-0020.1000.0005, VLAN 1201, seq 2, pref 16, learnedDynamicMac, source: Local Dynamic
+0020.1000.0005, VLAN 1201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel100
 0056.0000.0002, VLAN 1302, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
    VTEP 2000::56
-0020.1000.0004, VLAN 1304, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+0020.1000.0004, VLAN 1304, seq 2, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel100
 00aa.aaaa.aaaa, VLAN 1304, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
    VTEP 2000::56
