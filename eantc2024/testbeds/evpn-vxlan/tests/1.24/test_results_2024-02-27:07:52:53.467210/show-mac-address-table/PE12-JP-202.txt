@@ -1,0 +1,187 @@
+          Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports      Moves   Last Move
+----    -----------       ----        -----      -----   ---------
+1201    00aa.aaaa.aaaa    STATIC      Router
+1201    2cdd.e90b.25b7    STATIC      Router
+1202    00aa.aaaa.aaaa    STATIC      Router
+1202    2cdd.e90b.25b7    STATIC      Router
+1301    001b.0100.0002    DYNAMIC     Vx1        1       1:52:27 ago
+1301    001b.0100.0033    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.0034    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.0035    DYNAMIC     Vx1        1       1:34:38 ago
+1301    001b.0100.0036    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.0037    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.0038    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.0039    DYNAMIC     Vx1        1       1:34:08 ago
+1301    001b.0100.003a    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.003b    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.003c    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.003d    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.003e    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.003f    DYNAMIC     Vx1        1       1:34:08 ago
+1301    001b.0100.0040    DYNAMIC     Vx1        1       1:34:08 ago
+1301    001b.0100.0041    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.0042    DYNAMIC     Vx1        1       1:34:08 ago
+1301    001b.0100.0043    DYNAMIC     Vx1        1       1:34:08 ago
+1301    001b.0100.0044    DYNAMIC     Vx1        1       1:34:08 ago
+1301    001b.0100.0045    DYNAMIC     Vx1        1       1:34:08 ago
+1301    001b.0100.0046    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.0047    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.0048    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.0049    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.004a    DYNAMIC     Vx1        1       1:34:08 ago
+1301    001b.0100.004b    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.004c    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.004d    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.004e    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.004f    DYNAMIC     Vx1        1       1:34:08 ago
+1301    001b.0100.0050    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.0051    DYNAMIC     Vx1        1       1:34:08 ago
+1301    001b.0100.0052    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.0053    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.0054    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.0055    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.0056    DYNAMIC     Vx1        1       1:34:08 ago
+1301    001b.0100.0057    DYNAMIC     Vx1        1       1:34:08 ago
+1301    001b.0100.0058    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.0059    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.005a    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.005b    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.005c    DYNAMIC     Vx1        1       1:34:08 ago
+1301    001b.0100.005d    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.005e    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.005f    DYNAMIC     Vx1        1       1:34:08 ago
+1301    001b.0100.0060    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.0061    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.0062    DYNAMIC     Vx1        1       1:42:57 ago
+1301    001b.0100.0063    DYNAMIC     Vx1        1       1:34:08 ago
+1301    001b.0100.0064    DYNAMIC     Vx1        1       1:52:27 ago
+1301    0056.5656.5656    STATIC      Vx1
+1301    00aa.aaaa.aaaa    STATIC      Router
+1301    00cc.cccc.bbbb    STATIC      Vx1
+1301    2cdd.e90b.25b7    STATIC      Router
+1301    a244.0101.0001    DYNAMIC     Vx1        1       0:05:48 ago
+1302    00aa.aaaa.aaaa    STATIC      Router
+1302    2cdd.e90b.25b7    STATIC      Router
+1303    001b.0100.0003    DYNAMIC     Vx1        1       1:44:38 ago
+1303    001b.0100.0065    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0066    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0067    DYNAMIC     Vx1        1       1:34:39 ago
+1303    001b.0100.0068    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0069    DYNAMIC     Vx1        1       1:34:08 ago
+1303    001b.0100.006a    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.006b    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.006c    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.006d    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.006e    DYNAMIC     Vx1        1       1:34:08 ago
+1303    001b.0100.006f    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0070    DYNAMIC     Vx1        1       1:34:08 ago
+1303    001b.0100.0071    DYNAMIC     Vx1        1       1:34:08 ago
+1303    001b.0100.0072    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0073    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0074    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0075    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0076    DYNAMIC     Vx1        1       1:34:08 ago
+1303    001b.0100.0077    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0078    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0079    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.007a    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.007b    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.007c    DYNAMIC     Vx1        1       1:34:08 ago
+1303    001b.0100.007d    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.007e    DYNAMIC     Vx1        1       1:34:08 ago
+1303    001b.0100.007f    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0080    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0081    DYNAMIC     Vx1        1       1:34:08 ago
+1303    001b.0100.0082    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0083    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0084    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0085    DYNAMIC     Vx1        1       1:34:08 ago
+1303    001b.0100.0086    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0087    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0088    DYNAMIC     Vx1        1       1:34:08 ago
+1303    001b.0100.0089    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.008a    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.008b    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.008c    DYNAMIC     Vx1        1       1:34:08 ago
+1303    001b.0100.008d    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.008e    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.008f    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0090    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0091    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0092    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0093    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0094    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0095    DYNAMIC     Vx1        1       1:42:57 ago
+1303    001b.0100.0096    DYNAMIC     Vx1        1       1:52:27 ago
+1303    0056.5656.5656    STATIC      Vx1
+1303    00aa.aaaa.aaaa    STATIC      Router
+1303    2cdd.e90b.25b7    STATIC      Router
+1303    a266.0102.0001    DYNAMIC     Vx1        1       0:05:48 ago
+1304    001b.0100.0004    DYNAMIC     Vx1        1       1:19:33 ago
+1304    001b.0100.0097    DYNAMIC     Vx1        1       1:34:08 ago
+1304    001b.0100.0098    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.0099    DYNAMIC     Vx1        1       1:34:37 ago
+1304    001b.0100.009a    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.009b    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.009c    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.009d    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.009e    DYNAMIC     Vx1        1       1:34:08 ago
+1304    001b.0100.009f    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00a0    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00a1    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00a2    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00a3    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00a4    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00a5    DYNAMIC     Vx1        1       1:34:08 ago
+1304    001b.0100.00a6    DYNAMIC     Vx1        1       1:34:08 ago
+1304    001b.0100.00a7    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00a8    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00a9    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00aa    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00ab    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00ac    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00ad    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00ae    DYNAMIC     Vx1        1       1:34:08 ago
+1304    001b.0100.00af    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00b0    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00b1    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00b2    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00b3    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00b4    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00b5    DYNAMIC     Vx1        1       1:34:08 ago
+1304    001b.0100.00b6    DYNAMIC     Vx1        1       1:34:08 ago
+1304    001b.0100.00b7    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00b8    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00b9    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00ba    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00bb    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00bc    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00bd    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00be    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00bf    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00c0    DYNAMIC     Vx1        1       1:34:08 ago
+1304    001b.0100.00c1    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00c2    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00c3    DYNAMIC     Vx1        1       1:34:08 ago
+1304    001b.0100.00c4    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00c5    DYNAMIC     Vx1        1       1:34:08 ago
+1304    001b.0100.00c6    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00c7    DYNAMIC     Vx1        1       1:42:57 ago
+1304    001b.0100.00c8    DYNAMIC     Vx1        1       1:52:27 ago
+1304    0056.5656.5656    STATIC      Vx1
+1304    00aa.aaaa.aaaa    STATIC      Router
+1304    2cdd.e90b.25b7    STATIC      Router
+1304    a288.0103.0001    DYNAMIC     Vx1        1       0:05:48 ago
+4092    00aa.aaaa.aaaa    STATIC      Router
+4092    2cdd.e90b.25b7    STATIC      Router
+Total Mac Addresses for this criterion: 174
+
+          Multicast Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       ----        -----
+Total Mac Addresses for this criterion: 0

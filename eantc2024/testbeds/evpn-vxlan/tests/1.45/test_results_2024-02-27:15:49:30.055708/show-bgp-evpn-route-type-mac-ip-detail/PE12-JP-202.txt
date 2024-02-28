@@ -1,0 +1,30 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.202, local AS number 65202
+BGP routing table entry for mac-ip 6c31.0e7b.8b87 remote, Route Distinguisher: 100.0.0.45:34068
+ Paths: 1 available
+  65040 65045
+    100.0.0.45 from 100.0.0.40 (100.0.0.40)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1301:1301 Route-Origin-IP:100.0.0.45:512 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1301 ESI: 0300:0000:00fe:1500:0309
+BGP routing table entry for mac-ip 6c31.0e7b.8b87 remote, Route Distinguisher: 100.0.0.46:34068
+ Paths: 1 available
+  65040 65045
+    100.0.0.46 from 100.0.0.40 (100.0.0.40)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1301:1301 Route-Origin-IP:100.0.0.45:512 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1301 ESI: 0300:0000:00fe:1500:0309
+BGP routing table entry for mac-ip 6c31.0eb7.505f remote, Route Distinguisher: 100.0.0.45:34068
+ Paths: 1 available
+  65040 65045
+    100.0.0.45 from 100.0.0.40 (100.0.0.40)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1301:1301 Route-Origin-IP:100.0.0.46:512 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1301 ESI: 0300:0000:00fe:1500:0309
+BGP routing table entry for mac-ip 6c31.0eb7.505f remote, Route Distinguisher: 100.0.0.46:34068
+ Paths: 1 available
+  65040 65045
+    100.0.0.46 from 100.0.0.40 (100.0.0.40)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1301:1301 Route-Origin-IP:100.0.0.46:512 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1301 ESI: 0300:0000:00fe:1500:0309

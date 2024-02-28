@@ -1,0 +1,95 @@
+
+VRF: default
+Address         Age (sec)  Hardware Addr   Interface
+20.200.203.200    0:00:28  444c.a873.5c75  Ethernet1
+
+VRF: mgmt
+Address         Age (sec)  Hardware Addr   Interface
+192.168.20.1      0:00:00  90e2.bac7.8074  Management1
+192.168.21.47     0:03:26  5c5a.c7ff.8a0a  Management1
+192.168.21.50     0:01:30  a84f.b1a5.5221  Management1
+192.168.21.59     0:00:05  6607.f5d1.ae16  Management1
+
+VRF: tenant-a
+Address         Age (sec)  Hardware Addr   Interface
+10.10.203.203     0:06:03  001b.0100.0001  Vlan1203, Port-Channel200
+10.30.1.103             -  a244.0101.0001  Vlan1301, Vxlan1
+10.30.1.201             -  001b.0100.0002  Vlan1301, Port-Channel200
+10.30.1.202       2:47:05  001b.0100.0034  Vlan1301, not learned
+10.30.1.203             -  001b.0100.0002  Vlan1301, Port-Channel200
+10.30.1.206       2:47:05  001b.0100.0038  Vlan1301, not learned
+10.30.1.207       2:47:05  001b.0100.0039  Vlan1301, not learned
+10.30.1.208       2:47:05  001b.0100.003a  Vlan1301, not learned
+10.30.1.209       2:47:05  001b.0100.003b  Vlan1301, not learned
+10.30.1.211       2:47:05  001b.0100.003d  Vlan1301, not learned
+10.30.1.213       2:47:05  001b.0100.003f  Vlan1301, not learned
+10.30.1.216       2:47:05  001b.0100.0042  Vlan1301, not learned
+10.30.1.218       2:47:05  001b.0100.0044  Vlan1301, not learned
+10.30.1.220       2:47:05  001b.0100.0046  Vlan1301, not learned
+10.30.1.221       2:47:05  001b.0100.0047  Vlan1301, not learned
+10.30.1.222       2:47:05  001b.0100.0048  Vlan1301, not learned
+10.30.1.223       2:47:05  001b.0100.0049  Vlan1301, not learned
+10.30.1.226       2:47:05  001b.0100.004c  Vlan1301, not learned
+10.30.1.228       2:47:05  001b.0100.004e  Vlan1301, not learned
+10.30.1.229       2:47:05  001b.0100.004f  Vlan1301, not learned
+10.30.1.233       2:47:05  001b.0100.0053  Vlan1301, not learned
+10.30.1.234       2:47:05  001b.0100.0054  Vlan1301, not learned
+10.30.1.236       2:47:05  001b.0100.0056  Vlan1301, not learned
+10.30.1.238       2:47:05  001b.0100.0058  Vlan1301, not learned
+10.30.1.239       2:47:05  001b.0100.0059  Vlan1301, not learned
+10.30.1.240       2:47:05  001b.0100.005a  Vlan1301, not learned
+10.30.1.243       2:47:05  001b.0100.005d  Vlan1301, not learned
+10.30.1.245       2:47:05  001b.0100.005f  Vlan1301, not learned
+10.30.1.247       2:47:05  001b.0100.0061  Vlan1301, not learned
+10.30.1.249       2:47:05  001b.0100.0063  Vlan1301, not learned
+10.30.3.103             -  a266.0102.0001  Vlan1303, Vxlan1
+10.30.3.201       2:43:31  001b.0100.0065  Vlan1303, not learned
+10.30.3.202       2:47:06  001b.0100.0066  Vlan1303, not learned
+10.30.3.203       0:06:03  001b.0100.0003  Vlan1303, Port-Channel200
+10.30.3.204       2:47:06  001b.0100.0068  Vlan1303, not learned
+10.30.3.206       2:47:06  001b.0100.006a  Vlan1303, not learned
+10.30.3.207       2:47:06  001b.0100.006b  Vlan1303, not learned
+10.30.3.209       2:47:06  001b.0100.006d  Vlan1303, not learned
+10.30.3.214       2:47:06  001b.0100.0072  Vlan1303, not learned
+10.30.3.215       2:47:06  001b.0100.0073  Vlan1303, not learned
+10.30.3.216       2:47:06  001b.0100.0074  Vlan1303, not learned
+10.30.3.218       2:47:06  001b.0100.0076  Vlan1303, not learned
+10.30.3.220       2:47:06  001b.0100.0078  Vlan1303, not learned
+10.30.3.222       2:47:06  001b.0100.007a  Vlan1303, not learned
+10.30.3.224       2:47:06  001b.0100.007c  Vlan1303, not learned
+10.30.3.225       2:47:06  001b.0100.007d  Vlan1303, not learned
+10.30.3.226       2:47:06  001b.0100.007e  Vlan1303, not learned
+10.30.3.227       2:47:06  001b.0100.007f  Vlan1303, not learned
+10.30.3.230       2:47:06  001b.0100.0082  Vlan1303, not learned
+10.30.3.237       2:47:06  001b.0100.0089  Vlan1303, not learned
+10.30.3.241       2:47:06  001b.0100.008d  Vlan1303, not learned
+10.30.3.243       2:47:06  001b.0100.008f  Vlan1303, not learned
+10.30.3.245       2:47:06  001b.0100.0091  Vlan1303, not learned
+10.30.3.246       2:47:06  001b.0100.0092  Vlan1303, not learned
+10.30.3.248       2:47:06  001b.0100.0094  Vlan1303, not learned
+10.30.3.249       2:47:06  001b.0100.0095  Vlan1303, not learned
+10.30.4.103             -  a288.0103.0001  Vlan1304, Vxlan1
+10.30.4.202       2:47:06  001b.0100.0098  Vlan1304, not learned
+10.30.4.203             -  001b.0100.0004  Vlan1304, Port-Channel200
+10.30.4.204       2:47:06  001b.0100.009a  Vlan1304, not learned
+10.30.4.206       2:47:06  001b.0100.009c  Vlan1304, not learned
+10.30.4.209       2:47:06  001b.0100.009f  Vlan1304, not learned
+10.30.4.211       2:47:06  001b.0100.00a1  Vlan1304, not learned
+10.30.4.212       2:47:06  001b.0100.00a2  Vlan1304, not learned
+10.30.4.219       2:47:06  001b.0100.00a9  Vlan1304, not learned
+10.30.4.220       2:47:06  001b.0100.00aa  Vlan1304, not learned
+10.30.4.222       2:47:06  001b.0100.00ac  Vlan1304, not learned
+10.30.4.223       2:47:06  001b.0100.00ad  Vlan1304, not learned
+10.30.4.224       2:47:06  001b.0100.00ae  Vlan1304, not learned
+10.30.4.226       2:47:06  001b.0100.00b0  Vlan1304, not learned
+10.30.4.227       2:47:06  001b.0100.00b1  Vlan1304, not learned
+10.30.4.229       2:47:06  001b.0100.00b3  Vlan1304, not learned
+10.30.4.231       2:47:06  001b.0100.00b5  Vlan1304, not learned
+10.30.4.234       2:47:06  001b.0100.00b8  Vlan1304, not learned
+10.30.4.236       2:47:06  001b.0100.00ba  Vlan1304, not learned
+10.30.4.237       2:47:06  001b.0100.00bb  Vlan1304, not learned
+10.30.4.238       2:47:06  001b.0100.00bc  Vlan1304, not learned
+10.30.4.240       2:47:06  001b.0100.00be  Vlan1304, not learned
+10.30.4.241       2:47:06  001b.0100.00bf  Vlan1304, not learned
+10.30.4.247       2:47:06  001b.0100.00c5  Vlan1304, not learned
+10.30.4.250       2:55:26  001b.0100.00c8  Vlan1304, not learned

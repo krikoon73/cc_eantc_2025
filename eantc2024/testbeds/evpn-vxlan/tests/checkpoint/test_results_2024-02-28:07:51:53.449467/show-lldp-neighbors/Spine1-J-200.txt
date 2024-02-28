@@ -1,0 +1,14 @@
+Last table change time   : 14:19:21 ago
+Number of table inserts  : 22
+Number of table deletes  : 17
+Number of table drops    : 0
+Number of table age-outs : 0
+
+Port          Neighbor Device ID            Neighbor Port ID    TTL
+---------- ----------------------------- ---------------------- ---
+Et1           PE11-JP-201.ns.eantc.de       Ethernet1           120
+Et3           PE13-T3-203.ns.eantc.de       Ethernet1           120
+Et4           PE14-T3-204.ns.eantc.de       Ethernet1           120
+Et24          juniper-314-ACX7509           et-2/0/3            120
+Ma1           extreme-x460-1                43                  120
+

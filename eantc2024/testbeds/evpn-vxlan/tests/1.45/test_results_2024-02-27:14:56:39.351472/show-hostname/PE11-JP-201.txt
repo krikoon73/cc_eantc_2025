@@ -1,0 +1,2 @@
+Hostname: PE11-JP-201
+FQDN:     PE11-JP-201.ns.eantc.de

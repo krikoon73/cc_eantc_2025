@@ -1,0 +1,2 @@
+Hostname: PE14-T3-204
+FQDN:     PE14-T3-204.ns.eantc.de

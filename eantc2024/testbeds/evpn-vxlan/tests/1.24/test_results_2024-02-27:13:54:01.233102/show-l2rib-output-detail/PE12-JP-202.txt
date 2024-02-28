@@ -1,0 +1,32 @@
+f8c1.1604.3007, VLAN 1301, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   Load Balance entry 30: 2-way
+      VTEP 100.0.0.22
+      VTEP 100.0.0.56
+00aa.aaaa.aaaa, VLAN 1301, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   Load Balance entry 30: 2-way
+      VTEP 100.0.0.22
+      VTEP 100.0.0.56
+0056.5656.5656, VLAN 1303, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+00aa.aaaa.aaaa, VLAN 1303, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+0056.5656.5656, VLAN 1301, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   Load Balance entry 30: 2-way
+      VTEP 100.0.0.22
+      VTEP 100.0.0.56
+00cc.cccc.bbbb, VLAN 1301, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   Load Balance entry 66: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+a288.0103.0001, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 100.0.0.56
+a244.0101.0001, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 30: 2-way
+      VTEP 100.0.0.22
+      VTEP 100.0.0.56
+00aa.aaaa.aaaa, VLAN 1304, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+0056.5656.5656, VLAN 1304, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+a266.0102.0001, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 100.0.0.56

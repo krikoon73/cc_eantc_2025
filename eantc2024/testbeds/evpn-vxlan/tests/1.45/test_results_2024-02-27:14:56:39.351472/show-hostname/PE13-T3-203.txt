@@ -1,0 +1,2 @@
+Hostname: PE13-T3-203
+FQDN:     PE13-T3-203.ns.eantc.de
