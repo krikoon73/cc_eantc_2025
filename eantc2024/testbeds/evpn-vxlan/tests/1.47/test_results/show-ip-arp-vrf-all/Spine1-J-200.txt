@@ -1,0 +1,84 @@
+
+VRF: 1022
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1040
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1042
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1044
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1045
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1056
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1201
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1203
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1301
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1301-201
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1301-203
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1302
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1302-201
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1302-203
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1303
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1303-201
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1303-203
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1304
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1304-201
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 1304-203
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 201
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: 203
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: default
+Address         Age (sec)  Hardware Addr   Interface
+20.200.201.201    0:00:17  2cdd.e90b.2283  Ethernet1
+20.200.202.202    0:00:13  2cdd.e90b.25b7  Ethernet2
+20.200.203.203    0:00:39  3838.a621.e82f  Ethernet3
+20.200.204.204    0:00:03  985d.82a2.04f9  Ethernet4
+20.103.200.103    0:51:31  0014.0100.0001  Ethernet12
+
+VRF: mgmt
+Address         Age (sec)  Hardware Addr   Interface
+192.168.20.1      0:00:00  90e2.bac7.8074  Management1
+192.168.21.47     0:00:42  5c5a.c7ff.8a0a  Management1
+192.168.21.50     0:01:49  a84f.b1a5.5221  Management1
+192.168.21.59     0:03:51  6607.f5d1.ae16  Management1
+
+VRF: red
+Address         Age (sec)  Hardware Addr   Interface

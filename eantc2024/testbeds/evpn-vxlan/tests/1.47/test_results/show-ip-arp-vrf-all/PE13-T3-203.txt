@@ -1,0 +1,17 @@
+
+VRF: default
+Address         Age (sec)  Hardware Addr   Interface
+20.200.203.200    0:00:00  444c.a873.5c75  Ethernet1
+
+VRF: mgmt
+Address         Age (sec)  Hardware Addr   Interface
+192.168.20.1      0:00:00  90e2.bac7.8074  Management1
+192.168.21.47     0:01:54  5c5a.c7ff.8a0a  Management1
+192.168.21.50     0:00:05  a84f.b1a5.5221  Management1
+192.168.21.59     0:03:14  6607.f5d1.ae16  Management1
+
+VRF: tenant-a
+Address         Age (sec)  Hardware Addr   Interface
+10.10.203.203     0:51:17  001b.0100.0001  Vlan1203, Port-Channel200
+10.30.1.44              -  001c.0100.0002  Vlan1301, Vxlan1
+10.30.3.203       1:29:12  001b.0100.0003  Vlan1303, not learned
