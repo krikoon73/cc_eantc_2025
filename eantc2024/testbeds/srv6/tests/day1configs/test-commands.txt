@@ -1,0 +1,8 @@
+show running-config | no-more
+show version
+show lldp neighbors
+show bgp summary
+show tunnel rib system-tunnel-rib summary
+show tunnel rib system-tunnel-rib brief
+show platform sand capabilities
+q

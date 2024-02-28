@@ -2,3 +2,6 @@
 PE41-J2-161:
   groups: [SNAPSHOT]
   hostname: 192.168.20.161
+PE42-J2-162:
+  groups: [SNAPSHOT]
+  hostname: 192.168.20.162
