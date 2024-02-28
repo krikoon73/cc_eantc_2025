@@ -14,9 +14,9 @@ PE13-T3-203:
 PE14-T3-204:
   groups: [SNAPSHOT]
   hostname: 192.168.20.204
-PE15-T3-206:
-  groups: [SNAPSHOT]
-  hostname: 192.168.20.206
+# PE15-T3-206:
+#   groups: [SNAPSHOT]
+#   hostname: 192.168.20.206
 Harness1-J-205:
   groups: [SNAPSHOT]
   hostname: 192.168.20.205

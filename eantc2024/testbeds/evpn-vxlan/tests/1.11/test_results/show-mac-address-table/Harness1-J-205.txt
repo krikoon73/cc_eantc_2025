@@ -1,0 +1,109 @@
+          Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports      Moves   Last Move
+----    -----------       ----        -----      -----   ---------
+  22    0020.3000.0001    DYNAMIC     Po300      1       0:02:21 ago
+  22    0020.3000.0002    DYNAMIC     Po300      1       0:02:19 ago
+  22    0020.3000.0003    DYNAMIC     Po300      1       0:02:21 ago
+  22    0020.3000.0004    DYNAMIC     Po300      1       0:02:21 ago
+  22    0022.0000.0001    DYNAMIC     Et25       1       0:02:25 ago
+  22    0022.0000.0002    DYNAMIC     Et25       1       0:02:25 ago
+  22    0022.0000.0003    DYNAMIC     Et25       1       0:02:25 ago
+  22    0022.0000.0004    DYNAMIC     Et25       1       0:02:25 ago
+  22    0022.0000.0005    DYNAMIC     Et25       1       0:02:25 ago
+  22    0040.0100.0001    DYNAMIC     Po300      1       0:02:25 ago
+  22    0040.0100.0002    DYNAMIC     Po300      1       0:02:25 ago
+  22    0042.0100.0001    DYNAMIC     Po300      1       0:02:25 ago
+  22    0042.0100.0002    DYNAMIC     Po300      1       0:02:25 ago
+  22    0045.0100.0001    DYNAMIC     Po300      1       0:02:25 ago
+  22    0045.0100.0002    DYNAMIC     Po300      1       0:03:40 ago
+  22    0056.0000.0002    DYNAMIC     Po300      1       0:02:25 ago
+  22    0056.0000.0004    DYNAMIC     Po300      1       0:02:25 ago
+  22    00aa.aaaa.aaaa    DYNAMIC     Po300      1       0:53:13 ago
+  40    0020.3000.0001    DYNAMIC     Et15       1       0:02:21 ago
+  40    0020.3000.0002    DYNAMIC     Et15       1       0:02:19 ago
+  40    0022.0000.0001    DYNAMIC     Et15       1       0:02:25 ago
+  40    0022.0000.0002    DYNAMIC     Et15       1       0:02:25 ago
+  40    0040.0100.0001    DYNAMIC     Et25       1       0:02:25 ago
+  40    0040.0100.0002    DYNAMIC     Et25       1       0:02:25 ago
+  40    0040.0100.0003    DYNAMIC     Et25       1       0:02:25 ago
+  40    0042.0100.0001    DYNAMIC     Et15       1       0:02:25 ago
+  40    0042.0100.0002    DYNAMIC     Et15       1       0:02:25 ago
+  40    0045.0100.0001    DYNAMIC     Et15       1       0:02:25 ago
+  40    0045.0100.0002    DYNAMIC     Et15       1       0:03:40 ago
+  40    0056.0000.0002    DYNAMIC     Et15       1       0:02:25 ago
+  40    00aa.aaaa.aaaa    DYNAMIC     Et15       1       0:18:16 ago
+  40    246c.8474.8de0    DYNAMIC     Et15       1       2:42:26 ago
+  42    0020.3000.0001    DYNAMIC     Et16       1       0:02:21 ago
+  42    0020.3000.0002    DYNAMIC     Et16       1       0:02:19 ago
+  42    0022.0000.0001    DYNAMIC     Et16       1       0:02:25 ago
+  42    0022.0000.0002    DYNAMIC     Et16       1       0:02:25 ago
+  42    0040.0100.0001    DYNAMIC     Et16       1       0:02:25 ago
+  42    0040.0100.0002    DYNAMIC     Et16       1       0:02:25 ago
+  42    0042.0100.0001    DYNAMIC     Et25       1       0:02:25 ago
+  42    0042.0100.0002    DYNAMIC     Et25       1       0:02:25 ago
+  42    0042.0100.0003    DYNAMIC     Et25       1       0:02:25 ago
+  42    0045.0100.0001    DYNAMIC     Et16       1       0:02:25 ago
+  42    0045.0100.0002    DYNAMIC     Et16       1       0:03:40 ago
+  42    0056.0000.0002    DYNAMIC     Et16       1       0:02:25 ago
+  42    00aa.aaaa.aaaa    DYNAMIC     Et16       1       0:18:08 ago
+  42    4014.827b.84b0    DYNAMIC     Et16       1       0:35:29 ago
+  44    5c5a.c773.4ac0    DYNAMIC     Et17       1       5:40:20 ago
+  45    0020.3000.0001    DYNAMIC     Po301      1       0:02:21 ago
+  45    0020.3000.0002    DYNAMIC     Po301      1       0:02:19 ago
+  45    0022.0000.0001    DYNAMIC     Po301      1       0:02:25 ago
+  45    0022.0000.0002    DYNAMIC     Po301      1       0:02:25 ago
+  45    0026.f002.0000    DYNAMIC     Po301      1       0:06:12 ago
+  45    0040.0100.0001    DYNAMIC     Po301      1       0:02:25 ago
+  45    0040.0100.0002    DYNAMIC     Po301      1       0:02:25 ago
+  45    0042.0100.0001    DYNAMIC     Po301      1       0:02:25 ago
+  45    0042.0100.0002    DYNAMIC     Po301      1       0:02:25 ago
+  45    0045.0100.0001    DYNAMIC     Et25       1       0:05:08 ago
+  45    0045.0100.0002    DYNAMIC     Et25       1       0:03:40 ago
+  45    0045.0100.0003    DYNAMIC     Et25       1       0:05:39 ago
+  45    0056.0000.0002    DYNAMIC     Po301      1       0:02:25 ago
+  45    00aa.aaaa.aaaa    DYNAMIC     Po301      1       0:05:39 ago
+  56    0020.3000.0002    DYNAMIC     Et21       1       0:02:19 ago
+  56    0020.3000.0004    DYNAMIC     Et21       1       0:02:21 ago
+  56    0022.0000.0002    DYNAMIC     Et21       1       0:02:25 ago
+  56    0022.0000.0004    DYNAMIC     Et21       1       0:02:25 ago
+  56    0040.0100.0002    DYNAMIC     Et21       1       0:02:25 ago
+  56    0042.0100.0002    DYNAMIC     Et21       1       0:02:25 ago
+  56    0045.0100.0002    DYNAMIC     Et21       1       0:02:25 ago
+  56    0056.0000.0001    DYNAMIC     Et25       1       0:02:25 ago
+  56    0056.0000.0002    DYNAMIC     Et25       1       0:02:25 ago
+  56    0056.0000.0003    DYNAMIC     Et25       1       0:02:25 ago
+  56    0056.0000.0004    DYNAMIC     Et25       1       0:02:25 ago
+  56    0056.0000.0005    DYNAMIC     Et25       1       0:02:25 ago
+  56    00aa.aaaa.aaaa    DYNAMIC     Et21       1       0:02:35 ago
+ 201    0020.1000.0001    DYNAMIC     Et25       1       0:02:25 ago
+ 201    0020.1000.0002    DYNAMIC     Et25       1       0:02:25 ago
+ 201    0020.1000.0003    DYNAMIC     Et25       1       0:02:25 ago
+ 201    0020.1000.0004    DYNAMIC     Et25       1       0:02:25 ago
+ 201    0020.1000.0005    DYNAMIC     Et25       1       0:13:23 ago
+ 201    00aa.aaaa.aaaa    DYNAMIC     Po100      1       0:02:19 ago
+ 203    0020.3000.0001    DYNAMIC     Et25       1       0:16:21 ago
+ 203    0020.3000.0002    DYNAMIC     Et25       1       0:02:25 ago
+ 203    0020.3000.0003    DYNAMIC     Et25       1       0:02:25 ago
+ 203    0020.3000.0004    DYNAMIC     Et25       1       0:02:25 ago
+ 203    0020.3000.0005    DYNAMIC     Et25       1       0:02:25 ago
+ 203    0022.0000.0001    DYNAMIC     Po200      1       0:02:17 ago
+ 203    0022.0000.0002    DYNAMIC     Po200      1       0:02:14 ago
+ 203    0022.0000.0003    DYNAMIC     Po200      1       0:02:17 ago
+ 203    0022.0000.0004    DYNAMIC     Po200      1       0:02:17 ago
+ 203    0040.0100.0001    DYNAMIC     Po200      1       0:02:14 ago
+ 203    0040.0100.0002    DYNAMIC     Po200      1       0:02:14 ago
+ 203    0042.0100.0001    DYNAMIC     Po200      1       0:02:10 ago
+ 203    0042.0100.0002    DYNAMIC     Po200      1       0:02:14 ago
+ 203    0056.0000.0002    DYNAMIC     Po200      1       0:02:14 ago
+ 203    0056.0000.0004    DYNAMIC     Po200      1       0:02:14 ago
+ 203    00aa.aaaa.aaaa    DYNAMIC     Po200      1       0:02:19 ago
+Total Mac Addresses for this criterion: 96
+
+          Multicast Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       ----        -----
+Total Mac Addresses for this criterion: 0

@@ -1,0 +1,2 @@
+IPv6 Address                                  Age Hardware Addr   Interface
+fe80::464c:a8ff:fe73:5c75                 0:00:05 444c.a873.5c75  Et1
