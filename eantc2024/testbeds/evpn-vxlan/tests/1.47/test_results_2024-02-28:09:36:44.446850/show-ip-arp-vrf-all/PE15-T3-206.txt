@@ -1,0 +1,13 @@
+
+VRF: default
+Address         Age (sec)  Hardware Addr   Interface
+20.103.206.103    0:15:18  0011.0100.0001  Ethernet49/1
+20.56.200.56      0:00:00  407c.7dc4.ab9d  Ethernet49/2
+20.22.206.22      0:00:23  c407.780a.9f31  Ethernet49/3
+
+VRF: mgmt
+Address         Age (sec)  Hardware Addr   Interface
+192.168.20.1      0:00:00  90e2.bac7.8074  Management1
+192.168.21.47     0:01:27  5c5a.c7ff.8a0a  Management1
+192.168.21.50     0:00:14  a84f.b1a5.5221  Management1
+192.168.21.59     0:03:05  6607.f5d1.ae16  Management1

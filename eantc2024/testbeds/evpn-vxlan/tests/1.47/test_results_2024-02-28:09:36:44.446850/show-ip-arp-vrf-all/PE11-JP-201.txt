@@ -1,0 +1,30 @@
+
+VRF: default
+Address         Age (sec)  Hardware Addr   Interface
+20.200.201.200    0:00:08  444c.a873.5c75  Ethernet1
+20.201.205.205    1:28:54  444c.a873.a0ad  Ethernet10
+20.40.201.40      0:00:50  246c.8474.8ddb  Ethernet48
+
+VRF: mgmt
+Address         Age (sec)  Hardware Addr   Interface
+192.168.20.1      0:00:00  90e2.bac7.8074  Management1
+192.168.20.2      0:02:21  bcea.fa02.6ce2  Management1
+192.168.20.19     0:00:31  c407.7858.8001  Management1
+192.168.20.20     0:02:15  e484.29d0.4001  Management1
+192.168.20.21     0:02:09  7081.85c1.b801  Management1
+192.168.20.22     0:00:31  c407.780a.9f04  Management1
+192.168.20.23     0:03:16  c407.780a.7750  Management1
+192.168.20.24     0:02:33  6c87.2089.ede5  Management1
+192.168.20.26     0:04:23  04a9.59d5.df66  Management1
+192.168.20.27     0:03:47  04a9.59d5.dfe6  Management1
+192.168.20.28     0:02:27  98a9.2d59.bae6  Management1
+192.168.20.29     0:00:31  90f7.b223.d466  Management1
+192.168.20.52     0:00:56  f83e.95dc.1289  Management1
+192.168.20.183    0:00:01  c4ca.2b45.ef6c  Management1
+192.168.21.47     0:02:09  5c5a.c7ff.8a0a  Management1
+192.168.21.50     0:03:47  a84f.b1a5.5221  Management1
+192.168.21.59     0:03:47  6607.f5d1.ae16  Management1
+
+VRF: tenant-a
+Address         Age (sec)  Hardware Addr   Interface
+10.30.1.44              -  001c.0100.0002  Vlan1301, Vxlan1
