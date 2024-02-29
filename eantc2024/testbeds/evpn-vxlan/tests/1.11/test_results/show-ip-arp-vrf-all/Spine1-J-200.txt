@@ -1,11 +1,12 @@
 
 VRF: default
 Address         Age (sec)  Hardware Addr   Interface
-20.200.206.206    0:44:58  985d.82c4.0271  Ethernet6
+20.200.206.206    0:00:09  985d.82c4.0271  Ethernet6
+20.56.200.56      1:04:10  407c.7dc4.ab9d  Ethernet11
 
 VRF: mgmt
 Address         Age (sec)  Hardware Addr   Interface
 192.168.20.1      0:00:00  90e2.bac7.8074  Management1
-192.168.20.201    0:02:08  2cdd.e90b.2282  Management1
-192.168.21.50     0:02:02  a84f.b1a5.5221  Management1
-192.168.21.59     0:00:13  6607.f5d1.ae16  Management1
+192.168.20.201    0:02:20  2cdd.e90b.2282  Management1
+192.168.21.50     0:01:44  a84f.b1a5.5221  Management1
+192.168.21.59     0:04:04  6607.f5d1.ae16  Management1

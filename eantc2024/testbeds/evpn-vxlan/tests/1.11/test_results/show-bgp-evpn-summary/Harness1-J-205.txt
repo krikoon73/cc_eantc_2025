@@ -2,4 +2,4 @@ BGP summary information for VRF default
 Router identifier 100.0.0.205, local AS number 65205
 Neighbor Status Codes: m - Under maintenance
   Neighbor   V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
-  100.0.0.22 4 65205           7851     35031    0    0 04:19:34 Active
+  100.0.0.22 4 65205           7851     35031    0    0 05:50:46 Active

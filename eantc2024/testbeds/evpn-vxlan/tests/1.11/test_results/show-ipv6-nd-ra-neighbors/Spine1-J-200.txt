@@ -1,15 +1,14 @@
 VRF: default
    Interface              IPv6 Address           Last RA Received
 ---------------- ------------------------------- ----------------
-   Ethernet1        fe80::2edd:e9ff:fe0b:2283      0:01:10 ago   
-   Ethernet2        fe80::2edd:e9ff:fe0b:25b7      0:01:00 ago   
-   Ethernet3        fe80::3a38:a6ff:fe21:e82f      0:02:41 ago   
-   Ethernet4        fe80::9a5d:82ff:fea2:4f9       0:01:35 ago   
-   Ethernet11       fe80::427c:7dff:fec4:ab9d      0:00:02 ago   
-   Ethernet13       fe80::6e31:eff:fe7b:8b88       0:00:00 ago   
-   Ethernet14       fe80::6e31:eff:feb7:5060       0:00:03 ago   
-   Ethernet15       fe80::266c:84ff:fe74:8ddc      0:00:01 ago   
-   Ethernet16       fe80::4214:82ff:fe7b:84ac      0:00:02 ago   
-   Ethernet25       fe80::c607:78ff:fe0a:777d      0:00:04 ago   
-   Ethernet26       fe80::c607:78ff:fe0a:9f31      0:07:05 ago   
+   Ethernet1        fe80::2edd:e9ff:fe0b:2283      0:02:02 ago   
+   Ethernet2        fe80::2edd:e9ff:fe0b:25b7      0:00:50 ago   
+   Ethernet3        fe80::3a38:a6ff:fe21:e82f      0:01:26 ago   
+   Ethernet4        fe80::9a5d:82ff:fea2:4f9       0:01:56 ago   
+   Ethernet11       fe80::427c:7dff:fec4:ab9d      0:00:01 ago   
+   Ethernet13       fe80::6e31:eff:fe7b:8b88       0:00:01 ago   
+   Ethernet14       fe80::6e31:eff:feb7:5060       0:00:02 ago   
+   Ethernet16       fe80::4214:82ff:fe7b:84ac      0:00:00 ago   
+   Ethernet25       fe80::c607:78ff:fe0a:777d      0:02:39 ago   
+   Ethernet26       fe80::c607:78ff:fe0a:9f31      0:00:11 ago   
 

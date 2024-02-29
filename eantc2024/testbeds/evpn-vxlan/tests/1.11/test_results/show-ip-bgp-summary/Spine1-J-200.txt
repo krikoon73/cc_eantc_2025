@@ -1,4 +1,7 @@
 BGP summary information for VRF default
 Router identifier 100.0.0.200, local AS number 65000
 Neighbor Status Codes: m - Under maintenance
-  Description              Neighbor V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
+  Description              Neighbor       V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
+  Cisco-41                 20.41.200.41   4 65206             60        60    0    0 01:06:39 Active
+  Nokia-56                 20.56.200.56   4 65206              0         0    0    0 01:05:26 Connect
+  ANET-PE15                20.200.206.206 4 65206            121       122    0    0 00:09:36 Estab   3      3

@@ -180,3 +180,10 @@ BGP routing table entry for ip-prefix 10.30.4.0/24, Route Distinguisher: 100.0.0
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:98:5d:82:a2:04:f9
       VNI: 1000
+BGP routing table entry for ip-prefix 30.30.1.0/24, Route Distinguisher: 100.0.0.26:1000
+ Paths: 1 available
+  65000 65206
+    100.0.0.206 from 2000::200 (100.0.0.200)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:1023:1023 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:98:5d:82:c4:02:71
+      VNI: 1000

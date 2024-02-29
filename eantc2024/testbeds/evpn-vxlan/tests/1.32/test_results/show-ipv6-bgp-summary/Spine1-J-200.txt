@@ -2,14 +2,13 @@ BGP summary information for VRF default
 Router identifier 100.0.0.200, local AS number 65000
 Neighbor Status Codes: m - Under maintenance
   Description              Neighbor                       V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
-                           fe80::266c:84ff:fe74:8ddc%Et15 4 65040             65        87    0    0 01:00:18 Estab   1      1
-                           fe80::2edd:e9ff:fe0b:2283%Et1  4 65201            100       102    0    0 01:50:42 Estab   1      1
-                           fe80::2edd:e9ff:fe0b:25b7%Et2  4 65202             95       101    0    0 01:44:23 Estab   1      1
-                           fe80::3a38:a6ff:fe21:e82f%Et3  4 65203             98       103    0    0 01:39:10 Estab   1      1
-                           fe80::4214:82ff:fe7b:84ac%Et16 4 65042             64        85    0    0 00:59:57 Estab   1      1
-                           fe80::427c:7dff:fec4:ab9d%Et11 4 65056            168       202    0    0 02:25:15 Estab   2      2
-                           fe80::6e31:eff:fe7b:8b88%Et13  4 65045             85       103    0    0 02:22:35 Estab   3      3
-                           fe80::6e31:eff:feb7:5060%Et14  4 65045             87       102    0    0 02:19:15 Estab   3      3
-                           fe80::9a5d:82ff:fea2:4f9%Et4   4 65204             99       102    0    0 01:38:10 Estab   1      1
-                           fe80::c607:78ff:fe0a:777d%Et25 4 65023             88       101    0    0 02:25:14 Estab   1      1
-                           fe80::c607:78ff:fe0a:9f31%Et26 4 65022             22        32    0    0 00:16:20 Estab   1      1
+                           fe80::2edd:e9ff:fe0b:2283%Et1  4 65201            229       304    0    0 00:09:18 Estab   1      1
+                           fe80::2edd:e9ff:fe0b:25b7%Et2  4 65202            234       321    0    0 00:09:18 Estab   1      1
+                           fe80::3a38:a6ff:fe21:e82f%Et3  4 65203            237       314    0    0 00:09:19 Estab   1      1
+                           fe80::4214:82ff:fe7b:84ac%Et16 4 65042            163       259    0    0 00:09:14 Estab   1      1
+                           fe80::427c:7dff:fec4:ab9d%Et11 4 65056            360       468    0    0 00:09:18 Estab   2      2
+                           fe80::6e31:eff:fe7b:8b88%Et13  4 65045            186       274    0    0 00:09:14 Estab   3      3
+                           fe80::6e31:eff:feb7:5060%Et14  4 65045            188       275    0    0 00:09:14 Estab   3      3
+                           fe80::9a5d:82ff:fea2:4f9%Et4   4 65204            236       318    0    0 00:09:18 Estab   1      1
+                           fe80::c607:78ff:fe0a:777d%Et25 4 65023            193       272    0    0 00:09:17 Estab   1      1
+                           fe80::c607:78ff:fe0a:9f31%Et26 4 65022            134       196    0    0 00:09:18 Estab   1      1

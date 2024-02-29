@@ -28,7 +28,8 @@ show ipv6 route
 show ipv6 bgp vrf all
 show ipv6 route vrf all
 show bgp ipv6 unicast summary lldp
-show ipv6 neighbors
+show ipv6 neighbors vrf all
+show ipv6 neighbors remote
 show ipv6 nd ra neighbors
 show ipv6 nd ra neighbors vrf tenant-a
 show interfaces counters rates | nz

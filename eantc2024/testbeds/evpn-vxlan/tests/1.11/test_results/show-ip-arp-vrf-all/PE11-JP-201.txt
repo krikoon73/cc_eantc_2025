@@ -5,19 +5,19 @@ Address         Age (sec)  Hardware Addr   Interface
 VRF: mgmt
 Address         Age (sec)  Hardware Addr   Interface
 192.168.20.1      0:00:00  90e2.bac7.8074  Management1
-192.168.20.2      0:00:32  bcea.fa02.6ce2  Management1
-192.168.20.19     0:03:54  c407.7858.8001  Management1
-192.168.20.20     0:00:14  e484.29d0.4001  Management1
-192.168.20.23     0:01:46  c407.780a.7750  Management1
-192.168.20.24     0:00:20  6c87.2089.ede5  Management1
-192.168.20.26     0:02:04  04a9.59d5.df66  Management1
-192.168.20.27     0:02:10  04a9.59d5.dfe6  Management1
-192.168.20.28     0:00:26  98a9.2d59.bae6  Management1
-192.168.20.29     0:03:29  90f7.b223.d466  Management1
-192.168.20.183    0:03:29  c4ca.2b45.ef6c  Management1
-192.168.20.200    0:03:11  444c.a873.5c74  Management1
-192.168.21.50     0:01:46  a84f.b1a5.5221  Management1
-192.168.21.59     0:01:52  6607.f5d1.ae16  Management1
+192.168.20.2      0:02:53  bcea.fa02.6ce2  Management1
+192.168.20.19     0:01:28  c407.7858.8001  Management1
+192.168.20.20     0:02:47  e484.29d0.4001  Management1
+192.168.20.23     0:04:37  c407.780a.7750  Management1
+192.168.20.24     0:03:05  6c87.2089.ede5  Management1
+192.168.20.26     0:04:37  04a9.59d5.df66  Management1
+192.168.20.27     0:04:25  04a9.59d5.dfe6  Management1
+192.168.20.28     0:03:11  98a9.2d59.bae6  Management1
+192.168.20.29     0:01:10  90f7.b223.d466  Management1
+192.168.20.183    0:01:04  c4ca.2b45.ef6c  Management1
+192.168.20.200    0:01:22  444c.a873.5c74  Management1
+192.168.21.50     0:04:49  a84f.b1a5.5221  Management1
+192.168.21.59     0:04:37  6607.f5d1.ae16  Management1
 
 VRF: tenant-a
 Address         Age (sec)  Hardware Addr   Interface

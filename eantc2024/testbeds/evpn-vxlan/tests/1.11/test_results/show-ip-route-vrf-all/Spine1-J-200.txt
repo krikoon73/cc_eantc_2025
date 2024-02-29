@@ -16,12 +16,18 @@ Source Codes:
 
 Gateway of last resort is not set
 
+ B E      10.10.206.0/24 [20/0]
+           via 20.200.206.206, Ethernet6
  C        20.41.200.0/24
            directly connected, Ethernet23
+ C        20.56.200.0/24
+           directly connected, Ethernet11
  C        20.200.206.0/24
            directly connected, Ethernet6
  C        100.0.0.200/32
            directly connected, Loopback0
+ B E      100.0.0.206/32 [20/0]
+           via 20.200.206.206, Ethernet6
 
 
 VRF: mgmt
