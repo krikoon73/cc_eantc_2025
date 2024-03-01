@@ -1,0 +1,18 @@
+show interfaces status
+show interfaces ethernet 45/1,20 | grep rate
+show lldp neighbors
+show isis neighbors
+show isis database detail
+show tunnel fib
+show isis segment-routing ipv6 locators
+show bgp evpn route-type ip-prefix ipv4
+show bgp evpn route-type ip-prefix ipv6
+show bgp vpn-ipv4 summary
+show bgp vpn-ipv6 summary
+show bgp neighbors 100.0.0.180 evpn advertised-routes
+show bgp neighbors 100.0.0.180 evpn received-routes
+show bgp neighbors 2001::41 vpn-ipv4 advertised-routes
+show bgp neighbors 2001::41 vpn-ipv4 received-routes
+show bgp  neighbors 2001::41 vpn-ipv4 received-routes rd 10.0.0.59:6666  detail
+show bgp neighbors 100.0.0.180 evpn received-routes route-type ip-prefix ipv4 rd 100.0.0.182:4444 detail
+show ip route vrf T5-SR-IPVPN-SRv6-GW

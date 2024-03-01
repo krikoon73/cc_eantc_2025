@@ -1,0 +1,4 @@
+  5 seconds input rate 20.2 kbps (0.0% with framing overhead), 22 packets/sec
+  5 seconds output rate 44.7 kbps (0.0% with framing overhead), 33 packets/sec
+  5 seconds input rate 9.70 kbps (0.0% with framing overhead), 3 packets/sec
+  5 seconds output rate 10.5 kbps (0.0% with framing overhead), 3 packets/sec

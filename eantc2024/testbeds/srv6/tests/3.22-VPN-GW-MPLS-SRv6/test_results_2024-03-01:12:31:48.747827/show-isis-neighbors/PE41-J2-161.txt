@@ -1,0 +1,6 @@
+! IS-IS (sr_eantc) is shutdown
+ 
+Instance  VRF      System Id        Type Interface          SNPA              State Hold time   Circuit Id          
+srv6      default  Cisco342-9902    L2   Ethernet10         P2P               UP    29          00                  
+srv6      default  Spine2-J-180     L2   Ethernet45/1       P2P               UP    23          60                  
+srv6      default  Nokia-59-IXRe2   L2   Ethernet20         P2P               UP    21          00                  
