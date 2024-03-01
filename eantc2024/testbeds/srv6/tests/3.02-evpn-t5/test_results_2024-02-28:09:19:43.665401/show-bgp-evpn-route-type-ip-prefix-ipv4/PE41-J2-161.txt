@@ -1,0 +1,64 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.161, local AS number 1
+Route status codes: * - valid, > - active, S - Stale, E - ECMP head, e - ECMP
+                    c - Contributing to ECMP, % - Pending best path selection
+Origin codes: i - IGP, e - EGP, ? - incomplete
+AS Path Attributes: Or-ID - Originator ID, C-LST - Cluster List, LL Nexthop - Link Local Nexthop
+
+          Network                Next Hop              Metric  LocPref Weight  Path
+ * >      RD: 1:336 ip-prefix 20.136.225.0/24
+                                 2002::336             -       100     0       ? Or-ID: 10.0.1.36 C-LST: 100.0.0.53 
+ * >      RD: 1:338 ip-prefix 20.138.225.0/24
+                                 2002::338             -       100     0       ? Or-ID: 10.0.1.38 C-LST: 100.0.0.53 
+ * >      RD: 1:342 ip-prefix 20.142.225.0/24
+                                 2002::342             0       100     0       ? Or-ID: 100.0.0.42 C-LST: 100.0.0.53 
+ * >      RD: 1:344 ip-prefix 20.144.225.0/24
+                                 2002::344             0       100     0       ? Or-ID: 100.0.0.44 C-LST: 100.0.0.53 
+ * >      RD: 1:352 ip-prefix 20.152.225.0/24
+                                 2002::352             0       100     0       ? Or-ID: 100.0.0.52 C-LST: 100.0.0.53 
+ * >      RD: 1:353 ip-prefix 20.153.225.0/24
+                                 2002::353             0       100     0       ?
+          RD: 21:336 ip-prefix 21.136.225.0/24
+                                 2002::336             -       100     0       ? Or-ID: 10.0.1.36 C-LST: 100.0.0.53 
+ * >      RD: 21:338 ip-prefix 21.138.225.0/24
+                                 2002::338             -       100     0       ? Or-ID: 10.0.1.38 C-LST: 100.0.0.53 
+          RD: 21:352 ip-prefix 21.142.225.0/24
+                                 2002::342             0       100     0       ? Or-ID: 100.0.0.42 C-LST: 100.0.0.53 
+ * >      RD: 21:352 ip-prefix 21.144.225.0/24
+                                 2002::344             0       100     0       ? Or-ID: 100.0.0.44 C-LST: 100.0.0.53 
+          RD: 21:352 ip-prefix 21.152.225.0/24
+                                 2002::352             0       100     0       ? Or-ID: 100.0.0.52 C-LST: 100.0.0.53 
+ * >      RD: 21:352 ip-prefix 21.153.225.0/24
+                                 2002::353             0       100     0       ?
+ * >      RD: 24:20 ip-prefix 24.20.225.0/24
+                                 2002::20              0       100     0       ? Or-ID: 10.0.0.20 C-LST: 100.0.0.53 
+ * >      RD: 24:20 ip-prefix 24.29.225.0/24
+                                 2002::29              0       100     0       ? Or-ID: 10.0.0.29 C-LST: 100.0.0.53 
+ * >      RD: 24:36 ip-prefix 24.36.225.0/24
+                                 2002::36              0       100     0       ? Or-ID: 192.168.20.36 C-LST: 100.0.0.53 
+ * >      RD: 10.0.0.58:24 ip-prefix 24.58.225.0/24
+                                 2002::58              -       100     0       i Or-ID: 10.0.0.58 C-LST: 100.0.0.53 
+ * >      RD: 10.0.0.59:24 ip-prefix 24.59.225.0/24
+                                 2002::59              -       100     0       i Or-ID: 10.0.0.59 C-LST: 100.0.0.53 
+ * >      RD: 24:302 ip-prefix 24.102.225.0/24
+                                 2002::302             -       100     0       i Or-ID: 10.0.1.2 C-LST: 100.0.0.53 
+ * >      RD: 24:307 ip-prefix 24.107.225.0/24
+                                 2002::307             -       100     0       i Or-ID: 10.0.1.7 C-LST: 100.0.0.53 
+ * >      RD: 24:310 ip-prefix 24.110.225.0/24
+                                 2002::310             -       100     0       i Or-ID: 10.0.1.10 C-LST: 100.0.0.53 
+ * >      RD: 24:336 ip-prefix 24.136.225.0/24
+                                 2002::336             -       100     0       ? Or-ID: 10.0.1.36 C-LST: 100.0.0.53 
+ * >      RD: 24:338 ip-prefix 24.138.225.0/24
+                                 2002::338             -       100     0       ? Or-ID: 10.0.1.38 C-LST: 100.0.0.53 
+ * >      RD: 24:342 ip-prefix 24.142.225.0/24
+                                 2002::342             0       100     0       ? Or-ID: 100.0.0.42 C-LST: 100.0.0.53 
+ * >      RD: 24:344 ip-prefix 24.144.225.0/24
+                                 2002::344             0       100     0       ? Or-ID: 100.0.0.44 C-LST: 100.0.0.53 
+ * >      RD: 24:352 ip-prefix 24.152.225.0/24
+                                 2002::352             0       100     0       ? Or-ID: 100.0.0.52 C-LST: 100.0.0.53 
+ * >      RD: 24:353 ip-prefix 24.153.225.0/24
+                                 2002::353             0       100     0       ?
+ * >      RD: 24:161 ip-prefix 24.161.225.0/24
+                                 -                     -       -       0       i
+ * >      RD: 0.0.4.25:24 ip-prefix 24.219.225.0/24
+                                 2002::419             -       0       0       i Or-ID: 192.0.0.1 C-LST: 100.0.0.53 

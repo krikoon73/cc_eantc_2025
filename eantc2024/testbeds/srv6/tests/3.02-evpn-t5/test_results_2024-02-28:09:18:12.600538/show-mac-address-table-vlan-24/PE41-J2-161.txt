@@ -1,0 +1,16 @@
+          Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports      Moves   Last Move
+----    -----------       ----        -----      -----   ---------
+  24    0020.0100.0001    DYNAMIC     Et11       1       0:17:05 ago
+  24    00aa.aaaa.aaaa    STATIC      Router
+  24    606b.5b2e.fe11    STATIC      Router
+Total Mac Addresses for this criterion: 3
+
+          Multicast Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       ----        -----
+Total Mac Addresses for this criterion: 0

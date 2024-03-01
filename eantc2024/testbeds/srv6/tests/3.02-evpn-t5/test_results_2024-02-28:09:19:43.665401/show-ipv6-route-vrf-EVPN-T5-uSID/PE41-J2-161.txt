@@ -1,0 +1,34 @@
+
+VRF: EVPN-T5-uSID
+Displaying 7 of 11 IPv6 routing table entries
+Source Codes:
+       C - connected, S - static, K - kernel, O3 - OSPFv3,
+       B - Other BGP Routes, A B - BGP Aggregate, R - RIP,
+       I L1 - IS-IS level 1, I L2 - IS-IS level 2, DH - DHCP,
+       NG - Nexthop Group Static Route, M - Martian,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+ B I      2001:24:59:425::/64 [200/0]
+           via fcbb:0:59::/48, SRv6 Transport tunnel index 372, SRv6 SID fcbb:0:59:e031::
+              via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ B I      2001:24:102:225::/64 [200/0]
+           via fcbb:0:1000::/36, SRv6 Transport tunnel index 364, SRv6 SID fcbb:0:1302:e006::
+              via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ B I      2001:24:107:225::/64 [200/0]
+           via fcbb:0:307::/48, SRv6 Transport tunnel index 368, SRv6 SID fcbb:0:307:e009::
+              via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ B I      2001:24:110:225::/64 [200/0]
+           via fcbb:0:1310::/48, SRv6 Transport tunnel index 362, SRv6 SID fcbb:0:1310:e013::
+              via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ C        2001:24:161:225::/64 [0/0]
+           via Vlan24, directly connected
+ B I      2001:24:336:225::/64 [200/0]
+           via fcbb:0:336::/48, SRv6 Transport tunnel index 367, SRv6 SID fcbb:0:336:e675::
+              via fe80::8e7a:ff:fee7:f53d, Ethernet20
+              via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ B I      2001:24:338:225::/64 [200/0]
+           via fcbb:0:1000::/36, SRv6 Transport tunnel index 364, SRv6 SID fcbb:0:1338:e674::
+              via fe80::8e7a:ff:fee7:f53d, Ethernet20
+

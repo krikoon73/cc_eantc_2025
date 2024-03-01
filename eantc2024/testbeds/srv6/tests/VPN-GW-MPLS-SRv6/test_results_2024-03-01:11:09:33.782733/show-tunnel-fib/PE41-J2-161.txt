@@ -1,0 +1,48 @@
+
+Type 'IS-IS SR', index 2, endpoint 100.0.0.3/32, forwarding None
+   via 20.161.180.180, 'Ethernet45/1' label 900003
+
+Type 'IS-IS SR', index 3, endpoint 100.0.0.181/32, forwarding None
+   via 20.161.180.180, 'Ethernet45/1' label 900181
+
+Type 'IS-IS SR', index 4, endpoint 100.0.3.45/32, forwarding None
+   via 20.161.180.180, 'Ethernet45/1' label 900345
+
+Type 'IS-IS SR', index 5, endpoint 100.0.37.9/32, forwarding None
+   via 20.161.180.180, 'Ethernet45/1' label 900379
+
+Type 'IS-IS SR', index 6, endpoint 100.0.3.60/32, forwarding None
+   via 20.161.180.180, 'Ethernet45/1' label 900360
+
+Type 'IS-IS SR', index 7, endpoint 100.0.0.183/32, forwarding None
+   via 20.161.180.180, 'Ethernet45/1' label 900183
+
+Type 'IS-IS SR', index 8, endpoint 100.0.0.26/32, forwarding None
+   via 20.161.180.180, 'Ethernet45/1' label 900026
+
+Type 'IS-IS SR', index 9, endpoint 100.0.0.34/32, forwarding None
+   via 20.161.180.180, 'Ethernet45/1' label 900034
+
+Type 'IS-IS SR', index 11, endpoint 100.0.3.41/32, forwarding None
+   via 20.161.180.180, 'Ethernet45/1' label 900341
+
+Type 'IS-IS SR', index 12, endpoint 100.0.30.9/32, forwarding None
+   via 20.161.180.180, 'Ethernet45/1' label 900309
+
+Type 'IS-IS SR', index 13, endpoint 100.0.0.31/32, forwarding None
+   via 20.161.180.180, 'Ethernet45/1' label 900031
+
+Type 'IS-IS SR', index 14, endpoint 100.0.3.58/32, forwarding None
+   via 20.161.180.180, 'Ethernet45/1' label 900358
+
+Type 'IS-IS SR', index 15, endpoint 100.0.0.21/32, forwarding None
+   via 20.161.180.180, 'Ethernet45/1' label 900021
+
+Type 'IS-IS SR', index 16, endpoint 100.0.0.184/32, forwarding None
+   via 20.161.180.180, 'Ethernet45/1' label 900184
+
+Type 'IS-IS SR', index 17, endpoint 100.0.0.182/32, forwarding None
+   via 20.161.180.180, 'Ethernet45/1' label 900182
+
+Type 'IS-IS SR', index 19, endpoint 100.0.3.48/32, forwarding None
+   via 20.161.180.180, 'Ethernet45/1' label 900348
