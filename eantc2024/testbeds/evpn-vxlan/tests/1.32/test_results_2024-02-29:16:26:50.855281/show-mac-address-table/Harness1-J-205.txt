@@ -1,0 +1,67 @@
+          Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports      Moves   Last Move
+----    -----------       ----        -----      -----   ---------
+  22    0020.1000.0002    DYNAMIC     Po300      1       0:04:54 ago
+  22    0020.1000.0003    DYNAMIC     Po300      1       0:04:54 ago
+  22    0020.1000.0004    DYNAMIC     Po300      1       0:04:54 ago
+  22    0020.3000.0001    DYNAMIC     Po300      1       0:05:14 ago
+  22    0020.3000.0002    DYNAMIC     Po300      1       0:05:14 ago
+  22    0020.3000.0003    DYNAMIC     Po300      1       0:05:14 ago
+  22    0020.3000.0004    DYNAMIC     Po300      1       0:05:14 ago
+  22    0022.0000.0001    DYNAMIC     Et25       1       0:26:04 ago
+  22    0022.0000.0002    DYNAMIC     Et25       1       0:26:04 ago
+  22    0022.0000.0003    DYNAMIC     Et25       1       0:05:14 ago
+  22    0022.0000.0004    DYNAMIC     Et25       1       0:05:14 ago
+  22    0022.0000.0005    DYNAMIC     Et25       1       0:25:58 ago
+  22    0040.0100.0001    DYNAMIC     Po300      1       0:07:56 ago
+  22    0040.0100.0002    DYNAMIC     Po300      1       0:07:54 ago
+  22    0056.0000.0001    DYNAMIC     Po300      1       0:05:14 ago
+  22    0056.0000.0002    DYNAMIC     Po300      1       0:05:14 ago
+  22    0056.0000.0003    DYNAMIC     Po300      1       0:05:14 ago
+  22    0056.0000.0004    DYNAMIC     Po300      1       0:05:14 ago
+  22    00aa.aaaa.aaaa    DYNAMIC     Po300      1       1 day, 0:11:08 ago
+  40    0022.0000.0001    DYNAMIC     Et15       1       0:13:35 ago
+  40    0022.0000.0002    DYNAMIC     Et15       1       0:10:17 ago
+  40    0040.0100.0001    DYNAMIC     Et25       1       0:10:17 ago
+  40    0040.0100.0002    DYNAMIC     Et25       1       0:10:17 ago
+  40    0040.0100.0003    DYNAMIC     Et25       1       0:12:28 ago
+  40    00aa.aaaa.aaaa    DYNAMIC     Et15       1       23:56:57 ago
+  40    246c.8474.8ddb    DYNAMIC     Et15       1       0:10:17 ago
+  40    246c.8474.8de0    DYNAMIC     Et15       1       23:57:34 ago
+  56    0022.0000.0001    DYNAMIC     Et21       1       0:26:04 ago
+  56    0022.0000.0002    DYNAMIC     Et21       1       0:26:04 ago
+  56    0022.0000.0003    DYNAMIC     Et21       1       0:05:14 ago
+  56    0022.0000.0004    DYNAMIC     Et21       1       0:05:14 ago
+  56    0056.0000.0001    DYNAMIC     Et25       1       0:05:22 ago
+  56    0056.0000.0002    DYNAMIC     Et25       1       0:05:22 ago
+  56    0056.0000.0003    DYNAMIC     Et25       1       0:05:22 ago
+  56    0056.0000.0004    DYNAMIC     Et25       1       0:05:22 ago
+  56    0056.0000.0005    DYNAMIC     Et25       1       0:25:23 ago
+  56    00aa.aaaa.aaaa    DYNAMIC     Et21       1       0:05:22 ago
+ 201    0020.1000.0002    DYNAMIC     Et25       1       0:05:14 ago
+ 201    0020.1000.0003    DYNAMIC     Et25       1       0:05:14 ago
+ 201    0020.1000.0004    DYNAMIC     Et25       1       0:05:14 ago
+ 201    0020.1000.0005    DYNAMIC     Et25       1       0:04:54 ago
+ 201    2cdd.e90b.2283    DYNAMIC     Po100      1       0:04:52 ago
+ 201    2cdd.e90b.25b7    DYNAMIC     Po100      1       0:02:55 ago
+ 203    0020.3000.0001    DYNAMIC     Et25       1       0:05:14 ago
+ 203    0020.3000.0002    DYNAMIC     Et25       1       0:05:14 ago
+ 203    0020.3000.0003    DYNAMIC     Et25       1       0:05:14 ago
+ 203    0020.3000.0004    DYNAMIC     Et25       1       0:05:14 ago
+ 203    0020.3000.0005    DYNAMIC     Et25       1       0:04:54 ago
+ 203    0022.0000.0001    DYNAMIC     Po200      1       0:26:04 ago
+ 203    0022.0000.0002    DYNAMIC     Po200      1       0:26:04 ago
+ 203    0022.0000.0003    DYNAMIC     Po200      1       0:05:14 ago
+ 203    0022.0000.0004    DYNAMIC     Po200      1       0:05:14 ago
+ 203    00aa.aaaa.aaaa    DYNAMIC     Po200      1       1 day, 1:44:55 ago
+ 203    3838.a621.e82f    DYNAMIC     Po200      1       0:04:54 ago
+Total Mac Addresses for this criterion: 54
+
+          Multicast Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       ----        -----
+Total Mac Addresses for this criterion: 0

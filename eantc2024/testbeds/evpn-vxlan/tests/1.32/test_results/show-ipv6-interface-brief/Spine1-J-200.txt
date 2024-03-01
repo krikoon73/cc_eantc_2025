@@ -8,7 +8,7 @@ Et11       up       1500  fe80::464c:a8ff:fe73:5c75/64  up          link local
 Et12       up       1500  fe80::464c:a8ff:fe73:5c75/64  up          link local 
 Et13       up       1500  fe80::464c:a8ff:fe73:5c75/64  up          link local 
 Et14       up       1500  fe80::464c:a8ff:fe73:5c75/64  up          link local 
-Et15       down     1500  <linklocal-unassigned>        inactive    link local 
+Et15       up       1500  fe80::464c:a8ff:fe73:5c75/64  up          link local 
 Et16       up       1500  fe80::464c:a8ff:fe73:5c75/64  up          link local 
 Et24       up       1500  fe80::464c:a8ff:fe73:5c75/64  up          link local 
 Et25       up       1500  fe80::464c:a8ff:fe73:5c75/64  up          link local 

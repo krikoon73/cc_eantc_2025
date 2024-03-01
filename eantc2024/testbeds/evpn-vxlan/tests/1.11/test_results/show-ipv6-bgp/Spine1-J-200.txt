@@ -10,11 +10,12 @@ AS Path Attributes: Or-ID - Originator ID, C-LST - Cluster List, LL Nexthop - Li
           Network                Next Hop              Metric  AIGP       LocPref Weight  Path
  * >      2000::22/128           fe80::c607:78ff:fe0a:9f31%Et26 0       -          100     0       65022 i
  * >      2000::23/128           fe80::c607:78ff:fe0a:777d%Et25 0       -          100     0       65023 i
+ * >      2000::40/128           fe80::266c:84ff:fe74:8ddc%Et15 0       -          100     0       65040 ?
  * >      2000::42/128           fe80::4214:82ff:fe7b:84ac%Et16 0       -          100     0       65042 ?
  * >Ec    2000::45/128           fe80::6e31:eff:fe7b:8b88%Et13 0       -          100     0       65045 ?
  *  ec    2000::45/128           fe80::6e31:eff:feb7:5060%Et14 0       -          100     0       65045 ?
- * >Ec    2000::46/128           fe80::6e31:eff:fe7b:8b88%Et13 0       -          100     0       65045 ?
- *  ec    2000::46/128           fe80::6e31:eff:feb7:5060%Et14 0       -          100     0       65045 ?
+ * >Ec    2000::46/128           fe80::6e31:eff:feb7:5060%Et14 0       -          100     0       65045 ?
+ *  ec    2000::46/128           fe80::6e31:eff:fe7b:8b88%Et13 0       -          100     0       65045 ?
  * >      2000::56/128           fe80::427c:7dff:fec4:ab9d%Et11 0       -          100     0       65056 ?
  * >Ec    2000::100/128          fe80::6e31:eff:fe7b:8b88%Et13 0       -          100     0       65045 ?
  *  ec    2000::100/128          fe80::6e31:eff:feb7:5060%Et14 0       -          100     0       65045 ?

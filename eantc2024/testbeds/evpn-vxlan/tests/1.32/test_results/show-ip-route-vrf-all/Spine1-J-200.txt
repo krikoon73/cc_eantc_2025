@@ -28,6 +28,8 @@ Gateway of last resort is not set
            directly connected, Loopback0
  B E      100.0.0.206/32 [20/0]
            via 20.200.206.206, Ethernet6
+ B E      100.0.3.41/32 [20/0]
+           via 20.41.200.41, Ethernet23
 
 
 VRF: mgmt

@@ -1,9 +1,9 @@
 VRF: tenant-a
    Interface             IPv6 Address          Last RA Received
 --------------- ------------------------------ ----------------
-   Vlan1203        fe80::2aa:aaff:feaa:aaaa      0:01:25 ago   
-   Vlan1301        fe80::2aa:aaff:feaa:aaaa      0:00:12 ago   
-   Vlan1302        fe80::2aa:aaff:feaa:aaaa      0:00:03 ago   
-   Vlan1303        fe80::2aa:aaff:feaa:aaaa      0:00:23 ago   
-   Vlan1304        fe80::2aa:aaff:feaa:aaaa      0:01:41 ago   
+   Vlan1203        fe80::2aa:aaff:feaa:aaaa      0:01:20 ago   
+   Vlan1301        fe80::2aa:aaff:feaa:aaaa      0:00:06 ago   
+   Vlan1302        fe80::2aa:aaff:feaa:aaaa      0:00:08 ago   
+   Vlan1303        fe80::2aa:aaff:feaa:aaaa      0:00:17 ago   
+   Vlan1304        fe80::2aa:aaff:feaa:aaaa      0:01:06 ago   
 

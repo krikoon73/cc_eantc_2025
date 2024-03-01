@@ -48,12 +48,12 @@ BGP routing table entry for imet 100.0.0.23, Route Distinguisher: 100.0.0.23:130
       Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan
       VNI: 1302
       PMSI Tunnel: Ingress Replication, MPLS Label: 1302, Leaf Information Required: false, Tunnel ID: 2000::23
-BGP routing table entry for imet 100.0.0.34, Route Distinguisher: 100.0.0.34:2301
+BGP routing table entry for imet 100.0.0.34, Route Distinguisher: 100.0.0.4:2301
  Paths: 1 available
   65056 64512
     100.0.0.34 from 2001::56 (100.0.0.56)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
-      Extended Community: Route-Target-AS:2301:2301 Route-Origin-IP:100.0.0.34:0
+      Extended Community: Route-Target-AS:2000:2000 Route-Target-AS:2301:2301 Route-Origin-IP:100.0.0.34:0
       VNI: 769969
       PMSI Tunnel: Ingress Replication, MPLS Label: 769969, Leaf Information Required: false, Tunnel ID: 100.0.0.34
 BGP routing table entry for imet 100.0.0.56, Route Distinguisher: 100.0.0.56:1103
@@ -64,35 +64,36 @@ BGP routing table entry for imet 100.0.0.56, Route Distinguisher: 100.0.0.56:110
       Extended Community: Route-Target-AS:1103:1103 TunnelEncap:tunnelTypeVxlan
       VNI: 1103
       PMSI Tunnel: Ingress Replication, MPLS Label: 1103, Leaf Information Required: false, Tunnel ID: 100.0.0.56
+BGP routing table entry for imet 100.0.0.56, Route Distinguisher: 100.0.0.56:3301
+ Paths: 1 available
+  65056
+    100.0.0.56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Community: 1:5641
+      Extended Community: Route-Target-AS:3301:3301 TunnelEncap:tunnelTypeVxlan
+      VNI: 3301
+      PMSI Tunnel: Ingress Replication, MPLS Label: 3301, Leaf Information Required: false, Tunnel ID: 100.0.0.56
 BGP routing table entry for imet 100.0.0.206, Route Distinguisher: 100.0.0.206:3301
  Paths: 1 available
   65206
     100.0.0.206 from 100.0.0.206 (100.0.0.206)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
-      Extended Community: Route-Target-AS:3301:64514 TunnelEncap:tunnelTypeVxlan
+      Extended Community: Route-Target-AS:3301:3301 TunnelEncap:tunnelTypeVxlan
       VNI: 3301
       PMSI Tunnel: Ingress Replication, MPLS Label: 3301, Leaf Information Required: false, Tunnel ID: 100.0.0.206
-BGP routing table entry for imet 100.0.30.9, Route Distinguisher: 100.0.30.9:2301
+BGP routing table entry for imet 100.0.3.41, Route Distinguisher: 100.0.3.41:3311
  Paths: 1 available
-  65056 64512
-    100.0.30.9 from 2001::56 (100.0.0.56)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
-      Extended Community: Route-Target-AS:2301:2301
-      VNI: 15738304
-      PMSI Tunnel: Ingress Replication, MPLS Label: 15738304, Leaf Information Required: false, Tunnel ID: 100.0.30.9
-BGP routing table entry for imet 100.0.37.9, Route Distinguisher: 100.0.37.9:2301
- Paths: 1 available
-  65056 64512
-    100.0.37.9 from 2001::56 (100.0.0.56)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
-      Extended Community: Route-Target-AS:2301:2301
-      VNI: 5152
-      PMSI Tunnel: Ingress Replication, MPLS Label: 5152, Leaf Information Required: false, Tunnel ID: 100.0.37.9
+  64512
+    100.0.3.41 from 100.0.3.41 (100.0.3.41)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:3301:3301 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:00:00:00:00:00:00 L2 Attributes: control word
+      VNI: 3301
+      PMSI Tunnel: Ingress Replication, MPLS Label: 3301, Leaf Information Required: false, Tunnel ID: 100.0.3.41
 BGP routing table entry for imet 2000::40, Route Distinguisher: 100.0.0.40:33807
  Paths: 1 available
   65040
     2000::40 from 2000::40 (100.0.0.40)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1040:1040 TunnelEncap:tunnelTypeVxlan
       VNI: 1040
       PMSI Tunnel: Ingress Replication, MPLS Label: 1040, Leaf Information Required: false, Tunnel ID: 2000::40
@@ -100,7 +101,7 @@ BGP routing table entry for imet 2000::40, Route Distinguisher: 100.0.0.40:34068
  Paths: 1 available
   65040
     2000::40 from 2000::40 (100.0.0.40)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan
       VNI: 1301
       PMSI Tunnel: Ingress Replication, MPLS Label: 1301, Leaf Information Required: false, Tunnel ID: 2000::40
@@ -108,7 +109,7 @@ BGP routing table entry for imet 2000::40, Route Distinguisher: 100.0.0.40:34069
  Paths: 1 available
   65040
     2000::40 from 2000::40 (100.0.0.40)
-      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan
       VNI: 1302
       PMSI Tunnel: Ingress Replication, MPLS Label: 1302, Leaf Information Required: false, Tunnel ID: 2000::40
@@ -416,3 +417,11 @@ BGP routing table entry for imet 1304 2000::204, Route Distinguisher: 100.0.0.20
       Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
       VNI: 1304
       PMSI Tunnel: Ingress Replication, MPLS Label: 1304, Leaf Information Required: false, Tunnel ID: 2000::204
+BGP routing table entry for imet 2301 100.0.37.9, Route Distinguisher: 100.0.37.9:2301
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301
+      VNI: 5968
+      PMSI Tunnel: Ingress Replication, MPLS Label: 5968, Leaf Information Required: false, Tunnel ID: 100.0.37.9

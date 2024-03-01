@@ -36,3 +36,9 @@ BGP routing table entry for ethernet-segment 0000:0000:0000:0203:0204 2000::204,
     2000::204 from 2000::200 (100.0.0.200)
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: TunnelEncap:tunnelTypeVxlan EvpnEsImportRt:00:00:20:30:02:04 DF Election: Preference 100
+BGP routing table entry for ethernet-segment 0011:1111:2222:2211:1111 100.0.3.41, Route Distinguisher: 100.0.3.41:0
+ Paths: 1 available
+  65000 64512
+    100.0.3.41 from 2000::200 (100.0.0.200)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: EvpnEsImportRt:11:11:11:22:22:22 DF Election: Modulus-based

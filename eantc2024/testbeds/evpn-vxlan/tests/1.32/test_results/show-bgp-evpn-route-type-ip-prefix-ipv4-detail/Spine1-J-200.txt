@@ -180,6 +180,34 @@ BGP routing table entry for ip-prefix 10.30.4.0/24, Route Distinguisher: 100.0.0
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:98:5d:82:a2:04:f9
       VNI: 1000
+BGP routing table entry for ip-prefix 20.30.1.0/24, Route Distinguisher: 100.0.0.4:2000
+ Paths: 1 available
+  65056 64512
+    100.0.0.34 from 2001::56 (100.0.0.56)
+      Origin INCOMPLETE, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2000:2000
+      VNI: 770096
+BGP routing table entry for ip-prefix 20.30.1.0/24, Route Distinguisher: 100.0.37.9:2000
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2000:2000
+      VNI: 5760
+BGP routing table entry for ip-prefix 20.30.1.201/32, Route Distinguisher: 100.0.37.9:2000
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2000:2000
+      VNI: 5760
+BGP routing table entry for ip-prefix 20.30.1.254/32, Route Distinguisher: 100.0.37.9:2000
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2000:2000
+      VNI: 5760
 BGP routing table entry for ip-prefix 30.30.1.0/24, Route Distinguisher: 100.0.0.26:1000
  Paths: 1 available
   65206
@@ -187,3 +215,21 @@ BGP routing table entry for ip-prefix 30.30.1.0/24, Route Distinguisher: 100.0.0
       Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
       Extended Community: Route-Target-AS:1023:1023 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:98:5d:82:c4:02:71
       VNI: 1000
+BGP routing table entry for ip-prefix 30.30.1.0/24, Route Distinguisher: 100.0.3.41:0
+ Paths: 1 available
+  64512
+    100.0.3.41 from 100.0.3.41 (100.0.3.41)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Community: 1:5641
+      Extended Community: Route-Target-AS:1023:1023 TunnelEncap:tunnelTypeVxlan TunnelEncap:tunnelTypeMpls EvpnRouterMac:f8:7a:41:6d:d0:f0
+      VNI: 1000
+      D-PATH: 1:1:EVPN
+BGP routing table entry for ip-prefix 30.30.2.0/24, Route Distinguisher: 100.0.3.41:0
+ Paths: 1 available
+  64512
+    100.0.3.41 from 100.0.3.41 (100.0.3.41)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Community: 1:5641
+      Extended Community: Route-Target-AS:1023:1023 TunnelEncap:tunnelTypeVxlan TunnelEncap:tunnelTypeMpls EvpnRouterMac:f8:7a:41:6d:d0:f0
+      VNI: 1000
+      D-PATH: 1:1:EVPN

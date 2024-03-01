@@ -1,0 +1,4 @@
+ Interface   Status    MTU   IPv6 Address              Addr State   Addr Source
+----------- -------- ------ ------------------------- ------------- -----------
+ Et30        down     1500   <linklocal-unassigned>    inactive     link local 
+

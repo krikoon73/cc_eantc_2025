@@ -1,0 +1,17 @@
+Interface  Status    MTU  IPv6 Address                  Addr State  Addr Source
+---------- ------- ------ ---------------------------- ------------ -----------
+Et1        up       1500  fe80::9a5d:82ff:fea2:4f9/64   up          link local 
+Lo0        up      65535  fe80::ff:fe00:0/64            up          link local 
+                          2000::204/128                 up          config     
+Vl1203     up       1500  fe80::9a5d:82ff:fea2:4f9/64   up          link local 
+                          1000:1000:203::254/64         up          config     
+Vl1301     up       1500  fe80::9a5d:82ff:fea2:4f9/64   up          link local 
+                          1000:3000:1::254/64           up          config     
+Vl1302     up       1500  fe80::9a5d:82ff:fea2:4f9/64   up          link local 
+                          1000:3000:2::254/64           up          config     
+Vl1303     up       1500  fe80::9a5d:82ff:fea2:4f9/64   up          link local 
+                          1000:3000:3::254/64           up          config     
+Vl1304     up       1500  fe80::9a5d:82ff:fea2:4f9/64   up          link local 
+                          1000:3000:4::254/64           up          config     
+Vl4092     up       9164  fe80::9a5d:82ff:fea2:4f9/64   up          link local 
+

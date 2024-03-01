@@ -1,6 +1,6 @@
 
 VRF: default
-Displaying 13 of 16 IPv6 routing table entries
+Displaying 14 of 17 IPv6 routing table entries
 Source Codes:
        C - connected, S - static, K - kernel, O3 - OSPFv3,
        B - Other BGP Routes, A B - BGP Aggregate, R - RIP,
@@ -14,6 +14,8 @@ Source Codes:
            via fe80::c607:78ff:fe0a:9f31, Ethernet26
  B E      2000::23/128 [20/0]
            via fe80::c607:78ff:fe0a:777d, Ethernet25
+ B E      2000::40/128 [20/0]
+           via fe80::266c:84ff:fe74:8ddc, Ethernet15
  B E      2000::42/128 [20/0]
            via fe80::4214:82ff:fe7b:84ac, Ethernet16
  B E      2000::45/128 [20/0]

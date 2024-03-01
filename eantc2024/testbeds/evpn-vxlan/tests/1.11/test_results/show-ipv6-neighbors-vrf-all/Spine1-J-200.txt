@@ -1,17 +1,17 @@
 
 VRF: default
 IPv6 Address                                  Age Hardware Addr   Interface
-fe80::2edd:e9ff:fe0b:2283                 0:00:14 2cdd.e90b.2283  Et1
-fe80::2edd:e9ff:fe0b:25b7                 0:00:03 2cdd.e90b.25b7  Et2
-fe80::3a38:a6ff:fe21:e82f                 0:00:03 3838.a621.e82f  Et3
-fe80::9a5d:82ff:fea2:4f9                  0:00:15 985d.82a2.04f9  Et4
-fe80::427c:7dff:fec4:ab9d                 0:00:04 407c.7dc4.ab9d  Et11
-fe80::6e31:eff:fe7b:8b88                  0:00:22 6c31.0e7b.8b87  Et13
-fe80::6e31:eff:feb7:5060                  0:00:22 6c31.0eb7.505f  Et14
-fe80::4214:82ff:fe7b:84ab                 2:31:00 4014.827b.84ab  Et16
-fe80::4214:82ff:fe7b:84ac                 0:00:22 4014.827b.84ab  Et16
-fe80::c607:78ff:fe0a:777d                 0:00:13 c407.780a.777d  Et25
-fe80::c607:78ff:fe0a:9f31                 0:00:33 c407.780a.9f31  Et26
+fe80::2edd:e9ff:fe0b:2283                 0:00:26 2cdd.e90b.2283  Et1
+fe80::2edd:e9ff:fe0b:25b7                 0:00:12 2cdd.e90b.25b7  Et2
+fe80::3a38:a6ff:fe21:e82f                 0:00:37 3838.a621.e82f  Et3
+fe80::9a5d:82ff:fea2:4f9                  0:00:28 985d.82a2.04f9  Et4
+fe80::427c:7dff:fec4:ab9d                 0:00:00 407c.7dc4.ab9d  Et11
+fe80::6e31:eff:fe7b:8b88                  0:00:13 6c31.0e7b.8b87  Et13
+fe80::6e31:eff:feb7:5060                  0:00:07 6c31.0eb7.505f  Et14
+fe80::266c:84ff:fe74:8ddc                 0:00:23 246c.8474.8ddb  Et15
+fe80::4214:82ff:fe7b:84ac                 0:00:11 4014.827b.84ab  Et16
+fe80::c607:78ff:fe0a:777d                 0:00:01 c407.780a.777d  Et25
+fe80::c607:78ff:fe0a:9f31                 0:00:18 c407.780a.9f31  Et26
 
 VRF: mgmt
 IPv6 Address                                  Age Hardware Addr   Interface

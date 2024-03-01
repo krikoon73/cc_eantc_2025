@@ -1,3 +1,4 @@
 Address         Age (sec)  Hardware Addr   Interface
-20.200.206.206    0:00:09  985d.82c4.0271  Ethernet6
-20.56.200.56      1:04:10  407c.7dc4.ab9d  Ethernet11
+20.200.206.206    0:00:31  985d.82c4.0271  Ethernet6
+20.56.200.56      1:04:51  407c.7dc4.ab9d  Ethernet11
+20.41.200.41      0:00:29  f87a.4118.8ab5  Ethernet23

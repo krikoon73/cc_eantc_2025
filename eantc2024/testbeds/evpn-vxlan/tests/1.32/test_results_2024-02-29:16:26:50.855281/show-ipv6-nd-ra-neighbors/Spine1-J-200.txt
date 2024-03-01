@@ -1,0 +1,12 @@
+VRF: default
+   Interface              IPv6 Address           Last RA Received
+---------------- ------------------------------- ----------------
+   Ethernet1        fe80::2edd:e9ff:fe0b:2283      0:00:17 ago   
+   Ethernet2        fe80::2edd:e9ff:fe0b:25b7      0:01:26 ago   
+   Ethernet3        fe80::3a38:a6ff:fe21:e82f      0:01:13 ago   
+   Ethernet4        fe80::9a5d:82ff:fea2:4f9       0:00:20 ago   
+   Ethernet11       fe80::427c:7dff:fec4:ab9d      0:00:07 ago   
+   Ethernet15       fe80::266c:84ff:fe74:8ddc      0:00:01 ago   
+   Ethernet25       fe80::c607:78ff:fe0a:777d      0:02:35 ago   
+   Ethernet26       fe80::c607:78ff:fe0a:9f31      0:06:59 ago   
+

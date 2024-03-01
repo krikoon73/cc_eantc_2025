@@ -23,7 +23,7 @@ BGP summary information for VRF default
 Router identifier 100.0.0.205, local AS number 65205
 Neighbor Status Codes: m - Under maintenance
   Neighbor   V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
-  100.0.0.22 4 65205           7851     35031    0    0 05:50:46 Active
+  100.0.0.22 4 65205           7851     35031    0    0    1d00h Active
 ```
 
 ## show bgp evpn route-type auto-discovery detail
@@ -171,8 +171,8 @@ Address         Age (sec)  Hardware Addr   Interface
 VRF: mgmt
 Address         Age (sec)  Hardware Addr   Interface
 192.168.20.1      0:00:00  90e2.bac7.8074  Management1
-192.168.21.50     0:00:55  a84f.b1a5.5221  Management1
-192.168.21.59     0:02:44  6607.f5d1.ae16  Management1
+192.168.21.50     0:01:48  a84f.b1a5.5221  Management1
+192.168.21.59     0:04:14  6607.f5d1.ae16  Management1
 ```
 
 ## show vxlan address-table
@@ -199,22 +199,127 @@ Total Remote Mac Addresses for this criterion: 0
 
 Vlan    Mac Address       Type        Ports      Moves   Last Move
 ----    -----------       ----        -----      -----   ---------
-  22    00aa.aaaa.aaaa    DYNAMIC     Po300      1       0:10:17 ago
-  40    0040.0100.0003    DYNAMIC     Et25       1       0:03:53 ago
-  42    0042.0100.0003    DYNAMIC     Et25       1       0:01:17 ago
-  42    00aa.aaaa.aaaa    DYNAMIC     Et16       1       1:59:54 ago
-  42    4014.827b.84b0    DYNAMIC     Et16       1       2:17:15 ago
-  44    5c5a.c773.4ac0    DYNAMIC     Et17       1       7:22:06 ago
-  45    0026.f002.0000    DYNAMIC     Po301      1       1:47:57 ago
-  45    0045.0100.0002    DYNAMIC     Et25       1       0:01:07 ago
-  45    00aa.aaaa.aaaa    DYNAMIC     Po301      1       1:47:25 ago
-  56    0056.0000.0001    DYNAMIC     Et25       1       0:04:32 ago
-  56    0056.0000.0002    DYNAMIC     Et25       1       0:04:32 ago
-  56    0056.0000.0003    DYNAMIC     Et25       1       0:04:32 ago
-  56    0056.0000.0004    DYNAMIC     Et25       1       0:04:32 ago
-  56    00aa.aaaa.aaaa    DYNAMIC     Et21       1       0:10:32 ago
- 203    00aa.aaaa.aaaa    DYNAMIC     Po200      1       1:44:04 ago
-Total Mac Addresses for this criterion: 15
+  22    0040.0100.0001    DYNAMIC     Po300      1       0:05:35 ago
+  22    0040.0100.0002    DYNAMIC     Po300      1       0:05:35 ago
+  22    0042.0100.0001    DYNAMIC     Po300      1       0:05:35 ago
+  22    0042.0100.0002    DYNAMIC     Po300      1       0:05:35 ago
+  22    0045.0100.0001    DYNAMIC     Po300      1       0:05:35 ago
+  22    0045.0100.0002    DYNAMIC     Po300      1       0:05:35 ago
+  22    0056.0000.0001    DYNAMIC     Po300      1       0:05:35 ago
+  22    0056.0000.0002    DYNAMIC     Po300      1       0:05:35 ago
+  22    0056.0000.0003    DYNAMIC     Po300      1       0:02:45 ago
+  22    0056.0000.0004    DYNAMIC     Po300      1       0:02:45 ago
+  22    00aa.aaaa.aaaa    DYNAMIC     Po300      1       19:18:12 ago
+  22    246c.8474.8ddb    DYNAMIC     Po300      1       0:05:35 ago
+  22    4014.827b.84ab    DYNAMIC     Po300      1       0:05:35 ago
+  22    6c31.0eb7.505f    DYNAMIC     Po300      1       0:05:35 ago
+  40    0020.1000.0001    DYNAMIC     Et15       1       0:01:54 ago
+  40    0020.1000.0002    DYNAMIC     Et15       1       0:01:54 ago
+  40    0040.0100.0001    DYNAMIC     Et25       1       0:07:21 ago
+  40    0040.0100.0002    DYNAMIC     Et25       1       0:05:35 ago
+  40    0040.0100.0003    DYNAMIC     Et25       1       0:04:27 ago
+  40    0042.0100.0001    DYNAMIC     Et15       1       0:05:35 ago
+  40    0042.0100.0002    DYNAMIC     Et15       1       0:05:35 ago
+  40    0045.0100.0001    DYNAMIC     Et15       1       0:05:35 ago
+  40    0045.0100.0002    DYNAMIC     Et15       1       0:05:35 ago
+  40    0056.0000.0001    DYNAMIC     Et15       1       0:05:35 ago
+  40    0056.0000.0002    DYNAMIC     Et15       1       0:05:35 ago
+  40    00aa.aaaa.aaaa    DYNAMIC     Et15       1       19:04:01 ago
+  40    246c.8474.8ddb    DYNAMIC     Et15       1       0:05:35 ago
+  40    246c.8474.8de0    DYNAMIC     Et15       1       19:04:38 ago
+  40    4014.827b.84ab    DYNAMIC     Et15       1       0:05:35 ago
+  40    6c31.0eb7.505f    DYNAMIC     Et15       1       0:05:35 ago
+  42    0040.0100.0001    DYNAMIC     Et16       1       0:05:35 ago
+  42    0040.0100.0002    DYNAMIC     Et16       1       0:05:35 ago
+  42    0042.0100.0001    DYNAMIC     Et25       1       0:06:01 ago
+  42    0042.0100.0002    DYNAMIC     Et25       1       0:05:35 ago
+  42    0042.0100.0003    DYNAMIC     Et25       1       0:04:05 ago
+  42    0045.0100.0001    DYNAMIC     Et16       1       0:05:35 ago
+  42    0045.0100.0002    DYNAMIC     Et16       1       0:05:35 ago
+  42    0056.0000.0001    DYNAMIC     Et16       1       0:05:35 ago
+  42    0056.0000.0002    DYNAMIC     Et16       1       0:05:35 ago
+  42    00aa.aaaa.aaaa    DYNAMIC     Et16       1       19:02:31 ago
+  42    246c.8474.8ddb    DYNAMIC     Et16       1       0:05:35 ago
+  42    4014.827b.84ab    DYNAMIC     Et16       1       0:05:35 ago
+  42    4014.827b.84b0    DYNAMIC     Et16       1       19:03:26 ago
+  42    6c31.0eb7.505f    DYNAMIC     Et16       1       0:05:35 ago
+  44    5c5a.c773.4ac0    DYNAMIC     Et17       1       1 day, 2:30:00 ago
+  45    0020.3000.0001    DYNAMIC     Po301      1       0:05:35 ago
+  45    0020.3000.0002    DYNAMIC     Po301      1       0:05:35 ago
+  45    0026.f002.0000    DYNAMIC     Po301      1       18:59:21 ago
+  45    0040.0100.0001    DYNAMIC     Po301      1       0:05:35 ago
+  45    0040.0100.0002    DYNAMIC     Po301      1       0:05:35 ago
+  45    0042.0100.0001    DYNAMIC     Po301      1       0:05:35 ago
+  45    0042.0100.0002    DYNAMIC     Po301      1       0:05:35 ago
+  45    0045.0100.0001    DYNAMIC     Et25       1       0:11:47 ago
+  45    0045.0100.0002    DYNAMIC     Et25       1       0:11:47 ago
+  45    0045.0100.0003    DYNAMIC     Et25       1       0:01:54 ago
+  45    0056.0000.0001    DYNAMIC     Po301      1       0:05:35 ago
+  45    0056.0000.0002    DYNAMIC     Po301      1       0:05:35 ago
+  45    00aa.aaaa.aaaa    DYNAMIC     Po301      1       18:57:08 ago
+  45    246c.8474.8ddb    DYNAMIC     Po301      1       0:05:35 ago
+  45    4014.827b.84ab    DYNAMIC     Po301      1       0:05:35 ago
+  45    6c31.0e7b.8b87    DYNAMIC     Po301      1       0:01:54 ago
+  45    6c31.0eb7.505f    DYNAMIC     Po301      1       0:05:35 ago
+  56    0020.1000.0001    DYNAMIC     Et21       1       0:01:54 ago
+  56    0020.1000.0002    DYNAMIC     Et21       1       0:01:54 ago
+  56    0020.1000.0003    DYNAMIC     Et21       1       0:01:54 ago
+  56    0020.1000.0004    DYNAMIC     Et21       1       0:01:54 ago
+  56    0020.3000.0001    DYNAMIC     Et21       1       0:02:45 ago
+  56    0020.3000.0002    DYNAMIC     Et21       1       0:02:45 ago
+  56    0020.3000.0003    DYNAMIC     Et21       1       0:02:45 ago
+  56    0020.3000.0004    DYNAMIC     Et21       1       0:02:45 ago
+  56    0040.0100.0001    DYNAMIC     Et21       1       0:05:35 ago
+  56    0040.0100.0002    DYNAMIC     Et21       1       0:05:35 ago
+  56    0042.0100.0001    DYNAMIC     Et21       1       0:05:35 ago
+  56    0042.0100.0002    DYNAMIC     Et21       1       0:05:35 ago
+  56    0045.0100.0001    DYNAMIC     Et21       1       0:05:35 ago
+  56    0045.0100.0002    DYNAMIC     Et21       1       0:05:35 ago
+  56    0056.0000.0001    DYNAMIC     Et25       1       0:16:03 ago
+  56    0056.0000.0002    DYNAMIC     Et25       1       0:16:03 ago
+  56    0056.0000.0003    DYNAMIC     Et25       1       0:05:02 ago
+  56    0056.0000.0004    DYNAMIC     Et25       1       0:05:02 ago
+  56    0056.0000.0005    DYNAMIC     Et25       1       0:05:02 ago
+  56    00aa.aaaa.aaaa    DYNAMIC     Et21       1       0:05:35 ago
+  56    246c.8474.8ddb    DYNAMIC     Et21       1       0:05:35 ago
+  56    4014.827b.84ab    DYNAMIC     Et21       1       0:05:35 ago
+  56    6c31.0eb7.505f    DYNAMIC     Et21       1       0:05:35 ago
+ 201    0020.1000.0001    DYNAMIC     Et25       1       0:16:50 ago
+ 201    0020.1000.0002    DYNAMIC     Et25       1       0:16:50 ago
+ 201    0020.1000.0003    DYNAMIC     Et25       1       0:02:45 ago
+ 201    0020.1000.0004    DYNAMIC     Et25       1       0:02:45 ago
+ 201    0020.1000.0005    DYNAMIC     Et25       1       0:01:54 ago
+ 201    0040.0100.0001    DYNAMIC     Po100      1       0:05:35 ago
+ 201    0040.0100.0002    DYNAMIC     Po100      1       0:05:35 ago
+ 201    0056.0000.0001    DYNAMIC     Po100      1       0:02:45 ago
+ 201    0056.0000.0002    DYNAMIC     Po100      1       0:02:45 ago
+ 201    0056.0000.0003    DYNAMIC     Po100      1       0:02:45 ago
+ 201    0056.0000.0004    DYNAMIC     Po100      1       0:02:43 ago
+ 201    00aa.aaaa.aaaa    DYNAMIC     Po100      1       0:01:54 ago
+ 201    2cdd.e90b.2283    DYNAMIC     Po100      1       0:01:54 ago
+ 201    2cdd.e90b.25b7    DYNAMIC     Po100      1       0:01:54 ago
+ 203    0020.3000.0001    DYNAMIC     Et25       1       0:05:39 ago
+ 203    0020.3000.0002    DYNAMIC     Et25       1       0:05:41 ago
+ 203    0020.3000.0003    DYNAMIC     Et25       1       0:11:02 ago
+ 203    0020.3000.0004    DYNAMIC     Et25       1       0:05:39 ago
+ 203    0020.3000.0005    DYNAMIC     Et25       1       0:16:58 ago
+ 203    0040.0100.0001    DYNAMIC     Po200      1       0:05:35 ago
+ 203    0040.0100.0002    DYNAMIC     Po200      1       0:05:35 ago
+ 203    0042.0100.0001    DYNAMIC     Po200      1       0:05:35 ago
+ 203    0042.0100.0002    DYNAMIC     Po200      1       0:05:35 ago
+ 203    0045.0100.0001    DYNAMIC     Po200      1       0:05:35 ago
+ 203    0045.0100.0002    DYNAMIC     Po200      1       0:05:35 ago
+ 203    0056.0000.0001    DYNAMIC     Po200      1       0:05:35 ago
+ 203    0056.0000.0002    DYNAMIC     Po200      1       0:05:35 ago
+ 203    0056.0000.0003    DYNAMIC     Po200      1       0:02:45 ago
+ 203    0056.0000.0004    DYNAMIC     Po200      1       0:02:45 ago
+ 203    00aa.aaaa.aaaa    DYNAMIC     Po200      1       20:51:59 ago
+ 203    246c.8474.8ddb    DYNAMIC     Po200      1       0:05:35 ago
+ 203    3838.a621.e82f    DYNAMIC     Po200      1       0:01:54 ago
+ 203    4014.827b.84ab    DYNAMIC     Po200      1       0:05:35 ago
+ 203    6c31.0eb7.505f    DYNAMIC     Po200      1       0:05:35 ago
+ 203    985d.82a2.04f9    DYNAMIC     Po200      1       0:01:54 ago
+Total Mac Addresses for this criterion: 120
 
           Multicast Mac Address Table
 ------------------------------------------------------------------
@@ -227,36 +332,246 @@ Total Mac Addresses for this criterion: 0
 ## show l2rib output detail
 
 ```text
+0020.3000.0004, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet21
+0045.0100.0002, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet16
+0045.0100.0001, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25
+0042.0100.0001, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel301
+2cdd.e90b.2283, VLAN 201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel100
 0056.0000.0004, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25
+0040.0100.0001, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel300
+0056.0000.0002, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+0020.1000.0002, VLAN 201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet25
 00aa.aaaa.aaaa, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel301
+4014.827b.84ab, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel300
+0042.0100.0002, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+0020.1000.0001, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet15
+985d.82a2.04f9, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+4014.827b.84ab, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet16
+0020.1000.0001, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet21
+0020.3000.0001, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet21
+0040.0100.0002, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+6c31.0eb7.505f, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel301
 0056.0000.0003, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet25
+0020.3000.0002, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet21
+0040.0100.0001, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet16
+246c.8474.8ddb, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel301
+0045.0100.0002, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel300
+0020.1000.0004, VLAN 201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25
+0020.1000.0003, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet21
+0056.0000.0001, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+00aa.aaaa.aaaa, VLAN 201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel100
+3838.a621.e82f, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+0045.0100.0002, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet15
+0056.0000.0003, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel300
+0040.0100.0002, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel301
+2cdd.e90b.25b7, VLAN 201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel100
+0045.0100.0002, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet21
+0056.0000.0002, VLAN 201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel100
+6c31.0eb7.505f, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+0020.3000.0003, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25
+0045.0100.0003, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25
+0056.0000.0001, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel301
+246c.8474.8ddb, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+4014.827b.84ab, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet15
+4014.827b.84ab, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet21
+0042.0100.0001, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+0040.0100.0002, VLAN 201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel100
+0045.0100.0001, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+0040.0100.0001, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25
+0056.0000.0002, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel301
+0056.0000.0004, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel300
+0040.0100.0001, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet21
+0042.0100.0002, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel301
+0056.0000.0001, VLAN 201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel100
 00aa.aaaa.aaaa, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel200
+0056.0000.0004, VLAN 201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel100
+0020.3000.0001, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel301
+0045.0100.0002, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+0056.0000.0001, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel300
+6c31.0e7b.8b87, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel301
+246c.8474.8ddb, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet21
+6c31.0eb7.505f, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet15
+0020.1000.0002, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet15
+0040.0100.0002, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel300
 4014.827b.84b0, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet16
+0020.3000.0003, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet21
+0056.0000.0002, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet16
+246c.8474.8ddb, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet15
+6c31.0eb7.505f, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet21
+0056.0000.0005, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25
+0020.1000.0002, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet21
 0042.0100.0003, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet25
+0020.3000.0002, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel301
+0042.0100.0002, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25
+0045.0100.0001, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet21
+4014.827b.84ab, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+0042.0100.0002, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel300
+0042.0100.0001, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet21
+0020.1000.0001, VLAN 201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25
+0040.0100.0002, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet16
+0045.0100.0001, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet15
+0042.0100.0001, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet15
+0056.0000.0002, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel300
 00aa.aaaa.aaaa, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet21
+0040.0100.0001, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+0020.1000.0003, VLAN 201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25
+0020.1000.0004, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet21
+0020.1000.0005, VLAN 201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25
+00aa.aaaa.aaaa, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet15
+0056.0000.0001, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet16
+0056.0000.0003, VLAN 201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel100
+0056.0000.0004, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
 00aa.aaaa.aaaa, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel300
+4014.827b.84ab, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel301
+0020.3000.0004, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25
+6c31.0eb7.505f, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet16
+0040.0100.0001, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel301
+0045.0100.0001, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel300
+0042.0100.0002, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet21
+0042.0100.0001, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel300
+0056.0000.0002, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet15
+246c.8474.8ddb, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet16
+0042.0100.0002, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet15
 0056.0000.0002, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25
+0040.0100.0002, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet21
+246c.8474.8ddb, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel300
+0020.3000.0001, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet25
 0045.0100.0002, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet25
+0040.0100.0002, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25
+0045.0100.0001, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet16
+0042.0100.0001, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25
 0026.f002.0000, VLAN 45, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Port-Channel301
+6c31.0eb7.505f, VLAN 22, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel300
+246c.8474.8de0, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet15
 0056.0000.0001, VLAN 56, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet25
+0040.0100.0001, VLAN 201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel100
 0040.0100.0003, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet25
 5c5a.c773.4ac0, VLAN 44, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet17
 00aa.aaaa.aaaa, VLAN 42, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
    Ethernet16
+0056.0000.0001, VLAN 40, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet15
+0020.3000.0005, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25
+0020.3000.0002, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25
+0056.0000.0003, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
 ```
 
 ## show vxlan flood vtep domain local
@@ -431,6 +746,19 @@ VLAN IP Address MAC Address    Source
 
 ```text
 Port      Name           Intvl  In Mbps      %  In Kpps Out Mbps      % Out Kpps
+Et1       ANET-201        0:01      0.2   0.0%        0      0.2   0.0%        0
+Et2       ANET-202        0:01      0.1   0.0%        0      0.1   0.0%        0
+Et3       ANET-203        0:01      0.2   0.0%        0      0.2   0.0%        0
+Et4       ANET-204        0:01      0.1   0.0%        0      0.1   0.0%        0
+Et13      Cisco-45-46     0:05      0.1   0.0%        0      0.0   0.0%        0
+Et14      Cisco-45-46     0:05      0.0   0.0%        0      0.1   0.0%        0
+Et15                      0:05      0.1   0.0%        0      0.1   0.0%        0
+Et16      Cisco-42        0:05      0.1   0.0%        0      0.1   0.0%        0
+Et21      Nokia-56        0:05      0.5   0.0%        0      0.5   0.0%        0
+Et25      Keysight-Gen    0:05      1.5   0.0%        1      1.6   0.0%        2
 Ma1                       0:05      0.0   0.0%        0      0.1   0.0%        0
+Po100                     0:05      0.3   0.0%        0      0.3   0.0%        0
+Po200                     0:05      0.3   0.0%        0      0.3   0.0%        0
+Po301                     0:05      0.1   0.0%        0      0.1   0.0%        0
 ```
 
