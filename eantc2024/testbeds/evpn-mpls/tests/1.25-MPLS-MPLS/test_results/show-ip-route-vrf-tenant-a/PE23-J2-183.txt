@@ -1,0 +1,27 @@
+
+VRF: tenant-a
+Codes: C - connected, S - static, K - kernel, 
+       O - OSPF, IA - OSPF inter area, E1 - OSPF external type 1,
+       E2 - OSPF external type 2, N1 - OSPF NSSA external type 1,
+       N2 - OSPF NSSA external type2, B - Other BGP Routes,
+       B I - iBGP, B E - eBGP, R - RIP, I L1 - IS-IS level 1,
+       I L2 - IS-IS level 2, O3 - OSPFv3, A B - BGP Aggregate,
+       A O - OSPF Summary, NG - Nexthop Group Static Route,
+       V - VXLAN Control Service, M - Martian,
+       DH - DHCP client installed default route,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route
+
+Gateway of last resort is not set
+
+ B I      20.10.18.0/24 [200/0] via 100.0.0.18/32, IS-IS SR tunnel index 11, label 1539
+                                   via 20.180.183.180, Ethernet1, label 900018
+ B I      20.10.21.0/24 [200/0] via 100.0.0.21/32, IS-IS SR tunnel index 9, label 1667
+                                   via 20.180.183.180, Ethernet1, label 900021
+ B I      20.10.31.0/24 [200/0] via 100.0.0.31/32, IS-IS SR tunnel index 19, label 756641
+                                   via 20.180.183.180, Ethernet1, label 900031
+ B E      20.10.68.0/24 [20/0] via 100.0.0.184/32, IS-IS SR tunnel index 6, label 132768
+                                  via 20.180.183.180, Ethernet1, label 900184
+ B I      20.10.108.0/24 [200/0] via 100.0.0.3/32, IS-IS SR tunnel index 5, label 62000
+                                    via 20.180.183.180, Ethernet1, label 900003
+

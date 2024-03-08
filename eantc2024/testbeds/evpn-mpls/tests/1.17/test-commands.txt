@@ -1,0 +1,7 @@
+show bgp evpn
+show bgp evpn instance
+show mac address-table
+show ip route vrf tenant-a
+show ip arp vrf tenant-a
+show mpls label ranges
+show version

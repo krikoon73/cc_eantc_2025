@@ -1,0 +1,8 @@
+Patch Connector                             Status Last Change 
+----- ------------------------------------- ------ ------------
+2310  1: Port-Channel419.2310               Down   22:46:06 ago
+      2: BGP VPWS 2310 Pseudowire pw1                          
+fxc1  1: BGP VPWS 2320-2321 Pseudowire fxc1 Down   6:14:13 ago 
+      2: Ethernet5.2320                                        
+      3: Ethernet5.2321                                        
+

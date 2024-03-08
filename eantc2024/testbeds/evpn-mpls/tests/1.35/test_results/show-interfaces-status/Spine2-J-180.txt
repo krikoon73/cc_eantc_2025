@@ -1,0 +1,57 @@
+Port       Name            Status       Vlan     Duplex Speed  Type         Flags Encapsulation
+Et1                        connected    routed   full   10G    10GBASE-SRL                    
+Et2                        connected    routed   full   10G    10GBASE-SRL                    
+Et3                        connected    routed   full   10G    10GBASE-SRL                    
+Et4                        connected    routed   full   10G    10GBASE-SRL                    
+Et5                        notconnect   1        full   10G    Not Present                    
+Et6                        notconnect   1        full   10G    Not Present                    
+Et7                        notconnect   1        full   10G    Not Present                    
+Et8                        notconnect   routed   full   10G    10GBASE-SRL                    
+Et9        Huawei-34       connected    routed   full   10G    10GBASE-SRL                    
+Et10       H3C-18          connected    routed   full   10G    10GBASE-SRL                    
+Et11                       connected    routed   full   10G    10GBASE-SRL                    
+Et12       Ciena-3         connected    routed   full   10G    10GBASE-SRL                    
+Et13                       notconnect   1        full   10G    Not Present                    
+Et14                       notconnect   1        full   10G    Not Present                    
+Et15       rbbn-31         connected    routed   full   10G    10GBASE-SRL                    
+Et16                       notconnect   1        full   10G    Not Present                    
+Et17       Cisco-ASR9K-341 connected    routed   full   10G    10GBASE-SRL                    
+Et18       Cisco-NCS5K-345 connected    routed   full   10G    10GBASE-SRL                    
+Et19       Cisco-NCS5K-48  connected    routed   full   10G    10GBASE-SRL                    
+Et20       Cisco-8K-54     disabled     routed   full   10G    10GBASE-AR                     
+Et21       Cisco-NCS57-45  connected    routed   full   10G    10GBASE-SRL                    
+Et22                       notconnect   1        full   10G    Not Present                    
+Et23       H3C-26          connected    routed   full   10G    10GBASE-SRL                    
+Et24       H3C-27          connected    routed   full   10G    10GBASE-SRL                    
+Et25       Jnpr-ACX-309    connected    routed   full   10G    10GBASE-SR                     
+Et26       Jnpr-ACX314     connected    routed   full   10G    10GBASE-SR                     
+Et27       Cisco-VM        connected    routed   full   10G    10GBASE-LR                     
+Et28                       notconnect   1        full   10G    Not Present                    
+Et29                       notconnect   1        full   10G    Not Present                    
+Et30                       notconnect   1        full   10G    Not Present                    
+Et31                       notconnect   1        full   10G    Not Present                    
+Et32                       notconnect   1        full   10G    Not Present                    
+Et33                       notconnect   1        full   10G    Not Present                    
+Et34                       notconnect   1        full   10G    Not Present                    
+Et35                       notconnect   1        full   10G    Not Present                    
+Et36                       notconnect   1        full   10G    Not Present                    
+Et37                       notconnect   1        full   10G    Not Present                    
+Et38                       notconnect   1        full   10G    Not Present                    
+Et39                       notconnect   1        full   10G    Not Present                    
+Et40                       notconnect   1        full   10G    Not Present                    
+Et41                       notconnect   1        full   10G    Not Present                    
+Et42                       notconnect   1        full   10G    Not Present                    
+Et43                       notconnect   1        full   10G    Not Present                    
+Et44                       notconnect   1        full   10G    Not Present                    
+Et45                       notconnect   1        full   10G    Not Present                    
+Et46                       notconnect   1        full   10G    Not Present                    
+Et47                       notconnect   1        full   10G    Not Present                    
+Et48                       connected    routed   full   10G    10GBASE-SRL                    
+Et49/1     Jnpr-MX304-379  connected    routed   full   100G   100GBASE-LR4                   
+Et50/1                     notconnect   1        full   100G   100GBASE-SR4                   
+Et51/1                     notconnect   1        full   100G   Not Present                    
+Et52/1                     notconnect   1        full   100G   Not Present                    
+Et53/1                     notconnect   1        full   100G   Not Present                    
+Et54/1                     notconnect   1        full   100G   Not Present                    
+Ma1                        connected    routed   a-full a-1G   10/100/1000                    
+

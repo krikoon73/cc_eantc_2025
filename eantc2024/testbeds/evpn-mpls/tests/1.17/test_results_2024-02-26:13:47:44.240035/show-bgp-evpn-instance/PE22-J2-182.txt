@@ -1,0 +1,21 @@
+EVPN instance: VLAN 2181
+  Route distinguisher: 100.0.0.182:2181
+  Route target import: Route-Target-AS:2181:2181
+  Route target export: Route-Target-AS:2181:2181
+  Service interface: VLAN-based
+  Local MPLS IP address: 100.0.0.182
+  VXLAN: disabled
+  MPLS: enabled
+  Label allocation mode: per-instance
+  MAC route MPLS label: 1042318
+  IMET route MPLS label: 1036782
+  AD route MPLS label: 1042318
+  Local ethernet segment:
+    ESI: 0000:0000:0000:0181:0182
+      Interface: Port-Channel100
+      Mode: all-active
+      State: down
+      ESI label: 1047648
+      ES-Import RT: 00:00:18:10:01:82
+      DF election state: pending
+      Designated forwarder: 

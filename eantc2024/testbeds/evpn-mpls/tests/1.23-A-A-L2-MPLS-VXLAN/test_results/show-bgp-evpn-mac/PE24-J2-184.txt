@@ -1,0 +1,18 @@
+VLAN  Label  Encap MAC                Tunnel Endpoint    Seq#
+----- ------ ----- ------------------ ------------------ ----
+0     103629 MPLS  0000.0181.0181     100.0.0.183        Stic
+      2                                                  ky  
+0     24000  MPLS  0000.0181.0181     100.0.3.41         Stic
+                                                         ky  
+0     103629 MPLS  0018.6380.ef6a     100.0.0.183        -   
+      2                                                      
+0     24000  MPLS  0018.6380.ef6a     100.0.3.41         -   
+0     104771 MPLS  b0aa.fb45.eeee     Local              -   
+      2                                                      
+0     104771 MPLS  0018.6380.ef68     Local              -   
+      2                                                      
+0     103629 MPLS  b0aa.fb45.ebeb     100.0.0.183        -   
+      2                                                      
+0     24000  MPLS  b0aa.fb45.ebeb     100.0.3.41         -   
+0     104771 MPLS  0000.0184.0184     Local              Stic
+      2                                                  ky  

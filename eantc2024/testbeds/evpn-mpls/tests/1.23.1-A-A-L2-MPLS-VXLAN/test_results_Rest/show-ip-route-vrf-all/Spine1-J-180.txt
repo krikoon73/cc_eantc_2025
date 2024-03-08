@@ -1,0 +1,128 @@
+
+VRF: default
+Codes: C - connected, S - static, K - kernel, 
+       O - OSPF, IA - OSPF inter area, E1 - OSPF external type 1,
+       E2 - OSPF external type 2, N1 - OSPF NSSA external type 1,
+       N2 - OSPF NSSA external type2, B - Other BGP Routes,
+       B I - iBGP, B E - eBGP, R - RIP, I L1 - IS-IS level 1,
+       I L2 - IS-IS level 2, O3 - OSPFv3, A B - BGP Aggregate,
+       A O - OSPF Summary, NG - Nexthop Group Static Route,
+       V - VXLAN Control Service, M - Martian,
+       DH - DHCP client installed default route,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route
+
+Gateway of last resort is not set
+
+ I L2     10.0.0.57/32 [115/90] via 20.161.180.161, Ethernet54/1
+ I L2     10.0.0.58/32 [115/80] via 20.161.180.161, Ethernet54/1
+ I L2     10.0.0.233/32 [115/90] via 20.161.180.161, Ethernet54/1
+ I L2     10.0.0.254/32 [115/100] via 20.161.180.161, Ethernet54/1
+ I L2     10.0.1.36/32 [115/60] via 20.161.180.161, Ethernet54/1
+ I L2     12.0.0.219/32 [115/100] via 20.161.180.161, Ethernet54/1
+ I L2     12.0.0.221/32 [115/120] via 20.161.180.161, Ethernet54/1
+ I L2     12.0.0.225/32 [115/110] via 20.161.180.161, Ethernet54/1
+ I L2     12.0.0.227/32 [115/110] via 20.161.180.161, Ethernet54/1
+ C        20.3.180.0/24 is directly connected, Ethernet12
+ C        20.18.180.0/24 is directly connected, Ethernet10
+ C        20.21.180.0/24 is directly connected, Ethernet8
+ C        20.26.180.0/24 is directly connected, Ethernet23
+ C        20.31.180.0/24 is directly connected, Ethernet15
+ C        20.34.180.0/24 is directly connected, Ethernet9
+ I L2     20.52.1.0/24 [115/110] via 20.161.180.161, Ethernet54/1
+ I L2     20.54.2.0/24 [115/100] via 20.161.180.161, Ethernet54/1
+ I L2     20.55.2.0/24 [115/80] via 20.161.180.161, Ethernet54/1
+ I L2     20.56.2.0/24 [115/100] via 20.161.180.161, Ethernet54/1
+ C        20.56.180.0/24 is directly connected, Ethernet11
+ I L2     20.57.10.0/24 [115/80] via 20.161.180.161, Ethernet54/1
+ I L2     20.57.11.0/24 [115/80] via 20.161.180.161, Ethernet54/1
+ I L2     20.57.13.0/24 [115/100] via 20.161.180.161, Ethernet54/1
+ I L2     20.57.14.0/24 [115/100] via 20.161.180.161, Ethernet54/1
+ I L2     20.57.15.0/24 [115/100] via 20.161.180.161, Ethernet54/1
+ C        20.161.180.0/24 is directly connected, Ethernet54/1
+ C        20.180.181.0/24 is directly connected, Ethernet1
+ C        20.180.182.0/24 is directly connected, Ethernet2
+ C        20.180.183.0/24 is directly connected, Ethernet3
+ C        20.180.184.0/24 is directly connected, Ethernet4
+ I L2     25.29.225.0/24 [115/80] via 20.161.180.161, Ethernet54/1
+ I L2     25.36.225.0/24 [115/80] via 20.161.180.161, Ethernet54/1
+ I L2     25.58.225.0/24 [115/80] via 20.161.180.161, Ethernet54/1
+ I L2     25.59.225.0/24 [115/80] via 20.161.180.161, Ethernet54/1
+ I L2     25.102.225.0/24 [115/80] via 20.161.180.161, Ethernet54/1
+ I L2     25.107.225.0/24 [115/80] via 20.161.180.161, Ethernet54/1
+ I L2     25.110.225.0/24 [115/80] via 20.161.180.161, Ethernet54/1
+ I L2     25.116.225.0/24 [115/80] via 20.161.180.161, Ethernet54/1
+ I L2     25.136.225.0/24 [115/80] via 20.161.180.161, Ethernet54/1
+ I L2     25.138.225.0/24 [115/80] via 20.161.180.161, Ethernet54/1
+ I L2     25.142.225.0/24 [115/80] via 20.161.180.161, Ethernet54/1
+ I L2     25.144.225.0/24 [115/80] via 20.161.180.161, Ethernet54/1
+ I L2     25.152.225.0/24 [115/80] via 20.161.180.161, Ethernet54/1
+ I L2     25.153.225.0/24 [115/80] via 20.161.180.161, Ethernet54/1
+ C        30.9.180.0/24 is directly connected, Ethernet25
+ C        30.14.180.0/24 is directly connected, Ethernet26
+ C        30.41.180.0/24 is directly connected, Ethernet17
+ C        30.45.180.0/24 is directly connected, Ethernet18
+ C        30.48.180.0/24 is directly connected, Ethernet19
+ C        30.58.180.0/24 is directly connected, Ethernet21
+ C        30.60.180.0/24 is directly connected, Ethernet27
+ C        30.79.180.0/24 is directly connected, Ethernet49/1
+ I L2     100.0.0.3/32 [115/20] via 20.3.180.3, Ethernet12
+ I L2     100.0.0.18/32 [115/10] via 20.18.180.18, Ethernet10
+ I L2     100.0.0.21/32 [115/10] via 20.21.180.21, Ethernet8
+ I L2     100.0.0.26/32 [115/10] via 20.26.180.26, Ethernet23
+ I L2     100.0.0.31/32 [115/10] via 20.31.180.31, Ethernet15
+ I L2     100.0.0.34/32 [115/10] via 20.34.180.34, Ethernet9
+ I L2     100.0.0.56/32 [115/10] via 20.56.180.56, Ethernet11
+ I L2     100.0.0.161/32 [115/20] via 20.161.180.161, Ethernet54/1
+ C        100.0.0.180/32 is directly connected, Loopback0
+ I L2     100.0.0.181/32 [115/20] via 20.180.181.181, Ethernet1
+ I L2     100.0.0.182/32 [115/10] via 20.180.182.182, Ethernet2
+ I L2     100.0.0.183/32 [115/10] via 20.180.183.183, Ethernet3
+ I L2     100.0.0.184/32 [115/10] via 20.180.184.184, Ethernet4
+ I L2     100.0.3.41/32 [115/20] via 30.41.180.41, Ethernet17
+ I L2     100.0.3.45/32 [115/20] via 30.45.180.45, Ethernet18
+ I L2     100.0.3.48/32 [115/20] via 30.48.180.48, Ethernet19
+ I L2     100.0.3.58/32 [115/20] via 30.58.180.58, Ethernet21
+ I L2     100.0.3.60/32 [115/20] via 30.60.180.60, Ethernet27
+ I L2     100.0.30.9/32 [115/10] via 30.9.180.9, Ethernet25
+ I L2     100.0.37.9/32 [115/10] via 30.79.180.79, Ethernet49/1
+ I L2     192.168.20.0/23 [115/10] via 20.21.180.21, Ethernet8
+                                   via 20.18.180.18, Ethernet10
+
+
+VRF: mgmt
+Codes: C - connected, S - static, K - kernel, 
+       O - OSPF, IA - OSPF inter area, E1 - OSPF external type 1,
+       E2 - OSPF external type 2, N1 - OSPF NSSA external type 1,
+       N2 - OSPF NSSA external type2, B - Other BGP Routes,
+       B I - iBGP, B E - eBGP, R - RIP, I L1 - IS-IS level 1,
+       I L2 - IS-IS level 2, O3 - OSPFv3, A B - BGP Aggregate,
+       A O - OSPF Summary, NG - Nexthop Group Static Route,
+       V - VXLAN Control Service, M - Martian,
+       DH - DHCP client installed default route,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route
+
+Gateway of last resort:
+ S        0.0.0.0/0 [1/0] via 192.168.20.1, Management1
+
+ C        192.168.20.0/23 is directly connected, Management1
+
+
+VRF: tenant-a
+Codes: C - connected, S - static, K - kernel, 
+       O - OSPF, IA - OSPF inter area, E1 - OSPF external type 1,
+       E2 - OSPF external type 2, N1 - OSPF NSSA external type 1,
+       N2 - OSPF NSSA external type2, B - Other BGP Routes,
+       B I - iBGP, B E - eBGP, R - RIP, I L1 - IS-IS level 1,
+       I L2 - IS-IS level 2, O3 - OSPFv3, A B - BGP Aggregate,
+       A O - OSPF Summary, NG - Nexthop Group Static Route,
+       V - VXLAN Control Service, M - Martian,
+       DH - DHCP client installed default route,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route
+
+Gateway of last resort is not set
+
+
+! IP routing not enabled

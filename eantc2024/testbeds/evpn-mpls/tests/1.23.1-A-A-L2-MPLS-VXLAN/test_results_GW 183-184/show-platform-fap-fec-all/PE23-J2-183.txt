@@ -1,0 +1,35 @@
+Tunnel Type: Mpop(mpls pop), Mpush(mpls push), Mswap(mpls swap),
+             MoG(mpls-over-gre), T(IPv4 tunnels GRE/GUE/VXLAN),
+             N(Ipsec tunnel NAT-T [IP,SPORT,DPORT])
+CW  - Control word
+FL  - Flow label
+EL  - Entropy label
+ELI - Entropy label indicator
+D   - ECMP is divergent across switching chips
+ -----------------------------------------------------------------------------------------------
+|                                              FEC Entry                                        |
+ -----------------------------------------------------------------------------------------------
+|     |      |     |                    |     |        |                   |
+| ECMP|  FEC |     |                    |     |        |                   |
+|Index| Index| Cmd |     Destination    | VID | Outlif |   MAC / CPU Code  |    Tunnel Value
+ -----------------------------------------------------------------------------------------------
+|1    |131074|ROUTE| FEC 183510         |   - |2097150 |                 - |Mpush 900341 24000
+|1    |131075|ROUTE| FEC 183510         |   - |2097149 |                 - |Mpush 900056 524263
+|  -  |131072|ROUTE| FEC 183511         |4093 |103425  | 28:99:3a:8f:8f:6f |   -   
+|  -  |131073|ROUTE| FEC 183510         |   - |2097151 |                 - |Mpush 900341 24006
+|  -  |183502|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |183503|ROUTE| Et1                |1006 |103421  | 44:4c:a8:73:9c:0d |   -   
+|  -  |183504|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |183505|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |183506|ROUTE| Et1                |1006 |103421  | 44:4c:a8:73:9c:0d |   -   
+|  -  |183507|ROUTE| Et1                |1006 |103421  | 44:4c:a8:73:9c:0d |   -   
+|  -  |183509|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |183510|ROUTE| Et1                |1006 |103421  | 44:4c:a8:73:9c:0d |   -   
+|  -  |183511|ROUTE| Et1                |1006 |103423  | 44:4c:a8:73:9c:0d |T 100.0.0.181
+|  -  |314667|TRAP | CoppSystemIpBcast  |0    |  -     | BcastReceive      |   -   
+|  -  |314670|TRAP | CoppSystemIpUcast  |0    |  -     | Receive           |   -   
+|  -  |314671|TRAP | CoppSystemL3LpmOver|0    |  -     | SlowReceive       |   -   
+|  -  |314672|TRAP | CoppSystemL3LpmOver|0    |  -     | SlowReceive       |   -   
+|  -  |314673|TRAP | CoppSystemL3DstMiss|0    |  -     | ArpTrap           |   -   
+|  -  |315679|TRAP | CoppSystemL3DstMiss|1006 |1006    | ArpTrap           |   -   
+

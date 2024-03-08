@@ -1,0 +1,11 @@
+EVPN instance: VLAN 3301
+  Route distinguisher: 100.0.0.206:3301
+  Route target import: Route-Target-AS:3301:3301
+  Route target export: Route-Target-AS:3301:3301
+  Service interface: VLAN-based
+  Local VXLAN IP address: 100.0.0.206
+  VXLAN: enabled
+  MPLS: disabled
+  Remote ethernet segment:
+    ESI: 0011:1111:2222:2211:1111
+    Active TEPs: 100.0.3.41

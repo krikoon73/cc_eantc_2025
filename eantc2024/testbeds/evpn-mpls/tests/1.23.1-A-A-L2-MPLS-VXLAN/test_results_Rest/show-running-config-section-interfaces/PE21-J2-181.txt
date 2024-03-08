@@ -1,0 +1,1 @@
+alias d show interfaces description | grep -v 'not\|down'

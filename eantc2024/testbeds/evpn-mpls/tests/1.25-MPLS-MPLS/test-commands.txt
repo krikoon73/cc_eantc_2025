@@ -1,0 +1,10 @@
+show version
+show interfaces status
+show bgp evpn summary
+show bgp evpn instance
+show ip route vrf tenant-a
+show interfaces counters rates | nz
+show running-config section router bgp
+show running-config section interfaces
+show bgp vpn-ipv4 detail
+show patch panel detail

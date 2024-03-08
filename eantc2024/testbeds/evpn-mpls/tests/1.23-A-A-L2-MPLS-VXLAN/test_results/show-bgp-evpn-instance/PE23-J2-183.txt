@@ -1,0 +1,68 @@
+EVPN instance: VLAN 3301
+  Route distinguisher: 100.0.0.183:3301
+  Route distinguisher remote: 100.0.0.183:3301
+  Route target import: Route-Target-AS:3301:65412
+  Route target export: Route-Target-AS:3301:65412
+  Route target import remote: Route-Target-AS:3301:65414
+  Route target export remote: Route-Target-AS:3301:65414
+  Service interface: VLAN-based
+  Local VXLAN IP address: 100.0.0.183
+  Local MPLS IP address: 100.0.0.183
+  VXLAN: enabled
+  MPLS: enabled
+  Label allocation mode: per-instance
+  MAC route MPLS label: 1036292
+  IMET route MPLS label: 1036293
+  AD route MPLS label: 1036292
+  Local ethernet segment:
+    ESI: 0011:1111:1111:1111:1111
+      Interface: Vxlan1
+      Mode: all-active
+      State: up
+      ESI label: 1036288
+      ES-Import RT: 11:11:11:11:11:11
+      DF election algorithm: modulus
+      Designated forwarder: 100.0.0.183
+    ESI: 0000:00d1:0000:0000:00d1
+      Interface: MplsTrunk1
+      Mode: all-active
+      State: up
+      ESI label: 1044071
+      ES-Import RT: 00:00:d1:00:00:d1
+      DF election algorithm: modulus
+      Designated forwarder: 100.0.3.41
+      Non-Designated forwarder: 100.0.0.183
+EVPN instance: VLAN 3302
+  Route distinguisher: 100.0.0.183:3302
+  Route distinguisher remote: 100.0.0.183:3302
+  Route target import: Route-Target-AS:3302:65412
+  Route target export: Route-Target-AS:3302:65412
+  Route target import remote: Route-Target-AS:3302:65414
+  Route target export remote: Route-Target-AS:3302:65414
+  Service interface: VLAN-based
+  Local VXLAN IP address: 100.0.0.183
+  Local MPLS IP address: 100.0.0.183
+  VXLAN: enabled
+  MPLS: enabled
+  Label allocation mode: per-instance
+  MAC route MPLS label: 1036290
+  IMET route MPLS label: 1036291
+  AD route MPLS label: 1036290
+  Local ethernet segment:
+    ESI: 0011:1111:1111:1111:1111
+      Interface: Vxlan1
+      Mode: all-active
+      State: up
+      ESI label: 1036288
+      ES-Import RT: 11:11:11:11:11:11
+      DF election algorithm: modulus
+      Designated forwarder: 100.0.0.183
+    ESI: 0000:00d1:0000:0000:00d1
+      Interface: MplsTrunk1
+      Mode: all-active
+      State: up
+      ESI label: 1044071
+      ES-Import RT: 00:00:d1:00:00:d1
+      DF election algorithm: modulus
+      Designated forwarder: 100.0.0.183
+      Non-Designated forwarder: 100.0.3.41
