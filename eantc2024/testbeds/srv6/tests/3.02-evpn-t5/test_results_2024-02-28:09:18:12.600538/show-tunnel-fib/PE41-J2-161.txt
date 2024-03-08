@@ -1,0 +1,41 @@
+
+Type 'SRv6 Transport', index 361, endpoint fcbb:1:1000::/36, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 362, endpoint fcbb:0:1310::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 363, endpoint fcbb:0:36::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 364, endpoint fcbb:0:1000::/36, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 365, endpoint fcbb:0:20::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 366, endpoint fcbb:0:28::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+   via fe80::fa7a:41ff:fe18:8910, 'Ethernet10' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 367, endpoint fcbb:0:336::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+   via fe80::fa7a:41ff:fe18:8910, 'Ethernet10' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 368, endpoint fcbb:0:307::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 369, endpoint fcbb:0:1353::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 372, endpoint fcbb:0:59::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 377, endpoint fcbb:0:342::/48, forwarding None
+   via fe80::fa7a:41ff:fe18:8910, 'Ethernet10' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 378, endpoint fcbb:0:352::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161
+
+Type 'SRv6 Transport', index 379, endpoint fcbb:0:419::/48, forwarding None
+   via fe80::8e7a:ff:fee7:f53d, 'Ethernet20' SRv6, source 2002::161

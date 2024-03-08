@@ -2,6 +2,9 @@
 PE41-J2-161:
   groups: [SNAPSHOT]
   hostname: 192.168.20.161
-PE42-J2-162:
+SPINE2-J-180:
   groups: [SNAPSHOT]
-  hostname: 192.168.20.162
+  hostname: 192.168.20.180
+PE42-J2-182:
+  groups: [SNAPSHOT]
+  hostname: 192.168.20.182

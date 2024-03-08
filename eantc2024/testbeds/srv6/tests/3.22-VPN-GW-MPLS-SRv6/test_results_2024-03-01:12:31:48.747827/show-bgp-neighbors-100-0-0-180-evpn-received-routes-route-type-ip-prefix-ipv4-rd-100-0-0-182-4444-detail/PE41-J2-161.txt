@@ -1,0 +1,11 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.161, local AS number 1
+BGP routing table entry for ip-prefix 20.111.182.0/24, Route Distinguisher: 100.0.0.182:4444
+ Paths: 1 available
+  Local
+    100.0.0.182 from 100.0.0.180 (100.0.0.180)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 100.0.0.182, Cluster list: 100.0.0.180 
+      Extended Community: Route-Target-AS:4444:4444 TunnelEncap:tunnelTypeMpls
+      Rx path id: 0x1
+      MPLS label: 362148

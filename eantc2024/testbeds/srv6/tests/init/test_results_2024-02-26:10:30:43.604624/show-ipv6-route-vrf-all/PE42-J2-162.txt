@@ -1,0 +1,107 @@
+
+VRF: default
+Displaying 12 of 16 IPv6 routing table entries
+Source Codes:
+       C - connected, S - static, K - kernel, O3 - OSPFv3,
+       B - Other BGP Routes, A B - BGP Aggregate, R - RIP,
+       I L1 - IS-IS level 1, I L2 - IS-IS level 2, DH - DHCP,
+       NG - Nexthop Group Static Route, M - Martian,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+ I L2     2001:0:5:57::/64 [115/20]
+           via fe80::1a5b:ff:fe89:bfcc, Ethernet41/1
+ I L2     2001:0:57:59::/64 [115/20]
+           via fe80::1a5b:ff:fe89:bfcc, Ethernet41/1
+ C        2001:0:57:162::/64 [0/0]
+           via Ethernet41/1, directly connected
+ I L2     2001:0:57:303::/64 [115/20]
+           via fe80::1a5b:ff:fe89:bfcc, Ethernet41/1
+ I L2     2001:0:57:304::/64 [115/20]
+           via fe80::1a5b:ff:fe89:bfcc, Ethernet41/1
+ I L2     2001:0:59:304::/64 [115/30]
+           via fe80::1a5b:ff:fe89:bfcc, Ethernet41/1
+ I L2     2001:0:303:304::/64 [115/30]
+           via fe80::1a5b:ff:fe89:bfcc, Ethernet41/1
+ I L2     2002::57/128 [115/10]
+           via fe80::1a5b:ff:fe89:bfcc, Ethernet41/1
+ I L2     2002::59/128 [115/20]
+           via fe80::1a5b:ff:fe89:bfcc, Ethernet41/1
+ C        2002::162/128 [0/0]
+           via Loopback0, directly connected
+ I L2     2002::303/128 [115/20]
+           via fe80::1a5b:ff:fe89:bfcc, Ethernet41/1
+ I L2     2002::304/128 [115/20]
+           via fe80::1a5b:ff:fe89:bfcc, Ethernet41/1
+
+
+VRF: EVPNv4-T5-uSID
+Displaying 0 of 3 IPv6 routing table entries
+Source Codes:
+       C - connected, S - static, K - kernel, O3 - OSPFv3,
+       B - Other BGP Routes, A B - BGP Aggregate, R - RIP,
+       I L1 - IS-IS level 1, I L2 - IS-IS level 2, DH - DHCP,
+       NG - Nexthop Group Static Route, M - Martian,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+
+
+VRF: IPV6
+Displaying 6 of 9 IPv6 routing table entries
+Source Codes:
+       C - connected, S - static, K - kernel, O3 - OSPFv3,
+       B - Other BGP Routes, A B - BGP Aggregate, R - RIP,
+       I L1 - IS-IS level 1, I L2 - IS-IS level 2, DH - DHCP,
+       NG - Nexthop Group Static Route, M - Martian,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+ B I      59::59/128 [200/0]
+           via 2002::59/128, IS-IS SR tunnel index 1, label 1048574
+              via fe80::1a5b:ff:fe89:bfcc, Ethernet41/1, label 20159
+ B I      2001:0:83:111::/64 [200/0]
+           via 2002::303/128, IS-IS SR tunnel index 3, label 16
+              via fe80::1a5b:ff:fe89:bfcc, Ethernet41/1, label 20303
+ C        2002:162::162/128 [0/0]
+           via Loopback100, directly connected
+ B I      5757::/64 [200/0]
+           via 2002::57/128, IS-IS SR tunnel index 2, label 524280
+              via fe80::1a5b:ff:fe89:bfcc, Ethernet41/1, label 20157
+ B I      5757:1::57/128 [200/0]
+           via 2002::59/128, IS-IS SR tunnel index 1, label 1048574
+              via fe80::1a5b:ff:fe89:bfcc, Ethernet41/1, label 20159
+ B I      5757:1::/64 [200/0]
+           via 2002::59/128, IS-IS SR tunnel index 1, label 1048574
+              via fe80::1a5b:ff:fe89:bfcc, Ethernet41/1, label 20159
+
+
+VRF: VPNv4-uSID
+Displaying 0 of 3 IPv6 routing table entries
+Source Codes:
+       C - connected, S - static, K - kernel, O3 - OSPFv3,
+       B - Other BGP Routes, A B - BGP Aggregate, R - RIP,
+       I L1 - IS-IS level 1, I L2 - IS-IS level 2, DH - DHCP,
+       NG - Nexthop Group Static Route, M - Martian,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+
+
+VRF: mgmt
+Displaying 0 of 3 IPv6 routing table entries
+Source Codes:
+       C - connected, S - static, K - kernel, O3 - OSPFv3,
+       B - Other BGP Routes, A B - BGP Aggregate, R - RIP,
+       I L1 - IS-IS level 1, I L2 - IS-IS level 2, DH - DHCP,
+       NG - Nexthop Group Static Route, M - Martian,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+
+! IPv6 routing not enabled

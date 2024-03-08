@@ -1,0 +1,3 @@
+! Segment Routing over IPv6 is not enabled
+SRv6 SID function allocators for VRF default
+

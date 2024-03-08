@@ -1,0 +1,427 @@
+! IS-IS (sr_eantc) is shutdown
+Locator: fcbb:0:20::/48
+System ID: h3c_20_CR16010E-F
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:2:1011::/48
+System ID: CIEN-11-5169
+Flags: Down: unset
+Level: 2
+Algorithm: 129, Topology: 0
+
+Locator: fcbb:2:1011::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: unset
+Level: 2
+Algorithm: 129, Topology: 0
+
+Locator: fcbb:2:336::/48
+System ID: ZTE_336_ZXR10_M6000-8SE
+Flags: Down: unset
+Level: 2
+Algorithm: 129, Topology: 0
+
+Locator: fcbb:3:316::/48
+System ID: JNPR-316-MX304
+Flags: Down: unset
+Level: 2
+Algorithm: 130, Topology: 0
+
+Locator: fcbb:1:336::/48
+System ID: ZTE_336_ZXR10_M6000-8SE
+Flags: Down: unset
+Level: 2
+Algorithm: 128, Topology: 0
+
+Locator: fcbb:1:1000::/36
+System ID: Cisco353-8201-24H8FH
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:336::/48
+System ID: ZTE_336_ZXR10_M6000-8SE
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:1:28::/48
+System ID: h3c_28_S12500R-2L
+Flags: Down: unset
+Level: 2
+Algorithm: 128, Topology: 0
+
+Locator: fcbb:6:1302::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: unset
+Level: 2
+Algorithm: 133, Topology: 0
+
+Locator: fcbb:3:1011::/48
+System ID: CIEN-11-5169
+Flags: Down: unset
+Level: 2
+Algorithm: 130, Topology: 0
+
+Locator: fcbb:3:1011::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: unset
+Level: 2
+Algorithm: 130, Topology: 0
+
+Locator: fcbb:0:607::/48
+System ID: JNPR-307-ACX7024
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:1:352::/48
+System ID: Cisco352-N540
+Flags: Down: unset
+Level: 2
+Algorithm: 128, Topology: 0
+
+Locator: fcbb:2:352::/48
+System ID: Cisco352-N540
+Flags: Down: unset
+Level: 2
+Algorithm: 129, Topology: 0
+
+Locator: fcbb:2:36::/48
+System ID: huawei_36
+Flags: Down: unset
+Level: 2
+Algorithm: 129, Topology: 0
+
+Locator: fcbb:0:36::/48
+System ID: huawei_36
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:3:336::/48
+System ID: ZTE_336_ZXR10_M6000-8SE
+Flags: Down: unset
+Level: 2
+Algorithm: 130, Topology: 0
+
+Locator: fcbb:1:1000::/36
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: unset
+Level: 2
+Algorithm: 128, Topology: 0
+
+Locator: fcbb:1:1000::/36
+System ID: JNPR-310-ACX7100-48L
+Flags: Down: unset
+Level: 2
+Algorithm: 128, Topology: 0
+
+Locator: fcbb:0:1011::/48
+System ID: CIEN-11-5169
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:7:1353::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: unset
+Level: 2
+Algorithm: 134, Topology: 0
+
+Locator: fcbb:2:1302::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: unset
+Level: 2
+Algorithm: 129, Topology: 0
+
+Locator: fcbb:2:1302::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: unset
+Level: 2
+Algorithm: 129, Topology: 0
+
+Locator: fcbb::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:5:1353::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: unset
+Level: 2
+Algorithm: 132, Topology: 0
+
+Locator: fcbb:0:1310::/48
+System ID: JNPR-310-ACX7100-48L
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:1:316::/48
+System ID: JNPR-316-MX304
+Flags: Down: unset
+Level: 2
+Algorithm: 128, Topology: 0
+
+Locator: fcbb:7:1302::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: unset
+Level: 2
+Algorithm: 134, Topology: 0
+
+Locator: fcbb:2:316::/48
+System ID: JNPR-316-MX304
+Flags: Down: unset
+Level: 2
+Algorithm: 129, Topology: 0
+
+Locator: fcbb:3:1011::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:59::/48
+System ID: Nokia-59-IXRe2
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:28::/48
+System ID: h3c_28_S12500R-2L
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:3:1310::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: unset
+Level: 2
+Algorithm: 130, Topology: 0
+
+Locator: fcbb:3:1310::/48
+System ID: JNPR-310-ACX7100-48L
+Flags: Down: unset
+Level: 2
+Algorithm: 130, Topology: 0
+
+Locator: fcbb:0:161::/48
+System ID: anet-161-R3
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:1:307::/48
+System ID: JNPR-307-ACX7024
+Flags: Down: unset
+Level: 2
+Algorithm: 128, Topology: 0
+
+Locator: fcbb:0:419::/48
+System ID: 6401.0001.0000
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:419::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:6:1353::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: unset
+Level: 2
+Algorithm: 133, Topology: 0
+
+Locator: fcbb:3:36::/48
+System ID: huawei_36
+Flags: Down: unset
+Level: 2
+Algorithm: 130, Topology: 0
+
+Locator: fcbb:0:307::/48
+System ID: JNPR-307-ACX7024
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:2:1058::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: unset
+Level: 2
+Algorithm: 129, Topology: 0
+
+Locator: fcbb:2:1058::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: unset
+Level: 2
+Algorithm: 129, Topology: 0
+
+Locator: fcbb:0:1610::/48
+System ID: JNPR-310-ACX7100-48L
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:1000::/36
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:1000::/36
+System ID: JNPR-310-ACX7100-48L
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:1000::/36
+System ID: Cisco353-8201-24H8FH
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:1:1011::/48
+System ID: CIEN-11-5169
+Flags: Down: unset
+Level: 2
+Algorithm: 128, Topology: 0
+
+Locator: fcbb:3:1338::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: unset
+Level: 2
+Algorithm: 130, Topology: 0
+
+Locator: fcbb:0:341::/48
+System ID: h41-9902
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:4:336::/48
+System ID: ZTE_336_ZXR10_M6000-8SE
+Flags: Down: unset
+Level: 2
+Algorithm: 131, Topology: 0
+
+Locator: fcbb:2:1310::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: unset
+Level: 2
+Algorithm: 129, Topology: 0
+
+Locator: fcbb:2:1310::/48
+System ID: JNPR-310-ACX7100-48L
+Flags: Down: unset
+Level: 2
+Algorithm: 129, Topology: 0
+
+Locator: fcbb:2:1310::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: unset
+Level: 2
+Algorithm: 129, Topology: 0
+
+Locator: fcbb:1:1310::/48
+System ID: JNPR-310-ACX7100-48L
+Flags: Down: unset
+Level: 2
+Algorithm: 128, Topology: 0
+
+Locator: fcbb:0:1353::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:1000::/48
+System ID: CIEN-11-5169
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:1:342::/48
+System ID: Cisco342-9902
+Flags: Down: unset
+Level: 2
+Algorithm: 128, Topology: 0
+
+Locator: fcbb:0:316::/48
+System ID: JNPR-316-MX304
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:3:307::/48
+System ID: JNPR-307-ACX7024
+Flags: Down: unset
+Level: 2
+Algorithm: 130, Topology: 0
+
+Locator: fcbb:0:342::/48
+System ID: Cisco342-9902
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:2:1011::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:0:352::/48
+System ID: Cisco352-N540
+Flags: Down: unset
+Level: 2
+Algorithm: SPF (0), Topology: 0
+
+Locator: fcbb:5:1302::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: unset
+Level: 2
+Algorithm: 132, Topology: 0
+
+Locator: fcbb:2:1338::/48
+System ID: Nokia_58-SR1-3-SRv6
+Flags: Down: unset
+Level: 2
+Algorithm: 129, Topology: 0
+
+Locator: fcbb:2:1338::/48
+System ID: Cisco353-8201-24H8FH
+Flags: Down: unset
+Level: 2
+Algorithm: 129, Topology: 0
+
+Locator: fcbb:2:342::/48
+System ID: Cisco342-9902
+Flags: Down: unset
+Level: 2
+Algorithm: 129, Topology: 0
+
+Locator: fcbb:1:36::/48
+System ID: huawei_36
+Flags: Down: unset
+Level: 2
+Algorithm: 128, Topology: 0
+
+Locator: fcbb:2:307::/48
+System ID: JNPR-307-ACX7024
+Flags: Down: unset
+Level: 2
+Algorithm: 129, Topology: 0
+

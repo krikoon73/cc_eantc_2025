@@ -1,0 +1,21 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.161, local AS number 1
+Route status codes: s - suppressed contributor, * - valid, > - active, E - ECMP head, e - ECMP
+                    S - Stale, c - Contributing to ECMP, b - backup, L - labeled-unicast
+                    % - Pending best path selection
+Origin codes: i - IGP, e - EGP, ? - incomplete
+AS Path Attributes: Or-ID - Originator ID, C-LST - Cluster List, LL Nexthop - Link Local Nexthop
+
+          Network                Next Hop              Metric  LocPref Weight  Path
+          RD: 100.0.3.41:0 IPv4 prefix 20.111.182.0/24
+                                 2001::41              -       100     0       i Or-ID: 100.0.0.182 C-LST: 100.0.3.41 100.0.0.180 
+   %      RD: 21:59 IPv4 prefix 21.59.225.0/24
+                                 2002::59              -       100     0       i Or-ID: 0.231.244.180 C-LST: 100.0.3.41 
+ * >      RD: 10.0.0.59:6666 IPv4 prefix 44.59.225.0/24
+                                 2002::59              -       100     0       i Or-ID: 0.231.244.180 C-LST: 100.0.3.41 
+          RD: 1:130 IPv4 prefix 130.59.225.0/24
+                                 2002::59              -       100     0       i Or-ID: 0.231.244.180 C-LST: 100.0.3.41 
+          RD: 1:131 IPv4 prefix 131.59.225.0/24
+                                 2002::59              -       100     0       i Or-ID: 0.231.244.180 C-LST: 100.0.3.41 
+ * >      RD: 200:59 IPv4 prefix 200.59.225.0/24
+                                 2002::59              -       100     0       i Or-ID: 0.231.244.180 C-LST: 100.0.3.41 

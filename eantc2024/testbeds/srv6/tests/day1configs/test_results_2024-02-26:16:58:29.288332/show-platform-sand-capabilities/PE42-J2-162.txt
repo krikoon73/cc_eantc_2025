@@ -1,0 +1,142 @@
+    Capability                              : Status
+----------------------------------------------------
+Sand:
+-----
+    Supported:
+    ----------
+    Maximum multicast groups                : 31744
+    Maximum IP Security tunnel interfaces   : 0
+    Maximum egress ARP table entries        : 32000
+    Maximum SVI                             : 16000
+    Maximum LAGs                            : 1024
+    Usable LAGs                             : 1008
+    Maximum software LAGs                   : 1152
+    Maximum members per LAG                 : 16
+    Maximum MAC table entries               : 65536
+    LAG multicast load balancing
+    Unsupported:
+    ------------
+    Sand DANZ runnable
+    Sand IP security
+    FEC for each hop
+
+MSRP:
+-----
+    Supported:
+    ----------
+    MSRP
+
+MVRP:
+-----
+    Supported:
+    ----------
+    MVRP
+
+Routing:
+--------
+    Supported:
+    ----------
+    Tunnel interface modes                  : gre
+    Maximum nexthop group ECMP              : 256
+    Nexthop group MPLS label stack entries  : 12
+    Nexthop group types                     : ipv6OverUdp
+    Nexthop group types                     : ip
+    Nexthop group types                     : gre
+    Nexthop group types                     : mplsOverUdp
+    Nexthop group types                     : mplsOverGre
+    Nexthop group types                     : mpls
+    Nexthop group types                     : ipv4OverUdp
+    Maximum ECMP                            : 600
+    VRF routing
+    PBR
+    PBR Nexthop Vrf
+    IPv6 ACL PBR
+    IPv6 nexthop PBR
+    Nexthop group
+    Nexthop group PBR
+    MPLS match rule PBR
+    Sflow DSCP rewrite
+    URPF on all FAPs
+    MPLS pseudowire
+    MPLS static pseudowire
+    MPLS VPNv4
+    MPLS VPNv6
+
+V6 Routing:
+-----------
+    Supported:
+    ----------
+    IPv6 Maximum ECMP                       : 600
+    IPv6 ECMP
+
+ARP:
+----
+    Supported:
+    ----------
+    ARP table size                          : 104448
+    ARP neighbor table size                 : 208896
+
+QoS:
+----
+    Supported:
+    ----------
+    Default CoS value                       : 0
+    Default DSCP value                      : 0
+    Minimum transmit queue shape rate       : 50000
+    Minimum port shape rate                 : 1000
+    Maximum shape rate (pps)                : 600000000
+    Default CoS supported
+    Default DSCP supported
+    ECN
+    WRED
+    Hardware status reporting
+    TC to DSCP map
+    Dynamic Exp/TC mapping
+    Unsupported:
+    ------------
+    Transmit queue shape rate unit (pps)
+
+QoS ACL:
+--------
+    Supported:
+    ----------
+    Policy QoS actions                      : actionSetTc
+    Policy QoS actions                      : actionSetDscp
+    Number of QoS policy class maps         : 4096
+    Police byte mode minimum burst bytes    : 0
+    Police byte mode maximum burst bytes    : 4161500
+    Police byte mode minimum rate (kbps)    : 1
+    Police byte mode maximum rate (kbps)    : 1000000000
+    Policy QoS
+    Ingress policing
+    Ingress trTcm (two rate three color) policing
+    IPv4 ACLs
+    IPv6 ACLs
+    Shared policer
+    QoS ACL asynchronous support required
+    ACL hardware status reporting
+
+Bridging:
+---------
+    Supported:
+    ----------
+    Dot1q tunnel
+    VXLAN
+    VXLAN BFD
+    VXLAN L2 ECMP
+    Unsupported:
+    ------------
+    VXLAN multicast group
+
+Bridging/Topology:
+------------------
+    Supported:
+    ----------
+    Maximum topologies                      : 4095
+
+Interfaces:
+-----------
+    Supported:
+    ----------
+    Congestion drops log direction          : directionTxAndRx
+

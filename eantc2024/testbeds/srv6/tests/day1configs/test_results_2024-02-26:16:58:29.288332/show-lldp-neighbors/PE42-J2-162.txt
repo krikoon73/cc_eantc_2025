@@ -1,0 +1,11 @@
+Last table change time   : 9:34:22 ago
+Number of table inserts  : 2
+Number of table deletes  : 0
+Number of table drops    : 0
+Number of table age-outs : 0
+
+Port            Neighbor Device ID       Neighbor Port ID    TTL
+------------ ------------------------ ---------------------- ---
+Et41/1          NOKIA-SR2-57             1610899526          121
+Ma1             extreme-x460-1           22                  120
+
