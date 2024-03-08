@@ -1,0 +1,649 @@
+
+IS-IS Instance: srv6 VRF: default
+  IS-IS Level 1 Link State Database
+    LSPID                   Seq Num  Cksum  Life Length IS Flags
+    CIEN-11-5169.00-00          376  18287   503   1015 L2 <DefaultAtt>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      NLPID: 0x8E(IPv6)
+      Hostname: CIEN-11-5169
+      Area addresses: 49.0001
+      Interface address: 2001:0:11:310::11
+      IS Neighbor          : JNPR-310-ACX7100-48L.00 Metric: 10
+        IPv6 Neighbor Address: 2001:0:11:310::310
+        Global IPv6 Interface Address: 2001:0:11:310::11
+        Adj-sid: 24001 flags: [L V F] weight: 0x0
+      IS Neighbor          : Cisco353-8201-24H8FH.00 Metric: 10
+        IPv6 Neighbor Address: 2001:0:11:353::353
+        Global IPv6 Interface Address: 2001:0:11:353::11
+        Adj-sid: 24000 flags: [L V F] weight: 0x0
+      Reachability         : 10.0.0.11/32 Metric: 0 Type: 1 Up
+      Reachability          : 2002::11/128 Metric: 0 Type: 1 Up
+      Reachability          : fcbb:0:1011::/48 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:11:310::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:11:353::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:20:36::/64 Metric: 40 Type: 1 Down
+      Reachability          : 2001:0:28:336::/64 Metric: 70 Type: 1 Down
+      Reachability          : 2001:0:59:352::/64 Metric: 40 Type: 1 Down
+      Reachability          : 2001:0:307:352::/64 Metric: 30 Type: 1 Down
+      Reachability          : 2001:0:307:353::/64 Metric: 20 Type: 1 Down
+      Reachability          : 2001:1:20:36::/64 Metric: 50 Type: 1 Down
+      Reachability          : 2001:1:28:36::/64 Metric: 60 Type: 1 Down
+      Reachability          : 2001:1:59:352::/64 Metric: 50 Type: 1 Down
+      Reachability          : 2002::20/128 Metric: 40 Type: 1 Down
+      Reachability          : 2002::28/128 Metric: 60 Type: 1 Down
+      Reachability          : 2002::36/128 Metric: 30 Type: 1 Down
+      Reachability          : fcbb:0:20::/48 Metric: 40 Type: 1 Down
+      Reachability          : 2002::59/128 Metric: 40 Type: 1 Down
+      Reachability          : 2002::307/128 Metric: 20 Type: 1 Down
+      Reachability          : 2002::336/128 Metric: 60 Type: 1 Down
+      Reachability          : 2002::342/128 Metric: 70 Type: 1 Down
+      Reachability          : 2002::352/128 Metric: 40 Type: 1 Down
+      Reachability          : fcbb:0:161::/48 Metric: 60 Type: 1 Down
+      Reachability          : fcbb:0:307::/48 Metric: 20 Type: 1 Down
+      Reachability          : fcbb:0:342::/48 Metric: 61 Type: 1 Down
+      Reachability          : fcbb:0:352::/48 Metric: 31 Type: 1 Down
+      Reachability          : fcbb:0:1302::/48 Metric: 70 Type: 1 Down
+      Reachability          : 2001:0:59:161::/64 Metric: 50 Type: 1 Down
+      Reachability          : 2001:0:161:342::/64 Metric: 60 Type: 1 Down
+      Reachability          : 2002::161/128 Metric: 60 Type: 1 Down
+      Reachability          : fcbb:0:20::/48 Metric: 40 Type: 1 Down
+      Reachability          : 2001:0:316:342::/64 Metric: 70 Type: 1 Down
+      Reachability          : 2002::316/128 Metric: 70 Type: 1 Down
+      Reachability          : fcbb:0:28::/48 Metric: 60 Type: 1 Down
+      Reachability          : fcbb:0:336::/48 Metric: 50 Type: 1 Down
+      SRv6 Locator: fcbb:0:1011::/48 Topology: 0
+        Metric: 0 Algorithm: 0 Flags: []
+        SRv6 SID End with NEXT-CSID PSP USD
+          SID : fcbb:0:1011::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 16 Argument length: 0
+      Router Capabilities: Router Id: 10.0.0.11 Flags: []
+        SRv6 Capability: Flags: []
+        SR Capability: Flags: [V]
+          SRGB Base: 16000 Range: 8000
+        Algorithms:  0
+    h3c_29_S12500R-2L.00-00       136  22815   573    430 L1 <>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: h3c_29_S12500R-2L
+      Area addresses: 49.0001
+      Interface address: 2001:0:29:58::29
+      Interface address: 2002::29
+      Interface address: 2002:0:29:338::29
+      IS Neighbor          : ZTE_338_ZXR10_M6000-4SE.00 Metric: 10
+        IPv6 Neighbor Address: 2001:1:29:38::38
+        Global IPv6 Interface Address: 2002:0:29:338::29
+      IS Neighbor          : Nokia_58-SR1-3-SRv6.00 Metric: 10
+        IPv6 Neighbor Address: 2001:0:29:58::58
+        Global IPv6 Interface Address: 2001:0:29:58::29
+      Reachability          : 2001:0:29:58::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2002::29/128 Metric: 0 Type: 1 Up
+      Reachability          : 2002:0:29:338::/64 Metric: 10 Type: 1 Up
+      Reachability          : fcbb:0:1029::/48 Metric: 0 Type: 1 Up
+      SRv6 Locator: fcbb:0:1029::/48 Topology: 0
+        Metric: 0 Algorithm: 0 Flags: []
+        SRv6 SID End with NEXT-CSID PSP USD
+          SID : fcbb:0:1029::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 0 Argument length: 0
+      Router Capabilities: Router Id: 0.0.0.0 Flags: []
+        SRv6 Capability: Flags: []
+    Ericsson_6676_49.00-00       184  41888   946    486 L1 <>
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Ericsson_6676_49
+      Area addresses: 49.0001
+      Interface address: 10.0.0.49
+      Interface address: 2002::49
+      IS Neighbor          : huawei_199.00       Metric: 10
+        IPv4 Interface Address: 20.49.199.49
+        IPv6 Neighbor Address: 2001:0:49:199::199
+        Global IPv6 Interface Address: 2001:0:49:199::49
+      IS Neighbor          : ZTE_338_ZXR10_M6000-4SE.00 Metric: 10
+        IPv4 Interface Address: 21.38.49.49
+        IPv6 Neighbor Address: 2001:1:38:49::38
+        Global IPv6 Interface Address: 2001:1:38:49::49
+      Reachability         : 10.0.0.49/32 Metric: 10 Type: 1 Up
+      Reachability         : 20.49.199.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 21.38.49.0/24 Metric: 10 Type: 1 Up
+      Reachability          : 2002::49/128 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:49:199::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:1:38:49::/64 Metric: 10 Type: 1 Up
+      Reachability          : fcbb:0:1049::/48 Metric: 0 Type: 1 Up
+      SRv6 Locator: fcbb:0:1049::/48 Topology: 0
+        Metric: 0 Algorithm: 0 Flags: []
+        SRv6 SID End with NEXT-CSID PSP USD
+          SID : fcbb:0:1049::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 0 Argument length: 80
+      Router Capabilities: Router Id: 10.0.0.49 Flags: []
+        SRv6 Capability: Flags: []
+        Algorithms:  0
+    PE42-J2-162.00-00           110  19952  1015    250 L1 <>
+      LSP generation remaining wait time: 0 ms
+      Time remaining until refresh: 715 s
+      NLPID: 0x8E(IPv6)
+      Hostname: PE42-J2-162
+      Area addresses: 49.0001
+      Interface address: 2001:0:162:302::162
+      Interface address: 2001:0:162:344::162
+      Interface address: 2002::162
+      IS Neighbor          : Cisco344-N57B1.00   Metric: 10
+      IS Neighbor          : JNPR-302-MX204.00   Metric: 10
+      Reachability          : fcbb:0:1162::/48 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:162:302::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:162:344::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2002::162/128 Metric: 10 Type: 1 Up
+      SRv6 Locator: fcbb:0:1162::/48 Topology: 0
+        Metric: 10 Algorithm: 0 Flags: []
+        SRv6 SID End with NEXT-CSID PSP USD
+          SID : fcbb:0:1162::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 16 Argument length: 0
+      Router Capabilities: Router Id: 100.0.0.162 Flags: []
+        Area leader priority: 250 algorithm: 0
+        SRv6 Capability: Flags: []
+    huawei_199.00-00            152  58618   857    782 L1 <>
+      NLPID: 0x8E(IPv6)
+      Hostname: huawei_199
+      Area addresses: 49.0001
+      Topology: 0 (IPv4)
+      Interface address: 2001:0:19:344::199
+      Interface address: 2001:0:49:199::199
+      Interface address: 2002::199
+      IS Neighbor          : Cisco344-N57B1.00   Metric: 10
+      IS Neighbor          : Ericsson_6676_49.00 Metric: 10
+      Reachability          : fcbb:0:1199::/48 Metric: 0 Type: 1 Up
+      Reachability          : 2001:0:19:344::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:49:199::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2002::199/128 Metric: 0 Type: 1 Up
+      SRv6 Locator: fcbb:0:1199::/48 Topology: 0
+        Metric: 0 Algorithm: 0 Flags: []
+        SRv6 SID Un Supported
+          SID : fcbb:0:1199::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 0 Argument length: 80
+        SRv6 SID Un Supported
+          SID : fcbb:0:1199:e13f::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 16 Argument length: 64
+        SRv6 SID End with NEXT-CSID PSP USD
+          SID : fcbb:0:1199:e140::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 16 Argument length: 64
+        SRv6 SID End
+          SID : fcbb:0:1199:e141::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 16 Argument length: 0
+        SRv6 SID End with PSP
+          SID : fcbb:0:1199:e142::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 16 Argument length: 0
+        SRv6 SID End with PSP USP USD
+          SID : fcbb:0:1199:e143::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 16 Argument length: 0
+      Router Capabilities: Router Id: 0.0.0.0 Flags: []
+        SRv6 Capability: Flags: []
+    JNPR-302-MX204.00-00        108    445  1147    351 L1 <>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      NLPID: 0x8E(IPv6)
+      Hostname: JNPR-302-MX204
+      Area addresses: 49.0001
+      Interface address: 10.0.1.2
+      IS Neighbor          : PE42-J2-162.00      Metric: 10
+        Global IPv6 Interface Address: 2001:0:162:302::302
+      IS Neighbor          : Cisco353-8201-24H8FH.00 Metric: 10
+        IPv6 Neighbor Address: 2001:0:302:353::353
+        Global IPv6 Interface Address: 2001:0:302:353::302
+      Reachability          : 2002::302/128 Metric: 0 Type: 1 Up
+      Reachability          : 2001:0:162:302::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:302:353::/64 Metric: 10 Type: 1 Up
+      Reachability          : fcbb:0:316::/48 Metric: 0 Type: 1 Up
+      SRv6 Locator: fcbb:0:316::/48 Topology: 0
+        Metric: 0 Algorithm: 0 Flags: []
+        SRv6 SID End with NEXT-CSID PSP USP USD
+          SID : fcbb:0:316::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 0 Argument length: 80
+      Router Capabilities: Router Id: 10.0.1.2 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  0
+        SRv6 Capability: Flags: []
+        Algorithms:  0, 1
+      Unsupported TLV: Type: 14 Length: 2
+    JNPR-310-ACX7100-48L.00-00       444  30756   503   1339 L2 <DefaultAtt>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      NLPID: 0x8E(IPv6)
+      Hostname: JNPR-310-ACX7100-48L
+      Area addresses: 49.0001
+      Interface address: 10.0.1.10
+      IS Neighbor          : Nokia_58-SR1-3-SRv6.00 Metric: 10
+        IPv6 Neighbor Address: 2001:0:58:310::58
+        Global IPv6 Interface Address: 2001:0:58:310::310
+      Reachability          : 2001:0:58:310::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2002::310/128 Metric: 0 Type: 1 Up
+      Reachability          : 2001:0:20:36::/64 Metric: 30 Type: 1 Down
+      Reachability          : 2001:0:28:336::/64 Metric: 60 Type: 1 Down
+      Reachability          : 2001:1:20:36::/64 Metric: 40 Type: 1 Down
+      Reachability          : 2001:1:28:36::/64 Metric: 50 Type: 1 Down
+      Reachability          : 2002::20/128 Metric: 30 Type: 1 Down
+      Reachability          : 2002::28/128 Metric: 50 Type: 1 Down
+      Reachability          : 2002::36/128 Metric: 20 Type: 1 Down
+      Reachability          : 2002::336/128 Metric: 50 Type: 1 Down
+      Reachability          : 2001:0:11:310::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:59:352::/64 Metric: 50 Type: 1 Down
+      Reachability          : 2001:0:307:352::/64 Metric: 40 Type: 1 Down
+      Reachability          : 2001:0:307:353::/64 Metric: 30 Type: 1 Down
+      Reachability          : 2001:1:59:352::/64 Metric: 60 Type: 1 Down
+      Reachability          : 2002::59/128 Metric: 50 Type: 1 Down
+      Reachability          : 2002::307/128 Metric: 30 Type: 1 Down
+      Reachability          : 2002::352/128 Metric: 50 Type: 1 Down
+      Reachability          : 2001:0:59:161::/64 Metric: 60 Type: 1 Down
+      Reachability          : 2002::342/128 Metric: 80 Type: 1 Down
+      Reachability          : 2001:0:161:342::/64 Metric: 70 Type: 1 Down
+      Reachability          : 2002::161/128 Metric: 70 Type: 1 Down
+      Reachability          : fcbb:0:36::/48 Metric: 20 Type: 1 Down
+      Reachability          : fcbb:0:161::/48 Metric: 70 Type: 1 Down
+      Reachability          : fcbb:0:307::/48 Metric: 30 Type: 1 Down
+      Reachability          : fcbb:0:352::/48 Metric: 41 Type: 1 Down
+      Reachability          : fcbb:0:1310::/48 Metric: 0 Type: 1 Up
+      Reachability          : fcbb:0:20::/48 Metric: 30 Type: 1 Down
+      Reachability          : 2001:0:28:316::/64 Metric: 60 Type: 1 Down
+      SRv6 Locator: fcbb:0:1310::/48 Topology: 0
+        Metric: 0 Algorithm: 0 Flags: []
+      SRv6 Locator: fcbb:0:1310::/48 Topology: 0
+        Metric: 0 Algorithm: 0 Flags: [D]
+      SRv6 Locator: fcbb:0:36::/48 Topology: 0
+        Metric: 20 Algorithm: 0 Flags: [D]
+        SRv6 SID Un Supported
+          SID : fcbb:0:36::
+        SRv6 SID Un Supported
+          SID : fcbb:0:36:e141::
+        SRv6 SID End with NEXT-CSID PSP USD
+          SID : fcbb:0:36:e142::
+        SRv6 SID End
+          SID : fcbb:0:36:e143::
+        SRv6 SID End with PSP
+          SID : fcbb:0:36:e144::
+        SRv6 SID End with PSP USP USD
+          SID : fcbb:0:36:e145::
+      SRv6 Locator: fcbb:0:161::/48 Topology: 0
+        Metric: 70 Algorithm: 0 Flags: [D]
+        SRv6 SID End with NEXT-CSID PSP USD
+          SID : fcbb:0:161::
+      SRv6 Locator: fcbb:0:307::/48 Topology: 0
+        Metric: 30 Algorithm: 0 Flags: [D]
+      SRv6 Locator: fcbb:0:352::/48 Topology: 0
+        Metric: 41 Algorithm: 0 Flags: [D]
+        SRv6 SID End with NEXT-CSID PSP USD
+          SID : fcbb:0:352::
+      SRv6 Locator: fcbb:0:20::/48 Topology: 0
+        Metric: 30 Algorithm: 0 Flags: [D]
+        SRv6 SID Un Supported
+          SID : fcbb:0:20::
+        SRv6 SID Un Supported
+          SID : fcbb:0:20:e100::
+        SRv6 SID End with NEXT-CSID PSP USD
+          SID : fcbb:0:20:e101::
+        SRv6 SID Un Supported
+          SID : fcbb:0:20:e102::
+        SRv6 SID Un Supported
+          SID : fcbb:0:20:e103::
+        SRv6 SID End
+          SID : fcbb:0:20:e104::
+        SRv6 SID End with PSP USP USD
+          SID : fcbb:0:20:e105::
+      SRv6 Locator: fcbb:0:342::/48 Topology: 0
+        Metric: 71 Algorithm: 0 Flags: [D]
+        SRv6 SID End with NEXT-CSID PSP USD
+          SID : fcbb:0:342::
+      SRv6 Locator: fcbb:0:28::/48 Topology: 0
+        Metric: 50 Algorithm: 0 Flags: [D]
+        SRv6 SID End with NEXT-CSID PSP USD
+          SID : fcbb:0:28::
+      SRv6 Locator: fcbb:0:336::/48 Topology: 0
+        Metric: 40 Algorithm: 0 Flags: [D]
+        SRv6 SID End with NEXT-CSID PSP
+          SID : fcbb:0:336::
+      Router Capabilities: Router Id: 10.0.1.10 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  0
+        SRv6 Capability: Flags: []
+        Algorithms:  0, 1
+      Unsupported TLV: Type: 14 Length: 2
+    JNPR-310-ACX7100-48L.00-01       187  30381   503    290 L2 <>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      IS Neighbor          : CIEN-11-5169.00     Metric: 10
+        IPv6 Neighbor Address: 2001:0:11:310::11
+        Global IPv6 Interface Address: 2001:0:11:310::310
+      Reachability          : fcbb:0:48a::/48 Metric: 50 Type: 1 Down
+      Reachability          : 2002::316/128 Metric: 60 Type: 1 Down
+      Reachability          : fcbb:0:1302::/48 Metric: 60 Type: 1 Down
+      Reachability          : 2001:0:316:342::/64 Metric: 70 Type: 1 Down
+      Reachability          : fcbb:0:342::/48 Metric: 71 Type: 1 Down
+      Reachability          : fcbb:0:28::/48 Metric: 50 Type: 1 Down
+      Reachability          : fcbb:0:336::/48 Metric: 40 Type: 1 Down
+      SRv6 Locator: fcbb:0:1310::/48 Topology: 0
+        Metric: 0 Algorithm: 0 Flags: [D]
+        SRv6 SID End with NEXT-CSID PSP USP USD
+          SID : fcbb:0:1310::
+      SRv6 Locator: fcbb:0:1302::/48 Topology: 0
+        Metric: 60 Algorithm: 0 Flags: [D]
+        SRv6 SID End with NEXT-CSID PSP USP USD
+          SID : fcbb:0:1302::
+    ZTE_338_ZXR10_M6000-4SE.00-00       213  60535   663    501 L2 <>
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: ZTE_338_ZXR10_M6000-4SE
+      Area addresses: 49.0001
+      Interface address: 10.0.1.38
+      Interface address: 2002::338
+      IS Neighbor          : h3c_29_S12500R-2L.00 Metric: 10
+        IPv6 Neighbor Address: 2002:0:29:338::29
+        Global IPv6 Interface Address: 2001:1:29:38::38
+      IS Neighbor          : Ericsson_6676_49.00 Metric: 10
+        IPv4 Neighbor Address: 21.38.49.49
+        IPv4 Interface Address: 21.38.49.38
+        IPv6 Neighbor Address: 2001:1:38:49::49
+        Global IPv6 Interface Address: 2001:1:38:49::38
+        Adj-sid: 965536 flags: [L V] weight: 0x0
+      Reachability         : 10.0.1.38/32 Metric: 10 Type: 1 Up
+      Reachability         : 21.38.49.0/24 Metric: 10 Type: 1 Up
+      Reachability          : 2001:1:29:38::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:1:38:49::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2002::338/128 Metric: 10 Type: 1 Up
+      Reachability          : fcbb:0:1338::/48 Metric: 0 Type: 1 Up
+      SRv6 Locator: fcbb:0:1338::/48 Topology: 0
+        Metric: 0 Algorithm: 0 Flags: []
+        SRv6 SID End with NEXT-CSID PSP
+          SID : fcbb:0:1338::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 0 Argument length: 80
+      Router Capabilities: Router Id: 10.0.1.38 Flags: []
+        SR Local Block:
+          SRLB Base: 965536 Range: 4096
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  20
+        SRv6 Capability: Flags: []
+        SR Capability: Flags: [I]
+          SRGB Base: 900000 Range: 65536
+        Algorithms:  0, 1
+    Cisco344-N57B1.00-00        111  60197   697    418 L1 <>
+      NLPID: 0x8E(IPv6)
+      Hostname: Cisco344-N57B1
+      Area addresses: 49.0001
+      Interface address: 2002::344
+      IS Neighbor          : PE42-J2-162.00      Metric: 10
+        Global IPv6 Interface Address: 2001:0:162:344::344
+      IS Neighbor          : huawei_199.00       Metric: 10
+        IPv6 Neighbor Address: 2001:0:19:344::199
+        Global IPv6 Interface Address: 2001:0:199:344::344
+      Reachability          : 2001:0:162:344::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:199:344::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2002::344/128 Metric: 10 Type: 1 Up
+      Reachability          : fcbb:0:1344::/48 Metric: 1 Type: 1 Up
+      SRv6 Locator: fcbb:0:1344::/48 Topology: 0
+        Metric: 1 Algorithm: 0 Flags: []
+        SRv6 SID End with NEXT-CSID PSP USD
+          SID : fcbb:0:1344::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 0 Argument length: 80
+      Router Capabilities: Router Id: 0.0.0.0 Flags: []
+        SRv6 Capability: Flags: []
+        Algorithms:  0, 1
+      Unsupported TLV: Type: 14 Length: 2
+    Cisco353-8201-24H8FH.00-00       456  54182   502   1233 L2 <DefaultAtt>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      NLPID: 0x8E(IPv6)
+      Hostname: Cisco353-8201-24H8FH
+      Area addresses: 49.0001
+      Interface address: 2002::353
+      IS Neighbor          : CIEN-11-5169.00     Metric: 10
+        IPv6 Neighbor Address: 2001:0:11:353::11
+        Global IPv6 Interface Address: 2001:0:11:353::353
+      IS Neighbor          : JNPR-302-MX204.00   Metric: 10
+        IPv6 Neighbor Address: 2001:0:302:353::302
+        Global IPv6 Interface Address: 2001:0:302:353::353
+      Reachability          : 2001:0:11:353::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:59:161::/64 Metric: 40 Type: 1 Down
+      Reachability          : 2001:0:161:342::/64 Metric: 50 Type: 1 Down
+      Reachability          : 2001:0:302:353::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:307:352::/64 Metric: 20 Type: 1 Down
+      Reachability          : 2001:0:307:353::/64 Metric: 10 Type: 1 Down
+      Reachability          : 2002::36/128 Metric: 40 Type: 1 Down
+      Reachability          : 2002::307/128 Metric: 10 Type: 1 Down
+      Reachability          : 2002::353/128 Metric: 10 Type: 1 Up
+      Reachability          : fcbb:0:20::/48 Metric: 50 Type: 1 Down
+      Reachability          : fcbb:0:161::/48 Metric: 50 Type: 1 Down
+      Reachability          : fcbb:0:307::/48 Metric: 10 Type: 1 Down
+      Reachability          : fcbb:0:1353::/48 Metric: 1 Type: 1 Up
+      Reachability          : 2001:0:20:36::/64 Metric: 50 Type: 1 Down
+      Reachability          : 2001:0:28:316::/64 Metric: 70 Type: 1 Down
+      Reachability          : 2001:0:316:342::/64 Metric: 60 Type: 1 Down
+      Reachability          : 2001:1:20:36::/64 Metric: 60 Type: 1 Down
+      Reachability          : 2001:1:28:36::/64 Metric: 70 Type: 1 Down
+      Reachability          : 2002::20/128 Metric: 50 Type: 1 Down
+      Reachability          : 2002::28/128 Metric: 70 Type: 1 Down
+      Reachability          : 2002::336/128 Metric: 70 Type: 1 Down
+      Reachability          : fcbb:0:28::/48 Metric: 70 Type: 1 Down
+      Reachability          : fcbb:0:36::/48 Metric: 40 Type: 1 Down
+      Reachability          : fcbb:0:336::/48 Metric: 60 Type: 1 Down
+      Reachability          : fcbb:0:48a::/48 Metric: 50 Type: 1 Down
+      Reachability          : fcbb:0:1302::/48 Metric: 60 Type: 1 Down
+      Reachability          : 2001:0:28:336::/64 Metric: 80 Type: 1 Down
+      Reachability          : 2001:0:59:352::/64 Metric: 30 Type: 1 Down
+      Reachability          : 2001:1:59:352::/64 Metric: 40 Type: 1 Down
+      Reachability          : 2002::59/128 Metric: 30 Type: 1 Down
+      Reachability          : 2002::161/128 Metric: 50 Type: 1 Down
+      Reachability          : 2002::316/128 Metric: 60 Type: 1 Down
+      Reachability          : 2002::342/128 Metric: 60 Type: 1 Down
+      Reachability          : 2002::352/128 Metric: 30 Type: 1 Down
+      Reachability          : fcbb:0:342::/48 Metric: 51 Type: 1 Down
+      Reachability          : fcbb:0:352::/48 Metric: 21 Type: 1 Down
+      SRv6 Locator: fcbb:0:20::/48 Topology: 0
+        Metric: 50 Algorithm: 0 Flags: [D]
+      SRv6 Locator: fcbb:0:28::/48 Topology: 0
+        Metric: 70 Algorithm: 0 Flags: [D]
+      SRv6 Locator: fcbb:0:36::/48 Topology: 0
+        Metric: 40 Algorithm: 0 Flags: [D]
+      SRv6 Locator: fcbb:0:161::/48 Topology: 0
+        Metric: 50 Algorithm: 0 Flags: [D]
+      SRv6 Locator: fcbb:0:307::/48 Topology: 0
+        Metric: 10 Algorithm: 0 Flags: [D]
+      SRv6 Locator: fcbb:0:336::/48 Topology: 0
+        Metric: 60 Algorithm: 0 Flags: [D]
+      SRv6 Locator: fcbb:0:342::/48 Topology: 0
+        Metric: 51 Algorithm: 0 Flags: [D]
+      SRv6 Locator: fcbb:0:352::/48 Topology: 0
+        Metric: 21 Algorithm: 0 Flags: [D]
+      SRv6 Locator: fcbb:0:1302::/48 Topology: 0
+        Metric: 60 Algorithm: 0 Flags: [D]
+      SRv6 Locator: fcbb:0:1353::/48 Topology: 0
+        Metric: 1 Algorithm: 0 Flags: []
+        SRv6 SID End with NEXT-CSID PSP USD
+          SID : fcbb:0:1353::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 0 Argument length: 80
+      Router Capabilities: Router Id: 0.0.0.0 Flags: []
+        SRv6 Capability: Flags: []
+        Algorithms:  0, 1
+      Unsupported TLV: Type: 14 Length: 2
+    Nokia_58-SR1-3-SRv6.00-00       232  54773 63975    260 L2 <DefaultAtt>
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Nokia_58-SR1-3-SRv6
+      Area addresses:
+        49.0000.0000.0058.00
+        49.0001
+      Reachability          : fcbb:0:307::/48 Metric: 40 Type: 1 Down
+      Reachability          : fcbb:0:342::/48 Metric: 61 Type: 1 Down
+      Reachability          : fcbb:0:352::/48 Metric: 51 Type: 1 Down
+      SRv6 Locator: fcbb:0:307::/48 Topology: 0
+        Metric: 40 Algorithm: 0 Flags: [D]
+      SRv6 Locator: fcbb:0:342::/48 Topology: 0
+        Metric: 61 Algorithm: 0 Flags: [D]
+        SRv6 SID End with NEXT-CSID PSP USD
+          SID : fcbb:0:342::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 0 Argument length: 80
+      SRv6 Locator: fcbb:0:352::/48 Topology: 0
+        Metric: 51 Algorithm: 0 Flags: [D]
+        SRv6 SID End with NEXT-CSID PSP USD
+          SID : fcbb:0:352::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 0 Argument length: 80
+      Router Capabilities: Router Id: 10.0.0.58 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  0
+        SRv6 Capability: Flags: []
+        Algorithms:  0
+    Nokia_58-SR1-3-SRv6.00-01       177  52779 64834   1401 L2 <>
+      Interface address: 10.0.0.58
+      Interface address: 2001:0:29:58::58
+      Interface address: 2001:0:36:58::58
+      Interface address: 2001:0:58:310::58
+      Interface address: 2001:0:58:419::58
+      Interface address: 2002::58
+      IS Neighbor          : JNPR-310-ACX7100-48L.00 Metric: 10
+        IPv6 Neighbor Address: 2001:0:58:310::310
+        Global IPv6 Interface Address: 2001:0:58:310::58
+      IS Neighbor          : h3c_29_S12500R-2L.00 Metric: 10
+        IPv6 Neighbor Address: 2001:0:29:58::29
+        Global IPv6 Interface Address: 2001:0:29:58::58
+      IS Neighbor          : Keys-Ixia-419.00    Metric: 10
+        IPv6 Neighbor Address: 2001:0:58:419::419
+        Global IPv6 Interface Address: 2001:0:58:419::58
+      Reachability         : 10.0.0.58/32 Metric: 0 Type: 1 Up
+      Reachability          : 2001:0:20:36::/64 Metric: 20 Type: 1 Down
+      Reachability          : 2001:0:28:316::/64 Metric: 50 Type: 1 Down
+      Reachability          : 2001:0:28:336::/64 Metric: 50 Type: 1 Down
+      Reachability          : 2001:0:29:58::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:36:58::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:58:310::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:58:419::/64 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:59:161::/64 Metric: 70 Type: 1 Down
+      Reachability          : 2001:0:59:352::/64 Metric: 60 Type: 1 Down
+      Reachability          : 2001:0:161:342::/64 Metric: 70 Type: 1 Down
+      Reachability          : 2001:0:307:352::/64 Metric: 50 Type: 1 Down
+      Reachability          : 2001:0:307:353::/64 Metric: 40 Type: 1 Down
+      Reachability          : 2001:0:316:342::/64 Metric: 60 Type: 1 Down
+      Reachability          : 2001:1:20:36::/64 Metric: 30 Type: 1 Down
+      Reachability          : 2001:1:28:36::/64 Metric: 40 Type: 1 Down
+      Reachability          : 2001:1:59:352::/64 Metric: 70 Type: 1 Down
+      Reachability          : 2002::20/128 Metric: 20 Type: 1 Down
+      Reachability          : 2002::28/128 Metric: 40 Type: 1 Down
+      Reachability          : 2002::36/128 Metric: 10 Type: 1 Down
+      Reachability          : 2002::58/128 Metric: 0 Type: 1 Up
+      Reachability          : 2002::59/128 Metric: 60 Type: 1 Down
+      Reachability          : 2002::161/128 Metric: 80 Type: 1 Down
+      Reachability          : 2002::307/128 Metric: 40 Type: 1 Down
+      Reachability          : 2002::316/128 Metric: 50 Type: 1 Down
+      Reachability          : 2002::336/128 Metric: 40 Type: 1 Down
+      Reachability          : 2002::342/128 Metric: 70 Type: 1 Down
+      Reachability          : 2002::352/128 Metric: 60 Type: 1 Down
+      Reachability          : fcbb:0:20::/48 Metric: 20 Type: 1 Down
+      Reachability          : fcbb:0:28::/48 Metric: 40 Type: 1 Down
+      Reachability          : fcbb:0:36::/48 Metric: 10 Type: 1 Down
+      Reachability          : fcbb:0:161::/48 Metric: 80 Type: 1 Down
+      Reachability          : fcbb:0:336::/48 Metric: 30 Type: 1 Down
+      Reachability          : fcbb:0:48a::/48 Metric: 60 Type: 1 Down
+      Reachability          : fcbb:0:1302::/48 Metric: 50 Type: 1 Down
+      SRv6 Locator: fcbb:0:20::/48 Topology: 0
+        Metric: 20 Algorithm: 0 Flags: [D]
+        SRv6 SID Un Supported
+          SID : fcbb:0:20::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 0 Argument length: 0
+        SRv6 SID Un Supported
+          SID : fcbb:0:20:e100::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 16 Argument length: 0
+        SRv6 SID End with NEXT-CSID PSP USD
+          SID : fcbb:0:20:e101::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 16 Argument length: 0
+        SRv6 SID Un Supported
+          SID : fcbb:0:20:e102::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 16 Argument length: 0
+        SRv6 SID Un Supported
+          SID : fcbb:0:20:e103::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 16 Argument length: 0
+        SRv6 SID End
+          SID : fcbb:0:20:e104::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 16 Argument length: 0
+        SRv6 SID End with PSP USP USD
+          SID : fcbb:0:20:e105::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 16 Argument length: 0
+      SRv6 Locator: fcbb:0:28::/48 Topology: 0
+        Metric: 40 Algorithm: 0 Flags: [D]
+        SRv6 SID End with NEXT-CSID PSP USD
+          SID : fcbb:0:28::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 0 Argument length: 0
+      SRv6 Locator: fcbb:0:36::/48 Topology: 0
+        Metric: 10 Algorithm: 0 Flags: [D]
+        SRv6 SID Un Supported
+          SID : fcbb:0:36::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 0 Argument length: 80
+        SRv6 SID Un Supported
+          SID : fcbb:0:36:e141::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 16 Argument length: 64
+        SRv6 SID End with NEXT-CSID PSP USD
+          SID : fcbb:0:36:e142::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 16 Argument length: 64
+        SRv6 SID End
+          SID : fcbb:0:36:e143::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 16 Argument length: 0
+        SRv6 SID End with PSP
+          SID : fcbb:0:36:e144::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 16 Argument length: 0
+        SRv6 SID End with PSP USP USD
+          SID : fcbb:0:36:e145::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 16 Argument length: 0
+      SRv6 Locator: fcbb:0:161::/48 Topology: 0
+        Metric: 80 Algorithm: 0 Flags: [D]
+        SRv6 SID End with NEXT-CSID PSP USD
+          SID : fcbb:0:161::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 16 Argument length: 0
+      SRv6 Locator: fcbb:0:336::/48 Topology: 0
+        Metric: 30 Algorithm: 0 Flags: [D]
+        SRv6 SID End with NEXT-CSID PSP
+          SID : fcbb:0:336::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 0 Argument length: 80
+      SRv6 Locator: fcbb:0:1302::/48 Topology: 0
+        Metric: 50 Algorithm: 0 Flags: [D]
+        SRv6 SID End with NEXT-CSID PSP USP USD
+          SID : fcbb:0:1302::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 0 Argument length: 80
+    Keys-Ixia-419.00-00          24  49255   627    351 L2 <DefaultAtt>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6) 0x81(CLNP)
+      Hostname: Keys-Ixia-419
+      Area addresses: 49.0001
+      Interface address: 2001:0:58:419::419
+      IS Neighbor          : Nokia_58-SR1-3-SRv6.00 Metric: 10
+        IPv6 Neighbor Address: 2001:0:58:419::58
+        Global IPv6 Interface Address: 2001:0:58:419::419
+      Reachability          : 2002::419/128 Metric: 10 Type: 1 Up
+      Reachability          : fcbb:0:419::/48 Metric: 10 Type: 1 Up
+      Reachability          : 2001:0:58:419::/64 Metric: 10 Type: 1 Up
+      SRv6 Locator: fcbb:0:419::/48 Topology: 0
+        Metric: 0 Algorithm: 0 Flags: []
+        SRv6 SID End with NEXT-CSID PSP USD
+          SID : fcbb:0:419:11::
+          SID structure: Block length: 32 Node length: 16
+                         Function length: 0 Argument length: 80
+      Router Capabilities: Router Id: 10.0.1.119 Flags: []
+        SRv6 Capability: Flags: []
+        Algorithms:  0

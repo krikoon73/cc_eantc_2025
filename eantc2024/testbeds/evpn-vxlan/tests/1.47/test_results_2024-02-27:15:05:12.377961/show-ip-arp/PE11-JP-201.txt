@@ -1,0 +1,4 @@
+Address         Age (sec)  Hardware Addr   Interface
+20.200.201.200    0:00:05  444c.a873.5c75  Ethernet1
+20.201.205.205    0:00:27  444c.a873.a0ad  Ethernet10
+20.40.201.40      1:00:08  246c.8474.8ddb  Ethernet48

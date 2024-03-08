@@ -1,0 +1,342 @@
+! Command: show running-config
+! device: PE13-T3-203 (DCS-7050SX3-48YC12, EOS-4.31.2F)
+!
+! boot system flash:/EOS64-4.31.2F.swi
+!
+no aaa root
+aaa authentication policy local allow-nopassword-remote-login
+!
+username admin privilege 15 role network-admin nopassword
+username eantc privilege 15 role network-admin secret sha512 $6$ZswCmV3GVuWEiesM$ZRvQQUWfypDf9pPCUpT27.0Fi/kf3EGZ9oG5W/ao9.iS/iBtXIrwY4MwabSWuAY6g82op/H91K9bY1wSH17ji.
+username mitch privilege 15 role network-admin secret sha512 $6$qbiodMyYq3.EjzuD$SKent2xkDsP1HaV7rkV9WfM9VY4qINUfuFs9.D0FXeWhsfYWpEh5zS.0.auOMtb2a3QaXCJFYq/OhEz4NeNRn.
+username mitch ssh-key ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDuFySUMDJYQQ/1G2YLMCBXYEIuvkYbM8F2s3OqAM4Utb1So08gGUC/yvB+CokXWVDJD/O2QrqX0OlH7Oi7H5tFDYO7bQSrkDo/6UlbdcPiWF7PgUxE1p/fSZdiPtmcOL8+/LcPwK78BHTn2IBESP/nSDl5mRfX6tAaq4PLDNOaIQHWkgXIeldx9CN8ZcfPNIyX8QZ/vVvQuu38jlKEmWRw+ZDwUT3vKcBjKIBA1aiDCoSoUZuBw8/T9DY+xeWLbBLTBXlyWEE5PbuSn3FwJWoMamjuQvxOPPg0D/+pCRCXKrexwXdkWez5alcb2Q/tQP8SiQdu3Ww2O2X1cOVGkz3SCSd2Hh61K4a3IF4TCIrGj2cohPFDbfVDD5KeOOTnSeifw/4WSDT2KRrRK8bp30yr+UA8wFTQFcLIE0tFb0hgRT5Ba3CnSI+JFVStboGyrdrFSiizaJroJqkmFYJDy2yg5uB7gK+7yfmZ+MRzwGsSdPM1u2/FwMLDRwIbTreiyWE= mitch@mitch
+!
+terminal length 40
+terminal width 120
+alias ls bash ls -lrt /var/log/agents
+alias senz show interface counter error | nz
+alias shmc show int | awk '/^[A-Z]/ { intf = $1 } /, address is/ { print intf, $6 }'
+alias snz show interface counter | nz
+alias spd show port-channel %1 detail all
+alias sqnz show interface counter queue | nz
+alias srnz show interface counter rate | nz
+!
+load-interval default 5
+!
+service routing protocols model multi-agent
+!
+hostname PE13-T3-203
+ip name-server vrf mgmt 192.168.100.100
+ip name-server vrf mgmt 192.168.160.100
+dns domain ns.eantc.de
+!
+snmp-server community public ro
+!
+spanning-tree mode mstp
+spanning-tree root super
+!
+system l1
+   unsupported speed action error
+   unsupported error-correction action error
+!
+vlan 1203,1301-1304
+!
+vrf instance mgmt
+!
+vrf instance tenant-a
+!
+banner login
+----------------------------------------------------------
+--                                                      --
+--      Arista node for EANTC EVPN-VXLAN                --
+--      DO NOT login unless authorised                  --
+--         please contact vbagmar@                      --
+--                                                      --
+----------------------------------------------------------
+EOF
+!
+management api http-commands
+   protocol http
+   protocol https ssl profile TLS1.2
+   no shutdown
+   !
+   vrf mgmt
+      no shutdown
+!
+management security
+   ssl profile TLS1.2
+      tls versions 1.2
+      certificate ssl.crt key ssl.key
+!
+aaa authorization exec default local
+aaa authorization commands all default local
+!
+interface Port-Channel200
+   load-interval 1
+   switchport trunk allowed vlan 1203,1301-1304
+   switchport mode trunk
+   !
+   evpn ethernet-segment
+      identifier 0000:0000:0000:0203:0204
+      designated-forwarder election algorithm preference 200
+      route-target import 00:00:20:30:02:04
+   lacp system-id 0000.2030.0204
+   spanning-tree portfast
+!
+interface Ethernet1
+   description A-Spine-200
+   load-interval 1
+   speed forced 10000full
+   no switchport
+   ip address 20.200.203.203/24
+   pim ipv4 sparse-mode
+!
+interface Ethernet2
+   speed forced 10000full
+!
+interface Ethernet3
+   speed forced 10000full
+!
+interface Ethernet4
+   speed forced 10000full
+!
+interface Ethernet5
+   description A-Harn-205
+   load-interval 1
+   speed forced 10000full
+   channel-group 200 mode active
+!
+interface Ethernet6
+!
+interface Ethernet7
+!
+interface Ethernet8
+!
+interface Ethernet9
+!
+interface Ethernet10
+!
+interface Ethernet11
+!
+interface Ethernet12
+!
+interface Ethernet13
+!
+interface Ethernet14
+!
+interface Ethernet15
+!
+interface Ethernet16
+!
+interface Ethernet17
+!
+interface Ethernet18
+!
+interface Ethernet19
+!
+interface Ethernet20
+!
+interface Ethernet21
+!
+interface Ethernet22
+!
+interface Ethernet23
+!
+interface Ethernet24
+!
+interface Ethernet25
+!
+interface Ethernet26
+!
+interface Ethernet27
+!
+interface Ethernet28
+!
+interface Ethernet29
+!
+interface Ethernet30
+!
+interface Ethernet31
+!
+interface Ethernet32
+!
+interface Ethernet33
+!
+interface Ethernet34
+!
+interface Ethernet35
+!
+interface Ethernet36
+!
+interface Ethernet37
+!
+interface Ethernet38
+!
+interface Ethernet39
+!
+interface Ethernet40
+!
+interface Ethernet41
+!
+interface Ethernet42
+!
+interface Ethernet43
+!
+interface Ethernet44
+!
+interface Ethernet45
+!
+interface Ethernet46
+!
+interface Ethernet47
+!
+interface Ethernet48
+!
+interface Ethernet49/1
+!
+interface Ethernet50/1
+!
+interface Ethernet51/1
+!
+interface Ethernet52/1
+!
+interface Ethernet53/1
+!
+interface Ethernet54/1
+!
+interface Ethernet55/1
+!
+interface Ethernet56/1
+!
+interface Ethernet57/1
+!
+interface Ethernet58/1
+!
+interface Ethernet59/1
+!
+interface Ethernet60/1
+!
+interface Loopback0
+   description Router-ID
+   ip address 100.0.0.203/32
+!
+interface Loopback100
+   vrf tenant-a
+   ip address 100.0.1.203/32
+!
+interface Management1
+   vrf mgmt
+   ip address 192.168.20.203/23
+!
+interface Vlan1203
+   vrf tenant-a
+   ip igmp
+   pim ipv4 local-interface Loopback100
+   ip address virtual 10.10.203.254/24
+!
+interface Vlan1301
+   vrf tenant-a
+   ip igmp
+   pim ipv4 local-interface Loopback100
+   ip address virtual 10.30.1.254/24
+!
+interface Vlan1302
+   vrf tenant-a
+   ip igmp
+   pim ipv4 local-interface Loopback100
+   ip address virtual 10.30.2.254/24
+!
+interface Vlan1303
+   vrf tenant-a
+   ip igmp
+   pim ipv4 local-interface Loopback100
+   ip address virtual 10.30.3.254/24
+!
+interface Vlan1304
+   vrf tenant-a
+   ip igmp
+   pim ipv4 local-interface Loopback100
+   ip address virtual 10.30.4.254/24
+!
+interface Vxlan1
+   vxlan source-interface Loopback0
+   vxlan udp-port 4789
+   vxlan vlan 1203,1301-1304 vni 1203,1301-1304
+   vxlan vrf tenant-a vni 1000
+   vxlan vrf tenant-a multicast group 225.0.0.100
+!
+ip virtual-router mac-address 00:aa:aa:aa:aa:aa
+!
+ip routing
+ip routing vrf mgmt
+ip routing vrf tenant-a
+!
+monitor session spine source Ethernet1
+monitor session spine destination Cpu
+!
+ip route vrf mgmt 0.0.0.0/0 192.168.20.1
+!
+ntp server vrf mgmt 192.168.100.132
+!
+router bgp 65203
+   router-id 100.0.0.203
+   distance bgp 20 200 200
+   maximum-paths 8 ecmp 16
+   neighbor SPINE_EVPN peer group
+   neighbor SPINE_EVPN remote-as 65000
+   neighbor SPINE_EVPN next-hop-unchanged
+   neighbor SPINE_EVPN update-source Loopback0
+   neighbor SPINE_EVPN ebgp-multihop 5
+   neighbor SPINE_EVPN send-community extended
+   neighbor SPINE_EVPN maximum-routes 12000
+   neighbor SPINE_IPV4 peer group
+   neighbor SPINE_IPV4 remote-as 65000
+   neighbor SPINE_IPV4 maximum-routes 12000
+   neighbor SPINE_IPv4 peer group
+   neighbor SPINE_IPv4 next-hop-unchanged
+   neighbor SPINE_IPv4 send-community extended
+   neighbor 20.200.203.200 peer group SPINE_IPV4
+   neighbor 20.200.203.200 description ANET.IPV4
+   neighbor 100.0.0.200 peer group SPINE_EVPN
+   neighbor 100.0.0.200 description ANET.EVPN
+   redistribute connected
+   !
+   vlan 1203
+      rd 100.0.0.203:1203
+      route-target both 1203:1203
+      redistribute learned
+      redistribute static
+   !
+   vlan 1301
+      rd 100.0.0.203:1301
+      route-target both 1301:1301
+      redistribute learned
+      redistribute static
+   !
+   vlan 1302
+      rd 100.0.0.203:1302
+      route-target both 1302:1302
+      redistribute learned
+      redistribute static
+   !
+   vlan-aware-bundle 1303-1304
+      rd 100.0.0.203:1303
+      route-target both 1303:1303
+      redistribute learned
+      redistribute static
+      vlan 1303-1304
+   !
+   address-family evpn
+      neighbor SPINE_EVPN activate
+   !
+   address-family ipv4
+      no neighbor SPINE_EVPN activate
+   !
+   vrf tenant-a
+      rd 100.0.0.203:1000
+      evpn multicast
+      route-target import evpn 1000:1000
+      route-target export evpn 1000:1000
+      redistribute connected
+!
+end

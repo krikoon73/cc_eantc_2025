@@ -1,0 +1,9 @@
+BGP summary information for VRF default
+Router identifier 100.0.0.161, local AS number 1
+Neighbor           AS Session State AFI/SAFI                AFI/SAFI State   NLRI Rcd   NLRI Acc
+--------- ----------- ------------- ----------------------- -------------- ---------- ----------
+2002::353           1 Established   IPv4 Unicast            Received                0          0
+2002::353           1 Established   IPv4 MplsVpn            Negotiated             34         34
+2002::353           1 Established   IPv6 Unicast            Received                0          0
+2002::353           1 Established   IPv6 MplsVpn            Negotiated             22         22
+2002::353           1 Established   L2VPN EVPN              Negotiated            218          9

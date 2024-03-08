@@ -1,0 +1,634 @@
+001b.0100.0034, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0072, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0085, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+00aa.aaaa.aaaa, VLAN 1301, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+001b.0100.00c4, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0099, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.006b, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0066, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.008f, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00c7, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00c8, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.009f, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.004c, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.004b, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00b7, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00bb, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00a4, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0083, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0052, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0086, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+0056.5656.5656, VLAN 1303, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+001b.0100.005e, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0047, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0069, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00bd, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00b5, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.006a, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0043, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00a5, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0054, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.007c, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0050, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.004e, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00ae, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00c0, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.006c, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.007e, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0080, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0078, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0061, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00c2, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+00aa.aaaa.aaaa, VLAN 1303, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+001b.0100.009d, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.008d, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0082, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00ab, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0051, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.003c, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0059, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0037, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00a2, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0048, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0093, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.005d, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00b0, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.004f, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0087, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00b8, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.005a, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00c5, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0060, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0046, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.005c, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0042, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00ac, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+0056.5656.5656, VLAN 1301, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+001b.0100.00a0, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0084, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+00cc.cccc.bbbb, VLAN 1301, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.003d, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0089, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0038, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.004d, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0063, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.003b, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.007d, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+a288.0103.0001, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 100.0.0.56
+001b.0100.0096, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0071, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0092, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0036, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0058, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0077, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00a6, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0040, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00a1, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.003e, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0098, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0070, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00b9, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+a244.0101.0001, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 100.0.0.56
+001b.0100.005f, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0075, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.008b, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.007a, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00af, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0067, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0062, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0053, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0064, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00a8, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.008e, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0039, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0094, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0076, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.003a, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.007b, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0045, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00be, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.006f, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.007f, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0056, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0049, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0055, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00b6, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.004a, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.009a, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00b4, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0033, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.008c, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+00aa.aaaa.aaaa, VLAN 1304, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+001b.0100.00aa, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0004, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00bf, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0079, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00b2, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00b1, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00c1, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.005b, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00a3, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0065, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0097, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.009e, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.008a, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0003, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.009b, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.006e, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0035, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00ba, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.006d, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0068, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0088, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0095, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+0056.5656.5656, VLAN 1304, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+001b.0100.0090, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00bc, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0081, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00c3, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00a7, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00ad, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.003f, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.009c, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0057, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0074, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00c6, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0044, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00a9, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+a266.0102.0001, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 100.0.0.56
+001b.0100.0091, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.00b3, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0002, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0041, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204
+001b.0100.0073, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 13: 2-way
+      VTEP 100.0.0.203
+      VTEP 100.0.0.204

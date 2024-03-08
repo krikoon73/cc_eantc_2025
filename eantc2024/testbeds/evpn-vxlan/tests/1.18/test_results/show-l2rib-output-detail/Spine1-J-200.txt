@@ -1,0 +1,46 @@
+00aa.aaaa.aaaa, VLAN 1045, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+00aa.aaaa.aaaa, VLAN 1301, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+0017.0100.0002, VLAN 1301, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+00aa.aaaa.aaaa, VLAN 1201, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+0018.0100.0002, VLAN 1301, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+0018.0100.0003, VLAN 1302, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+00aa.aaaa.aaaa, VLAN 1303, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+0016.0100.0002, VLAN 1301, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+0013.0100.0004, VLAN 1303, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+0013.0100.0003, VLAN 1302, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+0016.0100.0003, VLAN 1302, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+4014.827b.84b0, VLAN 1042, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+00aa.aaaa.aaaa, VLAN 1040, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+00aa.aaaa.aaaa, VLAN 1304, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+0014.0100.0002, VLAN 1301, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+0017.0100.0003, VLAN 1302, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+00aa.aaaa.aaaa, VLAN 1302, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+0014.0100.0003, VLAN 1302, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+0013.0100.0005, VLAN 1304, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+0056.5656.5656, VLAN 1056, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+0013.0100.0002, VLAN 1301, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+246c.8474.8de0, VLAN 1040, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48
+0026.f002.0000, VLAN 1045, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet48

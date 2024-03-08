@@ -1,0 +1,6 @@
+Tunnel RIB: system-tunnel-rib
+   Tunnel Type      Tunnel Count
+------------------- ------------
+                                
+   Total tunnels               0
+

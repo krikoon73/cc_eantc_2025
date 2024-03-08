@@ -1,0 +1,38 @@
+          Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports      Moves   Last Move
+----    -----------       ----        -----      -----   ---------
+1022    444c.a873.5c75    STATIC      Router
+1040    246c.8474.8de0    DYNAMIC     Et48       1       1 day, 22:16:58 ago
+1040    444c.a873.5c75    STATIC      Router
+1042    4014.827b.84b0    DYNAMIC     Et48       1       1 day, 22:09:34 ago
+1042    444c.a873.5c75    STATIC      Router
+1045    0026.f002.0000    DYNAMIC     Et48       1       1 day, 22:29:26 ago
+1045    444c.a873.5c75    STATIC      Router
+1056    0014.0100.0001    DYNAMIC     Et48       1       0:39:43 ago
+1056    0056.5656.5656    DYNAMIC     Et48       1       0:41:52 ago
+1056    444c.a873.5c75    STATIC      Router
+1201    444c.a873.5c75    STATIC      Router
+1201    7483.ef0b.a4fb    DYNAMIC     Et48       1       18:32:17 ago
+1203    0015.0100.0001    DYNAMIC     Et48       1       18:21:28 ago
+1203    3838.a621.e82f    DYNAMIC     Et48       1       19:15:59 ago
+1203    444c.a873.5c75    STATIC      Router
+1203    985d.82a2.04f9    DYNAMIC     Et48       1       19:15:10 ago
+1301    444c.a873.5c75    STATIC      Router
+1301    7483.ef0b.a4fb    DYNAMIC     Et48       1       18:32:17 ago
+1302    444c.a873.5c75    STATIC      Router
+1302    7483.ef0b.a4fb    DYNAMIC     Et48       1       18:32:17 ago
+1303    444c.a873.5c75    STATIC      Router
+1303    7483.ef0b.a4fb    DYNAMIC     Et48       1       18:32:17 ago
+1304    00aa.aaaa.aaaa    DYNAMIC     Et48       1       0:00:40 ago
+1304    444c.a873.5c75    STATIC      Router
+1304    7483.ef0b.a4fb    DYNAMIC     Et48       1       18:32:17 ago
+Total Mac Addresses for this criterion: 25
+
+          Multicast Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       ----        -----
+Total Mac Addresses for this criterion: 0

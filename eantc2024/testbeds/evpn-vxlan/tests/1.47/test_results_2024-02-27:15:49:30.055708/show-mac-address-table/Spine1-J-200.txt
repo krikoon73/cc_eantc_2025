@@ -1,0 +1,24 @@
+          Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports      Moves   Last Move
+----    -----------       ----        -----      -----   ---------
+1022    444c.a873.5c75    STATIC      Router
+1040    444c.a873.5c75    STATIC      Router
+1042    444c.a873.5c75    STATIC      Router
+1045    444c.a873.5c75    STATIC      Router
+1056    444c.a873.5c75    STATIC      Router
+1201    444c.a873.5c75    STATIC      Router
+1203    444c.a873.5c75    STATIC      Router
+1301    444c.a873.5c75    STATIC      Router
+1302    444c.a873.5c75    STATIC      Router
+1303    444c.a873.5c75    STATIC      Router
+1304    444c.a873.5c75    STATIC      Router
+Total Mac Addresses for this criterion: 11
+
+          Multicast Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       ----        -----
+Total Mac Addresses for this criterion: 0

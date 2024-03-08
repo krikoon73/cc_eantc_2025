@@ -1,0 +1,11 @@
+
+VRF: default
+Address         Age (sec)  Hardware Addr   Interface
+20.200.204.200    0:00:18  444c.a873.5c75  Ethernet1
+
+VRF: mgmt
+Address         Age (sec)  Hardware Addr   Interface
+192.168.20.1      0:00:00  90e2.bac7.8074  Management1
+
+VRF: tenant-a
+Address         Age (sec)  Hardware Addr   Interface

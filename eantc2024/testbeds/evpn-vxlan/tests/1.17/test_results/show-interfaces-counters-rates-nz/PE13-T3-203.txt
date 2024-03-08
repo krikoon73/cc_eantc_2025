@@ -1,0 +1,5 @@
+Port      Name        Intvl  In Mbps      %  In Kpps Out Mbps      % Out Kpps
+Et1       A-Spine-200  0:01     47.0   0.6%       50     62.7   0.7%       67
+Et5       A-Harn-205   0:01     37.8   0.5%       67     28.4   0.4%       50
+Ma1                    0:05      0.1   0.0%        0      0.3   0.0%        0
+Po200                  0:01     37.8   0.5%       67     28.4   0.4%       50

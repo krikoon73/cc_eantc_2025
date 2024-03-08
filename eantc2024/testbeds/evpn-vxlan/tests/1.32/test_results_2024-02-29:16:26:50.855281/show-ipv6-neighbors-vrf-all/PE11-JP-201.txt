@@ -1,0 +1,36 @@
+
+VRF: default
+IPv6 Address                                  Age Hardware Addr   Interface
+fe80::464c:a8ff:fe73:5c75                 0:00:17 444c.a873.5c75  Et1
+
+VRF: mgmt
+IPv6 Address                                  Age Hardware Addr   Interface
+
+VRF: tenant-a
+IPv6 Address                                  Age Hardware Addr   Interface
+1000:1000:201::201                        0:36:27 0020.1000.0005  Vl1201, Port-Channel100
+fe80::220:10ff:fe00:5                     1:44:42 0020.1000.0005  Vl1201, Port-Channel100
+fe80::2aa:aaff:feaa:aaaa                  0:04:02 00aa.aaaa.aaaa  Vl1201, Router
+1000:3000:1::40                                 - 0040.0100.0001  Vl1301, Vxlan1
+1000:3000:1::56                                 - 0056.0000.0001  Vl1301, Vxlan1
+1000:3000:1::201                          0:36:27 0020.1000.0001  Vl1301, Port-Channel100
+1000:3000:1::203                                - 0020.3000.0001  Vl1301, Vxlan1
+1000:3000:1:0:240:1ff:fe00:1                    - 0040.0100.0001  Vl1301, Vxlan1
+fe80::2aa:aaff:feaa:aaaa                  0:05:08 00aa.aaaa.aaaa  Vl1301, Router
+1000:3000:2::22                           2:04:24 0022.0000.0002  Vl1302, Vxlan1
+1000:3000:2::40                                 - 0040.0100.0002  Vl1302, Vxlan1
+1000:3000:2::56                                 - 0056.0000.0002  Vl1302, Vxlan1
+1000:3000:2::201                                - 0020.1000.0002  Vl1302, Port-Channel100
+1000:3000:2::203                                - 0020.3000.0002  Vl1302, Vxlan1
+1000:3000:2:0:240:1ff:fe00:2                    - 0040.0100.0002  Vl1302, Vxlan1
+fe80::2aa:aaff:feaa:aaaa                  0:05:42 00aa.aaaa.aaaa  Vl1302, Router
+1000:3000:3::22                           2:04:24 0022.0000.0003  Vl1303, Vxlan1
+1000:3000:3::56                                 - 0056.0000.0003  Vl1303, Vxlan1
+1000:3000:3::201                          0:36:27 0020.1000.0003  Vl1303, Port-Channel100
+1000:3000:3::203                                - 0020.3000.0003  Vl1303, Vxlan1
+fe80::2aa:aaff:feaa:aaaa                  0:19:18 00aa.aaaa.aaaa  Vl1303, Router
+1000:3000:4::22                           2:04:24 0022.0000.0004  Vl1304, Vxlan1
+1000:3000:4::56                                 - 0056.0000.0004  Vl1304, Vxlan1
+1000:3000:4::201                          0:36:27 0020.1000.0004  Vl1304, Port-Channel100
+1000:3000:4::203                                - 0020.3000.0004  Vl1304, Vxlan1
+fe80::2aa:aaff:feaa:aaaa                  4:03:31 00aa.aaaa.aaaa  Vl1304, Router

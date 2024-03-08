@@ -1,0 +1,18 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.162, local AS number 65000
+BGP routing table entry for ip-prefix 57.57.57.57/32, Route Distinguisher: 10.0.0.57:6002
+ Paths: 1 available
+  1
+    2002::57 from 2002::59 (10.0.0.59)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 10.0.0.57, Cluster list: 0.231.244.180 
+      Extended Community: Route-Target-AS:65000:6002 TunnelEncap:tunnelTypeMpls
+      Rx path id: 0xf
+      MPLS label: 524280
+BGP routing table entry for ip-prefix 162.162.162.162/32, Route Distinguisher: 10.0.0.162:1
+ Paths: 1 available
+  Local
+    - from - (0.0.0.0)
+      Origin IGP, metric -, localpref -, weight 0, tag 0, valid, local, best, redistributed (Connected)
+      Extended Community: Route-Target-AS:65000:6001 Route-Target-AS:65000:6002 TunnelEncap:tunnelTypeMpls
+      MPLS label: 116384

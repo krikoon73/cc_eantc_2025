@@ -1,0 +1,71 @@
+
+VRF: VPNv4-uSID
+Displaying 20 of 24 IPv6 routing table entries
+Codes: C - connected, S - static, K - kernel, O3 - OSPFv3,
+       B - Other BGP Routes, A B - BGP Aggregate, R - RIP,
+       I L1 - IS-IS level 1, I L2 - IS-IS level 2, DH - DHCP,
+       NG - Nexthop Group Static Route, M - Martian,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+ B I      2001:20:11:225::/64 [200/0]
+           via fcbb:0:1011::/48, SRv6 Transport tunnel index 198, SRv6 SID fcbb:0:1011:e002::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      2001:20:20:225::/64 [200/0]
+           via fcbb:0:20::/48, SRv6 Transport tunnel index 176, SRv6 SID fcbb:0:20:e101::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      2001:20:28:225::/64 [200/0]
+           via fcbb:0:28::/48, SRv6 Transport tunnel index 190, SRv6 SID fcbb:0:28:e101::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      2001:20:29:225::/64 [200/0]
+           via fcbb:0:1029::/48, SRv6 Transport tunnel index 189, SRv6 SID fcbb:0:1029:e101::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      2001:20:36:225::/64 [200/0]
+           via fcbb:0:36::/48, SRv6 Transport tunnel index 175, SRv6 SID fcbb:0:36:e140::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      2001:20:58:225::/64 [200/0]
+           via fcbb:0:1058::/48, SRv6 Transport tunnel index 199, SRv6 SID fcbb:0:1058:e018::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      2001:20:59:225::/64 [200/0]
+           via fcbb:0:59::/48, SRv6 Transport tunnel index 170, SRv6 SID fcbb:0:59:e018::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      2001:20:102:225::/64 [200/0]
+           via fcbb:0:1302::/48, SRv6 Transport tunnel index 132, SRv6 SID fcbb:0:1302:e001::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      2001:20:107:225::/64 [200/0]
+           via fcbb:0:307::/48, SRv6 Transport tunnel index 201, SRv6 SID fcbb:0:307:e001::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      2001:20:110:225::/64 [200/0]
+           via fcbb:0:1310::/48, SRv6 Transport tunnel index 200, SRv6 SID fcbb:0:1310:e001::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      2001:20:116:225::/64 [200/0]
+           via fcbb:0:316::/48, SRv6 Transport tunnel index 202, SRv6 SID fcbb:0:316:e003::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      2001:20:142:225::/64 [200/0]
+           via fcbb:0:342::/48, SRv6 Transport tunnel index 171, SRv6 SID fcbb:0:342:e003::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      2001:20:144:225::/64 [200/0]
+           via fcbb:0:1344::/48, SRv6 Transport tunnel index 15, SRv6 SID fcbb:0:1344:e003::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      2001:20:152:225::/64 [200/0]
+           via fcbb:0:352::/48, SRv6 Transport tunnel index 165, SRv6 SID fcbb:0:352:e000::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      2001:20:153:225::/64 [200/0]
+           via fcbb:0:1353::/48, SRv6 Transport tunnel index 131, SRv6 SID fcbb:0:1353:e004::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      2001:20:161:225::/64 [200/0]
+           via fcbb:0:161::/48, SRv6 Transport tunnel index 172, SRv6 SID fcbb:0:161:401::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ C        2001:20:162:225::/64 [0/0]
+           via Vlan20, directly connected
+ B I      2001:20:199:225::/64 [200/0]
+           via fcbb:0:1199::/48, SRv6 Transport tunnel index 55, SRv6 SID fcbb:0:1199:e1b8::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      2001:20:336:225::/64 [200/0]
+           via fcbb:0:336::/48, SRv6 Transport tunnel index 169, SRv6 SID fcbb:0:336:e665::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+ B I      2001:20:338:225::/64 [200/0]
+           via fcbb:0:1338::/48, SRv6 Transport tunnel index 48, SRv6 SID fcbb:0:1338:e667::
+              via fe80::f24b:3aff:fe21:9e0f, Ethernet10
+

@@ -1,0 +1,606 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.200, local AS number 65000
+BGP routing table entry for mac-ip 0000.0181.0181, Route Distinguisher: 100.0.3.41:3311
+ Paths: 1 available
+  64512
+    100.0.3.41 from 100.0.3.41 (100.0.3.41)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Community: 1:5641
+      Extended Community: Route-Target-AS:3301:3301 TunnelEncap:tunnelTypeVxlan TunnelEncap:tunnelTypeMpls EvpnMacMobility:sticky EvpnRouterMac:00:00:00:00:00:00
+      VNI: 3301 ESI: 0011:1111:2222:2211:1111
+      D-PATH: 1:1:EVPN
+BGP routing table entry for mac-ip 0000.0206.0206, Route Distinguisher: 100.0.0.206:3301
+ Paths: 1 available
+  65206
+    100.0.0.206 from 100.0.0.206 (100.0.0.206)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:3301:3301 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 3301 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0020.1000.0001, Route Distinguisher: 100.0.0.201:1301
+ Paths: 1 available
+  65201
+    2000::201 from 2000::201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan
+      VNI: 1301 ESI: 0000:0000:0000:0201:0202
+BGP routing table entry for mac-ip 0020.1000.0001 1000:3000:1::201, Route Distinguisher: 100.0.0.201:1301
+ Paths: 1 available
+  65201
+    2000::201 from 2000::201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1301:1301 Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:22:83
+      VNI: 1301 L3 VNI: 1000 ESI: 0000:0000:0000:0201:0202
+BGP routing table entry for mac-ip 0020.1000.0001 1000:3000:1::201, Route Distinguisher: 100.0.0.202:1301
+ Paths: 1 available
+  65202
+    2000::202 from 2000::202 (100.0.0.202)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:25:b7 EvpnNdFlags:pflag
+      VNI: 1301 L3 VNI: 1000 ESI: 0000:0000:0000:0201:0202
+BGP routing table entry for mac-ip 0020.1000.0002, Route Distinguisher: 100.0.0.201:1302
+ Paths: 1 available
+  65201
+    2000::201 from 2000::201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan
+      VNI: 1302 ESI: 0000:0000:0000:0201:0202
+BGP routing table entry for mac-ip 0020.1000.0002, Route Distinguisher: 100.0.0.202:1302
+ Paths: 1 available
+  65202
+    2000::202 from 2000::202 (100.0.0.202)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan
+      VNI: 1302 ESI: 0000:0000:0000:0201:0202
+BGP routing table entry for mac-ip 0020.1000.0002 1000:3000:2::201, Route Distinguisher: 100.0.0.201:1302
+ Paths: 1 available
+  65201
+    2000::201 from 2000::201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1302:1302 Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:22:83 EvpnNdFlags:pflag
+      VNI: 1302 L3 VNI: 1000 ESI: 0000:0000:0000:0201:0202
+BGP routing table entry for mac-ip 0020.1000.0002 1000:3000:2::201, Route Distinguisher: 100.0.0.202:1302
+ Paths: 1 available
+  65202
+    2000::202 from 2000::202 (100.0.0.202)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:25:b7
+      VNI: 1302 L3 VNI: 1000 ESI: 0000:0000:0000:0201:0202
+BGP routing table entry for mac-ip 0020.1000.0005, Route Distinguisher: 100.0.0.202:1201
+ Paths: 1 available
+  65202
+    2000::202 from 2000::202 (100.0.0.202)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1201:1201 TunnelEncap:tunnelTypeVxlan
+      VNI: 1201 ESI: 0000:0000:0000:0201:0202
+BGP routing table entry for mac-ip 0020.1000.0005 1000:1000:201::201, Route Distinguisher: 100.0.0.201:1201
+ Paths: 1 available
+  65201
+    2000::201 from 2000::201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1201:1201 Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:22:83
+      VNI: 1201 L3 VNI: 1000 ESI: 0000:0000:0000:0201:0202
+BGP routing table entry for mac-ip 0020.1000.0005 1000:1000:201::201, Route Distinguisher: 100.0.0.202:1201
+ Paths: 1 available
+  65202
+    2000::202 from 2000::202 (100.0.0.202)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1201:1201 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:25:b7 EvpnNdFlags:pflag
+      VNI: 1201 L3 VNI: 1000 ESI: 0000:0000:0000:0201:0202
+BGP routing table entry for mac-ip 0020.3000.0001, Route Distinguisher: 100.0.0.203:1301
+ Paths: 1 available
+  65203
+    2000::203 from 2000::203 (100.0.0.203)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan
+      VNI: 1301 ESI: 0000:0000:0000:0203:0204
+BGP routing table entry for mac-ip 0020.3000.0001 1000:3000:1::203, Route Distinguisher: 100.0.0.203:1301
+ Paths: 1 available
+  65203
+    2000::203 from 2000::203 (100.0.0.203)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:38:38:a6:21:e8:2f EvpnNdFlags:pflag
+      VNI: 1301 L3 VNI: 1000 ESI: 0000:0000:0000:0203:0204
+BGP routing table entry for mac-ip 0020.3000.0001 1000:3000:1::203, Route Distinguisher: 100.0.0.204:1301
+ Paths: 1 available
+  65204
+    2000::204 from 2000::204 (100.0.0.204)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:98:5d:82:a2:04:f9
+      VNI: 1301 L3 VNI: 1000 ESI: 0000:0000:0000:0203:0204
+BGP routing table entry for mac-ip 0020.3000.0002, Route Distinguisher: 100.0.0.203:1302
+ Paths: 1 available
+  65203
+    2000::203 from 2000::203 (100.0.0.203)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan
+      VNI: 1302 ESI: 0000:0000:0000:0203:0204
+BGP routing table entry for mac-ip 0020.3000.0002 1000:3000:2::203, Route Distinguisher: 100.0.0.203:1302
+ Paths: 1 available
+  65203
+    2000::203 from 2000::203 (100.0.0.203)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:38:38:a6:21:e8:2f
+      VNI: 1302 L3 VNI: 1000 ESI: 0000:0000:0000:0203:0204
+BGP routing table entry for mac-ip 0020.3000.0002 1000:3000:2::203, Route Distinguisher: 100.0.0.204:1302
+ Paths: 1 available
+  65204
+    2000::204 from 2000::204 (100.0.0.204)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:98:5d:82:a2:04:f9 EvpnNdFlags:pflag
+      VNI: 1302 L3 VNI: 1000 ESI: 0000:0000:0000:0203:0204
+BGP routing table entry for mac-ip 0020.3000.0005, Route Distinguisher: 100.0.0.203:1203
+ Paths: 1 available
+  65203
+    2000::203 from 2000::203 (100.0.0.203)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1203:1203 TunnelEncap:tunnelTypeVxlan
+      VNI: 1203 ESI: 0000:0000:0000:0203:0204
+BGP routing table entry for mac-ip 0020.3000.0005 1000:1000:203::203, Route Distinguisher: 100.0.0.203:1203
+ Paths: 1 available
+  65203
+    2000::203 from 2000::203 (100.0.0.203)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1203:1203 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:38:38:a6:21:e8:2f EvpnNdFlags:pflag
+      VNI: 1203 L3 VNI: 1000 ESI: 0000:0000:0000:0203:0204
+BGP routing table entry for mac-ip 0020.3000.0005 1000:1000:203::203, Route Distinguisher: 100.0.0.204:1203
+ Paths: 1 available
+  65204
+    2000::204 from 2000::204 (100.0.0.204)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1203:1203 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:98:5d:82:a2:04:f9
+      VNI: 1203 L3 VNI: 1000 ESI: 0000:0000:0000:0203:0204
+BGP routing table entry for mac-ip 0022.0000.0001, Route Distinguisher: 100.0.0.22:1301
+ Paths: 1 available
+  65022
+    2000::22 from 2000::22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan
+      VNI: 1301 ESI: 0000:0000:0000:0022:0023
+BGP routing table entry for mac-ip 0022.0000.0001 1000:3000:1::22, Route Distinguisher: 100.0.0.22:1301
+ Paths: 1 available
+  65022
+    2000::22 from 2000::22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:c4:07:78:0a:9f:31 EvpnNdFlags:oflag
+      VNI: 1301 L3 VNI: 1000 ESI: 0000:0000:0000:0022:0023
+BGP routing table entry for mac-ip 0022.0000.0002, Route Distinguisher: 100.0.0.22:1302
+ Paths: 1 available
+  65022
+    2000::22 from 2000::22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan
+      VNI: 1302 ESI: 0000:0000:0000:0022:0023
+BGP routing table entry for mac-ip 0022.0000.0005, Route Distinguisher: 100.0.0.22:1022
+ Paths: 1 available
+  65022
+    2000::22 from 2000::22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1022:1022 TunnelEncap:tunnelTypeVxlan
+      VNI: 1022 ESI: 0000:0000:0000:0022:0023
+BGP routing table entry for mac-ip 0022.0000.0005 1000:1000:22::22, Route Distinguisher: 100.0.0.22:1022
+ Paths: 1 available
+  65022
+    2000::22 from 2000::22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1022:1022 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:c4:07:78:0a:9f:31
+      VNI: 1022 L3 VNI: 1000 ESI: 0000:0000:0000:0022:0023
+BGP routing table entry for mac-ip 0022.0000.0005 fe80::222:ff:fe00:5, Route Distinguisher: 100.0.0.22:1022
+ Paths: 1 available
+  65022
+    2000::22 from 2000::22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1022:1022 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:c4:07:78:0a:9f:31
+      VNI: 1022 L3 VNI: 1000 ESI: 0000:0000:0000:0022:0023
+BGP routing table entry for mac-ip 0040.0100.0001, Route Distinguisher: 100.0.0.40:34068
+ Paths: 1 available
+  65040
+    2000::40 from 2000::40 (100.0.0.40)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan
+      VNI: 1301 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0040.0100.0001 1000:3000:1::40, Route Distinguisher: 100.0.0.40:34068
+ Paths: 1 available
+  65040
+    2000::40 from 2000::40 (100.0.0.40)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:24:6c:84:74:8d:db
+      VNI: 1301 L3 VNI: 1000 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0040.0100.0001 1000:3000:1:0:240:1ff:fe00:1, Route Distinguisher: 100.0.0.40:34068
+ Paths: 1 available
+  65040
+    2000::40 from 2000::40 (100.0.0.40)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:24:6c:84:74:8d:db
+      VNI: 1301 L3 VNI: 1000 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0040.0100.0002, Route Distinguisher: 100.0.0.40:34069
+ Paths: 1 available
+  65040
+    2000::40 from 2000::40 (100.0.0.40)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan
+      VNI: 1302 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0040.0100.0002 1000:3000:2::40, Route Distinguisher: 100.0.0.40:34069
+ Paths: 1 available
+  65040
+    2000::40 from 2000::40 (100.0.0.40)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:24:6c:84:74:8d:db
+      VNI: 1302 L3 VNI: 1000 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0040.0100.0002 1000:3000:2:0:240:1ff:fe00:2, Route Distinguisher: 100.0.0.40:34069
+ Paths: 1 available
+  65040
+    2000::40 from 2000::40 (100.0.0.40)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:24:6c:84:74:8d:db
+      VNI: 1302 L3 VNI: 1000 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0040.0100.0003, Route Distinguisher: 100.0.0.40:33807
+ Paths: 1 available
+  65040
+    2000::40 from 2000::40 (100.0.0.40)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1040:1040 TunnelEncap:tunnelTypeVxlan
+      VNI: 1040 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0040.0100.0003 1000:1000:40::40, Route Distinguisher: 100.0.0.40:33807
+ Paths: 1 available
+  65040
+    2000::40 from 2000::40 (100.0.0.40)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1040:1040 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:24:6c:84:74:8d:db
+      VNI: 1040 L3 VNI: 1000 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0040.0100.0003 1000:1000:40:0:240:1ff:fe00:3, Route Distinguisher: 100.0.0.40:33807
+ Paths: 1 available
+  65040
+    2000::40 from 2000::40 (100.0.0.40)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1040:1040 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:24:6c:84:74:8d:db
+      VNI: 1040 L3 VNI: 1000 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0056.0000.0001, Route Distinguisher: 100.0.0.56:1301
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan
+      VNI: 1301 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0056.0000.0001 1000:3000:1::56, Route Distinguisher: 100.0.0.56:1301
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan
+      VNI: 1301 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0056.0000.0001 fe80::256:ff:fe00:1, Route Distinguisher: 100.0.0.56:1301
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan
+      VNI: 1301 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0056.0000.0002, Route Distinguisher: 100.0.0.56:1302
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan
+      VNI: 1302 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0056.0000.0002 1000:3000:2::56, Route Distinguisher: 100.0.0.56:1302
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan
+      VNI: 1302 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0056.0000.0002 fe80::256:ff:fe00:2, Route Distinguisher: 100.0.0.56:1302
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan
+      VNI: 1302 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0056.0000.0005, Route Distinguisher: 100.0.0.56:1056
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1056:1056 TunnelEncap:tunnelTypeVxlan
+      VNI: 1056 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0056.0000.0005 1000:1000:56::56, Route Distinguisher: 100.0.0.56:1056
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1056:1056 TunnelEncap:tunnelTypeVxlan
+      VNI: 1056 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0056.0000.0005 fe80::256:ff:fe00:5, Route Distinguisher: 100.0.0.56:1056
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1056:1056 TunnelEncap:tunnelTypeVxlan
+      VNI: 1056 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa 10.10.56.254, Route Distinguisher: 100.0.0.56:1056
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1056:1056 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1056 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa 10.30.1.254, Route Distinguisher: 100.0.0.56:1301
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1301 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa 10.30.2.254, Route Distinguisher: 100.0.0.56:1302
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1302 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa 1000:1000:56::254, Route Distinguisher: 100.0.0.56:1056
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1056:1056 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1056 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa 1000:3000:1::254, Route Distinguisher: 100.0.0.56:1301
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1301 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa 1000:3000:2::254, Route Distinguisher: 100.0.0.56:1302
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1302 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa fe80::2aa:aaff:feaa:aaaa, Route Distinguisher: 100.0.0.56:1056
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1056:1056 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1056 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa fe80::2aa:aaff:feaa:aaaa, Route Distinguisher: 100.0.0.56:1301
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1301 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa fe80::2aa:aaff:feaa:aaaa, Route Distinguisher: 100.0.0.56:1302
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1302 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 1303 0020.1000.0003, Route Distinguisher: 100.0.0.201:1303
+ Paths: 1 available
+  65201
+    2000::201 from 2000::201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1303 ESI: 0000:0000:0000:0201:0202
+BGP routing table entry for mac-ip 1303 0020.1000.0003, Route Distinguisher: 100.0.0.202:1303
+ Paths: 1 available
+  65202
+    2000::202 from 2000::202 (100.0.0.202)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1303 ESI: 0000:0000:0000:0201:0202
+BGP routing table entry for mac-ip 1303 0020.1000.0003 1000:3000:3::201, Route Distinguisher: 100.0.0.201:1303
+ Paths: 1 available
+  65201
+    2000::201 from 2000::201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1303:1303 Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:22:83
+      VNI: 1303 L3 VNI: 1000 ESI: 0000:0000:0000:0201:0202
+BGP routing table entry for mac-ip 1303 0020.1000.0003 1000:3000:3::201, Route Distinguisher: 100.0.0.202:1303
+ Paths: 1 available
+  65202
+    2000::202 from 2000::202 (100.0.0.202)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:25:b7 EvpnNdFlags:pflag
+      VNI: 1303 L3 VNI: 1000 ESI: 0000:0000:0000:0201:0202
+BGP routing table entry for mac-ip 1303 0020.3000.0003, Route Distinguisher: 100.0.0.203:1303
+ Paths: 1 available
+  65203
+    2000::203 from 2000::203 (100.0.0.203)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1303 ESI: 0000:0000:0000:0203:0204
+BGP routing table entry for mac-ip 1303 0020.3000.0003 1000:3000:3::203, Route Distinguisher: 100.0.0.203:1303
+ Paths: 1 available
+  65203
+    2000::203 from 2000::203 (100.0.0.203)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:38:38:a6:21:e8:2f EvpnNdFlags:pflag
+      VNI: 1303 L3 VNI: 1000 ESI: 0000:0000:0000:0203:0204
+BGP routing table entry for mac-ip 1303 0020.3000.0003 1000:3000:3::203, Route Distinguisher: 100.0.0.204:1303
+ Paths: 1 available
+  65204
+    2000::204 from 2000::204 (100.0.0.204)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:98:5d:82:a2:04:f9
+      VNI: 1303 L3 VNI: 1000 ESI: 0000:0000:0000:0203:0204
+BGP routing table entry for mac-ip 1303 0022.0000.0003, Route Distinguisher: 100.0.0.22:1303
+ Paths: 1 available
+  65022
+    2000::22 from 2000::22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1303 ESI: 0000:0000:0000:0022:0023
+BGP routing table entry for mac-ip 1303 0022.0000.0003 1000:3000:3::22, Route Distinguisher: 100.0.0.22:1303
+ Paths: 1 available
+  65022
+    2000::22 from 2000::22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:c4:07:78:0a:9f:31 EvpnNdFlags:oflag
+      VNI: 1303 L3 VNI: 1000 ESI: 0000:0000:0000:0022:0023
+BGP routing table entry for mac-ip 1303 0022.0000.0003 fe80::222:ff:fe00:3, Route Distinguisher: 100.0.0.22:1303
+ Paths: 1 available
+  65022
+    2000::22 from 2000::22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:c4:07:78:0a:9f:31
+      VNI: 1303 L3 VNI: 1000 ESI: 0000:0000:0000:0022:0023
+BGP routing table entry for mac-ip 1303 0056.0000.0003, Route Distinguisher: 100.0.0.56:1303
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1303 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 1303 0056.0000.0003 1000:3000:3::56, Route Distinguisher: 100.0.0.56:1303
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1303 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 1303 0056.0000.0003 fe80::256:ff:fe00:3, Route Distinguisher: 100.0.0.56:1303
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1303 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 1303 00aa.aaaa.aaaa 10.30.3.254, Route Distinguisher: 100.0.0.56:1303
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1303 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 1303 00aa.aaaa.aaaa 1000:3000:3::254, Route Distinguisher: 100.0.0.56:1303
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1303 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 1303 00aa.aaaa.aaaa fe80::2aa:aaff:feaa:aaaa, Route Distinguisher: 100.0.0.56:1303
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1303 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 1304 0020.1000.0004, Route Distinguisher: 100.0.0.201:1303
+ Paths: 1 available
+  65201
+    2000::201 from 2000::201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1304 ESI: 0000:0000:0000:0201:0202
+BGP routing table entry for mac-ip 1304 0020.1000.0004, Route Distinguisher: 100.0.0.202:1303
+ Paths: 1 available
+  65202
+    2000::202 from 2000::202 (100.0.0.202)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1304 ESI: 0000:0000:0000:0201:0202
+BGP routing table entry for mac-ip 1304 0020.1000.0004 1000:3000:4::201, Route Distinguisher: 100.0.0.201:1303
+ Paths: 1 available
+  65201
+    2000::201 from 2000::201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1303:1303 Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:22:83
+      VNI: 1304 L3 VNI: 1000 ESI: 0000:0000:0000:0201:0202
+BGP routing table entry for mac-ip 1304 0020.1000.0004 1000:3000:4::201, Route Distinguisher: 100.0.0.202:1303
+ Paths: 1 available
+  65202
+    2000::202 from 2000::202 (100.0.0.202)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:25:b7 EvpnNdFlags:pflag
+      VNI: 1304 L3 VNI: 1000 ESI: 0000:0000:0000:0201:0202
+BGP routing table entry for mac-ip 1304 0020.3000.0004, Route Distinguisher: 100.0.0.204:1303
+ Paths: 1 available
+  65204
+    2000::204 from 2000::204 (100.0.0.204)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1304 ESI: 0000:0000:0000:0203:0204
+BGP routing table entry for mac-ip 1304 0020.3000.0004 1000:3000:4::203, Route Distinguisher: 100.0.0.203:1303
+ Paths: 1 available
+  65203
+    2000::203 from 2000::203 (100.0.0.203)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:38:38:a6:21:e8:2f EvpnNdFlags:pflag
+      VNI: 1304 L3 VNI: 1000 ESI: 0000:0000:0000:0203:0204
+BGP routing table entry for mac-ip 1304 0020.3000.0004 1000:3000:4::203, Route Distinguisher: 100.0.0.204:1303
+ Paths: 1 available
+  65204
+    2000::204 from 2000::204 (100.0.0.204)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:98:5d:82:a2:04:f9
+      VNI: 1304 L3 VNI: 1000 ESI: 0000:0000:0000:0203:0204
+BGP routing table entry for mac-ip 1304 0022.0000.0004, Route Distinguisher: 100.0.0.22:1304
+ Paths: 1 available
+  65022
+    2000::22 from 2000::22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1304 ESI: 0000:0000:0000:0022:0023
+BGP routing table entry for mac-ip 1304 0022.0000.0004 1000:3000:4::22, Route Distinguisher: 100.0.0.22:1304
+ Paths: 1 available
+  65022
+    2000::22 from 2000::22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:c4:07:78:0a:9f:31 EvpnNdFlags:oflag
+      VNI: 1304 L3 VNI: 1000 ESI: 0000:0000:0000:0022:0023
+BGP routing table entry for mac-ip 1304 0022.0000.0004 fe80::222:ff:fe00:4, Route Distinguisher: 100.0.0.22:1304
+ Paths: 1 available
+  65022
+    2000::22 from 2000::22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:c4:07:78:0a:9f:31
+      VNI: 1304 L3 VNI: 1000 ESI: 0000:0000:0000:0022:0023
+BGP routing table entry for mac-ip 1304 0056.0000.0004, Route Distinguisher: 100.0.0.56:1304
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1304 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 1304 0056.0000.0004 1000:3000:4::56, Route Distinguisher: 100.0.0.56:1304
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1304 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 1304 0056.0000.0004 fe80::256:ff:fe00:4, Route Distinguisher: 100.0.0.56:1304
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1304 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 1304 00aa.aaaa.aaaa 10.30.4.254, Route Distinguisher: 100.0.0.56:1304
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1304 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 1304 00aa.aaaa.aaaa 1000:3000:4::254, Route Distinguisher: 100.0.0.56:1304
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1304 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 1304 00aa.aaaa.aaaa fe80::2aa:aaff:feaa:aaaa, Route Distinguisher: 100.0.0.56:1304
+ Paths: 1 available
+  65056
+    2000::56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1304 ESI: 0000:0000:0000:0000:0000

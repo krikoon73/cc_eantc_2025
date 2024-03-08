@@ -1,0 +1,4 @@
+VLAN       Role         DR Address       Algorithm
+---------- ------------ ---------------- ---------
+4094       Non-DR       100.0.0.56       modulus  
+

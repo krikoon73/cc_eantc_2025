@@ -1,0 +1,12 @@
+0056.5656.5656, VLAN 1303, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+0056.5656.5656, VLAN 1301, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+444c.a873.5c75, VLAN 1203, seq 1, pref 16, evpnIntfDynamicMac, source: BGP
+   Port-Channel200
+0015.0100.0001, VLAN 1203, seq 1, pref 16, evpnIntfDynamicMac, source: BGP
+   Port-Channel200
+0056.5656.5656, VLAN 1302, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56
+0056.5656.5656, VLAN 1304, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 100.0.0.56

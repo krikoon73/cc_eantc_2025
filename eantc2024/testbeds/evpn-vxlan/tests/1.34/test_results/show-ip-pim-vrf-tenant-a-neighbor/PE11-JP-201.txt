@@ -1,0 +1,2 @@
+PIM Neighbor Table for tenant-a VRF
+Neighbor Address  Interface  Uptime  Expires  Mode  Transport

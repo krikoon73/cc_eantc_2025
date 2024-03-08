@@ -1,0 +1,2 @@
+Hostname: SPINE1-J-200
+FQDN:     SPINE1-J-200.ns.eantc.de

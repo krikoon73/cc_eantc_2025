@@ -1,0 +1,48 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.161, local AS number 1
+BGP routing table entry for ip-prefix 20.136.225.0/24, Route Distinguisher: 1:336
+ Paths: 1 available
+  Local
+    2002::336 from 2002::353 (100.0.0.53)
+      Origin INCOMPLETE, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 10.0.1.36, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:20
+      SRv6 SID: fcbb:0:336:e663::/64, End.DT4
+BGP routing table entry for ip-prefix 20.138.225.0/24, Route Distinguisher: 1:338
+ Paths: 1 available
+  Local
+    2002::338 from 2002::353 (100.0.0.53)
+      Origin INCOMPLETE, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 10.0.1.38, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:20
+      SRv6 SID: fcbb:0:1338:e663::/64, End.DT4 with NEXT-CSID
+BGP routing table entry for ip-prefix 21.136.225.0/24, Route Distinguisher: 21:336
+ Paths: 1 available
+  Local
+    2002::336 from 2002::353 (100.0.0.53)
+      Origin INCOMPLETE, metric -, localpref 100, weight 0, tag 0, invalid, internal
+      Originator: 10.0.1.36, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:21
+      SRv6 SID: fcbb:1:336:e663::/64, End.DT4
+BGP routing table entry for ip-prefix 21.138.225.0/24, Route Distinguisher: 21:338
+ Paths: 1 available
+  Local
+    2002::338 from 2002::353 (100.0.0.53)
+      Origin INCOMPLETE, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 10.0.1.38, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:21
+      SRv6 SID: fcbb:1:1338:e666::/64, End.DT4 with NEXT-CSID
+BGP routing table entry for ip-prefix 23.58.225.0/24, Route Distinguisher: 10.0.0.58:23
+ Paths: 1 available
+  Local
+    2002::58 from 2002::353 (100.0.0.53)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, internal
+      Originator: 10.0.0.58, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:23
+BGP routing table entry for ip-prefix 23.59.225.0/24, Route Distinguisher: 10.0.0.59:23
+ Paths: 1 available
+  Local
+    2002::59 from 2002::353 (100.0.0.53)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, internal
+      Originator: 10.0.0.59, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:23

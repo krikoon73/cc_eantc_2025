@@ -1,0 +1,17 @@
+router general
+   control-functions
+      code
+            function TYPE_5_ONLY() {
+                if evpn.route_type is EVPN_IP_PREFIX {
+                    community = { 666 };
+                    return true;
+                }
+                return false;
+                }
+            function NO_READVERTISMENT_TO_SR() {
+                if community is { 666 } {
+                    return false;
+                }
+            return false;
+            }
+        EOF

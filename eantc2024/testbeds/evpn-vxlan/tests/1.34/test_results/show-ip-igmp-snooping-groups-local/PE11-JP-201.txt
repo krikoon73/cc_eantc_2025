@@ -1,0 +1,11 @@
+IGMP Snooping Group Membership
+EX : Filter mode Exclude
+IN : Filter mode Include
+IR : Ingress Replication
+VLAN  Group            Members
+----  ---------------  ----------------------------------------
+1201  *                Cpu
+1301  *                Cpu
+1302  *                Cpu
+1303  *                Cpu
+1304  *                Cpu

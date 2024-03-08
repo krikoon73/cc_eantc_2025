@@ -1,0 +1,12 @@
+BGP summary information for VRF default
+Router identifier 100.0.0.162, local AS number 65000
+Neighbor           AS Session State AFI/SAFI                AFI/SAFI State   NLRI Rcd   NLRI Acc
+--------- ----------- ------------- ----------------------- -------------- ---------- ----------
+2002::59        65000 Established   IPv4 Unicast            Advertised              0          0
+2002::59        65000 Established   IPv4 MplsVpn            Negotiated             12          5
+2002::59        65000 Established   IPv6 MplsVpn            Negotiated              8          8
+2002::59        65000 Established   L2VPN EVPN              Negotiated              3          3
+2002::304       65000 Established   IPv4 Unicast            Advertised              0          0
+2002::304       65000 Established   IPv4 MplsVpn            Received                0          0
+2002::304       65000 Established   IPv6 MplsVpn            Negotiated              3          3
+2002::304       65000 Established   L2VPN EVPN              Advertised              0          0

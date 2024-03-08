@@ -1,0 +1,118 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.205, local AS number 65205
+BGP routing table entry for ip-prefix 10.10.103.0/24, Route Distinguisher: 100.0.0.103:1103
+ Paths: 1 available
+  65206 65103 (Received from a RR-client)
+    100.0.0.22 from 100.0.0.22 (100.0.0.22)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:65205:1000 Route-Target-AS:65205:1301 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:c4:07:78:0a:9f:31
+      VNI: 1000
+BGP routing table entry for ip-prefix 10.10.201.0/24, Route Distinguisher: 100.0.0.201:1000
+ Paths: 1 available
+  Local (Received from a RR-client)
+    100.0.0.201 from 100.0.0.201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:22:83
+      VNI: 1000
+BGP routing table entry for ip-prefix 10.10.203.0/24, Route Distinguisher: 100.0.0.201:1000
+ Paths: 1 available
+  65000 65204 (Received from a RR-client)
+    100.0.0.201 from 100.0.0.201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:22:83
+      VNI: 1000
+      D-PATH: 1:1:EVPN
+BGP routing table entry for ip-prefix 10.10.203.203/32, Route Distinguisher: 100.0.0.201:1000
+ Paths: 1 available
+  65000 65203 (Received from a RR-client)
+    100.0.0.201 from 100.0.0.201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:22:83
+      VNI: 1000
+      D-PATH: 1:1:EVPN
+BGP routing table entry for ip-prefix 10.30.1.0/24, Route Distinguisher: 100.0.0.22:1000
+ Paths: 1 available
+  Local (Received from a RR-client)
+    100.0.0.22 from 100.0.0.22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan DefaultGateway EvpnRouterMac:c4:07:78:0a:9f:31
+      VNI: 1000
+BGP routing table entry for ip-prefix 10.30.1.0/24, Route Distinguisher: 100.0.0.201:1000
+ Paths: 1 available
+  65000 65203 (Received from a RR-client)
+    100.0.0.201 from 100.0.0.201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:22:83
+      VNI: 1000
+      D-PATH: 1:1:EVPN
+BGP routing table entry for ip-prefix 10.30.1.203/32, Route Distinguisher: 100.0.0.201:1000
+ Paths: 1 available
+  65000 65204 (Received from a RR-client)
+    100.0.0.201 from 100.0.0.201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:22:83
+      VNI: 1000
+      D-PATH: 1:1:EVPN
+BGP routing table entry for ip-prefix 10.30.1.254/32, Route Distinguisher: 100.0.0.22:1000
+ Paths: 1 available
+  Local (Received from a RR-client)
+    100.0.0.22 from 100.0.0.22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan DefaultGateway EvpnRouterMac:c4:07:78:0a:9f:31
+      VNI: 1000
+BGP routing table entry for ip-prefix 10.30.2.0/24, Route Distinguisher: 100.0.0.201:1000
+ Paths: 1 available
+  65000 65204 (Received from a RR-client)
+    100.0.0.201 from 100.0.0.201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:22:83
+      VNI: 1000
+      D-PATH: 1:1:EVPN
+BGP routing table entry for ip-prefix 10.30.3.0/24, Route Distinguisher: 100.0.0.201:1000
+ Paths: 1 available
+  65000 65204 (Received from a RR-client)
+    100.0.0.201 from 100.0.0.201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:22:83
+      VNI: 1000
+      D-PATH: 1:1:EVPN
+BGP routing table entry for ip-prefix 10.30.3.203/32, Route Distinguisher: 100.0.0.201:1000
+ Paths: 1 available
+  65000 65203 (Received from a RR-client)
+    100.0.0.201 from 100.0.0.201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:22:83
+      VNI: 1000
+      D-PATH: 1:1:EVPN
+BGP routing table entry for ip-prefix 10.30.4.0/24, Route Distinguisher: 100.0.0.201:1000
+ Paths: 1 available
+  65000 65204 (Received from a RR-client)
+    100.0.0.201 from 100.0.0.201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:22:83
+      VNI: 1000
+      D-PATH: 1:1:EVPN
+BGP routing table entry for ip-prefix 10.30.4.203/32, Route Distinguisher: 100.0.0.201:1000
+ Paths: 1 available
+  65000 65204 (Received from a RR-client)
+    100.0.0.201 from 100.0.0.201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:22:83
+      VNI: 1000
+      D-PATH: 1:1:EVPN
+BGP routing table entry for ip-prefix 100.0.1.203/32, Route Distinguisher: 100.0.0.201:1000
+ Paths: 1 available
+  65000 65203 (Received from a RR-client)
+    100.0.0.201 from 100.0.0.201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:22:83
+      VNI: 1000
+      D-PATH: 1:1:EVPN
+BGP routing table entry for ip-prefix 100.0.1.204/32, Route Distinguisher: 100.0.0.201:1000
+ Paths: 1 available
+  65000 65204 (Received from a RR-client)
+    100.0.0.201 from 100.0.0.201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:65205:1000 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:2c:dd:e9:0b:22:83
+      VNI: 1000
+      D-PATH: 1:1:EVPN

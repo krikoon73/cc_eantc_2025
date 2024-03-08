@@ -1,0 +1,16 @@
+985d.82a2.04f9, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+3838.a621.e82f, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+5c5a.c773.4ac0, VLAN 1, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet17
+001c.0100.0002, VLAN 44, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25
+00aa.aaaa.aaaa, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+001b.0100.0002, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25
+001c.0100.0001, VLAN 44, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25
+001b.0100.0001, VLAN 203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Ethernet25

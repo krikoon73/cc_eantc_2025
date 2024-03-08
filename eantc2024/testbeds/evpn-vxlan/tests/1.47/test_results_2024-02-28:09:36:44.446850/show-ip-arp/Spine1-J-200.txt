@@ -1,0 +1,6 @@
+Address         Age (sec)  Hardware Addr   Interface
+20.200.201.201    0:00:04  2cdd.e90b.2283  Ethernet1
+20.200.202.202    0:00:41  2cdd.e90b.25b7  Ethernet2
+20.200.203.203    0:00:06  3838.a621.e82f  Ethernet3
+20.200.204.204    0:00:25  985d.82a2.04f9  Ethernet4
+20.103.200.103    0:15:48  0014.0100.0001  Ethernet12

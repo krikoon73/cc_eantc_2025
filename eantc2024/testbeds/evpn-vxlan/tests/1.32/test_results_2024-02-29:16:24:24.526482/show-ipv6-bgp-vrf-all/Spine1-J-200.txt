@@ -1,0 +1,20 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.200, local AS number 65000
+Route status codes: s - suppressed contributor, * - valid, > - active, E - ECMP head, e - ECMP
+                    S - Stale, c - Contributing to ECMP, b - backup, L - labeled-unicast
+                    % - Pending best path selection
+Origin codes: i - IGP, e - EGP, ? - incomplete
+RPKI Origin Validation codes: V - valid, I - invalid, U - unknown
+AS Path Attributes: Or-ID - Originator ID, C-LST - Cluster List, LL Nexthop - Link Local Nexthop
+
+          Network                Next Hop              Metric  AIGP       LocPref Weight  Path
+ * >      2000::22/128           fe80::c607:78ff:fe0a:9f31%Et26 0       -          100     0       65022 i
+ * >      2000::23/128           fe80::c607:78ff:fe0a:777d%Et25 0       -          100     0       65023 i
+ * >      2000::40/128           fe80::266c:84ff:fe74:8ddc%Et15 0       -          100     0       65040 ?
+ * >      2000::56/128           fe80::427c:7dff:fec4:ab9d%Et11 0       -          100     0       65056 ?
+ * >      2000::200/128          -                     -       -          -       0       i
+ * >      2000::201/128          fe80::2edd:e9ff:fe0b:2283%Et1 0       -          100     0       65201 i
+ * >      2000::202/128          fe80::2edd:e9ff:fe0b:25b7%Et2 0       -          100     0       65202 i
+ * >      2000::203/128          fe80::3a38:a6ff:fe21:e82f%Et3 0       -          100     0       65203 i
+ * >      2000::204/128          fe80::9a5d:82ff:fea2:4f9%Et4 0       -          100     0       65204 i
+ * >      2001::56/128           fe80::427c:7dff:fec4:ab9d%Et11 0       -          100     0       65056 i

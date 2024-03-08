@@ -1,0 +1,50 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.200, local AS number 65000
+BGP routing table entry for ethernet-segment 0000:0000:0000:0022:0023 100.0.0.22, Route Distinguisher: 100.0.0.22:0
+ Paths: 1 available
+  65022
+    2000::22 from 2000::22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: EvpnEsImportRt:00:00:00:00:00:00 DF Election: Preference 200
+BGP routing table entry for ethernet-segment 0000:0000:0000:0022:0023 100.0.0.23, Route Distinguisher: 100.0.0.23:0
+ Paths: 1 available
+  65023
+    2000::23 from 2000::23 (100.0.0.23)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: EvpnEsImportRt:00:00:00:00:00:00 DF Election: Preference 100
+BGP routing table entry for ethernet-segment 0000:0000:0000:0201:0202 2000::201, Route Distinguisher: 100.0.0.201:1
+ Paths: 1 available
+  65201
+    2000::201 from 2000::201 (100.0.0.201)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: TunnelEncap:tunnelTypeVxlan EvpnEsImportRt:00:00:20:10:02:02 DF Election: Preference 200
+BGP routing table entry for ethernet-segment 0000:0000:0000:0201:0202 2000::202, Route Distinguisher: 100.0.0.202:1
+ Paths: 1 available
+  65202
+    2000::202 from 2000::202 (100.0.0.202)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: TunnelEncap:tunnelTypeVxlan EvpnEsImportRt:00:00:20:10:02:02 DF Election: Preference 200
+BGP routing table entry for ethernet-segment 0000:0000:0000:0203:0204 2000::203, Route Distinguisher: 100.0.0.203:1
+ Paths: 1 available
+  65203
+    2000::203 from 2000::203 (100.0.0.203)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: TunnelEncap:tunnelTypeVxlan EvpnEsImportRt:00:00:20:30:02:04 DF Election: Preference 200
+BGP routing table entry for ethernet-segment 0000:0000:0000:0203:0204 2000::204, Route Distinguisher: 100.0.0.204:1
+ Paths: 1 available
+  65204
+    2000::204 from 2000::204 (100.0.0.204)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: TunnelEncap:tunnelTypeVxlan EvpnEsImportRt:00:00:20:30:02:04 DF Election: Preference 100
+BGP routing table entry for ethernet-segment 0011:1111:2222:2211:1111 100.0.3.41, Route Distinguisher: 100.0.3.41:0
+ Paths: 1 available
+  64512
+    100.0.3.41 from 100.0.3.41 (100.0.3.41)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: EvpnEsImportRt:11:11:11:22:22:22 DF Election: Modulus-based
+BGP routing table entry for ethernet-segment 0048:5648:5648:5648:5648 100.0.0.56, Route Distinguisher: 100.0.0.56:0
+ Paths: 1 available
+  65056
+    100.0.0.56 from 2001::56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: EvpnEsImportRt:48:56:48:56:48:56

@@ -1,0 +1,875 @@
+[eantc@PE42-J2-162 ~]$ tcpdump -i et10 tcp port 179 -vvvv
+tcpdump: listening on et10, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+05:27:36.010387 60:6b:5b:2e:f3:fd (oui Unknown) > f0:4b:3a:21:9e:0f (oui Unknown), ethertype IPv6 (0x86dd), length 97: (class 0xc0, flowlabel 0xb1c88, hlim 255, next-header TCP (6) payload length: 43) PE42-J2-162.42521 > 2002::353.bgp: Flags [P.], seq 2418226350:2418226373, ack 3000177497, win 128, length 23: BGP
+	Route Refresh Message (5), length: 23
+	  AFI IPv4 (1), SAFI labeled VPN Unicast (128)
+	  0x0000:  ffff ffff ffff ffff ffff ffff ffff ffff
+	  0x0010:  0017 0500 0100 80
+05:27:36.212761 f0:4b:3a:21:9e:0f (oui Unknown) > 60:6b:5b:2e:f3:fd (oui Unknown), ethertype IPv6 (0x86dd), length 74: (class 0xc0, hlim 254, next-header TCP (6) payload length: 20) 2002::353.bgp > PE42-J2-162.42521: Flags [.], seq 1, ack 23, win 31676, length 0
+05:27:36.212817 60:6b:5b:2e:f3:fd (oui Unknown) > f0:4b:3a:21:9e:0f (oui Unknown), ethertype IPv6 (0x86dd), length 120: (class 0xc0, flowlabel 0xb1c88, hlim 255, next-header TCP (6) payload length: 66) PE42-J2-162.42521 > 2002::353.bgp: Flags [P.], seq 23:69, ack 1, win 128, length 46: BGP
+	Route Refresh Message (5), length: 23
+	  AFI IPv6 (2), SAFI labeled VPN Unicast (128)
+	  0x0000:  ffff ffff ffff ffff ffff ffff ffff ffff
+	  0x0010:  0017 0500 0200 80
+	Route Refresh Message (5), length: 23
+	  AFI VPLS (25), SAFI EVPN (70)
+	  0x0000:  ffff ffff ffff ffff ffff ffff ffff ffff
+	  0x0010:  0017 0500 1900 46
+05:27:36.416653 f0:4b:3a:21:9e:0f (oui Unknown) > 60:6b:5b:2e:f3:fd (oui Unknown), ethertype IPv6 (0x86dd), length 74: (class 0xc0, hlim 254, next-header TCP (6) payload length: 20) 2002::353.bgp > PE42-J2-162.42521: Flags [.], seq 1, ack 69, win 31630, length 0
+05:27:38.226283 f0:4b:3a:21:9e:0f (oui Unknown) > 60:6b:5b:2e:f3:fd (oui Unknown), ethertype IPv6 (0x86dd), length 1294: (class 0xc0, hlim 254, next-header TCP (6) payload length: 1240) 2002::353.bgp > PE42-J2-162.42521: Flags [.], seq 1:1221, ack 69, win 31630, length 1220: BGP
+	Update Message (2), length: 162
+	  Multi-Protocol Reach NLRI (14), length: 49, Flags [OE]:
+	    AFI: IPv6 (2), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 2002::20, nh-length: 24, no SNPA
+	      RD: 1:20 (= 0.0.0.20), 2001:20:20:225::/64, label:57601 (bottom)
+	    0x0000:  0002 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0020 0098 0e10
+	    0x0020:  1100 0000 0100 0000 1420 0100 2000 2002
+	    0x0030:  25
+	  Origin (1), length: 1, Flags [T]: Incomplete
+	    0x0000:  02
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Multi Exit Discriminator (4), length: 4, Flags [O]: 0
+	    0x0000:  0000 0000
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 10.0.0.20
+	    0x0000:  0a00 0014
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 0020 0000
+	    0x0010:  0000 0000 0000 0000 0000 3e00 0100 0620
+	    0x0020:  1010 0010 30
+	Update Message (2), length: 162
+	  Multi-Protocol Reach NLRI (14), length: 49, Flags [OE]:
+	    AFI: IPv6 (2), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 2002::28, nh-length: 24, no SNPA
+	      RD: 1:28 (= 0.0.0.28), 2001:20:28:225::/64, label:3 (bottom)
+	    0x0000:  0002 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0028 0098 0000
+	    0x0020:  3100 0000 0100 0000 1c20 0100 2000 2802
+	    0x0030:  25
+	  Origin (1), length: 1, Flags [T]: Incomplete
+	    0x0000:  02
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Multi Exit Discriminator (4), length: 4, Flags [O]: 0
+	    0x0000:  0000 0000
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 192.168.20.28
+	    0x0000:  c0a8 141c
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 0028 e103
+	    0x0010:  0000 0000 0000 0000 0000 3e00 0100 0620
+	    0x0020:  1010 0000 00
+	Update Message (2), length: 162
+	  Multi-Protocol Reach NLRI (14), length: 49, Flags [OE]:
+	    AFI: IPv6 (2), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 2002::49, nh-length: 24, no SNPA
+	      RD: 1:49 (= 0.0.0.49), 2001:20:49:225::/64, label:3 (bottom)
+	    0x0000:  0002 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0049 0098 0000
+	    0x0020:  3100 0000 0100 0000 3120 0100 2000 4902
+	    0x0030:  25
+	  Origin (1), length: 1, Flags [T]: Incomplete
+	    0x0000:  02
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Multi Exit Discriminator (4), length: 4, Flags [O]: 0
+	    0x0000:  0000 0000
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 10.0.0.49
+	    0x0000:  0a00 0031
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 1049 e000
+	    0x0010:  0000 0000 0000 0000 0000 4000 0100 0620
+	    0x0020:  1010 0000 00
+	Update Message (2), length: 155
+	  Multi-Protocol Reach NLRI (14), length: 49, Flags [OE]:
+	    AFI: IPv6 (2), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 2002::161, nh-length: 24, no SNPA
+	      RD: 1:161 (= 0.0.0.161), 2001:20:161:225::/64, label:3 (bottom)
+	    0x0000:  0002 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0161 0098 0000
+	    0x0020:  3100 0000 0100 0000 a120 0100 2001 6102
+	    0x0030:  25
+	  Origin (1), length: 1, Flags [T]: IGP
+	    0x0000:  00
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: pool-100-0-0-161.bstnma.fios.verizon.net
+	    0x0000:  6400 00a1
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 0161 0401
+	    0x0010:  0000 0000 0000 0000 0000 3e00 0100 0620
+	    0x0020:  1010 0000 00
+	Update Message (2), length: 155
+	  Multi-Protocol Reach NLRI (14), length: 49, Flags [OE]:
+	    AFI: IPv6 (2), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 2002::310, nh-length: 24, no SNPA
+	      RD: 1:310 (= 0.0.1.54), 2001:20:110:225::/64, label:917520 (bottom)
+	    0x0000:  0002 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0310 0098 e001
+	    0x0020:  0100 0000 0100 0001 3620 0100 2001 1002
+	    0x0030:  25
+	  Origin (1), length: 1, Flags [T]: IGP
+	    0x0000:  00
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 10.0.1.10
+	    0x0000:  0a00 010a
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 1310 0000
+	    0x0010:  0000 0000 0000 0000 0000 4000 0100 0620
+	    0x0020:  1010 0010 30
+	Update Message (2), length: 155
+	  Multi-Protocol Reach NLRI (14), length: 49, Flags [OE]:
+	    AFI: IPv6 (2), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 2002::336, nh-length: 24, no SNPA
+	      RD: 1:336 (= 0.0.1.80), 2001:20:336:225::/64, label:3 (bottom)
+	    0x0000:  0002 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0336 0098 0000
+	    0x0020:  3100 0000 0100 0001 5020 0100 2003 3602
+	    0x0030:  25
+	  Origin (1), length: 1, Flags [T]: Incomplete
+	    0x0000:  02
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 10.0.1.36
+	    0x0000:  0a00 0124
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 0336 e665
+	    0x0010:  0000 0000 0000 0000 0000 1200 0100 0620
+	    0x0020:  1010 0000 00
+	Update Message (2), length: 155
+	  Multi-Protocol Reach NLRI (14), length: 49, Flags [OE]:
+	    AFI: IPv6 (2), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 2002::419, nh-length: 24, no SNPA
+	      RD: 1:419 (= 0.0.1.163), 2001:0:419:419::/64, label:3 (bottom)
+	    0x0000:  0002 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0419 0098 0000
+	    0x0020:  3100 0000 0100 0001 a320 0100 0004 1904
+	    0x0030:  19
+	  Origin (1), length: 1, Flags [T]: IGP
+	    0x0000:  00
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Local Preference (5), length: 4, Flags [T]: 0
+	    0x0000:  0000 0000
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 192.0.0.1
+	    0x0000:  c000 0001
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 0419 1001
+	    0x0010:  0000 0000 0000 0000 00ff ff00 0100 0620
+	    0x0020:  1010 0000 00
+[|BGP Update]
+05:27:38.226339 60:6b:5b:2e:f3:fd (oui Unknown) > f0:4b:3a:21:9e:0f (oui Unknown), ethertype IPv6 (0x86dd), length 74: (class 0xc0, flowlabel 0xb1c88, hlim 255, next-header TCP (6) payload length: 20) PE42-J2-162.42521 > 2002::353.bgp: Flags [.], seq 69, ack 1221, win 119, length 0
+05:27:38.226351 f0:4b:3a:21:9e:0f (oui Unknown) > 60:6b:5b:2e:f3:fd (oui Unknown), ethertype IPv6 (0x86dd), length 1294: (class 0xc0, hlim 254, next-header TCP (6) payload length: 1240) 2002::353.bgp > PE42-J2-162.42521: Flags [.], seq 1221:2441, ack 69, win 31630, length 1220: BGP [|bgp]
+	Update Message (2), length: 162
+	  Multi-Protocol Reach NLRI (14), length: 49, Flags [OE]:
+	    AFI: IPv6 (2), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 2002::29, nh-length: 24, no SNPA
+	      RD: 1:29 (= 0.0.0.29), 2001:20:29:225::/64, label:3 (bottom)
+	    0x0000:  0002 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0029 0098 0000
+	    0x0020:  3100 0000 0100 0000 1d20 0100 2000 2902
+	    0x0030:  25
+	  Origin (1), length: 1, Flags [T]: Incomplete
+	    0x0000:  02
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Multi Exit Discriminator (4), length: 4, Flags [O]: 0
+	    0x0000:  0000 0000
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 192.168.20.29
+	    0x0000:  c0a8 141d
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 1029 e103
+	    0x0010:  0000 0000 0000 0000 0000 3e00 0100 0620
+	    0x0020:  1010 0000 00
+	Update Message (2), length: 162
+	  Multi-Protocol Reach NLRI (14), length: 49, Flags [OE]:
+	    AFI: IPv6 (2), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 2002::199, nh-length: 24, no SNPA
+	      RD: 1:199 (= 0.0.0.199), 2001:20:199:225::/64, label:3 (bottom)
+	    0x0000:  0002 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0199 0098 0000
+	    0x0020:  3100 0000 0100 0000 c720 0100 2001 9902
+	    0x0030:  25
+	  Origin (1), length: 1, Flags [T]: Incomplete
+	    0x0000:  02
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Multi Exit Discriminator (4), length: 4, Flags [O]: 0
+	    0x0000:  0000 0000
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 20.49.199.199
+	    0x0000:  1431 c7c7
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 1199 e1b8
+	    0x0010:  0000 0000 0000 0000 0000 3e00 0100 0620
+	    0x0020:  1010 0000 00
+	Update Message (2), length: 155
+	  Multi-Protocol Reach NLRI (14), length: 49, Flags [OE]:
+	    AFI: IPv6 (2), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), PE42-J2-162, nh-length: 24, no SNPA
+	      RD: 1:1162 (= 0.0.4.138), 2001:20:162:225::/64, label:3 (bottom)
+	    0x0000:  0002 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0162 0098 0000
+	    0x0020:  3100 0000 0100 0004 8a20 0100 2001 6202
+	    0x0030:  25
+	  Origin (1), length: 1, Flags [T]: IGP
+	    0x0000:  00
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: pool-100-0-0-162.bstnma.fios.verizon.net
+	    0x0000:  6400 00a2
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 1162 0401
+	    0x0010:  0000 0000 0000 0000 0000 3e00 0100 0620
+	    0x0020:  1010 0000 00
+	Update Message (2), length: 155
+	  Multi-Protocol Reach NLRI (14), length: 49, Flags [OE]:
+	    AFI: IPv6 (2), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 2002::59, nh-length: 24, no SNPA
+	      RD: 1:59 (= 0.0.0.59), 2001:20:59:225::/64, label:918016 (bottom)
+	    0x0000:  0002 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0059 0098 e020
+	    0x0020:  0100 0000 0100 0000 3b20 0100 2000 5902
+	    0x0030:  25
+	  Origin (1), length: 1, Flags [T]: IGP
+	    0x0000:  00
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 10.0.0.59
+	    0x0000:  0a00 003b
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 0059 0000
+	    0x0010:  0000 0000 0000 0000 0000 3e00 0100 0620
+	    0x0020:  1010 0010 30
+	Update Message (2), length: 155
+	  Multi-Protocol Reach NLRI (14), length: 49, Flags [OE]:
+	    AFI: IPv6 (2), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 2002::58, nh-length: 24, no SNPA
+	      RD: 1:58 (= 0.0.0.58), 2001:20:58:225::/64, label:917888 (bottom)
+	    0x0000:  0002 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0058 0098 e018
+	    0x0020:  0100 0000 0100 0000 3a20 0100 2000 5802
+	    0x0030:  25
+	  Origin (1), length: 1, Flags [T]: IGP
+	    0x0000:  00
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 10.0.0.58
+	    0x0000:  0a00 003a
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 1058 0000
+	    0x0010:  0000 0000 0000 0000 0000 3e00 0100 0620
+	    0x0020:  1010 0010 30
+	Update Message (2), length: 155
+	  Multi-Protocol Reach NLRI (14), length: 49, Flags [OE]:
+	    AFI: IPv6 (2), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 2002::302, nh-length: 24, no SNPA
+	      RD: 1:302 (= 0.0.1.46), 2001:20:102:225::/64, label:917504 (bottom)
+	    0x0000:  0002 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0302 0098 e000
+	    0x0020:  0100 0000 0100 0001 2e20 0100 2001 0202
+	    0x0030:  25
+	  Origin (1), length: 1, Flags [T]: IGP
+	    0x0000:  00
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 10.0.1.2
+	    0x0000:  0a00 0102
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 0316 0000
+	    0x0010:  0000 0000 0000 0000 0000 4000 0100 0620
+	    0x0020:  1010 0010 30
+	Update Message (2), length: 155
+	  Multi-Protocol Reach NLRI (14), length: 49, Flags [OE]:
+	    AFI: IPv6 (2), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 2002::307, nh-length: 24, no SNPA
+	      RD: 1:307 (= 0.0.1.51), 2001:20:107:225::/64, label:917536 (bottom)
+	    0x0000:  0002 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0307 0098 e002
+	    0x0020:  0100 0000 0100 0001 3320 0100 2001 0702
+	    0x0030:  25
+	  Origin (1), length: 1, Flags [T]: IGP
+	    0x0000:  00
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 10.0.1.7
+	    0x0000:  0a00 0107
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 0307 0000
+	    0x0010:  0000 0000 0000 0000 0000 4000 0100 0620
+	    0x0020:  1010 0010 30
+[|BGP Update]
+05:27:38.226359 60:6b:5b:2e:f3:fd (oui Unknown) > f0:4b:3a:21:9e:0f (oui Unknown), ethertype IPv6 (0x86dd), length 74: (class 0xc0, flowlabel 0xb1c88, hlim 255, next-header TCP (6) payload length: 20) PE42-J2-162.42521 > 2002::353.bgp: Flags [.], seq 69, ack 2441, win 110, length 0
+05:27:38.229901 f0:4b:3a:21:9e:0f (oui Unknown) > 60:6b:5b:2e:f3:fd (oui Unknown), ethertype IPv6 (0x86dd), length 1294: (class 0xc0, hlim 254, next-header TCP (6) payload length: 1240) 2002::353.bgp > PE42-J2-162.42521: Flags [.], seq 2441:3661, ack 69, win 31630, length 1220: BGP [|bgp]
+	Update Message (2), length: 150
+	  Multi-Protocol Reach NLRI (14), length: 44, Flags [OE]:
+	    AFI: IPv4 (1), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 32.2.0.0, RD: 0:0 (= 0.0.0.0), 0.0.3.56, nh-length: 24, no SNPA
+	      RD: 1:338 (= 0.0.1.82), 20.138.225.0/24, label:3 (bottom)
+	    0x0000:  0001 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0338 0070 0000
+	    0x0020:  3100 0000 0100 0001 5214 8ae1
+	  Origin (1), length: 1, Flags [T]: Incomplete
+	    0x0000:  02
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 10.0.1.38
+	    0x0000:  0a00 0126
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 1338 e666
+	    0x0010:  0000 0000 0000 0000 0000 1300 0100 0620
+	    0x0020:  1010 0000 00
+	Update Message (2), length: 157
+	  Multi-Protocol Reach NLRI (14), length: 44, Flags [OE]:
+	    AFI: IPv4 (1), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 32.2.0.0, RD: 0:0 (= 0.0.0.0), 0.0.3.82, nh-length: 24, no SNPA
+	      RD: 1:352 (= 0.0.1.96), 20.152.225.0/24, label:917536 (bottom)
+	    0x0000:  0001 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0352 0070 e002
+	    0x0020:  0100 0000 0100 0001 6014 98e1
+	  Origin (1), length: 1, Flags [T]: Incomplete
+	    0x0000:  02
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Multi Exit Discriminator (4), length: 4, Flags [O]: 0
+	    0x0000:  0000 0000
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: pool-100-0-0-52.bstnma.fios.verizon.net
+	    0x0000:  6400 0034
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 0352 0000
+	    0x0010:  0000 0000 0000 0000 0000 3f00 0100 0620
+	    0x0020:  1010 0010 30
+	Update Message (2), length: 150
+	  Multi-Protocol Reach NLRI (14), length: 44, Flags [OE]:
+	    AFI: IPv4 (1), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 32.2.0.0, RD: 0:0 (= 0.0.0.0), 0.0.0.88, nh-length: 24, no SNPA
+	      RD: 1:58 (= 0.0.0.58), 20.58.225.0/24, label:917872 (bottom)
+	    0x0000:  0001 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0058 0070 e017
+	    0x0020:  0100 0000 0100 0000 3a14 3ae1
+	  Origin (1), length: 1, Flags [T]: IGP
+	    0x0000:  00
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 10.0.0.58
+	    0x0000:  0a00 003a
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 1058 0000
+	    0x0010:  0000 0000 0000 0000 0000 3f00 0100 0620
+	    0x0020:  1010 0010 30
+	Update Message (2), length: 150
+	  Multi-Protocol Reach NLRI (14), length: 44, Flags [OE]:
+	    AFI: IPv4 (1), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 32.2.0.0, RD: 0:0 (= 0.0.0.0), 0.0.3.54, nh-length: 24, no SNPA
+	      RD: 1:336 (= 0.0.1.80), 20.136.225.0/24, label:3 (bottom)
+	    0x0000:  0001 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0336 0070 0000
+	    0x0020:  3100 0000 0100 0001 5014 88e1
+	  Origin (1), length: 1, Flags [T]: Incomplete
+	    0x0000:  02
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 10.0.1.36
+	    0x0000:  0a00 0124
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 0336 e664
+	    0x0010:  0000 0000 0000 0000 0000 1300 0100 0620
+	    0x0020:  1010 0000 00
+	Update Message (2), length: 157
+	  Multi-Protocol Reach NLRI (14), length: 44, Flags [OE]:
+	    AFI: IPv4 (1), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 32.2.0.0, RD: 0:0 (= 0.0.0.0), 0.0.3.68, nh-length: 24, no SNPA
+	      RD: 1:344 (= 0.0.1.88), 20.144.225.0/24, label:917520 (bottom)
+	    0x0000:  0001 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0344 0070 e001
+	    0x0020:  0100 0000 0100 0001 5814 90e1
+	  Origin (1), length: 1, Flags [T]: Incomplete
+	    0x0000:  02
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Multi Exit Discriminator (4), length: 4, Flags [O]: 0
+	    0x0000:  0000 0000
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: pool-100-0-0-44.bstnma.fios.verizon.net
+	    0x0000:  6400 002c
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 1344 0000
+	    0x0010:  0000 0000 0000 0000 0000 3f00 0100 0620
+	    0x0020:  1010 0010 30
+	Update Message (2), length: 150
+	  Multi-Protocol Reach NLRI (14), length: 44, Flags [OE]:
+	    AFI: IPv4 (1), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 32.2.0.0, RD: 0:0 (= 0.0.0.0), 0.0.0.17, nh-length: 24, no SNPA
+	      RD: 10.0.0.11:1, 20.11.225.0/24, label:917504 (bottom)
+	    0x0000:  0001 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0011 0070 e000
+	    0x0020:  0100 010a 0000 0b00 0114 0be1
+	  Origin (1), length: 1, Flags [T]: Incomplete
+	    0x0000:  02
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 10.0.0.11
+	    0x0000:  0a00 000b
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 1011 0000
+	    0x0010:  0000 0000 0000 0000 0000 3f00 0100 0620
+	    0x0020:  1010 0010 30
+	Update Message (2), length: 150
+	  Multi-Protocol Reach NLRI (14), length: 44, Flags [OE]:
+	    AFI: IPv4 (1), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 32.2.0.0, RD: 0:0 (= 0.0.0.0), 0.0.1.98, nh-length: 24, no SNPA
+	      RD: 1:1162 (= 0.0.4.138), 20.162.225.0/24, label:3 (bottom)
+	    0x0000:  0001 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0162 0070 0000
+	    0x0020:  3100 0000 0100 0004 8a14 a2e1
+	  Origin (1), length: 1, Flags [T]: IGP
+	    0x0000:  00
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: pool-100-0-0-162.bstnma.fios.verizon.net
+	    0x0000:  6400 00a2
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 1162 0400
+	    0x0010:  0000 0000 0000 0000 0000 3f00 0100 0620
+	    0x0020:  1010 0000 00
+[|BGP Update]
+05:27:38.229946 60:6b:5b:2e:f3:fd (oui Unknown) > f0:4b:3a:21:9e:0f (oui Unknown), ethertype IPv6 (0x86dd), length 74: (class 0xc0, flowlabel 0xb1c88, hlim 255, next-header TCP (6) payload length: 20) PE42-J2-162.42521 > 2002::353.bgp: Flags [.], seq 69, ack 3661, win 119, length 0
+05:27:38.229962 f0:4b:3a:21:9e:0f (oui Unknown) > 60:6b:5b:2e:f3:fd (oui Unknown), ethertype IPv6 (0x86dd), length 1294: (class 0xc0, hlim 254, next-header TCP (6) payload length: 1240) 2002::353.bgp > PE42-J2-162.42521: Flags [.], seq 3661:4881, ack 69, win 31630, length 1220: BGP [|bgp]
+	Update Message (2), length: 157
+	  Multi-Protocol Reach NLRI (14), length: 44, Flags [OE]:
+	    AFI: IPv4 (1), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 32.2.0.0, RD: 0:0 (= 0.0.0.0), 0.0.0.40, nh-length: 24, no SNPA
+	      RD: 1:28 (= 0.0.0.28), 20.28.225.0/24, label:3 (bottom)
+	    0x0000:  0001 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0028 0070 0000
+	    0x0020:  3100 0000 0100 0000 1c14 1ce1
+	  Origin (1), length: 1, Flags [T]: Incomplete
+	    0x0000:  02
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Multi Exit Discriminator (4), length: 4, Flags [O]: 0
+	    0x0000:  0000 0000
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 192.168.20.28
+	    0x0000:  c0a8 141c
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 0028 e102
+	    0x0010:  0000 0000 0000 0000 0000 3f00 0100 0620
+	    0x0020:  1010 0000 00
+	Update Message (2), length: 157
+	  Multi-Protocol Reach NLRI (14), length: 44, Flags [OE]:
+	    AFI: IPv4 (1), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 32.2.0.0, RD: 0:0 (= 0.0.0.0), 0.0.0.73, nh-length: 24, no SNPA
+	      RD: 1:49 (= 0.0.0.49), 20.49.225.0/24, label:3 (bottom)
+	    0x0000:  0001 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0049 0070 0000
+	    0x0020:  3100 0000 0100 0000 3114 31e1
+	  Origin (1), length: 1, Flags [T]: Incomplete
+	    0x0000:  02
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Multi Exit Discriminator (4), length: 4, Flags [O]: 0
+	    0x0000:  0000 0000
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 10.0.0.49
+	    0x0000:  0a00 0031
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 1049 e000
+	    0x0010:  0000 0000 0000 0000 0000 4000 0100 0620
+	    0x0020:  1010 0000 00
+	Update Message (2), length: 150
+	  Multi-Protocol Reach NLRI (14), length: 44, Flags [OE]:
+	    AFI: IPv4 (1), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 32.2.0.0, RD: 0:0 (= 0.0.0.0), 0.0.3.7, nh-length: 24, no SNPA
+	      RD: 1:307 (= 0.0.1.51), 20.107.225.0/24, label:917536 (bottom)
+	    0x0000:  0001 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0307 0070 e002
+	    0x0020:  0100 0000 0100 0001 3314 6be1
+	  Origin (1), length: 1, Flags [T]: IGP
+	    0x0000:  00
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 10.0.1.7
+	    0x0000:  0a00 0107
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 0307 0000
+	    0x0010:  0000 0000 0000 0000 0000 4000 0100 0620
+	    0x0020:  1010 0010 30
+	Update Message (2), length: 157
+	  Multi-Protocol Reach NLRI (14), length: 44, Flags [OE]:
+	    AFI: IPv4 (1), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 32.2.0.0, RD: 0:0 (= 0.0.0.0), 0.0.1.153, nh-length: 24, no SNPA
+	      RD: 1:199 (= 0.0.0.199), 20.199.225.0/24, label:3 (bottom)
+	    0x0000:  0001 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0199 0070 0000
+	    0x0020:  3100 0000 0100 0000 c714 c7e1
+	  Origin (1), length: 1, Flags [T]: Incomplete
+	    0x0000:  02
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Multi Exit Discriminator (4), length: 4, Flags [O]: 0
+	    0x0000:  0000 0000
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 20.49.199.199
+	    0x0000:  1431 c7c7
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 1199 e1b7
+	    0x0010:  0000 0000 0000 0000 0000 3f00 0100 0620
+	    0x0020:  1010 0000 00
+	Update Message (2), length: 150
+	  Multi-Protocol Reach NLRI (14), length: 44, Flags [OE]:
+	    AFI: IPv4 (1), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 32.2.0.0, RD: 0:0 (= 0.0.0.0), 0.0.1.97, nh-length: 24, no SNPA
+	      RD: 1:161 (= 0.0.0.161), 20.161.225.0/24, label:3 (bottom)
+	    0x0000:  0001 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0161 0070 0000
+	    0x0020:  3100 0000 0100 0000 a114 a1e1
+	  Origin (1), length: 1, Flags [T]: IGP
+	    0x0000:  00
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: pool-100-0-0-161.bstnma.fios.verizon.net
+	    0x0000:  6400 00a1
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 0161 0400
+	    0x0010:  0000 0000 0000 0000 0000 3f00 0100 0620
+	    0x0020:  1010 0000 00
+	Update Message (2), length: 150
+	  Multi-Protocol Reach NLRI (14), length: 44, Flags [OE]:
+	    AFI: IPv4 (1), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 32.2.0.0, RD: 0:0 (= 0.0.0.0), 0.0.3.2, nh-length: 24, no SNPA
+	      RD: 1:302 (= 0.0.1.46), 20.102.225.0/24, label:917504 (bottom)
+	    0x0000:  0001 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0302 0070 e000
+	    0x0020:  0100 0000 0100 0001 2e14 66e1
+	  Origin (1), length: 1, Flags [T]: IGP
+	    0x0000:  00
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 10.0.1.2
+	    0x0000:  0a00 0102
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 0316 0000
+	    0x0010:  0000 0000 0000 0000 0000 4000 0100 0620
+	    0x0020:  1010 0010 30
+	Update Message (2), length: 157
+	  Multi-Protocol Reach NLRI (14), length: 44, Flags [OE]:
+	    AFI: IPv4 (1), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 32.2.0.0, RD: 0:0 (= 0.0.0.0), 0.0.0.41, nh-length: 24, no SNPA
+	      RD: 1:29 (= 0.0.0.29), 20.29.225.0/24, label:3 (bottom)
+	    0x0000:  0001 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0029 0070 0000
+	    0x0020:  3100 0000 0100 0000 1d14 1de1
+	  Origin (1), length: 1, Flags [T]: Incomplete
+	    0x0000:  02
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Multi Exit Discriminator (4), length: 4, Flags [O]: 0
+	    0x0000:  0000 0000
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 192.168.20.29
+	    0x0000:  c0a8 141d
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 1029 e102
+	    0x0010:  0000 0000 0000 0000 0000 3f00 0100 0620
+	    0x0020:  1010 0000 00
+[|BGP Update]
+05:27:38.229969 60:6b:5b:2e:f3:fd (oui Unknown) > f0:4b:3a:21:9e:0f (oui Unknown), ethertype IPv6 (0x86dd), length 74: (class 0xc0, flowlabel 0xb1c88, hlim 255, next-header TCP (6) payload length: 20) PE42-J2-162.42521 > 2002::353.bgp: Flags [.], seq 69, ack 4881, win 110, length 0
+05:27:38.231868 f0:4b:3a:21:9e:0f (oui Unknown) > 60:6b:5b:2e:f3:fd (oui Unknown), ethertype IPv6 (0x86dd), length 751: (class 0xc0, hlim 254, next-header TCP (6) payload length: 697) 2002::353.bgp > PE42-J2-162.42521: Flags [P.], seq 4881:5558, ack 69, win 31630, length 677: BGP [|bgp]
+	Update Message (2), length: 150
+	  Multi-Protocol Reach NLRI (14), length: 44, Flags [OE]:
+	    AFI: IPv4 (1), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 32.2.0.0, RD: 0:0 (= 0.0.0.0), 0.0.4.25, nh-length: 24, no SNPA
+	      RD: 1:419 (= 0.0.1.163), 20.225.225.0/24, label:3 (bottom)
+	    0x0000:  0001 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0419 0070 0000
+	    0x0020:  3100 0000 0100 0001 a314 e1e1
+	  Origin (1), length: 1, Flags [T]: IGP
+	    0x0000:  00
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Local Preference (5), length: 4, Flags [T]: 0
+	    0x0000:  0000 0000
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 192.0.0.1
+	    0x0000:  c000 0001
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 0419 2001
+	    0x0010:  0000 0000 0000 0000 00ff ff00 0100 0620
+	    0x0020:  1010 0000 00
+	Update Message (2), length: 157
+	  Multi-Protocol Reach NLRI (14), length: 44, Flags [OE]:
+	    AFI: IPv4 (1), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 32.2.0.0, RD: 0:0 (= 0.0.0.0), 0.0.0.32, nh-length: 24, no SNPA
+	      RD: 1:20 (= 0.0.0.20), 20.20.225.0/24, label:57600 (bottom)
+	    0x0000:  0001 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0020 0070 0e10
+	    0x0020:  0100 0000 0100 0000 1414 14e1
+	  Origin (1), length: 1, Flags [T]: Incomplete
+	    0x0000:  02
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Multi Exit Discriminator (4), length: 4, Flags [O]: 0
+	    0x0000:  0000 0000
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: 10.0.0.20
+	    0x0000:  0a00 0014
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 0020 0000
+	    0x0010:  0000 0000 0000 0000 0000 3f00 0100 0620
+	    0x0020:  1010 0010 30
+	Update Message (2), length: 157
+	  Multi-Protocol Reach NLRI (14), length: 44, Flags [OE]:
+	    AFI: IPv4 (1), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 32.2.0.0, RD: 0:0 (= 0.0.0.0), 0.0.3.66, nh-length: 24, no SNPA
+	      RD: 1:342 (= 0.0.1.86), 20.142.225.0/24, label:917536 (bottom)
+	    0x0000:  0001 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0342 0070 e002
+	    0x0020:  0100 0000 0100 0001 5614 8ee1
+	  Origin (1), length: 1, Flags [T]: Incomplete
+	    0x0000:  02
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Multi Exit Discriminator (4), length: 4, Flags [O]: 0
+	    0x0000:  0000 0000
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Cluster List (10), length: 4, Flags [O]: pool-100-0-0-53.bstnma.fios.verizon.net
+	    0x0000:  6400 0035
+	  Originator ID (9), length: 4, Flags [O]: pool-100-0-0-42.bstnma.fios.verizon.net
+	    0x0000:  6400 002a
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 0342 0000
+	    0x0010:  0000 0000 0000 0000 0000 3f00 0100 0620
+	    0x0020:  1010 0010 30
+	Update Message (2), length: 143
+	  Multi-Protocol Reach NLRI (14), length: 44, Flags [OE]:
+	    AFI: IPv4 (1), SAFI: labeled VPN Unicast (128)
+	    nexthop: RD: 0:0 (= 0.0.0.0), 32.2.0.0, RD: 0:0 (= 0.0.0.0), 0.0.3.83, nh-length: 24, no SNPA
+	      RD: 1:353 (= 0.0.1.97), 20.153.225.0/24, label:917552 (bottom)
+	    0x0000:  0001 8018 0000 0000 0000 0000 2002 0000
+	    0x0010:  0000 0000 0000 0000 0000 0353 0070 e003
+	    0x0020:  0100 0000 0100 0001 6114 99e1
+	  Origin (1), length: 1, Flags [T]: Incomplete
+	    0x0000:  02
+	  AS Path (2), length: 0, Flags [T]: empty
+	  Multi Exit Discriminator (4), length: 4, Flags [O]: 0
+	    0x0000:  0000 0000
+	  Local Preference (5), length: 4, Flags [T]: 100
+	    0x0000:  0000 0064
+	  Extended Community (16), length: 8, Flags [OT]:
+	    target (0x0002), Flags [none]: 1:20 (= 0.0.0.20)
+	    0x0000:  0002 0001 0000 0014
+	  Unknown Attribute (40), length: 37, Flags [OT]:
+	    no Attribute 40 decoder
+	    0x0000:  0500 2200 0100 1e00 fcbb 0000 1353 0000
+	    0x0010:  0000 0000 0000 0000 0000 3f00 0100 0620
+	    0x0020:  1010 0010 30
+05:27:38.231918 60:6b:5b:2e:f3:fd (oui Unknown) > f0:4b:3a:21:9e:0f (oui Unknown), ethertype IPv6 (0x86dd), length 74: (class 0xc0, flowlabel 0xb1c88, hlim 255, next-header TCP (6) payload length: 20) PE42-J2-162.42521 > 2002::353.bgp: Flags [.], seq 69, ack 5558, win 119, length 0
+^C
+14 packets captured
+14 packets received by filter
+0 packets dropped by kernel
+[eantc@PE42-J2-162 ~]$

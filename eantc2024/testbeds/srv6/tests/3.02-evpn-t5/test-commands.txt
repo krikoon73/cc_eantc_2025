@@ -1,0 +1,13 @@
+show interfaces status
+show interfaces ethernet 11,10,20 | grep rate
+show lldp neighbors
+show isis neighbors
+show tunnel fib
+show bgp evpn route-type ip-prefix ipv4
+show bgp evpn route-type ip-prefix ipv6
+show ipv6 route vrf EVPN-T5-uSID
+show ip route vrf EVPN-T5-uSID
+show isis database detail
+show isis segment-routing ipv6 locators
+show arp vrf EVPN-T5-uSID 
+show mac address-table vlan 24

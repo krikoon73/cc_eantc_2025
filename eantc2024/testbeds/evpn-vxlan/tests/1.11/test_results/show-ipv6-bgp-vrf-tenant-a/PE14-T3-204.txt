@@ -1,0 +1,30 @@
+BGP routing table information for VRF tenant-a
+Router identifier 100.0.1.204, local AS number 65204
+Route status codes: s - suppressed contributor, * - valid, > - active, E - ECMP head, e - ECMP
+                    S - Stale, c - Contributing to ECMP, b - backup, L - labeled-unicast
+                    % - Pending best path selection
+Origin codes: i - IGP, e - EGP, ? - incomplete
+RPKI Origin Validation codes: V - valid, I - invalid, U - unknown
+AS Path Attributes: Or-ID - Originator ID, C-LST - Cluster List, LL Nexthop - Link Local Nexthop
+
+          Network                Next Hop              Metric  AIGP       LocPref Weight  Path
+ * >Ec    1000:1000:201::/64     2000::202             0       -          100     0       65000 65202 i
+ *  ec    1000:1000:201::/64     2000::201             0       -          100     0       65000 65201 i
+ * >      1000:1000:203::/64     -                     -       -          -       0       i
+ *        1000:1000:203::/64     2000::203             0       -          100     0       65000 65203 i
+ * >      1000:3000:1::/64       -                     -       -          -       0       i
+ *  Ec    1000:3000:1::/64       2000::203             0       -          100     0       65000 65203 i
+ *  ec    1000:3000:1::/64       2000::202             0       -          100     0       65000 65202 i
+ *  ec    1000:3000:1::/64       2000::201             0       -          100     0       65000 65201 i
+ * >      1000:3000:2::/64       -                     -       -          -       0       i
+ *  Ec    1000:3000:2::/64       2000::203             0       -          100     0       65000 65203 i
+ *  ec    1000:3000:2::/64       2000::202             0       -          100     0       65000 65202 i
+ *  ec    1000:3000:2::/64       2000::201             0       -          100     0       65000 65201 i
+ * >      1000:3000:3::/64       -                     -       -          -       0       i
+ *  Ec    1000:3000:3::/64       2000::203             0       -          100     0       65000 65203 i
+ *  ec    1000:3000:3::/64       2000::202             0       -          100     0       65000 65202 i
+ *  ec    1000:3000:3::/64       2000::201             0       -          100     0       65000 65201 i
+ * >      1000:3000:4::/64       -                     -       -          -       0       i
+ *  Ec    1000:3000:4::/64       2000::203             0       -          100     0       65000 65203 i
+ *  ec    1000:3000:4::/64       2000::202             0       -          100     0       65000 65202 i
+ *  ec    1000:3000:4::/64       2000::201             0       -          100     0       65000 65201 i

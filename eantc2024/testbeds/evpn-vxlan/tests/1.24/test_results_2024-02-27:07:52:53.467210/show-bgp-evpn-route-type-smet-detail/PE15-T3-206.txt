@@ -1,0 +1,142 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.206, local AS number 65206
+BGP routing table entry for smet (S, G): (10.10.10.1, 239.0.0.1) originating IP: 100.0.3.48, Route Distinguisher: 100.0.3.48:4558
+ Paths: 1 available
+  65056 64512
+    100.0.3.48 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4558:4558 Route-Origin-AS:56:56
+      Multicast Flags: include
+BGP routing table entry for smet (S, G): (10.10.10.2, 239.0.0.2) originating IP: 100.0.3.48, Route Distinguisher: 100.0.3.48:4558
+ Paths: 1 available
+  65056 64512
+    100.0.3.48 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4558:4558 Route-Origin-AS:56:56
+      Multicast Flags: include
+BGP routing table entry for smet (S, G): (10.10.10.3, 239.0.0.3) originating IP: 100.0.3.48, Route Distinguisher: 100.0.3.48:4558
+ Paths: 1 available
+  65056 64512
+    100.0.3.48 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4558:4558 Route-Origin-AS:56:56
+      Multicast Flags: include
+BGP routing table entry for smet (S, G): (10.10.10.4, 239.0.0.4) originating IP: 100.0.3.48, Route Distinguisher: 100.0.3.48:4558
+ Paths: 1 available
+  65056 64512
+    100.0.3.48 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4558:4558 Route-Origin-AS:56:56
+      Multicast Flags: include
+BGP routing table entry for smet (S, G): (10.10.10.5, 239.0.0.5) originating IP: 100.0.3.48, Route Distinguisher: 100.0.3.48:4558
+ Paths: 1 available
+  65056 64512
+    100.0.3.48 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4558:4558 Route-Origin-AS:56:56
+      Multicast Flags: include
+BGP routing table entry for smet (S, G): (10.10.10.6, 239.0.0.6) originating IP: 100.0.3.48, Route Distinguisher: 100.0.3.48:4558
+ Paths: 1 available
+  65056 64512
+    100.0.3.48 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4558:4558 Route-Origin-AS:56:56
+      Multicast Flags: include
+BGP routing table entry for smet (S, G): (10.10.10.7, 239.0.0.7) originating IP: 100.0.3.48, Route Distinguisher: 100.0.3.48:4558
+ Paths: 1 available
+  65056 64512
+    100.0.3.48 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4558:4558 Route-Origin-AS:56:56
+      Multicast Flags: include
+BGP routing table entry for smet (S, G): (10.10.10.8, 239.0.0.8) originating IP: 100.0.3.48, Route Distinguisher: 100.0.3.48:4558
+ Paths: 1 available
+  65056 64512
+    100.0.3.48 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4558:4558 Route-Origin-AS:56:56
+      Multicast Flags: include
+BGP routing table entry for smet (S, G): (10.10.10.9, 239.0.0.9) originating IP: 100.0.3.48, Route Distinguisher: 100.0.3.48:4558
+ Paths: 1 available
+  65056 64512
+    100.0.3.48 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4558:4558 Route-Origin-AS:56:56
+      Multicast Flags: include
+BGP routing table entry for smet (S, G): (10.10.10.10, 239.0.0.10) originating IP: 100.0.3.48, Route Distinguisher: 100.0.3.48:4558
+ Paths: 1 available
+  65056 64512
+    100.0.3.48 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4558:4558 Route-Origin-AS:56:56
+      Multicast Flags: include
+BGP routing table entry for smet (S, G): (11.10.10.1, 239.0.0.20) originating IP: 100.0.3.45, Route Distinguisher: 100.0.3.45:4568
+ Paths: 1 available
+  65056 64512
+    100.0.3.45 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4558:4558 Route-Origin-AS:56:56
+      Multicast Flags: include
+BGP routing table entry for smet (S, G): (11.10.10.2, 239.0.0.21) originating IP: 100.0.3.45, Route Distinguisher: 100.0.3.45:4568
+ Paths: 1 available
+  65056 64512
+    100.0.3.45 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4558:4558 Route-Origin-AS:56:56
+      Multicast Flags: include
+BGP routing table entry for smet (S, G): (11.10.10.3, 239.0.0.22) originating IP: 100.0.3.45, Route Distinguisher: 100.0.3.45:4568
+ Paths: 1 available
+  65056 64512
+    100.0.3.45 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4558:4558 Route-Origin-AS:56:56
+      Multicast Flags: include
+BGP routing table entry for smet (S, G): (11.10.10.4, 239.0.0.23) originating IP: 100.0.3.45, Route Distinguisher: 100.0.3.45:4568
+ Paths: 1 available
+  65056 64512
+    100.0.3.45 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4558:4558 Route-Origin-AS:56:56
+      Multicast Flags: include
+BGP routing table entry for smet (S, G): (11.10.10.5, 239.0.0.24) originating IP: 100.0.3.45, Route Distinguisher: 100.0.3.45:4568
+ Paths: 1 available
+  65056 64512
+    100.0.3.45 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4558:4558 Route-Origin-AS:56:56
+      Multicast Flags: include
+BGP routing table entry for smet (S, G): (11.10.10.6, 239.0.0.25) originating IP: 100.0.3.45, Route Distinguisher: 100.0.3.45:4568
+ Paths: 1 available
+  65056 64512
+    100.0.3.45 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4558:4558 Route-Origin-AS:56:56
+      Multicast Flags: include
+BGP routing table entry for smet (S, G): (11.10.10.7, 239.0.0.26) originating IP: 100.0.3.45, Route Distinguisher: 100.0.3.45:4568
+ Paths: 1 available
+  65056 64512
+    100.0.3.45 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4558:4558 Route-Origin-AS:56:56
+      Multicast Flags: include
+BGP routing table entry for smet (S, G): (11.10.10.8, 239.0.0.27) originating IP: 100.0.3.45, Route Distinguisher: 100.0.3.45:4568
+ Paths: 1 available
+  65056 64512
+    100.0.3.45 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4558:4558 Route-Origin-AS:56:56
+      Multicast Flags: include
+BGP routing table entry for smet (S, G): (11.10.10.9, 239.0.0.28) originating IP: 100.0.3.45, Route Distinguisher: 100.0.3.45:4568
+ Paths: 1 available
+  65056 64512
+    100.0.3.45 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4558:4558 Route-Origin-AS:56:56
+      Multicast Flags: include
+BGP routing table entry for smet (S, G): (11.10.10.10, 239.0.0.29) originating IP: 100.0.3.45, Route Distinguisher: 100.0.3.45:4568
+ Paths: 1 available
+  65056 64512
+    100.0.3.45 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:4558:4558 Route-Origin-AS:56:56
+      Multicast Flags: include

@@ -1,0 +1,91 @@
+EVPN instance: SBD tenant-a
+  Route distinguisher: 100.0.0.201:1000
+  Route target import: Route-Target-AS:1000:1000
+  Route target export: Route-Target-AS:1000:1000
+  Service interface: VLAN-based
+  Local VXLAN IP address: 100.0.0.201
+  VXLAN: enabled
+  MPLS: disabled
+EVPN instance: VLAN 1201
+  Route distinguisher: 100.0.0.201:1201
+  Route target import: Route-Target-AS:1201:1201
+  Route target export: Route-Target-AS:1201:1201
+  Service interface: VLAN-based
+  Local VXLAN IP address: 100.0.0.201
+  VXLAN: enabled
+  MPLS: disabled
+  Local ethernet segment:
+    ESI: 0000:0000:0000:0201:0202
+      Interface: Port-Channel100
+      Mode: all-active
+      State: up
+      ES-Import RT: 00:00:20:10:02:02
+      DF election algorithm: preference
+      Designated forwarder: 100.0.0.201
+      Non-Designated forwarder: 100.0.0.202
+EVPN instance: VLAN 1301
+  Route distinguisher: 100.0.0.201:1301
+  Route target import: Route-Target-AS:1301:1301
+  Route target export: Route-Target-AS:1301:1301
+  Service interface: VLAN-based
+  Local VXLAN IP address: 100.0.0.201
+  VXLAN: enabled
+  MPLS: disabled
+  Remote ethernet segment:
+    ESI: 0000:0000:0000:0023:0022
+    Active TEPs: 100.0.0.22, 100.0.0.23
+    ESI: 0000:0000:0000:0203:0204
+    Active TEPs: 100.0.0.203, 100.0.0.204
+  Local ethernet segment:
+    ESI: 0000:0000:0000:0201:0202
+      Interface: Port-Channel100
+      Mode: all-active
+      State: up
+      ES-Import RT: 00:00:20:10:02:02
+      DF election algorithm: preference
+      Designated forwarder: 100.0.0.201
+      Non-Designated forwarder: 100.0.0.202
+EVPN instance: VLAN 1302
+  Route distinguisher: 100.0.0.201:1302
+  Route target import: Route-Target-AS:1302:1302
+  Route target export: Route-Target-AS:1302:1302
+  Service interface: VLAN-based
+  Local VXLAN IP address: 100.0.0.201
+  VXLAN: enabled
+  MPLS: disabled
+  Remote ethernet segment:
+    ESI: 0000:0000:0000:0023:0022
+    Active TEPs: 100.0.0.22, 100.0.0.23
+    ESI: 0000:0000:0000:0203:0204
+    Active TEPs: 100.0.0.203, 100.0.0.204
+  Local ethernet segment:
+    ESI: 0000:0000:0000:0201:0202
+      Interface: Port-Channel100
+      Mode: all-active
+      State: up
+      ES-Import RT: 00:00:20:10:02:02
+      DF election algorithm: preference
+      Designated forwarder: 100.0.0.201
+      Non-Designated forwarder: 100.0.0.202
+EVPN instance: VLAN-aware bundle 1303-1304
+  Route distinguisher: 100.0.0.201:1303
+  Route target import: Route-Target-AS:1303:1303
+  Route target export: Route-Target-AS:1303:1303
+  Service interface: VLAN-aware bundle
+  Local VXLAN IP address: 100.0.0.201
+  VXLAN: enabled
+  MPLS: disabled
+  Remote ethernet segment:
+    ESI: 0000:0000:0000:0023:0022
+    Active TEPs: 100.0.0.22, 100.0.0.23
+    ESI: 0000:0000:0000:0203:0204
+    Active TEPs: 100.0.0.203, 100.0.0.204
+  Local ethernet segment:
+    ESI: 0000:0000:0000:0201:0202
+      Interface: Port-Channel100
+      Mode: all-active
+      State: up
+      ES-Import RT: 00:00:20:10:02:02
+      DF election algorithm: preference
+      Designated forwarder: 100.0.0.201
+      Non-Designated forwarder: 100.0.0.202

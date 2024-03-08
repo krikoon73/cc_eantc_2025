@@ -1,0 +1,12 @@
+BGP summary information for VRF default
+Router identifier 100.0.0.200, local AS number 65000
+Neighbor Status Codes: m - Under maintenance
+  Description              Neighbor                       LLDP Neighbor                  V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
+                           fe80::266c:84ff:fe74:8ddc%Et15 Cisco_40_N9K-C93180YC-FX3      4 65040           1445      1716    0    0 23:57:26 Estab   1      1
+                           fe80::2edd:e9ff:fe0b:2283%Et1  PE11-JP-201.ns.eantc.de        4 65201           1916      2007    0    0    1d00h Estab   1      1
+                           fe80::2edd:e9ff:fe0b:25b7%Et2  PE12-JP-202.ns.eantc.de        4 65202           1933      2024    0    0    1d00h Estab   1      1
+                           fe80::3a38:a6ff:fe21:e82f%Et3  PE13-T3-203.ns.eantc.de        4 65203           1933      2017    0    0    1d00h Estab   1      1
+                           fe80::427c:7dff:fec4:ab9d%Et11 185b.0089.c3cc                 4 65056           2869      3510    0    0 00:55:18 Estab   2      2
+                           fe80::9a5d:82ff:fea2:4f9%Et4   PE14-T3-204.ns.eantc.de        4 65204           1936      2026    0    0    1d00h Estab   1      1
+                           fe80::c607:78ff:fe0a:777d%Et25 h3c_23_S6850-56HF              4 65023              7        15    0    0 00:03:04 Estab   1      1
+                           fe80::c607:78ff:fe0a:9f31%Et26 h3c_22_S6850-56HF              4 65022            444       431    0    0 05:46:11 Estab   1      1

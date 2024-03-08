@@ -1,0 +1,35 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.161, local AS number 1
+Route status codes: s - suppressed contributor, * - valid, > - active, E - ECMP head, e - ECMP
+                    S - Stale, c - Contributing to ECMP, b - backup, L - labeled-unicast, q - Queued for advertisement
+                    % - Pending best path selection
+Origin codes: i - IGP, e - EGP, ? - incomplete
+AS Path Attributes: Or-ID - Originator ID, C-LST - Cluster List, LL Nexthop - Link Local Nexthop
+
+          Network                Next Hop              Metric  LocPref Weight  Path
+ * >      RD: 2000:161 IPv4 prefix 20.10.31.0/24
+                                 2002::161             -       100     0       i Or-ID: 100.0.0.31 C-LST: 100.0.0.180 
+ * >      RD: 2000:161 IPv4 prefix 20.10.31.31/32
+                                 2002::161             -       100     0       ? Or-ID: 100.0.0.31 C-LST: 100.0.0.180 
+ * >      RD: 2000:161 IPv4 prefix 20.10.31.254/32
+                                 2002::161             -       100     0       ? Or-ID: 100.0.0.31 C-LST: 100.0.0.180 
+ * >      RD: 2000:161 IPv4 prefix 20.10.32.0/24
+                                 2002::161             -       100     0       i Or-ID: 100.0.37.9 C-LST: 100.0.0.180 
+ * >      RD: 2000:161 IPv4 prefix 20.10.32.32/32
+                                 2002::161             -       100     0       i Or-ID: 100.0.37.9 C-LST: 100.0.0.180 
+ * >      RD: 2000:161 IPv4 prefix 20.10.32.201/32
+                                 2002::161             -       100     0       i Or-ID: 100.0.37.9 C-LST: 100.0.0.180 
+ * >      RD: 2000:161 IPv4 prefix 20.10.56.0/24
+                                 2002::161             -       100     0       i Or-ID: 100.0.0.56 C-LST: 100.0.0.180 
+ * >      RD: 2000:161 IPv4 prefix 20.30.1.0/24
+                                 2002::161             -       100     0       i Or-ID: 100.0.0.56 C-LST: 100.0.0.180 
+ * >      RD: 2000:161 IPv4 prefix 20.30.1.68/32
+                                 2002::161             -       100     0       i Or-ID: 100.0.0.182 C-LST: 100.0.0.180 
+ * >      RD: 2000:161 IPv4 prefix 20.30.2.0/24
+                                 2002::161             -       100     0       i Or-ID: 100.0.0.56 C-LST: 100.0.0.180 
+ * >      RD: 2000:161 IPv4 prefix 20.30.3.0/24
+                                 2002::161             -       100     0       i Or-ID: 100.0.0.56 C-LST: 100.0.0.180 
+ * >      RD: 2000:161 IPv4 prefix 20.30.4.0/24
+                                 2002::161             -       100     0       i Or-ID: 100.0.0.56 C-LST: 100.0.0.180 
+ * >      RD: 2000:161 IPv4 prefix 220.161.225.0/24
+                                 2002::161             -       100     0       i

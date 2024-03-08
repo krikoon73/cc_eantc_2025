@@ -1,0 +1,166 @@
+
+VRF: default
+Displaying 70 of 75 IPv6 routing table entries
+Source Codes:
+       C - connected, S - static, K - kernel, O3 - OSPFv3,
+       B - Other BGP Routes, A B - BGP Aggregate, R - RIP,
+       I L1 - IS-IS level 1, I L2 - IS-IS level 2, DH - DHCP,
+       NG - Nexthop Group Static Route, M - Martian,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+ I L2     2001:0:11:310::/64 [115/60]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2001:0:11:353::/64 [115/50]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2001:0:19:344::/64 [115/90]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2001:0:20:36::/64 [115/60]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ I L2     2001:0:28:316::/64 [115/30]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ I L2     2001:0:28:336::/64 [115/40]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ I L2     2001:0:29:58::/64 [115/80]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2001:0:36:58::/64 [115/70]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ I L2     2001:0:49:199::/64 [115/90]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2001:0:58:310::/64 [115/70]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2001:0:58:419::/64 [115/80]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ C        2001:0:59:161::/64 [0/0]
+           via Ethernet20, directly connected
+ I L2     2001:0:59:352::/64 [115/30]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ C        2001:0:161:342::/64 [0/0]
+           via Ethernet10, directly connected
+ I L2     2001:0:162:302::/64 [115/60]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2001:0:162:344::/64 [115/70]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2001:0:199:344::/64 [115/80]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2001:0:302:353::/64 [115/50]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2001:0:307:352::/64 [115/30]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2001:0:307:353::/64 [115/40]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2001:0:316:342::/64 [115/20]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ I L2     2001:1:20:36::/64 [115/50]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ I L2     2001:1:28:36::/64 [115/50]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ I L2     2001:1:29:38::/64 [115/100]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2001:1:38:49::/64 [115/100]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2001:1:59:352::/64 [115/20]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2002::11/128 [115/50]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2002::20/128 [115/50]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ I L2     2002::28/128 [115/30]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ I L2     2002::29/128 [115/80]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2002::36/128 [115/60]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ I L2     2002::49/128 [115/100]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2002::58/128 [115/70]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2002::59/128 [115/10]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ C        2002::161/128 [0/0]
+           via Loopback0, directly connected
+ I L2     2002::162/128 [115/70]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2002::199/128 [115/80]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2002::302/128 [115/50]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2002::307/128 [115/30]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2002::310/128 [115/60]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2002::316/128 [115/20]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ I L2     2002::336/128 [115/50]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ I L2     2002::338/128 [115/100]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2002::342/128 [115/20]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ I L2     2002::344/128 [115/80]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2002::352/128 [115/30]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2002::353/128 [115/50]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2002::419/128 [115/90]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     2002:0:29:338::/64 [115/90]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     fcbb:0:20::/48 [115/50]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ I L2     fcbb:0:28::/48 [115/30]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ I L2     fcbb:0:36::/48 [115/60]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ I L2     fcbb:0:59::/48 [115/10]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     fcbb:0:307::/48 [115/30]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     fcbb:0:316::/48 [115/20]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ I L2     fcbb:0:336::/48 [115/40]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ I L2     fcbb:0:342::/48 [115/11]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+ I L2     fcbb:0:352::/48 [115/21]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     fcbb:0:419::/48 [115/80]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     fcbb:0:1011::/48 [115/60]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     fcbb:0:1029::/48 [115/80]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     fcbb:0:1049::/48 [115/90]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     fcbb:0:1058::/48 [115/70]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     fcbb:0:1162::/48 [115/70]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     fcbb:0:1199::/48 [115/80]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     fcbb:0:1302::/48 [115/50]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     fcbb:0:1310::/48 [115/60]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     fcbb:0:1338::/48 [115/90]
+           via fe80::fa7a:41ff:fe18:8910, Ethernet10
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     fcbb:0:1344::/48 [115/71]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+ I L2     fcbb:0:1353::/48 [115/41]
+           via fe80::8e7a:ff:fee7:f53d, Ethernet20
+

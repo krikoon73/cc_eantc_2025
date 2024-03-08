@@ -1,0 +1,587 @@
+! Command: show running-config
+! device: P15-T3-206 (DCS-7050SX3-48YC12, EOS-4.31.2F)
+!
+! boot system flash:/EOS64-4.31.2F.swi
+!
+no aaa root
+!
+username admin privilege 15 role network-admin secret sha512 $6$QcMZ1NqHEIDWDRq6$RhAUcmm0Hrm9.vRMbJ3.So12S0MrDVKaOKhVv20dObewPCsx0v3axb6Ls.qbRd71UmVHFuHa4Jlfun..q.ND5.
+username eantc privilege 15 role network-admin secret sha512 $6$1OZ7ySEV1cgyTf2O$mzMZrCQpOGnr5JrFzBvuAjmZOUXXmjQPKpxbYsTvyu4AvDtz7W5tXTMd3kn8GTVwSTxwYpunnR9SEQRxuaYNs/
+username mitch privilege 15 role network-admin secret sha512 $6$mWI1PfepW9q1.6Ef$mqHRAUICspB0IwNXXojJVHphlD2tt/q4g8kjCSFS2mWYVC20Swhosq8w6vs5Qr4.7OBeWmIbwUFfJpHM7NVrs/
+username mitch ssh-key ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDuFySUMDJYQQ/1G2YLMCBXYEIuvkYbM8F2s3OqAM4Utb1So08gGUC/yvB+CokXWVDJD/O2QrqX0OlH7Oi7H5tFDYO7bQSrkDo/6UlbdcPiWF7PgUxE1p/fSZdiPtmcOL8+/LcPwK78BHTn2IBESP/nSDl5mRfX6tAaq4PLDNOaIQHWkgXIeldx9CN8ZcfPNIyX8QZ/vVvQuu38jlKEmWRw+ZDwUT3vKcBjKIBA1aiDCoSoUZuBw8/T9DY+xeWLbBLTBXlyWEE5PbuSn3FwJWoMamjuQvxOPPg0D/+pCRCXKrexwXdkWez5alcb2Q/tQP8SiQdu3Ww2O2X1cOVGkz3SCSd2Hh61K4a3IF4TCIrGj2cohPFDbfVDD5KeOOTnSeifw/4WSDT2KRrRK8bp30yr+UA8wFTQFcLIE0tFb0hgRT5Ba3CnSI+JFVStboGyrdrFSiizaJroJqkmFYJDy2yg5uB7gK+7yfmZ+MRzwGsSdPM1u2/FwMLDRwIbTreiyWE= mitch@mitch
+!
+alias rates show int eth 1,5,6 counters rates
+!
+switchport default mode routed
+!
+service routing protocols model multi-agent
+!
+logging console informational
+logging policy match match-list ztpFilter discard
+!
+logging level AAA errors
+logging level ACCOUNTING errors
+logging level ACL errors
+logging level AGENT errors
+logging level ALE errors
+logging level ARP errors
+logging level BFD errors
+logging level BGP errors
+logging level BMP errors
+logging level CAPACITY errors
+logging level CAPI errors
+logging level CLEAR errors
+logging level CVX errors
+logging level DATAPLANE errors
+logging level DHCP errors
+logging level DMF errors
+logging level DOT1X errors
+logging level DOT1XHTTP errors
+logging level DSCP errors
+logging level ENVMON errors
+logging level ETH errors
+logging level EVENTMON errors
+logging level EXTENSION errors
+logging level FHRP errors
+logging level FLOW errors
+logging level FLOWTRACKING errors
+logging level FORWARDING errors
+logging level FRU errors
+logging level FWK errors
+logging level GMP errors
+logging level HARDWARE errors
+logging level HEALTH errors
+logging level HTTPSERVICE errors
+logging level IGMP errors
+logging level IGMPSNOOPING errors
+logging level INFLUXTELEMETRY errors
+logging level INT errors
+logging level INTF errors
+logging level IP6ROUTING errors
+logging level IPRIB errors
+logging level IRA errors
+logging level ISIS errors
+logging level KERNELFIB errors
+logging level LACP errors
+logging level LAG errors
+logging level LAUNCHER errors
+logging level LDP errors
+logging level LICENSE errors
+logging level LINEPROTO errors
+logging level LLDP errors
+logging level LOADBALANCER errors
+logging level LOGMGR errors
+logging level LOOPBACK errors
+logging level LOOPPROTECT errors
+logging level MAPREDUCEMONITOR errors
+logging level MCS errors
+logging level MIRRORING errors
+logging level MKA errors
+logging level MLAG errors
+logging level MLDSNOOPING errors
+logging level MMODE errors
+logging level MONITORSECURITY errors
+logging level MROUTE errors
+logging level MRP errors
+logging level MSDP errors
+logging level MSRP errors
+logging level MSSPOLICYMONITOR errors
+logging level MVRP errors
+logging level NAT errors
+logging level OPENCONFIG errors
+logging level OPENFLOW errors
+logging level OSPF errors
+logging level OSPF3 errors
+logging level PACKAGE errors
+logging level PFC errors
+logging level PIMBSR errors
+logging level PORTSECURITY errors
+logging level POSTCARDTELEMETRY errors
+logging level PSEUDOWIRE errors
+logging level PTP errors
+logging level PWRMGMT errors
+logging level QOS errors
+logging level QUEUEMONITOR errors
+logging level RADIUS errors
+logging level REDUNDANCY errors
+logging level RIB errors
+logging level ROUTING errors
+logging level SECURITY errors
+logging level SERVERMONITOR errors
+logging level SERVERPROBE errors
+logging level SPANTREE errors
+logging level SSO errors
+logging level STAGEMGR errors
+logging level STRATA errors
+logging level SYS errors
+logging level SYSDB errors
+logging level TAPAGG errors
+logging level TCP errors
+logging level TRAFFICPOLICY errors
+logging level TRANSCEIVER errors
+logging level TUNNEL errors
+logging level TUNNELINTF errors
+logging level VMTRACERSESS errors
+logging level VMWAREVI errors
+logging level VMWAREVS errors
+logging level VRF errors
+logging level VRRP errors
+logging level VXLAN errors
+logging level XMPP errors
+logging level ZTP informational
+!
+match-list input string ztpFilter
+   10 match regex ETH-4
+!
+hostname P15-T3-206
+ip name-server vrf default 192.168.100.100
+ip name-server vrf default 192.168.160.100
+dns domain eantc.de
+!
+spanning-tree mode mstp
+!
+system l1
+   unsupported speed action error
+   unsupported error-correction action error
+!
+vlan 1206,1301-1304
+!
+vrf instance mgmt
+!
+vrf instance tenant-a
+!
+management api http-commands
+   protocol http
+   protocol https ssl profile TLS1.2
+   no shutdown
+   !
+   vrf mgmt
+      no shutdown
+!
+management security
+   ssl profile TLS1.2
+      tls versions 1.2
+      certificate ssl.crt key ssl.key
+!
+aaa authorization exec default local
+!
+interface Ethernet1
+   description Spine-200
+   speed forced 10000full
+   no switchport
+   ip address 20.200.206.206/24
+!
+interface Ethernet2
+   speed forced 10000full
+   no switchport
+!
+interface Ethernet3
+   speed forced 10000full
+   no switchport
+!
+interface Ethernet4
+   speed forced 10000full
+   no switchport
+!
+interface Ethernet5
+   description Harness
+   speed forced 10000full
+   no switchport
+!
+interface Ethernet6
+   description PE12-202
+   speed forced 10000full
+   no switchport
+   vrf tenant-a
+   ip address 10.20.206.206/24
+   pim ipv4 sparse-mode
+!
+interface Ethernet7
+   speed forced 10000full
+   no switchport
+!
+interface Ethernet8
+   speed forced 10000full
+   no switchport
+!
+interface Ethernet9
+   speed forced 10000full
+   no switchport
+!
+interface Ethernet10
+   speed forced 10000full
+   no switchport
+!
+interface Ethernet11
+   no switchport
+!
+interface Ethernet12
+   no switchport
+!
+interface Ethernet13
+   no switchport
+!
+interface Ethernet14
+   no switchport
+!
+interface Ethernet15
+   no switchport
+!
+interface Ethernet16
+   no switchport
+!
+interface Ethernet17
+   no switchport
+!
+interface Ethernet18
+   no switchport
+!
+interface Ethernet19
+   no switchport
+!
+interface Ethernet20
+   no switchport
+!
+interface Ethernet21
+   no switchport
+!
+interface Ethernet22
+   no switchport
+!
+interface Ethernet23
+   no switchport
+!
+interface Ethernet24
+   no switchport
+!
+interface Ethernet25
+   no switchport
+!
+interface Ethernet26
+   no switchport
+!
+interface Ethernet27
+   no switchport
+!
+interface Ethernet28
+   no switchport
+!
+interface Ethernet29
+   no switchport
+!
+interface Ethernet30
+   no switchport
+!
+interface Ethernet31
+   no switchport
+!
+interface Ethernet32
+   no switchport
+!
+interface Ethernet33
+   no switchport
+!
+interface Ethernet34
+   no switchport
+!
+interface Ethernet35
+   no switchport
+!
+interface Ethernet36
+   no switchport
+!
+interface Ethernet37
+   no switchport
+!
+interface Ethernet38
+   no switchport
+!
+interface Ethernet39
+   no switchport
+!
+interface Ethernet40
+   no switchport
+!
+interface Ethernet41
+   no switchport
+!
+interface Ethernet42
+   no switchport
+!
+interface Ethernet43
+   no switchport
+!
+interface Ethernet44
+   no switchport
+!
+interface Ethernet45
+   no switchport
+!
+interface Ethernet46
+   no switchport
+!
+interface Ethernet47
+   no switchport
+!
+interface Ethernet48
+   no switchport
+!
+interface Ethernet49/1
+   no switchport
+!
+interface Ethernet49/2
+   no switchport
+!
+interface Ethernet49/3
+   no switchport
+!
+interface Ethernet49/4
+   no switchport
+!
+interface Ethernet50/1
+   no switchport
+!
+interface Ethernet50/2
+   no switchport
+!
+interface Ethernet50/3
+   no switchport
+!
+interface Ethernet50/4
+   no switchport
+!
+interface Ethernet51/1
+   no switchport
+!
+interface Ethernet51/2
+   no switchport
+!
+interface Ethernet51/3
+   no switchport
+!
+interface Ethernet51/4
+   no switchport
+!
+interface Ethernet52/1
+   no switchport
+!
+interface Ethernet52/2
+   no switchport
+!
+interface Ethernet52/3
+   no switchport
+!
+interface Ethernet52/4
+   no switchport
+!
+interface Ethernet53/1
+   no switchport
+!
+interface Ethernet53/2
+   no switchport
+!
+interface Ethernet53/3
+   no switchport
+!
+interface Ethernet53/4
+   no switchport
+!
+interface Ethernet54/1
+   no switchport
+!
+interface Ethernet54/2
+   no switchport
+!
+interface Ethernet54/3
+   no switchport
+!
+interface Ethernet54/4
+   no switchport
+!
+interface Ethernet55/1
+   no switchport
+!
+interface Ethernet55/2
+   no switchport
+!
+interface Ethernet55/3
+   no switchport
+!
+interface Ethernet55/4
+   no switchport
+!
+interface Ethernet56/1
+   no switchport
+!
+interface Ethernet56/2
+   no switchport
+!
+interface Ethernet56/3
+   no switchport
+!
+interface Ethernet56/4
+   no switchport
+!
+interface Ethernet57/1
+   no switchport
+!
+interface Ethernet57/2
+   no switchport
+!
+interface Ethernet57/3
+   no switchport
+!
+interface Ethernet57/4
+   no switchport
+!
+interface Ethernet58/1
+   no switchport
+!
+interface Ethernet58/2
+   no switchport
+!
+interface Ethernet58/3
+   no switchport
+!
+interface Ethernet58/4
+   no switchport
+!
+interface Ethernet59/1
+   no switchport
+!
+interface Ethernet59/2
+   no switchport
+!
+interface Ethernet59/3
+   no switchport
+!
+interface Ethernet59/4
+   no switchport
+!
+interface Ethernet60/1
+   no switchport
+!
+interface Ethernet60/2
+   no switchport
+!
+interface Ethernet60/3
+   no switchport
+!
+interface Ethernet60/4
+   no switchport
+!
+interface Loopback0
+   ip address 100.0.0.206/32
+!
+interface Management1
+   vrf mgmt
+   ip address 192.168.20.206/23
+!
+interface Vxlan1
+   vxlan source-interface Loopback0
+   vxlan udp-port 4789
+   vxlan vlan 1206,1301-1304 vni 1206,1301-1304
+   vxlan vrf tenant-a vni 1000
+   vxlan multicast headend-replication
+!
+ip virtual-router mac-address 00:aa:aa:aa:aa:aa
+!
+ip routing
+no ip routing vrf mgmt
+ip routing vrf tenant-a
+!
+ip route vrf mgmt 0.0.0.0/0 192.168.20.1
+!
+router bgp 65206
+   router-id 100.0.0.206
+   distance bgp 20 200 200
+   maximum-paths 8 ecmp 16
+   neighbor SPINE_EVPN peer group
+   neighbor SPINE_EVPN remote-as 65000
+   neighbor SPINE_EVPN next-hop-unchanged
+   neighbor SPINE_EVPN update-source Loopback0
+   neighbor SPINE_EVPN ebgp-multihop 5
+   neighbor SPINE_EVPN send-community extended
+   neighbor SPINE_EVPN maximum-routes 12000
+   neighbor SPINE_IPV4 peer group
+   neighbor SPINE_IPV4 remote-as 65000
+   neighbor SPINE_IPV4 maximum-routes 12000
+   neighbor SPINE_IPv4 peer group
+   neighbor SPINE_IPv4 next-hop-unchanged
+   neighbor SPINE_IPv4 send-community extended
+   neighbor 20.200.206.200 peer group SPINE_IPV4
+   neighbor 20.200.206.200 description ANET.IPV4
+   neighbor 100.0.0.200 peer group SPINE_EVPN
+   neighbor 100.0.0.200 description ANET.EVPN
+   redistribute connected
+   !
+   vlan 1301
+      rd 100.0.0.206:1301
+      route-target both 1301:1301
+      redistribute learned
+      redistribute static
+   !
+   vlan 1302
+      rd 100.0.0.206:1302
+      route-target both 1302:1302
+      redistribute learned
+      redistribute static
+   !
+   vlan-aware-bundle 1303-1304
+      rd 100.0.0.206:1303
+      route-target both 1303:1303
+      redistribute learned
+      redistribute static
+      vlan 1303-1304
+   !
+   address-family evpn
+      neighbor SPINE_EVPN activate
+      neighbor SPINE_EVPN rcf out AS65200_OUT_EVPN()
+   !
+   address-family ipv4
+      no neighbor SPINE_EVPN activate
+   !
+   vrf tenant-a
+      rd 100.0.0.206:1000
+      route-target import evpn 1000:1000
+      route-target export evpn 1000:1000
+      neighbor 10.20.206.202 remote-as 65202
+      redistribute connected
+      !
+      evpn multicast
+         gateway dr election algorithm modulus
+         !
+         address-family ipv4
+!
+router general
+   control-functions
+      code
+      function IS_RP_ADDRESS() {
+         return evpn.ip_prefix_route.prefix is 100.0.1.202/32 or evpn.ip_prefix_route.prefix is 10.10.202.0/24;
+      }
+      #
+      #
+      #
+      function AS65200_OUT_EVPN() {
+         if IS_RP_ADDRESS() {
+            return false;
+         }
+       return true;
+      }
+      EOF
+!
+router multicast
+   ipv4
+      routing
+      software-forwarding sfe
+   !
+   vrf tenant-a
+      ipv4
+         routing
+!
+router pim sparse-mode
+   vrf tenant-a
+      ipv4
+         rp address 100.0.1.202
+!
+end

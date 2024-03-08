@@ -1,0 +1,13 @@
+Last table change time   : 15:59:35 ago
+Number of table inserts  : 13
+Number of table deletes  : 9
+Number of table drops    : 0
+Number of table age-outs : 0
+
+Port            Neighbor Device ID               Neighbor Port ID    TTL
+------------ -------------------------------- ---------------------- ---
+Et5             Harness3-J-175.ns.eantc.de       Ethernet1           120
+Et48            PE32-J2-172.ns.eantc.de          Ethernet48          120
+Et49/1          NOKIA-SR2-57                     1610899526          121
+Ma1             extreme-x460-1                   34                  120
+

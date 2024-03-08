@@ -1,0 +1,57 @@
+
+VRF: T5-SR-IPVPN-SRv6-GW
+Source Codes:
+       C - connected, S - static, K - kernel,
+       O - OSPF, IA - OSPF inter area, E1 - OSPF external type 1,
+       E2 - OSPF external type 2, N1 - OSPF NSSA external type 1,
+       N2 - OSPF NSSA external type2, B - Other BGP Routes,
+       B I - iBGP, B E - eBGP, R - RIP, I L1 - IS-IS level 1,
+       I L2 - IS-IS level 2, O3 - OSPFv3, A B - BGP Aggregate,
+       A O - OSPF Summary, NG - Nexthop Group Static Route,
+       V - VXLAN Control Service, M - Martian,
+       DH - DHCP client installed default route,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+Gateway of last resort is not set
+
+ B I      20.10.31.31/32 [200/0]
+           via 100.0.0.31/32, IS-IS SR tunnel index 13, label 756647
+              via 20.161.180.180, Ethernet45/1, label 900031
+ B I      20.10.31.254/32 [200/0]
+           via 100.0.0.31/32, IS-IS SR tunnel index 13, label 756647
+              via 20.161.180.180, Ethernet45/1, label 900031
+ B I      20.10.31.0/24 [200/0]
+           via 100.0.0.31/32, IS-IS SR tunnel index 13, label 756647
+              via 20.161.180.180, Ethernet45/1, label 900031
+ B I      20.10.32.32/32 [200/0]
+           via 100.0.37.9/32, IS-IS SR tunnel index 5, label 354
+              via 20.161.180.180, Ethernet45/1, label 900379
+ B I      20.10.32.201/32 [200/0]
+           via 100.0.37.9/32, IS-IS SR tunnel index 5, label 354
+              via 20.161.180.180, Ethernet45/1, label 900379
+ B I      20.10.32.0/24 [200/0]
+           via 100.0.37.9/32, IS-IS SR tunnel index 5, label 354
+              via 20.161.180.180, Ethernet45/1, label 900379
+ B I      20.10.56.0/24 [200/0]
+           via 100.0.0.56/32, IS-IS SR tunnel index 10, label 524281
+              via 20.161.180.180, Ethernet45/1, label 900056
+ B I      20.30.1.68/32 [200/0]
+           via 100.0.0.182/32, IS-IS SR tunnel index 17, label 362146
+              via 20.161.180.180, Ethernet45/1, label 900182
+ B I      20.30.1.0/24 [200/0]
+           via 100.0.0.56/32, IS-IS SR tunnel index 10, label 524281
+              via 20.161.180.180, Ethernet45/1, label 900056
+ B I      20.30.2.0/24 [200/0]
+           via 100.0.0.56/32, IS-IS SR tunnel index 10, label 524281
+              via 20.161.180.180, Ethernet45/1, label 900056
+ B I      20.30.3.0/24 [200/0]
+           via 100.0.0.56/32, IS-IS SR tunnel index 10, label 524281
+              via 20.161.180.180, Ethernet45/1, label 900056
+ B I      20.30.4.0/24 [200/0]
+           via 100.0.0.56/32, IS-IS SR tunnel index 10, label 524281
+              via 20.161.180.180, Ethernet45/1, label 900056
+ C        220.161.225.0/24
+           directly connected, Vlan3024
+

@@ -1,0 +1,5 @@
+Port      Name         Intvl  In Mbps      %  In Kpps Out Mbps      % Out Kpps
+Et49/1    KEYSIGHT 103  5:00      2.0   0.0%        2      1.9   0.0%        2
+Et49/2    NOK 56        5:00      1.9   0.0%        2      2.0   0.0%        2
+Et49/3    H3C 22        5:00      0.0   0.0%        0      0.0   0.0%        0
+Et49/4    JNPR 304      5:00      0.0   0.0%        0      0.0   0.0%        0

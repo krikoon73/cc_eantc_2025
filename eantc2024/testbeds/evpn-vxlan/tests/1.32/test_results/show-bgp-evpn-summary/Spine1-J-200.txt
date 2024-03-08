@@ -1,0 +1,18 @@
+BGP summary information for VRF default
+Router identifier 100.0.0.200, local AS number 65000
+Neighbor Status Codes: m - Under maintenance
+  Description              Neighbor    V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
+                           100.0.0.56  4 64512              0         0    0    0 00:30:48 Active
+  ANET-PE15                100.0.0.206 4 65206           1453      6210    0    0 20:16:06 Estab   3      3
+                           100.0.3.41  4 64512            181      2862    0    0 00:19:53 Estab   7      7
+  H3C-22.EVPN              2000::22    4 65022           2198      6569    0    0 19:17:41 Estab   22     22
+  H3C-23.EVPN              2000::23    4 65023           2185      6796    0    0 01:50:06 Estab   22     22
+  CSCO-40.EVPN             2000::40    4 65040           1379      7351    0    0 19:04:37 Estab   15     15
+  CSCO-42.EVPN             2000::42    4 65042           1376      7456    0    0 19:03:24 Estab   15     15
+  CSCO-45.EVPN             2000::45    4 65045           1401      7227    0    0 19:01:33 Estab   12     12
+  CSCO-46.EVPN             2000::46    4 65045           1416      7244    0    0 19:00:14 Estab   12     12
+  ANET-201.EVPN            2000::201   4 65201           1930      7095    0    0 19:17:43 Estab   32     32
+  ANET-202.EVPN            2000::202   4 65202           1961      7170    0    0 19:17:43 Estab   32     32
+  ANET-203.EVPN            2000::203   4 65203           3167      6014    0    0 19:17:45 Estab   29     29
+  ANET-204.EVPN            2000::204   4 65204           3033      6032    0    0 19:17:43 Estab   31     31
+  NOK-56.EVPN              2001::56    4 65056           4069      9130    0    0 19:17:43 Estab   73     73

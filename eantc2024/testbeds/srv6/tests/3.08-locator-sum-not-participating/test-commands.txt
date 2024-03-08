@@ -1,0 +1,3 @@
+show ipv6 route
+show ip route vrf VPNv4-uSID
+show isis database detail

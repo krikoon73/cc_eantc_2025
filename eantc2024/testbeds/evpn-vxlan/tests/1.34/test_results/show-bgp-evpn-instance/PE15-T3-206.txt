@@ -1,0 +1,41 @@
+EVPN instance: SBD tenant-a
+  Route distinguisher: 100.0.0.206:1000
+  Route target import: Route-Target-AS:1000:1000
+  Route target export: Route-Target-AS:1000:1000
+  Service interface: VLAN-based
+  Local VXLAN IP address: 100.0.0.206
+  VXLAN: enabled
+  MPLS: disabled
+EVPN instance: VLAN 1301
+  Route distinguisher: 100.0.0.206:1301
+  Route target import: Route-Target-AS:1301:1301
+  Route target export: Route-Target-AS:1301:1301
+  Service interface: VLAN-based
+  Local VXLAN IP address: 100.0.0.206
+  VXLAN: enabled
+  MPLS: disabled
+  Remote ethernet segment:
+    ESI: 0000:0000:0000:0203:0204
+    Active TEPs: 100.0.0.203
+EVPN instance: VLAN 1302
+  Route distinguisher: 100.0.0.206:1302
+  Route target import: Route-Target-AS:1302:1302
+  Route target export: Route-Target-AS:1302:1302
+  Service interface: VLAN-based
+  Local VXLAN IP address: 100.0.0.206
+  VXLAN: enabled
+  MPLS: disabled
+  Remote ethernet segment:
+    ESI: 0000:0000:0000:0203:0204
+    Active TEPs: 100.0.0.203
+EVPN instance: VLAN-aware bundle 1303-1304
+  Route distinguisher: 100.0.0.206:1303
+  Route target import: Route-Target-AS:1303:1303
+  Route target export: Route-Target-AS:1303:1303
+  Service interface: VLAN-aware bundle
+  Local VXLAN IP address: 100.0.0.206
+  VXLAN: enabled
+  MPLS: disabled
+  Remote ethernet segment:
+    ESI: 0000:0000:0000:0203:0204
+    Active TEPs: 100.0.0.203

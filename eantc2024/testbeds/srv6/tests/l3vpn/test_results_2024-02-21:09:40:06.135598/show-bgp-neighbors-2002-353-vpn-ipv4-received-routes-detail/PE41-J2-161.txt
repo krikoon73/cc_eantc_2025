@@ -1,0 +1,145 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.161, local AS number 1
+BGP routing table entry for IPv4 prefix 20.11.225.0/24, Route Distinguisher: 10.0.0.11:1
+ Paths: 1 available
+  Local
+    2002::11 from 2002::353 (100.0.0.53)
+      Origin INCOMPLETE, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 10.0.0.11, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:20
+      Remote SRv6 SID: fcbb:0:1011:e000::/64, End.DT4 with NEXT-CSID
+BGP routing table entry for IPv4 prefix 20.28.225.0/24, Route Distinguisher: 1:28
+ Paths: 1 available
+  Local
+    2002::28 from 2002::353 (100.0.0.53)
+      Origin INCOMPLETE, metric 0, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 192.168.20.28, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:20
+      Remote SRv6 SID: fcbb:0:28:e100::/64, End.DT4 with NEXT-CSID
+BGP routing table entry for IPv4 prefix 20.29.225.0/24, Route Distinguisher: 1:29
+ Paths: 1 available
+  Local
+    2002::29 from 2002::353 (100.0.0.53)
+      Origin INCOMPLETE, metric 0, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 192.168.20.29, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:20
+      Remote SRv6 SID: fcbb:0:1029:e100::/64, End.DT4 with NEXT-CSID
+BGP routing table entry for IPv4 prefix 20.49.225.0/24, Route Distinguisher: 1:49
+ Paths: 1 available
+  Local
+    2002::49 from 2002::353 (100.0.0.53)
+      Origin INCOMPLETE, metric 0, localpref 100, weight 0, tag 0, invalid, internal, pending resolution
+      Originator: 10.0.0.49, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:20
+      Remote MPLS label: 0
+BGP routing table entry for IPv4 prefix 20.58.225.0/24, Route Distinguisher: 1:58
+ Paths: 1 available
+  Local
+    2002::58 from 2002::353 (100.0.0.53)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 10.0.0.58, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:20
+      Remote SRv6 SID: fcbb:0:1058:e017::/64, End.DT4 with NEXT-CSID
+BGP routing table entry for IPv4 prefix 20.59.225.0/24, Route Distinguisher: 1:59
+ Paths: 1 available
+  Local
+    2002::59 from 2002::353 (100.0.0.53)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 10.0.0.59, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:20
+      Remote SRv6 SID: fcbb:0:59:e017::/64, End.DT4 with NEXT-CSID
+BGP routing table entry for IPv4 prefix 20.102.225.0/24, Route Distinguisher: 1:302
+ Paths: 1 available
+  Local
+    2002::302 from 2002::353 (100.0.0.53)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 10.0.1.2, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:20
+      Remote SRv6 SID: fcbb:0:1302:e000::/64, End.DT4 with NEXT-CSID
+BGP routing table entry for IPv4 prefix 20.107.225.0/24, Route Distinguisher: 1:307
+ Paths: 1 available
+  Local
+    2002::307 from 2002::353 (100.0.0.53)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 10.0.1.7, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:20
+      Remote SRv6 SID: fcbb:0:307:e000::/64, End.DT4 with NEXT-CSID
+BGP routing table entry for IPv4 prefix 20.110.225.0/24, Route Distinguisher: 1:310
+ Paths: 1 available
+  Local
+    2002::310 from 2002::353 (100.0.0.53)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 10.0.1.10, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:20
+      Remote SRv6 SID: fcbb:0:1310:e000::/64, End.DT4 with NEXT-CSID
+BGP routing table entry for IPv4 prefix 20.116.225.0/24, Route Distinguisher: 1:316
+ Paths: 1 available
+  Local
+    2002::316 from 2002::353 (100.0.0.53)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 10.0.1.16, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:20
+      Remote SRv6 SID: fcbb:0:316:e002::/64, End.DT4 with NEXT-CSID
+BGP routing table entry for IPv4 prefix 20.136.225.0/24, Route Distinguisher: 1:336
+ Paths: 1 available
+  Local
+    2002::336 from 2002::353 (100.0.0.53)
+      Origin INCOMPLETE, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 10.0.1.36, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:20
+      Remote SRv6 SID: fcbb:0:336:e664::/64, End.DT4
+BGP routing table entry for IPv4 prefix 20.138.225.0/24, Route Distinguisher: 1:338
+ Paths: 1 available
+  Local
+    2002::338 from 2002::353 (100.0.0.53)
+      Origin INCOMPLETE, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 10.0.1.38, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:20
+      Remote SRv6 SID: fcbb:0:1338:e666::/64, End.DT4
+BGP routing table entry for IPv4 prefix 20.142.225.0/24, Route Distinguisher: 1:342
+ Paths: 1 available
+  Local
+    2002::342 from 2002::353 (100.0.0.53)
+      Origin INCOMPLETE, metric 0, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 100.0.0.42, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:20
+      Remote SRv6 SID: fcbb:0:342:e002::/64, End.DT4 with NEXT-CSID
+BGP routing table entry for IPv4 prefix 20.144.225.0/24, Route Distinguisher: 1:344
+ Paths: 1 available
+  Local
+    2002::344 from 2002::353 (100.0.0.53)
+      Origin INCOMPLETE, metric 0, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 100.0.0.44, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:20
+      Remote SRv6 SID: fcbb:0:1344:e001::/64, End.DT4 with NEXT-CSID
+BGP routing table entry for IPv4 prefix 20.152.225.0/24, Route Distinguisher: 1:352
+ Paths: 1 available
+  Local
+    2002::352 from 2002::353 (100.0.0.53)
+      Origin INCOMPLETE, metric 0, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 100.0.0.52, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:20
+      Remote SRv6 SID: fcbb:0:352:e002::/64, End.DT4 with NEXT-CSID
+BGP routing table entry for IPv4 prefix 20.153.225.0/24, Route Distinguisher: 1:353
+ Paths: 1 available
+  Local
+    2002::353 from 2002::353 (100.0.0.53)
+      Origin INCOMPLETE, metric 0, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:1:20
+      Remote SRv6 SID: fcbb:0:1353:e003::/64, End.DT4 with NEXT-CSID
+BGP routing table entry for IPv4 prefix 20.162.225.0/24, Route Distinguisher: 1:1162
+ Paths: 1 available
+  Local
+    2002::162 from 2002::353 (100.0.0.53)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 100.0.0.162, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:20
+      Remote SRv6 SID: fcbb:0:1162:400::/64, End.DT4 with NEXT-CSID
+BGP routing table entry for IPv4 prefix 20.199.225.0/24, Route Distinguisher: 1:199
+ Paths: 1 available
+  Local
+    2002::199 from 2002::353 (100.0.0.53)
+      Origin INCOMPLETE, metric 0, localpref 100, weight 0, tag 0, valid, internal, best
+      Originator: 20.49.199.199, Cluster list: 100.0.0.53 
+      Extended Community: Route-Target-AS:1:20
+      Remote SRv6 SID: fcbb:0:1199:e1b7::/64, End.DT4 with NEXT-CSID

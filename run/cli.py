@@ -10,6 +10,7 @@ import os
 import sys
 import re
 from run.tools import time_stamp
+import tarfile
 
 
 def get_config(task: Task, cfg_dir: str) -> Result:
@@ -88,9 +89,13 @@ def interpreter():
         '-y', '--year', default=2024,
         help='The EANTC year. Optional, default is 2024. This will be used to find tests parent directory.'
     )
+    # parser.add_argument(
+    #     '-i', '--inventory', choices=['evpn-vxlan', 'evpn-mpls', 'sr-mpls', 'srv6', 'synce'], required=True,
+    #     help='EANTC test inventory: [ evpn-vxlan, evpn-mpls, sr-mpls, srv6, synce ]. Required!'
+    # )
     parser.add_argument(
-        '-i', '--inventory', choices=['evpn-vxlan', 'evpn-mpls', 'sr-mpls', 'srv6', 'synce'], required=True,
-        help='EANTC test inventory: [ evpn-vxlan, evpn-mpls, sr-mpls, srv6, synce ]. Required!'
+    '-i', '--inventory', required=True,
+    help='EANTC test inventory: [ evpn-vxlan, evpn-mpls, sr-mpls, srv6, synce ]. Required!'
     )
     parser.add_argument(
         '-t', '--task', default='',
@@ -108,6 +113,10 @@ def interpreter():
     parser.add_argument(
         '-ndr', '--no_dry_run', action='store_false', default=True,
         help='Do not recover configs, use Nornir dry run to check the diff.'
+    )
+    parser.add_argument(
+        '-tar', '--tar', action='store_true', default=False,
+        help='Create tar archive.'
     )
     argcomplete.autocomplete(parser)
     args = parser.parse_args()
@@ -199,3 +208,8 @@ def interpreter():
             result = nr.run(task=run_a_command_list, cmds_and_dirnames=cmd_list_with_dirnames)
             if result.failed:
                 print(f'ERROR: Failed to collect show commands from the following hosts: {[k for k in result.failed_hosts.keys()]}')
+
+            # create tar.gz if required
+            if args.tar:
+                with tarfile.open(f'{sub_dir}.tar.gz', "w:gz") as tar:
+                    tar.add(sub_dir, arcname=os.path.basename(sub_dir))

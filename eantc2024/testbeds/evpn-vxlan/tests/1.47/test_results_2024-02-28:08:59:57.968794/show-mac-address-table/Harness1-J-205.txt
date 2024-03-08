@@ -1,0 +1,21 @@
+          Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports      Moves   Last Move
+----    -----------       ----        -----      -----   ---------
+   1    5c5a.c773.4ac0    DYNAMIC     Et17       1       2 days, 1:57:57 ago
+  44    001c.0100.0001    DYNAMIC     Et25       1       0:01:54 ago
+  44    001c.0100.0002    DYNAMIC     Et25       1       0:01:54 ago
+ 203    001b.0100.0001    DYNAMIC     Et25       1       0:01:54 ago
+ 203    001b.0100.0002    DYNAMIC     Et25       1       0:01:54 ago
+ 203    00aa.aaaa.aaaa    DYNAMIC     Po200      1       0:01:54 ago
+ 203    3838.a621.e82f    DYNAMIC     Po200      1       2 days, 1:57:55 ago
+ 203    985d.82a2.04f9    DYNAMIC     Po200      1       1 day, 17:55:22 ago
+Total Mac Addresses for this criterion: 8
+
+          Multicast Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       ----        -----
+Total Mac Addresses for this criterion: 0
