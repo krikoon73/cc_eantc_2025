@@ -1,0 +1,85 @@
+Vlan1201 is up
+  IGMP on this interface: enabled
+  Interface address: 10.10.201.254
+  Multicast routing on this interface: enabled
+  Multicast TTL threshold: 0
+  Current IGMP router version: 3
+  IGMP query interval: 125 seconds
+  IGMP max query response time: 100 deciseconds
+  Last member query response interval: 10 deciseconds
+  Last member query response count: 2
+  IGMP querier: 100.0.1.201
+  Robustness: 2
+  Require router alert: routerAlertOptionalConnected
+  Startup query interval: 312 deciseconds
+  Startup query count: 2
+  General query timer expiry: 0:00:16
+  Multicast groups joined:
+Vlan1301 is up
+  IGMP on this interface: enabled
+  Interface address: 10.30.1.254
+  Multicast routing on this interface: enabled
+  Multicast TTL threshold: 0
+  Current IGMP router version: 3
+  IGMP query interval: 125 seconds
+  IGMP max query response time: 100 deciseconds
+  Last member query response interval: 10 deciseconds
+  Last member query response count: 2
+  IGMP querier: 100.0.1.201
+  Robustness: 2
+  Require router alert: routerAlertOptionalConnected
+  Startup query interval: 312 deciseconds
+  Startup query count: 2
+  General query timer expiry: 0:00:16
+  Multicast groups joined:
+Vlan1302 is up
+  IGMP on this interface: enabled
+  Interface address: 10.30.2.254
+  Multicast routing on this interface: enabled
+  Multicast TTL threshold: 0
+  Current IGMP router version: 3
+  IGMP query interval: 125 seconds
+  IGMP max query response time: 100 deciseconds
+  Last member query response interval: 10 deciseconds
+  Last member query response count: 2
+  IGMP querier: 100.0.1.201
+  Robustness: 2
+  Require router alert: routerAlertOptionalConnected
+  Startup query interval: 312 deciseconds
+  Startup query count: 2
+  General query timer expiry: 0:00:20
+  Multicast groups joined:
+Vlan1303 is up
+  IGMP on this interface: enabled
+  Interface address: 10.30.3.254
+  Multicast routing on this interface: enabled
+  Multicast TTL threshold: 0
+  Current IGMP router version: 3
+  IGMP query interval: 125 seconds
+  IGMP max query response time: 100 deciseconds
+  Last member query response interval: 10 deciseconds
+  Last member query response count: 2
+  IGMP querier: 100.0.1.201
+  Robustness: 2
+  Require router alert: routerAlertOptionalConnected
+  Startup query interval: 312 deciseconds
+  Startup query count: 2
+  General query timer expiry: 0:00:20
+  Multicast groups joined:
+Vlan1304 is up
+  IGMP on this interface: enabled
+  Interface address: 10.30.4.254
+  Multicast routing on this interface: enabled
+  Multicast TTL threshold: 0
+  Current IGMP router version: 3
+  IGMP query interval: 125 seconds
+  IGMP max query response time: 100 deciseconds
+  Last member query response interval: 10 deciseconds
+  Last member query response count: 2
+  IGMP querier: 100.0.1.201
+  Robustness: 2
+  Require router alert: routerAlertOptionalConnected
+  Startup query interval: 312 deciseconds
+  Startup query count: 2
+  General query timer expiry: 0:00:17
+  Multicast groups joined:

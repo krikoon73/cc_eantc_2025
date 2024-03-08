@@ -1,0 +1,562 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.200, local AS number 65000
+BGP routing table entry for mac-ip 0013.0100.0002, Route Distinguisher: 100.0.0.4:2301
+ Paths: 1 available
+  65056 64512
+    100.0.0.34 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2000:2000 Route-Target-AS:2301:2301 Route-Origin-IP:100.0.0.34:0
+      VNI: 768560 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0013.0100.0002 20.30.1.4, Route Distinguisher: 100.0.0.4:2301
+ Paths: 1 available
+  65056 64512
+    100.0.0.34 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2000:2000 Route-Target-AS:2301:2301 Route-Origin-IP:100.0.0.34:0
+      VNI: 768560 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0013.0100.0003, Route Distinguisher: 100.0.0.4:2302
+ Paths: 1 available
+  65056 64512
+    100.0.0.34 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2000:2000 Route-Target-AS:2302:2302 Route-Origin-IP:100.0.0.34:0
+      VNI: 768704 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0013.0100.0003 20.30.2.4, Route Distinguisher: 100.0.0.4:2302
+ Paths: 1 available
+  65056 64512
+    100.0.0.34 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2000:2000 Route-Target-AS:2302:2302 Route-Origin-IP:100.0.0.34:0
+      VNI: 768704 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0015.0100.0002, Route Distinguisher: 100.0.37.9:2301
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301
+      VNI: 256 ESI: 0037:0903:0405:0608:09aa
+BGP routing table entry for mac-ip 0015.0100.0002 20.30.1.32, Route Distinguisher: 100.0.37.9:2301
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301
+      VNI: 256 ESI: 0037:0903:0405:0608:09aa
+BGP routing table entry for mac-ip 0015.0100.0003, Route Distinguisher: 100.0.37.9:2302
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2302:2302
+      VNI: 288 ESI: 0037:0903:0405:0608:09aa
+BGP routing table entry for mac-ip 0015.0100.0003 20.30.2.32, Route Distinguisher: 100.0.37.9:2302
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2302:2302
+      VNI: 288 ESI: 0037:0903:0405:0608:09aa
+BGP routing table entry for mac-ip 0016.0100.0002, Route Distinguisher: 100.0.3.45:2301
+ Paths: 1 available
+  65056 64512
+    100.0.3.45 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301 Route-Origin-IP:100.0.3.48:2301 060e:0x00 0x00 0x00 0x00 0x08 0xfd
+      VNI: 449536 ESI: 0045:4845:4845:4845:4845
+BGP routing table entry for mac-ip 0016.0100.0002, Route Distinguisher: 100.0.3.48:2301
+ Paths: 1 available
+  65056 64512
+    100.0.3.48 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301 Route-Origin-IP:100.0.3.48:2301 060e:0x00 0x00 0x00 0x00 0x08 0xfd
+      VNI: 408000 ESI: 0045:4845:4845:4845:4845
+BGP routing table entry for mac-ip 0016.0100.0002 20.30.1.151, Route Distinguisher: 100.0.3.45:2301
+ Paths: 1 available
+  65056 64512
+    100.0.3.45 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2000:2000 Route-Target-AS:2301:2301 Route-Origin-IP:100.0.3.48:2301 060e:0x00 0x00 0x00 0x00 0x08 0xfd
+      VNI: 449536 ESI: 0045:4845:4845:4845:4845
+BGP routing table entry for mac-ip 0016.0100.0002 20.30.1.151, Route Distinguisher: 100.0.3.48:2301
+ Paths: 1 available
+  65056 64512
+    100.0.3.48 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2000:2000 Route-Target-AS:2301:2301 Route-Origin-IP:100.0.3.48:2301 060e:0x00 0x00 0x00 0x00 0x08 0xfd
+      VNI: 408000 ESI: 0045:4845:4845:4845:4845
+BGP routing table entry for mac-ip 0016.0100.0003, Route Distinguisher: 100.0.3.45:2302
+ Paths: 1 available
+  65056 64512
+    100.0.3.45 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2302:2302 Route-Origin-IP:100.0.3.48:2303 060e:0x00 0x00 0x00 0x00 0x08 0xfe
+      VNI: 449552 ESI: 0045:4845:4845:4845:4845
+BGP routing table entry for mac-ip 0016.0100.0003, Route Distinguisher: 100.0.3.48:2302
+ Paths: 1 available
+  65056 64512
+    100.0.3.48 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2302:2302 Route-Origin-IP:100.0.3.48:2303 060e:0x00 0x00 0x00 0x00 0x08 0xfe
+      VNI: 408016 ESI: 0045:4845:4845:4845:4845
+BGP routing table entry for mac-ip 0016.0100.0003 20.30.2.151, Route Distinguisher: 100.0.3.45:2302
+ Paths: 1 available
+  65056 64512
+    100.0.3.45 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2000:2000 Route-Target-AS:2302:2302 Route-Origin-IP:100.0.3.48:2303 060e:0x00 0x00 0x00 0x00 0x08 0xfe
+      VNI: 449552 ESI: 0045:4845:4845:4845:4845
+BGP routing table entry for mac-ip 0016.0100.0003 20.30.2.151, Route Distinguisher: 100.0.3.48:2302
+ Paths: 1 available
+  65056 64512
+    100.0.3.48 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2000:2000 Route-Target-AS:2302:2302 Route-Origin-IP:100.0.3.48:2303 060e:0x00 0x00 0x00 0x00 0x08 0xfe
+      VNI: 408016 ESI: 0045:4845:4845:4845:4845
+BGP routing table entry for mac-ip 001b.0100.0002, Route Distinguisher: 100.0.30.9:2301
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301
+      VNI: 272 ESI: 0030:0903:0405:0607:08cc
+BGP routing table entry for mac-ip 001b.0100.0002 20.30.1.33, Route Distinguisher: 100.0.30.9:2301
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301
+      VNI: 272 ESI: 0030:0903:0405:0607:08cc
+BGP routing table entry for mac-ip 001b.0100.0003, Route Distinguisher: 100.0.30.9:2302
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2302:2302
+      VNI: 320 ESI: 0030:0903:0405:0607:08cc
+BGP routing table entry for mac-ip 001b.0100.0003 20.30.2.33, Route Distinguisher: 100.0.30.9:2302
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2302:2302
+      VNI: 320 ESI: 0030:0903:0405:0607:08cc
+BGP routing table entry for mac-ip 0056.5656.5656 10.10.56.253, Route Distinguisher: 100.0.0.56:1056
+ Paths: 1 available
+  65056
+    100.0.0.56 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1056:1056 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1056 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0056.5656.5656 10.30.1.254, Route Distinguisher: 100.0.0.56:1301
+ Paths: 1 available
+  65056
+    100.0.0.56 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1301 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 0056.5656.5656 10.30.2.254, Route Distinguisher: 100.0.0.56:1302
+ Paths: 1 available
+  65056
+    100.0.0.56 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1302 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa, Route Distinguisher: 100.0.0.4:2301
+ Paths: 1 available
+  65056 64512
+    100.0.0.34 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2000:2000 Route-Target-AS:2301:2301 Route-Origin-IP:100.0.0.34:0 EvpnMacMobility:sticky
+      VNI: 768560 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa, Route Distinguisher: 100.0.0.4:2302
+ Paths: 1 available
+  65056 64512
+    100.0.0.34 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2000:2000 Route-Target-AS:2302:2302 Route-Origin-IP:100.0.0.34:0 EvpnMacMobility:sticky
+      VNI: 768704 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa, Route Distinguisher: 100.0.30.9:2301
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301 EvpnMacMobility:sticky
+      VNI: 272 ESI: 0500:00fc:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa, Route Distinguisher: 100.0.30.9:2302
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2302:2302 EvpnMacMobility:sticky
+      VNI: 320 ESI: 0500:00fc:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa, Route Distinguisher: 100.0.37.9:2301
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301 EvpnMacMobility:sticky
+      VNI: 256 ESI: 0500:00fc:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa, Route Distinguisher: 100.0.37.9:2302
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2302:2302 EvpnMacMobility:sticky
+      VNI: 288 ESI: 0500:00fc:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa 10.10.56.254, Route Distinguisher: 100.0.0.56:1056
+ Paths: 1 available
+  65056
+    100.0.0.56 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1056:1056 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1056 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa 10.10.203.254, Route Distinguisher: 100.0.0.56:1203
+ Paths: 1 available
+  65056
+    100.0.0.56 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1203:1203 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1203 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa 20.30.1.254, Route Distinguisher: 100.0.30.9:2301
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301
+      VNI: 272 ESI: 0500:00fc:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa 20.30.1.254, Route Distinguisher: 100.0.37.9:2301
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301
+      VNI: 256 ESI: 0500:00fc:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa 20.30.2.254, Route Distinguisher: 100.0.30.9:2302
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2302:2302
+      VNI: 320 ESI: 0500:00fc:0000:0000:0000
+BGP routing table entry for mac-ip 00aa.aaaa.aaaa 20.30.2.254, Route Distinguisher: 100.0.37.9:2302
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2302:2302
+      VNI: 288 ESI: 0500:00fc:0000:0000:0000
+BGP routing table entry for mac-ip 444c.a873.5c75, Route Distinguisher: 100.0.0.40:33807
+ Paths: 1 available
+  65040
+    100.0.0.40 from 100.0.0.40 (100.0.0.40)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1040:1040 TunnelEncap:tunnelTypeVxlan
+      VNI: 1040 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 444c.a873.5c75, Route Distinguisher: 100.0.0.42:33809
+ Paths: 1 available
+  65042
+    100.0.0.42 from 100.0.0.42 (100.0.0.42)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1042:1042 TunnelEncap:tunnelTypeVxlan
+      VNI: 1042 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 444c.a873.5c75 10.10.22.202, Route Distinguisher: 100.0.0.22:1022
+ Paths: 1 available
+  65022
+    100.0.0.22 from 100.0.0.22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1022:1022 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:c4:07:78:0a:9f:31
+      VNI: 1022 L3 VNI: 1000 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 444c.a873.5c75 10.10.40.202, Route Distinguisher: 100.0.0.40:33807
+ Paths: 1 available
+  65040
+    100.0.0.40 from 100.0.0.40 (100.0.0.40)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1040:1040 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:24:6c:84:74:8d:db
+      VNI: 1040 L3 VNI: 1000 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 444c.a873.5c75 10.10.42.202, Route Distinguisher: 100.0.0.42:33809
+ Paths: 1 available
+  65042
+    100.0.0.42 from 100.0.0.42 (100.0.0.42)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 Route-Target-AS:1042:1042 TunnelEncap:tunnelTypeVxlan EvpnRouterMac:40:14:82:7b:84:ab
+      VNI: 1042 L3 VNI: 1000 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 60c7.8d2d.4416, Route Distinguisher: 100.0.37.9:2301
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301 EvpnMacMobility:sticky
+      VNI: 256 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 60c7.8d2d.4416, Route Distinguisher: 100.0.37.9:2302
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2302:2302 EvpnMacMobility:sticky
+      VNI: 288 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 60c7.8d2d.4416 20.30.1.201, Route Distinguisher: 100.0.37.9:2301
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301 EvpnMacMobility:sticky
+      VNI: 256 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 60c7.8d2d.4416 20.30.2.201, Route Distinguisher: 100.0.37.9:2302
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2302:2302 EvpnMacMobility:sticky
+      VNI: 288 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip e4f2.7cef.a505, Route Distinguisher: 100.0.30.9:2301
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301 EvpnMacMobility:sticky
+      VNI: 272 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip e4f2.7cef.a505, Route Distinguisher: 100.0.30.9:2302
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2302:2302 EvpnMacMobility:sticky
+      VNI: 320 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip e4f2.7cef.a505 20.30.1.200, Route Distinguisher: 100.0.30.9:2301
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2301:2301 EvpnMacMobility:sticky
+      VNI: 272 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip e4f2.7cef.a505 20.30.2.200, Route Distinguisher: 100.0.30.9:2302
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2302:2302 EvpnMacMobility:sticky
+      VNI: 320 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 1303 0056.5656.5656 10.30.3.254, Route Distinguisher: 100.0.0.56:1303
+ Paths: 1 available
+  65056
+    100.0.0.56 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1303 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 1304 0056.5656.5656 10.30.4.254, Route Distinguisher: 100.0.0.56:1304
+ Paths: 1 available
+  65056
+    100.0.0.56 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan EvpnMacMobility:sticky
+      VNI: 1304 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 2303 0013.0100.0004, Route Distinguisher: 100.0.0.4:2303
+ Paths: 1 available
+  65056 64512
+    100.0.0.34 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2000:2000 Route-Target-AS:2303:2303 Route-Origin-IP:100.0.0.34:0
+      VNI: 768608 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 2303 0013.0100.0004 20.30.3.4, Route Distinguisher: 100.0.0.4:2303
+ Paths: 1 available
+  65056 64512
+    100.0.0.34 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2000:2000 Route-Target-AS:2303:2303 Route-Origin-IP:100.0.0.34:0
+      VNI: 768608 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 2303 0015.0100.0004, Route Distinguisher: 100.0.37.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303
+      VNI: 624 ESI: 0037:0903:0405:0608:09aa
+BGP routing table entry for mac-ip 2303 0015.0100.0004 20.30.3.32, Route Distinguisher: 100.0.37.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303
+      VNI: 624 ESI: 0037:0903:0405:0608:09aa
+BGP routing table entry for mac-ip 2303 001b.0100.0004, Route Distinguisher: 100.0.30.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303
+      VNI: 368 ESI: 0030:0903:0405:0607:08cc
+BGP routing table entry for mac-ip 2303 001b.0100.0004 20.30.3.33, Route Distinguisher: 100.0.30.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303
+      VNI: 368 ESI: 0030:0903:0405:0607:08cc
+BGP routing table entry for mac-ip 2303 00aa.aaaa.aaaa, Route Distinguisher: 100.0.0.4:2303
+ Paths: 1 available
+  65056 64512
+    100.0.0.34 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2000:2000 Route-Target-AS:2303:2303 Route-Origin-IP:100.0.0.34:0 EvpnMacMobility:sticky
+      VNI: 768608 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 2303 00aa.aaaa.aaaa, Route Distinguisher: 100.0.30.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303 EvpnMacMobility:sticky
+      VNI: 368 ESI: 0500:00fc:0000:0008:ff00
+BGP routing table entry for mac-ip 2303 00aa.aaaa.aaaa, Route Distinguisher: 100.0.37.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303 EvpnMacMobility:sticky
+      VNI: 1200 ESI: 0500:00fc:0000:0008:ff00
+BGP routing table entry for mac-ip 2303 00aa.aaaa.aaaa 20.30.3.254, Route Distinguisher: 100.0.30.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303
+      VNI: 368 ESI: 0500:00fc:0000:0008:ff00
+BGP routing table entry for mac-ip 2303 00aa.aaaa.aaaa 20.30.3.254, Route Distinguisher: 100.0.37.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303
+      VNI: 1200 ESI: 0500:00fc:0000:0008:ff00
+BGP routing table entry for mac-ip 2303 60c7.8d2d.4416, Route Distinguisher: 100.0.37.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303 EvpnMacMobility:sticky
+      VNI: 320 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 2303 60c7.8d2d.4416 20.30.3.201, Route Distinguisher: 100.0.37.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303 EvpnMacMobility:sticky
+      VNI: 320 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 2303 e4f2.7cef.a505, Route Distinguisher: 100.0.30.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303 EvpnMacMobility:sticky
+      VNI: 368 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 2303 e4f2.7cef.a505 20.30.3.200, Route Distinguisher: 100.0.30.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303 EvpnMacMobility:sticky
+      VNI: 368 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 2304 0013.0100.0005, Route Distinguisher: 100.0.0.4:2303
+ Paths: 1 available
+  65056 64512
+    100.0.0.34 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2000:2000 Route-Target-AS:2303:2303 Route-Origin-IP:100.0.0.34:0
+      VNI: 768656 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 2304 0013.0100.0005 20.30.4.4, Route Distinguisher: 100.0.0.4:2303
+ Paths: 1 available
+  65056 64512
+    100.0.0.34 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2000:2000 Route-Target-AS:2303:2303 Route-Origin-IP:100.0.0.34:0
+      VNI: 768656 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 2304 0015.0100.0005, Route Distinguisher: 100.0.37.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303
+      VNI: 624 ESI: 0037:0903:0405:0608:09aa
+BGP routing table entry for mac-ip 2304 0015.0100.0005 20.30.4.32, Route Distinguisher: 100.0.37.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303
+      VNI: 624 ESI: 0037:0903:0405:0608:09aa
+BGP routing table entry for mac-ip 2304 001b.0100.0005, Route Distinguisher: 100.0.30.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303
+      VNI: 384 ESI: 0030:0903:0405:0607:08cc
+BGP routing table entry for mac-ip 2304 001b.0100.0005 20.30.4.33, Route Distinguisher: 100.0.30.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303
+      VNI: 384 ESI: 0030:0903:0405:0607:08cc
+BGP routing table entry for mac-ip 2304 00aa.aaaa.aaaa, Route Distinguisher: 100.0.0.4:2303
+ Paths: 1 available
+  65056 64512
+    100.0.0.34 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2000:2000 Route-Target-AS:2303:2303 Route-Origin-IP:100.0.0.34:0 EvpnMacMobility:sticky
+      VNI: 768656 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 2304 00aa.aaaa.aaaa, Route Distinguisher: 100.0.30.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303 EvpnMacMobility:sticky
+      VNI: 384 ESI: 0500:00fc:0000:0009:0000
+BGP routing table entry for mac-ip 2304 00aa.aaaa.aaaa, Route Distinguisher: 100.0.37.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303 EvpnMacMobility:sticky
+      VNI: 1232 ESI: 0500:00fc:0000:0009:0000
+BGP routing table entry for mac-ip 2304 00aa.aaaa.aaaa 20.30.4.254, Route Distinguisher: 100.0.30.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303
+      VNI: 384 ESI: 0500:00fc:0000:0009:0000
+BGP routing table entry for mac-ip 2304 00aa.aaaa.aaaa 20.30.4.254, Route Distinguisher: 100.0.37.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303
+      VNI: 1232 ESI: 0500:00fc:0000:0009:0000
+BGP routing table entry for mac-ip 2304 60c7.8d2d.4416, Route Distinguisher: 100.0.37.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303 EvpnMacMobility:sticky
+      VNI: 320 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 2304 60c7.8d2d.4416 20.30.4.201, Route Distinguisher: 100.0.37.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.37.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303 EvpnMacMobility:sticky
+      VNI: 320 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 2304 e4f2.7cef.a505, Route Distinguisher: 100.0.30.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303 EvpnMacMobility:sticky
+      VNI: 384 ESI: 0000:0000:0000:0000:0000
+BGP routing table entry for mac-ip 2304 e4f2.7cef.a505 20.30.4.200, Route Distinguisher: 100.0.30.9:2303
+ Paths: 1 available
+  65056 64512
+    100.0.30.9 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, invalid, external
+      Extended Community: Route-Target-AS:2303:2303 EvpnMacMobility:sticky
+      VNI: 384 ESI: 0000:0000:0000:0000:0000

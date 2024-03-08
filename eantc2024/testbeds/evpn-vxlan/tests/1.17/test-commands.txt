@@ -1,0 +1,24 @@
+show hostname
+show ip bgp summary 
+show bgp evpn summary
+show bgp evpn route-type auto-discovery detail 
+show bgp evpn route-type mac-ip detail 
+show bgp evpn route-type imet detail 
+show bgp evpn route-type ethernet-segment detail 
+show bgp evpn route-type ip-prefix ipv4 detail 
+show bgp evpn route-type smet detail
+show bgp evpn route-type spmsi detail
+show bgp evpn arp
+show ip route
+show ip arp
+show ip route vrf all 
+show ip arp vrf all 
+show vxlan address-table
+show vxlan vni
+show mac address-table 
+show l2rib output detail
+show vxlan flood vtep domain local 
+show vxlan flood vtep domain remote 
+show bgp evpn domain remote detail
+show bgp evpn instance
+show interfaces counters rates | nz

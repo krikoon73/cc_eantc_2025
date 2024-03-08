@@ -1,0 +1,2 @@
+Hostname: PE12-JP-202
+FQDN:     PE12-JP-202.ns.eantc.de

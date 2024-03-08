@@ -1,0 +1,30 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.206, local AS number 65206
+BGP routing table entry for ethernet-segment 0000:0000:0000:0123:0123 100.0.0.34, Route Distinguisher: 100.0.0.34:0
+ Paths: 1 available
+  Local
+    PolicyReject from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref -, weight 0, tag 0, invalid, local
+BGP routing table entry for ethernet-segment 0000:0000:0000:0123:0123 100.0.37.9, Route Distinguisher: 100.0.37.9:0
+ Paths: 1 available
+  Local
+    PolicyReject from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref -, weight 0, tag 0, invalid, local
+BGP routing table entry for ethernet-segment 0000:2222:2222:2222:1111 100.0.0.22, Route Distinguisher: 100.0.0.22:0
+ Paths: 1 available
+  65022
+    100.0.0.22 from 100.0.0.22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: TunnelEncap:tunnelTypeVxlan EvpnEsImportRt:00:22:22:22:22:22 DF Election: Modulus-based
+BGP routing table entry for ethernet-segment 0000:2222:2222:2222:1111 100.0.0.56, Route Distinguisher: 100.0.0.56:0
+ Paths: 1 available
+  65056
+    100.0.0.56 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Origin-AS:56:56 EvpnEsImportRt:00:22:22:22:22:22
+BGP routing table entry for ethernet-segment 0048:5648:5648:5648:5648 100.0.0.56, Route Distinguisher: 100.0.0.56:0
+ Paths: 1 available
+  65056
+    100.0.0.56 from 100.0.0.56 (100.0.0.56)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Origin-AS:56:56 EvpnEsImportRt:48:56:48:56:48:56

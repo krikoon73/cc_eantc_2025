@@ -1,0 +1,5 @@
+Address         Age (sec)  Hardware Addr   Interface
+20.56.205.56      0:00:02  407c.7dc4.ab98  Ethernet49/1
+30.14.205.14      0:00:02  f8c1.1604.2332  Ethernet49/2
+20.22.205.22      0:00:02  c407.780a.9f31  Ethernet49/3
+20.201.205.201    0:00:02  2cdd.e90b.2283  Ethernet50/1

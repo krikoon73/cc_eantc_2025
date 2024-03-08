@@ -1,0 +1,27 @@
+          Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports      Moves   Last Move
+----    -----------       ----        -----      -----   ---------
+1201    00aa.aaaa.aaaa    STATIC      Router
+1201    7483.ef0b.a4fb    STATIC      Router
+1202    00aa.aaaa.aaaa    STATIC      Router
+1202    7483.ef0b.a4fb    STATIC      Router
+1301    00aa.aaaa.aaaa    STATIC      Router
+1301    7483.ef0b.a4fb    STATIC      Router
+1302    00aa.aaaa.aaaa    STATIC      Router
+1302    7483.ef0b.a4fb    STATIC      Router
+1303    00aa.aaaa.aaaa    STATIC      Router
+1303    7483.ef0b.a4fb    STATIC      Router
+1304    00aa.aaaa.aaaa    STATIC      Router
+1304    7483.ef0b.a4fb    STATIC      Router
+4094    00aa.aaaa.aaaa    STATIC      Router
+4094    7483.ef0b.a4fb    STATIC      Router
+Total Mac Addresses for this criterion: 14
+
+          Multicast Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       ----        -----
+Total Mac Addresses for this criterion: 0

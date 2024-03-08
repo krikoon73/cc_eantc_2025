@@ -1,0 +1,82 @@
+
+VRF: default
+Source Codes:
+       C - connected, S - static, K - kernel,
+       O - OSPF, IA - OSPF inter area, E1 - OSPF external type 1,
+       E2 - OSPF external type 2, N1 - OSPF NSSA external type 1,
+       N2 - OSPF NSSA external type2, B - Other BGP Routes,
+       B I - iBGP, B E - eBGP, R - RIP, I L1 - IS-IS level 1,
+       I L2 - IS-IS level 2, O3 - OSPFv3, A B - BGP Aggregate,
+       A O - OSPF Summary, NG - Nexthop Group Static Route,
+       V - VXLAN Control Service, M - Martian,
+       DH - DHCP client installed default route,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+Gateway of last resort is not set
+
+ C        20.22.200.0/24
+           directly connected, Ethernet26
+ C        20.23.200.0/24
+           directly connected, Ethernet25
+ C        20.40.200.0/24
+           directly connected, Ethernet15
+ C        20.42.200.0/24
+           directly connected, Ethernet16
+ C        20.44.200.0/24
+           directly connected, Ethernet17
+ C        20.45.200.0/24
+           directly connected, Ethernet13
+ C        20.46.200.0/24
+           directly connected, Ethernet14
+ C        20.56.200.0/24
+           directly connected, Ethernet11
+ C        20.103.200.0/24
+           directly connected, Ethernet12
+ C        20.200.201.0/24
+           directly connected, Ethernet1
+ C        20.200.202.0/24
+           directly connected, Ethernet2
+ C        20.200.203.0/24
+           directly connected, Ethernet3
+ C        20.200.204.0/24
+           directly connected, Ethernet4
+ C        20.200.206.0/24
+           directly connected, Ethernet5
+ B E      100.0.0.22/32 [20/0]
+           via 20.22.200.22, Ethernet26
+ B E      100.0.0.23/32 [20/0]
+           via 20.23.200.23, Ethernet25
+ B E      100.0.0.40/32 [20/0]
+           via 20.40.200.40, Ethernet15
+ B E      100.0.0.41/32 [20/0]
+           via 20.45.200.45, Ethernet13
+           via 20.46.200.46, Ethernet14
+ B E      100.0.0.42/32 [20/0]
+           via 20.42.200.42, Ethernet16
+ B E      100.0.0.44/32 [20/0]
+           via 20.44.200.40, Ethernet17
+ B E      100.0.0.45/32 [20/0]
+           via 20.45.200.45, Ethernet13
+           via 20.46.200.46, Ethernet14
+ B E      100.0.0.46/32 [20/0]
+           via 20.45.200.45, Ethernet13
+           via 20.46.200.46, Ethernet14
+ B E      100.0.0.56/32 [20/0]
+           via 20.56.200.56, Ethernet11
+ B E      100.0.0.103/32 [20/0]
+           via 20.103.200.103, Ethernet12
+ C        100.0.0.200/32
+           directly connected, Loopback0
+ B E      100.0.0.201/32 [20/0]
+           via 20.200.201.201, Ethernet1
+ B E      100.0.0.202/32 [20/0]
+           via 20.200.202.202, Ethernet2
+ B E      100.0.0.203/32 [20/0]
+           via 20.200.203.203, Ethernet3
+ B E      100.0.0.204/32 [20/0]
+           via 20.200.204.204, Ethernet4
+ B E      100.0.0.206/32 [20/0]
+           via 20.200.206.206, Ethernet5
+

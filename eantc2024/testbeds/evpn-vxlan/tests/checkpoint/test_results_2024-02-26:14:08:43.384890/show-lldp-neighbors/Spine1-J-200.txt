@@ -1,0 +1,17 @@
+Last table change time   : 0:07:33 ago
+Number of table inserts  : 20
+Number of table deletes  : 12
+Number of table drops    : 0
+Number of table age-outs : 0
+
+Port          Neighbor Device ID               Neighbor Port ID    TTL
+---------- -------------------------------- ---------------------- ---
+Et1           PE11-JP-201.ns.eantc.de          Ethernet1           120
+Et2           PE12-JP-202.ns.eantc.de          Ethernet1           120
+Et3           PE13-T3-203.ns.eantc.de          Ethernet1           120
+Et4           PE14-T3-204.ns.eantc.de          Ethernet1           120
+Et16          Cisco_42_N9K-C93400LD-H1         Ethernet1/1         120
+Et24          juniper-314-ACX7509              et-2/0/3            120
+Et48          Harness1-J-205.ns.eantc.de       Ethernet48          120
+Ma1           extreme-x460-1                   43                  120
+

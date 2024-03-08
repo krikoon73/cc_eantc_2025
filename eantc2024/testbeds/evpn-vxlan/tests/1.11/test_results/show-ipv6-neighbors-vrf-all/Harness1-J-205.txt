@@ -1,0 +1,6 @@
+
+VRF: default
+IPv6 Address                                  Age Hardware Addr   Interface
+
+VRF: mgmt
+IPv6 Address                                  Age Hardware Addr   Interface

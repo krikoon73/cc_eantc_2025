@@ -1,0 +1,38 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.202, local AS number 65202
+BGP routing table entry for ethernet-segment 0000:1111:1111:1111:1111 100.0.0.202, Route Distinguisher: 100.0.0.202:1
+ Paths: 1 available
+  Local
+    - from - (0.0.0.0)
+      Origin IGP, metric -, localpref -, weight 0, tag 0, valid, local, best
+      Extended Community: TunnelEncap:tunnelTypeVxlan EvpnEsImportRt:00:11:11:11:11:11 DF Election: Preference 150
+BGP routing table entry for ethernet-segment 0000:1111:1111:1111:1111 100.0.0.202 remote, Route Distinguisher: 100.0.0.202:1
+ Paths: 1 available
+  Local
+    - from - (0.0.0.0)
+      Origin IGP, metric -, localpref -, weight 0, tag 0, valid, local, best
+      Extended Community: TunnelEncap:tunnelTypeVxlan EvpnEsImportRt:00:11:11:11:11:11 DF Election: Preference 150
+BGP routing table entry for ethernet-segment 0300:0000:00fe:1500:0309 100.0.0.45 remote, Route Distinguisher: 100.0.0.45:27001
+ Paths: 1 available
+  65040 65045
+    100.0.0.40 from 100.0.0.40 (100.0.0.40)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: TunnelEncap:tunnelTypeVxlan EvpnEsImportRt:00:00:00:00:fe:15
+BGP routing table entry for ethernet-segment 0300:0000:00fe:1500:0309 100.0.0.45 remote, Route Distinguisher: 100.0.0.46:27001
+ Paths: 1 available
+  65040 65045
+    100.0.0.40 from 100.0.0.40 (100.0.0.40)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: TunnelEncap:tunnelTypeVxlan EvpnEsImportRt:00:00:00:00:fe:15
+BGP routing table entry for ethernet-segment 0300:0000:00fe:1500:0309 100.0.0.46 remote, Route Distinguisher: 100.0.0.45:27001
+ Paths: 1 available
+  65040 65045
+    100.0.0.40 from 100.0.0.40 (100.0.0.40)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: TunnelEncap:tunnelTypeVxlan EvpnEsImportRt:00:00:00:00:fe:15
+BGP routing table entry for ethernet-segment 0300:0000:00fe:1500:0309 100.0.0.46 remote, Route Distinguisher: 100.0.0.46:27001
+ Paths: 1 available
+  65040 65045
+    100.0.0.40 from 100.0.0.40 (100.0.0.40)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: TunnelEncap:tunnelTypeVxlan EvpnEsImportRt:00:00:00:00:fe:15

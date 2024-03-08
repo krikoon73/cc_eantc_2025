@@ -1,0 +1,6 @@
+BGP summary information for VRF default
+Router identifier 100.0.0.202, local AS number 65202
+Neighbor Status Codes: m - Under maintenance
+  Description              Neighbor    V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
+  CISCO_EVPN_REMOTE        100.0.0.40  4 65040            125       125    0    0 00:44:32 Estab   18     18
+  ANET.EVPN                100.0.0.200 4 65000           7280      4407    0    0 01:34:51 Active

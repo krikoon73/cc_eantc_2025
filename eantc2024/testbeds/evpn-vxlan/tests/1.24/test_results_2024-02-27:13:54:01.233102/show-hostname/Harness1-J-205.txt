@@ -1,0 +1,2 @@
+Hostname: Harness1-J-205
+FQDN:     Harness1-J-205.ns.eantc.de

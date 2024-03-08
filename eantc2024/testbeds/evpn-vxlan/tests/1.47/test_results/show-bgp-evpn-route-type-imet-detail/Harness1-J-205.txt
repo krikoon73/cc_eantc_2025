@@ -1,0 +1,98 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.205, local AS number 65205
+BGP routing table entry for imet 100.0.0.22, Route Distinguisher: 100.0.0.22:1022
+ Paths: 1 available
+  Local (Received from a RR-client)
+    100.0.0.22 from 100.0.0.22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:1022:1022 TunnelEncap:tunnelTypeVxlan
+      VNI: 1022
+      PMSI Tunnel: Ingress Replication, MPLS Label: 1022, Leaf Information Required: false, Tunnel ID: 100.0.0.22
+BGP routing table entry for imet 100.0.0.22, Route Distinguisher: 100.0.0.22:1301
+ Paths: 1 available
+  Local (Received from a RR-client)
+    100.0.0.22 from 100.0.0.22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:65205:1301 TunnelEncap:tunnelTypeVxlan
+      VNI: 1301
+      PMSI Tunnel: Ingress Replication, MPLS Label: 1301, Leaf Information Required: false, Tunnel ID: 100.0.0.22
+BGP routing table entry for imet 100.0.0.22, Route Distinguisher: 100.0.0.22:1302
+ Paths: 1 available
+  Local (Received from a RR-client)
+    100.0.0.22 from 100.0.0.22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:1302:1302 TunnelEncap:tunnelTypeVxlan
+      VNI: 1302
+      PMSI Tunnel: Ingress Replication, MPLS Label: 1302, Leaf Information Required: false, Tunnel ID: 100.0.0.22
+BGP routing table entry for imet 100.0.0.22, Route Distinguisher: 100.0.0.22:2301
+ Paths: 1 available
+  Local (Received from a RR-client)
+    100.0.0.22 from 100.0.0.22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:65205:1301 TunnelEncap:tunnelTypeVxlan
+      VNI: 2301
+      PMSI Tunnel: Ingress Replication, MPLS Label: 2301, Leaf Information Required: false, Tunnel ID: 100.0.0.22
+BGP routing table entry for imet 100.0.30.14, Route Distinguisher: 100.0.30.14:1301
+ Paths: 1 available
+  Local (Received from a RR-client)
+    100.0.30.14 from 100.0.30.14 (100.0.30.14)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:65205:1301 TunnelEncap:tunnelTypeVxlan
+      VNI: 1301
+      PMSI Tunnel: Ingress Replication, MPLS Label: 1301, Leaf Information Required: false, Tunnel ID: 100.0.30.14
+BGP routing table entry for imet 100.0.30.14, Route Distinguisher: 100.0.30.14:1306
+ Paths: 1 available
+  Local (Received from a RR-client)
+    100.0.30.14 from 100.0.30.14 (100.0.30.14)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:1301:1301 TunnelEncap:tunnelTypeVxlan
+      VNI: 1301
+      PMSI Tunnel: Ingress Replication, MPLS Label: 1301, Leaf Information Required: false, Tunnel ID: 100.0.30.14
+BGP routing table entry for imet 1303 100.0.0.22, Route Distinguisher: 100.0.0.22:1303
+ Paths: 1 available
+  Local (Received from a RR-client)
+    100.0.0.22 from 100.0.0.22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1303
+      PMSI Tunnel: Ingress Replication, MPLS Label: 1303, Leaf Information Required: false, Tunnel ID: 100.0.0.22
+BGP routing table entry for imet 1303 100.0.30.14, Route Distinguisher: 100.0.30.14:1303
+ Paths: 1 available
+  Local (Received from a RR-client)
+    100.0.30.14 from 100.0.30.14 (100.0.30.14)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:65205:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1303
+      PMSI Tunnel: Ingress Replication, MPLS Label: 1303, Leaf Information Required: false, Tunnel ID: 100.0.30.14
+BGP routing table entry for imet 1303 100.0.30.14, Route Distinguisher: 100.0.30.14:1305
+ Paths: 1 available
+  Local (Received from a RR-client)
+    100.0.30.14 from 100.0.30.14 (100.0.30.14)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1303
+      PMSI Tunnel: Ingress Replication, MPLS Label: 1303, Leaf Information Required: false, Tunnel ID: 100.0.30.14
+BGP routing table entry for imet 1304 100.0.0.22, Route Distinguisher: 100.0.0.22:1304
+ Paths: 1 available
+  Local (Received from a RR-client)
+    100.0.0.22 from 100.0.0.22 (100.0.0.22)
+      Origin IGP, metric 0, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1304
+      PMSI Tunnel: Ingress Replication, MPLS Label: 1304, Leaf Information Required: false, Tunnel ID: 100.0.0.22
+BGP routing table entry for imet 1304 100.0.30.14, Route Distinguisher: 100.0.30.14:1303
+ Paths: 1 available
+  Local (Received from a RR-client)
+    100.0.30.14 from 100.0.30.14 (100.0.30.14)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:65205:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1304
+      PMSI Tunnel: Ingress Replication, MPLS Label: 1304, Leaf Information Required: false, Tunnel ID: 100.0.30.14
+BGP routing table entry for imet 1304 100.0.30.14, Route Distinguisher: 100.0.30.14:1305
+ Paths: 1 available
+  Local (Received from a RR-client)
+    100.0.30.14 from 100.0.30.14 (100.0.30.14)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, internal, best
+      Extended Community: Route-Target-AS:1303:1303 TunnelEncap:tunnelTypeVxlan
+      VNI: 1304
+      PMSI Tunnel: Ingress Replication, MPLS Label: 1304, Leaf Information Required: false, Tunnel ID: 100.0.30.14

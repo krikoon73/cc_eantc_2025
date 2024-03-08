@@ -1,0 +1,13 @@
+Last table change time   : 1:18:10 ago
+Number of table inserts  : 12
+Number of table deletes  : 8
+Number of table drops    : 0
+Number of table age-outs : 1
+
+Port            Neighbor Device ID       Neighbor Port ID        TTL
+------------ ------------------------ -------------------------- ---
+Et49/2          185b.0089.c3cc           1610899585              121
+Et49/3          h3c_22_S6850-56HF        Twenty-FiveGigE1/0/9    121
+Et49/4          juniper_304_mx204        566                     120
+Ma1             extreme-x460-1           31                      120
+

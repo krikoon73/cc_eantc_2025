@@ -1,0 +1,62 @@
+00aa.aaaa.aaaa, VLAN 1301, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 2000::56
+0020.3000.0004, VLAN 1304, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+0056.0000.0004, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 2000::56
+0045.0100.0001, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 2000::100
+0042.0100.0001, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 2000::42
+0045.0100.0002, VLAN 1302, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 2000::100
+00aa.aaaa.aaaa, VLAN 1303, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 2000::56
+0056.0000.0001, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 2000::56
+0020.3000.0002, VLAN 1302, seq 1, pref 16, evpnIntfDynamicMac, source: BGP
+   Port-Channel200
+0022.0000.0001, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 56: 2-way
+      VTEP 2000::22
+      VTEP 2000::23
+0020.3000.0003, VLAN 1303, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+0022.0000.0003, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 56: 2-way
+      VTEP 2000::22
+      VTEP 2000::23
+0040.0100.0002, VLAN 1302, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 2000::40
+0020.1000.0001, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 59: 2-way
+      VTEP 2000::201
+      VTEP 2000::202
+0020.3000.0001, VLAN 1301, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+0042.0100.0002, VLAN 1302, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 2000::42
+0056.0000.0002, VLAN 1302, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 2000::56
+0020.1000.0004, VLAN 1304, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 59: 2-way
+      VTEP 2000::201
+      VTEP 2000::202
+00aa.aaaa.aaaa, VLAN 1304, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 2000::56
+00aa.aaaa.aaaa, VLAN 1302, seq 1, pref 48, evpnConfiguredRemoteMac, source: BGP
+   VTEP 2000::56
+0056.0000.0003, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 2000::56
+0040.0100.0001, VLAN 1301, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   VTEP 2000::40
+0020.1000.0003, VLAN 1303, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 59: 2-way
+      VTEP 2000::201
+      VTEP 2000::202
+0020.3000.0005, VLAN 1203, seq 1, pref 16, learnedDynamicMac, source: Local Dynamic
+   Port-Channel200
+0020.1000.0002, VLAN 1302, seq 1, pref 16, evpnDynamicRemoteMac, source: BGP
+   Load Balance entry 59: 2-way
+      VTEP 2000::201
+      VTEP 2000::202

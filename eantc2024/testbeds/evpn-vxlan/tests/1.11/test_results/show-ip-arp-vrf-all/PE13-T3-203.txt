@@ -1,0 +1,12 @@
+
+VRF: default
+Address         Age (sec)  Hardware Addr   Interface
+
+VRF: mgmt
+Address         Age (sec)  Hardware Addr   Interface
+192.168.20.1      0:00:00  90e2.bac7.8074  Management1
+192.168.21.50     0:00:07  a84f.b1a5.5221  Management1
+192.168.21.59     0:02:09  6607.f5d1.ae16  Management1
+
+VRF: tenant-a
+Address         Age (sec)  Hardware Addr   Interface

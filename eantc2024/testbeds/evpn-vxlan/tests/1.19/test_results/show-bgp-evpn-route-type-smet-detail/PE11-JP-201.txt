@@ -1,0 +1,9 @@
+BGP routing table information for VRF default
+Router identifier 100.0.0.201, local AS number 65201
+BGP routing table entry for smet (S, G): (*, *) originating IP: 100.0.0.206, Route Distinguisher: 100.0.0.206:1000
+ Paths: 1 available
+  65000 65206
+    100.0.0.206 from 100.0.0.200 (100.0.0.200)
+      Origin IGP, metric -, localpref 100, weight 0, tag 0, valid, external, best
+      Extended Community: Route-Target-AS:1000:1000 TunnelEncap:tunnelTypeVxlan
+      Multicast Flags: exclude

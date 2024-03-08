@@ -1,0 +1,5 @@
+BGP summary information for VRF default
+Router identifier 100.0.0.204, local AS number 65204
+Neighbor Status Codes: m - Under maintenance
+  Description              Neighbor    V AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
+  ANET.EVPN                100.0.0.200 4 65000          12477      5994    0    0    1d23h Estab   60     60

@@ -1,0 +1,17 @@
+Ethernet6 is up
+  IGMP on this interface: enabled
+  Interface address: 10.20.206.206
+  Multicast routing on this interface: enabled
+  Multicast TTL threshold: 0
+  Current IGMP router version: 3
+  IGMP query interval: 125 seconds
+  IGMP max query response time: 100 deciseconds
+  Last member query response interval: 10 deciseconds
+  Last member query response count: 2
+  IGMP querier: 10.20.206.202
+  Robustness: 2
+  Require router alert: routerAlertOptionalConnected
+  Startup query interval: 312 deciseconds
+  Startup query count: 2
+  Other querier present timer expiry: 0:03:05
+  Multicast groups joined:

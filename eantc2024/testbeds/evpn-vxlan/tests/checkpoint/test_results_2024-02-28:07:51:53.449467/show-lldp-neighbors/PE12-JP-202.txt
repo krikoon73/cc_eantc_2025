@@ -1,0 +1,11 @@
+Last table change time   : 14:29:21 ago
+Number of table inserts  : 11
+Number of table deletes  : 9
+Number of table drops    : 0
+Number of table age-outs : 0
+
+Port          Neighbor Device ID              Neighbor Port ID    TTL
+---------- ------------------------------- ---------------------- ---
+Et48          Cisco_40_N9K-C93180YC-FX3       Ethernet1/26        120
+Ma1           extreme-x460-1                  29                  120
+

@@ -1,0 +1,2 @@
+Hostname: P15-T3-206
+FQDN:     P15-T3-206.eantc.de

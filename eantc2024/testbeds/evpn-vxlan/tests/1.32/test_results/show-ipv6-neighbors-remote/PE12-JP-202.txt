@@ -1,0 +1,38 @@
+ARP remote bindings
+VLAN IP Address                   MAC Address    Source         
+---- ---------------------------- -------------- ---------------
+1201 1000:1000:201::201           0020.1000.0005 EVPN multihomed
+1301 1000:3000:1::22              0022.0000.0001 EVPN remote    
+1301 1000:3000:1::40              0040.0100.0001 EVPN remote    
+1301 1000:3000:1::42              0042.0100.0001 EVPN remote    
+1301 1000:3000:1::45              0045.0100.0001 EVPN remote    
+1301 1000:3000:1::56              0056.0000.0001 EVPN remote    
+1301 1000:3000:1::201             0020.1000.0001 EVPN multihomed
+1301 1000:3000:1::203             0020.3000.0001 EVPN remote    
+1301 1000:3000:1::254             00aa.aaaa.aaaa EVPN remote    
+1301 1000:3000:1:0:240:1ff:fe00:1 0040.0100.0001 EVPN remote    
+1301 1000:3000:1:0:242:1ff:fe00:1 0042.0100.0001 EVPN remote    
+1301 fe80::256:ff:fe00:1          0056.0000.0001 EVPN remote    
+1301 fe80::2aa:aaff:feaa:aaaa     00aa.aaaa.aaaa EVPN remote    
+1302 1000:3000:2::40              0040.0100.0002 EVPN remote    
+1302 1000:3000:2::42              0042.0100.0002 EVPN remote    
+1302 1000:3000:2::45              0045.0100.0002 EVPN remote    
+1302 1000:3000:2::56              0056.0000.0002 EVPN remote    
+1302 1000:3000:2::203             0020.3000.0002 EVPN remote    
+1302 1000:3000:2::254             00aa.aaaa.aaaa EVPN remote    
+1302 1000:3000:2:0:240:1ff:fe00:2 0040.0100.0002 EVPN remote    
+1302 1000:3000:2:0:242:1ff:fe00:2 0042.0100.0002 EVPN remote    
+1302 fe80::256:ff:fe00:2          0056.0000.0002 EVPN remote    
+1302 fe80::2aa:aaff:feaa:aaaa     00aa.aaaa.aaaa EVPN remote    
+1303 1000:3000:3::56              0056.0000.0003 EVPN remote    
+1303 1000:3000:3::201             0020.1000.0003 EVPN multihomed
+1303 1000:3000:3::203             0020.3000.0003 EVPN remote    
+1303 1000:3000:3::254             00aa.aaaa.aaaa EVPN remote    
+1303 fe80::256:ff:fe00:3          0056.0000.0003 EVPN remote    
+1303 fe80::2aa:aaff:feaa:aaaa     00aa.aaaa.aaaa EVPN remote    
+1304 1000:3000:4::56              0056.0000.0004 EVPN remote    
+1304 1000:3000:4::201             0020.1000.0004 EVPN multihomed
+1304 1000:3000:4::203             0020.3000.0004 EVPN remote    
+1304 1000:3000:4::254             00aa.aaaa.aaaa EVPN remote    
+1304 fe80::256:ff:fe00:4          0056.0000.0004 EVPN remote    
+1304 fe80::2aa:aaff:feaa:aaaa     00aa.aaaa.aaaa EVPN remote    

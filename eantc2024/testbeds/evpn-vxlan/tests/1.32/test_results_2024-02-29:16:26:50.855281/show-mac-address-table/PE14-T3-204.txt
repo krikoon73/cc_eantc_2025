@@ -1,0 +1,47 @@
+          Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports      Moves   Last Move
+----    -----------       ----        -----      -----   ---------
+1203    0020.3000.0005    DYNAMIC     Po200      1       0:28:34 ago
+1203    00aa.aaaa.aaaa    STATIC      Router
+1301    0020.1000.0001    DYNAMIC     Vx1        1       0:05:12 ago
+1301    0020.3000.0001    DYNAMIC     Po200      1       0:13:34 ago
+1301    0022.0000.0001    DYNAMIC     Vx1        3       0:02:57 ago
+1301    0040.0100.0001    DYNAMIC     Vx1        1       0:28:07 ago
+1301    0056.0000.0001    DYNAMIC     Vx1        1       0:55:08 ago
+1301    00aa.aaaa.aaaa    STATIC      Router
+1302    0020.1000.0002    DYNAMIC     Vx1        1       0:05:11 ago
+1302    0020.3000.0002    DYNAMIC     Po200      1       0:13:34 ago
+1302    0022.0000.0002    DYNAMIC     Vx1        2       0:02:57 ago
+1302    0040.0100.0002    DYNAMIC     Vx1        1       0:28:07 ago
+1302    0056.0000.0002    DYNAMIC     Vx1        1       0:55:08 ago
+1302    00aa.aaaa.aaaa    STATIC      Router
+1303    0020.1000.0003    DYNAMIC     Vx1        1       0:05:11 ago
+1303    0020.3000.0003    DYNAMIC     Po200      1       0:13:34 ago
+1303    0022.0000.0003    DYNAMIC     Vx1        4       0:02:57 ago
+1303    0056.0000.0003    DYNAMIC     Vx1        1       0:55:08 ago
+1303    00aa.aaaa.aaaa    STATIC      Router
+1304    0020.1000.0004    DYNAMIC     Vx1        1       0:05:12 ago
+1304    0020.3000.0004    DYNAMIC     Po200      1       0:28:34 ago
+1304    0022.0000.0004    DYNAMIC     Vx1        4       0:02:57 ago
+1304    0056.0000.0004    DYNAMIC     Vx1        1       0:55:08 ago
+1304    00aa.aaaa.aaaa    STATIC      Router
+4092    0001.0000.0056    DYNAMIC     Vx1        0       0:55:08 ago
+4092    00aa.aaaa.aaaa    STATIC      Router
+4092    0600.0000.0100    DYNAMIC     Vx1        0       1 day, 0:10:10 ago
+4092    246c.8474.8ddb    DYNAMIC     Vx1        0       1 day, 0:09:56 ago
+4092    2cdd.e90b.2283    DYNAMIC     Vx1        0       1 day, 0:10:21 ago
+4092    2cdd.e90b.25b7    DYNAMIC     Vx1        0       1 day, 0:10:21 ago
+4092    3838.a621.e82f    DYNAMIC     Vx1        0       1 day, 0:10:21 ago
+4092    4014.827b.84ab    DYNAMIC     Vx1        0       1 day, 0:10:09 ago
+4092    c407.780a.777d    DYNAMIC     Vx1        0       0:02:57 ago
+4092    c407.780a.9f31    DYNAMIC     Vx1        0       1 day, 0:10:20 ago
+Total Mac Addresses for this criterion: 34
+
+          Multicast Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       ----        -----
+Total Mac Addresses for this criterion: 0

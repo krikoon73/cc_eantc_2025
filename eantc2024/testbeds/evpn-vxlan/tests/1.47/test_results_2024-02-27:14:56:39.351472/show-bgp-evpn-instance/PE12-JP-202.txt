@@ -1,0 +1,70 @@
+EVPN instance: VLAN 1201
+  Route distinguisher: 100.0.0.202:1201
+  Route target import: Route-Target-AS:1201:1201
+  Route target export: Route-Target-AS:1201:1201
+  Service interface: VLAN-based
+  Local VXLAN IP address: 100.0.0.202
+  VXLAN: enabled
+  MPLS: disabled
+  Local ethernet segment:
+    ESI: 0000:1111:1111:1111:1111
+      Interface: Vxlan1
+      Mode: all-active
+      State: up
+      ES-Import RT: 00:11:11:11:11:11
+      DF election algorithm: preference
+      Designated forwarder: 100.0.0.202
+EVPN instance: VLAN 1301
+  Route distinguisher: 100.0.0.202:1301
+  Route distinguisher remote: 100.0.0.202:1301
+  Route target import: Route-Target-AS:1301:1301
+  Route target export: Route-Target-AS:1301:1301
+  Route target import remote: Route-Target-AS:65205:1301
+  Route target export remote: Route-Target-AS:65205:1301
+  Service interface: VLAN-based
+  Local VXLAN IP address: 100.0.0.202
+  VXLAN: enabled
+  MPLS: disabled
+  Local ethernet segment:
+    ESI: 0000:1111:1111:1111:1111
+      Interface: Vxlan1
+      Mode: all-active
+      State: up
+      ES-Import RT: 00:11:11:11:11:11
+      DF election algorithm: preference
+      Designated forwarder: 100.0.0.202
+EVPN instance: VLAN 1302
+  Route distinguisher: 100.0.0.202:1302
+  Route target import: Route-Target-AS:1302:1302
+  Route target export: Route-Target-AS:1302:1302
+  Service interface: VLAN-based
+  Local VXLAN IP address: 100.0.0.202
+  VXLAN: enabled
+  MPLS: disabled
+  Local ethernet segment:
+    ESI: 0000:1111:1111:1111:1111
+      Interface: Vxlan1
+      Mode: all-active
+      State: up
+      ES-Import RT: 00:11:11:11:11:11
+      DF election algorithm: preference
+      Designated forwarder: 100.0.0.202
+EVPN instance: VLAN-aware bundle 1303-1304
+  Route distinguisher: 100.0.0.202:1303
+  Route distinguisher remote: 100.0.0.202:1303
+  Route target import: Route-Target-AS:1303:1303
+  Route target export: Route-Target-AS:1303:1303
+  Route target import remote: Route-Target-AS:65205:1303
+  Route target export remote: Route-Target-AS:65205:1303
+  Service interface: VLAN-aware bundle
+  Local VXLAN IP address: 100.0.0.202
+  VXLAN: enabled
+  MPLS: disabled
+  Local ethernet segment:
+    ESI: 0000:1111:1111:1111:1111
+      Interface: Vxlan1
+      Mode: all-active
+      State: up
+      ES-Import RT: 00:11:11:11:11:11
+      DF election algorithm: preference
+      Designated forwarder: 100.0.0.202

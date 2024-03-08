@@ -1,0 +1,183 @@
+          Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports      Moves   Last Move
+----    -----------       ----        -----      -----   ---------
+1203    001b.0100.0001    DYNAMIC     Po200      2       1:39:38 ago
+1203    00aa.aaaa.aaaa    STATIC      Router
+1301    001b.0100.0002    DYNAMIC     Po200      2       0:04:38 ago
+1301    001b.0100.0033    DYNAMIC     Po200      1       1:42:58 ago
+1301    001b.0100.0034    DYNAMIC     Po200      1       1:34:38 ago
+1301    001b.0100.0035    DYNAMIC     Po200      1       1:34:39 ago
+1301    001b.0100.0036    DYNAMIC     Po200      2       1:29:38 ago
+1301    001b.0100.0037    DYNAMIC     Po200      1       1:42:58 ago
+1301    001b.0100.0038    DYNAMIC     Po200      1       1:42:58 ago
+1301    001b.0100.0039    DYNAMIC     Po200      1       1:34:08 ago
+1301    001b.0100.003a    DYNAMIC     Po200      1       1:42:58 ago
+1301    001b.0100.003b    DYNAMIC     Po200      1       1:34:38 ago
+1301    001b.0100.003c    DYNAMIC     Po200      1       1:42:58 ago
+1301    001b.0100.003d    DYNAMIC     Po200      1       1:42:58 ago
+1301    001b.0100.003e    DYNAMIC     Po200      1       1:42:58 ago
+1301    001b.0100.003f    DYNAMIC     Po200      1       1:34:08 ago
+1301    001b.0100.0040    DYNAMIC     Po200      1       1:34:08 ago
+1301    001b.0100.0041    DYNAMIC     Po200      1       1:42:58 ago
+1301    001b.0100.0042    DYNAMIC     Po200      1       1:34:08 ago
+1301    001b.0100.0043    DYNAMIC     Po200      1       1:34:08 ago
+1301    001b.0100.0044    DYNAMIC     Po200      1       1:34:08 ago
+1301    001b.0100.0045    DYNAMIC     Po200      1       1:34:08 ago
+1301    001b.0100.0046    DYNAMIC     Po200      1       1:34:38 ago
+1301    001b.0100.0047    DYNAMIC     Po200      2       1:42:58 ago
+1301    001b.0100.0048    DYNAMIC     Po200      1       1:42:58 ago
+1301    001b.0100.0049    DYNAMIC     Po200      1       1:34:38 ago
+1301    001b.0100.004a    DYNAMIC     Po200      1       1:34:08 ago
+1301    001b.0100.004b    DYNAMIC     Po200      1       1:34:38 ago
+1301    001b.0100.004c    DYNAMIC     Po200      2       1:29:38 ago
+1301    001b.0100.004d    DYNAMIC     Po200      1       1:34:38 ago
+1301    001b.0100.004e    DYNAMIC     Po200      2       1:29:38 ago
+1301    001b.0100.004f    DYNAMIC     Po200      1       1:34:08 ago
+1301    001b.0100.0050    DYNAMIC     Po200      2       1:29:38 ago
+1301    001b.0100.0051    DYNAMIC     Po200      1       1:34:08 ago
+1301    001b.0100.0052    DYNAMIC     Po200      1       1:42:58 ago
+1301    001b.0100.0053    DYNAMIC     Po200      1       1:34:38 ago
+1301    001b.0100.0054    DYNAMIC     Po200      1       1:34:38 ago
+1301    001b.0100.0055    DYNAMIC     Po200      1       1:42:58 ago
+1301    001b.0100.0056    DYNAMIC     Po200      1       1:34:08 ago
+1301    001b.0100.0057    DYNAMIC     Po200      1       1:34:08 ago
+1301    001b.0100.0058    DYNAMIC     Po200      1       1:34:38 ago
+1301    001b.0100.0059    DYNAMIC     Po200      1       1:42:58 ago
+1301    001b.0100.005a    DYNAMIC     Po200      1       1:34:38 ago
+1301    001b.0100.005b    DYNAMIC     Po200      1       1:34:38 ago
+1301    001b.0100.005c    DYNAMIC     Po200      1       1:34:08 ago
+1301    001b.0100.005d    DYNAMIC     Po200      1       1:42:58 ago
+1301    001b.0100.005e    DYNAMIC     Po200      2       1:29:38 ago
+1301    001b.0100.005f    DYNAMIC     Po200      1       1:34:08 ago
+1301    001b.0100.0060    DYNAMIC     Po200      2       1:29:38 ago
+1301    001b.0100.0061    DYNAMIC     Po200      1       1:34:38 ago
+1301    001b.0100.0062    DYNAMIC     Po200      1       1:42:58 ago
+1301    001b.0100.0063    DYNAMIC     Po200      1       1:34:08 ago
+1301    001b.0100.0064    DYNAMIC     Po200      1       1:52:28 ago
+1301    0056.5656.5656    STATIC      Vx1
+1301    00aa.aaaa.aaaa    STATIC      Router
+1301    00cc.cccc.bbbb    STATIC      Po200
+1301    a244.0101.0001    DYNAMIC     Vx1        1       0:05:49 ago
+1302    00aa.aaaa.aaaa    STATIC      Router
+1303    001b.0100.0003    DYNAMIC     Po200      1       1:19:38 ago
+1303    001b.0100.0065    DYNAMIC     Po200      1       1:42:58 ago
+1303    001b.0100.0066    DYNAMIC     Po200      1       1:42:58 ago
+1303    001b.0100.0067    DYNAMIC     Po200      1       1:34:39 ago
+1303    001b.0100.0068    DYNAMIC     Po200      1       1:42:58 ago
+1303    001b.0100.0069    DYNAMIC     Po200      1       1:34:08 ago
+1303    001b.0100.006a    DYNAMIC     Po200      1       1:34:38 ago
+1303    001b.0100.006b    DYNAMIC     Po200      2       1:42:58 ago
+1303    001b.0100.006c    DYNAMIC     Po200      1       1:34:38 ago
+1303    001b.0100.006d    DYNAMIC     Po200      1       1:42:58 ago
+1303    001b.0100.006e    DYNAMIC     Po200      1       1:34:08 ago
+1303    001b.0100.006f    DYNAMIC     Po200      1       1:34:38 ago
+1303    001b.0100.0070    DYNAMIC     Po200      1       1:34:08 ago
+1303    001b.0100.0071    DYNAMIC     Po200      1       1:34:08 ago
+1303    001b.0100.0072    DYNAMIC     Po200      1       1:34:38 ago
+1303    001b.0100.0073    DYNAMIC     Po200      2       1:24:38 ago
+1303    001b.0100.0074    DYNAMIC     Po200      1       1:42:58 ago
+1303    001b.0100.0075    DYNAMIC     Po200      1       1:34:38 ago
+1303    001b.0100.0076    DYNAMIC     Po200      1       1:34:08 ago
+1303    001b.0100.0077    DYNAMIC     Po200      1       1:42:58 ago
+1303    001b.0100.0078    DYNAMIC     Po200      1       1:42:58 ago
+1303    001b.0100.0079    DYNAMIC     Po200      1       1:34:38 ago
+1303    001b.0100.007a    DYNAMIC     Po200      1       1:34:38 ago
+1303    001b.0100.007b    DYNAMIC     Po200      1       1:42:58 ago
+1303    001b.0100.007c    DYNAMIC     Po200      1       1:34:08 ago
+1303    001b.0100.007d    DYNAMIC     Po200      1       1:34:38 ago
+1303    001b.0100.007e    DYNAMIC     Po200      1       1:34:08 ago
+1303    001b.0100.007f    DYNAMIC     Po200      1       1:42:58 ago
+1303    001b.0100.0080    DYNAMIC     Po200      1       1:42:58 ago
+1303    001b.0100.0081    DYNAMIC     Po200      1       1:34:08 ago
+1303    001b.0100.0082    DYNAMIC     Po200      1       1:34:38 ago
+1303    001b.0100.0083    DYNAMIC     Po200      1       1:42:58 ago
+1303    001b.0100.0084    DYNAMIC     Po200      1       1:34:38 ago
+1303    001b.0100.0085    DYNAMIC     Po200      1       1:34:08 ago
+1303    001b.0100.0086    DYNAMIC     Po200      1       1:42:58 ago
+1303    001b.0100.0087    DYNAMIC     Po200      2       1:29:38 ago
+1303    001b.0100.0088    DYNAMIC     Po200      1       1:34:08 ago
+1303    001b.0100.0089    DYNAMIC     Po200      1       1:34:38 ago
+1303    001b.0100.008a    DYNAMIC     Po200      1       1:34:38 ago
+1303    001b.0100.008b    DYNAMIC     Po200      1       1:34:38 ago
+1303    001b.0100.008c    DYNAMIC     Po200      1       1:34:08 ago
+1303    001b.0100.008d    DYNAMIC     Po200      1       1:42:58 ago
+1303    001b.0100.008e    DYNAMIC     Po200      1       1:42:58 ago
+1303    001b.0100.008f    DYNAMIC     Po200      1       1:42:58 ago
+1303    001b.0100.0090    DYNAMIC     Po200      1       1:42:58 ago
+1303    001b.0100.0091    DYNAMIC     Po200      1       1:42:58 ago
+1303    001b.0100.0092    DYNAMIC     Po200      1       1:34:38 ago
+1303    001b.0100.0093    DYNAMIC     Po200      1       1:34:38 ago
+1303    001b.0100.0094    DYNAMIC     Po200      2       1:24:38 ago
+1303    001b.0100.0095    DYNAMIC     Po200      1       1:42:58 ago
+1303    001b.0100.0096    DYNAMIC     Po200      1       1:52:28 ago
+1303    0056.5656.5656    STATIC      Vx1
+1303    00aa.aaaa.aaaa    STATIC      Router
+1303    a266.0102.0001    DYNAMIC     Vx1        1       0:05:49 ago
+1304    001b.0100.0004    DYNAMIC     Po200      2       0:04:38 ago
+1304    001b.0100.0097    DYNAMIC     Po200      1       1:34:08 ago
+1304    001b.0100.0098    DYNAMIC     Po200      1       1:42:58 ago
+1304    001b.0100.0099    DYNAMIC     Po200      1       1:34:38 ago
+1304    001b.0100.009a    DYNAMIC     Po200      1       1:34:38 ago
+1304    001b.0100.009b    DYNAMIC     Po200      1       1:42:58 ago
+1304    001b.0100.009c    DYNAMIC     Po200      1       1:34:38 ago
+1304    001b.0100.009d    DYNAMIC     Po200      1       1:34:38 ago
+1304    001b.0100.009e    DYNAMIC     Po200      1       1:34:08 ago
+1304    001b.0100.009f    DYNAMIC     Po200      2       1:24:38 ago
+1304    001b.0100.00a0    DYNAMIC     Po200      1       1:34:38 ago
+1304    001b.0100.00a1    DYNAMIC     Po200      2       1:24:38 ago
+1304    001b.0100.00a2    DYNAMIC     Po200      1       1:34:38 ago
+1304    001b.0100.00a3    DYNAMIC     Po200      2       1:29:38 ago
+1304    001b.0100.00a4    DYNAMIC     Po200      1       1:34:38 ago
+1304    001b.0100.00a5    DYNAMIC     Po200      1       1:34:08 ago
+1304    001b.0100.00a6    DYNAMIC     Po200      1       1:34:08 ago
+1304    001b.0100.00a7    DYNAMIC     Po200      1       1:34:38 ago
+1304    001b.0100.00a8    DYNAMIC     Po200      1       1:34:38 ago
+1304    001b.0100.00a9    DYNAMIC     Po200      1       1:42:58 ago
+1304    001b.0100.00aa    DYNAMIC     Po200      2       1:24:38 ago
+1304    001b.0100.00ab    DYNAMIC     Po200      1       1:42:58 ago
+1304    001b.0100.00ac    DYNAMIC     Po200      2       1:24:38 ago
+1304    001b.0100.00ad    DYNAMIC     Po200      1       1:42:58 ago
+1304    001b.0100.00ae    DYNAMIC     Po200      1       1:34:08 ago
+1304    001b.0100.00af    DYNAMIC     Po200      1       1:34:38 ago
+1304    001b.0100.00b0    DYNAMIC     Po200      1       1:34:38 ago
+1304    001b.0100.00b1    DYNAMIC     Po200      2       1:24:38 ago
+1304    001b.0100.00b2    DYNAMIC     Po200      1       1:34:38 ago
+1304    001b.0100.00b3    DYNAMIC     Po200      2       1:24:38 ago
+1304    001b.0100.00b4    DYNAMIC     Po200      1       1:42:58 ago
+1304    001b.0100.00b5    DYNAMIC     Po200      1       1:34:08 ago
+1304    001b.0100.00b6    DYNAMIC     Po200      1       1:34:08 ago
+1304    001b.0100.00b7    DYNAMIC     Po200      1       1:42:58 ago
+1304    001b.0100.00b8    DYNAMIC     Po200      2       1:24:38 ago
+1304    001b.0100.00b9    DYNAMIC     Po200      1       1:42:58 ago
+1304    001b.0100.00ba    DYNAMIC     Po200      1       1:34:38 ago
+1304    001b.0100.00bb    DYNAMIC     Po200      1       1:42:58 ago
+1304    001b.0100.00bc    DYNAMIC     Po200      1       1:42:58 ago
+1304    001b.0100.00bd    DYNAMIC     Po200      1       1:42:58 ago
+1304    001b.0100.00be    DYNAMIC     Po200      1       1:34:38 ago
+1304    001b.0100.00bf    DYNAMIC     Po200      2       1:24:38 ago
+1304    001b.0100.00c0    DYNAMIC     Po200      1       1:34:08 ago
+1304    001b.0100.00c1    DYNAMIC     Po200      2       1:29:38 ago
+1304    001b.0100.00c2    DYNAMIC     Po200      1       1:42:58 ago
+1304    001b.0100.00c3    DYNAMIC     Po200      1       1:34:08 ago
+1304    001b.0100.00c4    DYNAMIC     Po200      1       1:42:58 ago
+1304    001b.0100.00c5    DYNAMIC     Po200      1       1:34:08 ago
+1304    001b.0100.00c6    DYNAMIC     Po200      1       1:42:58 ago
+1304    001b.0100.00c7    DYNAMIC     Po200      1       1:42:58 ago
+1304    001b.0100.00c8    DYNAMIC     Po200      1       1:34:38 ago
+1304    0056.5656.5656    STATIC      Vx1
+1304    00aa.aaaa.aaaa    STATIC      Router
+1304    a288.0103.0001    DYNAMIC     Vx1        1       0:05:49 ago
+4094    00aa.aaaa.aaaa    STATIC      Router
+4094    2cdd.e90b.2283    DYNAMIC     Vx1        0       13:26:53 ago
+4094    2cdd.e90b.25b7    DYNAMIC     Vx1        0       13:28:30 ago
+4094    3838.a621.e82f    DYNAMIC     Vx1        0       21:24:57 ago
+Total Mac Addresses for this criterion: 170
+
+          Multicast Mac Address Table
+------------------------------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       ----        -----
+Total Mac Addresses for this criterion: 0

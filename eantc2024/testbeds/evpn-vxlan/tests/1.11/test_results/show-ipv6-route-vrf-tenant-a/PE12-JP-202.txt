@@ -1,0 +1,26 @@
+
+VRF: tenant-a
+Displaying 6 of 14 IPv6 routing table entries
+Source Codes:
+       C - connected, S - static, K - kernel, O3 - OSPFv3,
+       B - Other BGP Routes, A B - BGP Aggregate, R - RIP,
+       I L1 - IS-IS level 1, I L2 - IS-IS level 2, DH - DHCP,
+       NG - Nexthop Group Static Route, M - Martian,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+ C        1000:1000:201::/64 [0/0]
+           via Vlan1201, directly connected
+ B E      1000:1000:203::/64 [20/0]
+           via VTEP 2000::203 VNI 1000 router-mac 38:38:a6:21:e8:2f
+           via VTEP 2000::204 VNI 1000 router-mac 98:5d:82:a2:04:f9
+ C        1000:3000:1::/64 [0/0]
+           via Vlan1301, directly connected
+ C        1000:3000:2::/64 [0/0]
+           via Vlan1302, directly connected
+ C        1000:3000:3::/64 [0/0]
+           via Vlan1303, directly connected
+ C        1000:3000:4::/64 [0/0]
+           via Vlan1304, directly connected
+

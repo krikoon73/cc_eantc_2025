@@ -1,0 +1,3 @@
+Port      Name      Intvl  In Mbps      %  In Kpps Out Mbps      % Out Kpps
+Et1       Spine-200  5:00      0.6   0.0%        0      0.0   0.0%        0
+Et6       PE12-202   5:00      0.0   0.0%        0      0.3   0.0%        0
