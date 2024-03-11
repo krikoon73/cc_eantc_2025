@@ -1,19 +1,22 @@
 ---
-Spine2-J-180:
+#PE23-J2-183:
+# groups: [SNAPSHOT]
+#  hostname: 192.168.20.183
+#PE24-J2-184:
+#  groups: [SNAPSHOT]
+# hostname: 192.168.20.184
+Spine1-J-180:
   groups: [SNAPSHOT]
   hostname: 192.168.20.180
 PE21-J2-181:
   groups: [SNAPSHOT]
   hostname: 192.168.20.181
-PE22-J2-182:
+PE21-J2-206:
   groups: [SNAPSHOT]
-  hostname: 192.168.20.182
-PE23-J2-183:
+  hostname: 192.168.20.206
+PE21-J2-200:
   groups: [SNAPSHOT]
-  hostname: 192.168.20.183
-PE24-J2-184:
-  groups: [SNAPSHOT]
-  hostname: 192.168.20.184
-Harness2-J-185:
+  hostname: 192.168.20.200
+Harness:
   groups: [SNAPSHOT]
   hostname: 192.168.20.185

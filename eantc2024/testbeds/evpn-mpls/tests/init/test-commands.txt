@@ -1,3 +1,6 @@
 show version
 show interfaces status
 show lldp neighbors
+show bgp evpn
+show bgp evpn instance
+watch 1 srnz

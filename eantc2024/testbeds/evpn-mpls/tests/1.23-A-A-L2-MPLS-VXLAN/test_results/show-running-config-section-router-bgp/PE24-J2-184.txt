@@ -1,0 +1,72 @@
+router bgp 64512
+   router-id 100.0.0.184
+   distance bgp 20 200 200
+   maximum-paths 8 ecmp 16
+   bgp bestpath skip next-hop igp-cost
+   neighbor RR_EVPN peer group
+   neighbor RR_EVPN remote-as 64512
+   neighbor RR_EVPN next-hop-unchanged
+   neighbor RR_EVPN update-source Loopback0
+   neighbor RR_EVPN send-community
+   neighbor RR_EVPN maximum-routes 12000
+   neighbor 100.0.0.183 peer group RR_EVPN
+   neighbor 100.0.3.41 peer group RR_EVPN
+   redistribute connected
+   !
+   vlan 2068
+      rd 100.0.0.184:2068
+      route-target both 2068:2068
+      redistribute learned
+      redistribute static
+   !
+   vlan 2301
+      rd 100.0.0.184:2301
+      route-target both 2301:2301
+      redistribute learned
+      redistribute static
+   !
+   vlan 2302
+      rd 100.0.0.184:2302
+      route-target both 2302:2302
+      redistribute learned
+      redistribute static
+   !
+   vlan 3301
+      rd 100.0.0.184:3301
+      route-target both 3301:65414
+      redistribute learned
+      redistribute static
+   !
+   vlan 3302
+      rd 100.0.0.184:3302
+      route-target both 3302:65414
+      redistribute learned
+      redistribute static
+   !
+   vlan-aware-bundle 2303-2304
+      rd 100.0.0.184:2303
+      route-target both 2303:2303
+      redistribute learned
+      redistribute static
+      vlan 2303-2304
+   !
+   address-family evpn
+      bgp additional-paths receive
+      neighbor RR_EVPN activate
+      neighbor RR_EVPN encapsulation mpls next-hop-self source-interface Loopback0
+   !
+   address-family ipv4
+      no neighbor RR_EVPN activate
+   !
+   vrf L2GW
+      rd 100.0.0.184:1023
+      route-target import evpn 1023:1023
+      route-target export evpn 1023:1023
+   !
+   vrf tenant-a
+      rd 100.0.0.184:2000
+      route-target import evpn 1000:1000
+      route-target export evpn 1000:1000
+      maximum-paths 4 ecmp 4
+      no bgp additional-paths receive
+      redistribute connected

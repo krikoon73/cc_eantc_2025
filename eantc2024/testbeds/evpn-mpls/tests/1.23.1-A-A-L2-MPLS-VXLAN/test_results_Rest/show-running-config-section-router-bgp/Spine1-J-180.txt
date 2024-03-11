@@ -1,0 +1,41 @@
+router bgp 64512
+   router-id 100.0.0.180
+   distance bgp 20 200 200
+   bgp route-reflector preserve-attributes always
+   maximum-paths 8 ecmp 16
+   bgp listen range 100.0.0.0/8 peer-group EVPN-RR-CLIENTS remote-as 64512
+   neighbor EVPN-RR-CLIENTS peer group
+   neighbor EVPN-RR-CLIENTS remote-as 64512
+   neighbor EVPN-RR-CLIENTS next-hop-unchanged
+   neighbor EVPN-RR-CLIENTS update-source Loopback0
+   neighbor EVPN-RR-CLIENTS ebgp-multihop 3
+   neighbor EVPN-RR-CLIENTS route-reflector-client
+   neighbor EVPN-RR-CLIENTS additional-paths send any
+   neighbor EVPN-RR-CLIENTS send-community
+   neighbor EVPN-RR-CLIENTS maximum-routes 12000
+   neighbor EVPN-RR-CLIENTS_VXLAN peer group
+   neighbor EVPN-RR-CLIENTS_VXLAN remote-as 64512
+   neighbor EVPN-RR-CLIENTS_VXLAN next-hop-unchanged
+   neighbor EVPN-RR-CLIENTS_VXLAN update-source Loopback0
+   neighbor EVPN-RR-CLIENTS_VXLAN ebgp-multihop 3
+   neighbor EVPN-RR-CLIENTS_VXLAN route-reflector-client
+   neighbor EVPN-RR-CLIENTS_VXLAN additional-paths send any
+   neighbor EVPN-RR-CLIENTS_VXLAN send-community
+   neighbor EVPN-RR-CLIENTS_VXLAN maximum-routes 12000
+   neighbor 100.0.0.56 remote-as 666
+   neighbor 100.0.0.181 peer group EVPN-RR-CLIENTS_VXLAN
+   neighbor 100.0.0.183 peer group EVPN-RR-CLIENTS_VXLAN
+   neighbor 100.0.0.184 peer group EVPN-RR-CLIENTS_VXLAN
+   neighbor 100.0.3.41 remote-as 666
+   !
+   address-family evpn
+      neighbor EVPN-RR-CLIENTS activate
+      neighbor EVPN-RR-CLIENTS encapsulation mpls next-hop-self source-interface Loopback0
+      neighbor EVPN-RR-CLIENTS_VXLAN activate
+      neighbor EVPN-RR-CLIENTS_VXLAN encapsulation vxlan 
+      no neighbor 100.0.3.41 activate
+      next-hop resolution disabled
+   !
+   address-family ipv4
+      no neighbor EVPN-RR-CLIENTS activate
+      no neighbor EVPN-RR-CLIENTS_VXLAN activate

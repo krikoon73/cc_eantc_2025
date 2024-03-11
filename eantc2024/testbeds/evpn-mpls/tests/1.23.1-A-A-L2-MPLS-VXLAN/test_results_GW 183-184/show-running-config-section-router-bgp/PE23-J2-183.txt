@@ -1,0 +1,85 @@
+router bgp 64512
+   router-id 100.0.0.183
+   distance bgp 20 200 200
+   maximum-paths 4 ecmp 16
+   bgp bestpath d-path
+   bgp bestpath skip next-hop igp-cost
+   neighbor RR_EVPN peer group
+   neighbor RR_EVPN remote-as 64512
+   neighbor RR_EVPN next-hop-unchanged
+   neighbor RR_EVPN update-source Loopback0
+   neighbor RR_EVPN send-community
+   neighbor RR_EVPN maximum-routes 12000
+   neighbor RR_EVPN-VXLAN peer group
+   neighbor RR_EVPN-VXLAN remote-as 64512
+   neighbor RR_EVPN-VXLAN next-hop-unchanged
+   neighbor RR_EVPN-VXLAN update-source Loopback0
+   neighbor RR_EVPN-VXLAN ebgp-multihop 3
+   neighbor RR_EVPN-VXLAN send-community
+   neighbor bgp peer group
+   neighbor bgp rib-in pre-policy retain all
+   neighbor 100.0.0.56 peer group RR_EVPN
+   neighbor 100.0.0.180 peer group RR_EVPN-VXLAN
+   neighbor 100.0.0.180 description RR_EVPN-VXLAN
+   neighbor 100.0.0.184 peer group RR_EVPN
+   neighbor 100.0.3.41 peer group RR_EVPN
+   redistribute connected
+   !
+   vlan 3301
+      rd evpn domain all 100.0.0.183:3301
+      route-target import export 3301:64512
+      route-target import export evpn domain remote 3301:64514
+      redistribute learned
+      redistribute static
+   !
+   vlan 3302
+      rd evpn domain all 100.0.0.183:3302
+      route-target import export 3302:64512
+      route-target import export evpn domain remote 3302:64514
+      redistribute learned
+      redistribute static
+   !
+   address-family evpn
+      neighbor RR_EVPN activate
+      neighbor RR_EVPN rcf in evpnDciMhBlockGwRx()
+      neighbor RR_EVPN rcf out evpnDciMhBlockGwTxToMpls()
+      neighbor RR_EVPN encapsulation mpls next-hop-self source-interface Loopback0
+      neighbor RR_EVPN domain remote
+      neighbor RR_EVPN-VXLAN activate
+      neighbor RR_EVPN-VXLAN rcf in evpnDciMhBlockGwRx()
+      neighbor RR_EVPN-VXLAN rcf out evpnDciMhBlockGwTxToEvpn()
+      neighbor RR_EVPN-VXLAN encapsulation vxlan 
+      domain identifier 1:1
+      domain identifier 1:2 remote
+      layer-2 fec in-place update
+      !
+      evpn ethernet-segment domain local
+         identifier 0011:1111:1111:1111:1111
+         designated-forwarder election algorithm preference 150
+         route-target import 11:11:11:11:11:11
+      !
+      evpn ethernet-segment domain remote
+         identifier 0000:00d2:0000:0000:00d2
+         designated-forwarder election algorithm preference 150
+         route-target import 00:00:d2:00:00:d2
+   !
+   address-family ipv4
+      no neighbor RR_EVPN activate
+      no neighbor RR_EVPN-VXLAN activate
+   !
+   vrf L2GW
+      rd 100.0.0.183:1023
+      rd evpn domain remote 100.0.0.183:1023
+      route-target import evpn 1023:1023
+      route-target import evpn domain remote 1023:1023
+      route-target export evpn 1023:1023
+      route-target export evpn domain remote 1023:1023
+   !
+   vrf tenant-a
+      rd 100.0.0.183:2000
+      evpn multicast
+      route-target import evpn 1000:1000
+      route-target import vpn-ipv4 5000:5000
+      route-target export evpn 1000:1000
+      route-target export vpn-ipv4 5000:5000
+      redistribute connected

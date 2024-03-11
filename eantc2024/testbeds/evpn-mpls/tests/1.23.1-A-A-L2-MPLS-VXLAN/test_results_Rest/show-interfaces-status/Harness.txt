@@ -1,0 +1,75 @@
+Port       Name                   Status       Vlan     Duplex Speed  Type         Flags Encapsulation
+Et1        PE-J2-181              connected    trunk    full   10G    10GBASE-SRL                    
+Et2        Arista 182 PE2         disabled     in Po68  full   10G    10GBASE-SRL                    
+Et3        PE23-J2-183            notconnect   1        full   10G    10GBASE-SRL                    
+Et4        PE24-J2-184            notconnect   trunk    full   10G    10GBASE-SRL                    
+Et5                               notconnect   1        full   10G    Not Present                    
+Et6                               notconnect   1        full   10G    Not Present                    
+Et7                               notconnect   1        full   10G    Not Present                    
+Et8                               notconnect   1        full   10G    Not Present                    
+Et9                               notconnect   1        full   10G    Not Present                    
+Et10       PE-VXLAN-206           connected    trunk    full   10G    10GBASE-SRL                    
+Et11       Huawei                 disabled     1        full   10G    10GBASE-SRL                    
+Et12       CIENA                  connected    in Po108 full   10G    10GBASE-SRL                    
+Et13       h3c_18_CR16010E-F      connected    trunk    full   10G    10GBASE-SRL                    
+Et14       h3c_21_CR16010E-F      connected    in Po21  full   10G    10GBASE-SRL                    
+Et15       Ribbon                 connected    in Po31  full   10G    10GBASE-SRL                    
+Et16                              notconnect   1        full   10G    Not Present                    
+Et17                              notconnect   1        full   10G    10GBASE-SRL                    
+Et18       Cisco-45               connected    in Po151 full   10G    10GBASE-SRL                    
+Et19                              connected    in Po151 full   10G    10GBASE-SRL                    
+Et20                              disabled     in Po300 full   10G    10GBASE-AR                     
+Et21       Nokia 7750-SR1         disabled     trunk    full   10G    10GBASE-SRL                    
+Et22                              notconnect   1        full   10G    Not Present                    
+Et23                              notconnect   1        full   10G    Not Present                    
+Et24                              notconnect   1        full   10G    Not Present                    
+Et25       Juniper 33             connected    in Po33  full   10G    10GBASE-SR                     
+Et26                              notconnect   1        full   10G    Not Present                    
+Et27       h3c_26_S12500R-2L      connected    in Po26  full   10G    10GBASE-SRL                    
+Et28                              notconnect   1        full   10G    10GBASE-SRL                    
+Et29                              notconnect   1        full   10G    Not Present                    
+Et30                              notconnect   1        full   10G    Not Present                    
+Et31                              disabled     trunk    full   10G    10GBASE-SRL                    
+Et32                              disabled     trunk    full   10G    10GBASE-SRL                    
+Et33                              notconnect   1        full   10G    Not Present                    
+Et34                              notconnect   1        full   10G    Not Present                    
+Et35                              notconnect   1        full   10G    Not Present                    
+Et36                              notconnect   1        full   10G    Not Present                    
+Et37                              notconnect   1        full   10G    Not Present                    
+Et38                              notconnect   1        full   10G    Not Present                    
+Et39                              notconnect   1        full   10G    Not Present                    
+Et40                              notconnect   1        full   10G    Not Present                    
+Et41                              notconnect   1        full   10G    Not Present                    
+Et42                              notconnect   1        full   10G    Not Present                    
+Et43                              notconnect   1        full   10G    10GBASE-SR                     
+Et44                              notconnect   1        full   10G    Not Present                    
+Et45       Juniper 32 (MX304 379) connected    in Po32  full   10G    10GBASE-LR                     
+Et46                              notconnect   in Po300 full   10G    Not Present                    
+Et47       IXIA Port              connected    trunk    full   10G    10GBASE-SRL                    
+Et48                              connected    1        full   10G    10GBASE-LR                     
+Et49/1                            notconnect   1        full   10G    40GBASE-PSM4                   
+Et49/2                            notconnect   1        full   10G    40GBASE-PSM4                   
+Et49/3                            notconnect   1        full   10G    40GBASE-PSM4                   
+Et49/4                            notconnect   1        full   10G    40GBASE-PSM4                   
+Et50/1                            notconnect   1        full   100G   100GBASE-SR4                   
+Et51/1                            notconnect   1        full   100G   Not Present                    
+Et52/1                            notconnect   1        full   100G   Not Present                    
+Et53/1                            notconnect   1        full   100G   Not Present                    
+Et54/1                            notconnect   1        full   100G   Not Present                    
+Ma1                               connected    routed   a-full a-1G   10/100/1000                    
+Po21                              connected    trunk    full   10G    N/A                            
+Po26                              connected    trunk    full   10G    N/A                            
+Po31                              connected    trunk    full   10G    N/A                            
+Po32       Juniper 32             connected    trunk    full   10G    N/A                            
+Po33       Juniper 33             connected    trunk    full   10G    N/A                            
+Po68       Arista 68              notconnect   trunk    full   unconf N/A                            
+Po108      CIENA                  connected    trunk    full   10G    N/A                            
+Po151      Cisco 151              connected    trunk    full   20G    N/A                            
+Po194                             notconnect   trunk    full   unconf N/A                            
+Po200                             notconnect   1        full   unconf N/A                            
+Po300      Ciena-Ribbon-Jnpr      notconnect   trunk    full   unconf N/A                            
+Po301                             notconnect   trunk    full   unconf N/A                            
+Po302                             notconnect   1        full   unconf N/A                            
+Po419                             disabled     trunk    full   unconf N/A                            
+Re15                              notconnect   1        full   unconf N/A                            
+

@@ -1,0 +1,15 @@
+Start     End       Size      Usage             
+------------------------------------------------
+0         15        16        reserved          
+16        99999     99984     static mpls       
+100000    116383    16384     bgp (dynamic)     
+116384    132767    16384     isis (dynamic)    
+132768    362143    229376    free (dynamic)    
+362144    899999    537856    unassigned        
+900000    965535    65536     bgp-sr            
+900000    965535    65536     ospf-sr           
+900000    965535    65536     isis-sr           
+965536    1031071   65536     srlb              
+1031072   1032095   1024      l2evpn shared ethernet-segment
+1032096   1036287   4192      unassigned        
+1036288   1048575   12288     l2evpn            

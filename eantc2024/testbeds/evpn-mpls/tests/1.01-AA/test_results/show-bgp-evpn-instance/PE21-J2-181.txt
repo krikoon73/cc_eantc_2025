@@ -1,0 +1,111 @@
+EVPN instance: VLAN 2181
+  Route distinguisher: 100.0.0.181:2181
+  Route target import: Route-Target-AS:2181:2181
+  Route target export: Route-Target-AS:2181:2181
+  Service interface: VLAN-based
+  Local MPLS IP address: 100.0.0.181
+  VXLAN: disabled
+  MPLS: enabled
+  Label allocation mode: per-instance
+  MAC route MPLS label: 1047390
+  IMET route MPLS label: 1040999
+  AD route MPLS label: 1047390
+  Local ethernet segment:
+    ESI: 0000:0000:0000:0181:0182
+      Interface: Port-Channel100
+      Mode: all-active
+      State: down
+      ESI label: 1036288
+      ES-Import RT: 00:00:18:10:01:82
+      DF election state: pending
+      Designated forwarder: 
+EVPN instance: VLAN 2301
+  Route distinguisher: 100.0.0.181:2301
+  Route target import: Route-Target-AS:2301:2301
+  Route target export: Route-Target-AS:2301:2301
+  Service interface: VLAN-based
+  Local MPLS IP address: 100.0.0.181
+  VXLAN: disabled
+  MPLS: enabled
+  Label allocation mode: per-instance
+  MAC route MPLS label: 1045184
+  IMET route MPLS label: 1041763
+  AD route MPLS label: 1045184
+  Local ethernet segment:
+    ESI: 0000:0000:0000:0181:0182
+      Interface: Port-Channel100
+      Mode: all-active
+      State: down
+      ESI label: 1036288
+      ES-Import RT: 00:00:18:10:01:82
+      DF election state: pending
+      Designated forwarder: 
+EVPN instance: VLAN 2302
+  Route distinguisher: 100.0.0.181:2302
+  Route target import: Route-Target-AS:2302:2302
+  Route target export: Route-Target-AS:2302:2302
+  Service interface: VLAN-based
+  Local MPLS IP address: 100.0.0.181
+  VXLAN: disabled
+  MPLS: enabled
+  Label allocation mode: per-instance
+  MAC route MPLS label: 1042318
+  IMET route MPLS label: 1036782
+  AD route MPLS label: 1042318
+  Local ethernet segment:
+    ESI: 0000:0000:0000:0181:0182
+      Interface: Port-Channel100
+      Mode: all-active
+      State: down
+      ESI label: 1036288
+      ES-Import RT: 00:00:18:10:01:82
+      DF election state: pending
+      Designated forwarder: 
+EVPN instance: VLAN-aware bundle 2303-2304
+  Route distinguisher: 100.0.0.181:2303
+  Route target import: Route-Target-AS:2303:2303
+  Route target export: Route-Target-AS:2303:2303
+  Service interface: VLAN-aware bundle
+  Local MPLS IP address: 100.0.0.181
+  VXLAN: disabled
+  MPLS: enabled
+  Label allocation mode: per-instance
+  MAC route MPLS label: 1046284
+  IMET route MPLS label: 1043986
+  AD route MPLS label: 1046284
+  Local ethernet segment:
+    ESI: 0000:0000:0000:0181:0182
+      Interface: Port-Channel100
+      Mode: all-active
+      State: down
+      ESI label: 1036288
+      ES-Import RT: 00:00:18:10:01:82
+      DF election state: pending
+      Designated forwarder: 
+EVPN instance: VPWS 2310
+  Route distinguisher: 100.0.0.181:2310
+  Route target import: Route-Target-AS:2310:2310
+  Route target export: Route-Target-AS:2310:2310
+  Service interface: VLAN-based
+  Local MPLS IP address: 100.0.0.181
+  VXLAN: disabled
+  MPLS: enabled
+  Label allocation mode: per-pseudowire
+  L2 MTU: 1514
+  Control word: disabled
+  Pseudowires:
+    Pseudowire pw1
+      Status: up
+      VPWS label: 100000
+      Local VPWS ID: 2310
+      Remote VPWS ID: 2311
+  Local ethernet segment:
+    ESI: 0000:0000:0000:0111:0111
+      Interface: Port-Channel419
+      Mode: all-active
+      State: up
+      ESI label: 1040460
+      ES-Import RT: 00:00:00:00:00:01
+      DF election algorithm: n/a
+      Forwarding peer: 100.0.0.56
+      Forwarding peer: 100.0.0.181

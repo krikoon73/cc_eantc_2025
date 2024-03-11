@@ -1,0 +1,35 @@
+router bgp 65206
+   router-id 100.0.0.206
+   distance bgp 20 200 200
+   maximum-paths 128
+   neighbor EVPN-IPV4-SPINE peer group
+   neighbor EVPN-IPV4-SPINE remote-as 65000
+   neighbor EVPN-IPV4-SPINE update-source Loopback0
+   neighbor EVPN-IPV4-SPINE ebgp-multihop 5
+   neighbor EVPN-IPV4-SPINE send-community extended
+   neighbor IPV4-SPINE peer group
+   neighbor IPV4-SPINE remote-as 65000
+   neighbor IPV4-SPINE ebgp-multihop 5
+   neighbor 20.200.206.200 peer group IPV4-SPINE
+   neighbor 20.200.206.200 description IPV4-SPINE
+   neighbor 100.0.0.200 peer group EVPN-IPV4-SPINE
+   neighbor 100.0.0.200 description EVPN-SPINE
+   redistribute connected
+   !
+   vlan 3301
+      rd 100.0.0.206:3301
+      route-target both 3301:3301
+      redistribute learned
+      redistribute static
+   !
+   address-family evpn
+      neighbor EVPN-IPV4-SPINE activate
+   !
+   address-family ipv4
+      no neighbor EVPN-IPV4-SPINE activate
+   !
+   vrf L2GW
+      rd 100.0.0.206:1023
+      route-target import evpn 1023:1023
+      route-target export evpn 1023:1023
+      redistribute connected

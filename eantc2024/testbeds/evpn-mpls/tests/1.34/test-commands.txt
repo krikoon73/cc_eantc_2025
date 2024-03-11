@@ -1,0 +1,5 @@
+show version
+show interfaces status
+show bgp evpn summary
+show bgp evpn instance
+show patch panel detail

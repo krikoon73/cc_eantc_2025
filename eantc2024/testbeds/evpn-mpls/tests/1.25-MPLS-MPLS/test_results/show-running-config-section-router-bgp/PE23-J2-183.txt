@@ -1,0 +1,75 @@
+router bgp 64512
+   router-id 100.0.0.183
+   distance bgp 20 200 200
+   maximum-paths 4 ecmp 16
+   neighbor RR_EVPN peer group
+   neighbor RR_EVPN remote-as 64512
+   neighbor RR_EVPN next-hop-unchanged
+   neighbor RR_EVPN update-source Loopback0
+   neighbor RR_EVPN send-community
+   neighbor RR_EVPN maximum-routes 12000
+   neighbor RR_EVPN-VXLAN peer group
+   neighbor RR_EVPN-VXLAN remote-as 64513
+   neighbor RR_EVPN-VXLAN next-hop-unchanged
+   neighbor RR_EVPN-VXLAN update-source Loopback0
+   neighbor RR_EVPN-VXLAN ebgp-multihop 3
+   neighbor RR_EVPN-VXLAN send-community
+   neighbor bgp peer group
+   neighbor bgp rib-in pre-policy retain all
+   neighbor 100.0.0.180 peer group RR_EVPN-VXLAN
+   neighbor 100.0.0.180 description RR_ANET
+   neighbor 100.0.3.58 peer group RR_EVPN
+   neighbor 100.0.3.58 description RR_Cisco
+   redistribute connected
+   !
+   vlan 2068
+      rd 100.0.0.183:2068
+      route-target both 2068:2068
+      redistribute learned
+      redistribute static
+   !
+   vlan 2301
+      rd 100.0.0.183:2301
+      route-target both 2301:2301
+      redistribute learned
+      redistribute static
+   !
+   vlan 2302
+      rd 100.0.0.183:2302
+      route-target both 2302:2302
+      redistribute learned
+      redistribute static
+   !
+   vlan-aware-bundle 2303-2304
+      rd 100.0.0.183:2303
+      route-target both 2303:2303
+      redistribute learned
+      redistribute static
+      vlan 2303-2304
+   !
+   address-family evpn
+      neighbor default encapsulation mpls next-hop-self source-interface Loopback0
+      no neighbor RR_EVPN activate
+      neighbor RR_EVPN-VXLAN activate
+      neighbor RR_EVPN-VXLAN route-map IMPORT-VXLAN-TO-MPLS in
+      neighbor RR_EVPN-VXLAN route-map EXPORT-MPLS-TO-VXLAN out
+      neighbor RR_EVPN-VXLAN encapsulation mpls next-hop-self source-interface Loopback0
+   !
+   address-family ipv4
+      no neighbor RR_EVPN activate
+      no neighbor RR_EVPN-VXLAN activate
+   !
+   address-family vpn-ipv4
+      neighbor RR_EVPN activate
+      neighbor RR_EVPN route-map IMPORT-MPLS-TO-VXLAN in
+      neighbor RR_EVPN route-map EXPORT-VXLAN-TO-MPLS out
+      neighbor default encapsulation mpls next-hop-self source-interface Loopback0
+   !
+   vrf tenant-a
+      rd 100.0.0.183:2000
+      evpn multicast
+      route-target import evpn 1000:1000
+      route-target import vpn-ipv4 5000:5000
+      route-target export evpn 1000:1000
+      route-target export vpn-ipv4 5000:5000
+      redistribute connected

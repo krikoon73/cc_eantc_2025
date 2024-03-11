@@ -1,0 +1,30 @@
+router bgp 64513
+   router-id 100.0.0.180
+   distance bgp 20 200 200
+   bgp route-reflector preserve-attributes always
+   maximum-paths 8 ecmp 16
+   bgp listen range 100.0.0.0/8 peer-group EVPN-RR-CLIENTS remote-as 64512
+   neighbor EVPN-RR-CLIENTS peer group
+   neighbor EVPN-RR-CLIENTS remote-as 64512
+   neighbor EVPN-RR-CLIENTS next-hop-unchanged
+   neighbor EVPN-RR-CLIENTS update-source Loopback0
+   neighbor EVPN-RR-CLIENTS ebgp-multihop 3
+   neighbor EVPN-RR-CLIENTS route-reflector-client
+   neighbor EVPN-RR-CLIENTS additional-paths send any
+   neighbor EVPN-RR-CLIENTS send-community
+   neighbor EVPN-RR-CLIENTS maximum-routes 12000
+   neighbor 100.0.0.184 remote-as 65184
+   neighbor 100.0.0.184 next-hop-unchanged
+   neighbor 100.0.0.184 update-source Loopback0
+   neighbor 100.0.0.184 ebgp-multihop 3
+   neighbor 100.0.0.184 additional-paths send any
+   neighbor 100.0.0.184 send-community
+   !
+   address-family evpn
+      neighbor EVPN-RR-CLIENTS activate
+      neighbor EVPN-RR-CLIENTS encapsulation mpls next-hop-self source-interface Loopback0
+      neighbor 100.0.0.184 activate
+      neighbor 100.0.0.184 encapsulation mpls next-hop-self source-interface Loopback0
+   !
+   address-family ipv4
+      no neighbor EVPN-RR-CLIENTS activate

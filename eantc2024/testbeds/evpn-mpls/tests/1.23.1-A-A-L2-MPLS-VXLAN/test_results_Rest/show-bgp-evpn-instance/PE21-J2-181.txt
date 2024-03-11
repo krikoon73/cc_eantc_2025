@@ -1,0 +1,38 @@
+EVPN instance: VLAN 2181
+  Route distinguisher: 100.0.0.181:2181
+  Route target import: Route-Target-AS:2181:2181
+  Route target export: Route-Target-AS:2181:2181
+  Service interface: VLAN-based
+  Local VXLAN IP address: 100.0.0.181
+  VXLAN: enabled
+  MPLS: disabled
+  Local ethernet segment:
+    ESI: 0000:0000:0000:0181:0182
+      Interface: Port-Channel100
+      Mode: all-active
+      State: down
+      ES-Import RT: 00:00:18:10:01:82
+      DF election state: pending
+      Designated forwarder: 
+EVPN instance: VLAN 3301
+  Route distinguisher: 100.0.0.181:3301
+  Route target import: Route-Target-AS:3301:64512
+  Route target export: Route-Target-AS:3301:64512
+  Service interface: VLAN-based
+  Local VXLAN IP address: 100.0.0.181
+  VXLAN: enabled
+  MPLS: disabled
+  Remote ethernet segment:
+    ESI: 0000:00d2:0000:0000:00d2
+    Active TEPs: 100.0.0.183, 100.0.0.184
+EVPN instance: VLAN 3302
+  Route distinguisher: 100.0.0.181:3302
+  Route target import: Route-Target-AS:3302:64512
+  Route target export: Route-Target-AS:3302:64512
+  Service interface: VLAN-based
+  Local VXLAN IP address: 100.0.0.181
+  VXLAN: enabled
+  MPLS: disabled
+  Remote ethernet segment:
+    ESI: 0000:00d2:0000:0000:00d2
+    Active TEPs: 100.0.0.183, 100.0.0.184

@@ -1,0 +1,17 @@
+Arista DCS-7280SR-48C6-F
+Hardware version: 01.02
+Serial number: JPE16200927
+Hardware MAC address: 444c.a873.9c0d
+System MAC address: 444c.a873.9c0d
+
+Software image version: 4.28.0F
+Architecture: i686
+Internal build version: 4.28.0F-26924507.4280F
+Internal build ID: cc8af7a4-3c5b-4f00-bf78-68394d62ceff
+Image format version: 3.0
+Image optimization: Sand-4GB
+
+Uptime: 4 days, 1 hour and 45 minutes
+Total memory: 8098968 kB
+Free memory: 6060848 kB
+

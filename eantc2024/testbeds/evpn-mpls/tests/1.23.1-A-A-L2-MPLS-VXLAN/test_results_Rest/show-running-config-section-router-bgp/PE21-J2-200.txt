@@ -1,0 +1,97 @@
+router bgp 65000
+   router-id 100.0.0.200
+   distance bgp 20 200 200
+   maximum-paths 8 ecmp 16
+   neighbor default send-community
+   neighbor EVPN-IPV4-LEAF peer group
+   neighbor EVPN-IPV4-LEAF remote-as 65206
+   neighbor EVPN-IPV4-LEAF update-source 100.0.0.200
+   neighbor EVPN-IPV4-LEAF ebgp-multihop 3
+   neighbor EVPN-IPV4-LEAF send-community
+   neighbor EVPN-IPV4-LEAF maximum-routes 12000
+   neighbor EVPN-LOCAL-PEERS peer group
+   neighbor EVPN-LOCAL-PEERS update-source Loopback0
+   neighbor EVPN-LOCAL-PEERS ebgp-multihop 5
+   neighbor EVPN-LOCAL-PEERS maximum-routes 12000
+   neighbor IPV4-LEAF peer group
+   neighbor IPV4-LEAF remote-as 65206
+   neighbor IPV4-LEAF send-community
+   neighbor IPV4-LEAF maximum-routes 12000
+   neighbor IPV6-LOCAL-PEERS peer group
+   neighbor IPV6-LOCAL-PEERS maximum-routes 12000
+   neighbor 20.41.200.41 remote-as 64512
+   neighbor 20.41.200.41 description Cisco-41
+   neighbor 20.41.200.41 send-community
+   neighbor 20.41.200.41 maximum-routes 12000
+   neighbor 20.56.200.56 remote-as 64512
+   neighbor 20.56.200.56 description NOkia
+   neighbor 20.56.200.56 send-community
+   neighbor 20.56.200.56 maximum-routes 12000
+   neighbor 20.200.206.206 peer group IPV4-LEAF
+   neighbor 20.200.206.206 description ANET-PE15
+   neighbor 100.0.0.56 remote-as 64512
+   neighbor 100.0.0.56 update-source 100.0.0.200
+   neighbor 100.0.0.56 description NOK-41-EVPN
+   neighbor 100.0.0.56 ebgp-multihop 3
+   neighbor 100.0.0.56 send-community
+   neighbor 100.0.0.56 maximum-routes 12000
+   neighbor 100.0.0.206 peer group EVPN-IPV4-LEAF
+   neighbor 100.0.0.206 description ANET-PE15
+   neighbor 100.0.3.41 remote-as 64512
+   neighbor 100.0.3.41 update-source 100.0.0.200
+   neighbor 100.0.3.41 description Cisco-41-EVPN
+   neighbor 100.0.3.41 ebgp-multihop 3
+   neighbor 100.0.3.41 send-community
+   neighbor 100.0.3.41 maximum-routes 12000
+   neighbor 2000::22 peer group EVPN-LOCAL-PEERS
+   neighbor 2000::22 remote-as 65022
+   neighbor 2000::22 description H3C-22.EVPN
+   neighbor 2000::23 peer group EVPN-LOCAL-PEERS
+   neighbor 2000::23 remote-as 65023
+   neighbor 2000::23 description H3C-23.EVPN
+   neighbor 2000::40 peer group EVPN-LOCAL-PEERS
+   neighbor 2000::40 remote-as 65040
+   neighbor 2000::40 description CSCO-40.EVPN
+   neighbor 2000::42 peer group EVPN-LOCAL-PEERS
+   neighbor 2000::42 remote-as 65042
+   neighbor 2000::42 description CSCO-42.EVPN
+   neighbor 2000::45 peer group EVPN-LOCAL-PEERS
+   neighbor 2000::45 remote-as 65045
+   neighbor 2000::45 description CSCO-45.EVPN
+   neighbor 2000::46 peer group EVPN-LOCAL-PEERS
+   neighbor 2000::46 remote-as 65045
+   neighbor 2000::46 description CSCO-46.EVPN
+   neighbor 2000::201 peer group EVPN-LOCAL-PEERS
+   neighbor 2000::201 remote-as 65201
+   neighbor 2000::201 description ANET-201.EVPN
+   neighbor 2000::202 peer group EVPN-LOCAL-PEERS
+   neighbor 2000::202 remote-as 65202
+   neighbor 2000::202 description ANET-202.EVPN
+   neighbor 2000::203 peer group EVPN-LOCAL-PEERS
+   neighbor 2000::203 remote-as 65203
+   neighbor 2000::203 description ANET-203.EVPN
+   neighbor 2000::204 peer group EVPN-LOCAL-PEERS
+   neighbor 2000::204 remote-as 65204
+   neighbor 2000::204 description ANET-204.EVPN
+   neighbor 2001::56 peer group EVPN-LOCAL-PEERS
+   neighbor 2001::56 remote-as 65056
+   neighbor 2001::56 description NOK-56.EVPN
+   redistribute connected
+   neighbor interface Et1-4,11-16,23-26 peer-group IPV6-LOCAL-PEERS peer-filter IPV6-LEAFS
+   !
+   address-family evpn
+      neighbor EVPN-IPV4-LEAF activate
+      neighbor EVPN-LOCAL-PEERS activate
+      neighbor 100.0.0.56 activate
+      neighbor 100.0.3.41 activate
+   !
+   address-family ipv4
+      no neighbor EVPN-IPV4-LEAF activate
+      neighbor IPV4-LEAF activate
+      neighbor 20.41.200.41 activate
+      neighbor 20.56.200.56 activate
+      no neighbor 100.0.0.56 activate
+      no neighbor 100.0.3.41 activate
+   !
+   address-family ipv6
+      neighbor IPV6-LOCAL-PEERS activate

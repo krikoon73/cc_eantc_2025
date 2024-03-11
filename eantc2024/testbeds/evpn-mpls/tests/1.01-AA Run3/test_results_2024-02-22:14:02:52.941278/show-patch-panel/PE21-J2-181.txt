@@ -1,0 +1,5 @@
+Patch Connector                       Status Last Change
+----- ------------------------------- ------ -----------
+2310  1: Port-Channel419.2310         Up     1:43:08 ago
+      2: BGP VPWS 2310 Pseudowire pw1                   
+

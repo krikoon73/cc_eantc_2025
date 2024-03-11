@@ -1,0 +1,15 @@
+PW Fault Legend:
+   ET-IN - Ethernet receive fault
+   ET-OUT - Ethernet transmit fault
+   TUN-IN - Tunnel receive fault
+   TUN-OUT - Tunnel transmit fault
+   NF - Pseudowire not forwarding (other reason)
+
+Patch: 2311, Status: Down, Last change: 2:16:13 ago
+   Connector 1: Ethernet5.2311
+      Status: Interface mode
+   Connector 2: BGP VPWS 2311 Pseudowire pw1
+      Status: Interface unavailable
+      Local MPLS label: 100000
+      EVPN VPWS type: VLAN-based
+      Flow label used: no
