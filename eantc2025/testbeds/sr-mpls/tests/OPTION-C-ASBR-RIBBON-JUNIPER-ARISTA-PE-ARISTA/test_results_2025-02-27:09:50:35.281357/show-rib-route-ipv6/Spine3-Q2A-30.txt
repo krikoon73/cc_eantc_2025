@@ -1,0 +1,58 @@
+VRF: default, Protocol: connected
+Codes: C - Connected, S - Static, P - Route Input, G - Gribi
+       B - BGP, O - Ospf, O3 - Ospf3, I - Isis, R - Rip, VL - VRF Leak
+       > - Best Route, * - Unresolved Next hop
+       EM - Exact match of the SR-TE Policy
+       NM - Null endpoint match of the SR-TE Policy
+       AM - Any endpoint match of the SR-TE Policy
+       L - Part of a recursive route resolution loop
+       A - Next hop not resolved in ARP/ND
+       NF - Not in FEC
+>C    2001:0:30:31::/64 [0 pref/0 metric] updated 17:57:45 ago
+         via Ethernet1, directly connected
+>C    2001:0:30:32::/64 [0 pref/0 metric] updated 18:00:22 ago
+         via Ethernet2, directly connected
+>C    2001:0:30:66::/64 [0 pref/0 metric] updated 5d16h ago
+         via Ethernet31, directly connected
+>C    2001:0:30:72::/64 [0 pref/0 metric] updated 18:01:53 ago
+         via Ethernet9, directly connected
+>C    2001:0:30:84::/64 [0 pref/0 metric] updated 18:01:24 ago
+         via Ethernet12, directly connected
+>C    2001:0:30:120::/64 [0 pref/0 metric] updated 17:13:21 ago
+         via Ethernet3, directly connected
+>C    2001:0:30:156::/64 [0 pref/0 metric] updated 20:18:55 ago
+         via Ethernet11, directly connected
+>C    2001:0:30:214::/64 [0 pref/0 metric] updated 17:59:12 ago
+         via Ethernet5, directly connected
+>C    2002::30/128 [0 pref/0 metric] updated 2d20h ago
+         via Loopback0, directly connected
+VRF: default, Protocol: route-input
+Codes: C - Connected, S - Static, P - Route Input, G - Gribi
+       B - BGP, O - Ospf, O3 - Ospf3, I - Isis, R - Rip, VL - VRF Leak
+       > - Best Route, * - Unresolved Next hop
+       EM - Exact match of the SR-TE Policy
+       NM - Null endpoint match of the SR-TE Policy
+       AM - Any endpoint match of the SR-TE Policy
+       L - Part of a recursive route resolution loop
+       A - Next hop not resolved in ARP/ND
+       NF - Not in FEC
+>P    ::/96 [1 pref/0 metric] updated 6d19h ago
+         via Null0, directly connected [NF]
+>P    ::ffff:127.0.0.0/104 [1 pref/0 metric] updated 6d19h ago
+         via :: [1 pref/1 metric] type ipv6
+            via , directly connected
+>P    fe80::/10 [1 pref/0 metric] updated 6d19h ago
+VRF: default, Protocol: isis
+Codes: C - Connected, S - Static, P - Route Input, G - Gribi
+       B - BGP, O - Ospf, O3 - Ospf3, I - Isis, R - Rip, VL - VRF Leak
+       > - Best Route, * - Unresolved Next hop
+       EM - Exact match of the SR-TE Policy
+       NM - Null endpoint match of the SR-TE Policy
+       AM - Any endpoint match of the SR-TE Policy
+       L - Part of a recursive route resolution loop
+       A - Next hop not resolved in ARP/ND
+       NF - Not in FEC
+>I    2002::31/128 [115 pref/20 metric] updated 17:20:10 ago
+         via fe80::6abf:6cff:fe35:1e31, Ethernet1
+>I    2002::32/128 [115 pref/20 metric] updated 17:39:34 ago
+         via fe80::d6af:f7ff:fe2f:1396, Ethernet2

@@ -1,0 +1,63 @@
+Aggregate VoQ Counters
+Egress                     Traffic               Pkts             Octets           DropPkts         DropOctets
+Port                       Class  
+--------------------------------------------------------------------------------------------------------------
+Et1                        TC1                     63               6704                  0                  0
+Et1                        TC6                   1213             105161                  0                  0
+Et1                        TC7                   3336             606466                  0                  0
+Et2                        TC1                6071173         2900538768                  0                  0
+Et2                        TC6                    959              78488                  0                  0
+Et2                        TC7                   3344             617773                  0                  0
+Et5                        TC1                     10                640                  0                  0
+Et5                        TC6                    645              55114                  0                  0
+Et5                        TC7                   1408             257439                  0                  0
+Et9                        TC1                     24               2588                  0                  0
+Et9                        TC6                    912              87276                  0                  0
+Et9                        TC7                   3036            1167658                  0                  0
+Et11                       TC1                7732102         1666070874                  0                  0
+Et11                       TC6                    904              75154                  0                  0
+Et11                       TC7                   2381             433508                  0                  0
+Et12                       TC1                4843565         2470062540                  0                  0
+Et12                       TC6                   1096             101106                  0                  0
+Et12                       TC7                   3324             692773                  0                  0
+Et14                       TC1                6201902          620189990                  0                  0
+Et14                       TC6                    764              71365                  0                  0
+Et14                       TC7                   2760            1985622                  0                  0
+Et31                       TC1                     36               3856                  0                  0
+Et31                       TC6                    676              51972                  0                  0
+Et31                       TC7                 114144            9509518                  0                  0
+Et33                       TC7                     15               3750                  0                  0
+Et36                       TC7                    186              46872                  0                  0
+Et39                       TC7                   4671             331641                  0                  0
+
+Egress Queue Counters
+Port                 Traffic DropPrec   DestType          OutEnqPkts      OutEnqOctets       OutDropPkts     OutDropOctets
+                     Class
+Et1                  TC1     DP0-3      UC                        63              6704                 0                 0
+Et1                  TC6     DP0-3      UC                      1213            105161                 0                 0
+Et1                  TC7     DP0-3      UC                      3340            593263                 0                 0
+Et2                  TC1     DP0-3      UC                   6071658        2900589208                 0                 0
+Et2                  TC6     DP0-3      UC                       959             78488                 0                 0
+Et2                  TC7     DP0-3      UC                      3346            604343                 0                 0
+Et5                  TC1     DP0-3      UC                        10               640                 0                 0
+Et5                  TC6     DP0-3      UC                       645             55114                 0                 0
+Et5                  TC7     DP0-3      UC                      1410            252254                 0                 0
+Et9                  TC1     DP0-3      UC                        24              2588                 0                 0
+Et9                  TC6     DP0-3      UC                       912             87276                 0                 0
+Et9                  TC7     DP0-3      UC                      3036           1152733                 2               373
+Et11                 TC1     DP0-3      UC                   7732102        1666070874                 0                 0
+Et11                 TC6     DP0-3      UC                       904             75154                 0                 0
+Et11                 TC7     DP0-3      UC                      2381            424569                 0                 0
+Et12                 TC1     DP0-3      UC                   4843565        2470062540                 0                 0
+Et12                 TC6     DP0-3      UC                      1096            101106                 0                 0
+Et12                 TC7     DP0-3      UC                      3324            675191                 0                 0
+Et14                 TC1     DP0-3      UC                   6201186         620118390                 0                 0
+Et14                 TC6     DP0-3      UC                       764             71365                 0                 0
+Et14                 TC7     DP0-3      UC                      2760           1972364                 0                 0
+Et31                 TC1     DP0-3      UC                        36              3856                 0                 0
+Et31                 TC6     DP0-3      UC                       676             51972                 0                 0
+Et31                 TC7     DP0-3      UC                    112235           8161560              1909            122234
+Et33                 TC7     DP0-3      UC                        15              3645                 0                 0
+Et36                 TC7     DP0-3      UC                       186             45570                 0                 0
+Et39                 TC7     DP0-3      UC                      4669            298816                 2               128
+

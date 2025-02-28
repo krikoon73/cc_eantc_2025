@@ -1,0 +1,19 @@
+Aggregate VoQ Counters
+Egress                     Traffic               Pkts             Octets           DropPkts         DropOctets
+Port                       Class  
+--------------------------------------------------------------------------------------------------------------
+Et31                       TC1              400916761        38488009056           79745886         7655605056
+Et31                       TC6                1355402          130118592                  0                  0
+Et31                       TC7                   1510             224079                  0                  0
+Et36                       TC7                     10               2390                  0                  0
+Et46/1                     TC7                     10               2580                  0                  0
+
+Egress Queue Counters
+Port                 Traffic DropPrec   DestType          OutEnqPkts      OutEnqOctets       OutDropPkts     OutDropOctets
+                     Class
+Et31                 TC1     DP0-3      UC                 400916761       38488009056                 0                 0
+Et31                 TC6     DP0-3      UC                   1355530         130130880                 0                 0
+Et31                 TC7     DP0-3      UC                      1497            208895                 0                 0
+Et36                 TC7     DP0-3      UC                        10              2320                 0                 0
+Et46/1               TC7     DP0-3      UC                        10              2510                 0                 0
+

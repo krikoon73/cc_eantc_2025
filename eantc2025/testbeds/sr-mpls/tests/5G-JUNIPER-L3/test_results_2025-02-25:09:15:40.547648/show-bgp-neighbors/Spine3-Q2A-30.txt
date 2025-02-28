@@ -1,0 +1,2144 @@
+BGP neighbor is 10.0.0.31, remote AS 64512, internal link
+ Description: Arista-PE31-Q2C
+  BGP version 4, remote router ID 0.0.0.0, VRF default
+  Inherits configuration from and member of peer-group IBGP_CLIENT_PEER
+  Last read never, last write never
+  Hold time is 0, keepalive interval is 0 seconds
+  Configured hold time is 180, keepalive interval is 60 seconds
+  Effective minimum hold time is 3 seconds
+  Send failure hold time is 0 seconds
+  Hold timer is inactive
+  Keepalive timer is inactive
+  Connect timer is active, time left: 00:02:12
+  Connection interval is 148 seconds
+  Failed connection attempts is 2383
+  Idle-restart timer is inactive
+  BGP state is Active
+  Number of transitions to established: 0
+  Last state was Connect
+  Last event was TransportError
+  Last sent socket-error:Connect (Network is unreachable), Last time 00:00:23, First time 4d16h, Repeats 2382
+  Types of communities advertised: standard extended large
+  Neighbor is a route reflector client
+  Neighbor is using global cluster ID 10.0.0.30
+  Neighbor Capabilities:
+  Restart timer is inactive
+  End of rib timer is inactive
+  IPv4 Unicast AS_SET/AS_CONFED_SET processing: accept
+  IPv6 Unicast AS_SET/AS_CONFED_SET processing: accept
+  AIGP attribute send and receive for IPv4 Unicast are enabled
+  AIGP attribute send and receive for IPv4 with MPLS Labels are enabled
+  AIGP attribute send and receive for IPv6 Unicast are enabled
+  AIGP attribute send and receive for IPv6 with MPLS Labels are enabled
+  BGP session driven failover for IPv4 Unicast is disabled
+  BGP session driven failover for IPv6 Unicast is disabled
+  Message Statistics:
+                         Sent      Rcvd
+    Opens:                  0         0
+    Notifications:          0         0
+    Updates:                0         0
+    Keepalives:             0         0
+    Route Refresh:          0         0
+    Total messages:         0         0
+  Prefix Statistics:
+                                   Sent      Rcvd     Best Paths     Best ECMP Paths
+    IPv4 Unicast:                     0         0              0                   0
+    IPv6 Unicast:                     0         0              0                   0
+  Configured maximum total number of routes is 0
+  Inbound updates dropped by reason:
+    AS path loop detection: 0
+    Cluster ID loop detection: 0
+    Enforced First AS: 0
+    Malformed MPBGP routes: 0
+    Originator ID matches local router ID: 0
+    Nexthop matches local IP address: 0
+    Unexpected IPv6 nexthop for IPv4 routes: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv4 Unicast: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv6 Unicast: 0
+  Inbound updates with attribute errors:
+    Resulting in removal of all paths in update (treat as withdraw): 0
+    Resulting in AFI/SAFI disable: 0
+    Resulting in attribute ignore: 0
+    Disabled AFI/SAFIs: None
+  Inbound paths dropped by reason:
+    IPv4 unicast NLRIs dropped due to martian prefix: 0
+    IPv6 unicast NLRIs dropped due to martian prefix: 0
+    IPv4 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv4 labeled-unicast NLRIs dropped due to martian prefix: 0
+    IPv6 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv6 labeled-unicast NLRIs dropped due to martian prefix: 0
+    VPN-IPv4 NLRIs dropped due to route import match failure: 0
+    VPN-IPv6 NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to unsupported route type: 0
+    Link-state NLRIs dropped because reception is unsupported: 0
+    RT Membership NLRIs dropped due to local origin ASN received from external peer: 0
+  Outbound paths dropped by reason:
+    IPv4 local address not available: 0
+    IPv6 local address not available: 0
+Local AS is 64512, local router ID 10.0.0.30
+TTL is 255
+Local TCP address is 10.0.0.30
+Remote TCP address is 10.0.0.31, remote port is 179
+
+BGP neighbor is 10.0.0.32, remote AS 64512, internal link
+ Description: Arista-PE32-Q2C
+  BGP version 4, remote router ID 10.0.0.32, VRF default
+  Inherits configuration from and member of peer-group IBGP_CLIENT_PEER
+  Last read 18:26:22, last write 18:23:22
+  Hold time is 180, keepalive interval is 60 seconds
+  Configured hold time is 180, keepalive interval is 60 seconds
+  Effective minimum hold time is 3 seconds
+  Send failure hold time is 0 seconds
+  Hold timer is inactive
+  Keepalive timer is inactive
+  Connect timer is active, time left: 00:00:19
+  Connection interval is 20 seconds
+  Failed connection attempts is 2847
+  Idle-restart timer is inactive
+  BGP state is Connect
+  Number of transitions to established: 2
+  Last state was Active
+  Last event was ConnectRetry
+  Last sent notification:Hold Timer Expired Error/None, Last time 18:23:22
+  Last sent socket-error:Connect (Network is unreachable), Last time 18:08:29, First time 18:22:32, Repeats 10
+  Types of communities advertised: standard extended large
+  Neighbor is a route reflector client
+  Neighbor is using global cluster ID 10.0.0.30
+  Neighbor Capabilities:
+    Multiprotocol VPN-IPv4: advertised and received
+    Multiprotocol VPN-IPv6: advertised and received
+    Four Octet ASN: advertised and received
+    Route Refresh: advertised and received
+    Enhanced route refresh: advertised and received
+    Send End-of-RIB messages: advertised and received
+    Additional-paths recv capability:
+      VPN-IPv4: advertised
+      VPN-IPv6: advertised
+    Additional-paths send capability:
+      VPN-IPv4: received
+      VPN-IPv6: received
+    Graceful Restart advertised:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: yes
+      VPN-IPv4 is enabled, Forwarding State is not preserved
+      VPN-IPv6 is enabled, Forwarding State is not preserved
+    Graceful Restart received:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: yes
+      VPN-IPv4 is enabled, Forwarding State is not preserved
+      VPN-IPv6 is enabled, Forwarding State is not preserved
+  Restart timer is inactive
+  End of rib timer is inactive
+  IPv4 Unicast AS_SET/AS_CONFED_SET processing: accept
+  IPv6 Unicast AS_SET/AS_CONFED_SET processing: accept
+  AIGP attribute send and receive for IPv4 Unicast are enabled
+  AIGP attribute send and receive for IPv4 with MPLS Labels are enabled
+  AIGP attribute send and receive for IPv6 Unicast are enabled
+  AIGP attribute send and receive for IPv6 with MPLS Labels are enabled
+  BGP session driven failover for IPv4 Unicast is disabled
+  BGP session driven failover for IPv6 Unicast is disabled
+  Message Statistics:
+                         Sent      Rcvd
+    Opens:                  2         2
+    Notifications:          1         0
+    Updates:              479        14
+    Keepalives:          6546      6610
+    Route Refresh:          0         0
+    Total messages:      7028      6626
+  Prefix Statistics:
+                                   Sent      Rcvd     Best Paths     Best ECMP Paths
+    IPv4 Unicast:                     0         0              0                   0
+    IPv6 Unicast:                     0         0              0                   0
+  Configured maximum total number of routes is 0
+  Inbound updates dropped by reason:
+    AS path loop detection: 0
+    Cluster ID loop detection: 0
+    Enforced First AS: 0
+    Malformed MPBGP routes: 0
+    Originator ID matches local router ID: 0
+    Nexthop matches local IP address: 0
+    Unexpected IPv6 nexthop for IPv4 routes: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv4 Unicast: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv6 Unicast: 0
+  Inbound updates with attribute errors:
+    Resulting in removal of all paths in update (treat as withdraw): 0
+    Resulting in AFI/SAFI disable: 0
+    Resulting in attribute ignore: 0
+    Disabled AFI/SAFIs: None
+  Inbound paths dropped by reason:
+    IPv4 unicast NLRIs dropped due to martian prefix: 0
+    IPv6 unicast NLRIs dropped due to martian prefix: 0
+    IPv4 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv4 labeled-unicast NLRIs dropped due to martian prefix: 0
+    IPv6 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv6 labeled-unicast NLRIs dropped due to martian prefix: 0
+    VPN-IPv4 NLRIs dropped due to route import match failure: 0
+    VPN-IPv6 NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to unsupported route type: 0
+    Link-state NLRIs dropped because reception is unsupported: 0
+    RT Membership NLRIs dropped due to local origin ASN received from external peer: 0
+  Outbound paths dropped by reason:
+    IPv4 local address not available: 0
+    IPv6 local address not available: 0
+Local AS is 64512, local router ID 10.0.0.30
+TTL is 255
+Local TCP address is 10.0.0.30
+Remote TCP address is 10.0.0.32, remote port is 179
+TCP Socket Information:
+  TCP state is SYN-SENT
+  Recv-Q: 0/131072
+  Send-Q: 0/16384
+  Outgoing Maximum Segment Size (MSS): 524
+  Total Number of TCP retransmissions: 1
+  Options:
+    Timestamps enabled: no
+    Selective Acknowledgments enabled: no
+    Window Scale enabled: no
+    Explicit Congestion Notification (ECN) enabled: no
+  Socket Statistics:
+    Window Scale (wscale): 0,0
+    Retransmission Timeout (rto): 2000.0ms
+    Round-trip Time (rtt/rtvar): 0.0ms/250.0ms
+    Delayed Ack Timeout (ato): 0.0ms
+    Congestion Window (cwnd): 1
+    Slow-start Threshold (ssthresh): 7
+
+BGP neighbor is 10.0.0.53, remote AS 64512, internal link
+ Description: Arrcus-53
+  BGP version 4, remote router ID 10.0.0.53, VRF default
+  Inherits configuration from and member of peer-group IBGP_CLIENT_PEER
+  Last read 18:26:16, last write 18:23:16
+  Hold time is 180, keepalive interval is 60 seconds
+  Configured hold time is 180, keepalive interval is 60 seconds
+  Effective minimum hold time is 3 seconds
+  Send failure hold time is 0 seconds
+  Hold timer is inactive
+  Keepalive timer is inactive
+  Connect timer is active, time left: 00:00:09
+  Connection interval is 20 seconds
+  Failed connection attempts is 2885
+  Idle-restart timer is inactive
+  BGP state is Connect
+  Number of transitions to established: 5
+  Last state was Active
+  Last event was ConnectRetry
+  Last sent notification:Hold Timer Expired Error/None, Last time 18:23:16, First time 20:00:31, Repeats 4
+  Last sent socket-error:Connect (Network is unreachable), Last time 18:53:46, First time 20:00:30, Repeats 30
+  Types of communities advertised: standard extended large
+  Neighbor is a route reflector client
+  Neighbor is using global cluster ID 10.0.0.30
+  Neighbor Capabilities:
+    Multiprotocol IPv4 with MPLS Labels: received
+    Multiprotocol VPN-IPv4: advertised and received
+    Multiprotocol VPN-IPv6: advertised and received
+    Four Octet ASN: advertised and received
+    Route Refresh: advertised and received
+    Enhanced route refresh: advertised
+    Send End-of-RIB messages: advertised and received
+    Additional-paths recv capability:
+      VPN-IPv4: advertised
+      VPN-IPv6: advertised
+    Additional-paths send capability:
+    Graceful Restart advertised:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: yes
+      VPN-IPv4 is enabled, Forwarding State is not preserved
+      VPN-IPv6 is enabled, Forwarding State is not preserved
+    Graceful Restart received:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: no
+      IPv4 with MPLS Labels is enabled, Forwarding State is preserved
+      VPN-IPv4 is enabled, Forwarding State is preserved
+      VPN-IPv6 is enabled, Forwarding State is preserved
+  Restart timer is inactive
+  End of rib timer is inactive
+  IPv4 Unicast AS_SET/AS_CONFED_SET processing: accept
+  IPv6 Unicast AS_SET/AS_CONFED_SET processing: accept
+  AIGP attribute send and receive for IPv4 Unicast are enabled
+  AIGP attribute send and receive for IPv4 with MPLS Labels are enabled
+  AIGP attribute send and receive for IPv6 Unicast are enabled
+  AIGP attribute send and receive for IPv6 with MPLS Labels are enabled
+  BGP session driven failover for IPv4 Unicast is disabled
+  BGP session driven failover for IPv6 Unicast is disabled
+  Message Statistics:
+                         Sent      Rcvd
+    Opens:                  5         5
+    Notifications:          5         0
+    Updates:              596        18
+    Keepalives:          6479      5541
+    Route Refresh:          0         2
+    Total messages:      7085      5566
+  Prefix Statistics:
+                                   Sent      Rcvd     Best Paths     Best ECMP Paths
+    IPv4 Unicast:                     0         0              0                   0
+    IPv6 Unicast:                     0         0              0                   0
+  Configured maximum total number of routes is 0
+  Inbound updates dropped by reason:
+    AS path loop detection: 0
+    Cluster ID loop detection: 0
+    Enforced First AS: 0
+    Malformed MPBGP routes: 0
+    Originator ID matches local router ID: 0
+    Nexthop matches local IP address: 0
+    Unexpected IPv6 nexthop for IPv4 routes: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv4 Unicast: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv6 Unicast: 0
+  Inbound updates with attribute errors:
+    Resulting in removal of all paths in update (treat as withdraw): 0
+    Resulting in AFI/SAFI disable: 0
+    Resulting in attribute ignore: 0
+    Disabled AFI/SAFIs: None
+  Inbound paths dropped by reason:
+    IPv4 unicast NLRIs dropped due to martian prefix: 0
+    IPv6 unicast NLRIs dropped due to martian prefix: 0
+    IPv4 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv4 labeled-unicast NLRIs dropped due to martian prefix: 0
+    IPv6 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv6 labeled-unicast NLRIs dropped due to martian prefix: 0
+    VPN-IPv4 NLRIs dropped due to route import match failure: 0
+    VPN-IPv6 NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to unsupported route type: 0
+    Link-state NLRIs dropped because reception is unsupported: 0
+    RT Membership NLRIs dropped due to local origin ASN received from external peer: 0
+  Outbound paths dropped by reason:
+    IPv4 local address not available: 0
+    IPv6 local address not available: 0
+Local AS is 64512, local router ID 10.0.0.30
+TTL is 255
+Local TCP address is 10.0.0.30
+Remote TCP address is 10.0.0.53, remote port is 179
+TCP Socket Information:
+  TCP state is SYN-SENT
+  Recv-Q: 0/131072
+  Send-Q: 0/16384
+  Outgoing Maximum Segment Size (MSS): 524
+  Total Number of TCP retransmissions: 3
+  Options:
+    Timestamps enabled: no
+    Selective Acknowledgments enabled: no
+    Window Scale enabled: no
+    Explicit Congestion Notification (ECN) enabled: no
+  Socket Statistics:
+    Window Scale (wscale): 0,0
+    Retransmission Timeout (rto): 8000.0ms
+    Round-trip Time (rtt/rtvar): 0.0ms/250.0ms
+    Delayed Ack Timeout (ato): 0.0ms
+    Congestion Window (cwnd): 1
+    Slow-start Threshold (ssthresh): 7
+
+BGP neighbor is 10.0.0.66, remote AS 64512, internal link
+ Description: Ciena-8140-66
+  BGP version 4, remote router ID 10.0.0.66, VRF default
+  Inherits configuration from and member of peer-group IBGP_CLIENT_PEER
+  Last read 21:03:37, last write 18:28:48
+  Hold time is 180, keepalive interval is 60 seconds
+  Configured hold time is 180, keepalive interval is 60 seconds
+  Effective minimum hold time is 3 seconds
+  Send failure hold time is 0 seconds
+  Hold timer is inactive
+  Keepalive timer is inactive
+  Connect timer is active, time left: 00:00:08
+  Connection interval is 20 seconds
+  Failed connection attempts is 2887
+  Idle-restart timer is inactive
+  BGP state is Connect
+  Number of transitions to established: 7
+  Last state was Active
+  Last event was ConnectRetry
+  Last sent notification:Hold Timer Expired Error/None, Last time 21:00:37, First time 3d23h, Repeats 2
+  Last rcvd notification:Cease/other configuration change, Last time 23:53:59, First time 4d15h, Repeats 3
+  Last sent socket-error:Connect (Connection refused), Last time 18:34:17
+  Last rcvd socket-error:Connection reset by peer, Last time 18:28:48, First time 3d18h, Repeats 4
+  Types of communities advertised: standard extended large
+  Neighbor is a route reflector client
+  Neighbor is using global cluster ID 10.0.0.30
+  Neighbor Capabilities:
+    Multiprotocol IPv4 Unicast: received
+    Multiprotocol VPN-IPv4: advertised and received
+    Multiprotocol VPN-IPv6: advertised
+    Four Octet ASN: advertised
+    Route Refresh: advertised and received
+    Enhanced route refresh: advertised
+    Send End-of-RIB messages: advertised and received
+    Additional-paths recv capability:
+      VPN-IPv4: advertised
+      VPN-IPv6: advertised
+    Additional-paths send capability:
+    Graceful Restart advertised:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: yes
+      VPN-IPv4 is enabled, Forwarding State is not preserved
+      VPN-IPv6 is enabled, Forwarding State is not preserved
+    Graceful Restart received:
+      Restart-time is 0
+      Restart-State bit: no
+      Graceful notification: no
+      IPv4 Unicast is enabled, Forwarding State is not preserved
+      VPN-IPv4 is enabled, Forwarding State is not preserved
+  Restart timer is inactive
+  End of rib timer is inactive
+  IPv4 Unicast AS_SET/AS_CONFED_SET processing: accept
+  IPv6 Unicast AS_SET/AS_CONFED_SET processing: accept
+  AIGP attribute send and receive for IPv4 Unicast are enabled
+  AIGP attribute send and receive for IPv4 with MPLS Labels are enabled
+  AIGP attribute send and receive for IPv6 Unicast are enabled
+  AIGP attribute send and receive for IPv6 with MPLS Labels are enabled
+  BGP session driven failover for IPv4 Unicast is disabled
+  BGP session driven failover for IPv6 Unicast is disabled
+  Message Statistics:
+                         Sent      Rcvd
+    Opens:                 12         7
+    Notifications:          3         4
+    Updates:              442        24
+    Keepalives:          6186      5280
+    Route Refresh:          0         0
+    Total messages:      6643      5315
+  Prefix Statistics:
+                                   Sent      Rcvd     Best Paths     Best ECMP Paths
+    IPv4 Unicast:                     0         0              0                   0
+    IPv6 Unicast:                     0         0              0                   0
+  Configured maximum total number of routes is 0
+  Inbound updates dropped by reason:
+    AS path loop detection: 0
+    Cluster ID loop detection: 0
+    Enforced First AS: 0
+    Malformed MPBGP routes: 0
+    Originator ID matches local router ID: 0
+    Nexthop matches local IP address: 0
+    Unexpected IPv6 nexthop for IPv4 routes: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv4 Unicast: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv6 Unicast: 0
+  Inbound updates with attribute errors:
+    Resulting in removal of all paths in update (treat as withdraw): 0
+    Resulting in AFI/SAFI disable: 0
+    Resulting in attribute ignore: 0
+    Disabled AFI/SAFIs: None
+  Inbound paths dropped by reason:
+    IPv4 unicast NLRIs dropped due to martian prefix: 0
+    IPv6 unicast NLRIs dropped due to martian prefix: 0
+    IPv4 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv4 labeled-unicast NLRIs dropped due to martian prefix: 0
+    IPv6 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv6 labeled-unicast NLRIs dropped due to martian prefix: 0
+    VPN-IPv4 NLRIs dropped due to route import match failure: 0
+    VPN-IPv6 NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to unsupported route type: 0
+    Link-state NLRIs dropped because reception is unsupported: 0
+    RT Membership NLRIs dropped due to local origin ASN received from external peer: 0
+  Outbound paths dropped by reason:
+    IPv4 local address not available: 0
+    IPv6 local address not available: 0
+Local AS is 64512, local router ID 10.0.0.30
+TTL is 255
+Local TCP address is 10.0.0.30
+Remote TCP address is 10.0.0.66, remote port is 179
+TCP Socket Information:
+  TCP state is SYN-SENT
+  Recv-Q: 0/131072
+  Send-Q: 0/16384
+  Outgoing Maximum Segment Size (MSS): 524
+  Total Number of TCP retransmissions: 3
+  Options:
+    Timestamps enabled: no
+    Selective Acknowledgments enabled: no
+    Window Scale enabled: no
+    Explicit Congestion Notification (ECN) enabled: no
+  Socket Statistics:
+    Window Scale (wscale): 0,0
+    Retransmission Timeout (rto): 8000.0ms
+    Round-trip Time (rtt/rtvar): 0.0ms/250.0ms
+    Delayed Ack Timeout (ato): 0.0ms
+    Congestion Window (cwnd): 1
+    Slow-start Threshold (ssthresh): 7
+
+BGP neighbor is 10.0.0.72, remote AS 64512, internal link
+ Description: Ciena-5134-72
+  BGP version 4, remote router ID 10.0.0.72, VRF default
+  Inherits configuration from and member of peer-group IBGP_CLIENT_PEER
+  Last read 21:02:59, last write 21:03:05
+  Hold time is 180, keepalive interval is 60 seconds
+  Configured hold time is 180, keepalive interval is 60 seconds
+  Effective minimum hold time is 3 seconds
+  Send failure hold time is 0 seconds
+  Hold timer is inactive
+  Keepalive timer is inactive
+  Connect timer is active, time left: 00:00:04
+  Connection interval is 20 seconds
+  Failed connection attempts is 2832
+  Idle-restart timer is inactive
+  BGP state is Connect
+  Number of transitions to established: 9
+  Last state was Active
+  Last event was ConnectRetry
+  Last sent notification:Hold Timer Expired Error/None, Last time 3d19h, First time 3d23h, Repeats 1
+  Last rcvd notification:Cease/other configuration change, Last time 21:02:59, First time 4d16h, Repeats 6
+  Last sent socket-error:Connect (Network is unreachable), Last time 18:05:51, First time 21:02:33, Repeats 67
+  Last rcvd socket-error:Connection reset by peer, Last time 23:55:30, First time 3d20h, Repeats 5
+  Types of communities advertised: standard extended large
+  Neighbor is a route reflector client
+  Neighbor is using global cluster ID 10.0.0.30
+  Neighbor Capabilities:
+    Multiprotocol IPv4 Unicast: received
+    Multiprotocol VPN-IPv4: advertised and received
+    Multiprotocol VPN-IPv6: advertised
+    Four Octet ASN: advertised
+    Route Refresh: advertised and received
+    Enhanced route refresh: advertised
+    Send End-of-RIB messages: advertised and received
+    Additional-paths recv capability:
+      VPN-IPv4: advertised
+      VPN-IPv6: advertised
+    Additional-paths send capability:
+    Graceful Restart advertised:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: yes
+      VPN-IPv4 is enabled, Forwarding State is not preserved
+      VPN-IPv6 is enabled, Forwarding State is not preserved
+    Graceful Restart received:
+      Restart-time is 0
+      Restart-State bit: no
+      Graceful notification: no
+      IPv4 Unicast is enabled, Forwarding State is not preserved
+      VPN-IPv4 is enabled, Forwarding State is not preserved
+  Restart timer is inactive
+  End of rib timer is inactive
+  IPv4 Unicast AS_SET/AS_CONFED_SET processing: accept
+  IPv6 Unicast AS_SET/AS_CONFED_SET processing: accept
+  AIGP attribute send and receive for IPv4 Unicast are enabled
+  AIGP attribute send and receive for IPv4 with MPLS Labels are enabled
+  AIGP attribute send and receive for IPv6 Unicast are enabled
+  AIGP attribute send and receive for IPv6 with MPLS Labels are enabled
+  BGP session driven failover for IPv4 Unicast is disabled
+  BGP session driven failover for IPv6 Unicast is disabled
+  Message Statistics:
+                         Sent      Rcvd
+    Opens:                 15         9
+    Notifications:          2         7
+    Updates:              491        29
+    Keepalives:          6177      5277
+    Route Refresh:          0         0
+    Total messages:      6685      5322
+  Prefix Statistics:
+                                   Sent      Rcvd     Best Paths     Best ECMP Paths
+    IPv4 Unicast:                     0         0              0                   0
+    IPv6 Unicast:                     0         0              0                   0
+  Configured maximum total number of routes is 0
+  Inbound updates dropped by reason:
+    AS path loop detection: 0
+    Cluster ID loop detection: 0
+    Enforced First AS: 0
+    Malformed MPBGP routes: 0
+    Originator ID matches local router ID: 0
+    Nexthop matches local IP address: 0
+    Unexpected IPv6 nexthop for IPv4 routes: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv4 Unicast: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv6 Unicast: 0
+  Inbound updates with attribute errors:
+    Resulting in removal of all paths in update (treat as withdraw): 0
+    Resulting in AFI/SAFI disable: 0
+    Resulting in attribute ignore: 0
+    Disabled AFI/SAFIs: None
+  Inbound paths dropped by reason:
+    IPv4 unicast NLRIs dropped due to martian prefix: 0
+    IPv6 unicast NLRIs dropped due to martian prefix: 0
+    IPv4 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv4 labeled-unicast NLRIs dropped due to martian prefix: 0
+    IPv6 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv6 labeled-unicast NLRIs dropped due to martian prefix: 0
+    VPN-IPv4 NLRIs dropped due to route import match failure: 0
+    VPN-IPv6 NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to unsupported route type: 0
+    Link-state NLRIs dropped because reception is unsupported: 0
+    RT Membership NLRIs dropped due to local origin ASN received from external peer: 0
+  Outbound paths dropped by reason:
+    IPv4 local address not available: 0
+    IPv6 local address not available: 0
+Local AS is 64512, local router ID 10.0.0.30
+TTL is 255
+Local TCP address is 10.0.0.30
+Remote TCP address is 10.0.0.72, remote port is 179
+TCP Socket Information:
+  TCP state is SYN-SENT
+  Recv-Q: 0/131072
+  Send-Q: 0/16384
+  Outgoing Maximum Segment Size (MSS): 524
+  Total Number of TCP retransmissions: 3
+  Options:
+    Timestamps enabled: no
+    Selective Acknowledgments enabled: no
+    Window Scale enabled: no
+    Explicit Congestion Notification (ECN) enabled: no
+  Socket Statistics:
+    Window Scale (wscale): 0,0
+    Retransmission Timeout (rto): 8000.0ms
+    Round-trip Time (rtt/rtvar): 0.0ms/250.0ms
+    Delayed Ack Timeout (ato): 0.0ms
+    Congestion Window (cwnd): 1
+    Slow-start Threshold (ssthresh): 7
+
+BGP neighbor is 10.0.0.84, remote AS 64512, internal link
+ Description: Ericsson_84
+  BGP version 4, remote router ID 10.0.0.84, VRF default
+  Inherits configuration from and member of peer-group IBGP_CLIENT_PEER
+  Last read 19:54:20, last write 19:51:20
+  Hold time is 180, keepalive interval is 60 seconds
+  Configured hold time is 180, keepalive interval is 60 seconds
+  Effective minimum hold time is 3 seconds
+  Send failure hold time is 0 seconds
+  Hold timer is inactive
+  Keepalive timer is inactive
+  Connect timer is active, time left: 00:00:12
+  Connection interval is 20 seconds
+  Failed connection attempts is 2883
+  Idle-restart timer is inactive
+  BGP state is Connect
+  Number of transitions to established: 1
+  Last state was Active
+  Last event was ConnectRetry
+  Last sent notification:Hold Timer Expired Error/None, Last time 19:51:20
+  Last sent socket-error:Connect (Network is unreachable), Last time 18:58:35, First time 19:51:18, Repeats 27
+  Types of communities advertised: standard extended large
+  Neighbor is a route reflector client
+  Neighbor is using global cluster ID 10.0.0.30
+  Neighbor Capabilities:
+    Multiprotocol IPv4 Unicast: received
+    Multiprotocol VPN-IPv4: advertised and received
+    Multiprotocol IPv6 Unicast: received
+    Multiprotocol VPN-IPv6: advertised and received
+    Multiprotocol L2VPN EVPN: received
+    Four Octet ASN: advertised and received
+    Route Refresh: advertised and received
+    Enhanced route refresh: advertised and received
+    Send End-of-RIB messages: advertised and received
+    Additional-paths recv capability:
+      VPN-IPv4: advertised
+      VPN-IPv6: advertised
+    Additional-paths send capability:
+    Graceful Restart advertised:
+      Restart-time is 120
+      Restart-State bit: yes
+      Graceful notification: yes
+      VPN-IPv4 is enabled, Forwarding State is not preserved
+      VPN-IPv6 is enabled, Forwarding State is not preserved
+    Graceful Restart received:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: no
+      IPv4 Unicast is enabled, Forwarding State is preserved
+      VPN-IPv4 is enabled, Forwarding State is preserved
+      IPv6 Unicast is enabled, Forwarding State is preserved
+      VPN-IPv6 is enabled, Forwarding State is preserved
+      L2VPN EVPN is enabled, Forwarding State is preserved
+  Restart timer is inactive
+  End of rib timer is inactive
+  IPv4 Unicast AS_SET/AS_CONFED_SET processing: accept
+  IPv6 Unicast AS_SET/AS_CONFED_SET processing: accept
+  AIGP attribute send and receive for IPv4 Unicast are enabled
+  AIGP attribute send and receive for IPv4 with MPLS Labels are enabled
+  AIGP attribute send and receive for IPv6 Unicast are enabled
+  AIGP attribute send and receive for IPv6 with MPLS Labels are enabled
+  BGP session driven failover for IPv4 Unicast is disabled
+  BGP session driven failover for IPv6 Unicast is disabled
+  Message Statistics:
+                         Sent      Rcvd
+    Opens:                  1         1
+    Notifications:          1         0
+    Updates:              362         4
+    Keepalives:          6464      5528
+    Route Refresh:          0         0
+    Total messages:      6828      5533
+  Prefix Statistics:
+                                   Sent      Rcvd     Best Paths     Best ECMP Paths
+    IPv4 Unicast:                     0         0              0                   0
+    IPv6 Unicast:                     0         0              0                   0
+  Configured maximum total number of routes is 0
+  Inbound updates dropped by reason:
+    AS path loop detection: 0
+    Cluster ID loop detection: 0
+    Enforced First AS: 0
+    Malformed MPBGP routes: 0
+    Originator ID matches local router ID: 0
+    Nexthop matches local IP address: 0
+    Unexpected IPv6 nexthop for IPv4 routes: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv4 Unicast: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv6 Unicast: 0
+  Inbound updates with attribute errors:
+    Resulting in removal of all paths in update (treat as withdraw): 0
+    Resulting in AFI/SAFI disable: 0
+    Resulting in attribute ignore: 0
+    Disabled AFI/SAFIs: None
+  Inbound paths dropped by reason:
+    IPv4 unicast NLRIs dropped due to martian prefix: 0
+    IPv6 unicast NLRIs dropped due to martian prefix: 0
+    IPv4 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv4 labeled-unicast NLRIs dropped due to martian prefix: 0
+    IPv6 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv6 labeled-unicast NLRIs dropped due to martian prefix: 0
+    VPN-IPv4 NLRIs dropped due to route import match failure: 0
+    VPN-IPv6 NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to unsupported route type: 0
+    Link-state NLRIs dropped because reception is unsupported: 0
+    RT Membership NLRIs dropped due to local origin ASN received from external peer: 0
+  Outbound paths dropped by reason:
+    IPv4 local address not available: 0
+    IPv6 local address not available: 0
+Local AS is 64512, local router ID 10.0.0.30
+TTL is 255
+Local TCP address is 10.0.0.30
+Remote TCP address is 10.0.0.84, remote port is 179
+TCP Socket Information:
+  TCP state is SYN-SENT
+  Recv-Q: 0/131072
+  Send-Q: 0/16384
+  Outgoing Maximum Segment Size (MSS): 524
+  Total Number of TCP retransmissions: 3
+  Options:
+    Timestamps enabled: no
+    Selective Acknowledgments enabled: no
+    Window Scale enabled: no
+    Explicit Congestion Notification (ECN) enabled: no
+  Socket Statistics:
+    Window Scale (wscale): 0,0
+    Retransmission Timeout (rto): 8000.0ms
+    Round-trip Time (rtt/rtvar): 0.0ms/250.0ms
+    Delayed Ack Timeout (ato): 0.0ms
+    Congestion Window (cwnd): 1
+    Slow-start Threshold (ssthresh): 7
+
+BGP neighbor is 10.0.0.120, remote AS 64512, internal link
+ Description: Huawei_120
+  BGP version 4, remote router ID 10.0.0.120, VRF default
+  Inherits configuration from and member of peer-group IBGP_CLIENT_PEER
+  Last read 18:26:42, last write 18:23:42
+  Hold time is 180, keepalive interval is 60 seconds
+  Configured hold time is 180, keepalive interval is 60 seconds
+  Effective minimum hold time is 3 seconds
+  Send failure hold time is 0 seconds
+  Hold timer is inactive
+  Keepalive timer is inactive
+  Connect timer is active, time left: 00:00:03
+  Connection interval is 20 seconds
+  Failed connection attempts is 2847
+  Idle-restart timer is inactive
+  BGP state is Connect
+  Number of transitions to established: 9
+  Last state was Active
+  Last event was ConnectRetry
+  Last sent notification:Hold Timer Expired Error/None, Last time 18:23:42, First time 18:37:49, Repeats 1
+  Last rcvd notification:Cease/connection collision resolution, Last time 19:47:17
+  Last sent socket-error:Connect (Network is unreachable), Last time 18:08:29, First time 18:22:33, Repeats 9
+  Last rcvd socket-error:Connection reset by peer, Last time 18:44:06, First time 18:47:19, Repeats 1
+  Types of communities advertised: standard extended large
+  Neighbor is a route reflector client
+  Neighbor is using global cluster ID 10.0.0.30
+  Neighbor Capabilities:
+    Multiprotocol VPN-IPv4: advertised and received
+    Multiprotocol VPN-IPv6: advertised and received
+    Four Octet ASN: advertised and received
+    Route Refresh: advertised and received
+    Enhanced route refresh: advertised
+    Send End-of-RIB messages: advertised
+    Additional-paths recv capability:
+      VPN-IPv4: advertised
+      VPN-IPv6: advertised
+    Additional-paths send capability:
+    Graceful Restart advertised:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: yes
+      VPN-IPv4 is enabled, Forwarding State is not preserved
+      VPN-IPv6 is enabled, Forwarding State is not preserved
+  Restart timer is inactive
+  End of rib timer is inactive
+  IPv4 Unicast AS_SET/AS_CONFED_SET processing: accept
+  IPv6 Unicast AS_SET/AS_CONFED_SET processing: accept
+  AIGP attribute send and receive for IPv4 Unicast are enabled
+  AIGP attribute send and receive for IPv4 with MPLS Labels are enabled
+  AIGP attribute send and receive for IPv6 Unicast are enabled
+  AIGP attribute send and receive for IPv6 with MPLS Labels are enabled
+  BGP session driven failover for IPv4 Unicast is disabled
+  BGP session driven failover for IPv6 Unicast is disabled
+  Message Statistics:
+                         Sent      Rcvd
+    Opens:                 10        14
+    Notifications:         10         1
+    Updates:              637        92
+    Keepalives:          5179      5177
+    Route Refresh:          0         2
+    Total messages:      5836      5286
+  Prefix Statistics:
+                                   Sent      Rcvd     Best Paths     Best ECMP Paths
+    IPv4 Unicast:                     0         0              0                   0
+    IPv6 Unicast:                     0         0              0                   0
+  Configured maximum total number of routes is 0
+  Inbound updates dropped by reason:
+    AS path loop detection: 0
+    Cluster ID loop detection: 0
+    Enforced First AS: 0
+    Malformed MPBGP routes: 0
+    Originator ID matches local router ID: 0
+    Nexthop matches local IP address: 0
+    Unexpected IPv6 nexthop for IPv4 routes: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv4 Unicast: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv6 Unicast: 0
+  Inbound updates with attribute errors:
+    Resulting in removal of all paths in update (treat as withdraw): 0
+    Resulting in AFI/SAFI disable: 0
+    Resulting in attribute ignore: 0
+    Disabled AFI/SAFIs: None
+  Inbound paths dropped by reason:
+    IPv4 unicast NLRIs dropped due to martian prefix: 0
+    IPv6 unicast NLRIs dropped due to martian prefix: 0
+    IPv4 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv4 labeled-unicast NLRIs dropped due to martian prefix: 0
+    IPv6 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv6 labeled-unicast NLRIs dropped due to martian prefix: 0
+    VPN-IPv4 NLRIs dropped due to route import match failure: 0
+    VPN-IPv6 NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to unsupported route type: 0
+    Link-state NLRIs dropped because reception is unsupported: 0
+    RT Membership NLRIs dropped due to local origin ASN received from external peer: 0
+  Outbound paths dropped by reason:
+    IPv4 local address not available: 0
+    IPv6 local address not available: 0
+Local AS is 64512, local router ID 10.0.0.30
+TTL is 255
+Local TCP address is 10.0.0.30
+Remote TCP address is 10.0.0.120, remote port is 179
+TCP Socket Information:
+  TCP state is SYN-SENT
+  Recv-Q: 0/131072
+  Send-Q: 0/16384
+  Outgoing Maximum Segment Size (MSS): 524
+  Total Number of TCP retransmissions: 4
+  Options:
+    Timestamps enabled: no
+    Selective Acknowledgments enabled: no
+    Window Scale enabled: no
+    Explicit Congestion Notification (ECN) enabled: no
+  Socket Statistics:
+    Window Scale (wscale): 0,0
+    Retransmission Timeout (rto): 16000.0ms
+    Round-trip Time (rtt/rtvar): 0.0ms/250.0ms
+    Delayed Ack Timeout (ato): 0.0ms
+    Congestion Window (cwnd): 1
+    Slow-start Threshold (ssthresh): 7
+
+BGP neighbor is 10.0.0.124, remote AS 64512, internal link
+ Description: Huawei_124
+  BGP version 4, remote router ID 0.0.0.0, VRF default
+  Inherits configuration from and member of peer-group IBGP_CLIENT_PEER
+  Last read never, last write never
+  Hold time is 0, keepalive interval is 0 seconds
+  Configured hold time is 180, keepalive interval is 60 seconds
+  Effective minimum hold time is 3 seconds
+  Send failure hold time is 0 seconds
+  Hold timer is inactive
+  Keepalive timer is inactive
+  Connect timer is active, time left: 00:00:11
+  Connection interval is 20 seconds
+  Failed connection attempts is 207
+  Idle-restart timer is inactive
+  BGP state is Connect
+  Number of transitions to established: 0
+  Last state was Active
+  Last event was ConnectRetry
+  Last sent socket-error:Connect (Network is unreachable), Last time 01:20:22, First time 18:24:32, Repeats 6
+  Types of communities advertised: standard extended large
+  Neighbor is a route reflector client
+  Neighbor is using global cluster ID 10.0.0.30
+  Neighbor Capabilities:
+  Restart timer is inactive
+  End of rib timer is inactive
+  IPv4 Unicast AS_SET/AS_CONFED_SET processing: accept
+  IPv6 Unicast AS_SET/AS_CONFED_SET processing: accept
+  AIGP attribute send and receive for IPv4 Unicast are enabled
+  AIGP attribute send and receive for IPv4 with MPLS Labels are enabled
+  AIGP attribute send and receive for IPv6 Unicast are enabled
+  AIGP attribute send and receive for IPv6 with MPLS Labels are enabled
+  BGP session driven failover for IPv4 Unicast is disabled
+  BGP session driven failover for IPv6 Unicast is disabled
+  Message Statistics:
+                         Sent      Rcvd
+    Opens:                  0         0
+    Notifications:          0         0
+    Updates:                0         0
+    Keepalives:             0         0
+    Route Refresh:          0         0
+    Total messages:         0         0
+  Prefix Statistics:
+                                   Sent      Rcvd     Best Paths     Best ECMP Paths
+    IPv4 Unicast:                     0         0              0                   0
+    IPv6 Unicast:                     0         0              0                   0
+  Configured maximum total number of routes is 0
+  Inbound updates dropped by reason:
+    AS path loop detection: 0
+    Cluster ID loop detection: 0
+    Enforced First AS: 0
+    Malformed MPBGP routes: 0
+    Originator ID matches local router ID: 0
+    Nexthop matches local IP address: 0
+    Unexpected IPv6 nexthop for IPv4 routes: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv4 Unicast: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv6 Unicast: 0
+  Inbound updates with attribute errors:
+    Resulting in removal of all paths in update (treat as withdraw): 0
+    Resulting in AFI/SAFI disable: 0
+    Resulting in attribute ignore: 0
+    Disabled AFI/SAFIs: None
+  Inbound paths dropped by reason:
+    IPv4 unicast NLRIs dropped due to martian prefix: 0
+    IPv6 unicast NLRIs dropped due to martian prefix: 0
+    IPv4 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv4 labeled-unicast NLRIs dropped due to martian prefix: 0
+    IPv6 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv6 labeled-unicast NLRIs dropped due to martian prefix: 0
+    VPN-IPv4 NLRIs dropped due to route import match failure: 0
+    VPN-IPv6 NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to unsupported route type: 0
+    Link-state NLRIs dropped because reception is unsupported: 0
+    RT Membership NLRIs dropped due to local origin ASN received from external peer: 0
+  Outbound paths dropped by reason:
+    IPv4 local address not available: 0
+    IPv6 local address not available: 0
+Local AS is 64512, local router ID 10.0.0.30
+TTL is 255
+Local TCP address is 10.0.0.30
+Remote TCP address is 10.0.0.124, remote port is 179
+TCP Socket Information:
+  TCP state is SYN-SENT
+  Recv-Q: 0/131072
+  Send-Q: 0/16384
+  Outgoing Maximum Segment Size (MSS): 524
+  Total Number of TCP retransmissions: 3
+  Options:
+    Timestamps enabled: no
+    Selective Acknowledgments enabled: no
+    Window Scale enabled: no
+    Explicit Congestion Notification (ECN) enabled: no
+  Socket Statistics:
+    Window Scale (wscale): 0,0
+    Retransmission Timeout (rto): 8000.0ms
+    Round-trip Time (rtt/rtvar): 0.0ms/250.0ms
+    Delayed Ack Timeout (ato): 0.0ms
+    Congestion Window (cwnd): 1
+    Slow-start Threshold (ssthresh): 7
+
+BGP neighbor is 10.0.0.128, remote AS 64512, internal link
+ Description: Huawei_128
+  BGP version 4, remote router ID 10.0.0.128, VRF default
+  Inherits configuration from and member of peer-group IBGP_CLIENT_PEER
+  Last read 3d22h, last write 3d22h
+  Hold time is 180, keepalive interval is 60 seconds
+  Configured hold time is 180, keepalive interval is 60 seconds
+  Effective minimum hold time is 3 seconds
+  Send failure hold time is 0 seconds
+  Hold timer is inactive
+  Keepalive timer is inactive
+  Connect timer is active, time left: 00:00:14
+  Connection interval is 20 seconds
+  Failed connection attempts is 207
+  Idle-restart timer is inactive
+  BGP state is Connect
+  Number of transitions to established: 1
+  Last state was Active
+  Last event was ConnectRetry
+  Last sent notification:Open Message Error/unsupported capability, Last time 3d22h, First time 3d22h, Repeats 38
+    Sent data: 0x010400010080010400020080
+  Last rcvd notification:Cease/peer de-configured, Last time 3d22h
+  Last sent socket-error:Connect (Network is unreachable), Last time 01:20:17, First time 18:24:10, Repeats 7
+  Last rcvd socket-error:Connection reset by peer, Last time 3d22h, First time 3d22h, Repeats 5
+  Types of communities advertised: standard extended large
+  Neighbor is a route reflector client
+  Neighbor is using global cluster ID 10.0.0.30
+  Neighbor Capabilities:
+    Multiprotocol IPv4 Unicast: received
+    Multiprotocol VPN-IPv4: advertised
+    Multiprotocol VPN-IPv6: advertised
+    Four Octet ASN: advertised and received
+    Route Refresh: advertised and received
+    Enhanced route refresh: advertised
+    Send End-of-RIB messages: advertised
+    Additional-paths recv capability:
+      VPN-IPv4: advertised
+      VPN-IPv6: advertised
+    Additional-paths send capability:
+    Graceful Restart advertised:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: yes
+      VPN-IPv4 is enabled, Forwarding State is not preserved
+      VPN-IPv6 is enabled, Forwarding State is not preserved
+  Restart timer is inactive
+  End of rib timer is inactive
+  IPv4 Unicast AS_SET/AS_CONFED_SET processing: accept
+  IPv6 Unicast AS_SET/AS_CONFED_SET processing: accept
+  AIGP attribute send and receive for IPv4 Unicast are enabled
+  AIGP attribute send and receive for IPv4 with MPLS Labels are enabled
+  AIGP attribute send and receive for IPv6 Unicast are enabled
+  AIGP attribute send and receive for IPv6 with MPLS Labels are enabled
+  BGP session driven failover for IPv4 Unicast is disabled
+  BGP session driven failover for IPv6 Unicast is disabled
+  Message Statistics:
+                         Sent      Rcvd
+    Opens:                 46        40
+    Notifications:         39         1
+    Updates:               25         2
+    Keepalives:             2         1
+    Route Refresh:          0         0
+    Total messages:       112        44
+  Prefix Statistics:
+                                   Sent      Rcvd     Best Paths     Best ECMP Paths
+    IPv4 Unicast:                     0         0              0                   0
+    IPv6 Unicast:                     0         0              0                   0
+  Configured maximum total number of routes is 0
+  Inbound updates dropped by reason:
+    AS path loop detection: 0
+    Cluster ID loop detection: 0
+    Enforced First AS: 0
+    Malformed MPBGP routes: 0
+    Originator ID matches local router ID: 0
+    Nexthop matches local IP address: 0
+    Unexpected IPv6 nexthop for IPv4 routes: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv4 Unicast: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv6 Unicast: 0
+  Inbound updates with attribute errors:
+    Resulting in removal of all paths in update (treat as withdraw): 0
+    Resulting in AFI/SAFI disable: 0
+    Resulting in attribute ignore: 0
+    Disabled AFI/SAFIs: None
+  Inbound paths dropped by reason:
+    IPv4 unicast NLRIs dropped due to martian prefix: 0
+    IPv6 unicast NLRIs dropped due to martian prefix: 0
+    IPv4 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv4 labeled-unicast NLRIs dropped due to martian prefix: 0
+    IPv6 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv6 labeled-unicast NLRIs dropped due to martian prefix: 0
+    VPN-IPv4 NLRIs dropped due to route import match failure: 0
+    VPN-IPv6 NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to unsupported route type: 0
+    Link-state NLRIs dropped because reception is unsupported: 0
+    RT Membership NLRIs dropped due to local origin ASN received from external peer: 0
+  Outbound paths dropped by reason:
+    IPv4 local address not available: 0
+    IPv6 local address not available: 0
+Local AS is 64512, local router ID 10.0.0.30
+TTL is 255
+Local TCP address is 10.0.0.30
+Remote TCP address is 10.0.0.128, remote port is 179
+TCP Socket Information:
+  TCP state is SYN-SENT
+  Recv-Q: 0/131072
+  Send-Q: 0/16384
+  Outgoing Maximum Segment Size (MSS): 524
+  Total Number of TCP retransmissions: 3
+  Options:
+    Timestamps enabled: no
+    Selective Acknowledgments enabled: no
+    Window Scale enabled: no
+    Explicit Congestion Notification (ECN) enabled: no
+  Socket Statistics:
+    Window Scale (wscale): 0,0
+    Retransmission Timeout (rto): 8000.0ms
+    Round-trip Time (rtt/rtvar): 0.0ms/250.0ms
+    Delayed Ack Timeout (ato): 0.0ms
+    Congestion Window (cwnd): 1
+    Slow-start Threshold (ssthresh): 7
+
+BGP neighbor is 10.0.0.131, remote AS 64512, internal link
+ Description: Juniper-131-JCNR
+  BGP version 4, remote router ID 10.0.0.131, VRF default
+  Inherits configuration from and member of peer-group IBGP_CLIENT_PEER
+  Last read 18:26:05, last write 18:24:35
+  Hold time is 90, keepalive interval is 30 seconds
+  Configured hold time is 180, keepalive interval is 60 seconds
+  Effective minimum hold time is 3 seconds
+  Send failure hold time is 0 seconds
+  Hold timer is inactive
+  Keepalive timer is inactive
+  Connect timer is active, time left: 00:00:16
+  Connection interval is 20 seconds
+  Failed connection attempts is 2849
+  Idle-restart timer is inactive
+  BGP state is Connect
+  Number of transitions to established: 2
+  Last state was Active
+  Last event was ConnectRetry
+  Last sent notification:Hold Timer Expired Error/None, Last time 18:24:35
+  Last rcvd notification:Cease/connection rejected, Last time 19:47:17
+  Last sent socket-error:Connect (Network is unreachable), Last time 18:08:29, First time 18:22:32, Repeats 8
+  Types of communities advertised: standard extended large
+  Neighbor is a route reflector client
+  Neighbor is using global cluster ID 10.0.0.30
+  Neighbor Capabilities:
+    Multiprotocol IPv4 Unicast: received
+    Multiprotocol VPN-IPv4: advertised and received
+    Multiprotocol VPN-IPv6: advertised and received
+    Four Octet ASN: advertised and received
+    Route Refresh: advertised and received
+    Enhanced route refresh: advertised
+    Send End-of-RIB messages: advertised and received
+    Additional-paths recv capability:
+      VPN-IPv4: advertised
+      VPN-IPv6: advertised
+    Additional-paths send capability:
+    Graceful Restart advertised:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: yes
+      VPN-IPv4 is enabled, Forwarding State is not preserved
+      VPN-IPv6 is enabled, Forwarding State is not preserved
+    Graceful Restart received:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: yes
+    Long Lived Graceful Restart received:
+      Helper only
+  Restart timer is inactive
+  End of rib timer is inactive
+  IPv4 Unicast AS_SET/AS_CONFED_SET processing: accept
+  IPv6 Unicast AS_SET/AS_CONFED_SET processing: accept
+  AIGP attribute send and receive for IPv4 Unicast are enabled
+  AIGP attribute send and receive for IPv4 with MPLS Labels are enabled
+  AIGP attribute send and receive for IPv6 Unicast are enabled
+  AIGP attribute send and receive for IPv6 with MPLS Labels are enabled
+  BGP session driven failover for IPv4 Unicast is disabled
+  BGP session driven failover for IPv6 Unicast is disabled
+  Message Statistics:
+                         Sent      Rcvd
+    Opens:                  3         3
+    Notifications:          1         1
+    Updates:              494         8
+    Keepalives:         13174     12446
+    Route Refresh:          0         0
+    Total messages:     13672     12458
+  Prefix Statistics:
+                                   Sent      Rcvd     Best Paths     Best ECMP Paths
+    IPv4 Unicast:                     0         0              0                   0
+    IPv6 Unicast:                     0         0              0                   0
+  Configured maximum total number of routes is 0
+  Inbound updates dropped by reason:
+    AS path loop detection: 0
+    Cluster ID loop detection: 0
+    Enforced First AS: 0
+    Malformed MPBGP routes: 0
+    Originator ID matches local router ID: 0
+    Nexthop matches local IP address: 0
+    Unexpected IPv6 nexthop for IPv4 routes: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv4 Unicast: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv6 Unicast: 0
+  Inbound updates with attribute errors:
+    Resulting in removal of all paths in update (treat as withdraw): 0
+    Resulting in AFI/SAFI disable: 0
+    Resulting in attribute ignore: 0
+    Disabled AFI/SAFIs: None
+  Inbound paths dropped by reason:
+    IPv4 unicast NLRIs dropped due to martian prefix: 0
+    IPv6 unicast NLRIs dropped due to martian prefix: 0
+    IPv4 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv4 labeled-unicast NLRIs dropped due to martian prefix: 0
+    IPv6 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv6 labeled-unicast NLRIs dropped due to martian prefix: 0
+    VPN-IPv4 NLRIs dropped due to route import match failure: 0
+    VPN-IPv6 NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to unsupported route type: 0
+    Link-state NLRIs dropped because reception is unsupported: 0
+    RT Membership NLRIs dropped due to local origin ASN received from external peer: 0
+  Outbound paths dropped by reason:
+    IPv4 local address not available: 0
+    IPv6 local address not available: 0
+Local AS is 64512, local router ID 10.0.0.30
+TTL is 255
+Local TCP address is 10.0.0.30
+Remote TCP address is 10.0.0.131, remote port is 179
+TCP Socket Information:
+  TCP state is SYN-SENT
+  Recv-Q: 0/131072
+  Send-Q: 0/16384
+  Outgoing Maximum Segment Size (MSS): 524
+  Total Number of TCP retransmissions: 2
+  Options:
+    Timestamps enabled: no
+    Selective Acknowledgments enabled: no
+    Window Scale enabled: no
+    Explicit Congestion Notification (ECN) enabled: no
+  Socket Statistics:
+    Window Scale (wscale): 0,0
+    Retransmission Timeout (rto): 4000.0ms
+    Round-trip Time (rtt/rtvar): 0.0ms/250.0ms
+    Delayed Ack Timeout (ato): 0.0ms
+    Congestion Window (cwnd): 1
+    Slow-start Threshold (ssthresh): 7
+
+BGP neighbor is 10.0.0.156, remote AS 64512, internal link
+ Description: Juniper-156
+  BGP version 4, remote router ID 10.0.0.156, VRF default
+  Inherits configuration from and member of peer-group IBGP_CLIENT_PEER
+  Last read 18:26:25, last write 18:24:55
+  Hold time is 90, keepalive interval is 30 seconds
+  Configured hold time is 180, keepalive interval is 60 seconds
+  Effective minimum hold time is 3 seconds
+  Send failure hold time is 0 seconds
+  Hold timer is inactive
+  Keepalive timer is inactive
+  Connect timer is active, time left: 00:02:32
+  Connection interval is 148 seconds
+  Failed connection attempts is 395
+  Idle-restart timer is inactive
+  BGP state is Active
+  Number of transitions to established: 4
+  Last state was Connect
+  Last event was TransportError
+  Last sent notification:Hold Timer Expired Error/None, Last time 18:24:55, First time 18:45:48, Repeats 1
+  Last rcvd notification:Cease/connection rejected, Last time 19:47:17
+  Last sent socket-error:Connect (Network is unreachable), Last time 00:00:03, First time 18:22:38, Repeats 394
+  Types of communities advertised: standard extended large
+  Neighbor is a route reflector client
+  Neighbor is using global cluster ID 10.0.0.30
+  Neighbor Capabilities:
+    Multiprotocol VPN-IPv4: advertised and received
+    Multiprotocol VPN-IPv6: advertised
+    Multiprotocol L2VPN EVPN: received
+    Four Octet ASN: advertised and received
+    Route Refresh: advertised and received
+    Enhanced route refresh: advertised
+    Send End-of-RIB messages: advertised and received
+    Additional-paths recv capability:
+      VPN-IPv4: advertised
+      VPN-IPv6: advertised
+    Additional-paths send capability:
+    Graceful Restart advertised:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: yes
+      VPN-IPv4 is enabled, Forwarding State is not preserved
+      VPN-IPv6 is enabled, Forwarding State is not preserved
+    Graceful Restart received:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: yes
+    Long Lived Graceful Restart received:
+      Helper only
+  Restart timer is inactive
+  End of rib timer is inactive
+  IPv4 Unicast AS_SET/AS_CONFED_SET processing: accept
+  IPv6 Unicast AS_SET/AS_CONFED_SET processing: accept
+  AIGP attribute send and receive for IPv4 Unicast are enabled
+  AIGP attribute send and receive for IPv4 with MPLS Labels are enabled
+  AIGP attribute send and receive for IPv6 Unicast are enabled
+  AIGP attribute send and receive for IPv6 with MPLS Labels are enabled
+  BGP session driven failover for IPv4 Unicast is disabled
+  BGP session driven failover for IPv6 Unicast is disabled
+  Message Statistics:
+                         Sent      Rcvd
+    Opens:                  5         5
+    Notifications:          2         2
+    Updates:              446       105
+    Keepalives:         13146     12388
+    Route Refresh:          0         0
+    Total messages:     13599     12500
+  Prefix Statistics:
+                                   Sent      Rcvd     Best Paths     Best ECMP Paths
+    IPv4 Unicast:                     0         0              0                   0
+    IPv6 Unicast:                     0         0              0                   0
+  Configured maximum total number of routes is 0
+  Inbound updates dropped by reason:
+    AS path loop detection: 0
+    Cluster ID loop detection: 0
+    Enforced First AS: 0
+    Malformed MPBGP routes: 0
+    Originator ID matches local router ID: 0
+    Nexthop matches local IP address: 0
+    Unexpected IPv6 nexthop for IPv4 routes: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv4 Unicast: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv6 Unicast: 0
+  Inbound updates with attribute errors:
+    Resulting in removal of all paths in update (treat as withdraw): 0
+    Resulting in AFI/SAFI disable: 0
+    Resulting in attribute ignore: 0
+    Disabled AFI/SAFIs: None
+  Inbound paths dropped by reason:
+    IPv4 unicast NLRIs dropped due to martian prefix: 0
+    IPv6 unicast NLRIs dropped due to martian prefix: 0
+    IPv4 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv4 labeled-unicast NLRIs dropped due to martian prefix: 0
+    IPv6 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv6 labeled-unicast NLRIs dropped due to martian prefix: 0
+    VPN-IPv4 NLRIs dropped due to route import match failure: 0
+    VPN-IPv6 NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to unsupported route type: 0
+    Link-state NLRIs dropped because reception is unsupported: 0
+    RT Membership NLRIs dropped due to local origin ASN received from external peer: 0
+  Outbound paths dropped by reason:
+    IPv4 local address not available: 0
+    IPv6 local address not available: 0
+Local AS is 64512, local router ID 10.0.0.30
+TTL is 255
+Local TCP address is 10.0.0.30
+Remote TCP address is 10.0.0.156, remote port is 179
+
+BGP neighbor is 10.0.0.179, remote AS 64512, internal link
+ Description: Juniper-179
+  BGP version 4, remote router ID 10.0.0.179, VRF default
+  Inherits configuration from and member of peer-group IBGP_CLIENT_PEER
+  Last read 18:26:22, last write 18:24:52
+  Hold time is 90, keepalive interval is 30 seconds
+  Configured hold time is 180, keepalive interval is 60 seconds
+  Effective minimum hold time is 3 seconds
+  Send failure hold time is 0 seconds
+  Hold timer is inactive
+  Keepalive timer is inactive
+  Connect timer is active, time left: 00:00:20
+  Connection interval is 20 seconds
+  Failed connection attempts is 2846
+  Idle-restart timer is inactive
+  BGP state is Connect
+  Number of transitions to established: 3
+  Last state was Active
+  Last event was ConnectRetry
+  Last sent notification:Hold Timer Expired Error/None, Last time 18:24:52, First time 23:21:50, Repeats 1
+  Last rcvd notification:Cease/connection rejected, Last time 19:47:17
+  Last sent socket-error:Connect (Network is unreachable), Last time 18:08:29, First time 18:22:42, Repeats 8
+  Types of communities advertised: standard extended large
+  Neighbor is a route reflector client
+  Neighbor is using global cluster ID 10.0.0.30
+  Neighbor Capabilities:
+    Multiprotocol IPv4 Unicast: received
+    Multiprotocol VPN-IPv4: advertised and received
+    Multiprotocol VPN-IPv6: advertised and received
+    Four Octet ASN: advertised and received
+    Route Refresh: advertised and received
+    Enhanced route refresh: advertised
+    Send End-of-RIB messages: advertised and received
+    Additional-paths recv capability:
+      VPN-IPv4: advertised
+      VPN-IPv6: advertised
+    Additional-paths send capability:
+    Graceful Restart advertised:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: yes
+      VPN-IPv4 is enabled, Forwarding State is not preserved
+      VPN-IPv6 is enabled, Forwarding State is not preserved
+    Graceful Restart received:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: yes
+    Long Lived Graceful Restart received:
+      Helper only
+  Restart timer is inactive
+  End of rib timer is inactive
+  IPv4 Unicast AS_SET/AS_CONFED_SET processing: accept
+  IPv6 Unicast AS_SET/AS_CONFED_SET processing: accept
+  AIGP attribute send and receive for IPv4 Unicast are enabled
+  AIGP attribute send and receive for IPv4 with MPLS Labels are enabled
+  AIGP attribute send and receive for IPv6 Unicast are enabled
+  AIGP attribute send and receive for IPv6 with MPLS Labels are enabled
+  BGP session driven failover for IPv4 Unicast is disabled
+  BGP session driven failover for IPv6 Unicast is disabled
+  Message Statistics:
+                         Sent      Rcvd
+    Opens:                338       338
+    Notifications:        336         1
+    Updates:              501        22
+    Keepalives:         10896     10303
+    Route Refresh:          0         2
+    Total messages:     12071     10666
+  Prefix Statistics:
+                                   Sent      Rcvd     Best Paths     Best ECMP Paths
+    IPv4 Unicast:                     0         0              0                   0
+    IPv6 Unicast:                     0         0              0                   0
+  Configured maximum total number of routes is 0
+  Inbound updates dropped by reason:
+    AS path loop detection: 0
+    Cluster ID loop detection: 0
+    Enforced First AS: 0
+    Malformed MPBGP routes: 0
+    Originator ID matches local router ID: 0
+    Nexthop matches local IP address: 0
+    Unexpected IPv6 nexthop for IPv4 routes: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv4 Unicast: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv6 Unicast: 0
+  Inbound updates with attribute errors:
+    Resulting in removal of all paths in update (treat as withdraw): 0
+    Resulting in AFI/SAFI disable: 0
+    Resulting in attribute ignore: 0
+    Disabled AFI/SAFIs: None
+  Inbound paths dropped by reason:
+    IPv4 unicast NLRIs dropped due to martian prefix: 0
+    IPv6 unicast NLRIs dropped due to martian prefix: 0
+    IPv4 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv4 labeled-unicast NLRIs dropped due to martian prefix: 0
+    IPv6 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv6 labeled-unicast NLRIs dropped due to martian prefix: 0
+    VPN-IPv4 NLRIs dropped due to route import match failure: 0
+    VPN-IPv6 NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to unsupported route type: 0
+    Link-state NLRIs dropped because reception is unsupported: 0
+    RT Membership NLRIs dropped due to local origin ASN received from external peer: 0
+  Outbound paths dropped by reason:
+    IPv4 local address not available: 0
+    IPv6 local address not available: 0
+Local AS is 64512, local router ID 10.0.0.30
+TTL is 255
+Local TCP address is 10.0.0.30
+Remote TCP address is 10.0.0.179, remote port is 179
+TCP Socket Information:
+  TCP state is SYN-SENT
+  Recv-Q: 0/131072
+  Send-Q: 0/16384
+  Outgoing Maximum Segment Size (MSS): 524
+  Total Number of TCP retransmissions: 1
+  Options:
+    Timestamps enabled: no
+    Selective Acknowledgments enabled: no
+    Window Scale enabled: no
+    Explicit Congestion Notification (ECN) enabled: no
+  Socket Statistics:
+    Window Scale (wscale): 0,0
+    Retransmission Timeout (rto): 2000.0ms
+    Round-trip Time (rtt/rtvar): 0.0ms/250.0ms
+    Delayed Ack Timeout (ato): 0.0ms
+    Congestion Window (cwnd): 1
+    Slow-start Threshold (ssthresh): 7
+
+BGP neighbor is 10.0.0.184, remote AS 64512, internal link
+ Description: IXIA
+  BGP version 4, remote router ID 0.0.0.0, VRF default
+  Inherits configuration from and member of peer-group IBGP_CLIENT_PEER
+  Last read never, last write never
+  Hold time is 0, keepalive interval is 0 seconds
+  Configured hold time is 180, keepalive interval is 60 seconds
+  Effective minimum hold time is 3 seconds
+  Send failure hold time is 0 seconds
+  Hold timer is inactive
+  Keepalive timer is inactive
+  Connect timer is active, time left: 00:01:18
+  Connection interval is 148 seconds
+  Failed connection attempts is 391
+  Idle-restart timer is inactive
+  BGP state is Active
+  Number of transitions to established: 0
+  Last state was Connect
+  Last event was TransportError
+  Last sent socket-error:Connect (Network is unreachable), Last time 00:01:21, First time 4d16h, Repeats 2385
+  Types of communities advertised: standard extended large
+  Neighbor is a route reflector client
+  Neighbor is using global cluster ID 10.0.0.30
+  Neighbor Capabilities:
+  Restart timer is inactive
+  End of rib timer is inactive
+  IPv4 Unicast AS_SET/AS_CONFED_SET processing: accept
+  IPv6 Unicast AS_SET/AS_CONFED_SET processing: accept
+  AIGP attribute send and receive for IPv4 Unicast are enabled
+  AIGP attribute send and receive for IPv4 with MPLS Labels are enabled
+  AIGP attribute send and receive for IPv6 Unicast are enabled
+  AIGP attribute send and receive for IPv6 with MPLS Labels are enabled
+  BGP session driven failover for IPv4 Unicast is disabled
+  BGP session driven failover for IPv6 Unicast is disabled
+  Message Statistics:
+                         Sent      Rcvd
+    Opens:                  0         0
+    Notifications:          0         0
+    Updates:                0         0
+    Keepalives:             0         0
+    Route Refresh:          0         0
+    Total messages:         0         0
+  Prefix Statistics:
+                                   Sent      Rcvd     Best Paths     Best ECMP Paths
+    IPv4 Unicast:                     0         0              0                   0
+    IPv6 Unicast:                     0         0              0                   0
+  Configured maximum total number of routes is 0
+  Inbound updates dropped by reason:
+    AS path loop detection: 0
+    Cluster ID loop detection: 0
+    Enforced First AS: 0
+    Malformed MPBGP routes: 0
+    Originator ID matches local router ID: 0
+    Nexthop matches local IP address: 0
+    Unexpected IPv6 nexthop for IPv4 routes: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv4 Unicast: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv6 Unicast: 0
+  Inbound updates with attribute errors:
+    Resulting in removal of all paths in update (treat as withdraw): 0
+    Resulting in AFI/SAFI disable: 0
+    Resulting in attribute ignore: 0
+    Disabled AFI/SAFIs: None
+  Inbound paths dropped by reason:
+    IPv4 unicast NLRIs dropped due to martian prefix: 0
+    IPv6 unicast NLRIs dropped due to martian prefix: 0
+    IPv4 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv4 labeled-unicast NLRIs dropped due to martian prefix: 0
+    IPv6 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv6 labeled-unicast NLRIs dropped due to martian prefix: 0
+    VPN-IPv4 NLRIs dropped due to route import match failure: 0
+    VPN-IPv6 NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to unsupported route type: 0
+    Link-state NLRIs dropped because reception is unsupported: 0
+    RT Membership NLRIs dropped due to local origin ASN received from external peer: 0
+  Outbound paths dropped by reason:
+    IPv4 local address not available: 0
+    IPv6 local address not available: 0
+Local AS is 64512, local router ID 10.0.0.30
+TTL is 255
+Local TCP address is 10.0.0.30
+Remote TCP address is 10.0.0.184, remote port is 179
+
+BGP neighbor is 10.0.0.214, remote AS 64512, internal link
+ Description: Nokia-SXR-214
+  BGP version 4, remote router ID 10.0.0.214, VRF default
+  Inherits configuration from and member of peer-group IBGP_CLIENT_PEER
+  Last read 23:04:52, last write 18:28:43
+  Hold time is 90, keepalive interval is 30 seconds
+  Configured hold time is 180, keepalive interval is 60 seconds
+  Effective minimum hold time is 3 seconds
+  Send failure hold time is 0 seconds
+  Hold timer is inactive
+  Keepalive timer is inactive
+  Connect timer is active, time left: 00:00:22
+  Connection interval is 20 seconds
+  Failed connection attempts is 16
+  Idle-restart timer is inactive
+  BGP state is Connect
+  Number of transitions to established: 1
+  Last state was Active
+  Last event was ConnectRetry
+  Last rcvd notification:Cease/administrative shutdown, Last time 23:04:52
+  Last sent socket-error:Connect (Network is unreachable), Last time 00:05:24, First time 00:37:39, Repeats 2
+  Types of communities advertised: standard extended large
+  Neighbor is a route reflector client
+  Neighbor is using global cluster ID 10.0.0.30
+  Neighbor Capabilities:
+    Multiprotocol VPN-IPv4: advertised and received
+    Multiprotocol VPN-IPv6: advertised and received
+    Four Octet ASN: advertised and received
+    Route Refresh: advertised and received
+    Enhanced route refresh: advertised
+    Send End-of-RIB messages: advertised and received
+    Additional-paths recv capability:
+      VPN-IPv4: advertised
+      VPN-IPv6: advertised
+    Additional-paths send capability:
+    Graceful Restart advertised:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: yes
+      VPN-IPv4 is enabled, Forwarding State is not preserved
+      VPN-IPv6 is enabled, Forwarding State is not preserved
+    Graceful Restart received:
+      Restart-time is 300
+      Restart-State bit: no
+      Graceful notification: no
+  Restart timer is inactive
+  End of rib timer is inactive
+  IPv4 Unicast AS_SET/AS_CONFED_SET processing: accept
+  IPv6 Unicast AS_SET/AS_CONFED_SET processing: accept
+  AIGP attribute send and receive for IPv4 Unicast are enabled
+  AIGP attribute send and receive for IPv4 with MPLS Labels are enabled
+  AIGP attribute send and receive for IPv6 Unicast are enabled
+  AIGP attribute send and receive for IPv6 with MPLS Labels are enabled
+  BGP session driven failover for IPv4 Unicast is disabled
+  BGP session driven failover for IPv6 Unicast is disabled
+  Message Statistics:
+                         Sent      Rcvd
+    Opens:                106         1
+    Notifications:          0         1
+    Updates:              301         5
+    Keepalives:         12497     10669
+    Route Refresh:          0         1
+    Total messages:     12904     10677
+  Prefix Statistics:
+                                   Sent      Rcvd     Best Paths     Best ECMP Paths
+    IPv4 Unicast:                     0         0              0                   0
+    IPv6 Unicast:                     0         0              0                   0
+  Configured maximum total number of routes is 0
+  Inbound updates dropped by reason:
+    AS path loop detection: 0
+    Cluster ID loop detection: 0
+    Enforced First AS: 0
+    Malformed MPBGP routes: 0
+    Originator ID matches local router ID: 0
+    Nexthop matches local IP address: 0
+    Unexpected IPv6 nexthop for IPv4 routes: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv4 Unicast: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv6 Unicast: 0
+  Inbound updates with attribute errors:
+    Resulting in removal of all paths in update (treat as withdraw): 0
+    Resulting in AFI/SAFI disable: 0
+    Resulting in attribute ignore: 0
+    Disabled AFI/SAFIs: None
+  Inbound paths dropped by reason:
+    IPv4 unicast NLRIs dropped due to martian prefix: 0
+    IPv6 unicast NLRIs dropped due to martian prefix: 0
+    IPv4 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv4 labeled-unicast NLRIs dropped due to martian prefix: 0
+    IPv6 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv6 labeled-unicast NLRIs dropped due to martian prefix: 0
+    VPN-IPv4 NLRIs dropped due to route import match failure: 0
+    VPN-IPv6 NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to unsupported route type: 0
+    Link-state NLRIs dropped because reception is unsupported: 0
+    RT Membership NLRIs dropped due to local origin ASN received from external peer: 0
+  Outbound paths dropped by reason:
+    IPv4 local address not available: 0
+    IPv6 local address not available: 0
+Local AS is 64512, local router ID 10.0.0.30
+TTL is 255
+Local TCP address is 10.0.0.30
+Remote TCP address is 10.0.0.214, remote port is 179
+TCP Socket Information:
+  TCP state is SYN-SENT
+  Recv-Q: 0/131072
+  Send-Q: 0/16384
+  Outgoing Maximum Segment Size (MSS): 524
+  Total Number of TCP retransmissions: 0
+  Options:
+    Timestamps enabled: no
+    Selective Acknowledgments enabled: no
+    Window Scale enabled: no
+    Explicit Congestion Notification (ECN) enabled: no
+  Socket Statistics:
+    Window Scale (wscale): 0,0
+    Retransmission Timeout (rto): 1000.0ms
+    Round-trip Time (rtt/rtvar): 0.0ms/250.0ms
+    Delayed Ack Timeout (ato): 0.0ms
+    Congestion Window (cwnd): 10
+
+BGP neighbor is 10.0.0.216, remote AS 64512, internal link
+ Description: 2-23-5G-NOKIA-216
+  BGP version 4, remote router ID 10.0.0.216, VRF default
+  Inherits configuration from and member of peer-group 2-23-5G-RR
+  Last read 00:00:17, last write 00:00:24
+  Hold time is 90, keepalive interval is 30 seconds
+  Configured hold time is 180, keepalive interval is 60 seconds
+  Effective minimum hold time is 3 seconds
+  Send failure hold time is 0 seconds
+  Hold timer is active, time left: 00:01:13
+  Keepalive timer is active, time left: 00:00:02
+  Connect timer is inactive
+  Idle-restart timer is inactive
+  BGP state is Established, up for 17:09:50
+  Number of transitions to established: 4
+  Last state was OpenConfirm
+  Last event was RecvRtRefresh
+  Last sent notification:Cease/other configuration change, Last time 18:08:24
+  Last rcvd notification:Cease/administrative reset, Last time 17:09:50
+  Types of communities advertised: standard extended large
+  Neighbor Capabilities:
+    Multiprotocol VPN-IPv4: advertised and received and negotiated
+    Multiprotocol L2VPN EVPN: advertised and received and negotiated
+    Four Octet ASN: advertised and received and negotiated
+    Route Refresh: advertised and received and negotiated
+    Enhanced route refresh: advertised
+    Send End-of-RIB messages: advertised and received and negotiated
+    Additional-paths recv capability:
+      VPN-IPv4: negotiated
+      L2VPN EVPN: advertised
+    Additional-paths send capability:
+      VPN-IPv4: received
+    Graceful Restart advertised:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: yes
+      VPN-IPv4 is enabled, Forwarding State is not preserved
+      L2VPN EVPN is enabled, Forwarding State is not preserved
+    Graceful Restart received:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: no
+  Restart timer is inactive
+  End of rib timer is inactive
+    VPN-IPv4 End-of-RIB received: Yes
+      Received 17:09:50
+      Number of stale paths removed after graceful restart: 0
+      Number of paths received before End-of-RIB: 4
+    L2VPN EVPN End-of-RIB received: Yes
+      Received 17:09:50
+      Number of stale paths removed after graceful restart: 0
+      Number of paths received before End-of-RIB: 18
+  IPv4 Unicast AS_SET/AS_CONFED_SET processing: accept
+  IPv6 Unicast AS_SET/AS_CONFED_SET processing: accept
+  AIGP attribute send and receive for IPv4 Unicast are enabled
+  AIGP attribute send and receive for IPv4 with MPLS Labels are enabled
+  AIGP attribute send and receive for IPv6 Unicast are enabled
+  AIGP attribute send and receive for IPv6 with MPLS Labels are enabled
+  BGP session driven failover for IPv4 Unicast is disabled
+  BGP session driven failover for IPv6 Unicast is disabled
+  Message Statistics:
+                         Sent      Rcvd
+    Opens:                  4         4
+    Notifications:          1         2
+    Updates:               52      1619
+    Keepalives:          2566      2194
+    Route Refresh:          0         8
+    Total messages:      2623      3827
+  Prefix Statistics:
+                                   Sent      Rcvd     Best Paths     Best ECMP Paths
+    IPv4 Unicast:                     0         0              0                   0
+    VPN-IPv4:                         2        15             15                  11
+    IPv6 Unicast:                     0         0              0                   0
+    EVPN:                             3        51             37                  29
+  Configured maximum total number of routes is 256000, warning limit is 204800
+  Inbound updates dropped by reason:
+    AS path loop detection: 0
+    Cluster ID loop detection: 0
+    Enforced First AS: 0
+    Malformed MPBGP routes: 19
+    Originator ID matches local router ID: 0
+    Nexthop matches local IP address: 8
+    Unexpected IPv6 nexthop for IPv4 routes: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv4 Unicast: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv6 Unicast: 0
+  Inbound updates with attribute errors:
+    Resulting in removal of all paths in update (treat as withdraw): 8
+    Resulting in AFI/SAFI disable: 0
+    Resulting in attribute ignore: 0
+    Disabled AFI/SAFIs: None
+    Last treat-as-withdraw attribute error: Nexthop is local address
+    Last update with error received at: 14:52:11
+  Inbound paths dropped by reason:
+    IPv4 unicast NLRIs dropped due to martian prefix: 0
+    IPv6 unicast NLRIs dropped due to martian prefix: 0
+    IPv4 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv4 labeled-unicast NLRIs dropped due to martian prefix: 0
+    IPv6 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv6 labeled-unicast NLRIs dropped due to martian prefix: 0
+    VPN-IPv4 NLRIs dropped due to route import match failure: 0
+    VPN-IPv4 NLRIs dropped due to maximum route limit violation: 0
+    VPN-IPv6 NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to unsupported route type: 0
+    L2VPN EVPN NLRIs dropped due to maximum route limit violation: 0
+    Link-state NLRIs dropped because reception is unsupported: 0
+    RT Membership NLRIs dropped due to local origin ASN received from external peer: 0
+  Outbound paths dropped by reason:
+    IPv4 local address not available: 0
+    IPv6 local address not available: 0
+Local AS is 64512, local router ID 10.0.0.30
+TTL is 255
+Local TCP address is 10.0.30.30, local port is 179
+Remote TCP address is 10.0.0.216, remote port is 50728
+Local next hop for next hop self:
+  VPN-IPv4: 10.0.30.30
+  L2VPN EVPN: 10.0.30.30
+TCP Socket Information:
+  TCP state is ESTABLISHED
+  Recv-Q: 0/32768
+  Send-Q: 0/46080
+  Outgoing Maximum Segment Size (MSS): 1012
+  Total Number of TCP retransmissions: 5
+  Options:
+    Timestamps enabled: yes
+    Selective Acknowledgments enabled: no
+    Window Scale enabled: yes
+    Explicit Congestion Notification (ECN) enabled: no
+  Socket Statistics:
+    Window Scale (wscale): 0,7
+    Retransmission Timeout (rto): 248.0ms
+    Round-trip Time (rtt/rtvar): 20.5ms/35.5ms
+    Delayed Ack Timeout (ato): 40.0ms
+    Congestion Window (cwnd): 2
+    Slow-start Threshold (ssthresh): 2
+    TCP Throughput: 0.79 Mbps
+    Recv Round-trip Time (rcv_rtt): 1.0ms
+    Advertised Recv Window (rcv_space): 14600
+
+BGP neighbor is 10.0.0.217, remote AS 64512, internal link
+ Description: Nokia
+  BGP version 4, remote router ID 10.0.0.217, VRF default
+  Inherits configuration from and member of peer-group IBGP_CLIENT_PEER
+  Last read 18:26:16, last write 18:24:46
+  Hold time is 90, keepalive interval is 30 seconds
+  Configured hold time is 180, keepalive interval is 60 seconds
+  Effective minimum hold time is 3 seconds
+  Send failure hold time is 0 seconds
+  Hold timer is inactive
+  Keepalive timer is inactive
+  Connect timer is active, time left: 00:00:13
+  Connection interval is 20 seconds
+  Failed connection attempts is 1871
+  Idle-restart timer is inactive
+  BGP state is Connect
+  Number of transitions to established: 2
+  Last state was Active
+  Last event was ConnectRetry
+  Last sent notification:Hold Timer Expired Error/None, Last time 18:24:46
+  Last sent socket-error:Connect (Network is unreachable), Last time 11:56:37, First time 18:22:37, Repeats 10
+  Types of communities advertised: standard extended large
+  Neighbor is a route reflector client
+  Neighbor is using global cluster ID 10.0.0.30
+  Neighbor Capabilities:
+    Multiprotocol VPN-IPv4: advertised and received
+    Multiprotocol VPN-IPv6: advertised and received
+    Four Octet ASN: advertised and received
+    Route Refresh: advertised and received
+    Enhanced route refresh: advertised
+    Send End-of-RIB messages: advertised and received
+    Additional-paths recv capability:
+      VPN-IPv4: advertised
+      VPN-IPv6: advertised
+    Additional-paths send capability:
+    Graceful Restart advertised:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: yes
+      VPN-IPv4 is enabled, Forwarding State is not preserved
+      VPN-IPv6 is enabled, Forwarding State is not preserved
+    Graceful Restart received:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: no
+  Restart timer is inactive
+  End of rib timer is inactive
+  IPv4 Unicast AS_SET/AS_CONFED_SET processing: accept
+  IPv6 Unicast AS_SET/AS_CONFED_SET processing: accept
+  AIGP attribute send and receive for IPv4 Unicast are enabled
+  AIGP attribute send and receive for IPv4 with MPLS Labels are enabled
+  AIGP attribute send and receive for IPv6 Unicast are enabled
+  AIGP attribute send and receive for IPv6 with MPLS Labels are enabled
+  BGP session driven failover for IPv4 Unicast is disabled
+  BGP session driven failover for IPv6 Unicast is disabled
+  Message Statistics:
+                         Sent      Rcvd
+    Opens:                  2         2
+    Notifications:          1         0
+    Updates:              514        17
+    Keepalives:         13144     11245
+    Route Refresh:          0         2
+    Total messages:     13661     11266
+  Prefix Statistics:
+                                   Sent      Rcvd     Best Paths     Best ECMP Paths
+    IPv4 Unicast:                     0         0              0                   0
+    IPv6 Unicast:                     0         0              0                   0
+  Configured maximum total number of routes is 0
+  Inbound updates dropped by reason:
+    AS path loop detection: 0
+    Cluster ID loop detection: 0
+    Enforced First AS: 0
+    Malformed MPBGP routes: 0
+    Originator ID matches local router ID: 0
+    Nexthop matches local IP address: 0
+    Unexpected IPv6 nexthop for IPv4 routes: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv4 Unicast: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv6 Unicast: 0
+  Inbound updates with attribute errors:
+    Resulting in removal of all paths in update (treat as withdraw): 0
+    Resulting in AFI/SAFI disable: 0
+    Resulting in attribute ignore: 0
+    Disabled AFI/SAFIs: None
+  Inbound paths dropped by reason:
+    IPv4 unicast NLRIs dropped due to martian prefix: 0
+    IPv6 unicast NLRIs dropped due to martian prefix: 0
+    IPv4 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv4 labeled-unicast NLRIs dropped due to martian prefix: 0
+    IPv6 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv6 labeled-unicast NLRIs dropped due to martian prefix: 0
+    VPN-IPv4 NLRIs dropped due to route import match failure: 0
+    VPN-IPv6 NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to unsupported route type: 0
+    Link-state NLRIs dropped because reception is unsupported: 0
+    RT Membership NLRIs dropped due to local origin ASN received from external peer: 0
+  Outbound paths dropped by reason:
+    IPv4 local address not available: 0
+    IPv6 local address not available: 0
+Local AS is 64512, local router ID 10.0.0.30
+TTL is 255
+Local TCP address is 10.0.0.30
+Remote TCP address is 10.0.0.217, remote port is 179
+TCP Socket Information:
+  TCP state is SYN-SENT
+  Recv-Q: 0/131072
+  Send-Q: 0/16384
+  Outgoing Maximum Segment Size (MSS): 524
+  Total Number of TCP retransmissions: 3
+  Options:
+    Timestamps enabled: no
+    Selective Acknowledgments enabled: no
+    Window Scale enabled: no
+    Explicit Congestion Notification (ECN) enabled: no
+  Socket Statistics:
+    Window Scale (wscale): 0,0
+    Retransmission Timeout (rto): 8000.0ms
+    Round-trip Time (rtt/rtvar): 0.0ms/250.0ms
+    Delayed Ack Timeout (ato): 0.0ms
+    Congestion Window (cwnd): 1
+    Slow-start Threshold (ssthresh): 7
+
+BGP neighbor is 10.0.0.221, remote AS 64512, internal link
+ Description: Ribbon-221
+  BGP version 4, remote router ID 10.0.0.221, VRF default
+  Inherits configuration from and member of peer-group IBGP_CLIENT_PEER
+  Last read 18:26:24, last write 18:23:24
+  Hold time is 180, keepalive interval is 60 seconds
+  Configured hold time is 180, keepalive interval is 60 seconds
+  Effective minimum hold time is 3 seconds
+  Send failure hold time is 0 seconds
+  Hold timer is inactive
+  Keepalive timer is inactive
+  Connect timer is active, time left: 00:00:09
+  Connection interval is 20 seconds
+  Failed connection attempts is 64
+  Idle-restart timer is inactive
+  BGP state is Connect
+  Number of transitions to established: 15
+  Last state was Active
+  Last event was ConnectRetry
+  Last sent notification:Hold Timer Expired Error/None, Last time 18:23:24, First time 3d23h, Repeats 5
+  Last sent socket-error:Connect (Network is unreachable), Last time 00:25:59, First time 3d16h, Repeats 50
+  Last rcvd socket-error:Connection reset by peer, Last time 18:37:06, First time 4d16h, Repeats 8
+  Types of communities advertised: standard extended large
+  Neighbor is a route reflector client
+  Neighbor is using global cluster ID 10.0.0.30
+  Neighbor Capabilities:
+    Multiprotocol IPv4 Unicast: received
+    Multiprotocol VPN-IPv4: advertised and received
+    Multiprotocol VPN-IPv6: advertised and received
+    Four Octet ASN: advertised and received
+    Route Refresh: advertised and received
+    Enhanced route refresh: advertised and received
+    Send End-of-RIB messages: advertised
+    Additional-paths recv capability:
+      VPN-IPv4: advertised
+      VPN-IPv6: advertised
+    Additional-paths send capability:
+    Graceful Restart advertised:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: yes
+      VPN-IPv4 is enabled, Forwarding State is not preserved
+      VPN-IPv6 is enabled, Forwarding State is not preserved
+  Restart timer is inactive
+  End of rib timer is inactive
+  IPv4 Unicast AS_SET/AS_CONFED_SET processing: accept
+  IPv6 Unicast AS_SET/AS_CONFED_SET processing: accept
+  AIGP attribute send and receive for IPv4 Unicast are enabled
+  AIGP attribute send and receive for IPv4 with MPLS Labels are enabled
+  AIGP attribute send and receive for IPv6 Unicast are enabled
+  AIGP attribute send and receive for IPv6 with MPLS Labels are enabled
+  BGP session driven failover for IPv4 Unicast is disabled
+  BGP session driven failover for IPv6 Unicast is disabled
+  Message Statistics:
+                         Sent      Rcvd
+    Opens:                 16        15
+    Notifications:          6         0
+    Updates:              922        48
+    Keepalives:          6497     15240
+    Route Refresh:         20        10
+    Total messages:      7461     15313
+  Prefix Statistics:
+                                   Sent      Rcvd     Best Paths     Best ECMP Paths
+    IPv4 Unicast:                     0         0              0                   0
+    IPv6 Unicast:                     0         0              0                   0
+  Configured maximum total number of routes is 0
+  Inbound updates dropped by reason:
+    AS path loop detection: 0
+    Cluster ID loop detection: 0
+    Enforced First AS: 0
+    Malformed MPBGP routes: 0
+    Originator ID matches local router ID: 0
+    Nexthop matches local IP address: 0
+    Unexpected IPv6 nexthop for IPv4 routes: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv4 Unicast: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv6 Unicast: 0
+  Inbound updates with attribute errors:
+    Resulting in removal of all paths in update (treat as withdraw): 0
+    Resulting in AFI/SAFI disable: 0
+    Resulting in attribute ignore: 0
+    Disabled AFI/SAFIs: None
+  Inbound paths dropped by reason:
+    IPv4 unicast NLRIs dropped due to martian prefix: 0
+    IPv6 unicast NLRIs dropped due to martian prefix: 0
+    IPv4 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv4 labeled-unicast NLRIs dropped due to martian prefix: 0
+    IPv6 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv6 labeled-unicast NLRIs dropped due to martian prefix: 0
+    VPN-IPv4 NLRIs dropped due to route import match failure: 0
+    VPN-IPv6 NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to unsupported route type: 0
+    Link-state NLRIs dropped because reception is unsupported: 0
+    RT Membership NLRIs dropped due to local origin ASN received from external peer: 0
+  Outbound paths dropped by reason:
+    IPv4 local address not available: 0
+    IPv6 local address not available: 0
+Local AS is 64512, local router ID 10.0.0.30
+TTL is 255
+Local TCP address is 10.0.0.30
+Remote TCP address is 10.0.0.221, remote port is 179
+TCP Socket Information:
+  TCP state is SYN-SENT
+  Recv-Q: 0/131072
+  Send-Q: 0/16384
+  Outgoing Maximum Segment Size (MSS): 524
+  Total Number of TCP retransmissions: 3
+  Options:
+    Timestamps enabled: no
+    Selective Acknowledgments enabled: no
+    Window Scale enabled: no
+    Explicit Congestion Notification (ECN) enabled: no
+  Socket Statistics:
+    Window Scale (wscale): 0,0
+    Retransmission Timeout (rto): 8000.0ms
+    Round-trip Time (rtt/rtvar): 0.0ms/250.0ms
+    Delayed Ack Timeout (ato): 0.0ms
+    Congestion Window (cwnd): 1
+    Slow-start Threshold (ssthresh): 7
+
+BGP neighbor is 10.0.1.156, remote AS 64512, internal link
+ Description: 2-23-5G-JUNIPER-156
+  BGP version 4, remote router ID 10.0.0.156, VRF default
+  Inherits configuration from and member of peer-group 2-23-5G-RR
+  Last read 00:00:22, last write 00:00:10
+  Hold time is 90, keepalive interval is 30 seconds
+  Configured hold time is 180, keepalive interval is 60 seconds
+  Effective minimum hold time is 3 seconds
+  Send failure hold time is 0 seconds
+  Hold timer is active, time left: 00:01:08
+  Keepalive timer is active, time left: 00:00:14
+  Connect timer is inactive
+  Idle-restart timer is inactive
+  BGP state is Established, up for 17:19:35
+  Number of transitions to established: 3
+  Last state was OpenConfirm
+  Last event was RecvUpdate
+  Last sent notification:Cease/other configuration change, Last time 18:08:24
+  Last rcvd notification:Cease/peer de-configured, Last time 17:19:36
+  Types of communities advertised: standard extended large
+  Neighbor Capabilities:
+    Multiprotocol VPN-IPv4: advertised and received and negotiated
+    Multiprotocol L2VPN EVPN: advertised and received and negotiated
+    Four Octet ASN: advertised and received and negotiated
+    Route Refresh: advertised and received and negotiated
+    Enhanced route refresh: advertised
+    Send End-of-RIB messages: advertised and received and negotiated
+    Additional-paths recv capability:
+      VPN-IPv4: advertised
+      L2VPN EVPN: advertised
+    Additional-paths send capability:
+    Graceful Restart advertised:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: yes
+      VPN-IPv4 is enabled, Forwarding State is not preserved
+      L2VPN EVPN is enabled, Forwarding State is not preserved
+    Graceful Restart received:
+      Restart-time is 120
+      Restart-State bit: no
+      Graceful notification: yes
+    Long Lived Graceful Restart received:
+      Helper only
+  Restart timer is inactive
+  End of rib timer is inactive
+    VPN-IPv4 End-of-RIB received: Yes
+      Received 17:19:35
+      Number of stale paths removed after graceful restart: 0
+      Number of paths received before End-of-RIB: 4
+    L2VPN EVPN End-of-RIB received: Yes
+      Received 17:19:35
+      Number of stale paths removed after graceful restart: 0
+  IPv4 Unicast AS_SET/AS_CONFED_SET processing: accept
+  IPv6 Unicast AS_SET/AS_CONFED_SET processing: accept
+  AIGP attribute send and receive for IPv4 Unicast are enabled
+  AIGP attribute send and receive for IPv4 with MPLS Labels are enabled
+  AIGP attribute send and receive for IPv6 Unicast are enabled
+  AIGP attribute send and receive for IPv6 with MPLS Labels are enabled
+  BGP session driven failover for IPv4 Unicast is disabled
+  BGP session driven failover for IPv6 Unicast is disabled
+  Message Statistics:
+                         Sent      Rcvd
+    Opens:                  3         3
+    Notifications:          1         1
+    Updates:               23       232
+    Keepalives:          2571      2353
+    Route Refresh:          0         0
+    Total messages:      2598      2589
+  Prefix Statistics:
+                                   Sent      Rcvd     Best Paths     Best ECMP Paths
+    IPv4 Unicast:                     0         0              0                   0
+    VPN-IPv4:                         2        15             15                   0
+    IPv6 Unicast:                     0         0              0                   0
+    EVPN:                             3        29             29                   0
+  Configured maximum total number of routes is 256000, warning limit is 204800
+  Inbound updates dropped by reason:
+    AS path loop detection: 0
+    Cluster ID loop detection: 0
+    Enforced First AS: 0
+    Malformed MPBGP routes: 0
+    Originator ID matches local router ID: 0
+    Nexthop matches local IP address: 0
+    Unexpected IPv6 nexthop for IPv4 routes: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv4 Unicast: 0
+    AS_SET/AS_CONFED_SET in AS_PATH for IPv6 Unicast: 0
+  Inbound updates with attribute errors:
+    Resulting in removal of all paths in update (treat as withdraw): 0
+    Resulting in AFI/SAFI disable: 0
+    Resulting in attribute ignore: 0
+    Disabled AFI/SAFIs: None
+  Inbound paths dropped by reason:
+    IPv4 unicast NLRIs dropped due to martian prefix: 0
+    IPv6 unicast NLRIs dropped due to martian prefix: 0
+    IPv4 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv4 labeled-unicast NLRIs dropped due to martian prefix: 0
+    IPv6 labeled-unicast NLRIs dropped due to excessive labels: 0
+    IPv6 labeled-unicast NLRIs dropped due to martian prefix: 0
+    VPN-IPv4 NLRIs dropped due to route import match failure: 0
+    VPN-IPv4 NLRIs dropped due to maximum route limit violation: 0
+    VPN-IPv6 NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to route import match failure: 0
+    L2VPN EVPN NLRIs dropped due to unsupported route type: 0
+    L2VPN EVPN NLRIs dropped due to maximum route limit violation: 0
+    Link-state NLRIs dropped because reception is unsupported: 0
+    RT Membership NLRIs dropped due to local origin ASN received from external peer: 0
+  Outbound paths dropped by reason:
+    IPv4 local address not available: 0
+    IPv6 local address not available: 0
+Local AS is 64512, local router ID 10.0.0.30
+TTL is 255
+Local TCP address is 10.0.30.30, local port is 35073
+Remote TCP address is 10.0.1.156, remote port is 179
+Local next hop for next hop self:
+  VPN-IPv4: 10.0.30.30
+  L2VPN EVPN: 10.0.30.30
+TCP Socket Information:
+  TCP state is ESTABLISHED
+  Recv-Q: 0/32768
+  Send-Q: 0/46080
+  Outgoing Maximum Segment Size (MSS): 1448
+  Total Number of TCP retransmissions: 8
+  Options:
+    Timestamps enabled: yes
+    Selective Acknowledgments enabled: yes
+    Window Scale enabled: yes
+    Explicit Congestion Notification (ECN) enabled: no
+  Socket Statistics:
+    Window Scale (wscale): 0,7
+    Retransmission Timeout (rto): 204.0ms
+    Round-trip Time (rtt/rtvar): 0.6ms/0.5ms
+    Delayed Ack Timeout (ato): 40.0ms
+    Congestion Window (cwnd): 3
+    Slow-start Threshold (ssthresh): 7
+    TCP Throughput: 53.80 Mbps
+    Recv Round-trip Time (rcv_rtt): 3494.0ms
+    Advertised Recv Window (rcv_space): 14480
+

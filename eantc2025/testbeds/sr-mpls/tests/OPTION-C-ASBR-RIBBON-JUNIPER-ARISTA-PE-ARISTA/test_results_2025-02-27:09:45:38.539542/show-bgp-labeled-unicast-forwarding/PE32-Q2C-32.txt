@@ -1,0 +1,19 @@
+   Index       Nexthop                  Interface    Labels   
+----------- ------------------------ --------------- ---------
+   19          IS-IS SR IPv4 (3)        -            [ 20084 ]
+   20          IS-IS SR IPv4 (3)        -            [ 20084 ]
+   45          IS-IS SR IPv4 (15)       -            [ 20216 ]
+   46          IS-IS SR IPv4 (15)       -            [ 20216 ]
+   47          IS-IS SR IPv4 (11)       -            [ 10053 ]
+   48          IS-IS SR IPv4 (11)       -            [ 10053 ]
+   51          IS-IS SR IPv4 (4)        -            [ 3 ]    
+   52          IS-IS SR IPv4 (4)        -            [ 3 ]    
+   53          IS-IS SR IPv4 (10)       -            [ 20128 ]
+   54          IS-IS SR IPv4 (10)       -            [ 20128 ]
+   63          IS-IS SR IPv4 (12)       -            [ 0 ]    
+   64          IS-IS SR IPv4 (12)       -            [ 0 ]    
+   65          IS-IS SR IPv4 (16)       -            [ 3 ]    
+   66          IS-IS SR IPv4 (16)       -            [ 3 ]    
+   67          IS-IS SR IPv4 (14)       -            [ 20184 ]
+   68          IS-IS SR IPv4 (14)       -            [ 20184 ]
+

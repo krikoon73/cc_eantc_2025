@@ -1,0 +1,104 @@
+MPLS forwarding table (Label [metric] Vias) - 21 routes 
+MPLS next-hop resolution allow default route: False
+Via Type Codes:
+          M - MPLS via, LP - LDP pseudowire via,
+          I - IP lookup via, V - VLAN via,
+          VA - EVPN VLAN aware via, ES - EVPN ethernet segment via,
+          VF - EVPN VLAN flood via, AF - EVPN VLAN aware flood via,
+          NG - Nexthop group via, BP - BGP pseudowire via,
+          VP - VPWS pseudowire via, MSP - Static pseudowire via
+Source Codes:
+          G - gRIBI, S - Static MPLS route,
+          B2 - BGP L2 EVPN, B3 - BGP L3 VPN,
+          R - RSVP, P - Pseudowire,
+          L - LDP, M - MLDP,
+          I>BL - IS-IS SR to BGP LU, IP - IS-IS SR prefix segment,
+          IA - IS-IS SR adjacency segment, I>L - IS-IS SR to LDP,
+          L>I - LDP to IS-IS SR, OP - Ospf SR prefix segment,
+          OA - Ospf SR adjacency segment, OL - Ospf SR segment to LDP,
+          L0 - LDP to Ospf SR segment, BL - BGP LU,
+          BL>L - BGP LU to LDP, L>BL - LDP to BGP LU,
+          ST - SR TE policy, SMP - SR P2MP,
+          BL>I - BGP LU to IS-IS SR, BLS - BGP Link State,
+          DE - Debug LFIB
+
+ IP    20030    [1], 10.0.0.30/32
+                via M, 20.30.31.30, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ IP    20032    [1], 10.0.0.32/32
+                via M, 20.30.31.30, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ BL    20053    [1], 10.0.0.53/32
+                via IS-IS SR tunnel index 20, swap 20053
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                    via 20.30.31.30, Ethernet1, label 20202
+ BL    20066    [1], 10.0.0.66/32
+                via IS-IS SR tunnel index 20, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                    via 20.30.31.30, Ethernet1, label 20202
+ I>BL  20072    [1], 10.0.0.72/32
+                via IS-IS SR tunnel index 7, swap 16072
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                    via 20.30.31.30, Ethernet1, label 20120
+ IP    20084    [1], 10.0.0.84/32
+                via M, 20.30.31.30, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ IP    20120    [1], 10.0.0.120/32
+                via M, 20.30.31.30, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ IP    20122    [1], 10.0.0.122/32
+                via M, 20.30.31.30, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ BL    20128    [1], 10.0.0.128/32
+                via IS-IS SR tunnel index 20, swap 20128
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                    via 20.30.31.30, Ethernet1, label 20202
+ IP    20156    [1], 10.0.0.156/32
+                via M, 20.30.31.30, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ IP    20175    [1], 10.0.0.175/32
+                via M, 20.30.31.30, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ BL    20179    [1], 10.0.0.179/32
+                via IS-IS SR tunnel index 20, swap 20179
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                    via 20.30.31.30, Ethernet1, label 20202
+ BL    20184    [1], 10.0.0.184/32
+                via IS-IS SR tunnel index 20, swap 20184
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                    via 20.30.31.30, Ethernet1, label 20202
+ IP    20202    [1], 209.209.209.202/32
+                via M, 20.30.31.30, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ IP    20214    [1], 10.0.0.214/32
+                via M, 20.30.31.30, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ BL    20216    [1], 10.0.0.216/32
+                via IS-IS SR tunnel index 20, swap 20216
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                    via 20.30.31.30, Ethernet1, label 20202
+ IP    20430    [1], 2002::30/128
+                via M, fe80::c6ca:2bff:fe45:a215, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ B3    362144   [0]
+                via I, ipv6, vrf RED
+ B3    362145   [0]
+                via I, ipv4, vrf RED
+ IA    394917   [1]
+                via M, 20.30.31.30, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet1
+ IA    394918   [1]
+                via M, fe80::c6ca:2bff:fe45:a215, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet1

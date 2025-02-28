@@ -1,0 +1,21 @@
+Interface Ethernet31
+Announce messages sent: 0
+Announce messages received: 81923
+Sync messages sent: 0
+Sync messages received: 162538
+Follow up messages sent: 0
+Follow up messages received: 0
+Delay request messages sent: 161739
+Delay request messages received: 0
+Delay response messages sent: 0
+Delay response messages received: 161739
+Peer delay request messages sent: 0
+Peer delay request messages received: 0
+Peer delay response messages sent: 0
+Peer delay response messages received: 0
+Peer delay response follow up messages sent: 0
+Peer delay response follow up messages received: 0
+Management messages sent: 0
+Management messages received: 0
+Signaling messages sent: 0
+Signaling messages received: 0

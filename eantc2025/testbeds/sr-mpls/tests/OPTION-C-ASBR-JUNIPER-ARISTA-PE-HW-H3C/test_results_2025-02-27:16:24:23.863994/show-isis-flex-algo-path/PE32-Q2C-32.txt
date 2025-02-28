@@ -1,0 +1,29 @@
+Flex algo paths for IPv4 address family
+Topology ID: Level-2
+   Destination                   Algorithm         Next Hop         Interface
+----------------------------- ----------------- ------------------- ---------
+   Arista-PE32-Q2C-32            MIN-LATENCY                                 
+                                                                             
+   Arista-PE32-Q2C-32            MIN-TE                                      
+                                                                             
+   Arista-PE32-Q2C-32            ADMIN                                       
+                                                                             
+   Arrcus-53                     MIN-LATENCY       20.32.175.175    Ethernet5
+                                                                             
+   Arrcus-53                     MIN-TE            20.32.175.175    Ethernet5
+                                                                             
+   Arrcus-53                     ADMIN                                       
+                                                                             
+   Juniper-175-ACX7100-48L       MIN-LATENCY       20.32.175.175    Ethernet5
+                                                                             
+   Juniper-175-ACX7100-48L       MIN-TE            20.32.175.175    Ethernet5
+                                                                             
+   Juniper-175-ACX7100-48L       ADMIN                                       
+                                                                             
+   Juniper-179-ACX7024           MIN-LATENCY       20.32.175.175    Ethernet5
+                                                                             
+   Juniper-179-ACX7024           MIN-TE            20.32.175.175    Ethernet5
+                                                                             
+   Juniper-179-ACX7024           ADMIN                                       
+                                                                             
+

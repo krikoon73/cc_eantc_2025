@@ -1,0 +1,23 @@
+Aggregate VoQ Counters
+Egress                     Traffic               Pkts             Octets           DropPkts         DropOctets
+Port                       Class  
+--------------------------------------------------------------------------------------------------------------
+Et31                       TC1             1364705179       131011697184          519300687        49852865952
+Et31                       TC6                1547130          148524480                  0                  0
+Et31                       TC7                   3091             298253                  0                  0
+Et36                       TC7                      5               1195                  0                  0
+Et46/1                     TC1             1364185599       155517158286                  0                  0
+Et46/1                     TC6                1547127          176372478                  0                  0
+Et46/1                     TC7                      5               1290                  0                  0
+
+Egress Queue Counters
+Port                 Traffic DropPrec   DestType          OutEnqPkts      OutEnqOctets       OutDropPkts     OutDropOctets
+                     Class
+Et31                 TC1     DP0-3      UC                1364162311      130959581856                 0                 0
+Et31                 TC6     DP0-3      UC                   1497142         143725632                 0                 0
+Et31                 TC7     DP0-3      UC                      2994            245466                 0                 0
+Et36                 TC7     DP0-3      UC                         5              1160                 0                 0
+Et46/1               TC1     DP0-3      UC                1364181943      155516741502                 0                 0
+Et46/1               TC6     DP0-3      UC                   1497139         170673846                 0                 0
+Et46/1               TC7     DP0-3      UC                         5              1255                 0                 0
+

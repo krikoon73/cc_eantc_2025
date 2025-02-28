@@ -1,0 +1,7 @@
+PW Fault Legend:
+   ET-IN - Ethernet receive fault
+   ET-OUT - Ethernet transmit fault
+   TUN-IN - Tunnel receive fault
+   TUN-OUT - Tunnel transmit fault
+   NF - Pseudowire not forwarding (other reason)
+

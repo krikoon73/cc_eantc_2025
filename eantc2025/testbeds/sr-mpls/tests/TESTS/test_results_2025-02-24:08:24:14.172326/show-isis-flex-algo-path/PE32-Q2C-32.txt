@@ -1,0 +1,96 @@
+Flex algo paths for IPv4 address family
+Topology ID: Level-2
+  Destination                      Algorithm         Next Hop         Interface
+------------------------------- ----------------- ------------------- ---------
+  221                              MIN-LATENCY       20.30.32.30      Ethernet1
+                                                                               
+  221                              MIN-TE            20.32.175.175    Ethernet5
+                                                                               
+  Arista-PE32-Q2C-32               MIN-LATENCY                                 
+                                                                               
+  Arista-PE32-Q2C-32               MIN-TE                                      
+                                                                               
+  Arista-PE32-Q2C-32               ADMIN                                       
+                                                                               
+  Arista-Spine3-Q2A-30             MIN-LATENCY       20.30.32.30      Ethernet1
+                                                                               
+  Arista-Spine3-Q2A-30             MIN-TE            20.32.175.175    Ethernet5
+                                                                               
+  Arista-Spine3-Q2A-30             ADMIN             20.30.32.30      Ethernet1
+                                                                               
+  Arrcus-53                        MIN-LATENCY       20.30.32.30      Ethernet1
+                                                                               
+  Arrcus-53                        MIN-TE            20.32.175.175    Ethernet5
+                                                                               
+  Arrcus-53                        ADMIN                                       
+                                                                               
+  Ciena-5134-72                    MIN-TE                                      
+                                                                               
+  Ciena-8140-66                    MIN-TE                                      
+                                                                               
+  H3C_M1A_120                      MIN-LATENCY       20.30.32.30      Ethernet1
+                                                                               
+  H3C_M1A_120                      MIN-TE            20.32.175.175    Ethernet5
+                                                                               
+  H3C_M1A_120                      ADMIN                                       
+                                                                               
+  Juniper-156-PTX10002-36QDD       MIN-LATENCY       20.30.32.30      Ethernet1
+                                                                               
+  Juniper-156-PTX10002-36QDD       MIN-TE            20.32.175.175    Ethernet5
+                                                                               
+  Juniper-156-PTX10002-36QDD       ADMIN             20.30.32.30      Ethernet1
+                                                                               
+  Juniper-175-ACX7100-48L          MIN-LATENCY       20.30.32.30      Ethernet1
+                                                                               
+  Juniper-175-ACX7100-48L          MIN-TE            20.32.175.175    Ethernet5
+                                                                               
+  Juniper-175-ACX7100-48L          ADMIN             20.30.32.30      Ethernet1
+                                                                               
+  Juniper-179-ACX7024              MIN-LATENCY       20.30.32.30      Ethernet1
+                                                                               
+  Juniper-179-ACX7024              MIN-TE            20.32.175.175    Ethernet5
+                                                                               
+  Juniper-179-ACX7024              ADMIN             20.30.32.30      Ethernet1
+                                                                               
+  Nokia-SR1-217                    MIN-LATENCY       20.30.32.30      Ethernet1
+                                                                               
+  Nokia-SR1-217                    MIN-TE            20.32.175.175    Ethernet5
+                                                                               
+  Nokia-SR1-217                    ADMIN             20.30.32.30      Ethernet1
+                                                                               
+
+Flex algo paths for IPv6 address family
+Topology ID: Level-2
+Destination                  Algorithm     Next Hop                   Interface
+--------------------------- ------------- --------------------------- ---------
+Arista-Spine3-Q2A-30         MIN-LATENCY   fe80::c6ca:2bff:fe45:a215  Ethernet1
+                                                                               
+Arista-Spine3-Q2A-30         MIN-TE        fe80::c6ca:2bff:fe45:a215  Ethernet1
+                                                                               
+Arista-Spine3-Q2A-30         ADMIN         fe80::c6ca:2bff:fe45:a215  Ethernet1
+                                                                               
+Arrcus-53                    MIN-LATENCY   fe80::3e08:cdff:fe8d:badc  Ethernet5
+                                                                               
+Arrcus-53                    MIN-TE        fe80::3e08:cdff:fe8d:badc  Ethernet5
+                                                                               
+Arrcus-53                    ADMIN                                             
+                                                                               
+H3C_M1A_120                  MIN-LATENCY                                       
+                                                                               
+H3C_M1A_120                  MIN-TE                                            
+                                                                               
+H3C_M1A_120                  ADMIN                                             
+                                                                               
+Juniper-156-PTX10002-36QDD   MIN-LATENCY   fe80::c6ca:2bff:fe45:a215  Ethernet1
+                                                                               
+Juniper-156-PTX10002-36QDD   MIN-TE        fe80::3e08:cdff:fe8d:badc  Ethernet5
+                                                                               
+Juniper-156-PTX10002-36QDD   ADMIN         fe80::c6ca:2bff:fe45:a215  Ethernet1
+                                                                               
+Juniper-175-ACX7100-48L      MIN-LATENCY   fe80::3e08:cdff:fe8d:badc  Ethernet5
+                                                                               
+Juniper-175-ACX7100-48L      MIN-TE        fe80::3e08:cdff:fe8d:badc  Ethernet5
+                                                                               
+Juniper-175-ACX7100-48L      ADMIN         fe80::c6ca:2bff:fe45:a215  Ethernet1
+                                                                               
+

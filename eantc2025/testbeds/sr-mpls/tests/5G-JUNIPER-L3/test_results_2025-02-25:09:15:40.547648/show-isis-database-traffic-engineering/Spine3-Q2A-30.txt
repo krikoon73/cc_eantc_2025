@@ -1,0 +1,1105 @@
+Legend:
+H - hostname conflict
+U - node unreachable
+
+IS-IS Instance: 2-23-5G VRF: default
+  IS-IS Level 2 Link State Database
+    LSPID                   Seq Num  Cksum  Life Length IS  Received LSPID        Flags
+    Arista-PE32-Q2C-32.00-00       916  48928   703    402 L2  0000.0000.0032.00-00  <>
+      Remaining lifetime received: 1195 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Arista-PE32-Q2C-32
+      TE IPv4 router ID: 10.0.0.32
+      Area addresses: 49.0001
+      Topology: 2 (IPv6)
+      Topology: 0 (IPv4)
+      Interface address: 20.32.175.32
+      Interface address: 10.0.0.32
+      Interface address: 2001:0:32:175::32
+      Interface address: 2002::32
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 10
+        IPv4 Neighbor Address: 20.32.175.175
+        IPv4 Interface Address: 20.32.175.32
+        Adj-sid: 362170 flags: [L V] weight: 0x0
+        Application Specific Link Attributes:
+          Standard applications: Flex-Algo
+            Administrative group (Color): 1
+            TE default metric: 10
+            Min/Max unidirectional link delay: 100000/100000 us
+      IS Neighbor (MT-IPv6): Juniper-175-ACX7100-48L.00 Metric: 10
+        IPv6 Neighbor Address: 2001:0:32:175::175
+        Global IPv6 Interface Address: 2001:0:32:175::32
+        Adj-sid: 362171 flags: [L V F] weight: 0x0
+        Application Specific Link Attributes:
+          Standard applications: Flex-Algo
+            Administrative group (Color): 1
+            TE default metric: 10
+            Min/Max unidirectional link delay: 100000/100000 us
+      Reachability         : 20.32.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.32/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 32 Flags: [N] Algorithm: 0
+        SR Prefix-SID: 161 Flags: [N] Algorithm: 128
+        SR Prefix-SID: 162 Flags: [N] Algorithm: 129
+        SR Prefix-SID: 163 Flags: [N] Algorithm: 130
+      Reachability (MT-IPv6): 2001:0:32:175::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2002::32/128 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.32 Flags: []
+        SR Local Block:
+          SRLB Base: 965536 Range: 65536
+        Area leader priority: 250 algorithm: 0
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  12
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0, 128, 129, 130
+    Arrcus-53.00-00            1434  60822   806    502 L2  0000.0000.0053.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Arrcus-53
+      TE IPv4 router ID: 10.0.0.53
+      Area addresses: 49.0001
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.53
+      Interface address: 2002::53
+      IS Neighbor          : Ciena-8140-66.00    Metric: 10
+        IPv4 Neighbor Address: 20.53.66.66
+        IPv4 Interface Address: 20.53.66.53
+      IS Neighbor          : Ciena-5134-72.00    Metric: 10
+        IPv4 Neighbor Address: 20.53.72.72
+        IPv4 Interface Address: 20.53.72.53
+      IS Neighbor          : H3C_M1A_120.00      Metric: 10
+        IPv4 Neighbor Address: 20.53.120.120
+        IPv4 Interface Address: 20.53.120.53
+      IS Neighbor          : 0000.0000.0124.00   Metric: 10
+        IPv4 Neighbor Address: 20.53.124.124
+        IPv4 Interface Address: 20.53.124.53
+      IS Neighbor          : 0000.0000.0128.00   Metric: 10
+        IPv4 Neighbor Address: 20.53.128.128
+        IPv4 Interface Address: 20.53.128.53
+      IS Neighbor          : Nokia-IXRe2-216.00  Metric: 10
+        IPv4 Neighbor Address: 20.53.216.216
+        IPv4 Interface Address: 20.53.216.53
+      IS Neighbor          : Keysight-185.00     Metric: 10
+        IPv4 Neighbor Address: 20.53.185.185
+        IPv4 Interface Address: 20.53.185.53
+      IS Neighbor (MT-IPv6): Nokia-IXRe2-216.00  Metric: 10
+        IPv4 Interface Address: 20.53.216.53
+      Reachability         : 20.53.66.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.53.72.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.53.120.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.53.124.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.53.128.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.53.185.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.53.216.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.53/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 53 Flags: [N P E] Algorithm: 0
+        SR Prefix-SID: 1181 Flags: [N] Algorithm: 128
+        SR Prefix-SID: 1182 Flags: [N] Algorithm: 129
+        SR Prefix-SID: 1183 Flags: [N] Algorithm: 130
+      Reachability (MT-IPv6): 2002::53/128 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 453 Flags: [N P E] Algorithm: 0
+        SR Prefix-SID: 1581 Flags: [N] Algorithm: 128
+        SR Prefix-SID: 1582 Flags: [N] Algorithm: 129
+        SR Prefix-SID: 1583 Flags: [N] Algorithm: 130
+      Router Capabilities: Router Id: 10.0.0.53 Flags: []
+        SR Local Block:
+          SRLB Base: 16000 Range: 3001
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 780001
+        Algorithms:  0, 128, 129, 130
+    Arrcus-72XC-2-54.00-00       132  65330   731    165 L2  0000.0000.0054.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Arrcus-72XC-2-54
+      TE IPv4 router ID: 10.0.0.54
+      Area addresses: 49.0001
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.54
+      IS Neighbor          : Ciena-8140-66.00    Metric: 10
+        IPv4 Neighbor Address: 20.54.66.66
+        IPv4 Interface Address: 20.54.66.54
+      Reachability         : 20.54.66.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.54/32 Metric: 10 Type: 1 Up
+        SR Prefix-SID: 54 Flags: [N P E] Algorithm: 0
+      Router Capabilities: Router Id: 10.0.0.54 Flags: []
+        SR Local Block:
+          SRLB Base: 16000 Range: 3001
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 10000
+        Algorithms:  0
+    Ciena-8140-66.00-00         258  19311   878    809 L2  0000.0000.0066.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4)
+      Hostname: Ciena-8140-66
+      TE IPv4 router ID: 10.0.0.66
+      Area addresses: 65.0001
+      Topology: 0 (IPv4)
+      Interface address: 10.0.0.66
+      IS Neighbor          : Arista-Spine3-Q2A-2-23.00 Metric: 10
+        IPv4 Neighbor Address: 20.30.66.30
+        IPv4 Interface Address: 20.30.66.66
+        Adj-sid: 16014 flags: [L V] weight: 0x0
+        Maximum link BW: 10.00 Gbps
+        Maximum reservable link BW: 10.00 Gbps
+        Unreserved BW:
+            TE class 0: 10.00 Gbps	TE class 1: 10.00 Gbps	TE class 2: 10.00 Gbps
+            TE class 3: 10.00 Gbps	TE class 4: 10.00 Gbps	TE class 5: 10.00 Gbps
+            TE class 6: 10.00 Gbps	TE class 7: 10.00 Gbps
+        Local link ID: 1073731833
+        Remote link ID: 110
+        Application Specific Link Attributes:
+          Standard applications: [L] RSVP-TE SR-TE LFA Flex-Algo
+      IS Neighbor          : Juniper-179-ACX7024.00 Metric: 10
+        IPv4 Neighbor Address: 20.66.179.179
+        IPv4 Interface Address: 20.66.179.66
+        Adj-sid: 16013 flags: [L V] weight: 0x0
+        Maximum link BW: 10.00 Gbps
+        Maximum reservable link BW: 10.00 Gbps
+        Unreserved BW:
+            TE class 0: 10.00 Gbps	TE class 1: 10.00 Gbps	TE class 2: 10.00 Gbps
+            TE class 3: 10.00 Gbps	TE class 4: 10.00 Gbps	TE class 5: 10.00 Gbps
+            TE class 6: 10.00 Gbps	TE class 7: 10.00 Gbps
+        Local link ID: 1073731836
+        Remote link ID: 1037
+        Application Specific Link Attributes:
+          Standard applications: [L] RSVP-TE SR-TE LFA Flex-Algo
+      IS Neighbor          : Ericsson_84_R6678.00 Metric: 10
+        IPv4 Neighbor Address: 20.66.84.84
+        IPv4 Interface Address: 20.66.84.66
+        Adj-sid: 16017 flags: [L V] weight: 0x0
+        Maximum link BW: 10.00 Gbps
+        Maximum reservable link BW: 10.00 Gbps
+        Unreserved BW:
+            TE class 0: 10.00 Gbps	TE class 1: 10.00 Gbps	TE class 2: 10.00 Gbps
+            TE class 3: 10.00 Gbps	TE class 4: 10.00 Gbps	TE class 5: 10.00 Gbps
+            TE class 6: 10.00 Gbps	TE class 7: 10.00 Gbps
+        Local link ID: 1073731834
+        Remote link ID: 83886608
+        Application Specific Link Attributes:
+          Standard applications: [L] RSVP-TE SR-TE LFA Flex-Algo
+      IS Neighbor          : Nokia-SXR-214.00    Metric: 10
+        IPv4 Neighbor Address: 20.66.214.214
+        IPv4 Interface Address: 20.66.214.66
+        Adj-sid: 16015 flags: [L V] weight: 0x0
+        Maximum link BW: 10.00 Gbps
+        Maximum reservable link BW: 10.00 Gbps
+        Unreserved BW:
+            TE class 0: 10.00 Gbps	TE class 1: 10.00 Gbps	TE class 2: 10.00 Gbps
+            TE class 3: 10.00 Gbps	TE class 4: 10.00 Gbps	TE class 5: 10.00 Gbps
+            TE class 6: 10.00 Gbps	TE class 7: 10.00 Gbps
+        Local link ID: 1073731838
+        Remote link ID: 15
+        Application Specific Link Attributes:
+          Standard applications: [L] RSVP-TE SR-TE LFA Flex-Algo
+      IS Neighbor          : Arrcus-53.00        Metric: 10
+        IPv4 Neighbor Address: 20.53.66.53
+        IPv4 Interface Address: 20.53.66.66
+        Adj-sid: 16016 flags: [L V] weight: 0x0
+        Maximum link BW: 10.00 Gbps
+        Maximum reservable link BW: 10.00 Gbps
+        Unreserved BW:
+            TE class 0: 10.00 Gbps	TE class 1: 10.00 Gbps	TE class 2: 10.00 Gbps
+            TE class 3: 10.00 Gbps	TE class 4: 10.00 Gbps	TE class 5: 10.00 Gbps
+            TE class 6: 10.00 Gbps	TE class 7: 10.00 Gbps
+        Local link ID: 1073731837
+        Remote link ID: 1021
+        Application Specific Link Attributes:
+          Standard applications: [L] RSVP-TE SR-TE LFA Flex-Algo
+      IS Neighbor          : Arrcus-72XC-2-54.00 Metric: 10
+        IPv4 Neighbor Address: 20.54.66.54
+        IPv4 Interface Address: 20.54.66.66
+        Adj-sid: 16018 flags: [L V] weight: 0x0
+        Maximum link BW: 10.00 Gbps
+        Maximum reservable link BW: 10.00 Gbps
+        Unreserved BW:
+            TE class 0: 10.00 Gbps	TE class 1: 10.00 Gbps	TE class 2: 10.00 Gbps
+            TE class 3: 10.00 Gbps	TE class 4: 10.00 Gbps	TE class 5: 10.00 Gbps
+            TE class 6: 10.00 Gbps	TE class 7: 10.00 Gbps
+        Local link ID: 1073731835
+        Remote link ID: 1008
+        Application Specific Link Attributes:
+          Standard applications: [L] RSVP-TE SR-TE LFA Flex-Algo
+      IS Neighbor          : Juniper-156-PTX10002-36QDD.00 Metric: 10
+        IPv4 Neighbor Address: 20.66.156.156
+        IPv4 Interface Address: 20.66.156.66
+        Adj-sid: 16019 flags: [L V] weight: 0x0
+        Maximum link BW: 100.00 Gbps
+        Maximum reservable link BW: 100.00 Gbps
+        Unreserved BW:
+            TE class 0: 100.00 Gbps	TE class 1: 100.00 Gbps	TE class 2: 100.00 Gbps
+            TE class 3: 100.00 Gbps	TE class 4: 100.00 Gbps	TE class 5: 100.00 Gbps
+            TE class 6: 100.00 Gbps	TE class 7: 100.00 Gbps
+        Local link ID: 1073731840
+        Remote link ID: 1049
+        Application Specific Link Attributes:
+          Standard applications: [L] RSVP-TE SR-TE LFA Flex-Algo
+      Reachability         : 10.0.0.66/32 Metric: 10 Type: 1 Up
+        SR Prefix-SID: 66 Flags: [N] Algorithm: 0
+      Reachability         : 20.30.66.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.66.84.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.54.66.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.66.179.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.53.66.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.66.214.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.66.156.0/24 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.66 Flags: []
+        SR Capability: Flags: [I]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0
+    Ciena-5134-72.00-00          82  49033   932    209 L2  0000.0000.0072.00-00  <>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4)
+      Hostname: Ciena-5134-72
+      TE IPv4 router ID: 10.0.0.72
+      Area addresses: 65.0001
+      Topology: 0 (IPv4)
+      Interface address: 10.0.0.72
+      IS Neighbor          : Arrcus-53.00        Metric: 10
+        IPv4 Neighbor Address: 20.53.72.53
+        IPv4 Interface Address: 20.53.72.72
+        Adj-sid: 16004 flags: [L V] weight: 0x0
+        Maximum link BW: 10.00 Gbps
+        Maximum reservable link BW: 10.00 Gbps
+        Unreserved BW:
+            TE class 0: 10.00 Gbps	TE class 1: 10.00 Gbps	TE class 2: 10.00 Gbps
+            TE class 3: 10.00 Gbps	TE class 4: 10.00 Gbps	TE class 5: 10.00 Gbps
+            TE class 6: 10.00 Gbps	TE class 7: 10.00 Gbps
+        Local link ID: 1073731835
+        Remote link ID: 1022
+        Application Specific Link Attributes:
+          Standard applications: [L] RSVP-TE SR-TE LFA Flex-Algo
+      Reachability         : 20.53.72.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.72/32 Metric: 10 Type: 1 Up
+        SR Prefix-SID: 72 Flags: [N] Algorithm: 0
+      Router Capabilities: Router Id: 10.0.0.72 Flags: []
+        SR Capability: Flags: [I]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0
+    Ericsson_84_R6678.00-00        89  34909   901    187 L2  0000.0000.0084.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Ericsson_84_R6678
+      TE IPv4 router ID: 10.0.0.84
+      Area addresses: 65.0000
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.84
+      Interface address: 2001:0:66:84::84
+      IS Neighbor          : Ciena-8140-66.00    Metric: 10
+        IPv4 Interface Address: 20.66.84.84
+      Reachability         : 10.0.0.84/32 Metric: 10 Type: 1 Up
+        SR Prefix-SID: 84 Flags: [N P] Algorithm: 0
+      Reachability (MT-IPv6): 2001:0:66:84::/64 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.84 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  8
+        SR Capability: Flags: [I]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0
+    H3C_M1A_120.00-00         13920  20243  1194   1239 L2  0000.0000.0120.00-00  <>
+      Remaining lifetime received: 13 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: H3C_M1A_120
+      TE IPv4 router ID: 10.0.0.120
+      Area addresses: 49.0001
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.120
+      Interface address: 20.53.120.120
+      Interface address: 20.120.175.120
+      Interface address: 20.120.214.120
+      Interface address: 21.120.175.120
+      Interface address: 2001:0:120:214::120
+      Interface address: 2002::120
+      IS Neighbor          : Arrcus-53.00        Metric: 2
+        IPv4 Neighbor Address: 20.53.120.53
+        IPv4 Interface Address: 20.53.120.120
+        Adj-sid: 1147 flags: [L V] weight: 0x0
+        TE default metric: 2
+        Maximum link BW: 0.00 bps
+        Maximum reservable link BW: 0.00 bps
+        Unreserved BW:
+            TE class 0: 0.00 bps	TE class 1: 0.00 bps	TE class 2: 0.00 bps
+            TE class 3: 0.00 bps	TE class 4: 0.00 bps	TE class 5: 0.00 bps
+            TE class 6: 0.00 bps	TE class 7: 0.00 bps
+        Local link ID: 7
+        Remote link ID: 1009
+      IS Neighbor          : Arrcus-53.00        Metric: 2
+        IPv4 Neighbor Address: 20.53.120.53
+        IPv4 Interface Address: 20.53.120.120
+        Local link ID: 7
+        Remote link ID: 1009
+        Application Specific Link Attributes:
+          Standard applications: Flex-Algo
+          User-defined applications: APP3
+            TE default metric: 2
+            Maximum link BW: 0.00 bps
+            Maximum reservable link BW: 0.00 bps
+            Unreserved BW:
+                TE class 0: 0.00 bps	TE class 1: 0.00 bps	TE class 2: 0.00 bps
+                TE class 3: 0.00 bps	TE class 4: 0.00 bps	TE class 5: 0.00 bps
+                TE class 6: 0.00 bps	TE class 7: 0.00 bps
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 1
+        IPv4 Neighbor Address: 20.120.175.175
+        IPv4 Interface Address: 20.120.175.120
+        Adj-sid: 1151 flags: [L V] weight: 0x0
+        TE default metric: 1
+        Maximum link BW: 0.00 bps
+        Maximum reservable link BW: 0.00 bps
+        Unreserved BW:
+            TE class 0: 0.00 bps	TE class 1: 0.00 bps	TE class 2: 0.00 bps
+            TE class 3: 0.00 bps	TE class 4: 0.00 bps	TE class 5: 0.00 bps
+            TE class 6: 0.00 bps	TE class 7: 0.00 bps
+        Local link ID: 4
+        Remote link ID: 1007
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 1
+        IPv4 Neighbor Address: 20.120.175.175
+        IPv4 Interface Address: 20.120.175.120
+        Local link ID: 4
+        Remote link ID: 1007
+        Application Specific Link Attributes:
+          Standard applications: Flex-Algo
+          User-defined applications: APP3
+            TE default metric: 1
+            Maximum link BW: 0.00 bps
+            Maximum reservable link BW: 0.00 bps
+            Unreserved BW:
+                TE class 0: 0.00 bps	TE class 1: 0.00 bps	TE class 2: 0.00 bps
+                TE class 3: 0.00 bps	TE class 4: 0.00 bps	TE class 5: 0.00 bps
+                TE class 6: 0.00 bps	TE class 7: 0.00 bps
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 2
+        IPv4 Neighbor Address: 21.120.175.175
+        IPv4 Interface Address: 21.120.175.120
+        Adj-sid: 1148 flags: [L V] weight: 0x0
+        TE default metric: 2
+        Maximum link BW: 0.00 bps
+        Maximum reservable link BW: 0.00 bps
+        Unreserved BW:
+            TE class 0: 0.00 bps	TE class 1: 0.00 bps	TE class 2: 0.00 bps
+            TE class 3: 0.00 bps	TE class 4: 0.00 bps	TE class 5: 0.00 bps
+            TE class 6: 0.00 bps	TE class 7: 0.00 bps
+        Local link ID: 6
+        Remote link ID: 1058
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 2
+        IPv4 Neighbor Address: 21.120.175.175
+        IPv4 Interface Address: 21.120.175.120
+        Local link ID: 6
+        Remote link ID: 1058
+        Application Specific Link Attributes:
+          Standard applications: Flex-Algo
+          User-defined applications: APP3
+            TE default metric: 2
+            Maximum link BW: 0.00 bps
+            Maximum reservable link BW: 0.00 bps
+            Unreserved BW:
+                TE class 0: 0.00 bps	TE class 1: 0.00 bps	TE class 2: 0.00 bps
+                TE class 3: 0.00 bps	TE class 4: 0.00 bps	TE class 5: 0.00 bps
+                TE class 6: 0.00 bps	TE class 7: 0.00 bps
+      Reachability         : 10.0.0.120/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 120 Flags: [N] Algorithm: 0
+        SR Prefix-SID: 1248 Flags: [N] Algorithm: 128
+        SR Prefix-SID: 1249 Flags: [N] Algorithm: 129
+        SR Prefix-SID: 1250 Flags: [N] Algorithm: 130
+      Reachability         : 20.53.120.0/24 Metric: 2 Type: 1 Up
+      Reachability         : 20.120.175.0/24 Metric: 1 Type: 1 Up
+      Reachability         : 20.120.214.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.120.217.0/24 Metric: 0 Type: 1 Up
+      Reachability         : 21.120.175.0/24 Metric: 2 Type: 1 Up
+      Reachability         : 192.168.20.0/23 Metric: 0 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:53:120::/64 Metric: 0 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:120:175::/64 Metric: 0 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:120:214::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:120:217::/64 Metric: 0 Type: 1 Up
+      Reachability (MT-IPv6): 2001:1:120:175::/64 Metric: 0 Type: 1 Up
+      Reachability (MT-IPv6): 2002::120/128 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 520 Flags: [N] Algorithm: 0
+        SR Prefix-SID: 1648 Flags: [N] Algorithm: 128
+        SR Prefix-SID: 1649 Flags: [N] Algorithm: 129
+        SR Prefix-SID: 1650 Flags: [N] Algorithm: 130
+      Router Capabilities: Router Id: 10.0.0.120 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  13
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+      Shared Risk Link Group:  Neighbor Juniper-175-ACX7100-48L.00 (Numbered)
+        Interface Address: 20.120.175.120
+        Neighbor Address: 20.120.175.175
+        Group ID: 4
+      Application Specific Shared Risk Link Group:  Neighbor Juniper-175-ACX7100-48L.00
+        Standard applications: Flex-Algo
+        User-defined applications: APP3
+        Local link identifier: 343453560
+        Remote link identifier: 343453615
+        IPv4 interface address: 20.120.175.120
+        IPv4 neighbor address: 20.120.175.175
+        Group ID: 4
+    0000.0000.0124.00-00       2067   4938  1135    151 L2  0000.0000.0124.00-00  <>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      TE IPv4 router ID: 10.0.0.124
+      Area addresses: 49.0001
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.124
+      Interface address: 20.53.124.124
+      IS Neighbor          : Arrcus-53.00        Metric: 10
+        IPv4 Neighbor Address: 20.53.124.53
+        IPv4 Interface Address: 20.53.124.124
+        Adj-sid: 272 flags: [L V] weight: 0x0
+        Local link ID: 9
+        Remote link ID: 1025
+      Reachability         : 10.0.0.124/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 124 Flags: [N P] Algorithm: 0
+      Reachability         : 20.53.124.0/24 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.124 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  10
+        SR Capability: Flags: [I]
+          SRGB Base: 2000 Range: 2001
+    0000.0000.0128.00-00       2072  10071   893    151 L2  0000.0000.0128.00-00  <>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      TE IPv4 router ID: 10.0.0.128
+      Area addresses: 49.0001
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.128
+      Interface address: 20.53.128.128
+      IS Neighbor          : Arrcus-53.00        Metric: 10
+        IPv4 Neighbor Address: 20.53.128.53
+        IPv4 Interface Address: 20.53.128.128
+        Adj-sid: 48000 flags: [L V] weight: 0x0
+        Local link ID: 14
+        Remote link ID: 1029
+      Reachability         : 10.0.0.128/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 128 Flags: [N] Algorithm: 0
+      Reachability         : 20.53.128.0/24 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.128 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  10
+        SR Capability: Flags: [I]
+          SRGB Base: 20000 Range: 2000
+    Juniper-131-JCNR.00-00       674  45598   590    338 L2  0000.0000.0131.00-00  <>
+      Remaining lifetime received: 1194 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Juniper-131-JCNR
+      TE IPv4 router ID: 10.0.0.131
+      TE IPv6 router ID: ::af4:0
+      Area addresses: 49.0001
+      Interface address: 10.0.0.131
+      Interface address: ::af4:0
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 10
+        IPv4 Neighbor Address: 20.131.175.175
+        IPv4 Interface Address: 20.131.175.131
+        IPv6 Neighbor Address: 2001:0:131:175::175
+        Global IPv6 Interface Address: 2001:0:131:175::131
+        Adj-sid: 21 flags: [L V F] weight: 0x0
+        Adj-sid: 20 flags: [L V] weight: 0x0
+        TE default metric: 10
+        Min/Max unidirectional link delay: 100/100 us
+        Average unidirectional link delay: 100 us
+        Local link ID: 39
+        Remote link ID: 1002
+      Reachability         : 20.131.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.131/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 131 Flags: [N] Algorithm: 0
+      Reachability          : 2001:0:131:175::/64 Metric: 10 Type: 1 Up
+      Reachability          : fe80::ec97:fbff:fe06:5964/128 Metric: 0 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.131 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  0
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0, 1, 128, 129, 130
+      Unsupported TLV: Type: 14 Length: 2
+    Juniper-175-ACX7100-48L.00-00      1233  12314  1158   1280 L2  0000.0000.0175.00-00  <>
+      Remaining lifetime received: 1196 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Juniper-175-ACX7100-48L
+      TE IPv4 router ID: 10.0.0.175
+      TE IPv6 router ID: 2002::175
+      Area addresses: 49.0001
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.175
+      Interface address: 127.0.0.1
+      Interface address: 2002::175
+      IS Neighbor          : Juniper-131-JCNR.00 Metric: 10
+        IPv4 Neighbor Address: 20.131.175.131
+        IPv4 Interface Address: 20.131.175.175
+        IPv6 Neighbor Address: 2001:0:131:175::131
+        Global IPv6 Interface Address: 2001:0:131:175::175
+        Adj-sid: 116 flags: [L V F] weight: 0x0
+        Adj-sid: 115 flags: [L V] weight: 0x0
+        TE default metric: 10
+        Min/Max unidirectional link delay: 100000/100000 us
+        Average unidirectional link delay: 100000 us
+        Local link ID: 1002
+        Remote link ID: 39
+        Application Specific Link Attributes:
+          Standard applications: Flex-Algo
+            Administrative group (Color): 1
+            TE default metric: 10
+            Min/Max unidirectional link delay: 100000/100000 us
+      IS Neighbor          : Juniper-179-ACX7024.00 Metric: 1
+        IPv4 Neighbor Address: 21.175.179.179
+        IPv4 Interface Address: 21.175.179.175
+        IPv6 Neighbor Address: 2001:1:175::179:179
+        Global IPv6 Interface Address: 2001:1:175::179:175
+        Adj-sid: 177 flags: [L V B] weight: 0x0
+        TE default metric: 10
+        Min/Max unidirectional link delay: 100000/100000 us
+        Average unidirectional link delay: 100000 us
+        Local link ID: 1046
+        Remote link ID: 1032
+        Application Specific Link Attributes:
+          Standard applications: Flex-Algo
+            Administrative group (Color): 1
+            TE default metric: 10
+            Min/Max unidirectional link delay: 100000/100000 us
+      IS Neighbor          : Nokia-SR1-217.00    Metric: 10
+        IPv4 Neighbor Address: 20.175.217.217
+        IPv4 Interface Address: 20.175.217.175
+        IPv6 Neighbor Address: 2001:0:175:217::217
+        Global IPv6 Interface Address: 2001:0:175:217::175
+        Adj-sid: 197 flags: [L V] weight: 0x0
+        TE default metric: 10
+        Min/Max unidirectional link delay: 100000/100000 us
+        Average unidirectional link delay: 100000 us
+        Local link ID: 1003
+        Remote link ID: 7
+        Application Specific Link Attributes:
+          Standard applications: Flex-Algo
+            Administrative group (Color): 1
+            TE default metric: 10
+            Min/Max unidirectional link delay: 100000/100000 us
+      IS Neighbor          : 221.00              Metric: 10
+        IPv4 Neighbor Address: 20.175.221.221
+        IPv4 Interface Address: 20.175.221.175
+        Global IPv6 Interface Address: 2001:0:175:221::175
+        Adj-sid: 199 flags: [L V] weight: 0x0
+        TE default metric: 10
+        Min/Max unidirectional link delay: 100000/100000 us
+        Average unidirectional link delay: 100000 us
+        Local link ID: 1009
+        Remote link ID: 8388613
+        Application Specific Link Attributes:
+          Standard applications: Flex-Algo
+            Administrative group (Color): 1
+            TE default metric: 10
+            Min/Max unidirectional link delay: 100000/100000 us
+      IS Neighbor (MT-IPv6): Nokia-SR1-217.00    Metric: 10
+        IPv4 Interface Address: 20.175.217.175
+        IPv6 Neighbor Address: 2001:0:175:217::217
+        Global IPv6 Interface Address: 2001:0:175:217::175
+        Adj-sid: 198 flags: [L V F] weight: 0x0
+        TE default metric: 10
+        Min/Max unidirectional link delay: 100000/100000 us
+        Average unidirectional link delay: 100000 us
+        Local link ID: 1003
+        Remote link ID: 7
+        Application Specific Link Attributes:
+          Standard applications: Flex-Algo
+            Administrative group (Color): 1
+            TE default metric: 10
+            Min/Max unidirectional link delay: 100000/100000 us
+      Reachability         : 127.0.0.1/32 Metric: 0 Type: 1 Up
+      Reachability         : 10.0.0.175/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 175 Flags: [N] Algorithm: 0
+        SR Prefix-SID: 1305 Flags: [N] Algorithm: 130
+        SR Prefix-SID: 1304 Flags: [N] Algorithm: 129
+        SR Prefix-SID: 1303 Flags: [N] Algorithm: 128
+      Reachability         : 20.66.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.72.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.175.214.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.131.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.32.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 21.175.179.0/24 Metric: 1 Type: 1 Up
+      Reachability         : 20.175.179.0/24 Metric: 1 Type: 1 Up
+      Reachability         : 20.175.184.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 21.120.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.120.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.175.217.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.128.175.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.175.221.0/24 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2002::175/128 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 575 Flags: [N] Algorithm: 0
+        SR Prefix-SID: 1705 Flags: [N] Algorithm: 130
+        SR Prefix-SID: 1704 Flags: [N] Algorithm: 129
+        SR Prefix-SID: 1703 Flags: [N] Algorithm: 128
+      Reachability (MT-IPv6): 2001:0:175:214::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:66:175::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:72:175::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:32:175::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:1:175::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:175::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:175:184::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:120:175::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:1:120:175::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:175:217::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:128:175::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:175:221::/64 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.175 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  3
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0, 1, 128, 129, 130
+        Flex Algo: Algorithm: 130 Metric: IGP Metric (0) Calc: SPF (0) Prio: 0
+          Exclude admin groups: 1
+          Flags: [M] 0x80
+        Flex Algo: Algorithm: 129 Metric: TE Metric (2) Calc: SPF (0) Prio: 238
+          Flags: [M] 0x80
+        Flex Algo: Algorithm: 128 Metric: Min Unidirectional Delay Metric (1) Calc: SPF (0) Prio: 0
+          Flags: [M] 0x80
+      Shared Risk Link Group:  Neighbor Juniper-179-ACX7024.00 (Numbered)
+        Interface Address: 21.175.179.175
+        Neighbor Address: 21.175.179.179
+        Group ID: 4
+      Unsupported TLV: Type: 14 Length: 2
+    Juniper-175-ACX7100-48L.00-01       995   2531   673    299 L2  0000.0000.0175.00-01  <>
+      Remaining lifetime received: 1196 s Modified to: 1200 s
+      IS Neighbor          : Arista-PE32-Q2C-32.00 Metric: 10
+        IPv4 Neighbor Address: 20.32.175.32
+        IPv4 Interface Address: 20.32.175.175
+        IPv6 Neighbor Address: 2001:0:32:175::32
+        Global IPv6 Interface Address: 2001:0:32:175::175
+        Adj-sid: 147 flags: [L V] weight: 0x0
+        TE default metric: 10
+        Min/Max unidirectional link delay: 100000/100000 us
+        Average unidirectional link delay: 100000 us
+        Local link ID: 1004
+        Remote link ID: 88
+        Application Specific Link Attributes:
+          Standard applications: Flex-Algo
+            Administrative group (Color): 1
+            TE default metric: 10
+            Min/Max unidirectional link delay: 100000/100000 us
+      IS Neighbor (MT-IPv6): Arista-PE32-Q2C-32.00 Metric: 10
+        IPv4 Interface Address: 20.32.175.175
+        IPv6 Neighbor Address: 2001:0:32:175::32
+        Global IPv6 Interface Address: 2001:0:32:175::175
+        Adj-sid: 148 flags: [L V F] weight: 0x0
+        TE default metric: 10
+        Min/Max unidirectional link delay: 100000/100000 us
+        Average unidirectional link delay: 100000 us
+        Local link ID: 1004
+        Remote link ID: 88
+        Application Specific Link Attributes:
+          Standard applications: Flex-Algo
+            Administrative group (Color): 1
+            TE default metric: 10
+            Min/Max unidirectional link delay: 100000/100000 us
+    Juniper-175-ACX7100-48L.00-02       675   4392   831    434 L2  0000.0000.0175.00-02  <>
+      Remaining lifetime received: 1196 s Modified to: 1200 s
+      IS Neighbor          : Juniper-179-ACX7024.00 Metric: 1
+        IPv4 Neighbor Address: 20.175.179.179
+        IPv4 Interface Address: 20.175.179.175
+        IPv6 Neighbor Address: 2001:0:175::179:179
+        Global IPv6 Interface Address: 2001:0:175::179:175
+        Adj-sid: 187 flags: [L V B] weight: 0x0
+        TE default metric: 10
+        Min/Max unidirectional link delay: 100000/100000 us
+        Average unidirectional link delay: 100000 us
+        Local link ID: 1005
+        Remote link ID: 1010
+        Application Specific Link Attributes:
+          Standard applications: Flex-Algo
+            Administrative group (Color): 1
+            TE default metric: 10
+            Min/Max unidirectional link delay: 100000/100000 us
+      IS Neighbor          : H3C_M1A_120.00      Metric: 10
+        IPv4 Neighbor Address: 21.120.175.120
+        IPv4 Interface Address: 21.120.175.175
+        Global IPv6 Interface Address: 2001:1:120:175::175
+        Adj-sid: 195 flags: [L V] weight: 0x0
+        TE default metric: 10
+        Min/Max unidirectional link delay: 100000/100000 us
+        Average unidirectional link delay: 100000 us
+        Local link ID: 1058
+        Remote link ID: 6
+        Application Specific Link Attributes:
+          Standard applications: Flex-Algo
+            Administrative group (Color): 1
+            TE default metric: 10
+            Min/Max unidirectional link delay: 100000/100000 us
+      IS Neighbor          : H3C_M1A_120.00      Metric: 10
+        IPv4 Neighbor Address: 20.120.175.120
+        IPv4 Interface Address: 20.120.175.175
+        Global IPv6 Interface Address: 2001:0:120:175::175
+        Adj-sid: 194 flags: [L V] weight: 0x0
+        TE default metric: 10
+        Min/Max unidirectional link delay: 100000/100000 us
+        Average unidirectional link delay: 100000 us
+        Local link ID: 1007
+        Remote link ID: 4
+        Application Specific Link Attributes:
+          Standard applications: Flex-Algo
+            Administrative group (Color): 1
+            TE default metric: 10
+            Min/Max unidirectional link delay: 100000/100000 us
+      Reachability (MT-IPv6): 2001:0:131:175::/64 Metric: 10 Type: 1 Up
+      Shared Risk Link Group:  Neighbor Juniper-179-ACX7024.00 (Numbered)
+        Interface Address: 20.175.179.175
+        Neighbor Address: 20.175.179.179
+        Group ID: 4
+ H  Juniper-179-ACX7024.00-00       879   3953   964    464 L2  0000.0000.0179.00-00  <>
+      Remaining lifetime received: 1194 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Juniper-179-ACX7024
+      TE IPv4 router ID: 10.0.0.179
+      TE IPv6 router ID: 2001:0:175::179:179
+      Area addresses: 49.0001
+      Interface address: 10.0.0.179
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 10
+        IPv4 Neighbor Address: 20.175.179.175
+        IPv4 Interface Address: 20.175.179.179
+        IPv6 Neighbor Address: 2001:0:175::179:175
+        Global IPv6 Interface Address: 2001:0:175::179:179
+        Adj-sid: 29 flags: [L V F] weight: 0x0
+        Adj-sid: 28 flags: [L V] weight: 0x0
+        TE default metric: 10
+        Min/Max unidirectional link delay: 100000/100000 us
+        Average unidirectional link delay: 100000 us
+        Local link ID: 1010
+        Remote link ID: 1005
+        Application Specific Link Attributes:
+          Standard applications: Flex-Algo
+            Administrative group (Color): 1
+            TE default metric: 10
+            Min/Max unidirectional link delay: 100000/100000 us
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 10
+        IPv4 Neighbor Address: 21.175.179.175
+        IPv4 Interface Address: 21.175.179.179
+        IPv6 Neighbor Address: 2001:1:175::179:175
+        Global IPv6 Interface Address: 2001:1:175::179:179
+        Adj-sid: 26 flags: [L V F] weight: 0x0
+        Adj-sid: 25 flags: [L V] weight: 0x0
+        TE default metric: 10
+        Min/Max unidirectional link delay: 100000/100000 us
+        Average unidirectional link delay: 100000 us
+        Local link ID: 1032
+        Remote link ID: 1046
+        Application Specific Link Attributes:
+          Standard applications: Flex-Algo
+            Administrative group (Color): 1
+            Min/Max unidirectional link delay: 100000/100000 us
+      Reachability         : 10.0.0.179/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 179 Flags: [N] Algorithm: 0
+        SR Prefix-SID: 1307 Flags: [N] Algorithm: 128
+        SR Prefix-SID: 1308 Flags: [N] Algorithm: 129
+        SR Prefix-SID: 1309 Flags: [N] Algorithm: 130
+      Router Capabilities: Router Id: 10.0.0.179 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  8
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0, 1, 128, 129, 130
+      Unsupported TLV: Type: 14 Length: 2
+    Nokia-SXR-214.00-00       24163  52972  1197    257 L2  0000.0000.0214.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Nokia-SXR-214
+      TE IPv4 router ID: 10.0.0.214
+      TE IPv6 router ID: 2000::214
+      Area addresses: 49.0001
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.214
+      Interface address: 20.66.214.214
+      Interface address: 2000::214
+      Interface address: 2001:0:66:214::214
+      IS Neighbor          : Ciena-8140-66.00    Metric: 10
+        IPv4 Neighbor Address: 20.66.214.66
+        IPv4 Interface Address: 20.66.214.214
+        Adj-sid: 30045 flags: [L V B] weight: 0x0
+      Reachability         : 20.66.214.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.214/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 214 Flags: [N P] Algorithm: 0
+      Reachability (MT-IPv6): 2000::214/128 Metric: 0 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:66:214::/64 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.214 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  15
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0
+    Arista-Spine3-Q2A-2-23.00-00        92  26037   593    167 L2  0000.0000.3030.00-00  <>
+      LSP generation remaining wait time: 0 ms
+      Time remaining until refresh: 293 s
+      NLPID: 0xCC(IPv4)
+      Hostname: Arista-Spine3-Q2A-2-23
+      Area addresses: 49.0001
+      Interface address: 10.0.30.30
+      Interface address: 20.30.66.30
+      IS Neighbor          : Ciena-8140-66.00    Metric: 1
+        IPv4 Neighbor Address: 20.30.66.66
+        IPv4 Interface Address: 20.30.66.30
+        Adj-sid: 378674 flags: [L V] weight: 0x0
+      Reachability         : 10.0.30.30/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 330 Flags: [N] Algorithm: 0
+      Reachability         : 20.30.66.0/24 Metric: 1 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.30.30 Flags: []
+        SR Local Block:
+          SRLB Base: 965536 Range: 65536
+        Area leader priority: 250 algorithm: 0
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  12
+        SR Capability: Flags: [I]
+          SRGB Base: 20000 Range: 2000
+    Juniper-156-PTX10002-36QDD.00-00       107  49284   772    291 L2  0000.0001.0156.00-00  <>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Juniper-156-PTX10002-36QDD
+      TE IPv4 router ID: 10.0.0.156
+      TE IPv6 router ID: 2002::156
+      Area addresses: 49.0001
+      Interface address: 10.0.0.156
+      Interface address: 10.0.1.156
+      Interface address: 2002::156
+      IS Neighbor          : Nokia-IXRe2-216.00  Metric: 10
+        IPv4 Neighbor Address: 20.156.216.216
+        IPv4 Interface Address: 20.156.216.156
+        Adj-sid: 28 flags: [L V] weight: 0x0
+        Maximum link BW: 100.00 Gbps
+        Local link ID: 1038
+        Remote link ID: 24
+      IS Neighbor          : Ciena-8140-66.00    Metric: 10
+        IPv4 Neighbor Address: 20.66.156.66
+        IPv4 Interface Address: 20.66.156.156
+        Adj-sid: 29 flags: [L V] weight: 0x0
+        Maximum link BW: 100.00 Gbps
+        Local link ID: 1049
+        Remote link ID: 1073731840
+      Reachability         : 10.0.1.156/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 456 Flags: [N] Algorithm: 0
+      Router Capabilities: Router Id: 10.0.0.156 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  0
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0, 1
+      Unsupported TLV: Type: 14 Length: 2
+ H  Juniper-179-ACX7024.00-00       567  25367   910    222 L2  0000.0001.0179.00-00  <>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Juniper-179-ACX7024
+      TE IPv4 router ID: 10.0.0.179
+      TE IPv6 router ID: 2001:0:175::179:179
+      Area addresses: 49.0001
+      Interface address: 10.0.0.179
+      Interface address: 10.0.1.179
+      IS Neighbor          : Ciena-8140-66.00    Metric: 10
+        IPv4 Neighbor Address: 20.66.179.66
+        IPv4 Interface Address: 20.66.179.179
+        Adj-sid: 31 flags: [L V] weight: 0x0
+        Maximum link BW: 10.00 Gbps
+        Local link ID: 1037
+        Remote link ID: 1073731836
+      Reachability         : 10.0.1.179/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 479 Flags: [N] Algorithm: 0
+      Router Capabilities: Router Id: 10.0.0.179 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  8
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0, 1
+      Unsupported TLV: Type: 14 Length: 2
+    Nokia-IXRe2-216.00-00      1848  43736  1068    322 L2  0100.0000.0216.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Nokia-IXRe2-216
+      TE IPv4 router ID: 10.0.0.216
+      TE IPv6 router ID: 2002::216
+      Area addresses: 49.0001.0000.0000.0216.00
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.216
+      Interface address: 20.53.216.216
+      Interface address: 20.156.216.216
+      Interface address: 2001:0:53:216::216
+      Interface address: 2002::216
+      IS Neighbor          : Arrcus-53.00        Metric: 10
+        IPv4 Neighbor Address: 20.53.216.53
+        IPv4 Interface Address: 20.53.216.216
+        Adj-sid: 1048574 flags: [L V B] weight: 0x0
+      IS Neighbor          : Juniper-156-PTX10002-36QDD.00 Metric: 10
+        IPv4 Neighbor Address: 20.156.216.156
+        IPv4 Interface Address: 20.156.216.216
+        Adj-sid: 1048572 flags: [L V B] weight: 0x0
+      IS Neighbor (MT-IPv6): Arrcus-53.00        Metric: 10
+      Reachability         : 20.53.216.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.156.216.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.216/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 216 Flags: [N P] Algorithm: 0
+      Reachability (MT-IPv6): 2001:0:53:216::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2002::216/128 Metric: 0 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.216 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  11
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0
+    Nokia-SR1-217.00-00        1286  45394  1196    392 L2  0100.0000.0217.00-00  <>
+      Remaining lifetime received: 1196 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Nokia-SR1-217
+      TE IPv4 router ID: 10.0.0.217
+      TE IPv6 router ID: 2002::217
+      Area addresses: 49.0001.0000.0000.0217.00
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.217
+      Interface address: 20.175.217.217
+      Interface address: 2001:0:175:217::217
+      Interface address: 2002::217
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 10
+        IPv4 Neighbor Address: 20.175.217.175
+        IPv4 Interface Address: 20.175.217.217
+        Adj-sid: 524268 flags: [L V B] weight: 0x0
+        Application Specific Link Attributes:
+          Standard applications: SR-TE
+            Administrative group (Color): 1
+            TE default metric: 10
+            Maximum link BW: 10.00 Gbps
+        Application Specific Link Attributes:
+          Standard applications: Flex-Algo
+            Administrative group (Color): 1
+            TE default metric: 10
+            Min/Max unidirectional link delay: 100000/100000 us
+      IS Neighbor (MT-IPv6): Juniper-175-ACX7100-48L.00 Metric: 10
+      Reachability         : 10.0.0.217/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 57 Flags: [N P] Algorithm: 0
+        SR Prefix-SID: 1345 Flags: [N P] Algorithm: 128
+        SR Prefix-SID: 1346 Flags: [N P] Algorithm: 129
+        SR Prefix-SID: 1347 Flags: [N P] Algorithm: 130
+      Reachability         : 20.175.217.0/24 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:175:217::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2002::217/128 Metric: 0 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.217 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  12
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0, 128, 129, 130
+        Flex Algo: Algorithm: 128 Metric: Min Unidirectional Delay Metric (1) Calc: SPF (0) Prio: 100
+          Flags: [M] 0x80
+        Flex Algo: Algorithm: 129 Metric: TE Metric (2) Calc: SPF (0) Prio: 100
+          Flags: [M] 0x80
+        Flex Algo: Algorithm: 130 Metric: IGP Metric (0) Calc: SPF (0) Prio: 100
+          Exclude admin groups: 1
+          Flags: [M] 0x80
+    221.00-00                   860  59290  1076     86 L2  0221.0221.0221.00-00  <>
+      Remaining lifetime received: 1196 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      TE IPv4 router ID: 10.0.0.221
+      Area addresses: 49.0001
+      Router Capabilities: Router Id: 10.0.0.221 Flags: []
+        SR Local Block:
+          SRLB Base: 626688 Range: 14336
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  10
+        SR Capability: Flags: [I]
+          SRGB Base: 720000 Range: 2000
+        Algorithms:  0, 128, 129, 130
+      Unsupported TLV: Type: 14 Length: 2
+    221.00-01                    90  11242  1152     32 L2  0221.0221.0221.00-01  <>
+      Remaining lifetime received: 1196 s Modified to: 1200 s
+      Hostname: 221
+    221.00-02                   607  14667   961    305 L2  0221.0221.0221.00-02  <>
+      Remaining lifetime received: 1196 s Modified to: 1200 s
+      Interface address: 10.0.0.221
+      Interface address: 20.175.221.221
+      Interface address: 1221::1
+      Interface address: 2001:0:175:221::221
+      IS Neighbor          : Juniper-175-ACX7100-48L.00 Metric: 10
+        IPv4 Neighbor Address: 20.175.221.175
+        IPv4 Interface Address: 20.175.221.221
+        Adj-sid: 524293 flags: [L V B] weight: 0x0
+        Adj-sid: 524290 flags: [L V] weight: 0x0
+        Administrative group (Color): 1
+        TE default metric: 10
+        Maximum link BW: 10.00 Gbps
+        Maximum reservable link BW: 10.00 Gbps
+        Unreserved BW:
+            TE class 0: 10.00 Gbps	TE class 1: 10.00 Gbps	TE class 2: 10.00 Gbps
+            TE class 3: 10.00 Gbps	TE class 4: 10.00 Gbps	TE class 5: 10.00 Gbps
+            TE class 6: 10.00 Gbps	TE class 7: 10.00 Gbps
+        Min/Max unidirectional link delay: 10/10 us
+        Application Specific Link Attributes:
+          Standard applications: Flex-Algo
+            Administrative group (Color): 1
+            TE default metric: 10
+            Min/Max unidirectional link delay: 10/10 us
+      Reachability         : 10.0.0.221/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 221 Flags: [N] Algorithm: 0
+        SR Prefix-SID: 1349 Flags: [N] Algorithm: 128
+        SR Prefix-SID: 1350 Flags: [N] Algorithm: 129
+        SR Prefix-SID: 1351 Flags: [N] Algorithm: 130
+      Reachability         : 20.175.221.0/24 Metric: 10 Type: 1 Up
+      Reachability          : 1221::1/128 Metric: 0 Type: 1 Up
+      Reachability          : 2001:0:175:221::/64 Metric: 10 Type: 1 Up
+    Keysight-185.00-00            8   8805   711    132 L2  6500.0000.0185.00-00  <DefaultAtt>
+      Remaining lifetime received: 1195 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6) 0x81(CLNP)
+      Hostname: Keysight-185
+      Area addresses: 49.0001
+      Interface address: 20.53.185.185
+      IS Neighbor          : Arrcus-53.00        Metric: 10
+        Adj-sid: 9001 flags: [L V] weight: 0x0
+      Reachability         : 10.0.0.185/32 Metric: 10 Type: 1 Up
+        SR Prefix-SID: 185 Flags: [N] Algorithm: 0
+      Reachability         : 20.53.185.0/24 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.185 Flags: []
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0
+
+Legend:
+H - hostname conflict
+U - node unreachable
+
+IS-IS Instance: IGP VRF: default
+  IS-IS Level 2 Link State Database
+    LSPID                   Seq Num  Cksum  Life Length IS  Received LSPID        Flags
+    Arista-Spine3-Q2A-30.00-00      6990  51392   696    313 L2  0000.0000.0030.00-00  <>
+      LSP generation remaining wait time: 0 ms
+      Time remaining until refresh: 396 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Arista-Spine3-Q2A-30
+      TE IPv4 router ID: 10.0.0.30
+      Area addresses: 49.0001
+      Topology: 2 (IPv6)
+      Topology: 0 (IPv4)
+      Interface address: 10.0.0.30
+      Interface address: 20.30.184.30
+      Interface address: 2002::30
+      Interface address: 2001:0:30:184::30
+      Reachability         : 10.0.0.30/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 30 Flags: [N] Algorithm: 0
+        SR Prefix-SID: 158 Flags: [N] Algorithm: 128
+        SR Prefix-SID: 159 Flags: [N] Algorithm: 129
+        SR Prefix-SID: 160 Flags: [N] Algorithm: 130
+      Reachability         : 20.30.184.0/24 Metric: 1 Type: 1 Up
+      Reachability (MT-IPv6): 2002::30/128 Metric: 10 Type: 1 Up
+        SR Prefix-SID: 430 Flags: [N] Algorithm: 0
+        SR Prefix-SID: 558 Flags: [N] Algorithm: 128
+        SR Prefix-SID: 559 Flags: [N] Algorithm: 129
+        SR Prefix-SID: 560 Flags: [N] Algorithm: 130
+      Reachability (MT-IPv6): 2001:0:30:184::/64 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.30 Flags: []
+        SR Local Block:
+          SRLB Base: 965536 Range: 65536
+        Area leader priority: 250 algorithm: 0
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  12
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0, 128, 129, 130
+        Flex Algo: Algorithm: 130 Metric: IGP Metric (0) Calc: SPF (0) Prio: 237
+          Exclude admin groups: 1
+        Flex Algo: Algorithm: 129 Metric: TE Metric (2) Calc: SPF (0) Prio: 255
+        Flex Algo: Algorithm: 128 Metric: Min Unidirectional Delay Metric (1) Calc: SPF (0) Prio: 255
+

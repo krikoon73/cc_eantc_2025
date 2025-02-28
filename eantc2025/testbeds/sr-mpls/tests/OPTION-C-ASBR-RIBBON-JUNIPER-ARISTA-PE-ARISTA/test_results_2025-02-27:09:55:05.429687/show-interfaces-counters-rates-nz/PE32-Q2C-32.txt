@@ -1,0 +1,7 @@
+Port      Name                 Intvl  In Mbps      %  In Kpps Out Mbps      %
+Et1       Arista_Spine30_Eth2   0:00      4.2   0.0%        5      4.0   0.0%
+Et5       Juniper-175_509       0:00      4.2   0.0%        5      4.2   0.0%
+
+Port      Out Kpps
+Et1              4
+Et5              5

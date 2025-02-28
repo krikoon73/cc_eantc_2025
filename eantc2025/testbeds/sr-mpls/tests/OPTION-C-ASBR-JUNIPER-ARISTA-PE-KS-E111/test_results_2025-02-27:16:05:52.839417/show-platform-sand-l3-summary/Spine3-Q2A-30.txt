@@ -1,0 +1,113 @@
+Number of vrfs: 5
+
+Ipv4:
+  Routes:       84  backlog:  0  unprogrammed:  0
+  Adjacencies:  83  backlog:  0  unprogrammed:  0
+Ipv6:
+  Routes:       20  backlog:  0  unprogrammed:  0
+  Adjacencies:  83  backlog:  0  unprogrammed:  0
+Mpls:
+  Routes:       14  backlog:  0  unprogrammed:  0
+  Adjacencies:  6   backlog:  0  unprogrammed:  0
+
+Jericho2 Ip Fecs:
+  Non-ecmp fecs:  4129  ecmp fecs:  0  fec entries:  4129
+Jericho2 Mpls Fecs:
+  Non-ecmp fecs:  6  ecmp fecs:  0  fec entries:  6
+Jericho2 Vxlan Tunnel Fecs:
+  Non-ecmp fecs:  0  ecmp fecs:  0  fec entries:  0
+  Number of vxlan tunnels configured: 0
+
+Jericho2 Lpm Routes:
+  Routes:   84  unprogrammed:   0   
+  Routes6:  20  unprogrammed6:  0   
+  Backlog:  0 
+
+Jericho2 Lpm:
+  TCAM entries used:   4   Percent free:  99  ADS2 entries used:   7  Percent free:  99
+  Pivot buckets used:  6   Rows used:     2   Entries Per Bucket:  1  Percent free:  99
+  Route buckets used:  20  Rows used:     4   Entries Per Bucket:  5  Percent free:  99
+
+Lem:
+  IPv4  Host in Lem:            disabled
+  IPv4  Prefix-lengths in Lem:  None    
+  IPv6  Host in Lem:            disabled
+  IPv6  Prefix-lengths in Lem:  None    
+  Number of downloads:        1
+  Number of overflow events:  0
+
+Egress Arp rewrite entries in use (in each fap):
+  FixedSystem: 6
+Egress Arp remote rewrite entries in use (in each fap):
+  FixedSystem: 0
+Egress Ip tunnel rewrite entries in use (in each fap):
+  FixedSystem: 0
+Egress Mpls (for outer 2 labels) rewrite entries in use (in each fap):
+  FixedSystem: 0
+Egress Mpls (for inner 2 labels) rewrite entries in use (in each fap):
+  FixedSystem: 0
+Egress Sflow rewrite entries in use (in each fap):
+  FixedSystem: 0
+
+Egress rewrite chains in backlog: resource-full 0, no-interface 0
+
+Glem entries used per fap :
+  FixedSystem: 4102
+
+Jericho2 Fec:
+  Maximum FEC hierarchy levels:  2
+  ReusedEcmp:  0  allocs:  137  frees:  101  shuffles:  0  cmds:  0
+  Zombies:     0    purges:    0
+  Quarantine:  0/0  shuffles:  0  deletes:  0   
+  Preserved FECs: 0
+    First FEC preserved: never
+    Last FEC preserved: never
+  Fec insertion failures:  0
+  Level1  Fecs:
+    Non-ecmp fecs:            0    ecmp fecs:            1 
+    Non-ecmp (Percent free):  100  ecmp (Percent free):  99
+  Level2  Fecs:
+    Non-ecmp fecs:            0    ecmp fecs:            0  
+    Non-ecmp (Percent free):  100  ecmp (Percent free):  100
+  Level3  Fecs:
+    Non-ecmp fecs:            72  ecmp fecs:            0  
+    Non-ecmp (Percent free):  99  ecmp (Percent free):  100
+  ECMP FEC entries (in each bank):  2048
+  ECMP FEC bank allocation:
+    Unallocated Banks:      
+    ECMP Bank Usage:  
+      Level Bank No Reserved Entries in Use
+      ----- ------- -------- --------------
+          1       0      Yes              1
+          1       1      Yes              0
+          1       2      Yes              0
+          1       3      Yes              0
+          1       4      Yes              0
+          1       5      Yes              0
+          1       6      Yes              0
+          1       7      Yes              0
+          2       8      Yes              0
+          2       9      Yes              0
+          2      10      Yes              0
+          2      11      Yes              0
+          3      12      Yes              0
+          3      13      Yes              0
+          3      14      Yes              0
+          3      15      Yes              0
+
+Lpm Detail:
+  Requests:  572  cleanses:  100  batches:  100  avg batch size:  5
+
+Jericho Arp:
+  ArpTable writes:      24970  queued      0   
+  IngressTable writes:  57314  queued      0   
+  Coprocessors:         1      in CmdRing
+
+Tunnel Counter Status
+  Number of MPLS tunnels:                  0    
+  Number of uncountable MPLS tunnels:      0    
+  Number of MPLSoGRE tunnels:              0    
+  Number of uncountable MPLSoGRE tunnels:  0    
+  Number of IP tunnels:                    0    
+  Number of uncountable IP tunnels:        0    
+  Shuffle tunnel enabled:                  False

@@ -1,0 +1,83 @@
+Tunnel Type: Mpop(mpls pop), Mpush(mpls push), Mswap(mpls swap),
+             MoG(mpls-over-gre), T(IPv4 tunnels GRE/GUE/VXLAN),
+             N(Ipsec tunnel NAT-T [IP,SPORT,DPORT])
+CW  - Control word
+FL  - Flow label
+EL  - Entropy label
+ELI - Entropy label indicator
+D   - ECMP is divergent across switching chips
+ -----------------------------------------------------------------------------------------------
+|                                              FEC Entry                                        |
+ -----------------------------------------------------------------------------------------------
+|     |      |     |                    |     |        |                   |
+| ECMP|  FEC |     |                    |     |        |                   |
+|Index| Index| Cmd |     Destination    | VID | Outlif |   MAC / CPU Code  |    Tunnel Value
+ -----------------------------------------------------------------------------------------------
+|  -  |314666|TRAP | CoppSystemIpBcast  |0    |  -     | BcastReceive      |   -   
+|  -  |314667|TRAP | CoppSystemIpUcast  |0    |  -     | Receive           |   -   
+|  -  |314669|TRAP | CoppSystemL3LpmOver|0    |  -     | SlowReceive       |   -   
+|  -  |314671|TRAP | CoppSystemL3DstMiss|0    |  -     | ArpTrap           |   -   
+|  -  |315677|TRAP | CoppSystemL3DstMiss|1006 |1006    | ArpTrap           |   -   
+|  -  |315682|TRAP | CoppSystemL3DstMiss|1011 |1011    | ArpTrap           |   -   
+|  -  |315685|TRAP | CoppSystemL3DstMiss|1014 |1014    | ArpTrap           |   -   
+|  -  |315686|TRAP | CoppSystemL3DstMiss|1015 |1015    | ArpTrap           |   -   
+|  -  |315687|TRAP | CoppSystemL3DstMiss|1016 |1016    | ArpTrap           |   -   
+|  -  |315688|TRAP | CoppSystemL3DstMiss|1017 |1017    | ArpTrap           |   -   
+|  -  |315689|TRAP | CoppSystemL3DstMiss|1018 |1018    | ArpTrap           |   -   
+|  -  |315690|TRAP | CoppSystemL3DstMiss|1019 |1019    | ArpTrap           |   -   
+|  -  |315691|TRAP | CoppSystemL3DstMiss|1020 |1020    | ArpTrap           |   -   
+|  -  |315694|TRAP | CoppSystemL3DstMiss|1023 |1023    | ArpTrap           |   -   
+|  -  |318768|ROUTE| Et2                |1019 |103425  | d4:af:f7:2f:13:96 |   -   
+|  -  |318770|ROUTE| Et2                |1019 |103425  | d4:af:f7:2f:13:96 |   -   
+|  -  |318772|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |318774|ROUTE| Et14               |1015 |103428  | bc:31:e2:c1:50:b1 |   -   
+|  -  |318776|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |318778|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |318780|ROUTE| Et3                |1006 |103426  | bc:31:e2:e1:ec:2c |   -   
+|  -  |318782|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |318784|ROUTE| Et2                |1019 |103425  | d4:af:f7:2f:13:96 |   -   
+|  -  |318786|ROUTE| Et2                |1019 |103425  | d4:af:f7:2f:13:96 |   -   
+|  -  |318788|ROUTE| Et15               |1016 |103424  | 30:c5:07:84:3e:7a |   -   
+|  -  |318790|ROUTE| Et3                |1006 |103426  | bc:31:e2:e1:ec:2c |   -   
+|  -  |318792|ROUTE| Et1                |1011 |103434  | 68:bf:6c:35:1e:31 |   -   
+|  -  |318794|ROUTE| Et1                |1011 |103434  | 68:bf:6c:35:1e:31 |   -   
+|  -  |318796|ROUTE| Et1                |1011 |103434  | 68:bf:6c:35:1e:31 |   -   
+|  -  |318798|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |318922|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |318924|ROUTE| Et12               |1018 |103423  | 58:70:7f:9f:c4:03 |   -   
+|  -  |318926|ROUTE| Et12               |1018 |103423  | 58:70:7f:9f:c4:03 |   -   
+|  -  |318928|ROUTE| Et12               |1018 |103423  | 58:70:7f:9f:c4:03 |   -   
+|  -  |318930|ROUTE| Et14               |1015 |103428  | bc:31:e2:c1:50:b1 |   -   
+|  -  |318932|ROUTE| Et31               |1020 |103436  | e4:6d:7f:e3:c8:0a |   -   
+|  -  |318934|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |318936|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |318938|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |318940|ROUTE| Et5                |1023 |103427  | 18:5b:00:61:ac:6f |   -   
+|  -  |318942|ROUTE| Et1                |1011 |103434  | 68:bf:6c:35:1e:31 |   -   
+|  -  |318944|ROUTE| Et3                |1006 |103426  | bc:31:e2:e1:ec:2c |   -   
+|  -  |318946|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |318948|ROUTE| Et15               |1016 |103424  | 30:c5:07:84:3e:7a |   -   
+|  -  |318949|ROUTE| Et11               |1014 |103421  | d0:48:a1:ba:3c:61 |   -   
+|  -  |318950|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |318952|ROUTE| Et1                |1011 |103434  | 68:bf:6c:35:1e:31 |   -   
+|  -  |318954|ROUTE| Et11               |1014 |103421  | d0:48:a1:ba:3c:61 |   -   
+|  -  |318956|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |318958|ROUTE| Et5                |1023 |103427  | 18:5b:00:61:ac:6f |   -   
+|  -  |318960|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |318962|ROUTE| Et5                |1023 |103427  | 18:5b:00:61:ac:6f |   -   
+|  -  |318964|ROUTE| Et2                |1019 |103425  | d4:af:f7:2f:13:96 |   -   
+|  -  |318966|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |318968|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |318970|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |318972|ROUTE| Et12               |1018 |103423  | 58:70:7f:9f:c4:03 |   -   
+|  -  |318974|ROUTE| Et12               |1018 |103423  | 58:70:7f:9f:c4:03 |   -   
+|  -  |318976|ROUTE| Et15               |1016 |103424  | 30:c5:07:84:3e:7a |   -   
+|  -  |318978|ROUTE| Et11               |1014 |103421  | d0:48:a1:ba:3c:61 |   -   
+|  -  |318980|ROUTE| Et11               |1014 |103421  | d0:48:a1:ba:3c:61 |   -   
+|  -  |318982|ROUTE| Et9                |1017 |103422  | e0:9b:27:c4:c5:84 |   -   
+|  -  |318984|ROUTE| Et15               |1016 |103424  | 30:c5:07:84:3e:7a |   -   
+|  -  |318986|ROUTE| Et14               |1015 |103428  | bc:31:e2:c1:50:b1 |   -   
+|  -  |318988|ROUTE| Et9                |1017 |103422  | e0:9b:27:c4:c5:84 |   -   
+|  -  |318990|ROUTE| Et9                |1017 |103422  | e0:9b:27:c4:c5:84 |   -   
+|  -  |318992|ROUTE| Et31               |1020 |103436  | e4:6d:7f:e3:c8:0a |   -   
+

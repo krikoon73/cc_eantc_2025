@@ -1,0 +1,30 @@
+
+System ID: Arista-PE32-Q2C-32			Instance: 'LEFT'
+SR supported Data-plane: MPLS			SR Router ID: 10.0.0.32
+
+Node: 3      Proxy-Node: 0      Prefix: 1       Total Segments: 4
+
+Flag Descriptions: R: Re-advertised, N: Node Segment, P: no-PHP
+                   E: Explicit-NULL, V: Value, L: Local
+Segment status codes: * - Self originated Prefix, L1 - level 1, L2 - level 2, ! - SR-unreachable,
+                      # - Some IS-IS next-hops are SR-unreachable
+   Prefix                      SID   Label Type       Flags                        System ID       Level Protection  Algorithm   
+   ------------------------- ----- ------- ---------- ---------------------------- --------------- ----- ----------- -------------
+*  10.0.0.32/32                161   20161 Node       R:0 N:1 P:0 E:0 V:0 L:0      Arista-PE32-Q2C-32 L2    unprotected MIN-LATENCY 
+*  10.0.0.32/32                162   20162 Node       R:0 N:1 P:0 E:0 V:0 L:0      Arista-PE32-Q2C-32 L2    unprotected MIN-TE      
+*  10.0.0.32/32                163   20163 Node       R:0 N:1 P:0 E:0 V:0 L:0      Arista-PE32-Q2C-32 L2    unprotected ADMIN       
+*  209.209.209.201/32          201   20201 Prefix     R:0 N:0 P:1 E:0 V:0 L:0      Arista-PE32-Q2C-32 L2    unprotected SPF         
+
+System ID: Arista-PE32-Q2C-32			Instance: 'RIGHT'
+SR supported Data-plane: MPLS			SR Router ID: 10.0.0.32
+
+Node: 1      Proxy-Node: 0      Prefix: 1       Total Segments: 2
+
+Flag Descriptions: R: Re-advertised, N: Node Segment, P: no-PHP
+                   E: Explicit-NULL, V: Value, L: Local
+Segment status codes: * - Self originated Prefix, L1 - level 1, L2 - level 2, ! - SR-unreachable,
+                      # - Some IS-IS next-hops are SR-unreachable
+   Prefix                      SID   Label Type       Flags                        System ID       Level Protection  Algorithm   
+   ------------------------- ----- ------- ---------- ---------------------------- --------------- ----- ----------- -------------
+*  10.0.0.32/32                 32   20032 Node       R:0 N:1 P:0 E:0 V:0 L:0      Arista-PE32-Q2C-32 L2    unprotected SPF         
+*  209.209.209.202/32          202   20202 Prefix     R:0 N:0 P:1 E:0 V:0 L:0      Arista-PE32-Q2C-32 L2    unprotected SPF         

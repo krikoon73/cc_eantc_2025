@@ -1,0 +1,5 @@
+Input      QL     Priority Status  
+---------- ------ -------- --------
+Ethernet31 QL-PRC      127 active  
+Ethernet39 QL-DNU      127 unusable
+

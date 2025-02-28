@@ -1,0 +1,24 @@
+Legend:
+H - hostname conflict
+U - node unreachable
+
+IS-IS Instance: IGP VRF: default
+  IS-IS Level 2 Link State Database
+    LSPID                   Seq Num  Cksum  Life Length IS  Received LSPID        Flags
+    Arista-PE31-Q2C-31.00-00       664  44437   583    100 L2  0000.0000.0031.00-00  <>
+      LSP generation remaining wait time: 0 ms
+      Time remaining until refresh: 283 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Arista-PE31-Q2C-31
+      Area addresses: 49.0001
+      Topology: 2 (IPv6)
+      Topology: 0 (IPv4)
+      Router Capabilities: Router Id: 10.0.0.31 Flags: []
+        SR Local Block:
+          SRLB Base: 965536 Range: 65536
+        Area leader priority: 250 algorithm: 0
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  12
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+

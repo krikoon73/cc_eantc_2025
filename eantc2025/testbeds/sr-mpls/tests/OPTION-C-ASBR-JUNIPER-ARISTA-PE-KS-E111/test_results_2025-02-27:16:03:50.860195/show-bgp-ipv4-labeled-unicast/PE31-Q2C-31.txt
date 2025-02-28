@@ -1,0 +1,24 @@
+BGP routing table information for VRF default
+Router identifier 10.0.0.31, local AS number 64512
+Route status codes: s - suppressed contributor, * - valid, > - active, E - ECMP head, e - ECMP
+                    S - Stale, c - Contributing to ECMP, b - backup, L - labeled-unicast
+                    % - Pending best path selection
+Origin codes: i - IGP, e - EGP, ? - incomplete
+AS Path Attributes: Or-ID - Originator ID, C-LST - Cluster List, LL Nexthop - Link Local Nexthop
+
+          Network                Next Hop              Metric  AIGP       LocPref Weight  Path
+ * >  L   10.0.0.31/32           -                     -       -          -       0       i
+ * >EcL   10.0.0.53/32           209.209.209.202       0       -          100     0       ? Or-ID: 10.0.0.53 C-LST: 32.32.32.201 
+ *  ecL   10.0.0.53/32           209.209.209.202       0       -          100     0       ? Or-ID: 10.0.0.53 C-LST: 10.0.0.214 
+ *    L   10.0.0.53/32           209.209.209.202       0       -          100     0       65000 ? Or-ID: 10.0.0.53 C-LST: 10.0.201.156 
+ * >EcL   10.0.0.128/32          209.209.209.202       0       -          100     0       i Or-ID: 10.0.0.128 C-LST: 32.32.32.201 
+ *  ecL   10.0.0.128/32          209.209.209.202       0       -          100     0       i Or-ID: 10.0.0.128 C-LST: 10.0.0.214 
+ *    L   10.0.0.128/32          209.209.209.202       0       -          100     0       65000 i Or-ID: 10.0.0.128 C-LST: 10.0.201.156 
+ * >EcL   10.0.0.179/32          209.209.209.202       0       -          100     0       i Or-ID: 10.0.0.179 C-LST: 32.32.32.201 
+ *  ecL   10.0.0.179/32          209.209.209.202       0       -          100     0       i Or-ID: 10.0.0.179 C-LST: 10.0.0.214 
+ *    L   10.0.0.179/32          209.209.209.202       0       -          100     0       65000 i Or-ID: 10.0.0.179 C-LST: 10.0.201.156 
+ * >  L   10.0.0.184/32          209.209.209.202       0       -          175     0       65000 i Or-ID: 192.0.0.1 C-LST: 10.0.201.156 
+ *    L   10.0.0.184/32          209.209.209.202       0       -          150     0       i Or-ID: 192.0.0.1 C-LST: 32.32.32.201 
+ * >EcL   10.0.0.216/32          209.209.209.202       0       -          100     0       i Or-ID: 10.0.0.216 C-LST: 32.32.32.201 
+ *  ecL   10.0.0.216/32          209.209.209.202       0       -          100     0       i Or-ID: 10.0.0.216 C-LST: 10.0.0.214 
+ *    L   10.0.0.216/32          209.209.209.202       0       -          100     0       65000 i Or-ID: 10.0.0.216 C-LST: 10.0.201.156 

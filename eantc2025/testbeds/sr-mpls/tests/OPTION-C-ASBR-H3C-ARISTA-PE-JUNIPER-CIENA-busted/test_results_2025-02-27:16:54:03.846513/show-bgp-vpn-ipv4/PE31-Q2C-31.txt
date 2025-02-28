@@ -1,0 +1,33 @@
+BGP routing table information for VRF default
+Router identifier 10.0.0.31, local AS number 64512
+Route status codes: s - suppressed contributor, * - valid, > - active, E - ECMP head, e - ECMP
+                    S - Stale, c - Contributing to ECMP, b - backup, L - labeled-unicast
+                    % - Pending best path selection
+Origin codes: i - IGP, e - EGP, ? - incomplete
+AS Path Attributes: Or-ID - Originator ID, C-LST - Cluster List, LL Nexthop - Link Local Nexthop
+
+          Network                Next Hop              Metric  LocPref Weight  Path
+ * >      RD: 10.0.0.31:5001 IPv4 prefix 10.0.0.31/32
+                                 -                     -       -       0       i
+ * >      RD: 10000:128 IPv4 prefix 20.128.197.0/24
+                                 10.0.0.128            -       100     0       65000 ?
+ * >      RD: 10.0.0.31:5001 IPv4 prefix 50.10.31.0/24
+                                 -                     -       -       0       i
+ * >      RD: 53:5001 IPv4 prefix 50.10.53.0/24
+                                 10.0.0.53             -       100     0       65000 ?
+ * >      RD: 72:5001 IPv4 prefix 50.10.72.0/24
+                                 10.0.0.72             -       100     0       ? Or-ID: 10.0.0.72 C-LST: 10.0.0.30 
+ * >      RD: 84:5001 IPv4 prefix 50.10.84.0/24
+                                 10.0.0.84             0       100     0       ? Or-ID: 10.0.0.84 C-LST: 10.0.0.30 
+ * >      RD: 122:5001 IPv4 prefix 50.10.122.0/24
+                                 10.0.0.122            0       100     0       ? Or-ID: 10.0.0.122 C-LST: 10.0.0.30 
+ * >      RD: 65000:128 IPv4 prefix 50.10.128.0/24
+                                 10.0.0.128            -       100     0       65000 ?
+ * >      RD: 179:5001 IPv4 prefix 50.10.179.0/24
+                                 10.0.0.179            -       100     0       65000 i
+ * >      RD: 184:5001 IPv4 prefix 50.10.184.0/24
+                                 10.0.0.184            -       100     0       65000 i
+ * >      RD: 216:5001 IPv4 prefix 50.10.216.0/24
+                                 10.0.0.216            -       100     0       65000 i
+ * >      RD: 216:7001 IPv4 prefix 50.10.216.0/24
+                                 10.0.0.216            -       100     0       65000 i

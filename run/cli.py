@@ -86,8 +86,8 @@ def interpreter():
         prog="run",
         description="A simple CLI tool to run EANTC tests", formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument(
-        '-y', '--year', default=2024,
-        help='The EANTC year. Optional, default is 2024. This will be used to find tests parent directory.'
+        '-y', '--year', default=2025,
+        help='The EANTC year. Optional, default is 2025. This will be used to find tests parent directory.'
     )
     # parser.add_argument(
     #     '-i', '--inventory', choices=['evpn-vxlan', 'evpn-mpls', 'sr-mpls', 'srv6', 'synce'], required=True,
@@ -134,7 +134,7 @@ def interpreter():
         inventory={
             'plugin': 'SimpleInventory',
             'options': {
-                'host_file': f'{os.getcwd()}/eantc2024/testbeds/{args.inventory}/nornir-hosts.yml',
+                'host_file': f'{os.getcwd()}/eantc2025/testbeds/{args.inventory}/nornir-hosts.yml',
                 'group_file': f'{os.getcwd()}/nornir-groups.yml',
                 'defaults_file': nr_defaults_file
             }

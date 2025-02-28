@@ -1,0 +1,25 @@
+Aggregate VoQ Counters
+Egress                     Traffic               Pkts             Octets           DropPkts         DropOctets
+Port                       Class  
+--------------------------------------------------------------------------------------------------------------
+Et31                       TC1             4097013003       393313248288          822248698        78935875008
+Et31                       TC6                3937143          377965728                  0                  0
+Et31                       TC7                  37624            3563329                  0                  0
+Et36                       TC7                     65              15535                  0                  0
+Et39                       TC7                  28493            2243904                  0                  0
+Et46/1                     TC1             4099397612       393542170720                  0                  0
+Et46/1                     TC6                3937143          377965728                  0                  0
+Et46/1                     TC7                     66              16841                  0                  0
+
+Egress Queue Counters
+Port                 Traffic DropPrec   DestType          OutEnqPkts      OutEnqOctets       OutDropPkts     OutDropOctets
+                     Class
+Et31                 TC1     DP0-3      UC                4097013015      393313249440                 0                 0
+Et31                 TC6     DP0-3      UC                   3937558         378005568                 0                 0
+Et31                 TC7     DP0-3      UC                     37622           2999406                 0                 0
+Et36                 TC7     DP0-3      UC                        65             15080                 0                 0
+Et39                 TC7     DP0-3      UC                     28661           1981329                 0                 0
+Et46/1               TC1     DP0-3      UC                4098148881      393422292544                 0                 0
+Et46/1               TC6     DP0-3      UC                   3937558         378005568                 0                 0
+Et46/1               TC7     DP0-3      UC                        66             16379                 0                 0
+

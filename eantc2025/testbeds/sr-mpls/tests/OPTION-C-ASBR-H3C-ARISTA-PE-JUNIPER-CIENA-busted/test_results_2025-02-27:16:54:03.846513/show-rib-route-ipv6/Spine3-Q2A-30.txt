@@ -1,0 +1,42 @@
+VRF: default, Protocol: connected
+Codes: C - Connected, S - Static, P - Route Input, G - Gribi
+       B - BGP, O - Ospf, O3 - Ospf3, I - Isis, R - Rip, VL - VRF Leak
+       > - Best Route, * - Unresolved Next hop
+       EM - Exact match of the SR-TE Policy
+       NM - Null endpoint match of the SR-TE Policy
+       AM - Any endpoint match of the SR-TE Policy
+       L - Part of a recursive route resolution loop
+       A - Next hop not resolved in ARP/ND
+       NF - Not in FEC
+>C    2001:0:30:31::/64 [0 pref/0 metric] updated 01:47:14 ago
+         via Ethernet1, directly connected
+>C    2001:0:30:32::/64 [0 pref/0 metric] updated 01:36:46 ago
+         via Ethernet2, directly connected
+>C    2001:0:30:72::/64 [0 pref/0 metric] updated 01:01:37 ago
+         via Ethernet9, directly connected
+>C    2001:0:30:84::/64 [0 pref/0 metric] updated 01:00:58 ago
+         via Ethernet12, directly connected
+>C    2001:0:30:120::/64 [0 pref/0 metric] updated 00:20:54 ago
+         via Ethernet3, directly connected
+>C    2001:0:30:156::/64 [0 pref/0 metric] updated 00:25:18 ago
+         via Ethernet11, directly connected
+>C    2001:0:30:214::/64 [0 pref/0 metric] updated 00:57:25 ago
+         via Ethernet5, directly connected
+>C    2002::30/128 [0 pref/0 metric] updated 01:50:40 ago
+         via Loopback0, directly connected
+VRF: default, Protocol: route-input
+Codes: C - Connected, S - Static, P - Route Input, G - Gribi
+       B - BGP, O - Ospf, O3 - Ospf3, I - Isis, R - Rip, VL - VRF Leak
+       > - Best Route, * - Unresolved Next hop
+       EM - Exact match of the SR-TE Policy
+       NM - Null endpoint match of the SR-TE Policy
+       AM - Any endpoint match of the SR-TE Policy
+       L - Part of a recursive route resolution loop
+       A - Next hop not resolved in ARP/ND
+       NF - Not in FEC
+>P    ::/96 [1 pref/0 metric] updated 01:50:39 ago
+         via Null0, directly connected [NF]
+>P    ::ffff:127.0.0.0/104 [1 pref/0 metric] updated 01:50:39 ago
+         via :: [1 pref/1 metric] type ipv6
+            via , directly connected
+>P    fe80::/10 [1 pref/0 metric] updated 01:50:39 ago

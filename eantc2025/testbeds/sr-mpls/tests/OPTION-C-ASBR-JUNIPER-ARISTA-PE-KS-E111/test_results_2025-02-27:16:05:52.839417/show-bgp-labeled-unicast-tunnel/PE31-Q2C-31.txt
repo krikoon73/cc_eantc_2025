@@ -1,0 +1,16 @@
+Index  Endpoint       Nexthop/Tunnel Index  Interface  Labels     Contributing 
+------ -------------- --------------------- ---------- ---------- -------------
+360    10.0.0.216/32  IS-IS SR IPv4 (20)    -          [ 20216 ]  Yes          
+361    10.0.0.53/32   IS-IS SR IPv4 (20)    -          [ 20053 ]  Yes          
+362    10.0.0.128/32  IS-IS SR IPv4 (20)    -          [ 20128 ]  Yes          
+363    10.0.0.179/32  IS-IS SR IPv4 (20)    -          [ 20179 ]  Yes          
+364    10.0.0.184/32  IS-IS SR IPv4 (20)    -          [ 20184 ]  Yes          
+
+   Metric/Type       Metric 2       Pref    Pref 2
+----------------- -------------- ---------- ------
+      0 MED          0              200     0     
+      0 MED          0              200     0     
+      0 MED          0              200     0     
+      0 MED          0              200     0     
+      0 MED          0              200     0     
+

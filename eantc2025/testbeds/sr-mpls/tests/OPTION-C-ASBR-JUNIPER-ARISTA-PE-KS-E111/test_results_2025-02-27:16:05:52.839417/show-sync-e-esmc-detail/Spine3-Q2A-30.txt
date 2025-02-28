@@ -1,0 +1,34 @@
+Interface Ethernet31
+Last received quality level: n/a, SSM: n/a, Type: n/a
+Last received source MAC: n/a
+Last received valid message time: never
+Last received extended QL TLV: not received
+Last received invalid message time: never
+Received valid message count: 0
+Received invalid message count: 0
+Last sent quality level: QL-EEC1, SSM: 0b1011/0xff, Type: Information
+Last sent source MAC: c4ca.2b45.a234
+Last sent message time: 2025-02-27 16:06:04
+Sent message count: 3564
+ESMC messages sent by type
+Information: 3564
+ESMC messages sent by QL (SSM code)
+QL-EEC1 (0b1011): 3564
+
+Interface Ethernet39
+Last received quality level: n/a, SSM: n/a, Type: n/a
+Last received source MAC: n/a
+Last received valid message time: never
+Last received extended QL TLV: not received
+Last received invalid message time: never
+Received valid message count: 0
+Received invalid message count: 0
+Last sent quality level: QL-EEC1, SSM: 0b1011/0xff, Type: Information
+Last sent source MAC: c4ca.2b45.a23c
+Last sent message time: 2025-02-27 16:06:04
+Sent message count: 3564
+ESMC messages sent by type
+Information: 3564
+ESMC messages sent by QL (SSM code)
+QL-EEC1 (0b1011): 3564
+

@@ -1,0 +1,49 @@
+Interface Ethernet31
+Last received quality level: QL-SSU-B, SSM: 0b1000/0xff, Type: Information
+Last received source MAC: e46d.7fe3.c810
+Last received valid message time: 2025-02-26 15:35:14
+Last received extended QL TLV: not received
+Last received invalid message time: never
+Received valid message count: 89848
+Received invalid message count: 0
+ESMC messages received by type
+Event: 5
+Information: 89843
+ESMC messages received by QL (SSM code)
+QL-PRC (0b0010): 25961
+QL-SSU-B (0b1000): 63887
+Last sent quality level: QL-DNU, SSM: 0b1111/0xff, Type: Information
+Last sent source MAC: c4ca.2b45.a234
+Last sent message time: 2025-02-27 13:58:39
+Sent message count: 170399
+ESMC messages sent by type
+Event: 1
+Information: 170398
+ESMC messages sent by QL (SSM code)
+QL-EEC1 (0b1011): 23
+QL-DNU (0b1111): 170376
+
+Interface Ethernet39
+Last received quality level: QL-DNU, SSM: 0b1111/0xff, Type: Information
+Last received source MAC: 0011.0100.0001
+Last received valid message time: 2025-02-26 11:18:08
+Last received extended QL TLV: not received
+Last received invalid message time: never
+Received valid message count: 861
+Received invalid message count: 0
+ESMC messages received by type
+Information: 861
+ESMC messages received by QL (SSM code)
+QL-DNU (0b1111): 861
+Last sent quality level: QL-EEC1, SSM: 0b1011/0xff, Type: Information
+Last sent source MAC: c4ca.2b45.a23c
+Last sent message time: 2025-02-27 13:58:39
+Sent message count: 98636
+ESMC messages sent by type
+Event: 2
+Information: 98634
+ESMC messages sent by QL (SSM code)
+QL-PRC (0b0010): 18022
+QL-SSU-B (0b1000): 41
+QL-EEC1 (0b1011): 80573
+

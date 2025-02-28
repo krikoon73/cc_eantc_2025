@@ -1,0 +1,51 @@
+EVPN instance: VPWS 2-23-5G-EVI-H3C
+  Route distinguisher: 10.0.30.30:6001
+  Route target import: Route-Target-AS:6001:6001
+  Route target export: Route-Target-AS:6001:6001
+  Service interface: VLAN-based
+  Local MPLS IP address: 10.0.30.30
+  VXLAN: disabled
+  MPLS: enabled
+  Label allocation mode: per-pseudowire
+  L2 MTU: ignored
+  Control word: disabled
+  Pseudowires:
+    Pseudowire H3C-120-PW
+      Status: up
+      VPWS label: 411299
+      Local VPWS ID: 2030
+      Remote VPWS ID: 2120
+EVPN instance: VPWS 2-23-5G-EVI-JUNIPER
+  Route distinguisher: 10.0.30.30:1030
+  Route target import: Route-Target-AS:630:6179
+  Route target export: Route-Target-AS:630:6179
+  Service interface: VLAN-based
+  Local MPLS IP address: 10.0.30.30
+  VXLAN: disabled
+  MPLS: enabled
+  Label allocation mode: per-pseudowire
+  L2 MTU: ignored
+  Control word: disabled
+  Pseudowires:
+    Pseudowire JUNIPER-179-PW
+      Status: up
+      VPWS label: 411298
+      Local VPWS ID: 30
+      Remote VPWS ID: 179
+EVPN instance: VPWS 2-23-5G-EVI-NOKIA
+  Route distinguisher: 10.0.30.30:2030
+  Route target import: Route-Target-AS:630:6214
+  Route target export: Route-Target-AS:630:6214
+  Service interface: VLAN-based
+  Local MPLS IP address: 10.0.30.30
+  VXLAN: disabled
+  MPLS: enabled
+  Label allocation mode: per-pseudowire
+  L2 MTU: 1500
+  Control word: disabled
+  Pseudowires:
+    Pseudowire NOKIA-214-PW
+      Status: up
+      VPWS label: 411296
+      Local VPWS ID: 30
+      Remote VPWS ID: 214

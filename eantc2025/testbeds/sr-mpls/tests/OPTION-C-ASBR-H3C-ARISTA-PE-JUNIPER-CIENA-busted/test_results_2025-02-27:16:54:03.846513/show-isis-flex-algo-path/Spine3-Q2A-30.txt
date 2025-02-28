@@ -1,0 +1,11 @@
+Flex algo paths for IPv4 address family
+Topology ID: Level-2
+   Destination                Algorithm         Next Hop    Interface
+-------------------------- ----------------- -------------- ---------
+   Arista-Spine3-Q2A-30       MIN-LATENCY                            
+                                                                     
+   Arista-Spine3-Q2A-30       MIN-TE                                 
+                                                                     
+   Arista-Spine3-Q2A-30       ADMIN                                  
+                                                                     
+

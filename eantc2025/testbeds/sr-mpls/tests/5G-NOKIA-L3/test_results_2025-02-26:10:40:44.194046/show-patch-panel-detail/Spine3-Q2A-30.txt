@@ -1,0 +1,43 @@
+PW Fault Legend:
+   ET-IN - Ethernet receive fault
+   ET-OUT - Ethernet transmit fault
+   TUN-IN - Tunnel receive fault
+   TUN-OUT - Tunnel transmit fault
+   NF - Pseudowire not forwarding (other reason)
+
+Patch: 2-23-5G-H3C-120-PATCH_PANEL, Status: Up, Last change: 0:40:08 ago
+   Connector 1: Ethernet46/1.1120
+      Status: Up
+   Connector 2: BGP VPWS 2-23-5G-EVI-H3C Pseudowire H3C-120-PW
+      Status: Up
+      Local MPLS label: 411299
+         MTU: 0, Control word: N
+      Neighbor 10.0.0.120, MPLS label: 1277
+         Tunnel type: IS-IS SR IPv4, Tunnel index: 17
+         MTU: 1500, Control word: N
+      EVPN VPWS type: VLAN-based
+      Flow label used: no
+Patch: 2-23-5G-JUNIPER-179-PATCH_PANEL, Status: Up, Last change: 17:48:59 ago
+   Connector 1: Ethernet46/1.1179
+      Status: Up
+   Connector 2: BGP VPWS 2-23-5G-EVI-JUNIPER Pseudowire JUNIPER-179-PW
+      Status: Up
+      Local MPLS label: 411298
+         MTU: 0, Control word: N
+      Neighbor 10.0.1.179, MPLS label: 37
+         Tunnel type: IS-IS SR IPv4, Tunnel index: 23
+         MTU: 0, Control word: N
+      EVPN VPWS type: VLAN-based
+      Flow label used: no
+Patch: 2-23-5G-NOKIA-214-PATCH_PANEL, Status: Up, Last change: 17:39:34 ago
+   Connector 1: Ethernet46/1.1214
+      Status: Up
+   Connector 2: BGP VPWS 2-23-5G-EVI-NOKIA Pseudowire NOKIA-214-PW
+      Status: Up
+      Local MPLS label: 411296
+         MTU: 1500, Control word: N
+      Neighbor 10.0.0.214, MPLS label: 500006
+         Tunnel type: IS-IS SR IPv4, Tunnel index: 21
+         MTU: 1500, Control word: N
+      EVPN VPWS type: VLAN-based
+      Flow label used: no

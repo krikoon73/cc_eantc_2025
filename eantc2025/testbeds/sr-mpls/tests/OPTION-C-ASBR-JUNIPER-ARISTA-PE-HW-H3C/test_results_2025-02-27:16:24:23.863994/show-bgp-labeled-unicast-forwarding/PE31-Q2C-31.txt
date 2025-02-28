@@ -1,0 +1,21 @@
+   Index        Nexthop                  Interface    Labels   
+------------ ------------------------ --------------- ---------
+   210269       IS-IS SR IPv4 (20)       -            [ 20216 ]
+   210270       IS-IS SR IPv4 (20)       -            [ 20053 ]
+   210271       IS-IS SR IPv4 (20)       -            [ 20128 ]
+   210272       IS-IS SR IPv4 (20)       -            [ 20179 ]
+   210278       IS-IS SR IPv4 (20)       -            [ 20184 ]
+   210279       IS-IS SR IPv4 (20)       -            [ 20184 ]
+   210280       IS-IS SR IPv4 (20)       -            [ 60030 ]
+   210281       IS-IS SR IPv4 (20)       -            [ 60032 ]
+   210282       IS-IS SR IPv4 (20)       -            [ 60031 ]
+   210283       IS-IS SR IPv4 (20)       -            [ 60033 ]
+   210284       IS-IS SR IPv4 (20)       -            [ 20216 ]
+   -            IS-IS SR IPv4 (20)       -            [ 60030 ]
+   210285       IS-IS SR IPv4 (20)       -            [ 20053 ]
+   -            IS-IS SR IPv4 (20)       -            [ 60032 ]
+   210286       IS-IS SR IPv4 (20)       -            [ 20128 ]
+   -            IS-IS SR IPv4 (20)       -            [ 60031 ]
+   210287       IS-IS SR IPv4 (20)       -            [ 20179 ]
+   -            IS-IS SR IPv4 (20)       -            [ 60033 ]
+

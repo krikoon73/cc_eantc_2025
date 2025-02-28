@@ -1,0 +1,12 @@
+Port      Name                 Intvl  In Mbps      %  In Kpps Out Mbps      %
+Et9       Ciena-5134-72 port 2  0:01      0.0   0.0%        0      0.0   0.0%
+Et11      Juniper-156 port 590  0:01     40.6   0.4%       10     41.0   0.4%
+Et12      Ericsson_84_R6678     0:01     41.3   0.4%       10     40.6   0.4%
+Et21      Juniper-156 port 592  0:01      0.0   0.0%        0      0.0   0.0%
+Et22      "Link to Juniper 179  0:01      0.0   0.0%        0      0.0   0.0%
+Et31      Ciena-8140-66 port 2  0:01      0.0   0.0%        0      0.0   0.0%
+Et35      Juniper-131-JCNR 42   0:01      0.0   0.0%        0      0.0   0.0%
+
+Port      Out Kpps
+Et11            10
+Et12            10

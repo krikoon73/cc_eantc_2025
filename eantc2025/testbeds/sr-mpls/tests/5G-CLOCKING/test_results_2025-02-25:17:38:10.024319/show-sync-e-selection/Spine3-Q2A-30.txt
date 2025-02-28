@@ -1,0 +1,4 @@
+Input      QL       Priority Status
+---------- -------- -------- ------
+Ethernet31 QL-SSU-B      127 active
+

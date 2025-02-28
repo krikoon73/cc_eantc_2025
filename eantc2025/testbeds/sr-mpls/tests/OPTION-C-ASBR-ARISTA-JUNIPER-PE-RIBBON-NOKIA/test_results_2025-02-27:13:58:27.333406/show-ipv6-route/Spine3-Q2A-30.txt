@@ -1,0 +1,33 @@
+
+VRF: default
+Displaying 10 of 21 IPv6 routing table entries
+Source Codes:
+       C - connected, S - static, K - kernel, O3 - OSPFv3,
+       B - Other BGP Routes, A B - BGP Aggregate, R - RIP,
+       I L1 - IS-IS level 1, I L2 - IS-IS level 2, DH - DHCP,
+       NG - Nexthop Group Static Route, M - Martian,
+       DP - Dynamic Policy Route, L - VRF Leaked,
+       G  - gRIBI, RC - Route Cache Route,
+       CL - CBF Leaked Route
+
+ C        2001:0:30:31::/64 [0/0]
+           via Ethernet1, directly connected
+ C        2001:0:30:66::/64 [0/0]
+           via Ethernet31, directly connected
+ C        2001:0:30:72::/64 [0/0]
+           via Ethernet9, directly connected
+ C        2001:0:30:84::/64 [0/0]
+           via Ethernet12, directly connected
+ C        2001:0:30:120::/64 [0/0]
+           via Ethernet3, directly connected
+ C        2001:0:30:156::/64 [0/0]
+           via Ethernet11, directly connected
+ C        2001:0:30:214::/64 [0/0]
+           via Ethernet5, directly connected
+ C        2001:0:30:221::/64 [0/0]
+           via Ethernet15, directly connected
+ C        2002::30/128 [0/0]
+           via Loopback0, directly connected
+ I L2     2002::31/128 [115/20]
+           via fe80::6abf:6cff:fe35:1e31, Ethernet1
+

@@ -1,0 +1,23 @@
+Aggregate VoQ Counters
+Egress                     Traffic               Pkts             Octets           DropPkts         DropOctets
+Port                       Class  
+--------------------------------------------------------------------------------------------------------------
+Et31                       TC1             2162881171       207636592416          738491097        70895145312
+Et31                       TC6                2349998          225599808                  0                  0
+Et31                       TC7                   4688             455440                  0                  0
+Et36                       TC7                      8               1912                  0                  0
+Et46/1                     TC1             2161483689       237763205790                  0                  0
+Et46/1                     TC6                2349998          258499780                  0                  0
+Et46/1                     TC7                      8               2064                  0                  0
+
+Egress Queue Counters
+Port                 Traffic DropPrec   DestType          OutEnqPkts      OutEnqOctets       OutDropPkts     OutDropOctets
+                     Class
+Et31                 TC1     DP0-3      UC                2162881144      198985065248                 0                 0
+Et31                 TC6     DP0-3      UC                   2299999         211599908                 0                 0
+Et31                 TC7     DP0-3      UC                      4584            378506                 0                 0
+Et36                 TC7     DP0-3      UC                         8              1856                 0                 0
+Et46/1               TC1     DP0-3      UC                2162322383      237855462130                 0                 0
+Et46/1               TC6     DP0-3      UC                   2299998         252999780                 0                 0
+Et46/1               TC7     DP0-3      UC                         8              2008                 0                 0
+

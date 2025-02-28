@@ -1,0 +1,12 @@
+
+System ID: Arista-PE31-Q2C-31			Instance: 'IGP'
+SR supported Data-plane: MPLS			SR Router ID: 10.0.0.31
+
+Node: 0      Proxy-Node: 0      Prefix: 0       Total Segments: 0
+
+Flag Descriptions: R: Re-advertised, N: Node Segment, P: no-PHP
+                   E: Explicit-NULL, V: Value, L: Local
+Segment status codes: * - Self originated Prefix, L1 - level 1, L2 - level 2, ! - SR-unreachable,
+                      # - Some IS-IS next-hops are SR-unreachable
+   Prefix                      SID   Label Type       Flags                        System ID       Level Protection  Algorithm   
+   ------------------------- ----- ------- ---------- ---------------------------- --------------- ----- ----------- -------------

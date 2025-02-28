@@ -1,0 +1,482 @@
+Interface Ethernet1
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet2
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet3
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet4
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet5
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet6
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet7
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet8
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet9
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet10
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet11
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet12
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet13
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet14
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet15
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet16
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet17
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet18
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet19
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet20
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet21
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet22
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet23
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet24
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet25
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet26
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet27
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet28
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet29
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet30
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet31
+PTP: Enabled
+Port state: Slave 
+Sync interval: 0.0625 seconds
+Announce interval: 0.125 seconds
+Announce interval timeout multiplier: 3
+Delay mechanism: end to end
+Delay request message interval: 0.0625 seconds
+Local Priority: 128
+Transport mode: layer 2
+Destination MAC address: 01:80:c2:00:00:0e
+Announce messages sent: 0
+Announce messages received: 534063
+Sync messages sent: 0
+Sync messages received: 1059636
+Follow up messages sent: 0
+Follow up messages received: 0
+Delay request messages sent: 1054328
+Delay request messages received: 0
+Delay response messages sent: 0
+Delay response messages received: 1054327
+Peer delay request messages sent: 0
+Peer delay request messages received: 0
+Peer delay response messages sent: 0
+Peer delay response messages received: 0
+Peer delay response follow up messages sent: 0
+Peer delay response follow up messages received: 0
+Management messages sent: 0
+Management messages received: 0
+Signaling messages sent: 0
+Signaling messages received: 0
+
+Interface Ethernet32
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet33
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet34
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet35
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet36
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet37
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet38
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet39
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet40
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet41/1
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet42/1
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet43/1
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet44/1
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet45/1
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+
+Interface Ethernet46/1
+PTP: Disabled
+Port state: Initializing 
+Sync interval: 1.0 seconds
+Announce interval: 1.0 seconds
+Delay mechanism: end to end
+Delay request message interval: 1.0 seconds
+Local Priority: 128
+Transport mode: layer 2
+

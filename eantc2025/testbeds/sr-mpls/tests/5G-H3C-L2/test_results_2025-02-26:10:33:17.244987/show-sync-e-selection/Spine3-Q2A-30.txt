@@ -1,0 +1,4 @@
+Input      QL     Priority Status
+---------- ------ -------- ------
+Ethernet31 QL-PRC      127 active
+

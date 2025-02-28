@@ -1,0 +1,3 @@
+ 
+Instance  VRF      System Id        Type Interface          SNPA              State Hold time   Circuit Id          
+2-23-5G   default  Ciena-8140-66    L2   Ethernet31         P2P               UP    24          02                  

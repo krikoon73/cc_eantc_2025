@@ -1,0 +1,11 @@
+Flex algo paths for IPv4 address family
+Topology ID: Level-2
+   Destination              Algorithm         Next Hop    Interface
+------------------------ ----------------- -------------- ---------
+   Arista-PE32-Q2C-32       MIN-LATENCY                            
+                                                                   
+   Arista-PE32-Q2C-32       MIN-TE                                 
+                                                                   
+   Arista-PE32-Q2C-32       ADMIN                                  
+                                                                   
+

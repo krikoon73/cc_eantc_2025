@@ -1,0 +1,53 @@
+Tunnel Type: Mpop(mpls pop), Mpush(mpls push), Mswap(mpls swap),
+             MoG(mpls-over-gre), T(IPv4 tunnels GRE/GUE/VXLAN),
+             N(Ipsec tunnel NAT-T [IP,SPORT,DPORT])
+CW  - Control word
+FL  - Flow label
+EL  - Entropy label
+ELI - Entropy label indicator
+D   - ECMP is divergent across switching chips
+ -----------------------------------------------------------------------------------------------
+|                                              FEC Entry                                        |
+ -----------------------------------------------------------------------------------------------
+|     |      |     |                    |     |        |                   |
+| ECMP|  FEC |     |                    |     |        |                   |
+|Index| Index| Cmd |     Destination    | VID | Outlif |   MAC / CPU Code  |    Tunnel Value
+ -----------------------------------------------------------------------------------------------
+|1    |91752 |ROUTE| FEC 288369         |   - |2097151 |                 - |Mpush 20202 20128 48080
+|1    |91753 |ROUTE| FEC 288369         |   - |2097146 |                 - |Mpush 20202 60015 48080
+|4    |91800 |ROUTE| FEC 288369         |   - |2097147 |                 - |Mswap 20202 20084
+|5    |91815 |ROUTE| FEC 288369         |   - |2097148 |                 - |Mswap 20202 20072
+|11   |91785 |ROUTE| FEC 288369         |   - |2097150 |                 - |Mswap 20202 20179
+|12   |91772 |ROUTE| FEC 288369         |   - |2097139 |                 - |Mswap 20202 60015
+|12   |91773 |ROUTE| FEC 288369         |   - |2097145 |                 - |Mswap 20202 20128
+|13   |91825 |ROUTE| FEC 288369         |   - |2097144 |                 - |Mswap 20202 20216
+|  -  |91754 |ROUTE| FEC 288369         |   - |2097143 |                 - |Mpush 20202
+|  -  |91757 |ROUTE| FEC 288369         |   - |2096990 |                 - |Mswap 20202 20053
+|  -  |91760 |ROUTE| FEC 288369         |   - |2097149 |                 - |Mpush 20122 1279
+|  -  |91774 |ROUTE| FEC 288369         |   - |2097133 |                 - |Mpush 20202 20053 970002
+|  -  |91799 |ROUTE| FEC 288369         |   - |2097132 |                 - |Mpush 20202 20216 1048571
+|  -  |91810 |ROUTE| FEC 288369         |   - |2097134 |                 - |Mpush 20120 16184 16
+|  -  |91811 |ROUTE| FEC 288369         |   - |2097142 |                 - |Mpush 20072 62000
+|  -  |91812 |ROUTE| FEC 288369         |   - |2097131 |                 - |Mswap 20120 16184
+|  -  |91813 |ROUTE| FEC 288369         |   - |2097137 |                 - |Mpush 20202 20179 16
+|  -  |91814 |ROUTE| FEC 288369         |   - |2097136 |                 - |Mpush 20084 720896
+|  -  |288360|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |288361|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |288362|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |288363|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|  -  |288364|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|  -  |288365|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |288366|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|  -  |288367|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|  -  |288368|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|  -  |288369|ROUTE| Et1                |1006 |107517  | c4:ca:2b:45:a2:15 |   -   
+|  -  |288370|ROUTE| Et40               |1008 |107518  | 00:14:01:00:00:01 |   -   
+|  -  |288371|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |524290|TRAP | CoppSystemIpBcast  |0    |  -     | BcastReceive      |   -   
+|  -  |524291|TRAP | CoppSystemIpUcast  |0    |  -     | Receive           |   -   
+|  -  |524293|TRAP | CoppSystemL3LpmOver|0    |  -     | SlowReceive       |   -   
+|  -  |524295|TRAP | CoppSystemL3DstMiss|0    |  -     | ArpTrap           |   -   
+|  -  |525301|TRAP | CoppSystemL3DstMiss|1006 |1006    | ArpTrap           |   -   
+|  -  |525303|TRAP | CoppSystemL3DstMiss|1008 |1008    | ArpTrap           |   -   
+|  -  |525304|TRAP | CoppSystemL3DstMiss|1009 |1009    | ArpTrap           |   -   
+

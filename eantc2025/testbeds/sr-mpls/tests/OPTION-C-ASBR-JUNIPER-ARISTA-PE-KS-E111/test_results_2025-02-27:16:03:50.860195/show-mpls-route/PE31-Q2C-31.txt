@@ -1,0 +1,78 @@
+MPLS forwarding table (Label [metric] Vias) - 16 routes 
+MPLS next-hop resolution allow default route: False
+Metric Codes:
+          A - Active metric
+Via Type Codes:
+          M - MPLS via, LP - LDP pseudowire via,
+          I - IP lookup via, V - VLAN via,
+          VA - EVPN VLAN aware via, ES - EVPN ethernet segment via,
+          VF - EVPN VLAN flood via, AF - EVPN VLAN aware flood via,
+          NG - Nexthop group via, BP - BGP pseudowire via,
+          VP - VPWS pseudowire via, MSP - Static pseudowire via
+
+ 20030   A[1]
+                via M, pop
+                    EgressACL: apply
+                    20.30.31.30 Ethernet1
+ 20032   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.31.30 Ethernet1
+ 20053   A[1]
+                via M, ::, swap 20053
+                    EgressACL: bypass
+                  via IS-IS SR tunnel index 20
+                    via 20.30.31.30, Ethernet1, label 20202
+ 20072   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.31.30 Ethernet1
+ 20084   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.31.30 Ethernet1
+ 20122   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.31.30 Ethernet1
+ 20128   A[1]
+                via M, ::, swap 20128
+                    EgressACL: bypass
+                  via IS-IS SR tunnel index 20
+                    via 20.30.31.30, Ethernet1, label 20202
+ 20156   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.31.30 Ethernet1
+ 20179   A[1]
+                via M, ::, swap 20179
+                    EgressACL: bypass
+                  via IS-IS SR tunnel index 20
+                    via 20.30.31.30, Ethernet1, label 20202
+ 20184   A[1]
+                via M, ::, swap 20184
+                    EgressACL: bypass
+                  via IS-IS SR tunnel index 20
+                    via 20.30.31.30, Ethernet1, label 20202
+ 20202   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.31.30 Ethernet1
+ 20214   A[1]
+                via M, forward
+                    EgressACL: apply
+                    20.30.31.30 Ethernet1
+ 20216   A[1]
+                via M, ::, swap 20216
+                    EgressACL: bypass
+                  via IS-IS SR tunnel index 20
+                    via 20.30.31.30, Ethernet1, label 20202
+ 362144   [0]
+                via I, ipv6, vrf RED
+ 362145   [0]
+                via I, ipv4, vrf RED
+ 394917  A[1]
+                via M, 20.30.31.30, pop
+                    EgressACL: apply
+                    directly connected, Ethernet1
+                    c4:ca:2b:45:a2:15, vlan 1006

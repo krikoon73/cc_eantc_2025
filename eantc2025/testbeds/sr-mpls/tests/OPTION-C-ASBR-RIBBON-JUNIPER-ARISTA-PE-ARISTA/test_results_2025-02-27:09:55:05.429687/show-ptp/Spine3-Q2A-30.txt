@@ -1,0 +1,16 @@
+PTP Mode: Boundary Clock
+PTP Profile: G8275.1
+Clock Identity: c4:ca:2b:ff:ff:45:a2:15
+Grandmaster Clock Identity: c4:ca:2b:ff:ff:45:a2:15
+Number of slave ports: 0
+Number of master ports: 1
+Offset From Master (nanoseconds): 0
+Mean Path Delay (nanoseconds): 0
+Steps Removed: 0
+Skew (estimated local-to-master clock frequency ratio): 1.0
+   Interface       State          Transport    Delay    
+                                               Mechanism
+--------------- -------------- --------------- ---------
+   Et31            Master         layer2       e2e      
+   Et39            Disabled       layer2       e2e      
+

@@ -1,0 +1,5 @@
+Input      QL        Priority Status     
+---------- --------- -------- -----------
+Ethernet31 QL-DNU         127 disabled   
+Ethernet39 QL-FAILED      127 signal fail
+

@@ -1,0 +1,477 @@
+Legend:
+H - hostname conflict
+U - node unreachable
+
+IS-IS Instance: 2-23-5G VRF: default
+  IS-IS Level 2 Link State Database
+    LSPID                   Seq Num  Cksum  Life Length IS  Received LSPID        Flags
+    Arrcus-53.00-00            1663    812   986    441 L2  0000.0000.0053.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Arrcus-53
+      Area addresses: 49.0001
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.53
+      Interface address: 2002::53
+      IS Neighbor          : Ciena-8140-66.00    Metric: 10
+        IPv4 Neighbor Address: 20.53.66.66
+        IPv4 Interface Address: 20.53.66.53
+      IS Neighbor          : Ciena-5134-72.00    Metric: 10
+        IPv4 Neighbor Address: 20.53.72.72
+        IPv4 Interface Address: 20.53.72.53
+      IS Neighbor          : H3C_M1A_120.00      Metric: 10
+        IPv4 Neighbor Address: 20.53.120.120
+        IPv4 Interface Address: 20.53.120.53
+      IS Neighbor          : 0000.0000.0128.00   Metric: 10
+        IPv4 Neighbor Address: 20.53.128.128
+        IPv4 Interface Address: 20.53.128.53
+      IS Neighbor          : Nokia-IXRe2-216.00  Metric: 10
+        IPv4 Neighbor Address: 20.53.216.216
+        IPv4 Interface Address: 20.53.216.53
+      IS Neighbor (MT-IPv6): Nokia-IXRe2-216.00  Metric: 10
+        IPv4 Interface Address: 20.53.216.53
+      Reachability         : 20.53.66.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.53.72.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.53.120.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.53.128.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.53.185.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.53.216.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.53/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 53 Flags: [N P E] Algorithm: 0
+        SR Prefix-SID: 1181 Flags: [N] Algorithm: 128
+        SR Prefix-SID: 1182 Flags: [N] Algorithm: 129
+        SR Prefix-SID: 1183 Flags: [N] Algorithm: 130
+      Reachability (MT-IPv6): 2002::53/128 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 453 Flags: [N P E] Algorithm: 0
+        SR Prefix-SID: 1581 Flags: [N] Algorithm: 128
+        SR Prefix-SID: 1582 Flags: [N] Algorithm: 129
+        SR Prefix-SID: 1583 Flags: [N] Algorithm: 130
+      Router Capabilities: Router Id: 10.0.0.53 Flags: []
+        SR Local Block:
+          SRLB Base: 16000 Range: 3001
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 780001
+        Algorithms:  0
+    Arrcus-72XC-2-54.00-00       314  37353   690    165 L2  0000.0000.0054.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Arrcus-72XC-2-54
+      Area addresses: 49.0001
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.54
+      IS Neighbor          : Ciena-8140-66.00    Metric: 10
+        IPv4 Neighbor Address: 20.54.66.66
+        IPv4 Interface Address: 20.54.66.54
+      Reachability         : 20.54.66.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.54/32 Metric: 10 Type: 1 Up
+        SR Prefix-SID: 54 Flags: [N P E] Algorithm: 0
+      Router Capabilities: Router Id: 10.0.0.54 Flags: []
+        SR Local Block:
+          SRLB Base: 16000 Range: 3001
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 10000
+        Algorithms:  0
+    Ciena-8140-66.00-00         420  58934  1028    809 L2  0000.0000.0066.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4)
+      Hostname: Ciena-8140-66
+      Area addresses: 65.0001
+      Topology: 0 (IPv4)
+      Interface address: 10.0.0.66
+      IS Neighbor          : Arista-Spine3-Q2A-2-23.00 Metric: 10
+        IPv4 Neighbor Address: 20.30.66.30
+        IPv4 Interface Address: 20.30.66.66
+        Adj-sid: 16014 flags: [L V] weight: 0x0
+      IS Neighbor          : Juniper-179-ACX7024.00 Metric: 10
+        IPv4 Neighbor Address: 20.66.179.179
+        IPv4 Interface Address: 20.66.179.66
+        Adj-sid: 16013 flags: [L V] weight: 0x0
+      IS Neighbor          : Ericsson_84_R6678.00 Metric: 10
+        IPv4 Neighbor Address: 20.66.84.84
+        IPv4 Interface Address: 20.66.84.66
+        Adj-sid: 16017 flags: [L V] weight: 0x0
+      IS Neighbor          : Juniper-156-PTX10002-36QDD.00 Metric: 10
+        IPv4 Neighbor Address: 20.66.156.156
+        IPv4 Interface Address: 20.66.156.66
+        Adj-sid: 16019 flags: [L V] weight: 0x0
+      IS Neighbor          : Nokia-SXR-214.00    Metric: 10
+        IPv4 Neighbor Address: 20.66.214.214
+        IPv4 Interface Address: 20.66.214.66
+        Adj-sid: 16015 flags: [L V] weight: 0x0
+      IS Neighbor          : Arrcus-72XC-2-54.00 Metric: 10
+        IPv4 Neighbor Address: 20.54.66.54
+        IPv4 Interface Address: 20.54.66.66
+        Adj-sid: 16018 flags: [L V] weight: 0x0
+      IS Neighbor          : Arrcus-53.00        Metric: 10
+        IPv4 Neighbor Address: 20.53.66.53
+        IPv4 Interface Address: 20.53.66.66
+        Adj-sid: 16016 flags: [L V] weight: 0x0
+      Reachability         : 10.0.0.66/32 Metric: 10 Type: 1 Up
+        SR Prefix-SID: 66 Flags: [N] Algorithm: 0
+      Reachability         : 20.30.66.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.66.84.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.54.66.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.66.179.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.66.156.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.66.214.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.53.66.0/24 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.66 Flags: []
+        SR Capability: Flags: [I]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0
+    Ciena-5134-72.00-00         201  53249   822    209 L2  0000.0000.0072.00-00  <>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4)
+      Hostname: Ciena-5134-72
+      Area addresses: 65.0001
+      Topology: 0 (IPv4)
+      Interface address: 10.0.0.72
+      IS Neighbor          : Arrcus-53.00        Metric: 10
+        IPv4 Neighbor Address: 20.53.72.53
+        IPv4 Interface Address: 20.53.72.72
+        Adj-sid: 16004 flags: [L V] weight: 0x0
+      Reachability         : 20.53.72.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.72/32 Metric: 10 Type: 1 Up
+        SR Prefix-SID: 72 Flags: [N] Algorithm: 0
+      Router Capabilities: Router Id: 10.0.0.72 Flags: []
+        SR Capability: Flags: [I]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0
+    Ericsson_84_R6678.00-00       192  47556   332    187 L2  0000.0000.0084.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Ericsson_84_R6678
+      Area addresses: 65.0000
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.84
+      Interface address: 2001:0:66:84::84
+      IS Neighbor          : Ciena-8140-66.00    Metric: 10
+        IPv4 Interface Address: 20.66.84.84
+      Reachability         : 10.0.0.84/32 Metric: 10 Type: 1 Up
+        SR Prefix-SID: 84 Flags: [N P] Algorithm: 0
+      Reachability (MT-IPv6): 2001:0:66:84::/64 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.84 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  8
+        SR Capability: Flags: [I]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0
+    H3C_M1A_120.00-00         24682  35883  1198    589 L2  0000.0000.0120.00-00  <>
+      Remaining lifetime received: 12 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: H3C_M1A_120
+      Area addresses: 49.0001
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.120
+      Interface address: 20.53.120.120
+      Interface address: 20.120.214.120
+      Interface address: 2001:0:120:214::120
+      Interface address: 2002::120
+      IS Neighbor          : Arrcus-53.00        Metric: 2
+        IPv4 Neighbor Address: 20.53.120.53
+        IPv4 Interface Address: 20.53.120.120
+        Adj-sid: 1151 flags: [L V] weight: 0x0
+      IS Neighbor          : Arrcus-53.00        Metric: 2
+        IPv4 Neighbor Address: 20.53.120.53
+        IPv4 Interface Address: 20.53.120.120
+      Reachability         : 10.0.0.120/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 120 Flags: [N] Algorithm: 0
+        SR Prefix-SID: 1248 Flags: [N] Algorithm: 128
+        SR Prefix-SID: 1249 Flags: [N] Algorithm: 129
+        SR Prefix-SID: 1250 Flags: [N] Algorithm: 130
+      Reachability         : 20.53.120.0/24 Metric: 2 Type: 1 Up
+      Reachability         : 20.120.214.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.120.217.0/24 Metric: 0 Type: 1 Up
+      Reachability         : 50.20.120.0/24 Metric: 0 Type: 1 Up
+      Reachability         : 192.168.20.0/23 Metric: 0 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:53:120::/64 Metric: 0 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:120:214::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:120:217::/64 Metric: 0 Type: 1 Up
+      Reachability (MT-IPv6): 2002::120/128 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 520 Flags: [N] Algorithm: 0
+        SR Prefix-SID: 1648 Flags: [N] Algorithm: 128
+        SR Prefix-SID: 1649 Flags: [N] Algorithm: 129
+        SR Prefix-SID: 1650 Flags: [N] Algorithm: 130
+      Router Capabilities: Router Id: 10.0.0.120 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  13
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+    0000.0000.0128.00-00       2190  27835   740    268 L2  0000.0000.0128.00-00  <>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Area addresses: 49.0001
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.128
+      Interface address: 20.53.128.128
+      Interface address: 20.128.157.128
+      Interface address: 20.128.217.128
+      IS Neighbor          : Arrcus-53.00        Metric: 10
+        IPv4 Neighbor Address: 20.53.128.53
+        IPv4 Interface Address: 20.53.128.128
+        Adj-sid: 48000 flags: [L V] weight: 0x0
+      IS Neighbor          : Juniper-157-PTX10002-36QDD.00 Metric: 10
+        IPv4 Neighbor Address: 20.128.157.157
+        IPv4 Interface Address: 20.128.157.128
+        Adj-sid: 48001 flags: [L V] weight: 0x0
+      IS Neighbor          : Nokia-SR1-217.00    Metric: 10
+        IPv4 Neighbor Address: 20.128.217.217
+        IPv4 Interface Address: 20.128.217.128
+        Adj-sid: 48002 flags: [L V] weight: 0x0
+      Reachability         : 10.0.0.128/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 128 Flags: [N] Algorithm: 0
+      Reachability         : 20.53.128.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.128.157.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.128.217.0/24 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.128 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  10
+        SR Capability: Flags: [I]
+          SRGB Base: 20000 Range: 2000
+    Keys195.00-00                 5  48070   790    158 L2  0000.0000.0195.00-00  <DefaultAtt>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6) 0x81(CLNP)
+      Hostname: Keys195
+      Area addresses:
+        49.0001
+        49.0001.0000.0000
+      Interface address: 20.157.195.195
+      IS Neighbor          : Juniper-157-PTX10002-36QDD.00 Metric: 10
+      Reachability         : 10.0.0.195/32 Metric: 10 Type: 1 Up
+        SR Prefix-SID: 195 Flags: [N] Algorithm: 0
+      Reachability         : 10.0.0.195/32 Metric: 10 Type: 1 Up
+      Reachability         : 20.157.195.0/24 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.195 Flags: []
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0
+    Nokia-SXR-214.00-00       32527  46137  1192    257 L2  0000.0000.0214.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Nokia-SXR-214
+      Area addresses: 49.0001
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.214
+      Interface address: 20.66.214.214
+      Interface address: 2000::214
+      Interface address: 2001:0:66:214::214
+      IS Neighbor          : Ciena-8140-66.00    Metric: 10
+        IPv4 Neighbor Address: 20.66.214.66
+        IPv4 Interface Address: 20.66.214.214
+        Adj-sid: 30046 flags: [L V B] weight: 0x0
+      Reachability         : 20.66.214.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.214/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 214 Flags: [N P] Algorithm: 0
+      Reachability (MT-IPv6): 2000::214/128 Metric: 0 Type: 1 Up
+      Reachability (MT-IPv6): 2001:0:66:214::/64 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.214 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  15
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0
+    Arista-Spine3-Q2A-2-23.00-00       208  31786  1054    167 L2  0000.0000.3030.00-00  <>
+      LSP generation remaining wait time: 0 ms
+      Time remaining until refresh: 754 s
+      NLPID: 0xCC(IPv4)
+      Hostname: Arista-Spine3-Q2A-2-23
+      Area addresses: 49.0001
+      Interface address: 10.0.30.30
+      Interface address: 20.30.66.30
+      IS Neighbor          : Ciena-8140-66.00    Metric: 1
+        IPv4 Neighbor Address: 20.30.66.66
+        IPv4 Interface Address: 20.30.66.30
+        Adj-sid: 378674 flags: [L V] weight: 0x0
+      Reachability         : 10.0.30.30/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 330 Flags: [N] Algorithm: 0
+      Reachability         : 20.30.66.0/24 Metric: 1 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.30.30 Flags: []
+        SR Local Block:
+          SRLB Base: 965536 Range: 65536
+        Area leader priority: 250 algorithm: 0
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  12
+        SR Capability: Flags: [I]
+          SRGB Base: 20000 Range: 2000
+    Juniper-156-PTX10002-36QDD.00-00       228  23917   596    291 L2  0000.0001.0156.00-00  <>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Juniper-156-PTX10002-36QDD
+      Area addresses: 49.0001
+      Interface address: 10.0.0.156
+      Interface address: 10.0.1.156
+      Interface address: 2002::156
+      IS Neighbor          : Ciena-8140-66.00    Metric: 10
+        IPv4 Neighbor Address: 20.66.156.66
+        IPv4 Interface Address: 20.66.156.156
+        Adj-sid: 35 flags: [L V] weight: 0x0
+      IS Neighbor          : Nokia-IXRe2-216.00  Metric: 10
+        IPv4 Neighbor Address: 20.156.216.216
+        IPv4 Interface Address: 20.156.216.156
+        Adj-sid: 28 flags: [L V] weight: 0x0
+      Reachability         : 10.0.1.156/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 456 Flags: [N] Algorithm: 0
+      Router Capabilities: Router Id: 10.0.0.156 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  0
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0, 1
+      Unsupported TLV: Type: 14 Length: 2
+    Juniper-179-ACX7024.00-00       685  30349  1031    222 L2  0000.0001.0179.00-00  <>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Juniper-179-ACX7024
+      Area addresses: 49.0001
+      Interface address: 10.0.0.179
+      Interface address: 10.0.1.179
+      IS Neighbor          : Ciena-8140-66.00    Metric: 10
+        IPv4 Neighbor Address: 20.66.179.66
+        IPv4 Interface Address: 20.66.179.179
+        Adj-sid: 31 flags: [L V] weight: 0x0
+      Reachability         : 10.0.1.179/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 479 Flags: [N] Algorithm: 0
+      Router Capabilities: Router Id: 10.0.0.179 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  8
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0, 1
+      Unsupported TLV: Type: 14 Length: 2
+    Nokia-IXRe2-216.00-00      2005  28534   826    322 L2  0100.0000.0216.00-00  <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Nokia-IXRe2-216
+      Area addresses: 49.0001.0000.0000.0216.00
+      Topology: 0 (IPv4)
+      Topology: 2 (IPv6)
+      Interface address: 10.0.0.216
+      Interface address: 20.53.216.216
+      Interface address: 20.156.216.216
+      Interface address: 2001:0:53:216::216
+      Interface address: 2002::216
+      IS Neighbor          : Arrcus-53.00        Metric: 10
+        IPv4 Neighbor Address: 20.53.216.53
+        IPv4 Interface Address: 20.53.216.216
+        Adj-sid: 1048574 flags: [L V B] weight: 0x0
+      IS Neighbor          : Juniper-156-PTX10002-36QDD.00 Metric: 10
+        IPv4 Neighbor Address: 20.156.216.156
+        IPv4 Interface Address: 20.156.216.216
+        Adj-sid: 1048572 flags: [L V B] weight: 0x0
+      IS Neighbor (MT-IPv6): Arrcus-53.00        Metric: 10
+      Reachability         : 20.53.216.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.156.216.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 10.0.0.216/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 216 Flags: [N P] Algorithm: 0
+      Reachability (MT-IPv6): 2001:0:53:216::/64 Metric: 10 Type: 1 Up
+      Reachability (MT-IPv6): 2002::216/128 Metric: 0 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.216 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  11
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0
+    Nokia-SR1-217.00-00         282  53863   678    225 L2  0100.0000.0217.00-00  <>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4)
+      Hostname: Nokia-SR1-217
+      Area addresses: 49.0001.0000.0057.00
+      Interface address: 10.0.0.217
+      Interface address: 20.128.217.217
+      Interface address: 20.157.217.217
+      IS Neighbor          : Juniper-157-PTX10002-36QDD.00 Metric: 10
+        IPv4 Neighbor Address: 20.157.217.157
+        IPv4 Interface Address: 20.157.217.217
+        Adj-sid: 524270 flags: [L V B] weight: 0x0
+      IS Neighbor          : 0000.0000.0128.00   Metric: 10
+        IPv4 Neighbor Address: 20.128.217.128
+        IPv4 Interface Address: 20.128.217.217
+        Adj-sid: 524267 flags: [L V B] weight: 0x0
+      Reachability         : 10.0.0.217/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 1217 Flags: [N P] Algorithm: 0
+      Reachability         : 20.128.217.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.157.217.0/24 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.217 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  12
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0
+    Juniper-157-PTX10002-36QDD.00-00       233  14778   471    304 L2  1000.0000.0157.00-00  <>
+      Remaining lifetime received: 1198 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Juniper-157-PTX10002-36QDD
+      Area addresses: 49.0001.0000.0000
+      Interface address: 10.0.0.157
+      IS Neighbor          : 0000.0000.0128.00   Metric: 10
+        IPv4 Neighbor Address: 20.128.157.128
+        IPv4 Interface Address: 20.128.157.157
+        Adj-sid: 22 flags: [L V] weight: 0x0
+      IS Neighbor          : Nokia-SR1-217.00    Metric: 10
+        IPv4 Neighbor Address: 20.157.217.217
+        IPv4 Interface Address: 20.157.217.157
+        Adj-sid: 21 flags: [L V] weight: 0x0
+      IS Neighbor          : Keys195.00          Metric: 10
+        IPv4 Neighbor Address: 20.157.195.195
+        IPv4 Interface Address: 20.157.195.157
+        Adj-sid: 24 flags: [L V] weight: 0x0
+      Reachability         : 10.0.0.157/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 157 Flags: [N] Algorithm: 0
+      Reachability         : 20.157.217.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.128.157.0/24 Metric: 10 Type: 1 Up
+      Reachability         : 20.157.195.0/24 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 10.0.0.157 Flags: []
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  0
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0, 1
+      Unsupported TLV: Type: 14 Length: 2
+
+Legend:
+H - hostname conflict
+U - node unreachable
+
+IS-IS Instance: IGP VRF: default
+  IS-IS Level 2 Link State Database
+    LSPID                   Seq Num  Cksum  Life Length IS  Received LSPID        Flags
+    Arista-Spine3-Q2A-30.00-00      7113   1092  1014    265 L2  0000.0000.0030.00-00  <>
+      LSP generation remaining wait time: 0 ms
+      Time remaining until refresh: 714 s
+      NLPID: 0xCC(IPv4) 0x8E(IPv6)
+      Hostname: Arista-Spine3-Q2A-30
+      Area addresses: 49.0001
+      Topology: 2 (IPv6)
+      Topology: 0 (IPv4)
+      Interface address: 10.0.0.30
+      Interface address: 2002::30
+      Reachability         : 10.0.0.30/32 Metric: 0 Type: 1 Up
+        SR Prefix-SID: 30 Flags: [N] Algorithm: 0
+        SR Prefix-SID: 158 Flags: [N] Algorithm: 128
+        SR Prefix-SID: 159 Flags: [N] Algorithm: 129
+        SR Prefix-SID: 160 Flags: [N] Algorithm: 130
+      Reachability (MT-IPv6): 2002::30/128 Metric: 10 Type: 1 Up
+        SR Prefix-SID: 430 Flags: [N] Algorithm: 0
+        SR Prefix-SID: 558 Flags: [N] Algorithm: 128
+        SR Prefix-SID: 559 Flags: [N] Algorithm: 129
+        SR Prefix-SID: 560 Flags: [N] Algorithm: 130
+      Router Capabilities: Router Id: 10.0.0.30 Flags: []
+        SR Local Block:
+          SRLB Base: 965536 Range: 65536
+        Area leader priority: 250 algorithm: 0
+        Maximum SID depth:
+          Base MPLS imposition (MSD type 1):  12
+        SR Capability: Flags: [I V]
+          SRGB Base: 20000 Range: 2000
+        Algorithms:  0, 128, 129, 130
+        Flex Algo: Algorithm: 130 Metric: IGP Metric (0) Calc: SPF (0) Prio: 237
+          Exclude admin groups: 1
+        Flex Algo: Algorithm: 129 Metric: TE Metric (2) Calc: SPF (0) Prio: 255
+        Flex Algo: Algorithm: 128 Metric: Min Unidirectional Delay Metric (1) Calc: SPF (0) Prio: 255
+

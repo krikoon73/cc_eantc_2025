@@ -1,0 +1,91 @@
+MPLS forwarding table (Label [metric] Vias) - 18 routes 
+MPLS next-hop resolution allow default route: False
+Via Type Codes:
+          M - MPLS via, LP - LDP pseudowire via,
+          I - IP lookup via, V - VLAN via,
+          VA - EVPN VLAN aware via, ES - EVPN ethernet segment via,
+          VF - EVPN VLAN flood via, AF - EVPN VLAN aware flood via,
+          NG - Nexthop group via, BP - BGP pseudowire via,
+          VP - VPWS pseudowire via, MSP - Static pseudowire via
+Source Codes:
+          G - gRIBI, S - Static MPLS route,
+          B2 - BGP L2 EVPN, B3 - BGP L3 VPN,
+          R - RSVP, P - Pseudowire,
+          L - LDP, M - MLDP,
+          I>BL - IS-IS SR to BGP LU, IP - IS-IS SR prefix segment,
+          IA - IS-IS SR adjacency segment, I>L - IS-IS SR to LDP,
+          L>I - LDP to IS-IS SR, OP - Ospf SR prefix segment,
+          OA - Ospf SR adjacency segment, OL - Ospf SR segment to LDP,
+          L0 - LDP to Ospf SR segment, BL - BGP LU,
+          BL>L - BGP LU to LDP, L>BL - LDP to BGP LU,
+          ST - SR TE policy, SMP - SR P2MP,
+          BL>I - BGP LU to IS-IS SR, BLS - BGP Link State,
+          DE - Debug LFIB
+
+ IP    20031    [1], 10.0.0.31/32
+                via M, 20.30.31.31, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet1
+ IP    20032    [1], 10.0.0.32/32
+                via M, 20.30.32.32, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet2
+ IP    20072    [1], 10.0.0.72/32
+                via M, 20.30.72.72, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet9
+ IP    20084    [1], 10.0.0.84/32
+                via M, 20.30.84.84, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet12
+ IP    20122    [1], 10.0.0.122/32
+                via M, 20.30.122.122, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet14
+ IP    20156    [1], 10.0.0.156/32
+                via M, 20.30.156.156, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet11
+ IP    20202    [1], 209.209.209.202/32
+                via TI-LFA tunnel index 2, pop
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                    via 20.30.156.156, Ethernet11, label imp-null(3)
+                    backup via 20.30.32.32, Ethernet2, label 20202
+ IP    20214    [1], 10.0.0.214/32
+                via M, 20.30.214.214, forward
+                 payload autoDecide, ttlMode uniform, dscpMode uniform, apply egress-acl
+                 interface Ethernet5
+ IA    378546   [1]
+                via M, 20.30.84.84, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet12
+ IA    378551   [1]
+                via M, 20.30.31.31, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet1
+ IA    378552   [1]
+                via M, 20.30.72.72, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet9
+ IA    378553   [1]
+                via M, 20.30.32.32, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet2
+ IA    378554   [1]
+                via M, 20.30.122.122, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet14
+ IA    378555   [1]
+                via M, 20.30.156.156, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet11
+ IA    378556   [1]
+                via M, 20.30.214.214, pop
+                 payload autoDecide, ttlMode uniform, apply egress-acl
+                 interface Ethernet5
+ B3    394912   [0]
+                via I, ipv4, vrf RED
+ B3    394913   [0]
+                via I, ipv6, vrf RED
+ B3    394914   [0]
+                via I, ipv4, vrf FLEXALGO

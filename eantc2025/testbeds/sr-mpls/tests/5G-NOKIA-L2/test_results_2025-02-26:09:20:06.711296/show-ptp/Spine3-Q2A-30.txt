@@ -1,0 +1,18 @@
+PTP Mode: Boundary Clock
+PTP Profile: G8275.1
+Clock Identity: c4:ca:2b:ff:ff:45:a2:15
+Grandmaster Clock Identity: 00:b0:ae:ff:fe:0a:5b:70
+Number of slave ports: 1
+Number of master ports: 0
+Slave port: Ethernet31
+Offset From Master (nanoseconds): 0
+Mean Path Delay (nanoseconds): 18
+Steps Removed: 3
+Skew (estimated local-to-master clock frequency ratio): 1.0
+Last Sync Time: 09:20:19 UTC Feb 26 2025
+Current PTP System Time: 09:20:19 UTC Feb 26 2025
+   Interface       State       Transport    Delay    
+                                            Mechanism
+--------------- ----------- --------------- ---------
+   Et31            Slave       layer2       e2e      
+

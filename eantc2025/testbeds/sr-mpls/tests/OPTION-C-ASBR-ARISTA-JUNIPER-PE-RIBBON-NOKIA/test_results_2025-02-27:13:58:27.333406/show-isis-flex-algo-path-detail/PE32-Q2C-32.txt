@@ -1,0 +1,36 @@
+Flex algo paths for IPv4 address family
+Topology ID: Level-2
+Destination: Arista-PE32-Q2C-32
+Path ID: 66176
+Path constraints: algo MIN-LATENCY
+                  metric type MIN-DELAY
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 1
+Last updated: 21:46:10 ago
+Next Hop Interface
+-------- ---------
+
+Destination: Arista-PE32-Q2C-32
+Path ID: 66177
+Path constraints: algo MIN-TE
+                  metric type TE
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 1
+Last updated: 21:46:10 ago
+Next Hop Interface
+-------- ---------
+
+Destination: Arista-PE32-Q2C-32
+Path ID: 66178
+Path constraints: algo ADMIN
+                  metric type IGP
+                  administrative-group exclude JUNIPER(1)
+Request sequence number: 0
+Response sequence number: 0
+Number of times path updated: 1
+Last updated: 21:46:10 ago
+Next Hop Interface
+-------- ---------
+

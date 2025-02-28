@@ -1,0 +1,10 @@
+Tunnel RIB: system-colored-tunnel-rib
+ Endpoint        Color   Tunnel Type       Index(es)    Tunnel Preference    IGP Preference    IGP Metric   Metric Type
+--------------- ------- ----------------- ------------ -------------------- ----------------- ------------- -----------
+ 10.0.0.53/32    128     IS-IS FlexAlgo    6            65                   115               200000       metric     
+ 10.0.0.53/32    129     IS-IS FlexAlgo    5            65                   115               20           metric     
+ 10.0.0.175/32   128     IS-IS FlexAlgo    2            65                   115               100000       metric     
+ 10.0.0.175/32   129     IS-IS FlexAlgo    1            65                   115               10           metric     
+ 10.0.0.179/32   128     IS-IS FlexAlgo    8            65                   115               200000       metric     
+ 10.0.0.179/32   129     IS-IS FlexAlgo    7            65                   115               20           metric     
+

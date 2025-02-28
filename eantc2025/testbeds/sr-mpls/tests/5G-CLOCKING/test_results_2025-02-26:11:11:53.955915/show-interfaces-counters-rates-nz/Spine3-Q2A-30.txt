@@ -1,0 +1,11 @@
+Port      Name                 Intvl  In Mbps      %  In Kpps Out Mbps      %
+Et9       Ciena-5134-72 port 2  0:01      0.0   0.0%        0      0.0   0.0%
+Et11      Juniper-156 port 590  0:01      0.0   0.0%        0      0.0   0.0%
+Et21      Juniper-156 port 592  0:01      0.0   0.0%        0      0.0   0.0%
+Et31      Ciena-8140-66 port 2  0:01   8000.0  96.7%    10416   8333.3 100.0%
+Et35      Juniper-131-JCNR 42   0:01      0.0   0.0%        0      0.0   0.0%
+Et46/1    Arista-Harness3       0:01   9607.5  11.6%    12509   7999.9   9.7%
+
+Port      Out Kpps
+Et31         10416
+Et46/1       10416

@@ -1,0 +1,6 @@
+Index Endpoint Nexthop/Tunnel Index Interface Labels Contributing  Metric/Type 
+----- -------- -------------------- --------- ------ ------------- ------------
+
+   Metric 2       Pref    Pref 2
+-------------- ---------- ------
+

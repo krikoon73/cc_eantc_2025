@@ -1,0 +1,45 @@
+Tunnel Type: Mpop(mpls pop), Mpush(mpls push), Mswap(mpls swap),
+             MoG(mpls-over-gre), T(IPv4 tunnels GRE/GUE/VXLAN),
+             N(Ipsec tunnel NAT-T [IP,SPORT,DPORT])
+CW  - Control word
+FL  - Flow label
+EL  - Entropy label
+ELI - Entropy label indicator
+D   - ECMP is divergent across switching chips
+ -----------------------------------------------------------------------------------------------
+|                                              FEC Entry                                        |
+ -----------------------------------------------------------------------------------------------
+|     |      |     |                    |     |        |                   |
+| ECMP|  FEC |     |                    |     |        |                   |
+|Index| Index| Cmd |     Destination    | VID | Outlif |   MAC / CPU Code  |    Tunnel Value
+ -----------------------------------------------------------------------------------------------
+|  -  |288360|ROUTE| FEC 528528         |   - |2097138 |                 - |Mpush 20031
+|  -  |288362|ROUTE| FEC 528528         |   - |2097150 |                 - |Mpush 20072
+|  -  |288364|ROUTE| FEC 528528         |   - |2097149 |                 - |Mswap 20084 20084
+|  -  |288366|ROUTE| FEC 528528         |   - |2097148 |                 - |Mpush 20122
+|  -  |288368|ROUTE| FEC 528530         |   - |2097141 |                 - |Mswap 20053 10053
+|  -  |288370|ROUTE| FEC 528530         |   - |2097140 |                 - |Mswap 20216 20216
+|  -  |288372|ROUTE| FEC 528530         |   - |2097139 |                 - |Mswap 20128 20128
+|  -  |288374|ROUTE| FEC 528530         |   - |2097134 |                 - |Mswap 20179 0
+|  -  |288376|ROUTE| FEC 528530         |   - |2097151 |                 - |Mswap 20184 20184
+|  -  |524290|TRAP | CoppSystemIpBcast  |0    |  -     | BcastReceive      |   -   
+|  -  |524291|TRAP | CoppSystemIpUcast  |0    |  -     | Receive           |   -   
+|  -  |524293|TRAP | CoppSystemL3LpmOver|0    |  -     | SlowReceive       |   -   
+|  -  |524295|TRAP | CoppSystemL3DstMiss|0    |  -     | ArpTrap           |   -   
+|  -  |525301|TRAP | CoppSystemL3DstMiss|1006 |1006    | ArpTrap           |   -   
+|  -  |525302|TRAP | CoppSystemL3DstMiss|1007 |1007    | ArpTrap           |   -   
+|  -  |528482|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |528484|ROUTE| Et5                |1007 |107517  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |528486|ROUTE| Et5                |1007 |107517  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |528488|ROUTE| Et1                |1006 |107518  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528490|ROUTE| Et1                |1006 |107518  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528526|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |528528|ROUTE| Et1                |1006 |107518  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528530|ROUTE| Et5                |1007 |107517  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |528534|ROUTE| Et1                |1006 |107518  | c4:ca:2b:45:a2:15 |   -   
+|  -  |528536|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |528538|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |528540|ROUTE| Et5                |1007 |107517  | 3c:08:cd:8d:ba:dc |   -   
+|  -  |528542|DROP | DROP               |0    |  -     |                   |   -   
+|  -  |528544|DROP | DROP               |0    |  -     |                   |   -   
+
